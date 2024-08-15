@@ -1,0 +1,62 @@
+{
+    "1": {
+        "image": "https://www.linkedin.com/favicon.ico",
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs",
+        "description": "LinkedIn is a professional networking site that also offers job listings across a wide range of industries and locations. It's a great platform for networking and job searching."
+    },
+    "2": {
+        "image": "https://www.indeed.com/favicon.ico",
+        "title": "Indeed",
+        "url": "https://www.indeed.com",
+        "description": "Indeed is a major job search engine that aggregates listings from various sources. It's known for its extensive job database and user-friendly interface."
+    },
+    "3": {
+        "image": "https://www.glassdoor.com/favicon.ico",
+        "title": "Glassdoor",
+        "url": "https://www.glassdoor.com/Job/index.htm",
+        "description": "Glassdoor offers job listings along with company reviews, salary information, and interview insights. It's a valuable resource for researching potential employers."
+    },
+    "4": {
+        "image": "https://www.monster.com/favicon.ico",
+        "title": "Monster",
+        "url": "https://www.monster.com",
+        "description": "Monster is one of the oldest job search engines, offering a variety of job listings and career resources. It provides tools for resume building and career advice."
+    },
+    "5": {
+        "image": "https://www.ziprecruiter.com/favicon.ico",
+        "title": "ZipRecruiter",
+        "url": "https://www.ziprecruiter.com",
+        "description": "ZipRecruiter is known for its AI-driven job matching technology. It connects job seekers with employers and offers tools for job application tracking."
+    },
+    "6": {
+        "image": "https://www.careerbuilder.com/favicon.ico",
+        "title": "CareerBuilder",
+        "url": "https://www.careerbuilder.com",
+        "description": "CareerBuilder offers a wide variety of job listings and career advice. It also provides services such as resume building and career coaching."
+    },
+    "7": {
+        "image": "https://www.simplyhired.com/favicon.ico",
+        "title": "SimplyHired",
+        "url": "https://www.simplyhired.com",
+        "description": "SimplyHired is a job search engine that aggregates job listings from across the web, providing a wide range of job opportunities in various industries."
+    },
+    "8": {
+        "image": "https://www.naukri.com/favicon.ico",
+        "title": "Naukri",
+        "url": "https://www.naukri.com",
+        "description": "Naukri is a leading job portal in India, offering a wide range of job listings across various sectors and industries. It is a go-to platform for job seekers in India."
+    },
+    "9": {
+        "image": "https://www.angel.co/favicon.ico",
+        "title": "AngelList",
+        "url": "https://www.angel.co/jobs",
+        "description": "AngelList is a platform that connects job seekers with startups. It's an excellent resource for those looking to work in early-stage companies or entrepreneurial environments."
+    },
+    "10": {
+        "image": "https://www.jora.com/favicon.ico",
+        "title": "Jora",
+        "url": "https://www.jora.com",
+        "description": "Jora is a job search engine that offers job listings across various industries and locations worldwide. It aggregates listings from numerous sources, providing a comprehensive job search experience."
+    }
+}

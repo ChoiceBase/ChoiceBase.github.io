@@ -1,0 +1,16 @@
+<!-- dev.html -->
+<div id="loading" class="loading">Loading....</div>
+<div id="card-container" class="card-container"></div>
+<div id="pagination" class="pagination"></div>
+<div id="data-file" data-file-names='["json/freegpt.json"]'></div>
+
+<script>
+    // Ensure initializeCards is called when this content is loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        if (typeof window.initializeCards === 'function') {
+            window.initializeCards(); // Call the function if it is defined
+        } else {
+            console.error('initializeCards function is not available.');
+        }
+    });
+</script>

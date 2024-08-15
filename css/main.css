@@ -1,0 +1,73 @@
+/* General styles for the navigation */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hamburger menu icon */
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Add transition effect */
+.nav-links {
+    transition: all 0.3s ease-in-out;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        display: none; /* Hide the menu by default */
+        background-color: #333;
+        width: 100%;
+    }
+
+    .nav-links.show {
+        display: flex; /* Show the menu when activated */
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: block; /* Show the hamburger icon on smaller screens */
+    }
+}

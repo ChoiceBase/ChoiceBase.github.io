@@ -1,0 +1,62 @@
+{
+    "1": {
+        "image": "https://chat.openai.com/favicon.ico",
+        "title": "ChatGPT",
+        "url": "https://chat.openai.com",
+        "description": "ChatGPT is an AI-powered chatbot developed by OpenAI. It can generate human-like text based on the prompts given, and it's used for a variety of tasks including answering questions, writing, and brainstorming."
+    },
+    "2": {
+        "image": "https://bard.google.com/favicon.ico",
+        "title": "Google Bard",
+        "url": "https://bard.google.com",
+        "description": "Google Bard is an AI chatbot by Google that leverages its extensive knowledge base to answer questions, generate content, and assist with a wide range of tasks."
+    },
+    "3": {
+        "image": "https://www.perplexity.ai/favicon.ico",
+        "title": "Perplexity AI",
+        "url": "https://www.perplexity.ai",
+        "description": "Perplexity AI is an AI-powered search engine and chatbot that provides detailed answers and explanations. It's designed to help users find information quickly and efficiently."
+    },
+    "4": {
+        "image": "https://www.jasper.ai/favicon.ico",
+        "title": "Jasper AI",
+        "url": "https://www.jasper.ai",
+        "description": "Jasper AI is an AI writing assistant that helps users create content, from blog posts to marketing copy. It's known for its ability to generate high-quality text with minimal input."
+    },
+    "5": {
+        "image": "https://chatgpt.pandora.vip/favicon.ico",
+        "title": "Poe by Quora",
+        "url": "https://chatgpt.pandora.vip",
+        "description": "Poe by Quora is a chatbot that allows users to interact with various AI models, including GPT-3, to answer questions, generate content, and explore different topics."
+    },
+    "6": {
+        "image": "https://www.character.ai/favicon.ico",
+        "title": "Character AI",
+        "url": "https://www.character.ai",
+        "description": "Character AI lets users create and interact with AI-driven characters. It’s designed for entertainment and educational purposes, allowing for creative and interactive experiences."
+    },
+    "7": {
+        "image": "https://www.novelai.net/favicon.ico",
+        "title": "NovelAI",
+        "url": "https://www.novelai.net",
+        "description": "NovelAI is an AI storytelling tool that helps users generate creative writing content. It’s popular among writers for generating fiction and exploring creative ideas."
+    },
+    "8": {
+        "image": "https://www.rytr.me/favicon.ico",
+        "title": "Rytr",
+        "url": "https://www.rytr.me",
+        "description": "Rytr is an AI writing assistant that helps users generate content quickly. It’s designed for copywriting, blogging, and other writing tasks, with a focus on ease of use and efficiency."
+    },
+    "9": {
+        "image": "https://www.copysmith.ai/favicon.ico",
+        "title": "Copysmith",
+        "url": "https://www.copysmith.ai",
+        "description": "Copysmith is an AI-powered tool that generates marketing copy, product descriptions, and other types of content. It's designed to help businesses and marketers create content efficiently."
+    },
+    "10": {
+        "image": "https://www.writesonic.com/favicon.ico",
+        "title": "Writesonic",
+        "url": "https://www.writesonic.com",
+        "description": "Writesonic is an AI writer that helps generate articles, ads, and product descriptions. It’s known for its versatility and ability to create high-quality content across different formats."
+    }
+}
