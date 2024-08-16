@@ -7,25 +7,25 @@
         "description": "ChatGPT is an AI-powered chatbot developed by OpenAI. It can generate human-like text based on the prompts given, and it's used for a variety of tasks including answering questions, writing, and brainstorming."
     },
     "2": {
-        "image": "https://bard.google.com/favicon.ico",
+        "image": "https://www.google.com/favicon.ico",
         "title": "Google Bard",
-        "tags": ["free", "text", "chatbot", "writing", "research", "general"],
-        "url": "https://bard.google.com",
-        "description": "Google Bard is an AI chatbot by Google that leverages its extensive knowledge base to answer questions, generate content, and assist with a wide range of tasks."
+        "tags": ["free", "text", "chatbot", "search engine"],
+        "url": "https://www.google.com",
+        "description": "Google Bard is an AI-powered conversational agent developed by Google to assist with various queries and provide information through natural language processing."
     },
     "3": {
-        "image": "https://www.perplexity.ai/favicon.ico",
-        "title": "Perplexity AI",
-        "tags": ["free", "text", "search", "chatbot", "information", "Q&A"],
-        "url": "https://www.perplexity.ai",
-        "description": "Perplexity AI is an AI-powered search engine and chatbot that provides detailed answers and explanations. It's designed to help users find information quickly and efficiently."
+        "image": "https://www.bing.com/favicon.ico",
+        "title": "Bing AI",
+        "tags": ["free", "text", "search engine", "programming"],
+        "url": "https://www.bing.com",
+        "description": "Bing AI powers Microsoft's search engine with advanced natural language processing to enhance search results and user interactions."
     },
     "4": {
-        "image": "https://www.jasper.ai/favicon.ico",
-        "title": "Jasper AI",
-        "tags": ["paid", "text", "writing", "content creation", "marketing"],
-        "url": "https://www.jasper.ai",
-        "description": "Jasper AI is an AI writing assistant that helps users create content, from blog posts to marketing copy. It's known for its ability to generate high-quality text with minimal input."
+        "image": "https://copilot.microsoft.com/favicon.ico",
+        "title": "Microsoft Copilot",
+        "tags": ["free", "text", "search engine", "programming"],
+        "url": "https://copilot.microsoft.com/",
+        "description": "Bing AI powers Microsoft's search engine with advanced natural language processing to enhance search results and user interactions."
     },
     "5": {
         "image": "https://chatgpt.pandora.vip/favicon.ico",
@@ -697,8 +697,42 @@
         "tags": ["paid", "text", "AI writing", "content creation", "programming"],
         "url": "https://www.aiwriter.io",
         "description": "AI Writer provides AI-powered tools for content creation and writing, assisting users in generating high-quality material with advanced AI capabilities."
+    },
+    "101": {
+        "image": "https://www.IBM.com/favicon.ico",
+        "title": "IBM Watson",
+        "tags": ["paid", "text", "AI chatbot", "programming", "business"],
+        "url": "https://www.ibm.com/watson",
+        "description": "IBM Watson offers a suite of AI tools for business, including chatbots, data analysis, and natural language processing to enhance various business applications."
+    },
+    "102": {
+        "image": "https://www.microsoft.com/favicon.ico",
+        "title": "Microsoft Azure AI",
+        "tags": ["paid", "text", "AI chatbot", "programming", "business"],
+        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/",
+        "description": "Microsoft Azure AI provides a range of AI services, including chatbots, machine learning, and natural language processing, to help businesses develop intelligent solutions."
+    },
+    "103": {
+        "image": "https://www.cleverbot.com/favicon.ico",
+        "title": "Cleverbot",
+        "tags": ["free", "text", "chatbot", "lifestyle"],
+        "url": "https://www.cleverbot.com",
+        "description": "Cleverbot is an AI chatbot that engages users in conversations, learning from interactions to provide more human-like responses over time."
+    },
+    "104": {
+        "image": "https://www.perplexity.ai/favicon.ico",
+        "title": "Perplexity AI",
+        "tags": ["free", "text", "search", "chatbot", "information", "Q&A"],
+        "url": "https://www.perplexity.ai",
+        "description": "Perplexity AI is an AI-powered search engine and chatbot that provides detailed answers and explanations. It's designed to help users find information quickly and efficiently."
+    },
+    "105": {
+        "image": "https://www.jasper.ai/favicon.ico",
+        "title": "Jasper AI",
+        "tags": ["paid", "text", "writing", "content creation", "marketing"],
+        "url": "https://www.jasper.ai",
+        "description": "Jasper AI is an AI writing assistant that helps users create content, from blog posts to marketing copy. It's known for its ability to generate high-quality text with minimal input."
     }
-    
 
 
 
