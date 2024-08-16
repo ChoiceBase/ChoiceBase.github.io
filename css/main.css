@@ -11,6 +11,7 @@ nav {
     padding: 0;
     display: flex;
     flex-direction: row;
+    height: 0px;
 }
 
 .nav-links li {
@@ -25,6 +26,7 @@ nav {
 
 /* Hamburger menu icon */
 .menu-icon {
+    height: 0px;
     display: none;
     font-size: 24px;
     cursor: pointer;
@@ -49,15 +51,16 @@ footer {
 
 /* Style for search box */
 #search-container {
-    margin: 20px;
-    text-align: right;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #search-box {
     padding: 10px;
     font-size: 16px;
     width: 100%;
-    max-width: 600px;
+    max-width: 300px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }

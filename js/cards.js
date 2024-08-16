@@ -1,7 +1,7 @@
 let currentPage = 1;
 const cardsPerPage = 10;
 let allCards = []; // This will store all card data
-let filteredCards = []; // This will store filtered cards based on tag selection
+let filteredCards = []; // This will store filtered cards based on search query or tag selection
 
 function createCard(cardData) {
     const card = document.createElement('div');
@@ -170,7 +170,7 @@ function displayAllTags() {
         tagElement.textContent = tag;
         tagElement.addEventListener('click', () => {
             const isSelected = tagElement.classList.toggle('selected');
-            filterCardsByTag(tag);
+            filterCardsByTag(tag, isSelected);
         });
         tagsContainer.appendChild(tagElement);
     });
@@ -185,6 +185,24 @@ function filterCardsByTag(tag, isSelected) {
     currentPage = 1; // Reset to first page on tag selection
     displayCards(filteredCards);
 }
+
+function searchCards(query) {
+    const lowerCaseQuery = query.toLowerCase();
+    filteredCards = allCards.filter(card => {
+        return (
+            card.title.toLowerCase().includes(lowerCaseQuery) ||
+            card.description.toLowerCase().includes(lowerCaseQuery) ||
+            (card.tags && card.tags.some(tag => tag.toLowerCase().includes(lowerCaseQuery)))
+        );
+    });
+    currentPage = 1; // Reset to first page on search
+    displayCards(filteredCards);
+}
+
+// Attach event listener to the search box
+document.getElementById('search-box').addEventListener('input', (e) => {
+    searchCards(e.target.value);
+});
 
 function initializeCards() {
     const contentElement = document.getElementById('content');
@@ -202,6 +220,8 @@ function initializeCards() {
         console.error('Element with ID "content" not found.');
     }
 }
+
+
 
 document.addEventListener('DOMContentLoaded', function() {
     initializeCards();
