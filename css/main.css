@@ -47,7 +47,20 @@ footer {
 }
 
 
+/* Style for search box */
+#search-container {
+    margin: 20px;
+    text-align: right;
+}
 
+#search-box {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
 
 
 /* Mobile view */

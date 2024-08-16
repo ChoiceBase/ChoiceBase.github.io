@@ -1,6 +1,7 @@
 let currentPage = 1;
 const cardsPerPage = 10;
 let allCards = []; // This will store all card data
+let filteredCards = []; // This will store filtered cards based on tag selection
 
 function createCard(cardData) {
     const card = document.createElement('div');
@@ -24,40 +25,45 @@ function createCard(cardData) {
     titleLink.appendChild(title);
     card.appendChild(titleLink);
 
-    // const cardLink  = document.createElement('a');
-    // cardLink .href = cardData.url || '#';
-    // cardLink .target = '_blank'; 
-    // cardLink .className = 'card-link';
-
     const description = document.createElement('p');
     description.className = 'description';
     description.textContent = cardData.description;
-    // cardLink.appendChild(description);
     card.appendChild(description);
 
-    // Add an event listener for the entire card click (except the title link)
+    function loadCardDetails(cardData) {
+        // Load the card details page
+        loadPage('html/card_info.html').then(() => {
+            const contentDiv = document.getElementById('content');
+            const cardHeader = contentDiv.querySelector('#card-header');
+            const cardTable = contentDiv.querySelector('#card-table');
+    
+            // Insert the card header (image, title, and URL)
+            if (cardHeader) {
+                cardHeader.innerHTML = `
+                    <img src="${cardData.image}" alt="${cardData.title} Logo" style="height: 50px;">
+                    <h2>${cardData.title}</h2>
+                    <a href="${cardData.url}" target="_blank">${cardData.url}</a>
+                `;
+            }
+    
+            // Insert the JSON key-value pairs into the table
+            if (cardTable) {
+                cardTable.innerHTML = Object.keys(cardData).map(key => `
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">${key}</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">${cardData[key]}</td>
+                    </tr>
+                `).join('');
+            }
+        }).catch(error => console.error('Error loading card details:', error));
+    }
+    
+    // Add event listener for entire card click (except title link)
     card.addEventListener('click', function (e) {
         if (!e.target.closest('.card-title-link')) {
-            const cardDetailsWindow = window.open("", "_blank");
-            cardDetailsWindow.document.write(`
-                <html>
-                <head>
-                    <title>${cardData.title}</title>
-                    <link rel="stylesheet" href="css/cards.css">
-                </head>
-                <body>
-                    <div class="card-details">
-                        <h2>${cardData.title}</h2>
-                        <img src="${cardData.image}" alt="${cardData.title} Logo" class="card-logo">
-                        <p>${cardData.description}</p>
-                        <!-- Add any other details from cardData here -->
-                    </div>
-                </body>
-                </html>
-            `);
-            cardDetailsWindow.document.close();
+            loadCardDetails(cardData);
         }
-    })
+    });
 
     return card;
 }
@@ -84,38 +90,35 @@ function setupPagination(totalCards) {
 
     const totalPages = Math.ceil(totalCards / cardsPerPage);
 
-    // Create Previous button
     const prevButton = document.createElement('button');
     prevButton.textContent = 'Previous';
     prevButton.disabled = currentPage === 1;
     prevButton.addEventListener('click', () => {
         if (currentPage > 1) {
             currentPage--;
-            displayCards(allCards);
+            displayCards(filteredCards.length > 0 ? filteredCards : allCards);
         }
     });
     paginationContainer.appendChild(prevButton);
 
-    // Create page buttons
     for (let i = 1; i <= totalPages; i++) {
         const pageButton = document.createElement('button');
         pageButton.textContent = i;
         pageButton.className = (i === currentPage) ? 'active' : '';
         pageButton.addEventListener('click', () => {
             currentPage = i;
-            displayCards(allCards);
+            displayCards(filteredCards.length > 0 ? filteredCards : allCards);
         });
         paginationContainer.appendChild(pageButton);
     }
 
-    // Create Next button
     const nextButton = document.createElement('button');
     nextButton.textContent = 'Next';
     nextButton.disabled = currentPage === totalPages;
     nextButton.addEventListener('click', () => {
         if (currentPage < totalPages) {
             currentPage++;
-            displayCards(allCards);
+            displayCards(filteredCards.length > 0 ? filteredCards : allCards);
         }
     });
     paginationContainer.appendChild(nextButton);
@@ -143,10 +146,44 @@ function loadCards(fileNames) {
 
     Promise.all(loadPromises)
         .then(() => {
+            displayAllTags();
             currentPage = 1; // Reset to first page on new load
             displayCards(allCards);
         })
         .catch(error => console.error('Error processing loaded data:', error));
+}
+
+function displayAllTags() {
+    const tags = new Set();
+    allCards.forEach(card => {
+        if (card.tags) {
+            card.tags.forEach(tag => tags.add(tag));
+        }
+    });
+
+    const tagsContainer = document.getElementById('tags-container');
+    tagsContainer.innerHTML = ''; // Clear existing tags
+
+    tags.forEach(tag => {
+        const tagElement = document.createElement('span');
+        tagElement.className = 'tag';
+        tagElement.textContent = tag;
+        tagElement.addEventListener('click', () => {
+            const isSelected = tagElement.classList.toggle('selected');
+            filterCardsByTag(tag);
+        });
+        tagsContainer.appendChild(tagElement);
+    });
+}
+
+function filterCardsByTag(tag, isSelected) {
+    if (isSelected) {
+        filteredCards = allCards.filter(card => card.tags && card.tags.includes(tag));
+    } else {
+        filteredCards = allCards;
+    }
+    currentPage = 1; // Reset to first page on tag selection
+    displayCards(filteredCards);
 }
 
 function initializeCards() {
@@ -157,7 +194,6 @@ function initializeCards() {
             const fileNames = JSON.parse(dataFileElement.dataset.fileNames || '[]');
             if (fileNames && Array.isArray(fileNames)) {
                 loadCards(fileNames);
-                console.log(fileNames);
             } else {
                 console.error('Invalid or missing data-file-names attribute.');
             }
@@ -167,14 +203,6 @@ function initializeCards() {
     }
 }
 
-// Attach initializeCards to the window object
-// window.initializeCards = initializeCards;
-
-// Ensure initializeCards is available and called on DOMContentLoaded
 document.addEventListener('DOMContentLoaded', function() {
-    if (typeof initializeCards === 'function') {
-        initializeCards();
-    } else {
-        console.error('initializeCards function is not available.');
-    }
+    initializeCards();
 });

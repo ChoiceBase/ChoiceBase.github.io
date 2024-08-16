@@ -31,8 +31,14 @@ loadHTML('footer.html', 'footer');
 // }
 
 function loadPage(page) {
-    fetch(page)
-        .then(response => response.text())
+    console.log(page);
+    return fetch(page) // Ensure this fetch call returns the promise
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to load ${page}: ${response.statusText}`);
+            }
+            return response.text();
+        })
         .then(data => {
             document.getElementById('content').innerHTML = data;
             // After loading content, call initializeCards if it exists
