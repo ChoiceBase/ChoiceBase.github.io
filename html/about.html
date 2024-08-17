@@ -1,8 +1,19 @@
-<section>
-    <main>
-        <h1>About the Developer</h1>
-        <p>RVAKR</p>
-        <h1>Contact Information</h1>
-        <p>Email: contactmian.br@gmail.com</p>
-    </main>
+
+
+
+<section id = "contentSection" class="aboutUs">
+    <h1>Contributors</h1>
+<div class="contributors" id="contributors"></div>
+
+<script>
+    // Ensure loadContributors is called when this content is loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        if (typeof window.loadContributors === 'function') {
+            window.loadContributors(); // Call the function if it is defined
+        } else {
+            console.error('loadContributors function is not available.');
+        }
+    });
+</script>
+
 </section>

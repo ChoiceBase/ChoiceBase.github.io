@@ -1,0 +1,481 @@
+{
+    "1": {
+        "image": "https://www.python.org/favicon.ico",
+        "title": "Python",
+        "tags": ["general-purpose", "easy-to-learn", "web development", "data science", "automation"],
+        "url": "https://www.python.org",
+        "description": "Python is a high-level, interpreted language known for its readability and versatility. It's widely used in web development, data science, automation, and more."
+    },
+    "2": {
+        "image": "https://www.java.com/favicon.ico",
+        "title": "Java",
+        "tags": ["general-purpose", "object-oriented", "web development", "enterprise", "Android"],
+        "url": "https://www.java.com",
+        "description": "Java is a versatile, object-oriented programming language used for building cross-platform applications, web services, and Android apps."
+    },
+    "3": {
+        "image": "https://www.javascript.com/favicon.ico",
+        "title": "JavaScript",
+        "tags": ["web development", "front-end", "dynamic", "frameworks", "client-side"],
+        "url": "https://www.javascript.com",
+        "description": "JavaScript is a high-level, dynamic language used primarily for creating interactive and dynamic web pages, with numerous frameworks and libraries available."
+    },
+    "4": {
+        "image": "https://www.php.net/favicon.ico",
+        "title": "PHP",
+        "tags": ["server-side", "web development", "dynamic", "CMS", "database"],
+        "url": "https://www.php.net",
+        "description": "PHP is a server-side scripting language designed for web development, used to create dynamic web pages and interact with databases."
+    },
+    "5": {
+        "image": "https://www.ruby-lang.org/favicon.ico",
+        "title": "Ruby",
+        "tags": ["web development", "object-oriented", "dynamic", "Rails", "scripting"],
+        "url": "https://www.ruby-lang.org",
+        "description": "Ruby is an object-oriented language known for its simplicity and productivity, often used with the Ruby on Rails framework for web development."
+    },
+    "6": {
+        "image": "https://golang.org/favicon.ico",
+        "title": "Go",
+        "tags": ["general-purpose", "concurrency", "performance", "system programming", "cloud"],
+        "url": "https://golang.org",
+        "description": "Go, also known as Golang, is a statically typed language designed for concurrency, performance, and scalability, often used in cloud and system programming."
+    },
+    "7": {
+        "image": "https://www.typescriptlang.org/favicon.ico",
+        "title": "TypeScript",
+        "tags": ["web development", "static typing", "JavaScript", "front-end", "frameworks"],
+        "url": "https://www.typescriptlang.org",
+        "description": "TypeScript is a superset of JavaScript that adds static typing and modern features to the language, enhancing code quality and maintainability."
+    },
+    "8": {
+        "image": "https://www.swift.org/favicon.ico",
+        "title": "Swift",
+        "tags": ["iOS", "macOS", "object-oriented", "performance", "modern"],
+        "url": "https://www.swift.org",
+        "description": "Swift is a powerful and intuitive language for iOS and macOS app development, known for its performance and modern features."
+    },
+    "9": {
+        "image": "https://www.cplusplus.com/favicon.ico",
+        "title": "C++",
+        "tags": ["general-purpose", "object-oriented", "system programming", "performance", "games"],
+        "url": "https://www.cplusplus.com",
+        "description": "C++ is a versatile language known for its performance and control, widely used in system programming, game development, and high-performance applications."
+    },
+    "10": {
+        "image": "https://www.r-project.org/favicon.ico",
+        "title": "R",
+        "tags": ["data analysis", "statistics", "data science", "visualization", "academic"],
+        "url": "https://www.r-project.org",
+        "description": "R is a language and environment for statistical computing and graphics, widely used in data analysis, statistical modeling, and data visualization."
+    },
+    "11": {
+        "image": "https://www.scala-lang.org/favicon.ico",
+        "title": "Scala",
+        "tags": ["functional", "object-oriented", "JVM", "concurrent", "data processing"],
+        "url": "https://www.scala-lang.org",
+        "description": "Scala is a hybrid functional and object-oriented language running on the JVM, known for its concise syntax and powerful features for concurrent and parallel programming."
+    },
+    "12": {
+        "image": "https://www.perl.org/favicon.ico",
+        "title": "Perl",
+        "tags": ["scripting", "text processing", "system administration", "web development", "legacy"],
+        "url": "https://www.perl.org",
+        "description": "Perl is a high-level language known for its text processing capabilities, often used in system administration, web development, and legacy systems."
+    },
+    "13": {
+        "image": "https://www.haskell.org/favicon.ico",
+        "title": "Haskell",
+        "tags": ["functional", "pure", "academic", "concurrent", "lazy evaluation"],
+        "url": "https://www.haskell.org",
+        "description": "Haskell is a purely functional language known for its strong type system and lazy evaluation, often used in academic and research settings."
+    },
+    "14": {
+        "image": "https://www.dart.dev/favicon.ico",
+        "title": "Dart",
+        "tags": ["web development", "mobile apps", "Flutter", "front-end", "performance"],
+        "url": "https://www.dart.dev",
+        "description": "Dart is a language optimized for building mobile, web, and server applications, often used with the Flutter framework for cross-platform development."
+    },
+    "15": {
+        "image": "https://www.kotlins.org/favicon.ico",
+        "title": "Kotlin",
+        "tags": ["JVM", "Android", "modern", "concise", "functional"],
+        "url": "https://kotlinlang.org",
+        "description": "Kotlin is a modern language running on the JVM, known for its concise syntax and interoperability with Java, widely used in Android development."
+    },
+    "16": {
+        "image": "https://www.lispworks.com/favicon.ico",
+        "title": "Lisp",
+        "tags": ["functional", "macro", "AI", "symbolic", "legacy"],
+        "url": "https://www.lispworks.com",
+        "description": "Lisp is a family of functional programming languages known for its unique syntax and powerful macro system, historically used in artificial intelligence research."
+    },
+    "17": {
+        "image": "https://www.rust-lang.org/favicon.ico",
+        "title": "Rust",
+        "tags": ["system programming", "memory safety", "concurrency", "performance", "modern"],
+        "url": "https://www.rust-lang.org",
+        "description": "Rust is a systems programming language focused on safety and performance, offering memory safety without a garbage collector and strong concurrency features."
+    },
+    "18": {
+        "image": "https://www.elixir-lang.org/favicon.ico",
+        "title": "Elixir",
+        "tags": ["functional", "concurrent", "distributed", "Erlang VM", "web development"],
+        "url": "https://elixir-lang.org",
+        "description": "Elixir is a functional language built on the Erlang VM, known for its concurrency and fault-tolerant features, often used in web development and distributed systems."
+    },
+    "19": {
+        "image": "https://www.ada.org/favicon.ico",
+        "title": "Ada",
+        "tags": ["system programming", "safety", "real-time", "embedded", "legacy"],
+        "url": "https://www.adaic.org",
+        "description": "Ada is a high-level language designed for system programming, known for its strong typing and support for real-time and embedded systems."
+    },
+    "20": {
+        "image": "https://www.smlnj.org/favicon.ico",
+        "title": "Standard ML",
+        "tags": ["functional", "type-safe", "academic", "theorem proving", "modular"],
+        "url": "https://www.smlnj.org",
+        "description": "Standard ML is a functional programming language known for its type safety and use in academic research, theorem proving, and modular programming."
+    },
+    "21": {
+        "image": "https://www.pleac.org/favicon.ico",
+        "title": "PL/I",
+        "tags": ["general-purpose", "data processing", "legacy", "system programming", "business applications"],
+        "url": "https://www.pleac.org",
+        "description": "PL/I is a language designed for data processing and system programming, used in business applications and legacy systems."
+    },
+    "22": {
+        "image": "https://www.qsharp.microsoft.com/favicon.ico",
+        "title": "Q#",
+        "tags": ["quantum computing", "specialized", "academic", "Microsoft", "research"],
+        "url": "https://www.microsoft.com/en-us/quantum/development-kit",
+        "description": "Q# is a language developed by Microsoft for quantum computing, used in research and development for quantum algorithms and applications."
+    },
+    "23": {
+        "image": "https://www.fsharp.org/favicon.ico",
+        "title": "F#",
+        "tags": ["functional", "object-oriented", "JVM", "data processing", "Microsoft"],
+        "url": "https://fsharp.org",
+        "description": "F# is a functional-first language on the .NET platform, combining functional and object-oriented programming for data processing and enterprise applications."
+    },
+    "24": {
+        "image": "https://www.pascal.com/favicon.ico",
+        "title": "Pascal",
+        "tags": ["procedural", "legacy", "academic", "system programming", "teaching"],
+        "url": "https://www.pascal.com",
+        "description": "Pascal is a procedural programming language widely used in education and academic settings, with a focus on teaching programming concepts and system programming."
+    },
+    "25": {
+        "image": "https://www.adaic.org/favicon.ico",
+        "title": "Ada",
+        "tags": ["system programming", "real-time", "safety", "embedded", "legacy"],
+        "url": "https://www.adaic.org",
+        "description": "Ada is a high-level language designed for system programming, known for its support for real-time systems and embedded applications, emphasizing safety and reliability."
+    },
+    "26": {
+        "image": "https://www.bash.org/favicon.ico",
+        "title": "Bash",
+        "tags": ["scripting", "shell", "automation", "Linux", "Unix"],
+        "url": "https://www.gnu.org/software/bash/",
+        "description": "Bash is a Unix shell and command language used for scripting and automation in Linux and Unix systems, known for its powerful text-processing capabilities."
+    },
+    "27": {
+        "image": "https://www.tcl-lang.org/favicon.ico",
+        "title": "Tcl",
+        "tags": ["scripting", "automation", "embedded", "GUI", "general-purpose"],
+        "url": "https://www.tcl-lang.org",
+        "description": "Tcl is a scripting language designed for embedded applications, GUI development, and general-purpose scripting, known for its simplicity and extensibility."
+    },
+    "28": {
+        "image": "https://www.dylan-lang.org/favicon.ico",
+        "title": "Dylan",
+        "tags": ["functional", "object-oriented", "academic", "general-purpose", "dynamic"],
+        "url": "https://www.dylan-lang.org",
+        "description": "Dylan is a multi-paradigm programming language combining functional and object-oriented programming, used in academic research and general-purpose applications."
+    },
+    "29": {
+        "image": "https://www.m4.org/favicon.ico",
+        "title": "M4",
+        "tags": ["macro", "preprocessor", "text processing", "automation", "legacy"],
+        "url": "https://www.m4.org",
+        "description": "M4 is a macro processing language used as a preprocessor for other languages, focusing on text processing and automation tasks."
+    },
+    "30": {
+        "image": "https://www.forth.com/favicon.ico",
+        "title": "Forth",
+        "tags": ["stack-based", "embedded", "system programming", "concise", "legacy"],
+        "url": "https://www.forth.com",
+        "description": "Forth is a stack-based language used in embedded systems and system programming, known for its concise syntax and efficient execution."
+    },
+    "31": {
+        "image": "https://www.cobol.org/favicon.ico",
+        "title": "COBOL",
+        "tags": ["business", "legacy", "data processing", "procedural", "enterprise"],
+        "url": "https://www.cobol.org",
+        "description": "COBOL is a language designed for business, data processing, and administrative applications, widely used in legacy enterprise systems."
+    },
+    "32": {
+        "image": "https://www.dylan-lang.org/favicon.ico",
+        "title": "Dylan",
+        "tags": ["functional", "object-oriented", "academic", "general-purpose", "dynamic"],
+        "url": "https://www.dylan-lang.org",
+        "description": "Dylan is a multi-paradigm programming language combining functional and object-oriented programming, used in academic research and general-purpose applications."
+    },
+    "33": {
+        "image": "https://www.racket-lang.org/favicon.ico",
+        "title": "Racket",
+        "tags": ["functional", "Lisp", "academic", "general-purpose", "macro"],
+        "url": "https://www.racket-lang.org",
+        "description": "Racket is a descendant of Scheme, known for its powerful macro system and use in academic settings for teaching programming and language design."
+    },
+    "34": {
+        "image": "https://www.rebol.com/favicon.ico",
+        "title": "Rebol",
+        "tags": ["scripting", "data exchange", "domain-specific", "general-purpose", "embedded"],
+        "url": "https://www.rebol.com",
+        "description": "Rebol is a lightweight language designed for data exchange, domain-specific applications, and scripting, with a focus on simplicity and embedded use."
+    },
+    "35": {
+        "image": "https://www.chaos-lang.org/favicon.ico",
+        "title": "CHAOS",
+        "tags": ["academic", "research", "functional", "experimental", "domain-specific"],
+        "url": "https://www.chaos-lang.org",
+        "description": "CHAOS is a research-focused language designed for experimenting with new programming paradigms and functional programming concepts."
+    },
+    "36": {
+        "image": "https://www.actionscript.org/favicon.ico",
+        "title": "ActionScript",
+        "tags": ["web development", "Adobe Flash", "client-side", "interactive", "legacy"],
+        "url": "https://www.adobe.com/products/flashplayer",
+        "description": "ActionScript is a language used primarily for Adobe Flash applications, focusing on interactive web content and client-side programming."
+    },
+    "37": {
+        "image": "https://www.vhdl.org/favicon.ico",
+        "title": "VHDL",
+        "tags": ["hardware description", "HDL", "electrical engineering", "simulation", "design"],
+        "url": "https://www.vhdl.org",
+        "description": "VHDL is a hardware description language used for designing and simulating digital systems, focusing on electrical engineering and hardware design."
+    },
+    "38": {
+        "image": "https://www.verilog.com/favicon.ico",
+        "title": "Verilog",
+        "tags": ["hardware description", "HDL", "electrical engineering", "simulation", "design"],
+        "url": "https://www.verilog.com",
+        "description": "Verilog is a hardware description language used for modeling and simulating digital systems, focusing on hardware design and electrical engineering."
+    },
+    "39": {
+        "image": "https://www.apex-lang.org/favicon.ico",
+        "title": "Apex",
+        "tags": ["enterprise", "cloud computing", "Salesforce", "Java-like", "business applications"],
+        "url": "https://www.salesforce.com",
+        "description": "Apex is a language developed by Salesforce for building enterprise applications on the Salesforce platform, with syntax similar to Java."
+    },
+    "40": {
+        "image": "https://www.dylan-lang.org/favicon.ico",
+        "title": "Dylan",
+        "tags": ["functional", "object-oriented", "academic", "general-purpose", "dynamic"],
+        "url": "https://www.dylan-lang.org",
+        "description": "Dylan is a multi-paradigm programming language combining functional and object-oriented programming, used in academic research and general-purpose applications."
+    },
+    "41": {
+        "image": "https://www.maxima.sourceforge.net/favicon.ico",
+        "title": "Maxima",
+        "tags": ["symbolic", "mathematics", "computer algebra", "research", "education"],
+        "url": "https://www.maxima.sourceforge.net",
+        "description": "Maxima is a computer algebra system used for symbolic mathematics, with applications in research, education, and computational mathematics."
+    },
+    "42": {
+        "image": "https://www.pike.org/favicon.ico",
+        "title": "Pike",
+        "tags": ["scripting", "general-purpose", "web development", "embedded", "performance"],
+        "url": "https://www.pike.org",
+        "description": "Pike is a scripting language designed for web development and embedded applications, known for its performance and general-purpose capabilities."
+    },
+    "43": {
+        "image": "https://www.ocaml.org/favicon.ico",
+        "title": "OCaml",
+        "tags": ["functional", "type-safe", "academic", "general-purpose", "research"],
+        "url": "https://www.ocaml.org",
+        "description": "OCaml is a functional programming language with strong type safety, used in academia, research, and general-purpose applications."
+    },
+    "44": {
+        "image": "https://www.rpgiv.com/favicon.ico",
+        "title": "RPG",
+        "tags": ["business", "legacy", "data processing", "IBM iSeries", "enterprise"],
+        "url": "https://www.rpgiv.com",
+        "description": "RPG (Report Program Generator) is a business programming language used primarily for data processing on IBM iSeries systems."
+    },
+    "45": {
+        "image": "https://www.pike.org/favicon.ico",
+        "title": "Pike",
+        "tags": ["scripting", "general-purpose", "web development", "embedded", "performance"],
+        "url": "https://www.pike.org",
+        "description": "Pike is a scripting language designed for web development and embedded applications, known for its performance and general-purpose capabilities."
+    },
+    "46": {
+        "image": "https://www.bourne.com/favicon.ico",
+        "title": "Bourne",
+        "tags": ["scripting", "shell", "Unix", "automation", "legacy"],
+        "url": "https://www.bourne.com",
+        "description": "Bourne is a Unix shell and command language used for scripting and automation tasks, known for its simplicity and foundational role in shell scripting."
+    },
+    "47": {
+        "image": "https://www.dylan-lang.org/favicon.ico",
+        "title": "Dylan",
+        "tags": ["functional", "object-oriented", "academic", "general-purpose", "dynamic"],
+        "url": "https://www.dylan-lang.org",
+        "description": "Dylan is a multi-paradigm programming language combining functional and object-oriented programming, used in academic research and general-purpose applications."
+    },
+    "48": {
+        "image": "https://www.bourne.com/favicon.ico",
+        "title": "Bourne",
+        "tags": ["scripting", "shell", "Unix", "automation", "legacy"],
+        "url": "https://www.bourne.com",
+        "description": "Bourne is a Unix shell and command language used for scripting and automation tasks, known for its simplicity and foundational role in shell scripting."
+    },
+    "49": {
+        "image": "https://www.rexx.org/favicon.ico",
+        "title": "REXX",
+        "tags": ["scripting", "automation", "legacy", "text processing", "IBM"],
+        "url": "https://www.rexx.org",
+        "description": "REXX is a scripting language used for text processing and automation, known for its simplicity and use in IBM systems."
+    },
+    "50": {
+        "image": "https://www.rexx.org/favicon.ico",
+        "title": "REXX",
+        "tags": ["scripting", "automation", "legacy", "text processing", "IBM"],
+        "url": "https://www.rexx.org",
+        "description": "REXX is a scripting language used for text processing and automation, known for its simplicity and use in IBM systems."
+    },
+    "51": {
+        "image": "https://www.apex-lang.org/favicon.ico",
+        "title": "Apex",
+        "tags": ["enterprise", "cloud computing", "Salesforce", "Java-like", "business applications"],
+        "url": "https://www.salesforce.com",
+        "description": "Apex is a language developed by Salesforce for building enterprise applications on the Salesforce platform, with syntax similar to Java."
+    },
+    "52": {
+        "image": "https://www.pike.org/favicon.ico",
+        "title": "Pike",
+        "tags": ["scripting", "general-purpose", "web development", "embedded", "performance"],
+        "url": "https://www.pike.org",
+        "description": "Pike is a scripting language designed for web development and embedded applications, known for its performance and general-purpose capabilities."
+    },
+    "53": {
+        "image": "https://www.elixir-lang.org/favicon.ico",
+        "title": "Elixir",
+        "tags": ["functional", "concurrent", "distributed", "Erlang VM", "web development"],
+        "url": "https://elixir-lang.org",
+        "description": "Elixir is a functional language built on the Erlang VM, known for its concurrency and fault-tolerant features, often used in web development and distributed systems."
+    },
+    "54": {
+        "image": "https://www.swift.org/favicon.ico",
+        "title": "Swift",
+        "tags": ["iOS", "macOS", "object-oriented", "performance", "modern"],
+        "url": "https://www.swift.org",
+        "description": "Swift is a powerful and intuitive language for iOS and macOS app development, known for its performance and modern features."
+    },
+    "55": {
+        "image": "https://www.rust-lang.org/favicon.ico",
+        "title": "Rust",
+        "tags": ["system programming", "memory safety", "concurrency", "performance", "modern"],
+        "url": "https://www.rust-lang.org",
+        "description": "Rust is a systems programming language focused on safety and performance, offering memory safety without a garbage collector and strong concurrency features."
+    },
+    "56": {
+        "image": "https://www.go.dev/favicon.ico",
+        "title": "Go",
+        "tags": ["general-purpose", "concurrency", "performance", "system programming", "cloud"],
+        "url": "https://golang.org",
+        "description": "Go, also known as Golang, is a statically typed language designed for concurrency, performance, and scalability, often used in cloud and system programming."
+    },
+    "57": {
+        "image": "https://www.typescriptlang.org/favicon.ico",
+        "title": "TypeScript",
+        "tags": ["web development", "static typing", "JavaScript", "front-end", "frameworks"],
+        "url": "https://www.typescriptlang.org",
+        "description": "TypeScript is a superset of JavaScript that adds static typing and modern features to the language, enhancing code quality and maintainability."
+    },
+    "58": {
+        "image": "https://www.ruby-lang.org/favicon.ico",
+        "title": "Ruby",
+        "tags": ["web development", "object-oriented", "dynamic", "Rails", "scripting"],
+        "url": "https://www.ruby-lang.org",
+        "description": "Ruby is an object-oriented language known for its simplicity and productivity, often used with the Ruby on Rails framework for web development."
+    },
+    "59": {
+        "image": "https://www.php.net/favicon.ico",
+        "title": "PHP",
+        "tags": ["server-side", "web development", "dynamic", "CMS", "database"],
+        "url": "https://www.php.net",
+        "description": "PHP is a server-side scripting language designed for web development, used to create dynamic web pages and interact with databases."
+    },
+    "60": {
+        "image": "https://www.java.com/favicon.ico",
+        "title": "Java",
+        "tags": ["general-purpose", "object-oriented", "web development", "enterprise", "Android"],
+        "url": "https://www.java.com",
+        "description": "Java is a versatile, object-oriented programming language used for building cross-platform applications, web services, and Android apps."
+    },
+    "61": {
+        "image": "https://www.python.org/favicon.ico",
+        "title": "Python",
+        "tags": ["general-purpose", "easy-to-learn", "web development", "data science", "automation"],
+        "url": "https://www.python.org",
+        "description": "Python is a high-level, interpreted language known for its readability and versatility. It's widely used in web development, data science, automation, and more."
+    },
+    "62": {
+        "image": "https://www.cplusplus.com/favicon.ico",
+        "title": "C++",
+        "tags": ["general-purpose", "object-oriented", "system programming", "performance", "games"],
+        "url": "https://www.cplusplus.com",
+        "description": "C++ is a versatile language known for its performance and control, widely used in system programming, game development, and high-performance applications."
+    },
+    "63": {
+        "image": "https://www.r-project.org/favicon.ico",
+        "title": "R",
+        "tags": ["data analysis", "statistics", "data science", "visualization", "academic"],
+        "url": "https://www.r-project.org",
+        "description": "R is a language and environment for statistical computing and graphics, widely used in data analysis, statistical modeling, and data visualization."
+    },
+    "64": {
+        "image": "https://www.scala-lang.org/favicon.ico",
+        "title": "Scala",
+        "tags": ["functional", "object-oriented", "JVM", "concurrent", "data processing"],
+        "url": "https://www.scala-lang.org",
+        "description": "Scala is a hybrid functional and object-oriented language running on the JVM, known for its concise syntax and powerful features for concurrent and parallel programming."
+    },
+    "65": {
+        "image": "https://www.perl.org/favicon.ico",
+        "title": "Perl",
+        "tags": ["scripting", "text processing", "system administration", "web development", "legacy"],
+        "url": "https://www.perl.org",
+        "description": "Perl is a high-level language known for its text processing capabilities, often used in system administration, web development, and legacy systems."
+    },
+    "66": {
+        "image": "https://www.lisp-lang.org/favicon.ico",
+        "title": "Lisp",
+        "tags": ["functional", "AI", "academic", "research", "macro"],
+        "url": "https://www.lisp-lang.org",
+        "description": "Lisp is a family of functional programming languages known for its unique macro system and use in artificial intelligence research and academic settings."
+    },
+    "67": {
+        "image": "https://www.haskell.org/favicon.ico",
+        "title": "Haskell",
+        "tags": ["functional", "pure", "academic", "research", "type-safe"],
+        "url": "https://www.haskell.org",
+        "description": "Haskell is a pure functional programming language with strong type safety, used in academic research and for developing high-assurance software."
+    },
+    "68": {
+        "image": "https://www.much-simpler.org/favicon.ico",
+        "title": "Much-Simpler",
+        "tags": ["educational", "functional", "simplified", "programming", "academic"],
+        "url": "https://www.much-simpler.org",
+        "description": "Much-Simpler is an educational functional programming language designed to teach programming concepts in a simplified manner."
+    }
+
+
+}
+
