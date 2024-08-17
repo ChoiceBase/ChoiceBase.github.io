@@ -162,7 +162,7 @@ function displayAllTags() {
     });
 
     const tagsContainer = document.getElementById('tags-container');
-    tagsContainer.innerHTML = ''; // Clear existing tags
+    tagsContainer.innerHTML = '';
 
     tags.forEach(tag => {
         const tagElement = document.createElement('span');
