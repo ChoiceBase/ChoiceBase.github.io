@@ -4,8 +4,8 @@ function toggleMenu() {
 }
 
 // Load external HTML into specified element
-function loadHTML(file, elementID) {
-    fetch(file)
+function loadHTML(page, elementID) {
+    fetch(page)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
@@ -16,14 +16,14 @@ function loadHTML(file, elementID) {
             document.getElementById(elementID).innerHTML = data;
         })
         .catch(error => {
-            console.error('Failed to load the HTML file:', error);
+            console.error('Failed to load the HTML page:', error);
         });
 }
 
 // Load common elements
-loadHTML('header.html', 'header');
-loadHTML('nav.html', 'nav');
-loadHTML('footer.html', 'footer');
+loadHTML('html/header.html', 'header');
+loadHTML('html/nav.html', 'nav');
+loadHTML('html/footer.html', 'footer');
 
 // Load content dynamically
 // function loadPage(page) {
@@ -31,7 +31,6 @@ loadHTML('footer.html', 'footer');
 // }
 
 function loadPage(page) {
-    console.log(page);
     return fetch(page) // Ensure this fetch call returns the promise
         .then(response => {
             if (!response.ok) {
@@ -41,11 +40,14 @@ function loadPage(page) {
         })
         .then(data => {
             document.getElementById('content').innerHTML = data;
-            // After loading content, call initializeCards if it exists
-            if (typeof window.initializeCards === 'function') {
-                window.initializeCards();
+
+            // Check for and call page-specific initialization functions
+            if (page.includes('about.html') && typeof window.loadContributors === 'function') {
+                window.loadContributors(); // Call loadContributors if it is defined
+            } else if (typeof window.initializeCards === 'function') {
+                window.initializeCards(); // Call initializeCards if it is defined
             } else {
-                console.error('initializeCards function is not available.');
+                console.error('Initialization function is not available for this page.');
             }
         })
         .catch(error => console.error('Error loading the page:', error));

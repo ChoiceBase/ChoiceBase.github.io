@@ -188,6 +188,8 @@ function filterCardsByTag(tag, isSelected) {
 
 function searchCards(query) {
     const lowerCaseQuery = query.toLowerCase();
+    console.log('Searching for:', lowerCaseQuery); // Log the query
+
     filteredCards = allCards.filter(card => {
         return (
             card.title.toLowerCase().includes(lowerCaseQuery) ||
@@ -195,6 +197,8 @@ function searchCards(query) {
             (card.tags && card.tags.some(tag => tag.toLowerCase().includes(lowerCaseQuery)))
         );
     });
+
+    // console.log('Filtered cards:', filteredCards); // Log filtered results
     currentPage = 1; // Reset to first page on search
     displayCards(filteredCards);
 }

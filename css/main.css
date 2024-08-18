@@ -77,6 +77,13 @@ body {
     background-size: cover; /* Cover the entire viewport */
 }
 
+#contentSection {
+    background-color: rgba(194, 123, 194, 0.5);
+}
+
+h1 {
+    text-align: center;
+}
 
 
 @media (min-width: 768px) { /* For desktop view */
