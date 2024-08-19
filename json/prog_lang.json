@@ -104,13 +104,6 @@
         "url": "https://kotlinlang.org",
         "description": "Kotlin is a modern language running on the JVM, known for its concise syntax and interoperability with Java, widely used in Android development."
     },
-    "16": {
-        "image": "https://www.lispworks.com/favicon.ico",
-        "title": "Lisp",
-        "tags": ["functional", "macro", "AI", "symbolic", "legacy"],
-        "url": "https://www.lispworks.com",
-        "description": "Lisp is a family of functional programming languages known for its unique syntax and powerful macro system, historically used in artificial intelligence research."
-    },
     "17": {
         "image": "https://www.rust-lang.org/favicon.ico",
         "title": "Rust",
@@ -342,13 +335,6 @@
         "url": "https://www.rexx.org",
         "description": "REXX is a scripting language used for text processing and automation, known for its simplicity and use in IBM systems."
     },
-    "50": {
-        "image": "https://www.rexx.org/favicon.ico",
-        "title": "REXX",
-        "tags": ["scripting", "automation", "legacy", "text processing", "IBM"],
-        "url": "https://www.rexx.org",
-        "description": "REXX is a scripting language used for text processing and automation, known for its simplicity and use in IBM systems."
-    },
     "51": {
         "image": "https://www.apex-lang.org/favicon.ico",
         "title": "Apex",
@@ -370,26 +356,12 @@
         "url": "https://elixir-lang.org",
         "description": "Elixir is a functional language built on the Erlang VM, known for its concurrency and fault-tolerant features, often used in web development and distributed systems."
     },
-    "54": {
-        "image": "https://www.swift.org/favicon.ico",
-        "title": "Swift",
-        "tags": ["iOS", "macOS", "object-oriented", "performance", "modern"],
-        "url": "https://www.swift.org",
-        "description": "Swift is a powerful and intuitive language for iOS and macOS app development, known for its performance and modern features."
-    },
     "55": {
         "image": "https://www.rust-lang.org/favicon.ico",
         "title": "Rust",
         "tags": ["system programming", "memory safety", "concurrency", "performance", "modern"],
         "url": "https://www.rust-lang.org",
         "description": "Rust is a systems programming language focused on safety and performance, offering memory safety without a garbage collector and strong concurrency features."
-    },
-    "56": {
-        "image": "https://www.go.dev/favicon.ico",
-        "title": "Go",
-        "tags": ["general-purpose", "concurrency", "performance", "system programming", "cloud"],
-        "url": "https://golang.org",
-        "description": "Go, also known as Golang, is a statically typed language designed for concurrency, performance, and scalability, often used in cloud and system programming."
     },
     "57": {
         "image": "https://www.typescriptlang.org/favicon.ico",
@@ -398,35 +370,7 @@
         "url": "https://www.typescriptlang.org",
         "description": "TypeScript is a superset of JavaScript that adds static typing and modern features to the language, enhancing code quality and maintainability."
     },
-    "58": {
-        "image": "https://www.ruby-lang.org/favicon.ico",
-        "title": "Ruby",
-        "tags": ["web development", "object-oriented", "dynamic", "Rails", "scripting"],
-        "url": "https://www.ruby-lang.org",
-        "description": "Ruby is an object-oriented language known for its simplicity and productivity, often used with the Ruby on Rails framework for web development."
-    },
-    "59": {
-        "image": "https://www.php.net/favicon.ico",
-        "title": "PHP",
-        "tags": ["server-side", "web development", "dynamic", "CMS", "database"],
-        "url": "https://www.php.net",
-        "description": "PHP is a server-side scripting language designed for web development, used to create dynamic web pages and interact with databases."
-    },
-    "60": {
-        "image": "https://www.java.com/favicon.ico",
-        "title": "Java",
-        "tags": ["general-purpose", "object-oriented", "web development", "enterprise", "Android"],
-        "url": "https://www.java.com",
-        "description": "Java is a versatile, object-oriented programming language used for building cross-platform applications, web services, and Android apps."
-    },
     "61": {
-        "image": "https://www.python.org/favicon.ico",
-        "title": "Python",
-        "tags": ["general-purpose", "easy-to-learn", "web development", "data science", "automation"],
-        "url": "https://www.python.org",
-        "description": "Python is a high-level, interpreted language known for its readability and versatility. It's widely used in web development, data science, automation, and more."
-    },
-    "62": {
         "image": "https://www.cplusplus.com/favicon.ico",
         "title": "C++",
         "tags": ["general-purpose", "object-oriented", "system programming", "performance", "games"],
