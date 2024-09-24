@@ -1,4 +1,34 @@
 {
+    "Naukri": {
+        "image": "https://static.naukimg.com/s/0/0/i/naukri-identity/naukri_gnb_logo.svg",
+        "title": "2coms",
+        "tags": ["free", "resume", "autosuggest"],
+        "url": "https://www.naukri.com/",
+        "description": "Connect with 20000+ employers. Apply to millions of job opportunities across top companies,industries and locations on India's No.1 jo site. Apply online"
+    },
+    "cutshort": {
+        "image": "https://cutshort.io/_next/image?url=https%3A%2F%2Fcdn.cutshort.io%2Fpublic%2Fimages%2Fnew_logo_half.png&w=32&q=75",
+        "title": "Cutshort",
+        "tags": ["free", "paid", "limited", "resume", "test", "app"],
+        "url": "https://cutshort.io/",
+        "price": "2500 per month",
+        "description": "Cutshort is the #1 tech hiring platform in India. Connect with top talent, engage with them and close positions to execute your vision, faster."
+    },
+    "Ladders": {
+        "image": "https://www.theladders.com/favicon.ico",
+        "title": "The Ladders",
+        "tags": ["paid", "job search", "executive jobs", "resume", "career advice"],
+        "url": "https://www.theladders.com",
+        "price": "$50 per month",
+        "description": "The Ladders is a job board focused on high-paying and executive-level jobs, offering job listings, resume posting, and career advice for professionals."
+    },
+    "2coms": {
+        "image": "https://www.2coms.com/images/logo.png",
+        "title": "2coms",
+        "tags": ["free", "job search", "executive jobs", "resume", "spam"],
+        "url": "https://www.2coms.com/",
+        "description": "India's best Placement Agency, Manpower consultancy and recruitment firm helping businesses with staffing, leadership hiring, apprenticeship."
+    },
     "1": {
         "image": "https://www.indeed.com/favicon.ico",
         "title": "Indeed",
@@ -180,13 +210,6 @@
         "tags": ["free", "paid", "job search", "tech jobs", "startup jobs"],
         "url": "https://www.builtin.com",
         "description": "Built In is a job board focused on tech and startup jobs, offering job listings, company profiles, and insights into the tech industry."
-    },
-    "27": {
-        "image": "https://www.theladders.com/favicon.ico",
-        "title": "The Ladders",
-        "tags": ["paid", "job search", "executive jobs", "resume", "career advice"],
-        "url": "https://www.theladders.com",
-        "description": "The Ladders is a job board focused on high-paying and executive-level jobs, offering job listings, resume posting, and career advice for professionals."
     },
     "28": {
         "image": "https://www.roberthalf.com/favicon.ico",
