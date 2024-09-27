@@ -1,7 +1,64 @@
 {
+
+    "Dice": {
+        "image": "https://www.dice.com/favicon.ico",
+        "title": "Dice",
+        "tags": ["free", "paid", "job search", "tech jobs", "part time", "reomote", "usa"],
+        "url": "https://www.dice.com",
+        "description": "Dice is a job board focused on technology and IT jobs, offering job listings, career advice, and tools for tech professionals to advance their careers."
+    },
+    "designcrowd": {
+        "image": "https://www.designcrowd.com/favicon.ico",
+        "title": "DesignCrowd",
+        "tags": ["free", "paid", "freelance jobs", "remote work", "design"],
+        "url": "https://www.designcrowd.com",
+        "description": "DesignCrowd is a freelance job platform focused on design projects, connecting designers with clients for various design tasks and projects, with a focus on remote work."
+    },
+    "CareerJet": {
+        "image": "https://www.careerjet.com/favicon.ico",
+        "title": "CareerJet",
+        "tags": ["free", "job search", "usa", "resume"],
+        "url": "https://www.careerjet.com",
+        "description": "CareerJet is a job search engine that aggregates job listings from various sources, providing a comprehensive job search experience for job seekers worldwide."
+    },
+    "Built In": {
+        "image": "https://static.builtin.com/dist/images/bi-header-logo.svg",
+        "title": "Built In",
+        "tags": ["free", "high paid", "job search", "tech jobs", "startup jobs"],
+        "url": "https://www.builtin.com",
+        "description": "Built In is a job board focused on tech and startup jobs, offering job listings, company profiles, and insights into the tech industry."
+    },    
+    "Authentic": {
+        "image": "https://authenticjobs.com/wp-content/themes/authenticjobs/assets/img/logos/aj-logo-light.svg",
+        "title": "Authentic Jobs",
+        "tags": ["free", "paid", "job search", "tech jobs", "design", "freelance", "Non IT"],
+        "url": "https://www.authenticjobs.com",
+        "description": "Authentic Jobs is a job search platform focused on tech and design jobs, offering job listings, resume posting, and career advice for job seekers in the creative industry."
+    },
+    "wellfound": {
+        "image": "https://wellfound.com/assets/logo/wellfound-transitionlogo-black-40ce2b7cda01e53a6e5a8775a6d020fd2c081bfe93cdce89ac24f77070075f5e.svg",
+        "title": "wellfound",
+        "tags": ["free", "job search", "startups", "tech jobs", "high paid"],
+        "url": "https://wellfound.com/",
+        "description": "wellfound is a platform for job seekers looking to work with startups, offering job listings, company profiles, and investment opportunities."
+    },
+    "Adecco": {
+        "image": "https://www.adecco.com/-/jssmedia/project/adecco/global/wfs/logos/headerlogo/home-logo.svg?mw=1920",
+        "title": "Adecco",
+        "tags": ["paid", "job search", "recruitment", "temp jobs", "contract jobs", "Non IT"],
+        "url": "https://www.adecco.com",
+        "description": "Adecco is a global recruitment agency that provides job listings, career advice, and staffing solutions for temporary, contract, and permanent positions."
+    },
+    "99designs": {
+        "image": "https://www.99designs.com/favicon.ico",
+        "title": "99designs",
+        "tags": ["free", "paid", "freelance jobs", "remote work", "design"],
+        "url": "https://www.99designs.com",
+        "description": "99designs is a freelance job platform focused on design projects, connecting designers with clients for various design tasks and projects, with a focus on remote work."
+    },
     "Naukri": {
         "image": "https://static.naukimg.com/s/0/0/i/naukri-identity/naukri_gnb_logo.svg",
-        "title": "2coms",
+        "title": "Naukri",
         "tags": ["free", "resume", "autosuggest"],
         "url": "https://www.naukri.com/",
         "description": "Connect with 20000+ employers. Apply to millions of job opportunities across top companies,industries and locations on India's No.1 jo site. Apply online"
@@ -29,47 +86,40 @@
         "url": "https://www.2coms.com/",
         "description": "India's best Placement Agency, Manpower consultancy and recruitment firm helping businesses with staffing, leadership hiring, apprenticeship."
     },
-    "1": {
+    "Indeed": {
         "image": "https://www.indeed.com/favicon.ico",
         "title": "Indeed",
         "tags": ["free", "paid", "job search", "global", "resume"],
         "url": "https://www.indeed.com",
         "description": "Indeed is one of the world's largest job search engines, providing millions of job listings, company reviews, and salary information for job seekers globally."
     },
-    "2": {
+    "LinkedIn": {
         "image": "https://www.linkedin.com/favicon.ico",
         "title": "LinkedIn",
-        "tags": ["free", "paid", "job search", "networking", "resume"],
+        "tags": ["free", "job search", "network build", "resume"],
         "url": "https://www.linkedin.com/jobs",
         "description": "LinkedIn is the world's largest professional networking platform, offering job listings, company insights, and a network of professionals for career development."
     },
-    "3": {
-        "image": "https://www.monster.com/favicon.ico",
-        "title": "Monster",
-        "tags": ["free", "paid", "job search", "resume", "career advice"],
-        "url": "https://www.monster.com",
-        "description": "Monster is a global job search platform that provides job listings, resume posting, and career advice for job seekers in various industries."
+    "Foundit": {
+        "image": "https://media.foundit.in/public/core/images/founditLogo-primary.png",
+        "title": "Foundit",
+        "tags": ["free", "paid", "learn", "job search", "resume", "career advice"],
+        "url": "https://www.foundit.in/",
+        "description": "Foundit is a global job search platform that provides job listings, resume posting, and career advice for job seekers in various industries."
     },
-    "4": {
+    "Glassdoor": {
         "image": "https://www.glassdoor.com/favicon.ico",
         "title": "Glassdoor",
         "tags": ["free", "paid", "job search", "company reviews", "salary information"],
         "url": "https://www.glassdoor.com",
         "description": "Glassdoor offers job listings along with company reviews, interview tips, and salary information to help job seekers make informed career decisions."
     },
-    "5": {
+    "ZipRecruiter": {
         "image": "https://www.ziprecruiter.com/favicon.ico",
         "title": "ZipRecruiter",
         "tags": ["free", "paid", "job search", "resume", "alerts"],
         "url": "https://www.ziprecruiter.com",
         "description": "ZipRecruiter is an online employment marketplace that connects job seekers with employers by providing job listings, resume posting, and job alerts."
-    },
-    "6": {
-        "image": "https://www.careerbuilder.com/favicon.ico",
-        "title": "CareerBuilder",
-        "tags": ["free", "paid", "job search", "resume", "career advice"],
-        "url": "https://www.careerbuilder.com",
-        "description": "CareerBuilder is a job search site offering job listings, resume posting, career advice, and tools for job seekers to advance their careers."
     },
     "7": {
         "image": "https://www.simplyhired.com/favicon.ico",
@@ -105,13 +155,6 @@
         "tags": ["free", "remote jobs", "global", "full-time", "part-time"],
         "url": "https://www.remote.co",
         "description": "Remote.co is a job board focused on remote work opportunities, providing job listings for remote positions in various industries worldwide."
-    },
-    "12": {
-        "image": "https://www.angel.co/favicon.ico",
-        "title": "AngelList",
-        "tags": ["free", "startup jobs", "remote jobs", "global"],
-        "url": "https://www.angel.co",
-        "description": "AngelList is a platform for job seekers looking to work with startups, offering job listings, company profiles, and investment opportunities."
     },
     "13": {
         "image": "https://www.themuse.com/favicon.ico",
@@ -162,13 +205,6 @@
         "url": "https://www.jobsinlogistics.com",
         "description": "JobsInLogistics is a job board specializing in logistics, transportation, and supply chain jobs, providing listings and resources for professionals in the industry."
     },
-    "20": {
-        "image": "https://www.dice.com/favicon.ico",
-        "title": "Dice",
-        "tags": ["free", "paid", "job search", "tech jobs", "IT"],
-        "url": "https://www.dice.com",
-        "description": "Dice is a job board focused on technology and IT jobs, offering job listings, career advice, and tools for tech professionals to advance their careers."
-    },
     "21": {
         "image": "https://www.eluta.ca/favicon.ico",
         "title": "Eluta",
@@ -203,13 +239,6 @@
         "tags": ["free", "paid", "job search", "resume", "career advice"],
         "url": "https://www.lensa.com",
         "description": "Lensa is a job search platform that offers personalized job recommendations, resume posting, and career advice for job seekers in various industries."
-    },
-    "26": {
-        "image": "https://www.builtin.com/favicon.ico",
-        "title": "Built In",
-        "tags": ["free", "paid", "job search", "tech jobs", "startup jobs"],
-        "url": "https://www.builtin.com",
-        "description": "Built In is a job board focused on tech and startup jobs, offering job listings, company profiles, and insights into the tech industry."
     },
     "28": {
         "image": "https://www.roberthalf.com/favicon.ico",
@@ -246,131 +275,12 @@
         "url": "https://www.kellyservices.com",
         "description": "Kelly Services is a global recruitment agency that offers job listings, career advice, and staffing solutions for temporary, contract, and permanent positions."
     },
-    "33": {
-        "image": "https://www.adecco.com/favicon.ico",
-        "title": "Adecco",
-        "tags": ["paid", "job search", "recruitment", "temp jobs", "contract jobs"],
-        "url": "https://www.adecco.com",
-        "description": "Adecco is a global recruitment agency that provides job listings, career advice, and staffing solutions for temporary, contract, and permanent positions."
-    },
     "34": {
         "image": "https://www.experis.com/favicon.ico",
         "title": "Experis",
         "tags": ["paid", "job search", "recruitment", "tech jobs", "contract jobs"],
         "url": "https://www.experis.com",
         "description": "Experis is a recruitment agency specializing in IT, engineering, and healthcare jobs, offering job listings, career advice, and staffing solutions for professionals."
-    },
-    "35": {
-        "image": "https://www.alison.com/favicon.ico",
-        "title": "Alison",
-        "tags": ["free", "online courses", "certifications", "career development"],
-        "url": "https://www.alison.com",
-        "description": "Alison is an online learning platform offering free courses and certifications, with a focus on career development and job skills."
-    },
-    "36": {
-        "image": "https://www.coursera.org/favicon.ico",
-        "title": "Coursera",
-        "tags": ["free", "paid", "online courses", "certifications", "career development"],
-        "url": "https://www.coursera.org",
-        "description": "Coursera is an online learning platform offering courses, certifications, and degrees from top universities and companies, with a focus on career development."
-    },
-    "37": {
-        "image": "https://www.udemy.com/favicon.ico",
-        "title": "Udemy",
-        "tags": ["paid", "online courses", "certifications", "career development"],
-        "url": "https://www.udemy.com",
-        "description": "Udemy is an online learning platform offering a wide range of courses and certifications in various fields, with a focus on career development."
-    },
-    "38": {
-        "image": "https://www.edx.org/favicon.ico",
-        "title": "edX",
-        "tags": ["free", "paid", "online courses", "certifications", "career development"],
-        "url": "https://www.edx.org",
-        "description": "edX is an online learning platform offering courses and certifications from top universities and institutions, with a focus on career development."
-    },
-    "39": {
-        "image": "https://www.udacity.com/favicon.ico",
-        "title": "Udacity",
-        "tags": ["paid", "online courses", "certifications", "career development"],
-        "url": "https://www.udacity.com",
-        "description": "Udacity is an online learning platform offering courses and certifications in tech and business, with a focus on career development and job readiness."
-    },
-    "40": {
-        "image": "https://www.futurelearn.com/favicon.ico",
-        "title": "FutureLearn",
-        "tags": ["free", "paid", "online courses", "certifications", "career development"],
-        "url": "https://www.futurelearn.com",
-        "description": "FutureLearn is an online learning platform offering courses and certifications from top universities and institutions, with a focus on career development."
-    },
-    "41": {
-        "image": "https://www.masterclass.com/favicon.ico",
-        "title": "MasterClass",
-        "tags": ["paid", "online courses", "skills development", "lifestyle"],
-        "url": "https://www.masterclass.com",
-        "description": "MasterClass offers online courses taught by industry leaders and experts, focusing on skills development and lifestyle enrichment."
-    },
-    "42": {
-        "image": "https://www.skillshare.com/favicon.ico",
-        "title": "Skillshare",
-        "tags": ["paid", "online courses", "skills development", "creative"],
-        "url": "https://www.skillshare.com",
-        "description": "Skillshare is an online learning platform offering courses in creative fields, focusing on skills development and personal growth."
-    },
-    "43": {
-        "image": "https://www.khanacademy.org/favicon.ico",
-        "title": "Khan Academy",
-        "tags": ["free", "online courses", "certifications", "career development"],
-        "url": "https://www.khanacademy.org",
-        "description": "Khan Academy offers free online courses and certifications in various subjects, with a focus on education and career development."
-    },
-    "44": {
-        "image": "https://www.academy.com/favicon.ico",
-        "title": "Academy",
-        "tags": ["free", "online courses", "certifications", "career development"],
-        "url": "https://www.academy.com",
-        "description": "Academy is an online learning platform offering free courses and certifications in various fields, with a focus on education and career development."
-    },
-    "45": {
-        "image": "https://www.pluralsight.com/favicon.ico",
-        "title": "Pluralsight",
-        "tags": ["paid", "online courses", "certifications", "tech jobs"],
-        "url": "https://www.pluralsight.com",
-        "description": "Pluralsight is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
-    },
-    "46": {
-        "image": "https://www.codeacademy.com/favicon.ico",
-        "title": "Codecademy",
-        "tags": ["free", "paid", "online courses", "programming", "career development"],
-        "url": "https://www.codecademy.com",
-        "description": "Codecademy is an online learning platform offering courses and certifications in programming and coding, with a focus on career development and job readiness."
-    },
-    "47": {
-        "image": "https://www.treehouse.com/favicon.ico",
-        "title": "Treehouse",
-        "tags": ["paid", "online courses", "programming", "career development"],
-        "url": "https://www.teamtreehouse.com",
-        "description": "Treehouse is an online learning platform offering courses and certifications in programming and coding, with a focus on career development and job readiness."
-    },
-    "48": {
-        "image": "https://www.teamtreehouse.com/favicon.ico",
-        "title": "Team Treehouse",
-        "tags": ["paid", "online courses", "programming", "career development"],
-        "url": "https://www.teamtreehouse.com",
-        "description": "Team Treehouse is an online learning platform offering courses and certifications in programming and coding, with a focus on career development and job readiness."
-    },
-    "49": {
-        "image": "https://www.coursera.org/favicon.ico",
-        "title": "Coursera",
-        "tags": ["free", "paid", "online courses", "certifications", "career development"],
-        "url": "https://www.coursera.org",
-        "description": "Coursera is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development."
-    },
-    "50": {
-        "image": "https://www.udemy.com/favicon.ico",
-        "title": "Udemy",
-        "tags": ["paid", "online courses", "certifications", "career development"],
-        "url": "https://www.udemy.com",
-        "description": "Udemy is an online learning platform offering a wide range of courses and certifications in various fields, with a focus on career development."
     },
     "51": {
         "image": "https://www.topresume.com/favicon.ico",
@@ -379,138 +289,12 @@
         "url": "https://www.topresume.com",
         "description": "TopResume provides resume writing services and career advice to help job seekers create a professional resume and improve their chances of landing a job."
     },
-    "52": {
-        "image": "https://www.glassdoor.com/favicon.ico",
-        "title": "Glassdoor",
-        "tags": ["free", "paid", "job search", "company reviews", "salary information"],
-        "url": "https://www.glassdoor.com",
-        "description": "Glassdoor is a job search platform that offers company reviews, salary information, and job listings, helping job seekers make informed career decisions."
-    },
-    "53": {
-        "image": "https://www.simplyhired.com/favicon.ico",
-        "title": "SimplyHired",
-        "tags": ["free", "job search", "global", "resume"],
-        "url": "https://www.simplyhired.com",
-        "description": "SimplyHired is a job search engine that aggregates job listings from various sources, providing a comprehensive job search experience for job seekers worldwide."
-    },
-    "54": {
-        "image": "https://www.careerbuilder.com/favicon.ico",
-        "title": "CareerBuilder",
-        "tags": ["free", "paid", "job search", "resume", "career advice"],
-        "url": "https://www.careerbuilder.com",
-        "description": "CareerBuilder is a job search platform that offers job listings, resume posting, and career advice, helping job seekers find their next career opportunity."
-    },
-    "55": {
-        "image": "https://www.monster.com/favicon.ico",
-        "title": "Monster",
-        "tags": ["free", "paid", "job search", "resume", "career advice"],
-        "url": "https://www.monster.com",
-        "description": "Monster is a global job search platform offering job listings, resume posting, and career advice for job seekers in various industries."
-    },
-    "56": {
-        "image": "https://www.snagajob.com/favicon.ico",
-        "title": "Snagajob",
-        "tags": ["free", "paid", "job search", "hourly jobs", "part-time jobs"],
-        "url": "https://www.snagajob.com",
-        "description": "Snagajob is a job search platform focused on hourly and part-time jobs, offering job listings, resume posting, and career advice for job seekers."
-    },
-    "57": {
-        "image": "https://www.ziprecruiter.com/favicon.ico",
-        "title": "ZipRecruiter",
-        "tags": ["free", "paid", "job search", "resume", "career advice"],
-        "url": "https://www.ziprecruiter.com",
-        "description": "ZipRecruiter is a job search platform that connects job seekers with employers, offering job listings, resume posting, and career advice."
-    },
-    "58": {
-        "image": "https://www.linkedin.com/favicon.ico",
-        "title": "LinkedIn",
-        "tags": ["free", "paid", "job search", "networking", "resume"],
-        "url": "https://www.linkedin.com",
-        "description": "LinkedIn is a professional networking platform that offers job listings, networking opportunities, and career advice, helping job seekers connect with employers."
-    },
-    "59": {
-        "image": "https://www.angel.co/favicon.ico",
-        "title": "AngelList",
-        "tags": ["free", "paid", "job search", "startups", "tech jobs"],
-        "url": "https://www.angel.co",
-        "description": "AngelList is a job search platform focused on startup jobs, offering job listings, networking opportunities, and career advice for job seekers in the tech industry."
-    },
-    "60": {
-        "image": "https://www.theladders.com/favicon.ico",
-        "title": "The Ladders",
-        "tags": ["paid", "job search", "executive jobs", "resume", "career advice"],
-        "url": "https://www.theladders.com",
-        "description": "The Ladders is a job board focused on high-paying and executive-level jobs, offering job listings, resume posting, and career advice for professionals."
-    },
-    "61": {
-        "image": "https://www.careerjet.com/favicon.ico",
-        "title": "CareerJet",
-        "tags": ["free", "job search", "global", "resume"],
-        "url": "https://www.careerjet.com",
-        "description": "CareerJet is a job search engine that aggregates job listings from various sources, providing a comprehensive job search experience for job seekers worldwide."
-    },
-    "62": {
-        "image": "https://www.glassdoor.com/favicon.ico",
-        "title": "Glassdoor",
-        "tags": ["free", "paid", "job search", "company reviews", "salary information"],
-        "url": "https://www.glassdoor.com",
-        "description": "Glassdoor is a job search platform that offers company reviews, salary information, and job listings, helping job seekers make informed career decisions."
-    },
-    "63": {
-        "image": "https://www.simplyhired.com/favicon.ico",
-        "title": "SimplyHired",
-        "tags": ["free", "job search", "global", "resume"],
-        "url": "https://www.simplyhired.com",
-        "description": "SimplyHired is a job search engine that aggregates job listings from various sources, providing a comprehensive job search experience for job seekers worldwide."
-    },
-    "64": {
-        "image": "https://www.careerbuilder.com/favicon.ico",
-        "title": "CareerBuilder",
-        "tags": ["free", "paid", "job search", "resume", "career advice"],
-        "url": "https://www.careerbuilder.com",
-        "description": "CareerBuilder is a job search platform that offers job listings, resume posting, and career advice, helping job seekers find their next career opportunity."
-    },
-    "65": {
-        "image": "https://www.monster.com/favicon.ico",
-        "title": "Monster",
-        "tags": ["free", "paid", "job search", "resume", "career advice"],
-        "url": "https://www.monster.com",
-        "description": "Monster is a global job search platform offering job listings, resume posting, and career advice for job seekers in various industries."
-    },
-    "66": {
-        "image": "https://www.snagajob.com/favicon.ico",
-        "title": "Snagajob",
-        "tags": ["free", "paid", "job search", "hourly jobs", "part-time jobs"],
-        "url": "https://www.snagajob.com",
-        "description": "Snagajob is a job search platform focused on hourly and part-time jobs, offering job listings, resume posting, and career advice for job seekers."
-    },
-    "67": {
-        "image": "https://www.ziprecruiter.com/favicon.ico",
-        "title": "ZipRecruiter",
-        "tags": ["free", "paid", "job search", "resume", "career advice"],
-        "url": "https://www.ziprecruiter.com",
-        "description": "ZipRecruiter is a job search platform that connects job seekers with employers, offering job listings, resume posting, and career advice."
-    },
-    "68": {
-        "image": "https://www.linkedin.com/favicon.ico",
-        "title": "LinkedIn",
-        "tags": ["free", "paid", "job search", "networking", "resume"],
-        "url": "https://www.linkedin.com",
-        "description": "LinkedIn is a professional networking platform that offers job listings, networking opportunities, and career advice, helping job seekers connect with employers."
-    },
     "69": {
         "image": "https://www.angel.co/favicon.ico",
         "title": "AngelList",
         "tags": ["free", "paid", "job search", "startups", "tech jobs"],
         "url": "https://www.angel.co",
         "description": "AngelList is a job search platform focused on startup jobs, offering job listings, networking opportunities, and career advice for job seekers in the tech industry."
-    },
-    "70": {
-        "image": "https://www.indeed.com/favicon.ico",
-        "title": "Indeed",
-        "tags": ["free", "paid", "job search", "resume", "career advice"],
-        "url": "https://www.indeed.com",
-        "description": "Indeed is a global job search engine that aggregates job listings from various sources, providing job seekers with a comprehensive job search experience."
     },
     "71": {
         "image": "https://www.dice.com/favicon.ico",
@@ -560,166 +344,5 @@
         "tags": ["free", "paid", "freelance jobs", "remote work", "gig economy"],
         "url": "https://www.peopleperhour.com",
         "description": "PeoplePerHour is a freelance job platform that connects freelancers with clients for various tasks and projects, focusing on remote work and the gig economy."
-    },
-    "78": {
-        "image": "https://www.designcrowd.com/favicon.ico",
-        "title": "DesignCrowd",
-        "tags": ["free", "paid", "freelance jobs", "remote work", "design"],
-        "url": "https://www.designcrowd.com",
-        "description": "DesignCrowd is a freelance job platform focused on design projects, connecting designers with clients for various design tasks and projects, with a focus on remote work."
-    },
-    "79": {
-        "image": "https://www.99designs.com/favicon.ico",
-        "title": "99designs",
-        "tags": ["free", "paid", "freelance jobs", "remote work", "design"],
-        "url": "https://www.99designs.com",
-        "description": "99designs is a freelance job platform focused on design projects, connecting designers with clients for various design tasks and projects, with a focus on remote work."
-    },
-    "80": {
-        "image": "https://www.authenticjobs.com/favicon.ico",
-        "title": "Authentic Jobs",
-        "tags": ["free", "paid", "job search", "tech jobs", "design"],
-        "url": "https://www.authenticjobs.com",
-        "description": "Authentic Jobs is a job search platform focused on tech and design jobs, offering job listings, resume posting, and career advice for job seekers in the creative industry."
-    },
-    "81": {
-        "image": "https://www.careerkarma.com/favicon.ico",
-        "title": "Career Karma",
-        "tags": ["free", "paid", "job search", "career advice", "resume"],
-        "url": "https://www.careerkarma.com",
-        "description": "Career Karma is a job search platform that offers job listings, resume posting, and career advice, helping job seekers find their next career opportunity."
-    },
-    "82": {
-        "image": "https://www.edx.org/favicon.ico",
-        "title": "edX",
-        "tags": ["free", "paid", "online courses", "certifications", "career development"],
-        "url": "https://www.edx.org",
-        "description": "edX is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development and job readiness."
-    },
-    "83": {
-        "image": "https://www.w3schools.com/favicon.ico",
-        "title": "W3Schools",
-        "tags": ["free", "online courses", "programming", "web development"],
-        "url": "https://www.w3schools.com",
-        "description": "W3Schools is an online learning platform offering courses and tutorials in web development and programming, with a focus on career development and job readiness."
-    },
-    "84": {
-        "image": "https://www.khanacademy.org/favicon.ico",
-        "title": "Khan Academy",
-        "tags": ["free", "online courses", "education", "career development"],
-        "url": "https://www.khanacademy.org",
-        "description": "Khan Academy is a free online learning platform offering courses and tutorials in various subjects, with a focus on education and career development."
-    },
-    "85": {
-        "image": "https://www.futurelearn.com/favicon.ico",
-        "title": "FutureLearn",
-        "tags": ["free", "paid", "online courses", "certifications", "career development"],
-        "url": "https://www.futurelearn.com",
-        "description": "FutureLearn is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development."
-    },
-    "86": {
-        "image": "https://www.skillshare.com/favicon.ico",
-        "title": "Skillshare",
-        "tags": ["paid", "online courses", "creativity", "career development"],
-        "url": "https://www.skillshare.com",
-        "description": "Skillshare is an online learning platform focused on creativity and skills development, offering a wide range of courses and tutorials."
-    },
-    "87": {
-        "image": "https://www.udacity.com/favicon.ico",
-        "title": "Udacity",
-        "tags": ["paid", "online courses", "certifications", "tech jobs"],
-        "url": "https://www.udacity.com",
-        "description": "Udacity is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
-    },
-    "88": {
-        "image": "https://www.springboard.com/favicon.ico",
-        "title": "Springboard",
-        "tags": ["paid", "online courses", "certifications", "career development"],
-        "url": "https://www.springboard.com",
-        "description": "Springboard is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
-    },
-    "89": {
-        "image": "https://www.codeschool.com/favicon.ico",
-        "title": "Code School",
-        "tags": ["free", "paid", "online courses", "programming", "career development"],
-        "url": "https://www.codeschool.com",
-        "description": "Code School is an online learning platform offering courses and certifications in programming and coding, with a focus on career development and job readiness."
-    },
-    "90": {
-        "image": "https://www.coursereport.com/favicon.ico",
-        "title": "Course Report",
-        "tags": ["free", "paid", "online courses", "career advice", "bootcamps"],
-        "url": "https://www.coursereport.com",
-        "description": "Course Report is a job search platform focused on coding bootcamps, offering reviews, advice, and job listings for job seekers in the tech industry."
-    },
-    "91": {
-        "image": "https://www.springboard.com/favicon.ico",
-        "title": "Springboard",
-        "tags": ["paid", "online courses", "certifications", "career development"],
-        "url": "https://www.springboard.com",
-        "description": "Springboard is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
-    },
-    "92": {
-        "image": "https://www.bloc.io/favicon.ico",
-        "title": "Bloc",
-        "tags": ["paid", "online courses", "certifications", "tech jobs"],
-        "url": "https://www.bloc.io",
-        "description": "Bloc is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
-    },
-    "93": {
-        "image": "https://www.thinkful.com/favicon.ico",
-        "title": "Thinkful",
-        "tags": ["paid", "online courses", "certifications", "tech jobs"],
-        "url": "https://www.thinkful.com",
-        "description": "Thinkful is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
-    },
-    "94": {
-        "image": "https://www.lewagon.com/favicon.ico",
-        "title": "Le Wagon",
-        "tags": ["paid", "bootcamp", "programming", "career development"],
-        "url": "https://www.lewagon.com",
-        "description": "Le Wagon is a bootcamp platform offering intensive courses in programming and web development, with a focus on career development and job readiness."
-    },
-    "95": {
-        "image": "https://www.generalassemb.ly/favicon.ico",
-        "title": "General Assembly",
-        "tags": ["paid", "bootcamp", "programming", "career development"],
-        "url": "https://www.generalassemb.ly",
-        "description": "General Assembly is a bootcamp platform offering courses in programming, data science, and digital marketing, with a focus on career development and job readiness."
-    },
-    "96": {
-        "image": "https://www.flatironschool.com/favicon.ico",
-        "title": "Flatiron School",
-        "tags": ["paid", "bootcamp", "programming", "career development"],
-        "url": "https://www.flatironschool.com",
-        "description": "Flatiron School is a bootcamp platform offering courses in programming, data science, and cybersecurity, with a focus on career development and job readiness."
-    },
-    "97": {
-        "image": "https://www.appacademy.io/favicon.ico",
-        "title": "App Academy",
-        "tags": ["paid", "bootcamp", "programming", "career development"],
-        "url": "https://www.appacademy.io",
-        "description": "App Academy is a bootcamp platform offering courses in programming and web development, with a focus on career development and job readiness."
-    },
-    "98": {
-        "image": "https://www.udemy.com/favicon.ico",
-        "title": "Udemy",
-        "tags": ["free", "paid", "online courses", "career development", "programming"],
-        "url": "https://www.udemy.com",
-        "description": "Udemy is an online learning platform offering courses in a wide range of subjects, with a focus on career development and job readiness."
-    },
-    "99": {
-        "image": "https://www.edureka.co/favicon.ico",
-        "title": "Edureka",
-        "tags": ["paid", "online courses", "certifications", "tech jobs"],
-        "url": "https://www.edureka.co",
-        "description": "Edureka is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
-    },
-    "100": {
-        "image": "https://www.codecademy.com/favicon.ico",
-        "title": "Codecademy",
-        "tags": ["free", "paid", "online courses", "programming", "career development"],
-        "url": "https://www.codecademy.com",
-        "description": "Codecademy is an online learning platform offering courses and tutorials in programming, with a focus on career development and job readiness."
     }
 }
