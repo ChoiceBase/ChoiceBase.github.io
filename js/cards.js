@@ -46,9 +46,10 @@ function createCard(cardData) {
                 `;
             }
     
-            // Insert the JSON key-value pairs into the table
+            // Sort keys in alphanumeric order and insert the JSON key-value pairs into the table
             if (cardTable) {
-                cardTable.innerHTML = Object.keys(cardData).map(key => `
+                const sortedKeys = Object.keys(cardData).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+                cardTable.innerHTML = sortedKeys.map(key => `
                     <tr>
                         <td style="border: 1px solid #ddd; padding: 8px;">${key}</td>
                         <td style="border: 1px solid #ddd; padding: 8px;">${cardData[key]}</td>
