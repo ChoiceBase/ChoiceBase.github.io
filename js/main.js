@@ -66,3 +66,16 @@ document.addEventListener('DOMContentLoaded', function() {
         window.history.pushState({}, '', '/');
     }
 });
+
+// Store the scroll position when the user leaves the page or refreshes
+window.addEventListener('beforeunload', function () {
+    localStorage.setItem('scrollPosition', window.scrollY);
+});
+
+// Retrieve and restore the scroll position when the page loads
+window.addEventListener('load', function () {
+    const scrollPosition = localStorage.getItem('scrollPosition');
+    if (scrollPosition) {
+        window.scrollTo(0, parseInt(scrollPosition, 10));
+    }
+});

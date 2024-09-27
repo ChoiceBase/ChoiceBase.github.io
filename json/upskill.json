@@ -1,0 +1,151 @@
+{
+    
+    
+    "MasterClass": {
+        "image": "https://www.masterclass.com/favicon.ico",
+        "title": "MasterClass",
+        "tags": ["paid", "online courses", "skills development", "lifestyle"],
+        "url": "https://www.masterclass.com",
+        "description": "MasterClass offers online courses taught by industry leaders and experts, focusing on skills development and lifestyle enrichment."
+    },
+    "Treehouse": {
+        "image": "https://www.treehouse.com/favicon.ico",
+        "title": "Treehouse",
+        "tags": ["paid", "online courses", "programming", "career development"],
+        "url": "https://www.teamtreehouse.com",
+        "description": "Treehouse is an online learning platform offering courses and certifications in programming and coding, with a focus on career development and job readiness."
+    },
+    "Coursera": {
+        "image": "https://www.coursera.org/favicon.ico",
+        "title": "Coursera",
+        "tags": ["free", "paid", "online courses", "certifications", "career development"],
+        "url": "https://www.coursera.org",
+        "description": "Coursera is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development."
+    },
+    "edX": {
+        "image": "https://www.edx.org/favicon.ico",
+        "title": "edX",
+        "tags": ["free", "paid", "online courses", "certifications", "career development"],
+        "url": "https://www.edx.org",
+        "description": "edX is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development and job readiness."
+    },
+    "W3Schools": {
+        "image": "https://www.w3schools.com/favicon.ico",
+        "title": "W3Schools",
+        "tags": ["free", "online courses", "programming", "web development"],
+        "url": "https://www.w3schools.com",
+        "description": "W3Schools is an online learning platform offering courses and tutorials in web development and programming, with a focus on career development and job readiness."
+    },
+    "Khan Academy": {
+        "image": "https://www.khanacademy.org/favicon.ico",
+        "title": "Khan Academy",
+        "tags": ["free", "online courses", "education", "career development"],
+        "url": "https://www.khanacademy.org",
+        "description": "Khan Academy is a free online learning platform offering courses and tutorials in various subjects, with a focus on education and career development."
+    },
+    "FutureLearn": {
+        "image": "https://www.futurelearn.com/favicon.ico",
+        "title": "FutureLearn",
+        "tags": ["free", "paid", "online courses", "certifications", "career development"],
+        "url": "https://www.futurelearn.com",
+        "description": "FutureLearn is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development."
+    },
+    "Skillshare": {
+        "image": "https://www.skillshare.com/favicon.ico",
+        "title": "Skillshare",
+        "tags": ["paid", "online courses", "creativity", "career development"],
+        "url": "https://www.skillshare.com",
+        "description": "Skillshare is an online learning platform focused on creativity and skills development, offering a wide range of courses and tutorials."
+    },
+    "Udacity": {
+        "image": "https://www.udacity.com/favicon.ico",
+        "title": "Udacity",
+        "tags": ["paid", "online courses", "certifications", "tech jobs"],
+        "url": "https://www.udacity.com",
+        "description": "Udacity is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
+    },
+    "Course Report": {
+        "image": "https://www.coursereport.com/favicon.ico",
+        "title": "Course Report",
+        "tags": ["free", "paid", "online courses", "career advice", "bootcamps"],
+        "url": "https://www.coursereport.com",
+        "description": "Course Report is a job search platform focused on coding bootcamps, offering reviews, advice, and job listings for job seekers in the tech industry."
+    },
+    "Springboard": {
+        "image": "https://www.springboard.com/favicon.ico",
+        "title": "Springboard",
+        "tags": ["paid", "online courses", "certifications", "career development"],
+        "url": "https://www.springboard.com",
+        "description": "Springboard is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
+    },
+    "Thinkful": {
+        "image": "https://www.thinkful.com/favicon.ico",
+        "title": "Thinkful",
+        "tags": ["paid", "online courses", "certifications", "tech jobs"],
+        "url": "https://www.thinkful.com",
+        "description": "Thinkful is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
+    },
+    "Le Wagon": {
+        "image": "https://www.lewagon.com/assets/v4/logo-lewagon-9c19fb39a748cd3b1f49059ce0dc6c0dfc4cc2447d5a9a3e01bd2d5a214faf3c.svg",
+        "title": "Le Wagon",
+        "tags": ["paid", "bootcamp", "programming", "career development"],
+        "url": "https://www.lewagon.com",
+        "description": "Le Wagon is a bootcamp platform offering intensive courses in programming and web development, with a focus on career development and job readiness."
+    },
+    "General Assembly": {
+        "image": "https://www.generalassemb.ly/favicon.ico",
+        "title": "General Assembly",
+        "tags": ["paid", "bootcamp", "programming", "career development"],
+        "url": "https://www.generalassemb.ly",
+        "description": "General Assembly is a bootcamp platform offering courses in programming, data science, and digital marketing, with a focus on career development and job readiness."
+    },
+    "Flatiron School": {
+        "image": "https://www.flatironschool.com/favicon.ico",
+        "title": "Flatiron School",
+        "tags": ["paid", "bootcamp", "programming", "career development"],
+        "url": "https://www.flatironschool.com",
+        "description": "Flatiron School is a bootcamp platform offering courses in programming, data science, and cybersecurity, with a focus on career development and job readiness."
+    },
+    "udemy": {
+        "image": "https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v7/logo-udemy.svg",
+        "title": "Udemy",
+        "tags": ["free", "paid", "online courses", "career development", "programming"],
+        "url": "https://www.udemy.com",
+        "description": "Udemy is an online learning platform offering courses in a wide range of subjects, with a focus on career development and job readiness."
+    },
+    "Edureka": {
+        "image": "https://www.edureka.co/favicon.ico",
+        "title": "Edureka",
+        "tags": ["paid", "online courses", "certifications", "tech jobs"],
+        "url": "https://www.edureka.co",
+        "description": "Edureka is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
+    },
+    "Codecademy": {
+        "image": "https://www.codeacademy.com/favicon.ico",
+        "title": "Codecademy",
+        "tags": ["free", "paid", "online courses", "programming", "career development"],
+        "url": "https://www.codecademy.com",
+        "description": "Codecademy is an online learning platform offering courses and certifications in programming and coding, with a focus on career development and job readiness."
+    },
+    "Pluralsight": {
+        "image": "https://www.pluralsight.com/content/dam/ps-nav-assets/product-logo/pluralsight-skills-white.png",
+        "title": "Pluralsight",
+        "tags": ["paid", "online courses", "certifications", "tech jobs"],
+        "url": "https://www.pluralsight.com",
+        "description": "Pluralsight is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness."
+    },
+    "App Academy": {
+        "image": "https://cdn.prod.website-files.com/5dcc7f8c449e597ed83356b8/5f67de36ede6437f9bef0d4d_logo-full-white%20(1).svg",
+        "title": "App Academy",
+        "tags": ["paid", "bootcamp", "programming", "career development"],
+        "url": "https://www.appacademy.io",
+        "description": "App Academy is a bootcamp platform offering courses in programming and web development, with a focus on career development and job readiness."
+    },    
+    "Alison": {
+        "image": "https://www.alison.com/favicon.ico",
+        "title": "Alison",
+        "tags": ["free", "online courses", "certifications", "career development"],
+        "url": "https://www.alison.com",
+        "description": "Alison is an online learning platform offering free courses and certifications, with a focus on career development and job skills."
+    }
+}
