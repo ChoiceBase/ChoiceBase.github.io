@@ -69,6 +69,7 @@ function createCard(cardData) {
     return card;
 }
 
+// Function to display cards for the current page
 function displayCards(cardsData) {
     const cardContainer = document.getElementById('card-container');
     cardContainer.innerHTML = ''; // Clear existing cards
@@ -85,6 +86,7 @@ function displayCards(cardsData) {
     setupPagination(cardsData.length);
 }
 
+// Function to setup pagination controls
 function setupPagination(totalCards) {
     const paginationContainer = document.getElementById('pagination');
     paginationContainer.innerHTML = ''; // Clear existing pagination
@@ -125,6 +127,7 @@ function setupPagination(totalCards) {
     paginationContainer.appendChild(nextButton);
 }
 
+// Function to load JSON data from multiple files and merge them
 function loadCards(fileNames) {
     let mergedData = {};
 
@@ -139,6 +142,8 @@ function loadCards(fileNames) {
             .then(data => {
                 Object.assign(mergedData, data);
                 allCards = Object.values(mergedData);
+                // Sort the cards alphabetically by title
+                allCards.sort((a, b) => a.title.localeCompare(b.title));
             })
             .catch(error => console.error('Error loading card data:', error));
     };
@@ -154,6 +159,7 @@ function loadCards(fileNames) {
         .catch(error => console.error('Error processing loaded data:', error));
 }
 
+// Function to display unique tags from all cards
 function displayAllTags() {
     const tags = new Set();
     allCards.forEach(card => {
@@ -177,6 +183,7 @@ function displayAllTags() {
     });
 }
 
+// Function to filter cards based on selected tag
 function filterCardsByTag(tag, isSelected) {
     if (isSelected) {
         filteredCards = allCards.filter(card => card.tags && card.tags.includes(tag));
@@ -187,6 +194,7 @@ function filterCardsByTag(tag, isSelected) {
     displayCards(filteredCards);
 }
 
+// Function to search through cards based on query
 function searchCards(query) {
     const lowerCaseQuery = query.toLowerCase();
     console.log('Searching for:', lowerCaseQuery); // Log the query
@@ -204,11 +212,12 @@ function searchCards(query) {
     displayCards(filteredCards);
 }
 
-// Attach event listener to the search box
+// Event listener for search box
 document.getElementById('search-box').addEventListener('input', (e) => {
     searchCards(e.target.value);
 });
 
+// Initialize cards loading and display
 function initializeCards() {
     const contentElement = document.getElementById('content');
     if (contentElement) {
@@ -225,8 +234,6 @@ function initializeCards() {
         console.error('Element with ID "content" not found.');
     }
 }
-
-
 
 document.addEventListener('DOMContentLoaded', function() {
     initializeCards();
