@@ -4,7 +4,7 @@ document.getElementById('global-search').addEventListener('input', function(e) {
     
     // If search query is empty, load default content
     if (!query) {
-        loadPage('index.html'); // Load the default homepage
+        loadPage('home.html'); // Load the default homepage
         return;
     }
 

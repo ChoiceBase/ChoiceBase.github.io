@@ -164,14 +164,17 @@ function displayAllTags() {
     const tags = new Set();
     allCards.forEach(card => {
         if (card.tags) {
-            card.tags.forEach(tag => tags.add(tag));
+            card.tags.forEach(tag => tags.add(tag.toUpperCase())); // Convert tags to uppercase and add to the Set
         }
     });
+
+    // Convert Set to Array, sort it alphabetically
+    const sortedTags = Array.from(tags).sort();
 
     const tagsContainer = document.getElementById('tags-container');
     tagsContainer.innerHTML = '';
 
-    tags.forEach(tag => {
+    sortedTags.forEach(tag => {
         const tagElement = document.createElement('span');
         tagElement.className = 'tag';
         tagElement.textContent = tag;
