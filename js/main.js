@@ -55,7 +55,7 @@ function loadPage(page) {
 
 // Load default content on page load
 window.onload = function() {
-    loadPage('index.html');
+    loadPage('upskil.html');
     
 };
 
