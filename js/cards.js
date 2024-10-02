@@ -217,6 +217,13 @@ document.getElementById('search-box').addEventListener('input', (e) => {
     searchCards(e.target.value);
 });
 
+document.getElementById('clear-filters').addEventListener('click', () => {
+    filteredCards = [];
+    currentPage = 1;
+    displayCards(allCards);
+    document.getElementById('search-box').value = ''; // Clear search input
+});
+
 // Initialize cards loading and display
 function initializeCards() {
     const contentElement = document.getElementById('content');
