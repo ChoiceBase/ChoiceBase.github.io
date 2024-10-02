@@ -1,0 +1,74 @@
+
+/* Mobile Styles for Navigation */
+@media (max-width: 768px) {
+
+    body {
+        background-attachment: scroll; /* Allow the background to scroll with the content */
+        background-image: url('/images/worldmap.png'); /* Background image */
+        background-position: center;
+        background-repeat: repeat; /* Allow the background to repeat */
+    
+    }
+
+    nav {
+        text-align: left;
+        background-color: gray; 
+    }
+    
+    .menu-icon {
+        display: block; /* Show the hamburger icon */
+        cursor: pointer;
+        margin-bottom: 10px; /* Add margin to separate from nav links */
+        font-size: 24px; /* Adjust font size as needed */
+        text-align: left; /* Center the icon */
+    }
+    .nav-links {
+        flex-direction: column; /* Stack links vertically */
+        display: none; /* Hide the menu by default */
+        width: 100%;
+        padding: 0 10px; /* Add padding for better spacing */
+        position: absolute; /* Position it above other content */
+        margin-top: 50px;
+    }
+
+    .nav-links.show {
+        display: flex; /* Show the menu when activated */
+    }
+
+    .nav-links li {
+        margin: 0 0 0 20px; /* Adjusted margin to separate items */
+        padding: 5px;
+        text-align: none; /* Center the text for links */
+        background-color: gray;
+        width: fit-content;
+        border-radius: 4px; /* Optional: add rounded corners */
+        transition: background-color 0.3s; /* Optional: smooth transition for hover effect */
+        
+    }
+
+    /* .nav-links {
+        flex-direction: column;
+        display: block; /* Hide the menu by default *
+        background-color: gray; /* Set background color for mobile nav 
+        width: 100%;
+        top: 60px; /* Adjust as needed based on your header height 
+        left: 0;
+        z-index: 1000; /* Ensure it appears above other content *
+        padding: 10px 0; /* Add padding for better spacing *
+    }
+
+    .nav-links.show {
+        display: flex; /* Show the menu when activated *
+    }
+
+    .nav-links li {
+        margin: 10px 0
+        list-style: none; /* Optional: remove bullet points *
+    }
+
+    .menu-icon {
+        display: block; /* Show the hamburger icon on smaller screens *
+        cursor: pointer; /* Change cursor to pointer *
+        z-index: 1001; /* Ensure icon appears above menu *
+    } */
+}

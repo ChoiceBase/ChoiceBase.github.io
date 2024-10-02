@@ -1,17 +1,33 @@
 /* General styles for the navigation */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white; /* Set body background color to white */
+    background-image: url('/images/worldmap.png'); /* Background image */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* General styles for the navigation */
 nav {
-    background-color: #333;
+    background-color: gray; /* Navigation background color */
     color: white;
     padding: 10px;
 }
 
+/* Styling for the navigation links */
 .nav-links {
+    display: block; /* Show the hamburger icon */
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: row;
-    height: 0px;
+    position: relative; /* Position it above other content */
 }
 
 .nav-links li {
@@ -19,22 +35,59 @@ nav {
 }
 
 .nav-links a {
+    color: white;              /* Default text color for nav links */
+    text-decoration: none;     /* Remove underline */
+    padding: 10px 15px;       /* Add padding for clickable area */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Change background and text color when hovering over links */
+.nav-links a:hover {
+    background-color: #ff6347; /* Tomato color on hover */
+    color: white;              /* Keep text color white on hover */
+}
+
+.nav-links a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
+/* Styling for the navigation links */
+.nav-links a {
+    color: white;              /* Default text color */
+    text-decoration: none;     /* Remove underline */
+    padding: 10px;             /* Add padding to make the link easier to click */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
 
+/* Change background and text color when hovering over links */
+.nav-links a:hover {
+    background-color: #ff6347; /* Background color when hovered (tomato color) */
+    color: black;              /* Change text color to black */
+    border-radius: 4px;        /* Optional: make the corners round when hovered */
+}
+
+/* Button hover style */
+button:hover {
+    background-color: #007BFF; /* Change the background color on hover */
+    color: white;              /* Change text color on hover */
+}
+
+/* Dropdown hover style */
+.dropdown:hover .dropdown-content {
+    display: block; /* Show the dropdown content on hover */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Light gray background for dropdown items on hover */
+    color: black;              /* Text color on hover */
+}
 /* Hamburger menu icon */
 .menu-icon {
     height: 0px;
     display: none;
     font-size: 24px;
     cursor: pointer;
-}
-
-/* Add transition effect */
-.nav-links {
-    transition: all 0.3s ease-in-out;
 }
 
 /* Footer */
@@ -64,75 +117,17 @@ footer {
     border-radius: 4px;
 }
 
-/* Body & Background */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* Fallback */
-    background-image: url('/images/worldmap.png'); /* Background image */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 /* Content Section */
 #contentSection {
-    background-color: rgba(194, 123, 194, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 h1 {
     text-align: center;
 }
 
-/* Mobile Styles for Navigation */
-@media (max-width: 768px) {
-    .nav-links {
-        flex-direction: column;
-        display: none; /* Initially hidden */
-        background-color: #333;
-        width: 100%;
-        font-size: 18px; /* Larger font for better readability */
-    }
-
-    .nav-links.show {
-        display: flex; /* Show when active */
-    }
-
-    .nav-links li {
-        margin: 10px 0; /* Add vertical spacing */
-    }
-
-    .nav-links a {
-        padding: 10px;
-        font-size: 20px; /* Increase font size for mobile */
-        text-align: center;
-    }
-
-    .menu-icon {
-        display: block; /* Show hamburger menu icon */
-    }
-
-    nav {
-        text-align: center;
-    }
-}
-
-/* Responsive Background */
-@media (min-width: 768px) {
-    body {
-        background-attachment: fixed;
-        background-position: center center;
-    }
-}
-
-@media (max-width: 767px) {
-    body {
-        background-attachment: scroll;
-        background-position: center center;
-        background-size: contain;
-    }
-}
 
 /* Content Styling */
 .content {
