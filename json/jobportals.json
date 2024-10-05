@@ -1,209 +1,11 @@
 {
 
-    "Truelancer": {
-        "image": "https://static.truelancer.com/truelancer-logo-dark-background_small.png",
-        "title": "Truelancer",
-        "tags": ["limited", "remote work", "freelance", "North Africa"],
-        "url": "https://www.truelancer.com/",
-        "description": "Truelancer is an Online Platform for Employers to Hire Professionals to get their work done and Freelancers and Professionals can Search Jobs and Earn money by working with real clients across the world"
-    },
-    "Bayt": {
-        "image": "https://www.bayt.com/favicon.ico",
-        "title": "Bayt",
-        "tags": ["free", "remote work", "Middle East", "North Africa"],
-        "url": "https://www.bayt.com/",
-        "description": "Bayt.com is the leading job site in the Middle East and North Africa, connecting job seekers with employers looking to hire. Every day, thousands of new job"
-    },
-    "Airtable": {
-        "image": "https://airtable.com/favicon.ico",
-        "title": "Airtable",
-        "tags": ["limited", "freelance", "remote work", "usa", "weekly alerts"],
-        "url": "https://airtable.com",
-        "description": "Flexible Airtable jobs posted previously include remote jobs with full-time schedules that have been open to applicants across the United States"
-    },
-    "Upwork": {
-        "image": "https://www.upwork.com/favicon.ico",
-        "title": "Upwork",
-        "tags": ["free", "freelance", "remote work", "gig economy"],
-        "url": "https://www.upwork.com",
-        "description": "Upwork is a freelance job platform that connects freelancers with clients for various tasks and projects, focusing on remote work and the gig economy."
-    },
-    "National Career Service": {
-        "image": "https://www.ncs.gov.in/_layouts/15/images/ncsp/ui20/logoNationalEmblem.png",
-        "title": "National Career Service",
-        "tags": ["free", "government jobs", "fresher"],
-        "url": "https://www.ncs.gov.in/",
-        "description": "National Career Service Project (NCS) is a mission mode project under Ministry of Labour and Employment that provides a host of career-related services."
-    },
-    "Olibr": {
-        "image": "https://olibr.com/_next/static/media/logo.b216b4b5.svg",
-        "title": "Pagaar",
-        "tags": ["free", "tech jobs", "fresher"],
-        "url": "https://olibr.com/",
-        "description": "Connect with top software developers and engineers worldwide. Olibr simplifies global tech recruitment, offering access to a vast network of tech talent"
-    },
-    "Pagaar": {
-        "image": "https://pagaar.ai/assets/image-DLvEmWrW.png",
-        "title": "Pagaar",
-        "tags": ["free", "tech jobs", "offical"],
-        "url": "https://pagaar.ai/",
-        "description": "Automate your entire job search and application journey with pagaar. Pagaar.ai trying to revolutionize the way people look for jobs, by creating an all-in-one platform to solve all the needs of a job seeker."
-    },
-    "Dice": {
-        "image": "https://www.dice.com/favicon.ico",
-        "title": "Dice",
-        "tags": ["free", "paid", "tech jobs", "part time", "reomote", "usa"],
-        "url": "https://www.dice.com",
-        "description": "Dice is a job board focused on technology and IT jobs, offering job listings, career advice, and tools for tech professionals to advance their careers."
-    },
-    "designcrowd": {
-        "image": "https://www.designcrowd.com/favicon.ico",
-        "title": "DesignCrowd",
-        "tags": ["free", "paid", "freelance", "remote work", "design"],
-        "url": "https://www.designcrowd.com",
-        "description": "DesignCrowd is a freelance job platform focused on design projects, connecting designers with clients for various design tasks and projects, with a focus on remote work."
-    },
-    "CareerJet": {
-        "image": "https://www.careerjet.com/favicon.ico",
-        "title": "CareerJet",
-        "tags": ["free", "usa", "resume"],
-        "url": "https://www.careerjet.com",
-        "description": "CareerJet is a job search engine that aggregates job listings from various sources, providing a comprehensive job search experience for job seekers worldwide."
-    },
-    "Built In": {
-        "image": "https://static.builtin.com/dist/images/bi-header-logo.svg",
-        "title": "Built In",
-        "tags": ["free", "high paid", "tech jobs", "startup jobs"],
-        "url": "https://www.builtin.com",
-        "description": "Built In is a job board focused on tech and startup jobs, offering job listings, company profiles, and insights into the tech industry."
-    },    
-    "Authentic": {
-        "image": "https://authenticjobs.com/wp-content/themes/authenticjobs/assets/img/logos/aj-logo-light.svg",
-        "title": "Authentic Jobs",
-        "tags": ["free", "paid", "tech jobs", "design", "freelance", "Non IT"],
-        "url": "https://www.authenticjobs.com",
-        "description": "Authentic Jobs is a job search platform focused on tech and design jobs, offering job listings, resume posting, and career advice for job seekers in the creative industry."
-    },
-    "wellfound": {
-        "image": "https://wellfound.com/assets/logo/wellfound-transitionlogo-black-40ce2b7cda01e53a6e5a8775a6d020fd2c081bfe93cdce89ac24f77070075f5e.svg",
-        "title": "wellfound",
-        "tags": ["free", "startups", "tech jobs", "high paid"],
-        "url": "https://wellfound.com/",
-        "description": "wellfound is a platform for job seekers looking to work with startups, offering job listings, company profiles, and investment opportunities."
-    },
-    "Adecco": {
-        "image": "https://www.adecco.com/-/jssmedia/project/adecco/global/wfs/logos/headerlogo/home-logo.svg?mw=1920",
-        "title": "Adecco",
-        "tags": ["paid", "recruitment", "temp jobs", "contract jobs", "Non IT"],
-        "url": "https://www.adecco.com",
-        "description": "Adecco is a global recruitment agency that provides job listings, career advice, and staffing solutions for temporary, contract, and permanent positions."
-    },
-    "99designs": {
-        "image": "https://www.99designs.com/favicon.ico",
-        "title": "99designs",
-        "tags": ["free", "paid", "freelance", "remote work", "design"],
-        "url": "https://www.99designs.com",
-        "description": "99designs is a freelance job platform focused on design projects, connecting designers with clients for various design tasks and projects, with a focus on remote work."
-    },
-    "Naukri": {
-        "image": "https://static.naukimg.com/s/0/0/i/naukri-identity/naukri_gnb_logo.svg",
-        "title": "Naukri",
-        "tags": ["free", "resume", "autosuggest"],
-        "url": "https://www.naukri.com/",
-        "description": "Connect with 20000+ employers. Apply to millions of job opportunities across top companies,industries and locations on India's No.1 jo site. Apply online"
-    },
-    "cutshort": {
-        "image": "https://cutshort.io/_next/image?url=https%3A%2F%2Fcdn.cutshort.io%2Fpublic%2Fimages%2Fnew_logo_half.png&w=32&q=75",
-        "title": "Cutshort",
-        "tags": ["free", "paid", "limited", "resume", "test", "app"],
-        "url": "https://cutshort.io/",
-        "price": "2500 per month",
-        "description": "Cutshort is the #1 tech hiring platform in India. Connect with top talent, engage with them and close positions to execute your vision, faster."
-    },
-    "Ladders": {
-        "image": "https://www.theladders.com/favicon.ico",
-        "title": "The Ladders",
-        "tags": ["paid", "executive jobs", "resume", "career advice"],
-        "url": "https://www.theladders.com",
-        "price": "$50 per month",
-        "description": "The Ladders is a job board focused on high-paying and executive-level jobs, offering job listings, resume posting, and career advice for professionals."
-    },
-    "2coms": {
-        "image": "https://www.2coms.com/images/logo.png",
-        "title": "2coms",
-        "tags": ["free", "executive jobs", "resume", "spam"],
-        "url": "https://www.2coms.com/",
-        "description": "India's best Placement Agency, Manpower consultancy and recruitment firm helping businesses with staffing, leadership hiring, apprenticeship."
-    },
-    "Indeed": {
-        "image": "https://www.indeed.com/favicon.ico",
-        "title": "Indeed",
-        "tags": ["free", "paid", "global", "resume"],
-        "url": "https://www.indeed.com",
-        "description": "Indeed is one of the world's largest job search engines, providing millions of job listings, company reviews, and salary information for job seekers globally."
-    },
-    "LinkedIn": {
-        "image": "https://www.linkedin.com/favicon.ico",
-        "title": "LinkedIn",
-        "tags": ["free", "network build", "resume"],
-        "url": "https://www.linkedin.com/jobs",
-        "description": "LinkedIn is the world's largest professional networking platform, offering job listings, company insights, and a network of professionals for career development."
-    },
-    "Foundit": {
-        "image": "https://media.foundit.in/public/core/images/founditLogo-primary.png",
-        "title": "Foundit",
-        "tags": ["free", "paid", "learn", "resume", "career advice"],
-        "url": "https://www.foundit.in/",
-        "description": "Foundit is a global job search platform that provides job listings, resume posting, and career advice for job seekers in various industries."
-    },
-    "Glassdoor": {
-        "image": "https://www.glassdoor.com/favicon.ico",
-        "title": "Glassdoor",
-        "tags": ["free", "paid", "company reviews", "salary information"],
-        "url": "https://www.glassdoor.com",
-        "description": "Glassdoor offers job listings along with company reviews, interview tips, and salary information to help job seekers make informed career decisions."
-    },
-    "ZipRecruiter": {
-        "image": "https://www.ziprecruiter.com/favicon.ico",
-        "title": "ZipRecruiter",
-        "tags": ["free", "resume", "alerts", "remote"],
-        "url": "https://www.ziprecruiter.com",
-        "description": "ZipRecruiter is an online employment marketplace that connects job seekers with employers by providing job listings, resume posting, and job alerts."
-    },
-    "7": {
-        "image": "https://www.simplyhired.com/favicon.ico",
-        "title": "SimplyHired",
-        "tags": ["free", "paid", "salary information", "resume"],
-        "url": "https://www.simplyhired.com",
-        "description": "SimplyHired is a job search engine that aggregates job listings from across the web, offering salary information, company reviews, and job alerts."
-    },
     "8": {
         "image": "https://www.snagajob.com/favicon.ico",
         "title": "Snagajob",
-        "tags": ["free", "paid", "hourly jobs", "part-time", "full-time"],
+        "tags": ["free", "paid", "hourly", "part-time", "full-time"],
         "url": "https://www.snagajob.com",
         "description": "Snagajob focuses on hourly jobs, offering part-time and full-time job listings, with a simple application process for job seekers."
-    },
-    "9": {
-        "image": "https://www.usajobs.gov/favicon.ico",
-        "title": "USAJOBS",
-        "tags": ["free", "government jobs", "federal", "US"],
-        "url": "https://www.usajobs.gov",
-        "description": "USAJOBS is the official job site of the United States federal government, providing job listings for federal positions across various agencies."
-    },
-    "10": {
-        "image": "https://www.weworkremotely.com/favicon.ico",
-        "title": "We Work Remotely",
-        "tags": ["free", "remote jobs", "global", "full-time", "part-time"],
-        "url": "https://www.weworkremotely.com",
-        "description": "We Work Remotely is a job board for remote job listings, connecting job seekers with companies offering remote work opportunities in various fields."
-    },
-    "11": {
-        "image": "https://www.remoteco.com/favicon.ico",
-        "title": "Remote.co",
-        "tags": ["free", "remote jobs", "global", "full-time", "part-time"],
-        "url": "https://www.remote.co",
-        "description": "Remote.co is a job board focused on remote work opportunities, providing job listings for remote positions in various industries worldwide."
     },
     "13": {
         "image": "https://www.themuse.com/favicon.ico",
@@ -212,17 +14,10 @@
         "url": "https://www.themuse.com",
         "description": "The Muse provides job listings along with company insights, career advice, and resources to help job seekers find the right career fit."
     },
-    "14": {
-        "image": "https://www.flexjobs.com/favicon.ico",
-        "title": "FlexJobs",
-        "tags": ["paid", "remote jobs", "flexible jobs", "global"],
-        "url": "https://www.flexjobs.com",
-        "description": "FlexJobs is a subscription-based job board for remote, flexible, and freelance job opportunities, with a focus on work-life balance."
-    },
     "15": {
         "image": "https://www.remoteyear.com/favicon.ico",
         "title": "Remote Year",
-        "tags": ["paid", "remote jobs", "global", "travel", "community"],
+        "tags": ["paid", "remote", "global", "travel", "community"],
         "url": "https://www.remoteyear.com",
         "description": "Remote Year offers remote work programs and job opportunities for professionals seeking to work and travel while being part of a global community."
     },
@@ -257,21 +52,21 @@
     "21": {
         "image": "https://www.eluta.ca/favicon.ico",
         "title": "Eluta",
-        "tags": ["free", "Canada", "resume"],
+        "tags": ["free",  "resume"],
         "url": "https://www.eluta.ca",
         "description": "Eluta is a Canadian job search engine that provides job listings from various employers, along with company reviews and salary information."
     },
     "22": {
         "image": "https://www.wowjobs.ca/favicon.ico",
         "title": "WowJobs",
-        "tags": ["free", "Canada", "resume"],
+        "tags": ["free",  "resume"],
         "url": "https://www.wowjobs.ca",
         "description": "WowJobs is a Canadian job search engine that aggregates job listings from various sources, providing a comprehensive job search experience for job seekers."
     },
     "23": {
         "image": "https://www.workopolis.com/favicon.ico",
         "title": "Workopolis",
-        "tags": ["free", "paid", "Canada", "resume"],
+        "tags": ["free", "paid",  "resume"],
         "url": "https://www.workopolis.com",
         "description": "Workopolis is a Canadian job search platform that offers job listings, resume posting, and career advice for job seekers in various industries."
     },
@@ -292,7 +87,7 @@
     "28": {
         "image": "https://www.roberthalf.com/favicon.ico",
         "title": "Robert Half",
-        "tags": ["paid", "recruitment", "temp jobs", "contract jobs"],
+        "tags": ["paid", "recruitment", "temp", "contract"],
         "url": "https://www.roberthalf.com",
         "description": "Robert Half is a recruitment agency that offers job listings, career advice, and staffing solutions for temporary, contract, and permanent positions."
     },
@@ -306,28 +101,28 @@
     "30": {
         "image": "https://www.randstad.com/favicon.ico",
         "title": "Randstad",
-        "tags": ["paid", "recruitment", "temp jobs", "contract jobs"],
+        "tags": ["paid", "recruitment", "temp", "contract"],
         "url": "https://www.randstad.com",
         "description": "Randstad is a global recruitment agency that offers job listings, career advice, and staffing solutions for temporary, contract, and permanent positions."
     },
     "31": {
         "image": "https://www.manpowergroup.com/favicon.ico",
         "title": "Manpower",
-        "tags": ["paid", "recruitment", "temp jobs", "contract jobs"],
+        "tags": ["paid", "recruitment", "temp", "contract"],
         "url": "https://www.manpowergroup.com",
         "description": "Manpower is a global recruitment agency that provides job listings, career advice, and staffing solutions for temporary, contract, and permanent positions."
     },
     "32": {
         "image": "https://www.kellyservices.com/favicon.ico",
         "title": "Kelly Services",
-        "tags": ["paid", "recruitment", "temp jobs", "contract jobs"],
+        "tags": ["paid", "recruitment", "temp", "contract"],
         "url": "https://www.kellyservices.com",
         "description": "Kelly Services is a global recruitment agency that offers job listings, career advice, and staffing solutions for temporary, contract, and permanent positions."
     },
     "34": {
         "image": "https://www.experis.com/favicon.ico",
         "title": "Experis",
-        "tags": ["paid", "recruitment", "tech jobs", "contract jobs"],
+        "tags": ["paid", "recruitment", "tech", "contract"],
         "url": "https://www.experis.com",
         "description": "Experis is a recruitment agency specializing in IT, engineering, and healthcare jobs, offering job listings, career advice, and staffing solutions for professionals."
     },
@@ -338,53 +133,335 @@
         "url": "https://www.topresume.com",
         "description": "TopResume provides resume writing services and career advice to help job seekers create a professional resume and improve their chances of landing a job."
     },
-    "69": {
-        "image": "https://www.angel.co/favicon.ico",
-        "title": "AngelList",
-        "tags": ["free", "paid", "startups", "tech jobs"],
-        "url": "https://www.angel.co",
-        "description": "AngelList is a job search platform focused on startup jobs, offering job listings, networking opportunities, and career advice for job seekers in the tech industry."
-    },
-    "71": {
-        "image": "https://www.dice.com/favicon.ico",
-        "title": "Dice",
-        "tags": ["free", "paid", "tech jobs", "resume"],
-        "url": "https://www.dice.com",
-        "description": "Dice is a job search platform focused on tech and IT jobs, offering job listings, resume posting, and career advice for job seekers in the tech industry."
-    },
-    "72": {
-        "image": "https://www.fiverr.com/favicon.ico",
-        "title": "Fiverr",
-        "tags": ["free", "paid", "freelance", "remote work", "gig economy"],
-        "url": "https://www.fiverr.com",
-        "description": "Fiverr is a freelance job platform where freelancers can offer services, and clients can find talent for various tasks, focusing on remote and gig economy jobs."
-    },
-    "74": {
-        "image": "https://www.freelancer.com/favicon.ico",
-        "title": "Freelancer",
-        "tags": ["free", "paid", "freelance", "remote work", "gig economy"],
-        "url": "https://www.freelancer.com",
-        "description": "Freelancer is a global freelance job platform where freelancers can offer services, and clients can find talent for various tasks, focusing on remote work and gig economy jobs."
-    },
     "75": {
         "image": "https://www.guru.com/favicon.ico",
         "title": "Guru",
-        "tags": ["free", "paid", "freelance", "remote work", "gig economy"],
+        "tags": ["free", "paid", "freelance", "remote", "gig economy"],
         "url": "https://www.guru.com",
         "description": "Guru is a freelance job platform that connects freelancers with clients for various tasks and projects, focusing on remote work and the gig economy."
-    },
-    "76": {
-        "image": "https://www.toptal.com/favicon.ico",
-        "title": "Toptal",
-        "tags": ["free", "paid", "freelance", "remote work", "gig economy"],
-        "url": "https://www.toptal.com",
-        "description": "Toptal is a freelance job platform that connects top freelancers with clients for high-quality tasks and projects, focusing on remote work and the gig economy."
     },
     "77": {
         "image": "https://www.peopleperhour.com/favicon.ico",
         "title": "PeoplePerHour",
-        "tags": ["free", "paid", "freelance", "remote work", "gig economy"],
+        "tags": ["free", "paid", "freelance", "remote", "gig economy"],
         "url": "https://www.peopleperhour.com",
         "description": "PeoplePerHour is a freelance job platform that connects freelancers with clients for various tasks and projects, focusing on remote work and the gig economy."
+    },
+    "USAJOBS": {
+        "image": "https://www.usajobs.gov/img/icons/red-2x.svg",
+        "title": "USAJOBS",
+        "tags": ["free", "government", "federal", "US"],
+        "url": "https://www.usajobs.gov",
+        "description": "USAJOBS is the official job site of the United States federal government, providing job listings for federal positions across various agencies."
+    },
+    "Fiverr": {
+        "image": "https://www.fiverr.com/favicon.ico",
+        "title": "Fiverr",
+        "tags": ["free", "paid", "freelance", "remote", "gig economy"],
+        "url": "https://www.fiverr.com",
+        "description": "Fiverr is a freelance job platform where freelancers can offer services, and clients can find talent for various tasks, focusing on remote and gig economy jobs."
+    },
+    "Freelancer": {
+        "image": "https://www.freelancer.com/favicon.ico",
+        "title": "Freelancer",
+        "tags": ["free", "paid", "freelance", "remote", "gig economy"],
+        "url": "https://www.freelancer.com",
+        "description": "Freelancer is a global freelance job platform where freelancers can offer services, and clients can find talent for various tasks, focusing on remote work and gig economy jobs."
+    },
+    "Toptal": {
+        "image": "https://assets.toptal.io/images?url=https%3A%2F%2Fwww.toptal.com%2Ftoptal-logo.png&width=360",
+        "title": "Toptal",
+        "tags": ["exclusive", "network", "top companies", "Freelance"],
+        "url": "https://www.toptal.com",
+        "description": "Toptal is a freelance job platform that connects top freelancers with clients for high-quality tasks and projects, focusing on remote work and the gig economy."
+    },
+    "RemoteWoman": {
+        "image": "https://remotewoman.com/wp-content/uploads/2021/05/cropped-rw_twitter-2.png",
+        "title": "RemoteWoman",
+        "tags": ["Women", "remote", "freelance"],
+        "url": "https://remotewoman.com/",
+        "description": "Women have the opportunity to work from home, enhancing their productivity and flexibility"
+    },
+    "wellfound": {
+        "image": "https://wellfound.com/assets/logo/wellfound-transitionlogo-black-40ce2b7cda01e53a6e5a8775a6d020fd2c081bfe93cdce89ac24f77070075f5e.svg",
+        "title": "wellfound",
+        "tags": ["free", "startups", "tech", "high paid", "remote"],
+        "url": "https://wellfound.com/",
+        "description": "wellfound is a platform for job seekers looking to work with startups, offering job listings, company profiles, and investment opportunities."
+    },
+    "Remotive": {
+        "image": "https://remotive.com/remotive_website_layout/static/src/brand/SVG/wordmark_H_orange.svg",
+        "title": "Remotive",
+        "tags": ["remote",  "tech"],
+        "url": "https://remotive.com",
+        "description": "Over 30,000 jobs, Vetted tech companies, Full remote job opportunities"
+    },
+    "JustRemote": {
+        "image": "https://www.justremote.co/favicon.ico",
+        "title": "JustRemote",
+        "tags": ["remote", "flexible", "us"],
+        "url": "https://justremote.co/",
+        "description": "Jobs that fit your life, Fully and partially remote, Top remote working companies"
+    },
+    "PowerToFly": {
+        "image": "https://www.powertofly.com/favicon.ico",
+        "title": "PowerToFly",
+        "tags": ["diversity", "remote", "tech", "global"],
+        "url": "https://powertofly.com/",
+        "description": "2987 Remote jobs, Jobs tailored to your skillset, Land a job at a company committed to diversity & inclusion"
+    },
+    "AlJobs": {
+        "image": "https://jboard-tenant.s3.us-west-1.amazonaws.com/logos/sTXwmQNHwaiER6Z9y69AtYJ6DJaMKi8xoXZLp9Gc.png",
+        "title": "Al",
+        "tags": ["AI", "top companies", "remote", "global"],
+        "url": "https://theaijobboard.com",
+        "description": "Top AI job board, Full-time remote jobs, Top 1% of AI companies"
+    },
+    "WorkingNomads": {
+        "image": "https://d262ri5vl0r1ym.cloudfront.net/jobs/img/logo.png",
+        "title": "Working Nomads",
+        "tags": ["nomad", "remote", "global"],
+        "url": "https://www.workingnomads.com/",
+        "description": "100% remote jobs, Work from anywhere, For digital working nomads"
+    },
+    "SimplyHired": {
+        "image": "https://www.simplyhired.com/next-assets/simplyhired-logo.svg",
+        "title": "SimplyHired",
+        "tags": ["job search", "remote", "global"],
+        "url": "https://simplyhired.com",
+        "description": "SimplyHired is a job search engine that aggregates job listings from across the web, offering salary information, company reviews, and job alerts."
+    },
+    "AngelList": {
+        "image": "https://www.angel.co/favicon.ico",
+        "title": "AngelList",
+        "tags": ["startups",  "paid", "tech"],
+        "url": "https://angel.co/",
+        "description": "AngelList is a job search platform focused on startup jobs, offering job listings, networking opportunities, and career advice for job seekers in the tech industry."
+    },
+    "Remote.co": {
+        "image": "https://remoteco.s3.amazonaws.com/wp-content/uploads/2019/04/Rco_logo_2x.png",
+        "title": "Remote.co",
+        "tags": ["remote", "tech"],
+        "url": "https://remote.co",
+        "description": "Remote.co is a job board focused on remote work opportunities, providing job listings for remote positions in various industries worldwide."
+    },
+    "Dice": {
+        "image": "https://www.dice.com/favicon.ico",
+        "title": "Dice",
+        "tags": ["free", "paid", "tech", "part time", "reomote", "usa"],
+        "url": "https://www.dice.com",
+        "description": "Dice is a job board focused on technology and IT jobs, offering job listings, career advice, and tools for tech professionals to advance their careers."
+    },
+    "Jobspresso": {
+        "image": "https://jobspresso.co/wp-content/uploads/2015/05/cropped-Jobspresso-logo-2-cropped1.png",
+        "title": "Jobspresso",
+        "tags": ["remote", "flexible", "global", "us"],
+        "url": "https://jobspresso.co",
+        "description": "Remote and flexible job opportunities"
+    },
+    "WeWorkRemotely": {
+        "image": "https://weworkremotely.com/assets/IsotypeV2-1ebe3dd57673f3e8d02b7490bc0faaef55d6a95d3a4aaf17298bd3ed503ae7fe.svg",
+        "title": "We Work Remotely",
+        "tags": ["remote", "global", "full-time", "part-time"],
+        "url": "https://weworkremotely.com",
+        "description": "We Work Remotely is a job board for remote job listings, connecting job seekers with companies offering remote work opportunities in various fields."
+    },
+    "RemoteOkEurope": {
+        "image": "https://www.remote4me.com/favicon.ico",
+        "title": "Remote Ok Europe",
+        "tags": ["remote", "Europe", "jobs"],
+        "url": "https://remoteok.io/Europe",
+        "description": "Remote job opportunities across Europe"
+    },
+    "RemoteOfAsia": {
+        "image": "https://www.remote4me.com/favicon.ico",
+        "title": "Remote of Asia",
+        "tags": ["remote", "Asia", "jobs"],
+        "url": "https://remoteok.io/asia",
+        "description": "Remote job opportunities across Asia"
+    },
+    "RemoteOK": {
+        "image": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=85/https://remoteok.com/assets/logo-square.png?1633381266",
+        "title": "RemoteOK",
+        "tags": ["remote", "freelance"],
+        "url": "https://remoteok.com",
+        "description": "Over 600,000 jobs, Work from anywhere, The no. 1 remote job board"
+    },
+    "Remote4Me": {
+        "image": "https://www.remote4me.com/favicon.ico",
+        "title": "remote4me",
+        "tags": ["remote", "custom search", "US"],
+        "url": "https://remote4me.com/",
+        "description": "Customize your remote job search based on location, salary, and more"
+    },
+    "FlexJobs": {
+        "image": "https://www.flexjobs.com/blobcontent/flexjobs/images/fj-logo.svg",
+        "title": "FlexJobs",
+        "tags": ["paid", "remote", "flexible", "global"],
+        "url": "https://www.flexjobs.com",
+        "description": "FlexJobs is a subscription-based job board for remote, flexible, and freelance job opportunities, with a focus on work-life balance."
+    },
+    "AutoApplyJobs": {
+        "image": "https://autoapply.jobs/_next/static/media/AutoApply.Jobs.d1d0c213.svg",
+        "title": "AutoApply.Jobs",
+        "tags": ["auto-apply",  "efficiency", "ai", "paid", "extension"],
+        "url": "https://autoapply.jobs/",
+        "description": "With one click, auto-apply to jobs without any human effort"
+    },
+    "Truelancer": {
+        "image": "https://static.truelancer.com/truelancer-logo-dark-background_small.png",
+        "title": "Truelancer",
+        "tags": ["limited", "remote", "freelance", "North Africa"],
+        "url": "https://www.truelancer.com/",
+        "description": "Truelancer is an Online Platform for Employers to Hire Professionals to get their work done and Freelancers and Professionals can Search Jobs and Earn money by working with real clients across the world"
+    },
+    "Bayt": {
+        "image": "https://www.bayt.com/favicon.ico",
+        "title": "Bayt",
+        "tags": ["free", "remote", "Middle East", "North Africa"],
+        "url": "https://www.bayt.com/",
+        "description": "Bayt.com is the leading job site in the Middle East and North Africa, connecting job seekers with employers looking to hire. Every day, thousands of new job"
+    },
+    "Airtable": {
+        "image": "https://airtable.com/favicon.ico",
+        "title": "Airtable",
+        "tags": ["limited", "freelance", "remote", "usa", "weekly alerts"],
+        "url": "https://airtable.com",
+        "description": "Flexible Airtable jobs posted previously include remote jobs with full-time schedules that have been open to applicants across the United States"
+    },
+    "Upwork": {
+        "image": "https://www.upwork.com/favicon.ico",
+        "title": "Upwork",
+        "tags": ["free", "freelance", "remote", "gig economy"],
+        "url": "https://www.upwork.com",
+        "description": "Upwork is a freelance job platform that connects freelancers with clients for various tasks and projects, focusing on remote work and the gig economy."
+    },
+    "National Career Service": {
+        "image": "https://www.ncs.gov.in/_layouts/15/images/ncsp/ui20/logoNationalEmblem.png",
+        "title": "National Career Service",
+        "tags": ["free", "government", "fresher"],
+        "url": "https://www.ncs.gov.in/",
+        "description": "National Career Service Project (NCS) is a mission mode project under Ministry of Labour and Employment that provides a host of career-related services."
+    },
+    "Olibr": {
+        "image": "https://olibr.com/_next/static/media/logo.b216b4b5.svg",
+        "title": "Pagaar",
+        "tags": ["free", "tech", "fresher"],
+        "url": "https://olibr.com/",
+        "description": "Connect with top software developers and engineers worldwide. Olibr simplifies global tech recruitment, offering access to a vast network of tech talent"
+    },
+    "Pagaar": {
+        "image": "https://pagaar.ai/assets/image-DLvEmWrW.png",
+        "title": "Pagaar",
+        "tags": ["free", "tech", "offical"],
+        "url": "https://pagaar.ai/",
+        "description": "Automate your entire job search and application journey with pagaar. Pagaar.ai trying to revolutionize the way people look for jobs, by creating an all-in-one platform to solve all the needs of a job seeker."
+    },
+    "designcrowd": {
+        "image": "https://www.designcrowd.com/favicon.ico",
+        "title": "DesignCrowd",
+        "tags": ["free", "paid", "freelance", "remote", "design"],
+        "url": "https://www.designcrowd.com",
+        "description": "DesignCrowd is a freelance job platform focused on design projects, connecting designers with clients for various design tasks and projects, with a focus on remote work."
+    },
+    "CareerJet": {
+        "image": "https://www.careerjet.com/favicon.ico",
+        "title": "CareerJet",
+        "tags": ["free", "usa", "resume"],
+        "url": "https://www.careerjet.com",
+        "description": "CareerJet is a job search engine that aggregates job listings from various sources, providing a comprehensive job search experience for job seekers worldwide."
+    },
+    "Built In": {
+        "image": "https://static.builtin.com/dist/images/bi-header-logo.svg",
+        "title": "Built In",
+        "tags": ["free", "high paid", "tech", "startup"],
+        "url": "https://www.builtin.com",
+        "description": "Built In is a job board focused on tech and startup jobs, offering job listings, company profiles, and insights into the tech industry."
+    },    
+    "Authentic": {
+        "image": "https://authenticjobs.com/wp-content/themes/authenticjobs/assets/img/logos/aj-logo-light.svg",
+        "title": "Authentic",
+        "tags": ["free", "paid", "tech", "design", "freelance", "Non IT"],
+        "url": "https://www.authenticjobs.com",
+        "description": "Authentic Jobs is a job search platform focused on tech and design jobs, offering job listings, resume posting, and career advice for job seekers in the creative industry."
+    },
+    "Adecco": {
+        "image": "https://www.adecco.com/-/jssmedia/project/adecco/global/wfs/logos/headerlogo/home-logo.svg?mw=1920",
+        "title": "Adecco",
+        "tags": ["paid", "recruitment", "temp", "contract", "Non IT"],
+        "url": "https://www.adecco.com",
+        "description": "Adecco is a global recruitment agency that provides job listings, career advice, and staffing solutions for temporary, contract, and permanent positions."
+    },
+    "99designs": {
+        "image": "https://www.99designs.com/favicon.ico",
+        "title": "99designs",
+        "tags": ["free", "paid", "freelance", "remote", "design"],
+        "url": "https://www.99designs.com",
+        "description": "99designs is a freelance job platform focused on design projects, connecting designers with clients for various design tasks and projects, with a focus on remote work."
+    },
+    "Naukri": {
+        "image": "https://static.naukimg.com/s/0/0/i/naukri-identity/naukri_gnb_logo.svg",
+        "title": "Naukri",
+        "tags": ["free", "resume", "autosuggest"],
+        "url": "https://www.naukri.com/",
+        "description": "Connect with 20000+ employers. Apply to millions of job opportunities across top companies,industries and locations on India's No.1 jo site. Apply online"
+    },
+    "cutshort": {
+        "image": "https://cutshort.io/_next/image?url=https%3A%2F%2Fcdn.cutshort.io%2Fpublic%2Fimages%2Fnew_logo_half.png&w=32&q=75",
+        "title": "Cutshort",
+        "tags": ["free", "paid", "limited", "resume", "test", "app"],
+        "url": "https://cutshort.io/",
+        "price": "2500 per month",
+        "description": "Cutshort is the #1 tech hiring platform in India. Connect with top talent, engage with them and close positions to execute your vision, faster."
+    },
+    "Ladders": {
+        "image": "https://www.theladders.com/favicon.ico",
+        "title": "The Ladders",
+        "tags": ["paid", "executive", "resume", "career advice"],
+        "url": "https://www.theladders.com",
+        "price": "$50 per month",
+        "description": "The Ladders is a job board focused on high-paying and executive-level jobs, offering job listings, resume posting, and career advice for professionals."
+    },
+    "2coms": {
+        "image": "https://www.2coms.com/images/logo.png",
+        "title": "2coms",
+        "tags": ["free", "executive", "resume", "spam"],
+        "url": "https://www.2coms.com/",
+        "description": "India's best Placement Agency, Manpower consultancy and recruitment firm helping businesses with staffing, leadership hiring, apprenticeship."
+    },
+    "Indeed": {
+        "image": "https://www.indeed.com/favicon.ico",
+        "title": "Indeed",
+        "tags": ["free", "paid", "global", "resume"],
+        "url": "https://www.indeed.com",
+        "description": "Indeed is one of the world's largest job search engines, providing millions of job listings, company reviews, and salary information for job seekers globally."
+    },
+    "LinkedIn": {
+        "image": "https://www.linkedin.com/favicon.ico",
+        "title": "LinkedIn",
+        "tags": ["free", "network build", "resume"],
+        "url": "https://www.linkedin.com/jobs",
+        "description": "LinkedIn is the world's largest professional networking platform, offering job listings, company insights, and a network of professionals for career development."
+    },
+    "Foundit": {
+        "image": "https://media.foundit.in/public/core/images/founditLogo-primary.png",
+        "title": "Foundit",
+        "tags": ["free", "paid", "resume", "career advice"],
+        "url": "https://www.foundit.in/",
+        "description": "Foundit is a global job search platform that provides job listings, resume posting, and career advice for job seekers in various industries."
+    },
+    "Glassdoor": {
+        "image": "https://www.glassdoor.com/favicon.ico",
+        "title": "Glassdoor",
+        "tags": ["free", "paid", "salary information"],
+        "url": "https://www.glassdoor.com",
+        "description": "Glassdoor offers job listings along with company reviews, interview tips, and salary information to help job seekers make informed career decisions."
+    },
+    "ZipRecruiter": {
+        "image": "https://www.ziprecruiter.com/favicon.ico",
+        "title": "ZipRecruiter",
+        "tags": ["free", "resume", "alerts", "remote"],
+        "url": "https://www.ziprecruiter.com",
+        "description": "ZipRecruiter is an online employment marketplace that connects job seekers with employers by providing job listings, resume posting, and job alerts."
     }
 }

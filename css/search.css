@@ -1,3 +1,46 @@
+/* Style for search input */
+#global-search {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#global-search:focus {
+    border-color: #1e90ff;
+    box-shadow: 0 0 5px #1e90ff;
+}
+
+/* Style for search button */
+#search-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-btn:hover {
+    background-color: #005fcb;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Style for search bar */
 #global-search {
     padding: 10px;

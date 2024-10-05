@@ -1,16 +1,25 @@
-<div id="loading" class="loading">Loading....</div>
-<div id="tags-container" class="tags-container"></div>
-<div id="card-container" class="card-container"></div>
-<div id="pagination" class="pagination"></div>
-<div id="data-file" data-file-names='["json/dev1.json", "json/dev2.json"]'></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../js/base.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
 
-<script>
-    // Ensure initializeCards is called when this content is loaded
-    document.addEventListener('DOMContentLoaded', function() {
-        if (typeof window.initializeCards === 'function') {
-            window.initializeCards(); // Call the function if it is defined
-        } else {
-            console.error('initializeCards function is not available.');
-        }
-    });
-</script>
+
+</head>
+<body>
+    <div id="nav"></div>  
+    <div id="loading" class="loading">Loading....</div>
+
+
+    <div id="data-file" data-json-paths='["../json/others.json", "../json/dev2.json", "../json/jobportals.json"]'></div>
+
+    <div id="root"></div> <!-- React will render here -->
+    <script type="text/babel" src="../js/cards.js"></script> <!-- Link to the new JS file -->
+    <div id="footer"></div>  
+</body>
+</html>

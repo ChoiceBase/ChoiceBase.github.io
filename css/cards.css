@@ -5,16 +5,21 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: bold;
+}
+
+#tags-container {
+    /* margin: 5px; */
+    max-width: 95%;
 }
 
 
 /* General styles for tags */
-.tag {
+#tag {
     display: inline-block;
-    margin: 5px;
-    padding: 5px 10px;
+    margin: 3px;
+    padding: 5px 5px;
     border: 1px solid #ddd;
     border-radius: 4px;
     background-color: #b5f09d; /* Light gray for unselected tags */
@@ -23,36 +28,25 @@
     transition: background-color 0.3s, font-size 0.3s; /* Smooth transition */
 }
 /* Style for selected tags */
-.tag.selected {
+#tag.selected {
     background-color: #f16229; /* Blue background for selected tags */
     color: rgb(18, 14, 26); /* White text for contrast */
     font-size: 28px; /* Increase font size for selected tag */
 }
 
 /* Optional: Add a hover effect for tags */
-.tag:hover {
+#tag:hover {
     background-color: #0b67df; /* Slightly darker gray on hover */
 }
 
-.tags-container {
-    margin-bottom: 10px;
-}
-
-
-.all-tags-container {
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid #ddd;
-}
 
 /* Card container */
-.card-container {
+#card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px auto;
-    max-width: 1200px;
+    margin: 10px auto;
+    max-width: 95%;
 }
 
 /* Card styles */
@@ -63,8 +57,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px;
-    flex: 1 1 calc(25% - 40px);
-    max-width: calc(25% - 30px);
+    /* flex: 1 1 calc(25% - 40px); */
+    max-width: 30%;
     box-sizing: border-box;
     transition: transform 0.3s;
     display: flex;
@@ -77,15 +71,16 @@
     transform: translateY(-10px);
 }
 
-.card-logo {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 5px;
+
+.card img {
+    max-width: 100%; /* Make image take full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the card area */
 }
 
 .card-title-link {
     display: inline-block;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .card h2 {
     font-size: 1.5rem;

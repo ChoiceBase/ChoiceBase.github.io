@@ -1,6 +1,19 @@
 {
     
-    
+    "YoodliAl": {
+        "image": "https://yoodli.ai/favicon.ico",
+        "title": "Yoodli AI",
+        "tags": ["interview coaching", "speech", "real-time", "free"],
+        "url": "https://yoodli.ai/",
+        "description": "Enhance your online meeting job interviews with private, real-time speech coaching"
+    },  
+    "LHH": {
+        "image": "https://www.lhh.com/favicon.ico",
+        "title": "LHH",
+        "tags": ["career transition", "coaching"],
+        "url": "https://www.lhh.com",
+        "description": "Career transition, leadership development, and coaching opportunities"
+    },    
     "MasterClass": {
         "image": "https://www.masterclass.com/favicon.ico",
         "title": "MasterClass",

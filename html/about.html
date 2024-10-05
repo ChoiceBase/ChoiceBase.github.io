@@ -1,19 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
 
+    <script src="../js/base.js"></script>
+</head>
 
-<section id = "contentSection" class="aboutUs">
-    <h1>Contributors</h1>
-<div class="contributors" id="contributors"></div>
+<body>
+    <div id="header"></div>  
+    <div id="nav"></div>  
+    <div id="loading" class="loading">Loading....</div>
 
-<script>
-    // Ensure loadContributors is called when this content is loaded
-    document.addEventListener('DOMContentLoaded', function() {
-        if (typeof window.loadContributors === 'function') {
-            window.loadContributors(); // Call the function if it is defined
-        } else {
-            console.error('loadContributors function is not available.');
-        }
-    });
-</script>
+    <section id="contentSection" class="aboutUs">
+        <h1>Contributors</h1>
+        <div class="contributors" id="contributors"></div>
 
-</section>
+        <script>
+            // Ensure loadContributors is called when this content is loaded
+            document.addEventListener('DOMContentLoaded', function () {
+                if (typeof window.loadContributors === 'function') {
+                    window.loadContributors(); // Call the function if it is defined
+                } else {
+                    console.error('loadContributors function is not available.');
+                }
+            });
+        </script>
+
+    </section>
+    <div id="footer"></div>
+</body>
+
+</html>
