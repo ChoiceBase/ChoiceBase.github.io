@@ -1,250 +1,125 @@
-let currentPage = 1;
-const cardsPerPage = 10;
-let allCards = []; // This will store all card data
-let filteredCards = []; // This will store filtered cards based on search query or tag selection
+const { useEffect, useState } = React;
 
-function createCard(cardData) {
-    const card = document.createElement('div');
-    card.className = 'card';
+const PAGE_SIZE = 10; // Set the number of cards per page
 
-    if (cardData.image) {
-        const img = document.createElement('img');
-        img.src = cardData.image;
-        img.alt = `${cardData.title} Logo`;
-        img.className = 'card-logo';
-        card.appendChild(img);
-    }
+const DataLoader = () => {
+    const [loading, setLoading] = useState(true);
+    const [data, setData] = useState([]);
+    const [error, setError] = useState(null);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [selectedTag, setSelectedTag] = useState(''); // State for selected tag
 
-    const titleLink = document.createElement('a');
-    titleLink.href = cardData.url || '#';
-    titleLink.target = '_blank'; 
-    titleLink.className = 'card-title-link';
+    // Get JSON paths from the data attribute
+    const jsonPaths = JSON.parse(document.getElementById('data-file').getAttribute('data-json-paths'));
 
-    const title = document.createElement('h2');
-    title.textContent = cardData.title;
-    titleLink.appendChild(title);
-    card.appendChild(titleLink);
-
-    const description = document.createElement('p');
-    description.className = 'description';
-    description.textContent = cardData.description;
-    card.appendChild(description);
-
-    function loadCardDetails(cardData) {
-        // Load the card details page
-        loadPage('html/card_info.html').then(() => {
-            const contentDiv = document.getElementById('content');
-            const cardHeader = contentDiv.querySelector('#card-header');
-            const cardTable = contentDiv.querySelector('#card-table');
-    
-            // Insert the card header (image, title, and URL)
-            if (cardHeader) {
-                cardHeader.innerHTML = `
-                    <img src="${cardData.image}" alt="${cardData.title} Logo" style="height: 50px;">
-                    <h2>${cardData.title}</h2>
-                    <a href="${cardData.url}" target="_blank">${cardData.url}</a>
-                `;
-            }
-    
-            // Sort keys in alphanumeric order and insert the JSON key-value pairs into the table
-            if (cardTable) {
-                const sortedKeys = Object.keys(cardData).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
-                cardTable.innerHTML = sortedKeys.map(key => `
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">${key}</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">${cardData[key]}</td>
-                    </tr>
-                `).join('');
-            }
-        }).catch(error => console.error('Error loading card details:', error));
-    }
-    
-    // Add event listener for entire card click (except title link)
-    card.addEventListener('click', function (e) {
-        if (!e.target.closest('.card-title-link')) {
-            loadCardDetails(cardData);
+    // Fetch data from a given JSON path
+    const fetchData = async (path) => {
+        const response = await fetch(path);
+        if (!response.ok) {
+            throw new Error(`Error fetching ${path}: ${response.statusText}`);
         }
-    });
-
-    return card;
-}
-
-// Function to display cards for the current page
-function displayCards(cardsData) {
-    const cardContainer = document.getElementById('card-container');
-    cardContainer.innerHTML = ''; // Clear existing cards
-
-    const startIndex = (currentPage - 1) * cardsPerPage;
-    const endIndex = startIndex + cardsPerPage;
-    const pageCards = cardsData.slice(startIndex, endIndex);
-
-    pageCards.forEach(cardData => {
-        const card = createCard(cardData);
-        cardContainer.appendChild(card);
-    });
-
-    setupPagination(cardsData.length);
-}
-
-// Function to setup pagination controls
-function setupPagination(totalCards) {
-    const paginationContainer = document.getElementById('pagination');
-    paginationContainer.innerHTML = ''; // Clear existing pagination
-
-    const totalPages = Math.ceil(totalCards / cardsPerPage);
-
-    const prevButton = document.createElement('button');
-    prevButton.textContent = 'Previous';
-    prevButton.disabled = currentPage === 1;
-    prevButton.addEventListener('click', () => {
-        if (currentPage > 1) {
-            currentPage--;
-            displayCards(filteredCards.length > 0 ? filteredCards : allCards);
-        }
-    });
-    paginationContainer.appendChild(prevButton);
-
-    for (let i = 1; i <= totalPages; i++) {
-        const pageButton = document.createElement('button');
-        pageButton.textContent = i;
-        pageButton.className = (i === currentPage) ? 'active' : '';
-        pageButton.addEventListener('click', () => {
-            currentPage = i;
-            displayCards(filteredCards.length > 0 ? filteredCards : allCards);
-        });
-        paginationContainer.appendChild(pageButton);
-    }
-
-    const nextButton = document.createElement('button');
-    nextButton.textContent = 'Next';
-    nextButton.disabled = currentPage === totalPages;
-    nextButton.addEventListener('click', () => {
-        if (currentPage < totalPages) {
-            currentPage++;
-            displayCards(filteredCards.length > 0 ? filteredCards : allCards);
-        }
-    });
-    paginationContainer.appendChild(nextButton);
-}
-
-// Function to load JSON data from multiple files and merge them
-function loadCards(fileNames) {
-    let mergedData = {};
-
-    const loadFile = (fileName) => {
-        return fetch(fileName)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`Network response was not ok for ${fileName}: ${response.statusText}`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                Object.assign(mergedData, data);
-                allCards = Object.values(mergedData);
-                // Sort the cards alphabetically by title
-                allCards.sort((a, b) => a.title.localeCompare(b.title));
-            })
-            .catch(error => console.error('Error loading card data:', error));
+        return await response.json();
     };
 
-    const loadPromises = fileNames.map(loadFile);
-
-    Promise.all(loadPromises)
-        .then(() => {
-            displayAllTags();
-            currentPage = 1; // Reset to first page on new load
-            displayCards(allCards);
-        })
-        .catch(error => console.error('Error processing loaded data:', error));
-}
-
-// Function to display unique tags from all cards
-function displayAllTags() {
-    const tags = new Set();
-    allCards.forEach(card => {
-        if (card.tags) {
-            card.tags.forEach(tag => tags.add(tag.toUpperCase())); // Convert tags to uppercase and add to the Set
+    // Load data and update the state
+    const loadData = async () => {
+        try {
+            setLoading(true);
+            const allData = await Promise.all(jsonPaths.map(fetchData));
+            const combinedData = Object.assign({}, ...allData);
+            
+            // Sort data by title
+            const sortedData = Object.values(combinedData).sort((a, b) => a.title.localeCompare(b.title));
+            setData(sortedData);
+        } catch (error) {
+            setError(error);
+        } finally {
+            setLoading(false);
         }
-    });
+    };
 
-    // Convert Set to Array, sort it alphabetically
-    const sortedTags = Array.from(tags).sort();
+    useEffect(() => {
+        // Read current page from URL on mount
+        const urlParams = new URLSearchParams(window.location.search);
+        const page = parseInt(urlParams.get('page'), 10) || 1;
+        setCurrentPage(page);
+        
+        loadData();
+    }, []);
 
-    const tagsContainer = document.getElementById('tags-container');
-    tagsContainer.innerHTML = '';
+    useEffect(() => {
+        // Update URL when current page changes
+        window.history.pushState({}, '', `?page=${currentPage}`);
+    }, [currentPage]);
 
-    sortedTags.forEach(tag => {
-        const tagElement = document.createElement('span');
-        tagElement.className = 'tag';
-        tagElement.textContent = tag;
-        tagElement.addEventListener('click', () => {
-            const isSelected = tagElement.classList.toggle('selected');
-            filterCardsByTag(tag, isSelected);
-        });
-        tagsContainer.appendChild(tagElement);
-    });
-}
-
-// Function to filter cards based on selected tag
-function filterCardsByTag(tag, isSelected) {
-    if (isSelected) {
-        filteredCards = allCards.filter(card => card.tags && card.tags.includes(tag));
-    } else {
-        filteredCards = allCards;
+    if (error) {
+        return <div>Error: {error.message}</div>;
     }
-    currentPage = 1; // Reset to first page on tag selection
-    displayCards(filteredCards);
-}
 
-// Function to search through cards based on query
-function searchCards(query) {
-    const lowerCaseQuery = query.toLowerCase();
-    console.log('Searching for:', lowerCaseQuery); // Log the query
+    const totalPages = Math.ceil(data.length / PAGE_SIZE);
+    const currentData = data.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 
-    filteredCards = allCards.filter(card => {
-        return (
-            card.title.toLowerCase().includes(lowerCaseQuery) ||
-            card.description.toLowerCase().includes(lowerCaseQuery) ||
-            (card.tags && card.tags.some(tag => tag.toLowerCase().includes(lowerCaseQuery)))
-        );
-    });
-
-    // console.log('Filtered cards:', filteredCards); // Log filtered results
-    currentPage = 1; // Reset to first page on search
-    displayCards(filteredCards);
-}
-
-// Event listener for search box
-document.getElementById('search-box').addEventListener('input', (e) => {
-    searchCards(e.target.value);
-});
-
-document.getElementById('clear-filters').addEventListener('click', () => {
-    filteredCards = [];
-    currentPage = 1;
-    displayCards(allCards);
-    document.getElementById('search-box').value = ''; // Clear search input
-});
-
-// Initialize cards loading and display
-function initializeCards() {
-    const contentElement = document.getElementById('content');
-    if (contentElement) {
-        const dataFileElement = contentElement.querySelector('#data-file');
-        if (dataFileElement) {
-            const fileNames = JSON.parse(dataFileElement.dataset.fileNames || '[]');
-            if (fileNames && Array.isArray(fileNames)) {
-                loadCards(fileNames);
-            } else {
-                console.error('Invalid or missing data-file-names attribute.');
-            }
+    const handlePageChange = (newPage) => {
+        if (newPage >= 1 && newPage <= totalPages) {
+            setCurrentPage(newPage);
         }
-    } else {
-        console.error('Element with ID "content" not found.');
-    }
-}
+    };
 
-document.addEventListener('DOMContentLoaded', function() {
-    initializeCards();
-});
+    // Get unique tags for filtering
+    const tags = Array.from(new Set(data.flatMap(card => card.tags))).sort();
+
+    // Filter cards based on selected tag
+    const filteredData = selectedTag ? data.filter(card => card.tags.includes(selectedTag)) : data;
+    const displayedData = filteredData.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+    const filteredTotalPages = Math.ceil(filteredData.length / PAGE_SIZE);
+
+    const handleTagSelect = (tag) => {
+        setSelectedTag(tag);
+        setCurrentPage(1); // Reset to first page on tag change
+    };
+
+    return (
+        <div>
+            {loading ? (
+                <div className="loading">Loading...</div>
+            ) : (
+                <div>
+                    <div id="tags-container">
+                        {/* Display all tags alphabetically */}
+                        <div>
+                            {tags.map(tag => (
+                                <button id="tag" key={tag} onClick={() => handleTagSelect(tag)} className={selectedTag === tag ? 'selected' : ''}>
+                                    {tag.toUpperCase()}
+                                </button>
+                            ))}
+                            <button id="tag" onClick={() => handleTagSelect('')}>Show All</button>
+                        </div>
+                    </div>
+                    <div id="card-container">
+                        {/* Display current page cards */}
+                        {displayedData.map((card, index) => (
+                            <div key={index} class="card">
+                                <img src={card.image} alt={card.title} /> 
+                                <a href={card.url} target="_blank" class="card-title-link">{card.title}</a>
+                                <p>{card.description}</p>
+                                <div className="tags">
+                                    {card.tags.map((tag, idx) => (
+                                        <button key={idx} id="tag" onClick={() => handleTagSelect(tag)} className={selectedTag === tag ? 'selected' : ''}>{tag}</button>
+                                    ))}
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    <div class="pagination">
+                        <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1}>Previous</button>
+                        <span>Page {currentPage} of {filteredTotalPages}</span>
+                        <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === filteredTotalPages}>Next</button>
+                    </div>
+                </div>
+            )}
+        </div>
+    );
+};
+
+// Render the DataLoader component into the root div
+ReactDOM.render(<DataLoader />, document.getElementById('root'));

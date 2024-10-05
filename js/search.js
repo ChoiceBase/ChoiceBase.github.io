@@ -1,3 +1,28 @@
+document.getElementById('search-btn').addEventListener('click', function() {
+    const searchQuery = document.getElementById('global-search').value.toLowerCase();
+    filterCards(searchQuery);  // Filter cards based on the search input
+});
+
+function filterCards(query) {
+    const cards = document.querySelectorAll('.card');  // Assuming cards are in a class 'card'
+    cards.forEach(card => {
+        const cardContent = card.textContent.toLowerCase();
+        if (cardContent.includes(query)) {
+            card.style.display = 'block';  // Show matching cards
+        } else {
+            card.style.display = 'none';  // Hide non-matching cards
+        }
+    });
+}
+
+
+
+
+
+
+
+
+
 // Listen for input in the global search bar
 document.getElementById('global-search').addEventListener('input', function(e) {
     const query = e.target.value.toLowerCase();

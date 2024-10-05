@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Choice Base</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/main_mobile.css">
-    <link rel="stylesheet" href="css/cards.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/search.css">
-    <script src="js/main.js"></script>
-    <script src="js/search.js"></script>
-    <script src="js/cards.js" defer></script>
-    <script src="js/about.js"></script>
+    <!-- Head content will be loaded dynamically -->
+    <script src="js/base.js"></script>
 </head>
 <body>
-    <div id="header"></div>
-    <div id="nav"></div>   <!-- Navigation will be injected here -->
-    <div id="content"></div>
-    <div id="footer"></div>
-    
+    <div id="header"></div>   <!-- Header content will be dynamically inserted here -->
+    <div id="nav"></div>      <!-- Navigation content will be dynamically inserted here -->
+     <!-- Add default content to the index page -->
+    <div id="loading" class="loading">Loading....</div>
+    <section>
+        <h1>Welcome to Choice Base</h1>
+        <p>Your one-stop solution for curated content.</p>
+    </section>
+
+    <div id="header">
+        <input type="text" id="global-search" placeholder="Search...">
+    </div>
+
+    <section id="featured-cards">
+        <h2>Featured Cards</h2>
+        <div id="card-container"></div>
+    </section>
+
+    </div>
+        <!-- <input type="text" id="global-search" placeholder="Search for curated content..." /> -->
+        <!-- <button id="search-btn">Search</button> -->
+    </div>    
+    <div id="footer"></div>   <!-- Footer content will be dynamically inserted here -->
 </body>
 </html>
