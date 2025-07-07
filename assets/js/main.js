@@ -39,3 +39,26 @@ if (window.CATEGORY) {
     setupPagination(resources, 'pagination', 'resource-list');
   });
 }
+
+
+
+
+
+async function showUserLikedResources() {
+  const favs = JSON.parse(localStorage.getItem('favorites') || '[]');
+  if (!favs.length) return;
+  // Fetch all resources from all categories
+  const [ai, jobs, programming] = await Promise.all([
+    fetch('/data/ai-tools.json').then(r => r.json()),
+    fetch('/data/jobs.json').then(r => r.json()),
+    fetch('/data/programming.json').then(r => r.json())
+  ]);
+  const all = [...ai, ...jobs, ...programming];
+  const liked = all.filter(r => favs.includes(r.id));
+  if (liked.length) {
+    const container = document.getElementById('user-liked-resources');
+    container.innerHTML = `<h2>Your Liked Resources</h2><div class="row g-3"></div>`;
+    renderResources(liked, 'user-liked-resources');
+  }
+}
+if (document.getElementById('user-liked-resources')) showUserLikedResources();
