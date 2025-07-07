@@ -1,0 +1,145 @@
+:root {
+  --bg-main: #0e1129;
+  --bg-surface: #181d3a;
+  --primary: #00ffe7;
+  --accent: #ff57bb;
+  --highlight: #6dff00;
+  --text-main: #f5f7fa;
+  --text-muted: #8ea1b9;
+  --card-radius: 1.3em;
+  --glow: 0 0 18px var(--primary), 0 0 4px var(--accent);
+  --spacing: 1.7rem;
+  --transition: 0.25s cubic-bezier(.4,2,.6,1);
+}
+
+body {
+  background: linear-gradient(120deg, #0e1129 0%, #181d3a 100%);
+  color: var(--text-main);
+  font-family: 'Inter', 'Orbitron', 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+main, .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing);
+}
+
+/* Navbar */
+nav, #common-header {
+  background: linear-gradient(90deg, #181d3a 60%, #0e1129 100%);
+  box-shadow: 0 2px 24px #00ffe755;
+  border-bottom: 1px solid #23244a;
+}
+.navbar-brand {
+  font-weight: 700;
+  color: var(--primary) !important;
+  letter-spacing: 2px;
+  text-shadow: var(--glow);
+}
+.navbar-nav .nav-link {
+  color: var(--text-muted) !important;
+  padding: 0.7em 1.3em;
+  border-radius: 0.7em;
+  margin: 0 0.2em;
+  transition: background var(--transition), color var(--transition), box-shadow var(--transition);
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+  background: var(--primary);
+  color: #181d3a !important;
+  box-shadow: 0 0 8px var(--primary);
+}
+
+/* Resource List/Grid */
+.resource-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.3em;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 700px) {
+  .resource-list {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+.resource-card {
+  background: var(--bg-surface);
+  color: var(--text-main);
+  border-radius: var(--card-radius);
+  box-shadow: 0 2px 32px #00ffe722;
+  padding: 1.2em 1em;
+  margin: 0;
+  transition: box-shadow var(--transition), transform var(--transition);
+  overflow: hidden;
+  border: 1.5px solid var(--primary);
+}
+.resource-card:hover {
+  box-shadow: 0 0 32px 4px var(--primary), 0 0 4px var(--accent);
+  transform: translateY(-6px) scale(1.03);
+  border-color: var(--accent);
+}
+.resource-card h3 a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 0 0 4px var(--primary);
+  transition: color var(--transition);
+}
+.resource-card h3 a:hover {
+  color: var(--accent);
+  text-shadow: 0 0 8px var(--accent);
+}
+.resource-card p {
+  color: var(--text-muted);
+  font-size: 1.05em;
+}
+.resource-card .text-muted {
+  color: var(--highlight) !important;
+  font-size: 0.98em;
+}
+
+/* Futuristic Buttons */
+.btn, .vote-btn, .fav-btn {
+  background: none;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  border-radius: 2em;
+  padding: 0.4em 1.2em;
+  font-weight: 600;
+  font-size: 1.08em;
+  margin-right: 0.3em;
+  margin-bottom: 0.2em;
+  box-shadow: 0 0 8px var(--primary);
+  transition: background var(--transition), color var(--transition), box-shadow var(--transition), transform var(--transition);
+  cursor: pointer;
+  outline: none;
+}
+.btn:hover, .vote-btn:hover, .fav-btn:hover,
+.btn:focus, .vote-btn:focus, .fav-btn:focus {
+  background: var(--primary);
+  color: #181d3a;
+  box-shadow: 0 0 16px var(--primary), 0 0 4px var(--accent);
+  transform: scale(1.05);
+}
+.vote-btn.active, .fav-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+  box-shadow: 0 0 16px var(--accent);
+}
+
+/* Footer */
+footer, #common-footer {
+  background: #181d3a;
+  color: var(--text-muted);
+  border-top: 1px solid #23244a;
+  font-size: 1em;
+  padding: 2em 0 1em 0;
+  margin-top: 3em;
+  text-align: center;
+  box-shadow: 0 -4px 32px #00ffe722;
+}
