@@ -1,10 +1,11 @@
-// Load header and footer
+// Load header and footer fragments
 function loadFragment(id, url) {
   fetch(url)
     .then(res => res.text())
     .then(html => { document.getElementById(id).innerHTML = html; });
 }
-window.addEventListener('DOMContentLoaded', function() {
+
+window.addEventListener('DOMContentLoaded', () => {
   loadFragment('common-header', '/includes/header.html');
   loadFragment('common-footer', '/includes/footer.html');
 });
@@ -23,7 +24,16 @@ const categories = {
   'upskilling': { title: 'Upskilling', data: '/data/upskilling.json' }
 };
 
-// Render resource cards
+let allResources = [];
+let filteredResources = [];
+let currentPage = 1;
+let perPage = getPerPage();
+
+function getPerPage() {
+  return window.innerWidth < 700 ? 6 : 15;
+}
+
+// Render resource cards into container
 function renderResources(resources, containerClass) {
   const favs = JSON.parse(localStorage.getItem('favorites') || '[]');
   const container = document.querySelector(`.${containerClass}`);
@@ -33,7 +43,7 @@ function renderResources(resources, containerClass) {
     const card = document.createElement('div');
     card.className = 'resource-card';
     card.innerHTML = `
-      <h3><a href="${resource.url}" target="_blank">${resource.title}</a></h3>
+      <h3><a href="${resource.url}" target="_blank" rel="noopener">${resource.title}</a></h3>
       <p>${resource.description}</p>
       <div>
         <button class="btn vote-btn" data-id="${resource.id}">👍 ${resource.votes || 0}</button>
@@ -78,26 +88,79 @@ function attachVoteListeners() {
   });
 }
 
-// Main loader
-document.addEventListener('DOMContentLoaded', async () => {
-  const catKey = getCategoryFromURL();
-  const cat = categories[catKey] || categories['ai-tools'];
-  document.getElementById('category-title').textContent = cat.title;
-  document.getElementById('page-title').textContent = `${cat.title} – ChoiceBase`;
+// Filter resources by search query
+function filterResources(resources, query) {
+  query = query.trim().toLowerCase();
+  if (!query) return resources;
+  return resources.filter(r =>
+    (r.title && r.title.toLowerCase().includes(query)) ||
+    (r.description && r.description.toLowerCase().includes(query)) ||
+    (r.tags && r.tags.some(tag => tag.toLowerCase().includes(query)))
+  );
+}
 
-  const votes = JSON.parse(localStorage.getItem('votes') || '{}');
-  const resp = await fetch(cat.data);
-  let resources = await resp.json();
-  resources.forEach(r => r.votes = votes[r.id] || 0);
+// Pagination rendering
+function renderPaginatedResources(resources, page = 1) {
+  perPage = getPerPage();
+  const totalPages = Math.ceil(resources.length / perPage);
+  currentPage = Math.max(1, Math.min(page, totalPages));
 
-  renderResources(resources, 'resource-list');
+  const start = (currentPage - 1) * perPage;
+  const end = start + perPage;
+  const pageResources = resources.slice(start, end);
+
+  renderResources(pageResources, 'resource-list');
+  renderPaginationControls(resources.length, currentPage, perPage);
+}
+
+// Pagination controls rendering
+function renderPaginationControls(totalItems, page, perPage) {
+  const totalPages = Math.ceil(totalItems / perPage);
+  const nav = document.getElementById('pagination');
+  if (totalPages <= 1) {
+    nav.innerHTML = '';
+    return;
+  }
+
+  let html = `<ul class="pagination justify-content-center">`;
+  html += `<li class="page-item${page === 1 ? ' disabled' : ''}">
+    <a class="page-link" href="#" data-page="${page - 1}">Previous</a>
+  </li>`;
+
+  for (let i = 1; i <= totalPages; i++) {
+    html += `<li class="page-item${i === page ? ' active' : ''}">
+      <a class="page-link" href="#" data-page="${i}">${i}</a>
+    </li>`;
+  }
+
+  html += `<li class="page-item${page === totalPages ? ' disabled' : ''}">
+    <a class="page-link" href="#" data-page="${page + 1}">Next</a>
+  </li>`;
+  html += `</ul>`;
+
+  nav.innerHTML = html;
+
+  nav.querySelectorAll('.page-link').forEach(link => {
+    link.onclick = e => {
+      e.preventDefault();
+      const newPage = parseInt(link.dataset.page);
+      if (!isNaN(newPage) && newPage !== page && newPage >= 1 && newPage <= totalPages) {
+        renderPaginatedResources(filteredResources, newPage);
+      }
+    };
+  });
+}
+
+// Responsive: update perPage and rerender on resize
+window.addEventListener('resize', () => {
+  const newPerPage = getPerPage();
+  if (newPerPage !== perPage) {
+    perPage = newPerPage;
+    renderPaginatedResources(filteredResources, 1);
+  }
 });
 
-
-
-let allResources = []; // Will hold all resources for this page
-
-// After fetching your resources JSON:
+// Main load function
 async function loadAndRenderResources() {
   const catKey = getCategoryFromURL();
   const cat = categories[catKey] || categories['ai-tools'];
@@ -109,27 +172,17 @@ async function loadAndRenderResources() {
   allResources = await resp.json();
   allResources.forEach(r => r.votes = votes[r.id] || 0);
 
-  renderResources(allResources, 'resource-list');
+  filteredResources = allResources;
+  renderPaginatedResources(filteredResources, 1);
 }
 
-// Filter function
-function filterResources(resources, query) {
-  query = query.trim().toLowerCase();
-  if (!query) return resources;
-  return resources.filter(r =>
-    (r.title && r.title.toLowerCase().includes(query)) ||
-    (r.description && r.description.toLowerCase().includes(query)) ||
-    (r.tags && r.tags.some(tag => tag.toLowerCase().includes(query)))
-  );
-}
-
-// Listen for input on the search bar
+// Search input listener
 document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('resource-search');
   if (searchInput) {
-    searchInput.addEventListener('input', function() {
-      const filtered = filterResources(allResources, this.value);
-      renderResources(filtered, 'resource-list');
+    searchInput.addEventListener('input', function () {
+      filteredResources = filterResources(allResources, this.value);
+      renderPaginatedResources(filteredResources, 1);
     });
   }
   loadAndRenderResources();
