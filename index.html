@@ -14,24 +14,36 @@
 </head>
 <body class="bg-gray-100 text-gray-800">
 
-  <header class="bg-white shadow p-4">
-    <h1 class="text-3xl font-bold text-center">ChoiceBase</h1>
-    <p class="text-center text-gray-600">Curated Free Resources for Upskilling</p>
+  <header class="bg-white shadow p-4 flex items-center justify-between">
+    <div>
+      <h1 class="text-2xl font-bold">ChoiceBase</h1>
+      <p class="text-sm text-gray-600">Curated Free Resources for Upskilling</p>
+    </div>
+    <button id="menuToggle" class="sm:hidden p-2 border rounded">☰</button>
   </header>
 
-  <nav class="flex flex-wrap justify-center gap-2 p-4">
-    <button class="category-btn px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600" data-category="all">All</button>
-    <button class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="programming">Programming</button>
-    <button class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="ai-tools">AI & GPT Tools</button>
-    <button class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="jobs">Jobs</button>
-    <button class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="upskilling">Upskilling</button>
-    <button class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="dev-tools">Dev Tools</button>
-    <button class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="community">Community</button>
-    <button class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="freelance">Freelance</button>
+  <nav id="navMenu" class="hidden sm:flex flex-col sm:flex-row justify-center gap-2 p-4">
+    <a href="#" class="category-btn px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600" data-category="all">All</a>
+    <a href="#programming" class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="programming">Programming</a>
+    <a href="#ai-tools" class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="ai-tools">AI & GPT Tools</a>
+    <a href="#jobs" class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="jobs">Jobs</a>
+    <a href="#upskilling" class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="upskilling">Upskilling</a>
+    <a href="#dev-tools" class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="dev-tools">Dev Tools</a>
+    <a href="#community" class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="community">Community</a>
+    <a href="#freelance" class="category-btn px-4 py-2 bg-gray-300 rounded hover:bg-gray-400" data-category="freelance">Freelance</a>
   </nav>
 
-  <main class="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4" id="resourceContainer">
-    <p class="text-center col-span-full text-gray-500">Select a category to load resources.</p>
+  <main class="p-4" id="resourceSection">
+    <div class="flex justify-center mb-4 gap-2 flex-wrap">
+      <input type="text" id="filterInput" placeholder="Filter by tag or keyword (e.g., free, remote)" class="border p-2 rounded w-full max-w-md">
+      <button id="feedbackButton" class="bg-yellow-500 text-white px-4 py-2 rounded">Give Feedback</button>
+      <button id="submitResourceButton" class="bg-green-500 text-white px-4 py-2 rounded">Suggest Resource</button>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4" id="resourceContainer">
+      <p class="text-center col-span-full text-gray-500">Select a category to load resources.</p>
+    </div>
+    <div class="mt-4 flex justify-center gap-2" id="pagination"></div>
   </main>
 
   <footer class="text-center text-gray-500 p-4 mt-8">
@@ -40,52 +52,137 @@
 
   <script>
     const resourceContainer = document.getElementById('resourceContainer');
+    const navMenu = document.getElementById('navMenu');
+    const menuToggle = document.getElementById('menuToggle');
+    const paginationContainer = document.getElementById('pagination');
+    const filterInput = document.getElementById('filterInput');
+
+    let currentResources = [];
+    let filteredResources = [];
+    let currentPage = 1;
+
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('hidden');
+    });
 
     document.querySelectorAll('.category-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const category = btn.getAttribute('data-category');
-        loadCategory(category);
+        const urlParams = new URLSearchParams(window.location.search);
+        const filterParam = urlParams.get('filter') || '';
+        filterInput.value = filterParam;
+        window.location.hash = category;
+        loadCategory(category, filterParam);
+        if (window.innerWidth < 640) navMenu.classList.add('hidden');
       });
     });
 
-    async function loadCategory(category) {
-      if (category === 'all') {
-        resourceContainer.innerHTML = '<p class="text-center col-span-full text-gray-500">Please select a specific category to view resources.</p>';
-        return;
-      }
+    filterInput.addEventListener('input', () => {
+      applyFilter();
+      updateURLFilter(filterInput.value);
+    });
 
-      const response = await fetch(`data/${category}.json`);
-      if (!response.ok) {
-        resourceContainer.innerHTML = '<p class="text-center col-span-full text-red-500">Failed to load resources.</p>';
-        return;
-      }
-
-      const resources = await response.json();
-      renderResources(resources);
+    function updateURLFilter(value) {
+      const category = window.location.hash.replace('#', '') || 'all';
+      const params = new URLSearchParams();
+      if (value) params.set('filter', value);
+      history.replaceState(null, '', `#${category}${params.toString() ? '?' + params.toString() : ''}`);
     }
 
-    function renderResources(resources) {
-      resourceContainer.innerHTML = '';
+    async function loadCategory(category, preFilter = '') {
+      if (category === 'all') {
+        resourceContainer.innerHTML = '<p class="text-center col-span-full text-gray-500">Please select a specific category to view resources.</p>';
+        paginationContainer.innerHTML = '';
+        return;
+      }
 
-      resources.forEach(item => {
-        const votes = localStorage.getItem(item.id) || item.votes || 0;
+      try {
+        const response = await fetch(`data/${category}.json`);
+        currentResources = await response.json();
+
+        currentResources.sort((a, b) => {
+          const votesA = parseInt(localStorage.getItem(a.id) || a.votes || 0);
+          const votesB = parseInt(localStorage.getItem(b.id) || b.votes || 0);
+          return votesB - votesA;
+        });
+
+        currentPage = 1;
+        filterInput.value = preFilter;
+        applyFilter();
+
+      } catch (error) {
+        resourceContainer.innerHTML = '<p class="text-center col-span-full text-red-500">Failed to load resources.</p>';
+        paginationContainer.innerHTML = '';
+      }
+    }
+
+    function applyFilter() {
+      const query = filterInput.value.toLowerCase();
+      filteredResources = currentResources.filter(item => {
+        const combined = (item.title + ' ' + item.description + ' ' + (item.tags || []).join(' ')).toLowerCase();
+        return combined.includes(query);
+      });
+      currentPage = 1;
+      renderResources();
+      renderPagination();
+    }
+
+    function renderResources() {
+      resourceContainer.innerHTML = '';
+      const isMobile = window.innerWidth < 640;
+      const itemsPerPage = isMobile ? 6 : 15;
+
+      const startIndex = (currentPage - 1) * itemsPerPage;
+      const endIndex = startIndex + itemsPerPage;
+      const pageItems = filteredResources.slice(startIndex, endIndex);
+
+      if (pageItems.length === 0) {
+        resourceContainer.innerHTML = '<p class="text-center col-span-full text-gray-500">No resources found for this filter.</p>';
+        return;
+      }
+
+      pageItems.forEach(item => {
+        const votes = parseInt(localStorage.getItem(item.id) || item.votes || 0);
 
         const card = document.createElement('div');
-        card.className = 'bg-white rounded-lg shadow p-4 flex flex-col justify-between';
+        card.className = 'bg-white rounded-lg shadow p-4 flex flex-col justify-between hover:shadow-lg transition';
 
         card.innerHTML = `
           <div>
-            <h2 class="text-xl font-semibold mb-2">${item.title}</h2>
-            <p class="text-gray-600 mb-4">${item.description}</p>
+            <img src="${item.image || ''}" alt="" class="w-10 h-10 mb-2 rounded">
+            <h2 class="text-lg font-semibold mb-1">${item.title}</h2>
+            <p class="text-gray-600 text-sm mb-3">${item.description}</p>
+            <div class="flex flex-wrap gap-1 mb-3">
+              ${(item.tags || []).map(tag => `<span class="bg-gray-200 text-xs px-2 py-1 rounded">${tag}</span>`).join('')}
+            </div>
           </div>
-          <div class="flex items-center justify-between">
-            <a href="${item.link}" target="_blank" class="text-blue-600 underline">Visit</a>
-            <button onclick="vote('${item.id}')" class="bg-green-500 text-white px-3 py-1 rounded">👍 <span id="${item.id}">${votes}</span></button>
+          <div class="flex items-center justify-between mt-auto">
+            <a href="${item.link}" target="_blank" class="text-blue-600 underline text-sm">Visit</a>
+            <button onclick="vote('${item.id}')" class="bg-green-500 text-white px-2 py-1 text-xs rounded">👍 <span id="${item.id}">${votes}</span></button>
           </div>
         `;
 
         resourceContainer.appendChild(card);
       });
+    }
+
+    function renderPagination() {
+      paginationContainer.innerHTML = '';
+      const isMobile = window.innerWidth < 640;
+      const itemsPerPage = isMobile ? 6 : 15;
+      const totalPages = Math.ceil(filteredResources.length / itemsPerPage);
+
+      for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement('button');
+        btn.innerText = i;
+        btn.className = `px-3 py-1 rounded border ${i === currentPage ? 'bg-blue-500 text-white' : 'bg-white text-gray-800'}`;
+        btn.addEventListener('click', () => {
+          currentPage = i;
+          renderResources();
+          renderPagination();
+        });
+        paginationContainer.appendChild(btn);
+      }
     }
 
     function vote(id) {
@@ -94,6 +191,20 @@
       localStorage.setItem(id, current);
       document.getElementById(id).innerText = current;
     }
+
+    window.addEventListener('load', () => {
+      const hash = window.location.hash.replace('#', '') || 'all';
+      const params = new URLSearchParams(window.location.search);
+      const filter = params.get('filter') || '';
+      filterInput.value = filter;
+      loadCategory(hash, filter);
+    });
+
+    window.addEventListener('resize', () => {
+      renderResources();
+      renderPagination();
+    });
+
   </script>
 
 </body>
