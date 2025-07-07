@@ -1,33 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <script src="../js/base.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Feedback - ChoiceBase</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="../images/favicon.ico">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
+<body class="bg-gray-100 text-gray-800">
 
-<body>
-    <div id="header"></div>  
-    <div id="nav"></div>  
-    <div id="loading" class="loading">Loading....</div>
+  <header class="bg-white shadow p-4 flex items-center justify-between">
+    <div>
+      <h1 class="text-2xl font-bold">ChoiceBase</h1>
+      <p class="text-sm text-gray-600">Contact & Feedback</p>
+    </div>
+    <a href="index.html" class="p-2 border rounded">🏠 Home</a>
+  </header>
 
-    <section id="contentSection" class="aboutUs">
-        <h1>Contributors</h1>
-        <div class="contributors" id="contributors"></div>
+  <main class="p-4 max-w-3xl mx-auto">
 
-        <script>
-            // Ensure loadContributors is called when this content is loaded
-            document.addEventListener('DOMContentLoaded', function () {
-                if (typeof window.loadContributors === 'function') {
-                    window.loadContributors(); // Call the function if it is defined
-                } else {
-                    console.error('loadContributors function is not available.');
-                }
-            });
-        </script>
+    <h2 class="text-xl font-semibold mb-4">Give Feedback</h2>
+    <form id="feedbackForm" class="space-y-4">
+      <div>
+        <label class="block mb-1">Name (optional)</label>
+        <input type="text" name="name" class="w-full border p-2 rounded">
+      </div>
 
-    </section>
-    <div id="footer"></div>
+      <div>
+        <label class="block mb-1">Email (optional)</label>
+        <input type="email" name="email" class="w-full border p-2 rounded">
+      </div>
+
+      <div>
+        <label class="block mb-1">Your Feedback</label>
+        <textarea name="message" required class="w-full border p-2 rounded h-32"></textarea>
+      </div>
+
+      <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit Feedback</button>
+    </form>
+
+    <h2 class="text-xl font-semibold my-8">Suggest a Resource</h2>
+    <form id="resourceForm" class="space-y-4">
+      <div>
+        <label class="block mb-1">Resource Name</label>
+        <input type="text" name="resourceName" required class="w-full border p-2 rounded">
+      </div>
+
+      <div>
+        <label class="block mb-1">Link</label>
+        <input type="url" name="resourceLink" required class="w-full border p-2 rounded">
+      </div>
+
+      <div>
+        <label class="block mb-1">Description</label>
+        <textarea name="resourceDescription" required class="w-full border p-2 rounded h-24"></textarea>
+      </div>
+
+      <div>
+        <label class="block mb-1">Tags (comma-separated)</label>
+        <input type="text" name="resourceTags" class="w-full border p-2 rounded">
+      </div>
+
+      <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Submit Resource</button>
+    </form>
+
+  </main>
+
+  <footer class="text-center text-gray-500 p-4 mt-8">
+    © 2025 ChoiceBase. Open-source and community-powered.
+  </footer>
+
+  <script src="../js/contact.js"></script>
+
 </body>
-
 </html>
