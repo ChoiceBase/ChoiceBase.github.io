@@ -7,9 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="favicon.ico">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
+    body { font-family: Arial, sans-serif; }
   </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
@@ -38,6 +36,18 @@
       <input type="text" id="filterInput" placeholder="Filter by tag or keyword (e.g., free, remote)" class="border p-2 rounded w-full max-w-md">
       <button id="feedbackButton" class="bg-yellow-500 text-white px-4 py-2 rounded">Give Feedback</button>
       <button id="submitResourceButton" class="bg-green-500 text-white px-4 py-2 rounded">Suggest Resource</button>
+      <button id="adminViewButton" class="bg-purple-500 text-white px-4 py-2 rounded">Admin View</button>
+    </div>
+
+    <div id="feedbackForm" class="hidden mb-4 p-4 border rounded bg-white">
+      <h3 class="font-semibold mb-2">Submit Feedback</h3>
+      <textarea id="feedbackText" class="w-full border p-2 rounded mb-2" placeholder="Your feedback..."></textarea>
+      <button onclick="submitFeedback()" class="bg-blue-500 text-white px-4 py-2 rounded">Submit</button>
+    </div>
+
+    <div id="adminView" class="hidden mb-4 p-4 border rounded bg-white">
+      <h3 class="font-semibold mb-2">Top Liked Resources</h3>
+      <ul id="topResources" class="list-disc pl-5"></ul>
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4" id="resourceContainer">
@@ -57,6 +67,13 @@
     const paginationContainer = document.getElementById('pagination');
     const filterInput = document.getElementById('filterInput');
 
+    const feedbackButton = document.getElementById('feedbackButton');
+    const feedbackForm = document.getElementById('feedbackForm');
+
+    const adminViewButton = document.getElementById('adminViewButton');
+    const adminView = document.getElementById('adminView');
+    const topResourcesList = document.getElementById('topResources');
+
     let currentResources = [];
     let filteredResources = [];
     let currentPage = 1;
@@ -64,6 +81,23 @@
     menuToggle.addEventListener('click', () => {
       navMenu.classList.toggle('hidden');
     });
+
+    feedbackButton.addEventListener('click', () => {
+      feedbackForm.classList.toggle('hidden');
+    });
+
+    adminViewButton.addEventListener('click', () => {
+      adminView.classList.toggle('hidden');
+      showTopResources();
+    });
+
+    function submitFeedback() {
+      const text = document.getElementById('feedbackText').value;
+      if(text.trim()) {
+        alert('Thank you for your feedback!');
+        document.getElementById('feedbackText').value = '';
+      }
+    }
 
     document.querySelectorAll('.category-btn').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -190,6 +224,20 @@
       current++;
       localStorage.setItem(id, current);
       document.getElementById(id).innerText = current;
+    }
+
+    function showTopResources() {
+      topResourcesList.innerHTML = '';
+      const allVotes = currentResources.map(item => ({
+        ...item,
+        votes: parseInt(localStorage.getItem(item.id) || item.votes || 0)
+      })).sort((a, b) => b.votes - a.votes).slice(0, 5);
+
+      allVotes.forEach(item => {
+        const li = document.createElement('li');
+        li.innerText = `${item.title} (${item.votes} votes)`;
+        topResourcesList.appendChild(li);
+      });
     }
 
     window.addEventListener('load', () => {
