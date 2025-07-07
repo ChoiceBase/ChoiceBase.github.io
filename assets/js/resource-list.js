@@ -92,3 +92,45 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   renderResources(resources, 'resource-list');
 });
+
+
+
+let allResources = []; // Will hold all resources for this page
+
+// After fetching your resources JSON:
+async function loadAndRenderResources() {
+  const catKey = getCategoryFromURL();
+  const cat = categories[catKey] || categories['ai-tools'];
+  document.getElementById('category-title').textContent = cat.title;
+  document.getElementById('page-title').textContent = `${cat.title} – ChoiceBase`;
+
+  const votes = JSON.parse(localStorage.getItem('votes') || '{}');
+  const resp = await fetch(cat.data);
+  allResources = await resp.json();
+  allResources.forEach(r => r.votes = votes[r.id] || 0);
+
+  renderResources(allResources, 'resource-list');
+}
+
+// Filter function
+function filterResources(resources, query) {
+  query = query.trim().toLowerCase();
+  if (!query) return resources;
+  return resources.filter(r =>
+    (r.title && r.title.toLowerCase().includes(query)) ||
+    (r.description && r.description.toLowerCase().includes(query)) ||
+    (r.tags && r.tags.some(tag => tag.toLowerCase().includes(query)))
+  );
+}
+
+// Listen for input on the search bar
+document.addEventListener('DOMContentLoaded', () => {
+  const searchInput = document.getElementById('resource-search');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() {
+      const filtered = filterResources(allResources, this.value);
+      renderResources(filtered, 'resource-list');
+    });
+  }
+  loadAndRenderResources();
+});
