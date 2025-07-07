@@ -1,16 +1,1 @@
-[
-  {
-    "id": "ai1",
-    "title": "ChatGPT",
-    "description": "Conversational AI powered by OpenAI.",
-    "link": "https://chat.openai.com",
-    "votes": 0
-  },
-  {
-    "id": "ai2",
-    "title": "Midjourney",
-    "description": "AI image generation from text prompts.",
-    "link": "https://www.midjourney.com",
-    "votes": 0
-  }
-]
+{"resources":[{"id":1,"title":"ChatGPT","link":"https://chat.openai.com","votes":15,"tags":["ai","free"]}]}

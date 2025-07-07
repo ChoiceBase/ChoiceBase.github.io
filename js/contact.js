@@ -1,1 +1,1 @@
-/* Placeholder contact.js */
+console.log('Contact Page Loaded');
