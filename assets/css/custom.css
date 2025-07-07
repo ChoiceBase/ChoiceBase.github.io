@@ -1,12 +1,12 @@
 :root {
-  --bg-main: #10131a;
-  --bg-surface: #181c26;
-  --primary: #00e6d0;
-  --accent: #ff4f81;
-  --text-main: #f2f4f8;
-  --text-muted: #a3adc2;
+  --bg-main: #f4f9fb;
+  --bg-surface: #ffffff;
+  --primary: #0077ff;
+  --accent: #ffb347;
+  --text-main: #232946;
+  --text-muted: #7d8597;
   --card-radius: 1.2em;
-  --glow: 0 0 16px var(--primary), 0 0 4px var(--accent);
+  --glow: 0 0 8px var(--primary), 0 0 2px var(--accent);
   --spacing: 1.5rem;
   --transition: 0.2s cubic-bezier(.4,2,.6,1);
 }
@@ -16,7 +16,6 @@ body {
   color: var(--text-main);
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   font-size: 1.08rem;
-  letter-spacing: 0.01em;
   margin: 0;
   padding: 0;
 }
@@ -27,20 +26,18 @@ main, .container {
   padding: var(--spacing);
 }
 
-/* Futuristic Navbar */
 nav, #common-header {
-  background: linear-gradient(90deg, #181c26 60%, #10131a 100%);
-  box-shadow: 0 2px 24px #00e6d055;
-  border-bottom: 1px solid #222;
+  background: #fff;
+  border-bottom: 1px solid #e3e6ed;
+  box-shadow: 0 2px 8px #0077ff11;
 }
 .navbar-brand {
   font-weight: 700;
   color: var(--primary) !important;
   letter-spacing: 2px;
-  text-shadow: var(--glow);
 }
 .navbar-nav .nav-link {
-  color: var(--text-muted) !important;
+  color: var(--text-main) !important;
   padding: 0.7em 1.3em;
   border-radius: 0.7em;
   margin: 0 0.2em;
@@ -50,14 +47,13 @@ nav, #common-header {
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link:hover {
   background: var(--primary);
-  color: #181c26 !important;
+  color: #fff !important;
   box-shadow: 0 0 8px var(--primary);
 }
 
-/* Responsive Resource List/Grid */
 .resource-list {
   display: grid;
-  grid-template-columns: 1fr; /* Mobile: list style */
+  grid-template-columns: 1fr;
   gap: 1.2em;
   padding: 0;
   margin: 0;
@@ -66,19 +62,19 @@ nav, #common-header {
   background: var(--bg-surface);
   color: var(--text-main);
   border-radius: var(--card-radius);
-  box-shadow: 0 2px 24px #00e6d055;
+  box-shadow: 0 2px 16px #0077ff11;
   padding: 1.2em 1em;
   margin: 0;
   transition: box-shadow 0.2s, transform 0.2s;
   overflow: hidden;
 }
 .resource-card:hover {
-  box-shadow: 0 4px 32px #00e6d099;
+  box-shadow: 0 4px 24px #ffb34755;
   transform: translateY(-3px) scale(1.01);
 }
 @media (min-width: 700px) {
   .resource-list {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Grid style */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 }
 @media (max-width: 400px) {
@@ -88,7 +84,6 @@ nav, #common-header {
   }
 }
 
-/* Card Content */
 .resource-card h3 {
   margin-top: 0;
   margin-bottom: 0.4em;
@@ -99,11 +94,9 @@ nav, #common-header {
   color: var(--primary);
   text-decoration: none;
   transition: color var(--transition);
-  text-shadow: 0 0 4px var(--primary);
 }
 .resource-card a:hover {
   color: var(--accent);
-  text-shadow: 0 0 8px var(--accent);
 }
 .resource-card p {
   color: var(--text-muted);
@@ -115,7 +108,6 @@ nav, #common-header {
   font-size: 0.98em;
 }
 
-/* Futuristic Buttons */
 .btn, .vote-btn, .fav-btn {
   background: none;
   border: 2px solid var(--primary);
@@ -124,8 +116,6 @@ nav, #common-header {
   padding: 0.4em 1.2em;
   font-weight: 600;
   font-size: 1.08em;
-  letter-spacing: 0.05em;
-  box-shadow: 0 0 8px var(--primary);
   margin-right: 0.3em;
   margin-bottom: 0.2em;
   transition: background var(--transition), color var(--transition), box-shadow var(--transition), transform var(--transition);
@@ -135,8 +125,8 @@ nav, #common-header {
 .btn:hover, .vote-btn:hover, .fav-btn:hover,
 .btn:focus, .vote-btn:focus, .fav-btn:focus {
   background: var(--primary);
-  color: #181c26;
-  box-shadow: 0 0 16px var(--primary), 0 0 4px var(--accent);
+  color: #fff;
+  box-shadow: 0 0 12px var(--primary), 0 0 4px var(--accent);
   transform: scale(1.05);
 }
 .vote-btn.active, .fav-btn.active {
@@ -146,89 +136,13 @@ nav, #common-header {
   box-shadow: 0 0 16px var(--accent);
 }
 
-/* Highlight/Badge */
-.highlight {
-  display: inline-block;
-  background: linear-gradient(90deg, var(--primary), var(--accent));
-  color: #181c26;
-  font-size: 0.9em;
-  font-weight: 700;
-  padding: 0.2em 0.8em;
-  border-radius: 0.8em;
-  margin-left: 0.5em;
-  box-shadow: 0 0 8px var(--primary);
-}
-
-/* Filters */
-#filters .btn {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: #222;
-  margin-right: 0.5em;
-  margin-bottom: 0.5em;
-  transition: background var(--transition), color var(--transition), border-color var(--transition);
-}
-#filters .btn.active,
-#filters .btn:focus,
-#filters .btn:hover {
-  background: var(--accent);
-  color: #fff;
-  border-color: var(--primary);
-}
-
-/* Inputs and Forms */
-input, textarea, select {
-  background: #151925;
-  color: var(--text-main);
-  border: 1.5px solid var(--primary);
-  border-radius: 1em;
-  padding: 0.7em 1.2em;
-  margin-bottom: 1em;
-  font-size: 1em;
-  transition: border var(--transition), box-shadow var(--transition);
-  box-shadow: 0 0 8px var(--primary)11;
-}
-input:focus, textarea:focus, select:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 16px var(--accent);
-  outline: none;
-}
-
-/* Pagination */
-.pagination .page-link {
-  background: #151925;
-  color: var(--primary);
-  border: 1.5px solid var(--primary);
-  border-radius: 1em;
-  margin: 0 0.2em;
-  transition: background var(--transition), color var(--transition);
-}
-.pagination .page-link.active,
-.pagination .page-link:focus,
-.pagination .page-link:hover {
-  background: var(--accent);
-  color: #fff;
-  border-color: var(--accent);
-}
-
-/* Footer */
 footer, #common-footer {
-  background: #181c26;
+  background: #f8fafc;
   color: var(--text-muted);
-  border-top: 1px solid #222;
+  border-top: 1px solid #e3e6ed;
   font-size: 1em;
   padding: 2em 0 1em 0;
   margin-top: 3em;
   text-align: center;
-  box-shadow: 0 -4px 32px #00e6d022;
-}
-
-/* Responsive tweaks */
-@media (max-width: 900px) {
-  main, .container { padding: 1em; }
-  h1 { font-size: 1.4em; }
-}
-@media (max-width: 600px) {
-  h1 { font-size: 1.1em; }
-  .navbar-nav .nav-link { padding: 0.7em 0.7em; }
+  box-shadow: 0 -4px 16px #0077ff11;
 }
