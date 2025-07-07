@@ -1,1 +1,16 @@
-{"resources":[{"id":1,"title":"ChatGPT","link":"https://chat.openai.com","votes":15,"tags":["ai","free"]}]}
+[
+  {
+    "id": "ai1",
+    "title": "ChatGPT",
+    "url": "https://chat.openai.com/",
+    "description": "Conversational AI platform.",
+    "tags": ["free", "chatbot"]
+  },
+  {
+    "id": "ai2",
+    "title": "Hugging Face",
+    "url": "https://huggingface.co/",
+    "description": "AI models and datasets.",
+    "tags": ["free", "models"]
+  }
+]

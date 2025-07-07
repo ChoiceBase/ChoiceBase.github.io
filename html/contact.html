@@ -2,18 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact & Feedback</title>
-  <link rel="stylesheet" href="../css/index.css">
+  <title>Contact – ChoiceBase</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <h1>Contact & Feedback</h1>
-  <form action="https://formspree.io/f/your-form-id" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="_replyto" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send</button>
-  </form>
-  <script src="../js/contact.js"></script>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="ai-tools.html">AI Tools</a></li>
+      <li><a href="jobs.html">Jobs</a></li>
+      <li><a href="favorites.html">Favorites</a></li>
+      <li><a href="admin.html">Admin</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Contact & Feedback</h1>
+    <form id="feedback-form" action="https://formspree.io/f/yourformid" method="POST">
+      <label for="feedback">Your Feedback:</label>
+      <textarea id="feedback" name="feedback" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <form id="suggest-form" action="https://formspree.io/f/yourformid" method="POST">
+      <label for="resource">Suggest a Resource:</label>
+      <input id="resource" name="resource" required>
+      <button type="submit">Suggest</button>
+    </form>
+  </main>
 </body>
 </html>
