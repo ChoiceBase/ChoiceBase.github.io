@@ -11,7 +11,6 @@
   --transition: 0.2s cubic-bezier(.4,2,.6,1);
 }
 
-/* General Layout */
 body {
   background: var(--bg-main);
   color: var(--text-main);
@@ -55,39 +54,63 @@ nav, #common-header {
   box-shadow: 0 0 8px var(--primary);
 }
 
-/* Card Grid */
-#resource-list .card, #favorites-list .card, #top-liked-resources .card {
+/* Responsive Resource List/Grid */
+.resource-list {
+  display: grid;
+  grid-template-columns: 1fr; /* Mobile: list style */
+  gap: 1.2em;
+  padding: 0;
+  margin: 0;
+}
+.resource-card {
   background: var(--bg-surface);
-  border-radius: var(--card-radius);
-  box-shadow: 0 2px 32px #00e6d022;
-  border: none;
-  transition: box-shadow var(--transition), transform var(--transition);
   color: var(--text-main);
+  border-radius: var(--card-radius);
+  box-shadow: 0 2px 24px #00e6d055;
+  padding: 1.2em 1em;
+  margin: 0;
+  transition: box-shadow 0.2s, transform 0.2s;
   overflow: hidden;
-  margin-bottom: var(--spacing);
 }
-#resource-list .card:hover,
-#favorites-list .card:hover {
-  box-shadow: 0 0 32px 4px var(--primary), 0 0 4px var(--accent);
-  transform: translateY(-6px) scale(1.03);
+.resource-card:hover {
+  box-shadow: 0 4px 32px #00e6d099;
+  transform: translateY(-3px) scale(1.01);
 }
-.card-title a {
+@media (min-width: 700px) {
+  .resource-list {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Grid style */
+  }
+}
+@media (max-width: 400px) {
+  .resource-card {
+    padding: 0.7em 0.5em;
+    font-size: 0.98em;
+  }
+}
+
+/* Card Content */
+.resource-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  font-size: 1.18em;
+  font-weight: 700;
+}
+.resource-card a {
   color: var(--primary);
   text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-shadow: 0 0 4px var(--primary);
   transition: color var(--transition);
+  text-shadow: 0 0 4px var(--primary);
 }
-.card-title a:hover {
+.resource-card a:hover {
   color: var(--accent);
   text-shadow: 0 0 8px var(--accent);
 }
-.card-text {
+.resource-card p {
   color: var(--text-muted);
   font-size: 1.05em;
+  margin-bottom: 0.7em;
 }
-.card .text-muted {
+.resource-card .text-muted {
   color: var(--accent) !important;
   font-size: 0.98em;
 }
@@ -200,7 +223,7 @@ footer, #common-footer {
   box-shadow: 0 -4px 32px #00e6d022;
 }
 
-/* Responsive */
+/* Responsive tweaks */
 @media (max-width: 900px) {
   main, .container { padding: 1em; }
   h1 { font-size: 1.4em; }
@@ -208,9 +231,4 @@ footer, #common-footer {
 @media (max-width: 600px) {
   h1 { font-size: 1.1em; }
   .navbar-nav .nav-link { padding: 0.7em 0.7em; }
-  .card { margin-bottom: 1em; }
 }
-
-
-
-body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
