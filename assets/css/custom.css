@@ -10,6 +10,8 @@
   --glow: 0 0 18px var(--primary), 0 0 4px var(--accent);
   --spacing: 1.7rem;
   --transition: 0.25s cubic-bezier(.4,2,.6,1);
+    height: 100%;
+    width: 100%;
 }
 
 body {
