@@ -122,14 +122,6 @@
       "skills": ["Server Management", "Deployment", "Load Balancing", "Monitoring", "Logging"]
     },
     {
-      "name": "DBMS",
-      "description": "Designs, implements, and manages databases, ensuring data integrity, performance, and security.",
-      "related": ["Back End", "Data Engineer", "Data Analyst", "Cloud Engineer"],
-      "tools": ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Oracle DB", "Microsoft SQL Server", "Cassandra"],
-      "languages": ["SQL", "PL/SQL"],
-      "skills": ["Database Design", "Query Optimization", "Backup & Recovery", "Replication", "Data Security"]
-    },
-    {
       "name": "Networking",
       "description": "Ensures reliable, secure, and efficient communication between computers and systems within an organization or across the internet.",
       "related": ["Server", "Cloud Engineer", "Security Engineer"],
