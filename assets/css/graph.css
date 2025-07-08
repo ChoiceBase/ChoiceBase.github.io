@@ -1,9 +1,9 @@
 
 #graph-container {
   width: 100vw;
-  height: 60vh; /* or 100vh for fullscreen */
+  height: 100vh; /* or 100vh for fullscreen */
   min-height: 300px;
-  max-height: 90vh;
+  max-height: 100vh;
 }
 
 .responsive-body {
@@ -12,19 +12,10 @@
   padding: 0;
 }
 
-/* For mobile devices: set height to 100vh */
-@media (max-width: 600px) {
-  .responsive-body {
-    height: 100vh;
-    /* Optional: Prevent scrolling if you want a fixed viewport */
-    overflow: hidden;
-  }
-}
-
 #graph-container {
   width: 100vw;
-  max-width: 100vw;
-  height: 60vh; /* default for desktop */
+  max-width: 900vw;
+  height: 70vh; /* default for desktop */
   min-height: 400px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -70,4 +61,18 @@ svg {
 .popup.show {
   opacity: 1;
   transform: translateY(0) scale(1);
+}
+
+/* For mobile devices: set height to 100vh */
+@media (max-width: 600px) {
+  .responsive-body {
+    height: 100vh;
+    /* Optional: Prevent scrolling if you want a fixed viewport */
+    overflow: hidden;
+  }
+  #graph-container {
+
+  max-width: 100vw;
+  height: 100vh; /* default for desktop */
+  }
 }

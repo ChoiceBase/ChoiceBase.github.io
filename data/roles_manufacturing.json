@@ -1,0 +1,121 @@
+{
+  "roles": [
+    {
+      "name": "Production Manager",
+      "description": "Oversees the manufacturing process and manages production staff.",
+      "includes": ["Shift Supervisor"],
+      "related": ["Quality Control Engineer", "Maintenance Engineer", "Supply Chain Manager"],
+      "tools": ["ERP Software", "Production Scheduling Tools"],
+      "languages": [],
+      "skills": ["Leadership", "Process Optimization", "Resource Planning"]
+    },
+    {
+      "name": "Quality Control Engineer",
+      "description": "Ensures products meet quality standards.",
+      "includes": ["Quality Inspector"],
+      "related": ["Production Manager", "Maintenance Engineer", "Process Engineer"],
+      "tools": ["Inspection Tools", "Statistical Analysis Software"],
+      "languages": [],
+      "skills": ["Attention to Detail", "Data Analysis", "Problem Solving"]
+    },
+    {
+      "name": "Maintenance Engineer",
+      "description": "Maintains and repairs manufacturing equipment.",
+      "includes": ["Maintenance Technician"],
+      "related": ["Production Manager", "Quality Control Engineer"],
+      "tools": ["Maintenance Management Software", "Diagnostic Tools"],
+      "languages": [],
+      "skills": ["Mechanical Skills", "Preventive Maintenance", "Troubleshooting"]
+    },
+    {
+      "name": "Shift Supervisor",
+      "description": "Supervises manufacturing staff during a shift.",
+      "includes": [],
+      "related": ["Production Manager", "Machine Operator"],
+      "tools": ["Time Tracking Software"],
+      "languages": [],
+      "skills": ["Team Leadership", "Conflict Resolution"]
+    },
+    {
+      "name": "Supply Chain Manager",
+      "description": "Manages the flow of materials and products.",
+      "includes": ["Logistics Coordinator"],
+      "related": ["Production Manager", "Procurement Specialist"],
+      "tools": ["Supply Chain Management Software", "Inventory Systems"],
+      "languages": [],
+      "skills": ["Logistics", "Negotiation", "Inventory Management"]
+    },
+    {
+      "name": "Logistics Coordinator",
+      "description": "Coordinates the movement of goods and materials.",
+      "includes": [],
+      "related": ["Supply Chain Manager", "Warehouse Manager"],
+      "tools": ["Logistics Software", "Barcode Scanners"],
+      "languages": [],
+      "skills": ["Scheduling", "Communication", "Problem Solving"]
+    },
+    {
+      "name": "Warehouse Manager",
+      "description": "Oversees warehouse operations and staff.",
+      "includes": ["Warehouse Worker"],
+      "related": ["Logistics Coordinator", "Supply Chain Manager"],
+      "tools": ["Warehouse Management Systems", "Forklifts"],
+      "languages": [],
+      "skills": ["Organization", "Safety Compliance", "Inventory Control"]
+    },
+    {
+      "name": "Machine Operator",
+      "description": "Operates and monitors manufacturing machinery.",
+      "includes": [],
+      "related": ["Shift Supervisor", "Maintenance Technician"],
+      "tools": ["CNC Machines", "Safety Equipment"],
+      "languages": [],
+      "skills": ["Attention to Detail", "Technical Skills", "Safety Awareness"]
+    },
+    {
+      "name": "Maintenance Technician",
+      "description": "Performs routine maintenance and repairs on equipment.",
+      "includes": [],
+      "related": ["Maintenance Engineer", "Machine Operator"],
+      "tools": ["Hand Tools", "Diagnostic Instruments"],
+      "languages": [],
+      "skills": ["Mechanical Skills", "Troubleshooting", "Preventive Maintenance"]
+    },
+    {
+      "name": "Quality Inspector",
+      "description": "Inspects products for defects and compliance.",
+      "includes": [],
+      "related": ["Quality Control Engineer"],
+      "tools": ["Calipers", "Micrometers", "Inspection Checklists"],
+      "languages": [],
+      "skills": ["Attention to Detail", "Reporting", "Quality Standards"]
+    },
+    {
+      "name": "Process Engineer",
+      "description": "Designs and optimizes manufacturing processes.",
+      "includes": [],
+      "related": ["Quality Control Engineer", "Production Manager"],
+      "tools": ["Process Simulation Software", "Lean Manufacturing Tools"],
+      "languages": [],
+      "skills": ["Process Improvement", "Data Analysis", "Lean Manufacturing"]
+    },
+    {
+      "name": "Procurement Specialist",
+      "description": "Sources and purchases materials and equipment.",
+      "includes": [],
+      "related": ["Supply Chain Manager"],
+      "tools": ["Procurement Software", "Supplier Portals"],
+      "languages": [],
+      "skills": ["Negotiation", "Vendor Management", "Cost Analysis"]
+    },
+    {
+      "name": "Warehouse Worker",
+      "description": "Handles goods within the warehouse.",
+      "includes": [],
+      "related": ["Warehouse Manager"],
+      "tools": ["Pallet Jacks", "Barcode Scanners"],
+      "languages": [],
+      "skills": ["Physical Stamina", "Attention to Detail", "Teamwork"]
+    }
+  ]
+}
