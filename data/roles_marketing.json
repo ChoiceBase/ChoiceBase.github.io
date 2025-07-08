@@ -1,0 +1,40 @@
+{
+  "roles": [
+    {
+      "name": "Marketing Manager",
+      "description": "Leads the marketing team and strategy.",
+      "includes": ["Content Strategist", "SEO Specialist"],
+      "related": ["Sales Manager", "Brand Manager"],
+      "tools": ["CRM", "Marketing Automation Platforms"],
+      "languages": [],
+      "skills": ["Strategic Planning", "Team Leadership", "Budgeting"]
+    },
+    {
+      "name": "Content Strategist",
+      "description": "Plans and oversees content creation.",
+      "includes": [],
+      "related": ["SEO Specialist", "Social Media Manager"],
+      "tools": ["Content Management Systems", "Analytics Tools"],
+      "languages": [],
+      "skills": ["Content Planning", "Copywriting", "SEO"]
+    },
+    {
+      "name": "SEO Specialist",
+      "description": "Optimizes web content for search engines.",
+      "includes": [],
+      "related": ["Content Strategist", "Web Analyst"],
+      "tools": ["Google Analytics", "SEO Tools"],
+      "languages": [],
+      "skills": ["Keyword Research", "Technical SEO"]
+    },
+    {
+      "name": "Social Media Manager",
+      "description": "Manages social media presence and campaigns.",
+      "includes": [],
+      "related": ["Content Strategist", "Brand Manager"],
+      "tools": ["Social Media Platforms", "Scheduling Tools"],
+      "languages": [],
+      "skills": ["Content Creation", "Community Engagement"]
+    }
+  ]
+}
