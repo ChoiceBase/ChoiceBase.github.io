@@ -1,0 +1,332 @@
+{
+  "roles": [
+    {
+      "name": "Physician",
+      "description": "Diagnoses and treats illnesses, prescribes medication, and manages patient care.",
+      "includes": [
+        "General Practitioner",
+        "Specialist Physician"
+      ],
+      "related": [
+        "Nurse",
+        "Physician Assistant",
+        "Pharmacist"
+      ],
+      "tools": [
+        "Electronic Health Records (EHR)",
+        "Stethoscope",
+        "Diagnostic Imaging"
+      ],
+      "languages": [],
+      "skills": [
+        "Diagnosis",
+        "Patient Care",
+        "Medical Knowledge"
+      ]
+    },
+    {
+      "name": "Nurse",
+      "description": "Provides direct patient care, administers medication, and assists physicians.",
+      "includes": [
+        "Registered Nurse",
+        "Nurse Practitioner",
+        "Licensed Practical Nurse"
+      ],
+      "related": [
+        "Physician",
+        "Physician Assistant",
+        "Medical Assistant"
+      ],
+      "tools": [
+        "EHR",
+        "Vital Signs Monitor",
+        "IV Pump"
+      ],
+      "languages": [],
+      "skills": [
+        "Patient Care",
+        "Medication Administration",
+        "Communication"
+      ]
+    },
+    {
+      "name": "Surgeon",
+      "description": "Performs surgical procedures to treat injuries, diseases, and deformities.",
+      "includes": [
+        "General Surgeon",
+        "Orthopedic Surgeon",
+        "Cardiac Surgeon"
+      ],
+      "related": [
+        "Anesthesiologist",
+        "Surgical Nurse",
+        "Physician"
+      ],
+      "tools": [
+        "Surgical Instruments",
+        "Operating Room Equipment",
+        "EHR"
+      ],
+      "languages": [],
+      "skills": [
+        "Surgical Skills",
+        "Precision",
+        "Team Leadership"
+      ]
+    },
+    {
+      "name": "Anesthesiologist",
+      "description": "Administers anesthesia and monitors patients during surgery.",
+      "includes": [],
+      "related": [
+        "Surgeon",
+        "Nurse Anesthetist",
+        "Operating Room Nurse"
+      ],
+      "tools": [
+        "Anesthesia Machine",
+        "Patient Monitoring Systems",
+        "EHR"
+      ],
+      "languages": [],
+      "skills": [
+        "Anesthesia Administration",
+        "Monitoring",
+        "Critical Thinking"
+      ]
+    },
+    {
+      "name": "Pharmacist",
+      "description": "Dispenses medications, advises on drug interactions, and counsels patients.",
+      "includes": [],
+      "related": [
+        "Physician",
+        "Pharmacy Technician",
+        "Nurse"
+      ],
+      "tools": [
+        "Pharmacy Management Software",
+        "Pill Counter",
+        "Reference Databases"
+      ],
+      "languages": [],
+      "skills": [
+        "Pharmacology",
+        "Attention to Detail",
+        "Patient Counseling"
+      ]
+    },
+    {
+      "name": "Medical Laboratory Technician",
+      "description": "Performs lab tests to assist in diagnosis and treatment.",
+      "includes": [],
+      "related": [
+        "Pathologist",
+        "Phlebotomist",
+        "Nurse"
+      ],
+      "tools": [
+        "Lab Analyzers",
+        "Microscope",
+        "EHR"
+      ],
+      "languages": [],
+      "skills": [
+        "Lab Testing",
+        "Sample Handling",
+        "Data Analysis"
+      ]
+    },
+    {
+      "name": "Radiologic Technologist",
+      "description": "Operates imaging equipment to perform diagnostic imaging exams.",
+      "includes": [],
+      "related": [
+        "Radiologist",
+        "Physician",
+        "Medical Laboratory Technician"
+      ],
+      "tools": [
+        "X-ray Machine",
+        "MRI Scanner",
+        "PACS"
+      ],
+      "languages": [],
+      "skills": [
+        "Imaging Techniques",
+        "Patient Positioning",
+        "Radiation Safety"
+      ]
+    },
+    {
+      "name": "Physician Assistant",
+      "description": "Practices medicine under physician supervision, can diagnose and treat patients.",
+      "includes": [],
+      "related": [
+        "Physician",
+        "Nurse Practitioner",
+        "Nurse"
+      ],
+      "tools": [
+        "EHR",
+        "Medical Instruments",
+        "Diagnostic Tools"
+      ],
+      "languages": [],
+      "skills": [
+        "Clinical Assessment",
+        "Patient Care",
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Medical Assistant",
+      "description": "Performs administrative and basic clinical tasks in healthcare settings.",
+      "includes": [],
+      "related": [
+        "Nurse",
+        "Physician",
+        "Receptionist"
+      ],
+      "tools": [
+        "EHR",
+        "Blood Pressure Monitor",
+        "Scheduling Software"
+      ],
+      "languages": [],
+      "skills": [
+        "Patient Interaction",
+        "Vital Signs Measurement",
+        "Organization"
+      ]
+    },
+    {
+      "name": "Physical Therapist",
+      "description": "Helps patients improve movement and manage pain after injuries or illness.",
+      "includes": [],
+      "related": [
+        "Physician",
+        "Occupational Therapist",
+        "Rehabilitation Nurse"
+      ],
+      "tools": [
+        "Therapy Equipment",
+        "Exercise Bands",
+        "EHR"
+      ],
+      "languages": [],
+      "skills": [
+        "Rehabilitation",
+        "Exercise Instruction",
+        "Patient Motivation"
+      ]
+    },
+    {
+      "name": "Occupational Therapist",
+      "description": "Assists patients in developing, recovering, or maintaining daily living skills.",
+      "includes": [],
+      "related": [
+        "Physical Therapist",
+        "Speech Therapist",
+        "Rehabilitation Nurse"
+      ],
+      "tools": [
+        "Adaptive Equipment",
+        "Therapy Tools",
+        "EHR"
+      ],
+      "languages": [],
+      "skills": [
+        "Therapy Planning",
+        "Patient Assessment",
+        "Adaptation"
+      ]
+    },
+    {
+      "name": "Speech Therapist",
+      "description": "Diagnoses and treats speech, language, and swallowing disorders.",
+      "includes": [],
+      "related": [
+        "Occupational Therapist",
+        "Physical Therapist",
+        "Physician"
+      ],
+      "tools": [
+        "Speech Therapy Software",
+        "Assessment Tools",
+        "EHR"
+      ],
+      "languages": [],
+      "skills": [
+        "Speech Assessment",
+        "Therapy Delivery",
+        "Communication"
+      ]
+    },
+    {
+      "name": "Cardiologist",
+      "description": "Specializes in diagnosing and treating heart diseases.",
+      "includes": [
+        "Interventional Cardiologist",
+        "Electrophysiologist"
+      ],
+      "related": [
+        "Cardiac Surgeon",
+        "Primary Care Physician",
+        "Physician"
+      ],
+      "tools": [
+        "Echocardiogram",
+        "ECG",
+        "Catheterization Lab"
+      ],
+      "languages": [],
+      "skills": [
+        "Cardiac Care",
+        "Diagnostic Testing",
+        "Patient Management"
+      ]
+    },
+    {
+      "name": "Neurosurgeon",
+      "description": "Performs surgery on the nervous system including brain and spine.",
+      "includes": [],
+      "related": [
+        "Neurologist",
+        "Anesthesiologist"
+      ],
+      "tools": [
+        "Operating Microscope",
+        "Neuro-navigation Systems"
+      ],
+      "languages": [],
+      "skills": [
+        "Surgical Skills",
+        "Neuroanatomy",
+        "Critical Care"
+      ]
+    },
+    {
+      "name": "Pediatrician",
+      "description": "Provides medical care to infants, children, and adolescents.",
+      "includes": [
+        "Neonatologist",
+        "Pediatric Endocrinologist"
+      ],
+      "related": [
+        "Pediatric Nurse",
+        "Family Physician"
+      ],
+      "tools": [
+        "Growth Charts",
+        "Vaccination Records"
+      ],
+      "languages": [],
+      "skills": [
+        "Child Health",
+        "Immunization",
+        "Developmental Assessment"
+      ]
+    }
+  ]
+}

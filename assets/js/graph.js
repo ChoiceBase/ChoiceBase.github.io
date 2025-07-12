@@ -6,9 +6,12 @@
 // - <div id="details"></div>, <div id="node-popup"></div>
 
 const domainToJson = {
+  construction: '../data/roles_construction.json',
+  electronics: '../data/roles_electronics.json',
   software: '../data/roles_it.json',
   manufacturing: '../data/roles_manufacturing.json',
-  marketing: '../data/roles_marketing.json'
+  marketing: '../data/roles_marketing.json',
+  medical: '../data/roles_medical.json'
   // Add more as needed
 };
 
@@ -154,7 +157,6 @@ function renderGraph(jsonUrl) {
         .on("click", function(event, d) {
             event.stopPropagation();
             showPopup(d, event);
-            showDetails(d);
         })
         .call(d3.drag()
           .on("start", dragstarted)
@@ -260,18 +262,6 @@ function renderGraph(jsonUrl) {
         d.fy = null;
       }
 
-      function showDetails(role) {
-        document.getElementById('details').innerHTML = `
-          <h2>${role.name}</h2>
-          <strong>Description:</strong> ${role.description || ''}<br>
-          <strong>Includes Roles:</strong> ${(role.includes || []).join(', ')}<br>
-          <strong>Related Roles:</strong> ${(role.related || []).join(', ')}<br>
-          <strong>Tools:</strong> ${(role.tools || []).join(', ')}<br>
-          <strong>Languages:</strong> ${(role.languages || []).join(', ')}<br>
-          <strong>Skills:</strong> ${(role.skills || []).join(', ')}
-        `;
-      }
-
       function showPopup(d, event) {
         const popup = document.getElementById('node-popup');
         popup.innerHTML = `
@@ -280,7 +270,7 @@ function renderGraph(jsonUrl) {
           ${d.includes ? `<div><strong>Includes:</strong> ${d.includes.join(', ')}</div>` : ''}
           ${d.related ? `<div><strong>Related:</strong> ${d.related.join(', ')}</div>` : ''}
           ${d.tools ? `<div><strong>Tools:</strong> ${d.tools.join(', ')}</div>` : ''}
-          ${d.languages ? `<div><strong>Languages:</strong> ${d.languages.join(', ')}</div>` : ''}
+          ${Array.isArray(d.languages) && d.languages.length > 0 ?  `<div><strong>Languages:</strong> ${d.languages.join(', ')}</div>` : ''}
           ${d.skills ? `<div><strong>Skills:</strong> ${d.skills.join(', ')}</div>` : ''}
         `;
         const [x, y] = d3.pointer(event, document.body);

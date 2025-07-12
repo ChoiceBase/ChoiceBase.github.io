@@ -3,38 +3,110 @@
     {
       "name": "Marketing Manager",
       "description": "Leads the marketing team and strategy.",
-      "includes": ["Content Strategist", "SEO Specialist"],
-      "related": ["Sales Manager", "Brand Manager"],
-      "tools": ["CRM", "Marketing Automation Platforms"],
+      "includes": ["Content Strategist", "SEO Specialist", "Social Media Manager", "PPC Specialist"],
+      "related": ["Sales Manager", "Brand Manager", "Product Marketing Manager"],
+      "tools": ["CRM", "Marketing Automation Platforms", "Google Analytics"],
       "languages": [],
-      "skills": ["Strategic Planning", "Team Leadership", "Budgeting"]
+      "skills": ["Strategic Planning", "Team Leadership", "Budgeting", "Campaign Management"]
     },
     {
       "name": "Content Strategist",
       "description": "Plans and oversees content creation.",
-      "includes": [],
-      "related": ["SEO Specialist", "Social Media Manager"],
-      "tools": ["Content Management Systems", "Analytics Tools"],
+      "includes": ["Copywriter", "Content Editor"],
+      "related": ["SEO Specialist", "Social Media Manager", "Brand Manager"],
+      "tools": ["Content Management Systems", "Analytics Tools", "Grammarly"],
       "languages": [],
-      "skills": ["Content Planning", "Copywriting", "SEO"]
+      "skills": ["Content Planning", "Copywriting", "SEO", "Editorial Strategy"]
     },
     {
       "name": "SEO Specialist",
       "description": "Optimizes web content for search engines.",
       "includes": [],
-      "related": ["Content Strategist", "Web Analyst"],
-      "tools": ["Google Analytics", "SEO Tools"],
+      "related": ["Content Strategist", "Web Analyst", "PPC Specialist"],
+      "tools": ["Google Analytics", "SEO Tools", "Google Search Console"],
       "languages": [],
-      "skills": ["Keyword Research", "Technical SEO"]
+      "skills": ["Keyword Research", "Technical SEO", "On-page Optimization"]
     },
     {
       "name": "Social Media Manager",
       "description": "Manages social media presence and campaigns.",
-      "includes": [],
-      "related": ["Content Strategist", "Brand Manager"],
-      "tools": ["Social Media Platforms", "Scheduling Tools"],
+      "includes": ["Community Manager"],
+      "related": ["Content Strategist", "Brand Manager", "Influencer Marketing Manager"],
+      "tools": ["Social Media Platforms", "Scheduling Tools", "Canva"],
       "languages": [],
-      "skills": ["Content Creation", "Community Engagement"]
+      "skills": ["Content Creation", "Community Engagement", "Analytics"]
+    },
+    {
+      "name": "Brand Manager",
+      "description": "Develops and maintains brand identity and messaging.",
+      "includes": [],
+      "related": ["Marketing Manager", "Product Marketing Manager", "Content Strategist"],
+      "tools": ["Brand Asset Management", "Survey Tools"],
+      "languages": [],
+      "skills": ["Brand Positioning", "Market Research", "Storytelling"]
+    },
+    {
+      "name": "Product Marketing Manager",
+      "description": "Bridges product development and marketing teams to launch products.",
+      "includes": [],
+      "related": ["Marketing Manager", "Brand Manager", "Sales Manager"],
+      "tools": ["Product Management Tools", "CRM", "Survey Tools"],
+      "languages": [],
+      "skills": ["Go-to-Market Strategy", "Competitive Analysis", "Cross-functional Leadership"]
+    },
+    {
+      "name": "PPC Specialist",
+      "description": "Manages paid advertising campaigns across digital platforms.",
+      "includes": [],
+      "related": ["SEO Specialist", "Web Analyst", "Marketing Manager"],
+      "tools": ["Google Ads", "Facebook Ads Manager", "Bid Management Tools"],
+      "languages": [],
+      "skills": ["Campaign Optimization", "A/B Testing", "Analytics"]
+    },
+    {
+      "name": "Copywriter",
+      "description": "Creates compelling written content for marketing materials.",
+      "includes": [],
+      "related": ["Content Strategist", "Content Editor", "Social Media Manager"],
+      "tools": ["Word Processors", "Grammarly", "Content Management Systems"],
+      "languages": [],
+      "skills": ["Copywriting", "Storytelling", "Editing"]
+    },
+    {
+      "name": "Content Editor",
+      "description": "Edits and proofreads marketing materials for clarity and accuracy.",
+      "includes": [],
+      "related": ["Copywriter", "Content Strategist"],
+      "tools": ["Word Processors", "Editing Tools"],
+      "languages": [],
+      "skills": ["Editing", "Proofreading", "Attention to Detail"]
+    },
+    {
+      "name": "Web Analyst",
+      "description": "Analyzes website data to inform marketing decisions.",
+      "includes": [],
+      "related": ["SEO Specialist", "PPC Specialist", "Content Strategist"],
+      "tools": ["Google Analytics", "Data Visualization Tools"],
+      "languages": [],
+      "skills": ["Data Analysis", "Reporting", "Conversion Optimization"]
+    },
+    {
+      "name": "Community Manager",
+      "description": "Builds and manages relationships with online communities.",
+      "includes": [],
+      "related": ["Social Media Manager", "Content Strategist"],
+      "tools": ["Community Platforms", "Social Listening Tools"],
+      "languages": [],
+      "skills": ["Community Engagement", "Conflict Resolution", "Event Planning"]
+    },
+    {
+      "name": "Influencer Marketing Manager",
+      "description": "Coordinates campaigns with influencers and brand ambassadors.",
+      "includes": [],
+      "related": ["Social Media Manager", "Brand Manager"],
+      "tools": ["Influencer Platforms", "CRM"],
+      "languages": [],
+      "skills": ["Negotiation", "Relationship Building", "Campaign Management"]
     }
   ]
 }
