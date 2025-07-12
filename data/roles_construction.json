@@ -1,0 +1,140 @@
+{
+  "roles": [
+    {
+      "name": "Chief Construction Officer",
+      "description": "Leads all construction operations and sets company-wide strategy.",
+      "includes": ["Vice President of Construction", "Construction Director"],
+      "related": ["Chief Financial Officer", "Chief Executive Officer"],
+      "tools": ["ERP Systems", "Board Reports"],
+      "skills": ["Leadership", "Strategic Planning", "Risk Management"]
+    },
+    {
+      "name": "Vice President of Construction",
+      "description": "Oversees multiple projects and provides management support to construction teams.",
+      "includes": ["Construction Director", "Regional Managers"],
+      "related": ["Chief Construction Officer", "COO"],
+      "tools": ["Management Dashboards", "Reporting Tools"],
+      "skills": ["Team Leadership", "Policy Implementation", "Strategic Oversight"]
+    },
+    {
+      "name": "Construction Director",
+      "description": "Directs construction activity, timelines, and safety policies.",
+      "includes": ["Construction Manager", "Project Manager"],
+      "related": ["VP of Construction", "Director of Operations"],
+      "tools": ["Project Management Software", "Safety Manuals"],
+      "skills": ["Project Delivery", "Team Coordination", "Safety Management"]
+    },
+    {
+      "name": "Construction Manager",
+      "description": "Manages projects from initiation to completion, handling budgets, schedules, and compliance.",
+      "includes": ["Project Manager", "Construction Superintendent"],
+      "related": ["General Contractor", "Civil Engineer"],
+      "tools": ["Scheduling Software", "Blueprints"],
+      "skills": ["Project Management", "Problem Solving", "Budgeting"]
+    },
+    {
+      "name": "Project Manager",
+      "description": "Plans, executes, and closes construction projects, managing teams and resources.",
+      "includes": ["Site Supervisor", "Scheduler"],
+      "related": ["Construction Manager", "Estimator"],
+      "tools": ["Gantt Charts", "Project Management Software"],
+      "skills": ["Organization", "Communication", "Resource Allocation"]
+    },
+    {
+      "name": "Construction Superintendent",
+      "description": "Oversees daily operations on the construction site, ensuring schedule and quality.",
+      "includes": ["Construction Foreman", "Skilled Tradespeople"],
+      "related": ["Project Manager", "General Contractor"],
+      "tools": ["Site Logs", "Safety Equipment"],
+      "skills": ["Site Supervision", "Scheduling", "Quality Control"]
+    },
+    {
+      "name": "General Contractor",
+      "description": "Coordinates and oversees construction activities, manages subcontractors, and ensures completion.",
+      "includes": ["Subcontractor", "Construction Laborer"],
+      "related": ["Construction Manager", "Client"],
+      "tools": ["Contracts", "Scheduling Tools"],
+      "skills": ["Negotiation", "Coordination", "Quality Assurance"]
+    },
+    {
+      "name": "Construction Foreman",
+      "description": "Leads a crew of skilled tradespeople on site, reporting to the superintendent or project manager.",
+      "includes": ["Skilled Tradespeople", "Construction Laborers"],
+      "related": ["Superintendent", "Site Supervisor"],
+      "tools": ["Walkie Talkies", "Safety Equipment"],
+      "skills": ["Team Leadership", "Safety Compliance", "Scheduling"]
+    },
+    {
+      "name": "Estimator",
+      "description": "Estimates project costs, materials, and labor requirements.",
+      "includes": [],
+      "related": ["Project Manager", "Procurement Manager"],
+      "tools": ["Estimating Software", "Spreadsheets"],
+      "skills": ["Cost Estimation", "Attention to Detail", "Negotiation"]
+    },
+    {
+      "name": "Scheduler",
+      "description": "Develops and maintains project schedules.",
+      "includes": [],
+      "related": ["Project Manager", "Superintendent"],
+      "tools": ["Scheduling Software", "Calendars"],
+      "skills": ["Time Management", "Planning", "Coordination"]
+    },
+    {
+      "name": "Site Supervisor",
+      "description": "Supervises daily site operations and ensures safety compliance.",
+      "includes": [],
+      "related": ["Foreman", "Superintendent"],
+      "tools": ["Safety Checklists", "Site Reports"],
+      "skills": ["Supervision", "Safety", "Problem Solving"]
+    },
+    {
+      "name": "Civil Engineer",
+      "description": "Designs, plans, and oversees construction and maintenance of building structures and infrastructure.",
+      "includes": [],
+      "related": ["Construction Manager", "Architect"],
+      "tools": ["CAD Software", "Survey Equipment"],
+      "skills": ["Structural Analysis", "Design", "Project Management"]
+    },
+    {
+      "name": "Construction Architect",
+      "description": "Develops and manages project design, ensuring compliance with regulations.",
+      "includes": [],
+      "related": ["Civil Engineer", "Project Manager"],
+      "tools": ["Design Software", "Blueprints"],
+      "skills": ["Design", "Technical Proficiency", "Regulatory Knowledge"]
+    },
+    {
+      "name": "Skilled Tradesperson",
+      "description": "Executes specialized tasks such as carpentry, plumbing, or electrical work.",
+      "includes": ["Apprentice"],
+      "related": ["Construction Foreman", "General Contractor"],
+      "tools": ["Trade-specific Tools", "Safety Gear"],
+      "skills": ["Technical Skills", "Attention to Detail", "Problem Solving"]
+    },
+    {
+      "name": "Equipment Operator",
+      "description": "Operates heavy machinery such as cranes, bulldozers, and excavators.",
+      "includes": [],
+      "related": ["Site Supervisor", "Foreman"],
+      "tools": ["Cranes", "Bulldozers", "Excavators"],
+      "skills": ["Machinery Operation", "Safety", "Coordination"]
+    },
+    {
+      "name": "Construction Laborer",
+      "description": "Performs physical labor on construction sites, assisting skilled trades and supervisors.",
+      "includes": [],
+      "related": ["Skilled Tradesperson", "Foreman"],
+      "tools": ["Hand Tools", "Power Tools", "Safety Equipment"],
+      "skills": ["Physical Stamina", "Teamwork", "Safety Awareness"]
+    },
+    {
+      "name": "Apprentice",
+      "description": "Learns a specific trade under the supervision of skilled tradespeople.",
+      "includes": [],
+      "related": ["Skilled Tradesperson", "Foreman"],
+      "tools": ["Trade-specific Tools"],
+      "skills": ["Willingness to Learn", "Technical Skills", "Safety"]
+    }
+  ]
+}

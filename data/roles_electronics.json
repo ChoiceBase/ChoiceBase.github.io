@@ -1,0 +1,67 @@
+{
+  "roles": [
+    {
+      "name": "Electronics Engineer",
+      "description": "Designs, develops, and tests electronic systems and components.",
+      "includes": ["Embedded Systems Engineer", "PCB Designer"],
+      "related": ["Electrical Engineer", "Firmware Engineer"],
+      "tools": ["Oscilloscope", "Multimeter", "EDA Software"],
+      "languages": ["C", "VHDL"],
+      "skills": ["Circuit Design", "Testing", "Problem Solving"]
+    },
+    {
+      "name": "Embedded Systems Engineer",
+      "description": "Develops embedded hardware and software for electronic devices.",
+      "includes": [],
+      "related": ["Electronics Engineer", "Firmware Engineer"],
+      "tools": ["Microcontrollers", "Debuggers", "IDE"],
+      "languages": ["C", "C++", "Assembly"],
+      "skills": ["Embedded Programming", "Hardware Integration", "Debugging"]
+    },
+    {
+      "name": "PCB Designer",
+      "description": "Designs printed circuit boards for electronic products.",
+      "includes": [],
+      "related": ["Electronics Engineer", "Manufacturing Engineer"],
+      "tools": ["PCB Design Software (Altium, Eagle)", "Schematic Capture Tools"],
+      "languages": [],
+      "skills": ["PCB Layout", "Schematic Design", "Attention to Detail"]
+    },
+    {
+      "name": "Test Engineer",
+      "description": "Develops and executes tests to ensure the quality and functionality of electronic products.",
+      "includes": [],
+      "related": ["Quality Assurance Engineer", "Electronics Engineer"],
+      "tools": ["Automated Test Equipment", "Signal Generators"],
+      "languages": ["Python", "LabVIEW"],
+      "skills": ["Test Planning", "Data Analysis", "Troubleshooting"]
+    },
+    {
+      "name": "Electronics Technician",
+      "description": "Assembles, installs, and repairs electronic equipment.",
+      "includes": [],
+      "related": ["Test Engineer", "Manufacturing Technician"],
+      "tools": ["Soldering Iron", "Multimeter", "Hand Tools"],
+      "languages": [],
+      "skills": ["Assembly", "Repair", "Diagnostics"]
+    },
+    {
+      "name": "Firmware Engineer",
+      "description": "Develops low-level software that controls hardware devices.",
+      "includes": [],
+      "related": ["Embedded Systems Engineer", "Electronics Engineer"],
+      "tools": ["IDE", "Emulators", "Version Control"],
+      "languages": ["C", "C++", "Assembly"],
+      "skills": ["Firmware Development", "Debugging", "Optimization"]
+    },
+    {
+      "name": "Manufacturing Engineer",
+      "description": "Oversees the manufacturing process for electronic products.",
+      "includes": [],
+      "related": ["PCB Designer", "Quality Assurance Engineer"],
+      "tools": ["Manufacturing Execution Systems", "Process Control Software"],
+      "languages": [],
+      "skills": ["Process Improvement", "Quality Control", "Production Planning"]
+    }
+  ]
+}
