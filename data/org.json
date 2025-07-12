@@ -1,0 +1,226 @@
+{
+  "Board of Directors": {
+    "manages": ["CEO"],
+    "description": "Governing body providing oversight and strategic direction."
+  },
+  "CEO": {
+    "manages": ["CFO", "CTO", "COO", "CMO", "CHRO", "CLO", "CIO", "CPO", "CSO", "CDO", "CAO"],
+    "description": "Chief Executive Officer - top-level decision maker."
+  },
+  "CFO": {
+    "manages": ["Finance Manager", "Procurement Manager", "Treasurer", "Risk Manager", "Investor Relations Manager"],
+    "description": "Chief Financial Officer - oversees finance and budgeting."
+  },
+  "CTO": {
+    "manages": ["Engineering Manager", "IT Manager", "R&D Manager", "Data Science Manager", "Product Manager"],
+    "description": "Chief Technology Officer - handles technology direction."
+  },
+  "COO": {
+    "manages": ["Operations Manager", "Facilities Manager", "Logistics Manager", "Supply Chain Manager"],
+    "description": "Chief Operating Officer - runs daily operations."
+  },
+  "CMO": {
+    "manages": ["Marketing Manager", "Sales Manager", "Brand Manager", "PR Manager", "Customer Success Manager"],
+    "description": "Chief Marketing Officer - leads marketing and sales."
+  },
+  "CHRO": {
+    "manages": ["HR Manager", "Recruitment Manager", "Training Manager", "Compensation & Benefits Manager", "Diversity & Inclusion Manager"],
+    "description": "Chief Human Resources Officer - oversees people strategy."
+  },
+  "CLO": {
+    "manages": ["Legal Counsel", "Compliance Manager", "Contracts Manager"],
+    "description": "Chief Legal Officer - manages legal affairs and compliance."
+  },
+  "CIO": {
+    "manages": ["IT Security Manager", "Infrastructure Manager", "Service Desk Manager"],
+    "description": "Chief Information Officer - oversees information systems and security."
+  },
+  "CPO": {
+    "manages": ["Product Manager", "UX/UI Manager", "Quality Assurance Manager"],
+    "description": "Chief Product Officer - leads product vision and delivery."
+  },
+  "CSO": {
+    "manages": ["Security Manager", "Business Continuity Manager"],
+    "description": "Chief Security Officer - responsible for corporate security."
+  },
+  "CDO": {
+    "manages": ["Data Governance Manager", "Analytics Manager"],
+    "description": "Chief Data Officer - manages data strategy and analytics."
+  },
+  "CAO": {
+    "manages": ["Administrative Manager", "Office Manager"],
+    "description": "Chief Administrative Officer - oversees admin and support."
+  },
+  "Finance Manager": {
+    "manages": ["Accountant", "Financial Analyst", "Accounts Payable Clerk", "Accounts Receivable Clerk"],
+    "description": "Handles financial reporting and audits."
+  },
+  "Procurement Manager": {
+    "manages": ["Buyer", "Procurement Specialist", "Vendor Manager"],
+    "description": "Manages purchasing and vendor relations."
+  },
+  "Engineering Manager": {
+    "manages": ["Software Engineer", "QA Engineer", "DevOps Engineer", "Frontend Developer", "Backend Developer", "Mobile Developer"],
+    "description": "Leads engineering and development teams."
+  },
+  "IT Manager": {
+    "manages": ["SysAdmin", "Support Staff", "Network Engineer", "Database Administrator"],
+    "description": "Manages IT infrastructure and helpdesk."
+  },
+  "R&D Manager": {
+    "manages": ["Research Scientist", "Lab Technician", "Innovation Specialist"],
+    "description": "Leads research and development projects."
+  },
+  "Product Manager": {
+    "manages": ["Product Owner", "Business Analyst"],
+    "description": "Drives product strategy and feature delivery."
+  },
+  "Data Science Manager": {
+    "manages": ["Data Scientist", "Machine Learning Engineer", "Data Engineer"],
+    "description": "Leads data science and analytics teams."
+  },
+  "Marketing Manager": {
+    "manages": ["Content Strategist", "SEO Specialist", "Social Media Manager", "Marketing Analyst"],
+    "description": "Leads marketing campaigns and branding."
+  },
+  "Sales Manager": {
+    "manages": ["Account Executive", "Sales Associate", "Inside Sales Rep", "Sales Operations Analyst"],
+    "description": "Drives sales strategy and manages sales team."
+  },
+  "Brand Manager": {
+    "manages": ["Brand Strategist", "Creative Director"],
+    "description": "Manages brand identity and messaging."
+  },
+  "PR Manager": {
+    "manages": ["PR Specialist", "Media Relations Coordinator"],
+    "description": "Handles public relations and media outreach."
+  },
+  "Customer Success Manager": {
+    "manages": ["Customer Support Lead", "Onboarding Specialist"],
+    "description": "Ensures customer satisfaction and retention."
+  },
+  "HR Manager": {
+    "manages": ["HR Generalist", "Payroll Specialist", "Employee Relations Specialist"],
+    "description": "Handles employee relations and HR operations."
+  },
+  "Recruitment Manager": {
+    "manages": ["Recruiter", "Talent Sourcer"],
+    "description": "Oversees talent acquisition."
+  },
+  "Training Manager": {
+    "manages": ["Learning & Development Specialist", "Trainer"],
+    "description": "Manages employee training and development."
+  },
+  "Compensation & Benefits Manager": {
+    "manages": ["Benefits Specialist", "Compensation Analyst"],
+    "description": "Administers pay and benefits programs."
+  },
+  "Diversity & Inclusion Manager": {
+    "manages": ["D&I Specialist"],
+    "description": "Promotes diversity and inclusion initiatives."
+  },
+  "Legal Counsel": {
+    "manages": ["Paralegal"],
+    "description": "Advises on legal matters and compliance."
+  },
+  "Compliance Manager": {
+    "manages": ["Compliance Analyst"],
+    "description": "Ensures regulatory compliance."
+  },
+  "Contracts Manager": {
+    "manages": ["Contract Administrator"],
+    "description": "Oversees contract negotiation and management."
+  },
+  "IT Security Manager": {
+    "manages": ["Security Analyst", "Incident Response Specialist"],
+    "description": "Manages IT security and incident response."
+  },
+  "Infrastructure Manager": {
+    "manages": ["Systems Engineer", "Cloud Engineer"],
+    "description": "Oversees IT infrastructure and cloud services."
+  },
+  "Service Desk Manager": {
+    "manages": ["Service Desk Analyst", "Help Desk Technician"],
+    "description": "Manages IT support services."
+  },
+  "UX/UI Manager": {
+    "manages": ["UX Designer", "UI Designer"],
+    "description": "Leads user experience and interface design."
+  },
+  "Quality Assurance Manager": {
+    "manages": ["QA Tester", "Automation Engineer"],
+    "description": "Ensures product quality and testing."
+  },
+  "Security Manager": {
+    "manages": ["Security Officer", "Loss Prevention Specialist"],
+    "description": "Manages physical and corporate security."
+  },
+  "Business Continuity Manager": {
+    "manages": ["Disaster Recovery Specialist"],
+    "description": "Plans for business continuity and disaster recovery."
+  },
+  "Data Governance Manager": {
+    "manages": ["Data Steward"],
+    "description": "Oversees data quality and governance."
+  },
+  "Analytics Manager": {
+    "manages": ["Business Intelligence Analyst", "Reporting Specialist"],
+    "description": "Leads business analytics and reporting."
+  },
+  "Administrative Manager": {
+    "manages": ["Admin Assistant", "Receptionist"],
+    "description": "Oversees administrative support."
+  },
+  "Office Manager": {
+    "manages": ["Facilities Coordinator", "Mailroom Clerk"],
+    "description": "Manages office operations and facilities."
+  },
+  "Operations Manager": {
+    "manages": ["Team Lead", "Logistics Coordinator"],
+    "description": "Coordinates cross-functional operations."
+  },
+  "Facilities Manager": {
+    "manages": ["Maintenance Staff", "Security Officer"],
+    "description": "Oversees building and grounds maintenance."
+  },
+  "Logistics Manager": {
+    "manages": ["Logistics Coordinator", "Shipping Clerk"],
+    "description": "Manages logistics and distribution."
+  },
+  "Supply Chain Manager": {
+    "manages": ["Supply Planner", "Inventory Analyst"],
+    "description": "Oversees supply chain and inventory."
+  },
+  "Team Lead": {
+    "manages": ["Worker", "Intern"],
+    "description": "Supervises front-line workers."
+  },
+  "Worker": {
+    "manages": [],
+    "description": "Performs daily assigned tasks."
+  },
+  "Intern": {
+    "manages": [],
+    "description": "Learns and assists with tasks."
+  },
+  "Contractor": {
+    "manages": [],
+    "description": "Works temporarily on specific tasks."
+  },
+  "Vendor": {
+    "manages": [],
+    "description": "Provides goods or services to the company."
+  },
+  "Supplier": {
+    "manages": [],
+    "description": "Delivers physical goods to the business."
+  },
+  "Customer": {
+    "manages": [],
+    "description": "Receives products or services."
+  },
+  "Vendor Manager": {
+    "manages": [],
+    "description": "Manages relationships with vendors."
+  }
+}
