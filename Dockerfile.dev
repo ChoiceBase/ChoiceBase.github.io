@@ -1,0 +1,26 @@
+# Development Dockerfile with live reload
+FROM node:18-alpine
+
+# Install http-server globally
+RUN npm install -g http-server
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install dependencies (if any)
+RUN npm install
+
+# Copy all files
+COPY . .
+
+# Expose port 8080
+EXPOSE 8080
+
+# Start http-server with auto-reload
+CMD ["http-server", ".", "-p", "8080", "-o", "-c-1"]
+
+
+

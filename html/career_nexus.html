@@ -36,8 +36,18 @@
 
   <div id="common-footer"></div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function loadFragment(id, url) {
+      fetch(url).then(res => res.text()).then(html => {
+        document.getElementById(id).innerHTML = html;
+      });
+    }
+    window.addEventListener('DOMContentLoaded', function() {
+      loadFragment('common-header', '/includes/header.html');
+      loadFragment('common-footer', '/includes/footer.html');
+    });
+  </script>
   <script src="../assets/js/graph.js"></script>
-  <script src="../assets/js/common.js"></script>
 
 </body>
 

@@ -1,68 +1,89 @@
 [
   {
     "id": "1",
-    "title": "Python",
-    "url": "https://www.python.org",
-    "description": "Python is a high-level, interpreted language known for its readability and versatility. It's widely used in web development, data science, automation, and more.",
-    "tags": [
-      "general-purpose",
-      "easy-to-learn",
-      "web development",
-      "data science",
-      "automation"
-    ]
-  },
-  {
-    "id": "2",
     "title": "Java",
     "url": "https://www.java.com",
-    "description": "Java is a versatile, object-oriented programming language used for building cross-platform applications, web services, and Android apps.",
+    "description": "Java is a robust, object-oriented programming language designed for cross-platform development. Write once, run anywhere (WORA) principle. Dominant in enterprise applications, Android mobile development, web services, and large-scale systems. Features include strong typing, automatic memory management, extensive libraries, and excellent tooling (IntelliJ, Eclipse). Used by major companies for backend systems, microservices, and enterprise software. Free and open-source.",
     "tags": [
       "general-purpose",
       "object-oriented",
       "web development",
       "enterprise",
-      "Android"
-    ]
+      "Android",
+      "backend",
+      "microservices",
+      "free",
+      "open-source",
+      "cross-platform"
+    ],
+    "popularity": 100
   },
   {
-    "id": "3",
+    "id": "2",
     "title": "JavaScript",
     "url": "https://www.javascript.com",
-    "description": "JavaScript is a high-level, dynamic language used primarily for creating interactive and dynamic web pages, with numerous frameworks and libraries available.",
+    "description": "JavaScript is the universal language of the web, running in browsers and on servers (Node.js). Essential for front-end development (React, Vue, Angular), full-stack applications, mobile apps (React Native), and server-side programming. Features include dynamic typing, first-class functions, async/await, and massive ecosystem (npm). Used by 98% of websites. Free and open-source. Must-learn for web developers.",
     "tags": [
       "web development",
       "front-end",
+      "back-end",
       "dynamic",
       "frameworks",
-      "client-side"
-    ]
+      "client-side",
+      "server-side",
+      "Node.js",
+      "free",
+      "open-source",
+      "essential"
+    ],
+    "popularity": 100
+  },
+  {
+    "id": "3",
+    "title": "Python",
+    "url": "https://www.python.org",
+    "description": "Python is a high-level, interpreted programming language known for its simple syntax and readability. It's the #1 language for data science, machine learning, and AI development. Widely used in web development (Django, Flask), automation, scripting, scientific computing, and backend services. Features include extensive standard library, large ecosystem (PyPI), cross-platform support, and strong community. Free and open-source. Perfect for beginners and professionals alike.",
+    "tags": [
+      "general-purpose",
+      "easy-to-learn",
+      "web development",
+      "data science",
+      "automation",
+      "machine learning",
+      "AI",
+      "free",
+      "open-source",
+      "beginner-friendly"
+    ],
+    "popularity": 100
   },
   {
     "id": "4",
-    "title": "PHP",
-    "url": "https://www.php.net",
-    "description": "PHP is a server-side scripting language designed for web development, used to create dynamic web pages and interact with databases.",
+    "title": "TypeScript",
+    "url": "https://www.typescriptlang.org",
+    "description": "TypeScript is a superset of JavaScript that adds static typing and modern features to the language, enhancing code quality and maintainability.",
     "tags": [
-      "server-side",
       "web development",
-      "dynamic",
-      "CMS",
-      "database"
-    ]
+      "static typing",
+      "JavaScript",
+      "front-end",
+      "frameworks"
+    ],
+    "popularity": 98
   },
   {
     "id": "5",
-    "title": "Ruby",
-    "url": "https://www.ruby-lang.org",
-    "description": "Ruby is an object-oriented language known for its simplicity and productivity, often used with the Ruby on Rails framework for web development.",
+    "title": "C++",
+    "url": "https://www.cplusplus.com",
+    "description": "C++ is a versatile language known for its performance and control, widely used in system programming, game development, and high-performance applications.",
     "tags": [
-      "web development",
+      "general-purpose",
       "object-oriented",
-      "dynamic",
-      "Rails",
-      "scripting"
-    ]
+      "system programming",
+      "performance",
+      "games"
+    ],
+    "popularity": 97
   },
   {
     "id": "6",
@@ -75,20 +96,22 @@
       "performance",
       "system programming",
       "cloud"
-    ]
+    ],
+    "popularity": 95
   },
   {
     "id": "7",
-    "title": "TypeScript",
-    "url": "https://www.typescriptlang.org",
-    "description": "TypeScript is a superset of JavaScript that adds static typing and modern features to the language, enhancing code quality and maintainability.",
+    "title": "Rust",
+    "url": "https://www.rust-lang.org",
+    "description": "Rust is a systems programming language focused on safety and performance, offering memory safety without a garbage collector and strong concurrency features.",
     "tags": [
-      "web development",
-      "static typing",
-      "JavaScript",
-      "front-end",
-      "frameworks"
-    ]
+      "system programming",
+      "memory safety",
+      "concurrency",
+      "performance",
+      "modern"
+    ],
+    "popularity": 94
   },
   {
     "id": "8",
@@ -101,88 +124,39 @@
       "object-oriented",
       "performance",
       "modern"
-    ]
+    ],
+    "popularity": 94
   },
   {
     "id": "9",
-    "title": "C++",
-    "url": "https://www.cplusplus.com",
-    "description": "C++ is a versatile language known for its performance and control, widely used in system programming, game development, and high-performance applications.",
+    "title": "PHP",
+    "url": "https://www.php.net",
+    "description": "PHP is a server-side scripting language designed for web development, used to create dynamic web pages and interact with databases.",
     "tags": [
-      "general-purpose",
-      "object-oriented",
-      "system programming",
-      "performance",
-      "games"
-    ]
+      "server-side",
+      "web development",
+      "dynamic",
+      "CMS",
+      "database"
+    ],
+    "popularity": 90
   },
   {
     "id": "10",
-    "title": "R",
-    "url": "https://www.r-project.org",
-    "description": "R is a language and environment for statistical computing and graphics, widely used in data analysis, statistical modeling, and data visualization.",
+    "title": "Ruby",
+    "url": "https://www.ruby-lang.org",
+    "description": "Ruby is an object-oriented language known for its simplicity and productivity, often used with the Ruby on Rails framework for web development.",
     "tags": [
-      "data analysis",
-      "statistics",
-      "data science",
-      "visualization",
-      "academic"
-    ]
+      "web development",
+      "object-oriented",
+      "dynamic",
+      "Rails",
+      "scripting"
+    ],
+    "popularity": 90
   },
   {
     "id": "11",
-    "title": "Scala",
-    "url": "https://www.scala-lang.org",
-    "description": "Scala is a hybrid functional and object-oriented language running on the JVM, known for its concise syntax and powerful features for concurrent and parallel programming.",
-    "tags": [
-      "functional",
-      "object-oriented",
-      "JVM",
-      "concurrent",
-      "data processing"
-    ]
-  },
-  {
-    "id": "12",
-    "title": "Perl",
-    "url": "https://www.perl.org",
-    "description": "Perl is a high-level language known for its text processing capabilities, often used in system administration, web development, and legacy systems.",
-    "tags": [
-      "scripting",
-      "text processing",
-      "system administration",
-      "web development",
-      "legacy"
-    ]
-  },
-  {
-    "id": "13",
-    "title": "Haskell",
-    "url": "https://www.haskell.org",
-    "description": "Haskell is a purely functional language known for its strong type system and lazy evaluation, often used in academic and research settings.",
-    "tags": [
-      "functional",
-      "pure",
-      "academic",
-      "concurrent",
-      "lazy evaluation"
-    ]
-  },
-  {
-    "id": "14",
-    "title": "Dart",
-    "url": "https://www.dart.dev",
-    "description": "Dart is a language optimized for building mobile, web, and server applications, often used with the Flutter framework for cross-platform development.",
-    "tags": [
-      "web development",
-      "mobile apps",
-      "Flutter",
-      "front-end",
-      "performance"
-    ]
-  },
-  {
-    "id": "15",
     "title": "Kotlin",
     "url": "https://kotlinlang.org",
     "description": "Kotlin is a modern language running on the JVM, known for its concise syntax and interoperability with Java, widely used in Android development.",
@@ -192,88 +166,11 @@
       "modern",
       "concise",
       "functional"
-    ]
+    ],
+    "popularity": 88
   },
   {
-    "id": "16",
-    "title": "Rust",
-    "url": "https://www.rust-lang.org",
-    "description": "Rust is a systems programming language focused on safety and performance, offering memory safety without a garbage collector and strong concurrency features.",
-    "tags": [
-      "system programming",
-      "memory safety",
-      "concurrency",
-      "performance",
-      "modern"
-    ]
-  },
-  {
-    "id": "17",
-    "title": "Elixir",
-    "url": "https://elixir-lang.org",
-    "description": "Elixir is a functional language built on the Erlang VM, known for its concurrency and fault-tolerant features, often used in web development and distributed systems.",
-    "tags": [
-      "functional",
-      "concurrent",
-      "distributed",
-      "Erlang VM",
-      "web development"
-    ]
-  },
-  {
-    "id": "18",
-    "title": "Ada",
-    "url": "https://www.adaic.org",
-    "description": "Ada is a high-level language designed for system programming, known for its strong typing and support for real-time and embedded systems.",
-    "tags": [
-      "system programming",
-      "safety",
-      "real-time",
-      "embedded",
-      "legacy"
-    ]
-  },
-  {
-    "id": "19",
-    "title": "Standard ML",
-    "url": "https://www.smlnj.org",
-    "description": "Standard ML is a functional programming language known for its type safety and use in academic research, theorem proving, and modular programming.",
-    "tags": [
-      "functional",
-      "type-safe",
-      "academic",
-      "theorem proving",
-      "modular"
-    ]
-  },
-  {
-    "id": "20",
-    "title": "PL/I",
-    "url": "https://www.pleac.org",
-    "description": "PL/I is a language designed for data processing and system programming, used in business applications and legacy systems.",
-    "tags": [
-      "general-purpose",
-      "data processing",
-      "legacy",
-      "system programming",
-      "business applications"
-    ]
-  },
-  {
-    "id": "21",
-    "title": "Q#",
-    "url": "https://www.microsoft.com/en-us/quantum/development-kit",
-    "description": "Q# is a language developed by Microsoft for quantum computing, used in research and development for quantum algorithms and applications.",
-    "tags": [
-      "quantum computing",
-      "specialized",
-      "academic",
-      "Microsoft",
-      "research"
-    ]
-  },
-  {
-    "id": "22",
+    "id": "12",
     "title": "F#",
     "url": "https://fsharp.org",
     "description": "F# is a functional-first language on the .NET platform, combining functional and object-oriented programming for data processing and enterprise applications.",
@@ -283,101 +180,11 @@
       "JVM",
       "data processing",
       "Microsoft"
-    ]
+    ],
+    "popularity": 58
   },
   {
-    "id": "23",
-    "title": "Pascal",
-    "url": "https://www.pascal.com",
-    "description": "Pascal is a procedural programming language widely used in education and academic settings, with a focus on teaching programming concepts and system programming.",
-    "tags": [
-      "procedural",
-      "legacy",
-      "academic",
-      "system programming",
-      "teaching"
-    ]
-  },
-  {
-    "id": "25",
-    "title": "Bash",
-    "url": "https://www.gnu.org/software/bash/",
-    "description": "Bash is a Unix shell and command language used for scripting and automation in Linux and Unix systems, known for its powerful text-processing capabilities.",
-    "tags": [
-      "scripting",
-      "shell",
-      "automation",
-      "Linux",
-      "Unix"
-    ]
-  },
-  {
-    "id": "26",
-    "title": "Tcl",
-    "url": "https://www.tcl-lang.org",
-    "description": "Tcl is a scripting language designed for embedded applications, GUI development, and general-purpose scripting, known for its simplicity and extensibility.",
-    "tags": [
-      "scripting",
-      "automation",
-      "embedded",
-      "GUI",
-      "general-purpose"
-    ]
-  },
-  {
-    "id": "27",
-    "title": "Dylan",
-    "url": "https://www.dylan-lang.org",
-    "description": "Dylan is a multi-paradigm programming language combining functional and object-oriented programming, used in academic research and general-purpose applications.",
-    "tags": [
-      "functional",
-      "object-oriented",
-      "academic",
-      "general-purpose",
-      "dynamic"
-    ]
-  },
-  {
-    "id": "28",
-    "title": "M4",
-    "url": "https://www.m4.org",
-    "description": "M4 is a macro processing language used as a preprocessor for other languages, focusing on text processing and automation tasks.",
-    "tags": [
-      "macro",
-      "preprocessor",
-      "text processing",
-      "automation",
-      "legacy"
-    ]
-  },
-  {
-    "id": "29",
-    "title": "Forth",
-    "url": "https://www.forth.com",
-    "description": "Forth is a stack-based language used in embedded systems and system programming, known for its concise syntax and efficient execution.",
-    "tags": [
-      "stack-based",
-      "embedded",
-      "system programming",
-      "concise",
-      "legacy"
-    ]
-  },
-  {
-    "id": "30",
-    "title": "COBOL",
-    "url": "https://www.cobol.org",
-    "description": "COBOL is a language designed for business, data processing, and administrative applications, widely used in legacy enterprise systems.",
-    "tags": [
-      "business",
-      "legacy",
-      "data processing",
-      "procedural",
-      "enterprise"
-    ]
-  },
-  {
-    "id": "32",
+    "id": "13",
     "title": "Racket",
     "url": "https://www.racket-lang.org",
     "description": "Racket is a descendant of Scheme, known for its powerful macro system and use in academic settings for teaching programming and language design.",
@@ -387,75 +194,25 @@
       "academic",
       "general-purpose",
       "macro"
-    ]
+    ],
+    "popularity": 58
   },
   {
-    "id": "33",
-    "title": "Rebol",
-    "url": "https://www.rebol.com",
-    "description": "Rebol is a lightweight language designed for data exchange, domain-specific applications, and scripting, with a focus on simplicity and embedded use.",
+    "id": "14",
+    "title": "Scala",
+    "url": "https://www.scala-lang.org",
+    "description": "Scala is a hybrid functional and object-oriented language running on the JVM, known for its concise syntax and powerful features for concurrent and parallel programming.",
     "tags": [
-      "scripting",
-      "data exchange",
-      "domain-specific",
-      "general-purpose",
-      "embedded"
-    ]
-  },
-  {
-    "id": "34",
-    "title": "CHAOS",
-    "url": "https://www.chaos-lang.org",
-    "description": "CHAOS is a research-focused language designed for experimenting with new programming paradigms and functional programming concepts.",
-    "tags": [
-      "academic",
-      "research",
       "functional",
-      "experimental",
-      "domain-specific"
-    ]
+      "object-oriented",
+      "JVM",
+      "concurrent",
+      "data processing"
+    ],
+    "popularity": 58
   },
   {
-    "id": "35",
-    "title": "ActionScript",
-    "url": "https://www.adobe.com/products/flashplayer",
-    "description": "ActionScript is a language used primarily for Adobe Flash applications, focusing on interactive web content and client-side programming.",
-    "tags": [
-      "web development",
-      "Adobe Flash",
-      "client-side",
-      "interactive",
-      "legacy"
-    ]
-  },
-  {
-    "id": "36",
-    "title": "VHDL",
-    "url": "https://www.vhdl.org",
-    "description": "VHDL is a hardware description language used for designing and simulating digital systems, focusing on electrical engineering and hardware design.",
-    "tags": [
-      "hardware description",
-      "HDL",
-      "electrical engineering",
-      "simulation",
-      "design"
-    ]
-  },
-  {
-    "id": "37",
-    "title": "Verilog",
-    "url": "https://www.verilog.com",
-    "description": "Verilog is a hardware description language used for modeling and simulating digital systems, focusing on hardware design and electrical engineering.",
-    "tags": [
-      "hardware description",
-      "HDL",
-      "electrical engineering",
-      "simulation",
-      "design"
-    ]
-  },
-  {
-    "id": "38",
+    "id": "15",
     "title": "Apex",
     "url": "https://www.salesforce.com",
     "description": "Apex is a language developed by Salesforce for building enterprise applications on the Salesforce platform, with syntax similar to Java.",
@@ -465,88 +222,109 @@
       "Salesforce",
       "Java-like",
       "business applications"
-    ]
+    ],
+    "popularity": 55
   },
   {
-    "id": "40",
-    "title": "Maxima",
-    "url": "https://www.maxima.sourceforge.net",
-    "description": "Maxima is a computer algebra system used for symbolic mathematics, with applications in research, education, and computational mathematics.",
-    "tags": [
-      "symbolic",
-      "mathematics",
-      "computer algebra",
-      "research",
-      "education"
-    ]
-  },
-  {
-    "id": "41",
-    "title": "Pike",
-    "url": "https://www.pike.org",
-    "description": "Pike is a scripting language designed for web development and embedded applications, known for its performance and general-purpose capabilities.",
+    "id": "16",
+    "title": "Bash",
+    "url": "https://www.gnu.org/software/bash/",
+    "description": "Bash is a Unix shell and command language used for scripting and automation in Linux and Unix systems, known for its powerful text-processing capabilities.",
     "tags": [
       "scripting",
-      "general-purpose",
-      "web development",
-      "embedded",
-      "performance"
-    ]
+      "shell",
+      "automation",
+      "Linux",
+      "Unix"
+    ],
+    "popularity": 55
   },
   {
-    "id": "42",
-    "title": "OCaml",
-    "url": "https://www.ocaml.org",
-    "description": "OCaml is a functional programming language with strong type safety, used in academia, research, and general-purpose applications.",
-    "tags": [
-      "functional",
-      "type-safe",
-      "academic",
-      "general-purpose",
-      "research"
-    ]
-  },
-  {
-    "id": "43",
-    "title": "RPG",
-    "url": "https://www.rpgiv.com",
-    "description": "RPG (Report Program Generator) is a business programming language used primarily for data processing on IBM iSeries systems.",
+    "id": "17",
+    "title": "COBOL",
+    "url": "https://www.cobol.org",
+    "description": "COBOL is a language designed for business, data processing, and administrative applications, widely used in legacy enterprise systems.",
     "tags": [
       "business",
       "legacy",
       "data processing",
-      "IBM iSeries",
+      "procedural",
       "enterprise"
-    ]
+    ],
+    "popularity": 55
   },
   {
-    "id": "45",
-    "title": "Bourne",
-    "url": "https://www.bourne.com",
-    "description": "Bourne is a Unix shell and command language used for scripting and automation tasks, known for its simplicity and foundational role in shell scripting.",
+    "id": "18",
+    "title": "ActionScript",
+    "url": "https://www.adobe.com/products/flashplayer",
+    "description": "ActionScript is a language used primarily for Adobe Flash applications, focusing on interactive web content and client-side programming.",
     "tags": [
-      "scripting",
-      "shell",
-      "Unix",
-      "automation",
+      "web development",
+      "Adobe Flash",
+      "client-side",
+      "interactive",
       "legacy"
-    ]
+    ],
+    "popularity": 53
   },
   {
-    "id": "48",
-    "title": "REXX",
-    "url": "https://www.rexx.org",
-    "description": "REXX is a scripting language used for text processing and automation, known for its simplicity and use in IBM systems.",
+    "id": "19",
+    "title": "Ada",
+    "url": "https://www.adaic.org",
+    "description": "Ada is a high-level language designed for system programming, known for its strong typing and support for real-time and embedded systems.",
     "tags": [
-      "scripting",
-      "automation",
-      "legacy",
-      "text processing",
-      "IBM"
-    ]
+      "system programming",
+      "safety",
+      "real-time",
+      "embedded",
+      "legacy"
+    ],
+    "popularity": 53
   },
   {
-    "id": "58",
+    "id": "20",
+    "title": "CHAOS",
+    "url": "https://www.chaos-lang.org",
+    "description": "CHAOS is a research-focused language designed for experimenting with new programming paradigms and functional programming concepts.",
+    "tags": [
+      "academic",
+      "research",
+      "functional",
+      "experimental",
+      "domain-specific"
+    ],
+    "popularity": 53
+  },
+  {
+    "id": "21",
+    "title": "Dylan",
+    "url": "https://www.dylan-lang.org",
+    "description": "Dylan is a multi-paradigm programming language combining functional and object-oriented programming, used in academic research and general-purpose applications.",
+    "tags": [
+      "functional",
+      "object-oriented",
+      "academic",
+      "general-purpose",
+      "dynamic"
+    ],
+    "popularity": 53
+  },
+  {
+    "id": "22",
+    "title": "Forth",
+    "url": "https://www.forth.com",
+    "description": "Forth is a stack-based language used in embedded systems and system programming, known for its concise syntax and efficient execution.",
+    "tags": [
+      "stack-based",
+      "embedded",
+      "system programming",
+      "concise",
+      "legacy"
+    ],
+    "popularity": 53
+  },
+  {
+    "id": "23",
     "title": "Lisp",
     "url": "https://www.lisp-lang.org",
     "description": "Lisp is a family of functional programming languages known for its unique macro system and use in artificial intelligence research and academic settings.",
@@ -556,10 +334,11 @@
       "academic",
       "research",
       "macro"
-    ]
+    ],
+    "popularity": 53
   },
   {
-    "id": "60",
+    "id": "24",
     "title": "Much-Simpler",
     "url": "https://www.much-simpler.org",
     "description": "Much-Simpler is an educational functional programming language designed to teach programming concepts in a simplified manner.",
@@ -569,6 +348,287 @@
       "simplified",
       "programming",
       "academic"
-    ]
+    ],
+    "popularity": 53
+  },
+  {
+    "id": "25",
+    "title": "OCaml",
+    "url": "https://www.ocaml.org",
+    "description": "OCaml is a functional programming language with strong type safety, used in academia, research, and general-purpose applications.",
+    "tags": [
+      "functional",
+      "type-safe",
+      "academic",
+      "general-purpose",
+      "research"
+    ],
+    "popularity": 53
+  },
+  {
+    "id": "26",
+    "title": "Pascal",
+    "url": "https://www.pascal.com",
+    "description": "Pascal is a procedural programming language widely used in education and academic settings, with a focus on teaching programming concepts and system programming.",
+    "tags": [
+      "procedural",
+      "legacy",
+      "academic",
+      "system programming",
+      "teaching"
+    ],
+    "popularity": 53
+  },
+  {
+    "id": "27",
+    "title": "PL/I",
+    "url": "https://www.pleac.org",
+    "description": "PL/I is a language designed for data processing and system programming, used in business applications and legacy systems.",
+    "tags": [
+      "general-purpose",
+      "data processing",
+      "legacy",
+      "system programming",
+      "business applications"
+    ],
+    "popularity": 53
+  },
+  {
+    "id": "28",
+    "title": "Rebol",
+    "url": "https://www.rebol.com",
+    "description": "Rebol is a lightweight language designed for data exchange, domain-specific applications, and scripting, with a focus on simplicity and embedded use.",
+    "tags": [
+      "scripting",
+      "data exchange",
+      "domain-specific",
+      "general-purpose",
+      "embedded"
+    ],
+    "popularity": 53
+  },
+  {
+    "id": "29",
+    "title": "RPG",
+    "url": "https://www.rpgiv.com",
+    "description": "RPG (Report Program Generator) is a business programming language used primarily for data processing on IBM iSeries systems.",
+    "tags": [
+      "business",
+      "legacy",
+      "data processing",
+      "IBM iSeries",
+      "enterprise"
+    ],
+    "popularity": 53
+  },
+  {
+    "id": "30",
+    "title": "Standard ML",
+    "url": "https://www.smlnj.org",
+    "description": "Standard ML is a functional programming language known for its type safety and use in academic research, theorem proving, and modular programming.",
+    "tags": [
+      "functional",
+      "type-safe",
+      "academic",
+      "theorem proving",
+      "modular"
+    ],
+    "popularity": 53
+  },
+  {
+    "id": "31",
+    "title": "Bourne",
+    "url": "https://www.bourne.com",
+    "description": "Bourne is a Unix shell and command language used for scripting and automation tasks, known for its simplicity and foundational role in shell scripting.",
+    "tags": [
+      "scripting",
+      "shell",
+      "Unix",
+      "automation",
+      "legacy"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "32",
+    "title": "Dart",
+    "url": "https://www.dart.dev",
+    "description": "Dart is a language optimized for building mobile, web, and server applications, often used with the Flutter framework for cross-platform development.",
+    "tags": [
+      "web development",
+      "mobile apps",
+      "Flutter",
+      "front-end",
+      "performance"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "33",
+    "title": "Elixir",
+    "url": "https://elixir-lang.org",
+    "description": "Elixir is a functional language built on the Erlang VM, known for its concurrency and fault-tolerant features, often used in web development and distributed systems.",
+    "tags": [
+      "functional",
+      "concurrent",
+      "distributed",
+      "Erlang VM",
+      "web development"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "34",
+    "title": "Haskell",
+    "url": "https://www.haskell.org",
+    "description": "Haskell is a purely functional language known for its strong type system and lazy evaluation, often used in academic and research settings.",
+    "tags": [
+      "functional",
+      "pure",
+      "academic",
+      "concurrent",
+      "lazy evaluation"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "35",
+    "title": "M4",
+    "url": "https://www.m4.org",
+    "description": "M4 is a macro processing language used as a preprocessor for other languages, focusing on text processing and automation tasks.",
+    "tags": [
+      "macro",
+      "preprocessor",
+      "text processing",
+      "automation",
+      "legacy"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "36",
+    "title": "Maxima",
+    "url": "https://www.maxima.sourceforge.net",
+    "description": "Maxima is a computer algebra system used for symbolic mathematics, with applications in research, education, and computational mathematics.",
+    "tags": [
+      "symbolic",
+      "mathematics",
+      "computer algebra",
+      "research",
+      "education"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "37",
+    "title": "Perl",
+    "url": "https://www.perl.org",
+    "description": "Perl is a high-level language known for its text processing capabilities, often used in system administration, web development, and legacy systems.",
+    "tags": [
+      "scripting",
+      "text processing",
+      "system administration",
+      "web development",
+      "legacy"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "38",
+    "title": "Pike",
+    "url": "https://www.pike.org",
+    "description": "Pike is a scripting language designed for web development and embedded applications, known for its performance and general-purpose capabilities.",
+    "tags": [
+      "scripting",
+      "general-purpose",
+      "web development",
+      "embedded",
+      "performance"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "39",
+    "title": "Q#",
+    "url": "https://www.microsoft.com/en-us/quantum/development-kit",
+    "description": "Q# is a language developed by Microsoft for quantum computing, used in research and development for quantum algorithms and applications.",
+    "tags": [
+      "quantum computing",
+      "specialized",
+      "academic",
+      "Microsoft",
+      "research"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "40",
+    "title": "R",
+    "url": "https://www.r-project.org",
+    "description": "R is a language and environment for statistical computing and graphics, widely used in data analysis, statistical modeling, and data visualization.",
+    "tags": [
+      "data analysis",
+      "statistics",
+      "data science",
+      "visualization",
+      "academic"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "41",
+    "title": "REXX",
+    "url": "https://www.rexx.org",
+    "description": "REXX is a scripting language used for text processing and automation, known for its simplicity and use in IBM systems.",
+    "tags": [
+      "scripting",
+      "automation",
+      "legacy",
+      "text processing",
+      "IBM"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "42",
+    "title": "Tcl",
+    "url": "https://www.tcl-lang.org",
+    "description": "Tcl is a scripting language designed for embedded applications, GUI development, and general-purpose scripting, known for its simplicity and extensibility.",
+    "tags": [
+      "scripting",
+      "automation",
+      "embedded",
+      "GUI",
+      "general-purpose"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "43",
+    "title": "Verilog",
+    "url": "https://www.verilog.com",
+    "description": "Verilog is a hardware description language used for modeling and simulating digital systems, focusing on hardware design and electrical engineering.",
+    "tags": [
+      "hardware description",
+      "HDL",
+      "electrical engineering",
+      "simulation",
+      "design"
+    ],
+    "popularity": 50
+  },
+  {
+    "id": "44",
+    "title": "VHDL",
+    "url": "https://www.vhdl.org",
+    "description": "VHDL is a hardware description language used for designing and simulating digital systems, focusing on electrical engineering and hardware design.",
+    "tags": [
+      "hardware description",
+      "HDL",
+      "electrical engineering",
+      "simulation",
+      "design"
+    ],
+    "popularity": 50
   }
 ]
