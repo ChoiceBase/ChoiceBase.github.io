@@ -1,93 +1,151 @@
 # ChoiceBase
 
-A free, community-powered resource hub to help people upskill, find tools, and discover job opportunities.
+<div align="center">
 
-🌐 Live Demo: [choicebase.github.io](https://choicebase.github.io)
+**A free, community-powered resource hub to help people upskill, find tools, and discover job opportunities.**
 
-## Features
-- Curated resource lists (AI Tools, Programming, Jobs, Freelance, etc.)
-- Filter, search, and pagination
-- Vote and feedback system (client-side)
-- Responsive UI (Mobile & Desktop)
+[🌐 Live Demo](https://choicebase.github.io) • [📖 Documentation](./docs/) • [🤝 Contributing](./CONTRIBUTING.md)
 
-## Contributing
-1. Fork the repo
-2. Add new resources via `/data/*.json`
-3. Suggest via Feedback form
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success)](https://choicebase.github.io)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
+</div>
 
+---
 
+## ✨ Features
 
+- ✅ **Curated Resource Lists** - AI Tools, Programming, Jobs, Upskilling, and more
+- ✅ **Smart Filtering** - Filter by tags, search, and pagination (6 mobile / 15 desktop)
+- ✅ **Vote & Feedback System** - Community-driven ranking and feedback
+- ✅ **Shareable URLs** - Share filtered views with `?category=ai-tools&filter=free`
+- ✅ **Sort by Votes** - Most liked resources appear first
+- ✅ **Tag-Based Filtering** - Quick filtering by resource tags
+- ✅ **Favorites System** - Save and bookmark your favorite resources
+- ✅ **Resource Submission** - Users can suggest new resources (with admin approval)
+- ✅ **Admin Panel** - Review submissions, view feedback, and manage resources
+- ✅ **New Resource Highlighting** - Resources added in last 30 days are highlighted
+- ✅ **Fully Responsive** - Optimized for Mobile, Tablet, and Desktop
+- ✅ **Client-Side Only** - No backend required, works with GitHub Pages
+- ✅ **SEO Optimized** - Meta tags, structured data, sitemap, and robots.txt
 
+## 🚀 Quick Start
 
+### Using Docker (Recommended)
 
-ChoiceBase.github.io
+```bash
+# Production server
+docker-compose up -d
 
-this is website is for non profit
-aim for this pahe is to provide infomataion and resource for peopel who is upskilling and getting json 
+# Development server (with auto-reload)
+docker-compose --profile dev up -d choicebase-dev
+```
 
-so i coolected the all recource infomation and place to gether 
-this zip file containe the cusrrent code for this repo
+Access at: `http://localhost:8081` (production) or `http://localhost:8081` (development)
 
+### Using npm
 
+```bash
+npm install
+npm start
+```
 
-no i want inporiove user experian and user interface on this page also easy to add detaile from externally any onec can contibute to this one from fron end if posible
-alos vitin system for each application if posible to show to ration resource at first 
-mibile , tablet, desktp frendly
+### Using Python
 
+```bash
+python -m http.server 8081
+```
 
-i dont have budge to create db for this so as much as posibel use only clint site of db in ststic file like yaml or json sinnce github page suportive
+## 📁 Repository Structure
 
-i  preferred sections/categories (e.g., Programming, AI, Jobs, etc.)
+```
+ChoiceBase.github.io/
+├── .github/              # GitHub workflows and templates
+├── assets/              # Static assets (CSS, JS, images)
+├── data/                # JSON data files
+├── docs/                # Documentation
+├── html/                # HTML pages
+├── includes/            # Reusable HTML fragments
+├── scripts/             # Build and utility scripts
+└── config/              # Configuration files
+```
 
-i want multiple josn for large collections
+See [STRUCTURE.md](./STRUCTURE.md) for detailed structure documentation.
 
-get full html, css, js code
+## 📚 Documentation
 
-sort each elemt base on votes
+- [Setup Guide](./SETUP.md) - Quick setup instructions
+- [Deployment Guide](./DEPLOYMENT.md) - Deployment options
+- [Architecture](./docs/ARCHITECTURE.md) - Technical architecture
+- [Contributing](./CONTRIBUTING.md) - How to contribute
+- [Code of Conduct](./CODE_OF_CONDUCT.md) - Community guidelines
 
-also i have 100's or 1000's resource list 
+## 🛠️ Development
 
-adjust mibile ui and web ui 
-alsoto share url with other it shoud be opne tab i wnat 
-like /jobs etc
+### Prerequisites
 
-split fulll data into page each page containe 6- 15 mobile and web respectiely also page number need to change
-i am thinkg can use hashtage or desciption for user 
-if user what only free ai tools
-if user what apply only rete base jobs eect
+- Node.js 18+ (optional, for npm scripts)
+- Docker (optional, for containerized development)
+- Python 3 (optional, for Python server)
 
-🔗 Sharable URLs with filters (#ai-tools?filter=free).
+### Scripts
 
-⭐ Favorite/bookmark system (saved to localStorage).
+```bash
+npm start          # Start development server
+npm run dev        # Start with auto-reload
+npm run lint       # Lint JavaScript files
+npm run format     # Format code with Prettier
+npm run docker:up  # Start Docker containers
+```
 
-📊 Basic usage stats (most visited, most voted).
+## 🌐 Deployment
 
-📥 Frontend resource submission form (new resource suggestion).
-Want me to help build any of these next?
+### GitHub Pages
 
+1. Push to GitHub
+2. Enable GitHub Pages in repository settings
+3. Site available at: `https://yourusername.github.io/ChoiceBase.github.io/`
 
+### Other Platforms
 
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for:
+- Netlify
+- Vercel
+- Cloudflare Pages
+- Surge.sh
+- Render
+- Firebase Hosting
 
-alos i wnat thiking use feed back in and 
-share the stated with admin so admin make most likeed tool in first for all users
+## 🤝 Contributing
 
-alos admin will add conewslty new resource hilite thst in home pag
+We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
-also do you recoment any other future in it ?
-yes feedback form and admin view for top-liked resources
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
 
+## 📝 License
 
-in nav use li to show  as list
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-feedback, suggetreource, 
-move this to contact page
-also feed back and like count is showing from local db 
-show no meeaing of admin db i wnat acess this like details and feedback from user to admin when hey click on submit
+## 🙏 Acknowledgments
 
-let split code move allsctipt in separate flder
-and all html in another folder
+- Built by the community, for the community
+- Inspired by the need for accessible, free learning resources
+- Thanks to all contributors and users
 
+## 📞 Support
 
+- 📧 [Contact Form](./html/contact.html)
+- 🐛 [Report Issues](https://github.com/yourusername/ChoiceBase.github.io/issues)
+- 💬 [Discussions](https://github.com/yourusername/ChoiceBase.github.io/discussions)
 
-let use any open api to collect the user feed back and favarate resources
+---
+
+<div align="center">
+
+**Made with ❤️ by the ChoiceBase Community**
+
+</div>

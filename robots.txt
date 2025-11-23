@@ -1,0 +1,17 @@
+# robots.txt for ChoiceBase
+# https://choicebase.github.io/robots.txt
+
+User-agent: *
+Allow: /
+Allow: /html/
+Allow: /data/
+Allow: /assets/
+
+# Disallow admin panel from search engines
+Disallow: /html/admin.html
+
+# Sitemap location
+Sitemap: https://choicebase.github.io/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1

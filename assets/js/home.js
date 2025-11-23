@@ -32,6 +32,14 @@ async function showUserLikedResources() {
   }
 }
 
+// Check if resource is new (added in last 30 days)
+function isNewResource(resource) {
+  if (!resource.addedDate) return false;
+  const addedDate = new Date(resource.addedDate);
+  const daysSinceAdded = (Date.now() - addedDate.getTime()) / (1000 * 60 * 60 * 24);
+  return daysSinceAdded <= 30;
+}
+
 // Render resource cards
 function renderResources(resources, containerClass) {
   const favs = JSON.parse(localStorage.getItem('favorites') || '[]');
@@ -41,8 +49,9 @@ function renderResources(resources, containerClass) {
   resources.forEach(resource => {
     const isFav = favs.includes(resource.id);
     const voteCount = votes[resource.id] || resource.votes || 0;
+    const isNew = isNewResource(resource);
     const card = document.createElement('div');
-    card.className = 'resource-card';
+    card.className = `resource-card${isNew ? ' new-resource' : ''}`;
     card.innerHTML = `
       <h3><a href="${resource.url}" target="_blank">${resource.title}</a></h3>
       <p>${resource.description}</p>

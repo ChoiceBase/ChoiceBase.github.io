@@ -1,0 +1,39 @@
+{
+  "name": "choicebase",
+  "version": "2.0.0",
+  "description": "A free, community-powered resource hub to help people upskill, find tools, and discover job opportunities",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8081 -o",
+    "dev": "npx http-server . -p 8081 -o -c-1",
+    "serve": "python -m http.server 8081",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:dev": "docker-compose --profile dev up -d choicebase-dev",
+    "lint": "eslint assets/js/**/*.js",
+    "format": "prettier --write \"**/*.{js,json,css,html,md}\"",
+    "validate": "npm run lint",
+    "reorder-ai": "python scripts/reorder-ai-tools.py",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": [
+    "resources",
+    "upskilling",
+    "jobs",
+    "ai-tools",
+    "career",
+    "learning",
+    "education",
+    "free-resources"
+  ],
+  "author": "ChoiceBase Community",
+  "license": "MIT",
+  "homepage": "https://choicebase.github.io",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
