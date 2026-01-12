@@ -29,7 +29,7 @@ function renderFromHash() {
   renderGraph(domainToJson[domain]);
   // Optional: scroll to the section if you want
   const section = document.getElementById(domain);
-  if (section) section.scrollIntoView({behavior: "smooth"});
+  if (section) section.scrollIntoView({ behavior: "smooth" });
 }
 // Listen for hash changes (if user clicks another dropdown item)
 window.addEventListener('hashchange', renderFromHash);
@@ -46,7 +46,7 @@ renderFromHash();
 // });
 
 // Hide popup when clicking elsewhere (only one handler, global)
-document.addEventListener('click', function(e) {
+document.addEventListener('click', function (e) {
   const popup = document.getElementById('node-popup');
   if (
     popup && popup.style.display === "block" &&
@@ -138,6 +138,17 @@ function renderGraph(jsonUrl) {
 
       svg.call(zoom);
 
+      // Function to zoom to a specific node
+      function zoomToNode(d) {
+        const scale = 1.5;
+        const x = -d.x * scale + width / 2;
+        const y = -d.y * scale + height / 2;
+
+        svg.transition()
+          .duration(750)
+          .call(zoom.transform, d3.zoomIdentity.translate(x, y).scale(scale));
+      }
+
       // Draw links (brown)
       const link = container.append("g")
         .attr("stroke-opacity", 0.7)
@@ -154,9 +165,10 @@ function renderGraph(jsonUrl) {
         .data(nodes)
         .enter().append("g")
         .attr("class", "node")
-        .on("click", function(event, d) {
-            event.stopPropagation();
-            showPopup(d, event);
+        .on("click", function (event, d) {
+          event.stopPropagation();
+          showPopup(d, event);
+          zoomToNode(d);
         })
         .call(d3.drag()
           .on("start", dragstarted)
@@ -180,16 +192,16 @@ function renderGraph(jsonUrl) {
 
       // TEXT WRAP HELPER
       function wrapText(text, width) {
-        text.each(function() {
+        text.each(function () {
           var text = d3.select(this),
-              words = text.text().split(/\s+/).reverse(),
-              word,
-              line = [],
-              lineNumber = 0,
-              lineHeight = 1.1,
-              y = text.attr("y") || 0,
-              dy = parseFloat(text.attr("dy")) || 0,
-              tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+            words = text.text().split(/\s+/).reverse(),
+            word,
+            line = [],
+            lineNumber = 0,
+            lineHeight = 1.1,
+            y = text.attr("y") || 0,
+            dy = parseFloat(text.attr("dy")) || 0,
+            tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
           while (word = words.pop()) {
             line.push(word);
             tspan.text(line.join(" "));
@@ -210,14 +222,14 @@ function renderGraph(jsonUrl) {
         .attr("dy", 0)
         .style("font-size", d => `${sizeScale(d.nodeSize) / 3}px`)
         .text(d => d.id)
-        .each(function(d) {
+        .each(function (d) {
           wrapText(d3.select(this), sizeScale(d.nodeSize) * 1.5);
         });
 
       // Force simulation
       const simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.id).distance(170))
-        .force("charge", d3.forceManyBody().strength(-500))
+        .force("link", d3.forceLink(links).id(d => d.id).distance(220))
+        .force("charge", d3.forceManyBody().strength(-800))
         .force("center", d3.forceCenter(width / 2, height / 2))
         .on("tick", ticked);
 
@@ -270,7 +282,7 @@ function renderGraph(jsonUrl) {
           ${d.includes ? `<div><strong>Includes:</strong> ${d.includes.join(', ')}</div>` : ''}
           ${d.related ? `<div><strong>Related:</strong> ${d.related.join(', ')}</div>` : ''}
           ${d.tools ? `<div><strong>Tools:</strong> ${d.tools.join(', ')}</div>` : ''}
-          ${Array.isArray(d.languages) && d.languages.length > 0 ?  `<div><strong>Languages:</strong> ${d.languages.join(', ')}</div>` : ''}
+          ${Array.isArray(d.languages) && d.languages.length > 0 ? `<div><strong>Languages:</strong> ${d.languages.join(', ')}</div>` : ''}
           ${d.skills ? `<div><strong>Skills:</strong> ${d.skills.join(', ')}</div>` : ''}
         `;
         const [x, y] = d3.pointer(event, document.body);
@@ -290,7 +302,7 @@ function renderGraph(jsonUrl) {
 
         const term = searchTerm.trim().toLowerCase();
         d3.selectAll(".node")
-          .each(function(d) {
+          .each(function (d) {
             const inId = d.id && d.id.toLowerCase().includes(term);
             const inSkills = d.skills && d.skills.join(' ').toLowerCase().includes(term);
             const inLangs = d.languages && d.languages.join(' ').toLowerCase().includes(term);
@@ -304,7 +316,7 @@ function renderGraph(jsonUrl) {
           });
 
         d3.selectAll(".link")
-          .each(function(d) {
+          .each(function (d) {
             const srcVisible = d3.selectAll(".node").filter(nd => nd.id === d.source.id).style("display") !== "none";
             const tgtVisible = d3.selectAll(".node").filter(nd => nd.id === d.target.id).style("display") !== "none";
             d3.select(this).style("display", (srcVisible && tgtVisible) ? null : "none");
@@ -312,16 +324,16 @@ function renderGraph(jsonUrl) {
       }
 
       // Attach search/reset handlers (remove old first)
-      document.getElementById('search-btn').onclick = function() {
+      document.getElementById('search-btn').onclick = function () {
         const val = document.getElementById('node-search').value;
         highlightAndFilterNodes(val);
       };
-      document.getElementById('node-search').onkeydown = function(e) {
+      document.getElementById('node-search').onkeydown = function (e) {
         if (e.key === 'Enter') {
           highlightAndFilterNodes(this.value);
         }
       };
-      document.getElementById('reset-btn').onclick = function() {
+      document.getElementById('reset-btn').onclick = function () {
         document.getElementById('node-search').value = '';
         highlightAndFilterNodes('');
       };

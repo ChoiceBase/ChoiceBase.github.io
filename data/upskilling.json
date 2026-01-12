@@ -1,333 +1,347 @@
 [
-  {
-    "id": "1",
-    "title": "Coursera",
-    "url": "https://www.coursera.org",
-    "description": "Coursera partners with top universities and companies to offer online courses, specializations, and degrees. Features include video lectures, peer-reviewed assignments, certificates, and full degree programs. Courses from Stanford, Yale, Google, IBM, and more. Free audit option available, paid certificates, and subscription plans. Covers technology, business, data science, arts, and more. Perfect for professional development and academic learning.",
-    "tags": [
-      "free",
-      "paid",
-      "online courses",
-      "university",
-      "certificates",
-      "degrees",
-      "professional development",
-      "academic",
-      "MOOCs"
-    ],
-    "popularity": 100
-  },
-  {
-    "id": "2",
-    "title": "Khan Academy",
-    "url": "https://www.khanacademy.org",
-    "description": "Khan Academy is a free online learning platform offering courses and tutorials in various subjects, with a focus on education and career development.",
-    "tags": [
-      "free",
-      "online courses",
-      "education",
-      "career development"
-    ],
-    "popularity": 100
-  },
-  {
-    "id": "3",
-    "title": "Codecademy",
-    "url": "https://www.codecademy.com",
-    "description": "Codecademy is an interactive online learning platform for coding and programming. Features hands-on coding exercises, real-time feedback, projects, and career paths. Covers web development, data science, computer science, and more. Free tier with basic courses, Pro subscription for advanced content and certificates. Great for beginners with its interactive approach. Learn HTML, CSS, JavaScript, Python, SQL, and many other languages.",
-    "tags": [
-      "free",
-      "paid",
-      "subscription",
-      "online courses",
-      "programming",
-      "interactive",
-      "coding",
-      "beginner-friendly",
-      "certificates"
-    ],
-    "popularity": 99
-  },
-  {
-    "id": "4",
-    "title": "Udemy",
-    "url": "https://www.udemy.com",
-    "description": "Udemy is an online learning platform offering courses in a wide range of subjects, with a focus on career development and job readiness.",
-    "tags": [
-      "free",
-      "paid",
-      "online courses",
-      "career development",
-      "programming"
-    ],
-    "popularity": 94
-  },
-  {
-    "id": "5",
-    "title": "edX",
-    "url": "https://www.edx.org",
-    "description": "edX is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development and job readiness.",
-    "tags": [
-      "free",
-      "paid",
-      "online courses",
-      "certifications",
-      "career development"
-    ],
-    "popularity": 93
-  },
-  {
-    "id": "6",
-    "title": "Pluralsight",
-    "url": "https://www.pluralsight.com",
-    "description": "Pluralsight is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
-    "tags": [
-      "paid",
-      "online courses",
-      "certifications",
-      "tech jobs"
-    ],
-    "popularity": 89
-  },
-  {
-    "id": "7",
-    "title": "Yoodli AI",
-    "url": "https://yoodli.ai/",
-    "description": "Yoodli AI is an AI-powered speech coaching platform that provides real-time feedback during video calls and interviews. Analyzes speech patterns, pace, filler words, and provides suggestions for improvement. Features include private practice sessions, interview simulation, confidence building, and detailed analytics. Free tier available. Perfect for job seekers, public speakers, and professionals looking to improve communication skills. Works with Zoom, Google Meet, and Microsoft Teams.",
-    "tags": [
-      "interview coaching",
-      "speech",
-      "real-time",
-      "free",
-      "communication",
-      "public speaking",
-      "job preparation",
-      "AI coaching"
-    ],
-    "popularity": 88
-  },
-  {
-    "id": "8",
-    "title": "Skillshare",
-    "url": "https://www.skillshare.com",
-    "description": "Skillshare is an online learning platform focused on creativity and skills development, offering a wide range of courses and tutorials.",
-    "tags": [
-      "paid",
-      "online courses",
-      "creativity",
-      "career development"
-    ],
-    "popularity": 87
-  },
-  {
-    "id": "9",
-    "title": "MasterClass",
-    "url": "https://www.masterclass.com",
-    "description": "MasterClass is a premium online learning platform featuring video courses taught by world-renowned experts and celebrities. Learn from industry leaders like Gordon Ramsay (cooking), Neil deGrasse Tyson (science), Serena Williams (tennis), and Timbaland (music production). Features include high-quality video production, downloadable workbooks, community discussions, and mobile apps. Subscription-based model with annual or monthly plans. Perfect for creative skills, business, writing, and personal development.",
-    "tags": [
-      "paid",
-      "subscription",
-      "online courses",
-      "skills development",
-      "lifestyle",
-      "creative",
-      "business",
-      "premium",
-      "video courses"
-    ],
-    "popularity": 86
-  },
-  {
-    "id": "10",
-    "title": "W3Schools",
-    "url": "https://www.w3schools.com",
-    "description": "W3Schools is an online learning platform offering courses and tutorials in web development and programming, with a focus on career development and job readiness.",
-    "tags": [
-      "free",
-      "online courses",
-      "programming",
-      "web development"
-    ],
-    "popularity": 83
-  },
-  {
-    "id": "11",
-    "title": "Alison",
-    "url": "https://www.alison.com",
-    "description": "Alison is an online learning platform offering free courses and certifications, with a focus on career development and job skills.",
-    "tags": [
-      "free",
-      "online courses",
-      "certifications",
-      "career development"
-    ],
-    "popularity": 80
-  },
-  {
-    "id": "12",
-    "title": "Course Report",
-    "url": "https://www.coursereport.com",
-    "description": "Course Report is a job search platform focused on coding bootcamps, offering reviews, advice, and job listings for job seekers in the tech industry.",
-    "tags": [
-      "free",
-      "paid",
-      "online courses",
-      "career advice",
-      "bootcamps"
-    ],
-    "popularity": 73
-  },
-  {
-    "id": "13",
-    "title": "FutureLearn",
-    "url": "https://www.futurelearn.com",
-    "description": "FutureLearn is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development.",
-    "tags": [
-      "free",
-      "paid",
-      "online courses",
-      "certifications",
-      "career development"
-    ],
-    "popularity": 70
-  },
-  {
-    "id": "14",
-    "title": "LHH (Lee Hecht Harrison)",
-    "url": "https://www.lhh.com",
-    "description": "LHH is a global talent development and career transition company providing outplacement services, career coaching, leadership development, and workforce solutions. Services include personalized career counseling, resume writing, interview preparation, networking strategies, and skill assessments. Used by Fortune 500 companies for employee transitions. Premium service with corporate partnerships. Ideal for executives and professionals in career transition.",
-    "tags": [
-      "career transition",
-      "coaching",
-      "leadership",
-      "outplacement",
-      "executive",
-      "professional development",
-      "resume",
-      "networking"
-    ],
-    "popularity": 55
-  },
-  {
-    "id": "15",
-    "title": "App Academy",
-    "url": "https://www.appacademy.io",
-    "description": "App Academy is a bootcamp platform offering courses in programming and web development, with a focus on career development and job readiness.",
-    "tags": [
-      "paid",
-      "bootcamp",
-      "programming",
-      "career development"
-    ],
-    "popularity": 53
-  },
-  {
-    "id": "16",
-    "title": "Flatiron School",
-    "url": "https://www.flatironschool.com",
-    "description": "Flatiron School is a bootcamp platform offering courses in programming, data science, and cybersecurity, with a focus on career development and job readiness.",
-    "tags": [
-      "paid",
-      "bootcamp",
-      "programming",
-      "career development"
-    ],
-    "popularity": 53
-  },
-  {
-    "id": "17",
-    "title": "General Assembly",
-    "url": "https://www.generalassemb.ly",
-    "description": "General Assembly is a bootcamp platform offering courses in programming, data science, and digital marketing, with a focus on career development and job readiness.",
-    "tags": [
-      "paid",
-      "bootcamp",
-      "programming",
-      "career development"
-    ],
-    "popularity": 53
-  },
-  {
-    "id": "18",
-    "title": "Le Wagon",
-    "url": "https://www.lewagon.com",
-    "description": "Le Wagon is a bootcamp platform offering intensive courses in programming and web development, with a focus on career development and job readiness.",
-    "tags": [
-      "paid",
-      "bootcamp",
-      "programming",
-      "career development"
-    ],
-    "popularity": 53
-  },
-  {
-    "id": "19",
-    "title": "Treehouse",
-    "url": "https://www.teamtreehouse.com",
-    "description": "Treehouse is an online technology school offering courses in web development, programming, design, and business. Features include interactive coding challenges, video tutorials, quizzes, and project-based learning. Offers Techdegree programs with portfolio projects and career support. Subscription-based with free trial. Great for beginners and intermediate learners looking to start a tech career. Covers HTML, CSS, JavaScript, Python, PHP, and more.",
-    "tags": [
-      "paid",
-      "subscription",
-      "online courses",
-      "programming",
-      "career development",
-      "web development",
-      "coding bootcamp",
-      "techdegree",
-      "beginner-friendly"
-    ],
-    "popularity": 53
-  },
-  {
-    "id": "20",
-    "title": "Edureka",
-    "url": "https://www.edureka.co",
-    "description": "Edureka is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
-    "tags": [
-      "paid",
-      "online courses",
-      "certifications",
-      "tech jobs"
-    ],
-    "popularity": 50
-  },
-  {
-    "id": "21",
-    "title": "Springboard",
-    "url": "https://www.springboard.com",
-    "description": "Springboard is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
-    "tags": [
-      "paid",
-      "online courses",
-      "certifications",
-      "career development"
-    ],
-    "popularity": 50
-  },
-  {
-    "id": "22",
-    "title": "Thinkful",
-    "url": "https://www.thinkful.com",
-    "description": "Thinkful is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
-    "tags": [
-      "paid",
-      "online courses",
-      "certifications",
-      "tech jobs"
-    ],
-    "popularity": 50
-  },
-  {
-    "id": "23",
-    "title": "Udacity",
-    "url": "https://www.udacity.com",
-    "description": "Udacity is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
-    "tags": [
-      "paid",
-      "online courses",
-      "certifications",
-      "tech jobs"
-    ],
-    "popularity": 50
-  }
+    {
+        "id": "26",
+        "title": "Coursera",
+        "url": "https://www.coursera.org",
+        "description": "Coursera partners with top universities and companies to offer online courses, specializations, and degrees. Features include video lectures, peer-reviewed assignments, certificates, and full degree programs. Courses from Stanford, Yale, Google, IBM, and more. Free audit option available, paid certificates, and subscription plans. Covers technology, business, data science, arts, and more. Perfect for professional development and academic learning.",
+        "tags": [
+            "free",
+            "paid",
+            "online courses",
+            "university",
+            "certificates",
+            "degrees",
+            "professional development",
+            "academic",
+            "MOOCs"
+        ]
+    },
+    {
+        "id": "25",
+        "title": "Khan Academy",
+        "url": "https://www.khanacademy.org",
+        "description": "Khan Academy is a free online learning platform offering courses and tutorials in various subjects, with a focus on education and career development.",
+        "tags": [
+            "free",
+            "online courses",
+            "education",
+            "career development"
+        ]
+    },
+    {
+        "id": "24",
+        "title": "Codecademy",
+        "url": "https://www.codecademy.com",
+        "description": "Codecademy is an interactive online learning platform for coding and programming. Features hands-on coding exercises, real-time feedback, projects, and career paths. Covers web development, data science, computer science, and more. Free tier with basic courses, Pro subscription for advanced content and certificates. Great for beginners with its interactive approach. Learn HTML, CSS, JavaScript, Python, SQL, and many other languages.",
+        "tags": [
+            "free",
+            "paid",
+            "subscription",
+            "online courses",
+            "programming",
+            "interactive",
+            "coding",
+            "beginner-friendly",
+            "certificates"
+        ]
+    },
+    {
+        "id": "23",
+        "title": "Udemy",
+        "url": "https://www.udemy.com",
+        "description": "Udemy is an online learning platform offering courses in a wide range of subjects, with a focus on career development and job readiness.",
+        "tags": [
+            "free",
+            "paid",
+            "online courses",
+            "career development",
+            "programming"
+        ]
+    },
+    {
+        "id": "22",
+        "title": "edX",
+        "url": "https://www.edx.org",
+        "description": "edX is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development and job readiness.",
+        "tags": [
+            "free",
+            "paid",
+            "online courses",
+            "certifications",
+            "career development"
+        ]
+    },
+    {
+        "id": "21",
+        "title": "Brilliant",
+        "url": "https://brilliant.org",
+        "description": "Interactive learning for STEM. Master computer science, math, and data science through hands-on problem-solving and visual concepts. Excellent for building first-principles understanding.",
+        "tags": [
+            "STEM",
+            "interactive",
+            "math",
+            "computer science",
+            "data science"
+        ]
+    },
+    {
+        "id": "20",
+        "title": "Pluralsight",
+        "url": "https://www.pluralsight.com",
+        "description": "Pluralsight is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
+        "tags": [
+            "paid",
+            "online courses",
+            "certifications",
+            "tech jobs"
+        ]
+    },
+    {
+        "id": "19",
+        "title": "Maven",
+        "url": "https://maven.com",
+        "description": "The leading platform for cohort-based courses. Learn from top industry experts in interactive, community-driven environments. High completion rates and deep networking opportunities for professional growth.",
+        "tags": [
+            "cohort-based",
+            "interactive",
+            "professional development",
+            "networking"
+        ]
+    },
+    {
+        "id": "18",
+        "title": "Yoodli AI",
+        "url": "https://yoodli.ai/",
+        "description": "Yoodli AI is an AI-powered speech coaching platform that provides real-time feedback during video calls and interviews. Analyzes speech patterns, pace, filler words, and provides suggestions for improvement. Features include private practice sessions, interview simulation, confidence building, and detailed analytics. Free tier available. Perfect for job seekers, public speakers, and professionals looking to improve communication skills. Works with Zoom, Google Meet, and Microsoft Teams.",
+        "tags": [
+            "interview coaching",
+            "speech",
+            "real-time",
+            "free",
+            "communication",
+            "public speaking",
+            "job preparation",
+            "AI coaching"
+        ]
+    },
+    {
+        "id": "17",
+        "title": "Skillshare",
+        "url": "https://www.skillshare.com",
+        "description": "Skillshare is an online learning platform focused on creativity and skills development, offering a wide range of courses and tutorials.",
+        "tags": [
+            "paid",
+            "online courses",
+            "creativity",
+            "career development"
+        ]
+    },
+    {
+        "id": "16",
+        "title": "Reforge",
+        "url": "https://reforge.com",
+        "description": "The premier career development platform for product, marketing, and engineering leaders. Focused on senior-level growth with frameworks and community from top tech companies.",
+        "tags": [
+            "leadership",
+            "product",
+            "marketing",
+            "advanced"
+        ]
+    },
+    {
+        "id": "15",
+        "title": "MasterClass",
+        "url": "https://www.masterclass.com",
+        "description": "MasterClass is a premium online learning platform featuring video courses taught by world-renowned experts and celebrities. Learn from industry leaders like Gordon Ramsay (cooking), Neil deGrasse Tyson (science), Serena Williams (tennis), and Timbaland (music production). Features include high-quality video production, downloadable workbooks, community discussions, and mobile apps. Subscription-based model with annual or monthly plans. Perfect for creative skills, business, writing, and personal development.",
+        "tags": [
+            "paid",
+            "subscription",
+            "online courses",
+            "skills development",
+            "lifestyle",
+            "creative",
+            "business",
+            "premium",
+            "video courses"
+        ]
+    },
+    {
+        "id": "14",
+        "title": "W3Schools",
+        "url": "https://www.w3schools.com",
+        "description": "W3Schools is an online learning platform offering courses and tutorials in web development and programming, with a focus on career development and job readiness.",
+        "tags": [
+            "free",
+            "online courses",
+            "programming",
+            "web development"
+        ]
+    },
+    {
+        "id": "13",
+        "title": "Alison",
+        "url": "https://www.alison.com",
+        "description": "Alison is an online learning platform offering free courses and certifications, with a focus on career development and job skills.",
+        "tags": [
+            "free",
+            "online courses",
+            "certifications",
+            "career development"
+        ]
+    },
+    {
+        "id": "12",
+        "title": "Course Report",
+        "url": "https://www.coursereport.com",
+        "description": "Course Report is a job search platform focused on coding bootcamps, offering reviews, advice, and job listings for job seekers in the tech industry.",
+        "tags": [
+            "free",
+            "paid",
+            "online courses",
+            "career advice",
+            "bootcamps"
+        ]
+    },
+    {
+        "id": "11",
+        "title": "FutureLearn",
+        "url": "https://www.futurelearn.com",
+        "description": "FutureLearn is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development.",
+        "tags": [
+            "free",
+            "paid",
+            "online courses",
+            "certifications",
+            "career development"
+        ]
+    },
+    {
+        "id": "10",
+        "title": "LHH (Lee Hecht Harrison)",
+        "url": "https://www.lhh.com",
+        "description": "LHH is a global talent development and career transition company providing outplacement services, career coaching, leadership development, and workforce solutions. Services include personalized career counseling, resume writing, interview preparation, networking strategies, and skill assessments. Used by Fortune 500 companies for employee transitions. Premium service with corporate partnerships. Ideal for executives and professionals in career transition.",
+        "tags": [
+            "career transition",
+            "coaching",
+            "leadership",
+            "outplacement",
+            "executive",
+            "professional development",
+            "resume",
+            "networking"
+        ]
+    },
+    {
+        "id": "9",
+        "title": "App Academy",
+        "url": "https://www.appacademy.io",
+        "description": "App Academy is a bootcamp platform offering courses in programming and web development, with a focus on career development and job readiness.",
+        "tags": [
+            "paid",
+            "bootcamp",
+            "programming",
+            "career development"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "Flatiron School",
+        "url": "https://www.flatironschool.com",
+        "description": "Flatiron School is a bootcamp platform offering courses in programming, data science, and cybersecurity, with a focus on career development and job readiness.",
+        "tags": [
+            "paid",
+            "bootcamp",
+            "programming",
+            "career development"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "General Assembly",
+        "url": "https://www.generalassemb.ly",
+        "description": "General Assembly is a bootcamp platform offering courses in programming, data science, and digital marketing, with a focus on career development and job readiness.",
+        "tags": [
+            "paid",
+            "bootcamp",
+            "programming",
+            "career development"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Le Wagon",
+        "url": "https://www.lewagon.com",
+        "description": "Le Wagon is a bootcamp platform offering intensive courses in programming and web development, with a focus on career development and job readiness.",
+        "tags": [
+            "paid",
+            "bootcamp",
+            "programming",
+            "career development"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Treehouse",
+        "url": "https://www.teamtreehouse.com",
+        "description": "Treehouse is an online technology school offering courses in web development, programming, design, and business. Features include interactive coding challenges, video tutorials, quizzes, and project-based learning. Offers Techdegree programs with portfolio projects and career support. Subscription-based with free trial. Great for beginners and intermediate learners looking to start a tech career. Covers HTML, CSS, JavaScript, Python, PHP, and more.",
+        "tags": [
+            "paid",
+            "subscription",
+            "online courses",
+            "programming",
+            "career development",
+            "web development",
+            "coding bootcamp",
+            "techdegree",
+            "beginner-friendly"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Edureka",
+        "url": "https://www.edureka.co",
+        "description": "Edureka is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
+        "tags": [
+            "paid",
+            "online courses",
+            "certifications",
+            "tech jobs"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Springboard",
+        "url": "https://www.springboard.com",
+        "description": "Springboard is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
+        "tags": [
+            "paid",
+            "online courses",
+            "certifications",
+            "career development"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Thinkful",
+        "url": "https://www.thinkful.com",
+        "description": "Thinkful is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
+        "tags": [
+            "paid",
+            "online courses",
+            "certifications",
+            "tech jobs"
+        ]
+    },
+    {
+        "id": "1",
+        "title": "Udacity",
+        "url": "https://www.udacity.com",
+        "description": "Udacity is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
+        "tags": [
+            "paid",
+            "online courses",
+            "certifications",
+            "tech jobs"
+        ]
+    }
 ]

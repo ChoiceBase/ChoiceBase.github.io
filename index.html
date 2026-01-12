@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- SEO Meta Tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
+
   <!-- Primary Meta Tags -->
   <title>ChoiceBase – Free Resource Hub for Upskilling & Career Growth</title>
   <meta name="title" content="ChoiceBase – Free Resource Hub for Upskilling & Career Growth">
-  <meta name="description" content="Discover, upvote, and bookmark the best resources for programming, AI, jobs, and upskilling. Curated by the community. Always free.">
-  <meta name="keywords" content="resources, upskilling, jobs, ai tools, programming, career, learning, free resources, coding, development, education">
+  <meta name="description"
+    content="Discover, upvote, and bookmark the best resources for programming, AI, jobs, and upskilling. Curated by the community. Always free.">
+  <meta name="keywords"
+    content="resources, upskilling, jobs, ai tools, programming, career, learning, free resources, coding, development, education">
   <meta name="author" content="ChoiceBase Community">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   <meta name="revisit-after" content="7 days">
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://choicebase.github.io/">
   <meta property="og:title" content="ChoiceBase – Free Resource Hub">
-  <meta property="og:description" content="Discover, upvote, and bookmark the best resources for programming, AI, jobs, and upskilling.">
+  <meta property="og:description"
+    content="Discover, upvote, and bookmark the best resources for programming, AI, jobs, and upskilling.">
   <meta property="og:image" content="https://choicebase.github.io/assets/images/og-image.jpg">
   <meta property="og:site_name" content="ChoiceBase">
   <meta property="og:locale" content="en_US">
-  
+
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://choicebase.github.io/">
   <meta name="twitter:title" content="ChoiceBase – Free Resource Hub">
-  <meta name="twitter:description" content="Discover, upvote, and bookmark the best resources for programming, AI, jobs, and upskilling.">
+  <meta name="twitter:description"
+    content="Discover, upvote, and bookmark the best resources for programming, AI, jobs, and upskilling.">
   <meta name="twitter:image" content="https://choicebase.github.io/assets/images/og-image.jpg">
-  
+
   <!-- Theme Color -->
   <meta name="theme-color" content="#00ffe7">
-  
+
   <!-- Canonical URL -->
   <link rel="canonical" href="https://choicebase.github.io/">
-  
+
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  
+
   <!-- Google Fonts: Inter -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
@@ -48,9 +53,10 @@
   <!-- Custom CSS -->
   <link href="/assets/css/custom.css" rel="stylesheet">
   <style>
-  
+
   </style>
 </head>
+
 <body>
   <!-- Common header will be loaded here -->
   <div id="common-header"></div>
@@ -61,9 +67,25 @@
       <h1>Welcome to ChoiceBase</h1>
       <p>
         Discover, upvote, and bookmark the best resources for programming, AI, jobs, and upskilling.<br>
-        <span style="color: #1976d2; font-weight:600;">Curated by the community. Always free.</span>
+        <span style="color: var(--primary); font-weight:600;">Curated by the community. Always free.</span>
       </p>
-      <a href="/html/career_nexus.html" class="btn btn-primary btn-lg shadow-sm">Explore Career Nexus</a>
+
+      <!-- Prominent Home Search Bar -->
+      <div class="row justify-content-center mt-4 mb-4">
+        <div class="col-md-8 col-lg-6">
+          <form id="global-search-form" class="home-search-form">
+            <div class="input-group input-group-lg shadow-lg">
+              <input type="search" id="global-search-input" class="form-control border-primary bg-dark text-white"
+                placeholder="Search for tools, jobs, or skills..." aria-label="Search">
+              <button class="btn btn-primary px-4" type="submit">
+                <i class="bi bi-search me-2"></i>Search
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <a href="/html/career_nexus.html" class="btn btn-outline-primary btn-lg mt-2">Explore Career Nexus</a>
     </div>
   </section>
 
@@ -72,7 +94,8 @@
     <div class="row text-center mb-4">
       <div class="col" style="color: rgb(252, 252, 252);">
         <h2 class="fw-bold mb-2">Empower Your Career Journey</h2>
-        <p style="color: rgb(86, 189, 108);">Interactive career maps, smart search, and curated upskilling resources—everything you need, in one place.</p>
+        <p style="color: rgb(86, 189, 108);">Interactive career maps, smart search, and curated upskilling
+          resources—everything you need, in one place.</p>
       </div>
     </div>
     <div class="row g-4 mb-5">
@@ -114,9 +137,17 @@
 
   <!-- Bootstrap & Icons -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/utils.js"></script>
+  <script src="/assets/js/components.js"></script>
+  <script src="/assets/js/global-search.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-  <!-- Home page JS -->
   <script src="/assets/js/home.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      utils.loadHeaderFooter();
+    });
+  </script>
 </body>
+
 </html>
 <!-- END of index -->

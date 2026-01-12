@@ -1,237 +1,898 @@
 {
   "roles": [
     {
-    "name": "Data Engineer",
-    "description": "Builds and maintains scalable data pipelines and architectures for collecting, storing, and processing large volumes of data.",
-    "related": ["DBMS", "Data Analyst", "Data Scientist", "Cloud Engineer", "ML Engineer"],
-    "tools": ["Apache Spark", "Airflow", "Kafka", "Hadoop", "AWS Glue", "Databricks", "Snowflake"],
-    "languages": ["Python", "Scala", "SQL", "Java"],
-    "skills": ["ETL", "Data Pipeline Design", "Big Data Processing", "Data Warehousing", "Data Quality", "Batch Processing", "Streaming Data"]
-  },
-  {
-    "name": "Data Analyst",
-    "description": "Interprets data, analyzes trends, and produces actionable insights to support business decisions.",
-    "related": ["Data Engineer", "DBMS", "Data Scientist", "Business Analyst", "Product Manager"],
-    "tools": ["Tableau", "Power BI", "Excel", "Google Data Studio", "Looker", "QlikView"],
-    "languages": ["SQL", "Python", "R"],
-    "skills": ["Data Visualization", "Statistical Analysis", "Reporting", "Data Cleaning", "Business Intelligence", "Dashboarding"]
-  },
-  {
-    "name": "Data Scientist",
-    "description": "Extracts insights from data using advanced analytics, statistics, and machine learning, often building predictive models.",
-    "related": ["Data Engineer", "Data Analyst", "ML Engineer", "Research Scientist"],
-    "tools": ["Jupyter", "TensorFlow", "PyTorch", "Scikit-learn", "Keras", "RStudio", "MLflow"],
-    "languages": ["Python", "R", "Scala"],
-    "skills": ["Machine Learning", "Statistical Modeling", "Data Mining", "Predictive Analytics", "Deep Learning", "Experimentation"]
-  },
-  {
-    "name": "ML Engineer",
-    "description": "Specializes in deploying, optimizing, and maintaining machine learning models in production environments.",
-    "related": ["Data Scientist", "Data Engineer", "DevOps", "Cloud Engineer"],
-    "tools": ["TensorFlow", "PyTorch", "ONNX", "Kubeflow", "MLflow", "Seldon Core"],
-    "languages": ["Python", "Scala", "Java"],
-    "skills": ["Model Deployment", "Model Optimization", "Data Pipelines", "A/B Testing", "Monitoring", "MLOps"]
-  },
-  {
-    "name": "DBMS",
-    "description": "Designs, implements, and manages databases, ensuring data integrity, performance, and security.",
-    "related": ["Data Engineer", "Data Analyst", "Back End", "Cloud Engineer", "Database Administrator"],
-    "tools": ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Oracle DB", "Microsoft SQL Server", "Cassandra"],
-    "languages": ["SQL", "PL/SQL"],
-    "skills": ["Database Design", "Query Optimization", "Backup & Recovery", "Replication", "Data Security", "Indexing"]
-  },
-  {
-    "name": "Database Administrator",
-    "description": "Maintains and secures databases, performs tuning, backup, recovery, and ensures high availability.",
-    "related": ["DBMS", "Data Engineer", "Security Engineer", "Cloud Engineer"],
-    "tools": ["Oracle DB", "SQL Server Management Studio", "pgAdmin", "MySQL Workbench", "MongoDB Compass"],
-    "languages": ["SQL", "PL/SQL", "T-SQL", "Shell"],
-    "skills": ["Database Administration", "Performance Tuning", "Backup & Recovery", "User Management", "Disaster Recovery"]
-  },
-  {
-    "name": "Business Analyst",
-    "description": "Bridges business needs and technology solutions by analyzing requirements and defining specifications.",
-    "related": ["Data Analyst", "Product Manager", "QA Engineer", "Data Scientist"],
-    "tools": ["Excel", "Tableau", "Jira", "Confluence", "Power BI"],
-    "languages": [],
-    "skills": ["Requirements Gathering", "Process Modeling", "Stakeholder Management", "Documentation", "Data Analysis"]
-  },
-  {
-    "name": "Research Scientist",
-    "description": "Conducts advanced research on algorithms, models, and data-driven methods, often publishing findings.",
-    "related": ["Data Scientist", "ML Engineer", "Academic Researcher"],
-    "tools": ["Jupyter", "MATLAB", "R", "TensorFlow", "PyTorch"],
-    "languages": ["Python", "R", "MATLAB"],
-    "skills": ["Algorithm Development", "Statistical Analysis", "Scientific Writing", "Experiment Design", "Machine Learning"]
-  },
-  {
-    "name": "Data Steward",
-    "description": "Ensures data quality, governance, and compliance across the organization.",
-    "related": ["Data Engineer", "Database Administrator", "Security Engineer"],
-    "tools": ["Collibra", "Informatica", "Alation", "Talend"],
-    "languages": [],
-    "skills": ["Data Governance", "Data Quality", "Compliance", "Metadata Management", "Policy Enforcement"]
-  },
-  {
-    "name": "Data Architect",
-    "description": "Designs and oversees the data architecture, including data models, integration, and flows.",
-    "related": ["Data Engineer", "DBMS", "Cloud Engineer", "Business Analyst"],
-    "tools": ["Erwin Data Modeler", "Lucidchart", "AWS Glue", "Snowflake"],
-    "languages": ["SQL", "Python"],
-    "skills": ["Data Modeling", "Data Integration", "Architecture Design", "Scalability", "Documentation"]
-  },
+      "name": "Data Engineer",
+      "description": "Builds and maintains scalable data pipelines and architectures for collecting, storing, and processing large volumes of data.",
+      "related": [
+        "DBMS",
+        "Data Analyst",
+        "Data Scientist",
+        "Cloud Engineer",
+        "ML Engineer"
+      ],
+      "tools": [
+        "Apache Spark",
+        "Airflow",
+        "Kafka",
+        "Hadoop",
+        "AWS Glue",
+        "Databricks",
+        "Snowflake"
+      ],
+      "languages": [
+        "Python",
+        "Scala",
+        "SQL",
+        "Java"
+      ],
+      "skills": [
+        "ETL",
+        "Data Pipeline Design",
+        "Big Data Processing",
+        "Data Warehousing",
+        "Data Quality",
+        "Batch Processing",
+        "Streaming Data"
+      ]
+    },
+    {
+      "name": "Data Analyst",
+      "description": "Interprets data, analyzes trends, and produces actionable insights to support business decisions.",
+      "related": [
+        "Data Engineer",
+        "DBMS",
+        "Data Scientist",
+        "Business Analyst",
+        "Product Manager"
+      ],
+      "tools": [
+        "Tableau",
+        "Power BI",
+        "Excel",
+        "Google Data Studio",
+        "Looker",
+        "QlikView"
+      ],
+      "languages": [
+        "SQL",
+        "Python",
+        "R"
+      ],
+      "skills": [
+        "Data Visualization",
+        "Statistical Analysis",
+        "Reporting",
+        "Data Cleaning",
+        "Business Intelligence",
+        "Dashboarding"
+      ]
+    },
+    {
+      "name": "Data Scientist",
+      "description": "Extracts insights from data using advanced analytics, statistics, and machine learning, often building predictive models.",
+      "related": [
+        "Data Engineer",
+        "Data Analyst",
+        "ML Engineer",
+        "Research Scientist"
+      ],
+      "tools": [
+        "Jupyter",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "Keras",
+        "RStudio",
+        "MLflow"
+      ],
+      "languages": [
+        "Python",
+        "R",
+        "Scala"
+      ],
+      "skills": [
+        "Machine Learning",
+        "Statistical Modeling",
+        "Data Mining",
+        "Predictive Analytics",
+        "Deep Learning",
+        "Experimentation"
+      ]
+    },
+    {
+      "name": "ML Engineer",
+      "description": "Specializes in deploying, optimizing, and maintaining machine learning models in production environments.",
+      "related": [
+        "Data Scientist",
+        "Data Engineer",
+        "DevOps",
+        "Cloud Engineer"
+      ],
+      "tools": [
+        "TensorFlow",
+        "PyTorch",
+        "ONNX",
+        "Kubeflow",
+        "MLflow",
+        "Seldon Core"
+      ],
+      "languages": [
+        "Python",
+        "Scala",
+        "Java"
+      ],
+      "skills": [
+        "Model Deployment",
+        "Model Optimization",
+        "Data Pipelines",
+        "A/B Testing",
+        "Monitoring",
+        "MLOps"
+      ]
+    },
+    {
+      "name": "DBMS",
+      "description": "Designs, implements, and manages databases, ensuring data integrity, performance, and security.",
+      "related": [
+        "Data Engineer",
+        "Data Analyst",
+        "Back End",
+        "Cloud Engineer",
+        "Database Administrator"
+      ],
+      "tools": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Oracle DB",
+        "Microsoft SQL Server",
+        "Cassandra"
+      ],
+      "languages": [
+        "SQL",
+        "PL/SQL"
+      ],
+      "skills": [
+        "Database Design",
+        "Query Optimization",
+        "Backup & Recovery",
+        "Replication",
+        "Data Security",
+        "Indexing"
+      ]
+    },
+    {
+      "name": "Database Administrator",
+      "description": "Maintains and secures databases, performs tuning, backup, recovery, and ensures high availability.",
+      "related": [
+        "DBMS",
+        "Data Engineer",
+        "Security Engineer",
+        "Cloud Engineer"
+      ],
+      "tools": [
+        "Oracle DB",
+        "SQL Server Management Studio",
+        "pgAdmin",
+        "MySQL Workbench",
+        "MongoDB Compass"
+      ],
+      "languages": [
+        "SQL",
+        "PL/SQL",
+        "T-SQL",
+        "Shell"
+      ],
+      "skills": [
+        "Database Administration",
+        "Performance Tuning",
+        "Backup & Recovery",
+        "User Management",
+        "Disaster Recovery"
+      ]
+    },
+    {
+      "name": "Business Analyst",
+      "description": "Bridges business needs and technology solutions by analyzing requirements and defining specifications.",
+      "related": [
+        "Data Analyst",
+        "Product Manager",
+        "QA Engineer",
+        "Data Scientist"
+      ],
+      "tools": [
+        "Excel",
+        "Tableau",
+        "Jira",
+        "Confluence",
+        "Power BI"
+      ],
+      "languages": [],
+      "skills": [
+        "Requirements Gathering",
+        "Process Modeling",
+        "Stakeholder Management",
+        "Documentation",
+        "Data Analysis"
+      ]
+    },
+    {
+      "name": "Research Scientist",
+      "description": "Conducts advanced research on algorithms, models, and data-driven methods, often publishing findings.",
+      "related": [
+        "Data Scientist",
+        "ML Engineer",
+        "Academic Researcher"
+      ],
+      "tools": [
+        "Jupyter",
+        "MATLAB",
+        "R",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "languages": [
+        "Python",
+        "R",
+        "MATLAB"
+      ],
+      "skills": [
+        "Algorithm Development",
+        "Statistical Analysis",
+        "Scientific Writing",
+        "Experiment Design",
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "Data Steward",
+      "description": "Ensures data quality, governance, and compliance across the organization.",
+      "related": [
+        "Data Engineer",
+        "Database Administrator",
+        "Security Engineer"
+      ],
+      "tools": [
+        "Collibra",
+        "Informatica",
+        "Alation",
+        "Talend"
+      ],
+      "languages": [],
+      "skills": [
+        "Data Governance",
+        "Data Quality",
+        "Compliance",
+        "Metadata Management",
+        "Policy Enforcement"
+      ]
+    },
+    {
+      "name": "Data Architect",
+      "description": "Designs and oversees the data architecture, including data models, integration, and flows.",
+      "related": [
+        "Data Engineer",
+        "DBMS",
+        "Cloud Engineer",
+        "Business Analyst"
+      ],
+      "tools": [
+        "Erwin Data Modeler",
+        "Lucidchart",
+        "AWS Glue",
+        "Snowflake"
+      ],
+      "languages": [
+        "SQL",
+        "Python"
+      ],
+      "skills": [
+        "Data Modeling",
+        "Data Integration",
+        "Architecture Design",
+        "Scalability",
+        "Documentation"
+      ]
+    },
     {
       "name": "Full Stack",
       "description": "Combines both front-end and back-end development skills, capable of building complete web applications.",
-      "includes": ["Front End", "Back End"],
-      "related": ["API", "DevOps", "Mobile Developer"],
-      "tools": ["Git", "Docker", "Jenkins", "ReactJS", "AngularJS", "VueJS", "jQuery", "Webpack", "Babel", "Sass", "Bootstrap", "Node.js", "Express", "Django"],
-      "languages": ["JavaScript", "Python", "Java", "HTML", "CSS", "TypeScript"],
-      "skills": ["System Design", "DevOps", "API Integration", "Testing", "Agile"]
+      "includes": [
+        "Front End",
+        "Back End"
+      ],
+      "related": [
+        "API",
+        "DevOps",
+        "Mobile Developer"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "Jenkins",
+        "ReactJS",
+        "AngularJS",
+        "VueJS",
+        "jQuery",
+        "Webpack",
+        "Babel",
+        "Sass",
+        "Bootstrap",
+        "Node.js",
+        "Express",
+        "Django"
+      ],
+      "languages": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "HTML",
+        "CSS",
+        "TypeScript"
+      ],
+      "skills": [
+        "System Design",
+        "DevOps",
+        "API Integration",
+        "Testing",
+        "Agile"
+      ]
     },
     {
       "name": "Front End",
       "description": "Responsible for building the user interface and user experience of web applications, ensuring accessibility, responsiveness, and interactivity.",
-      "related": ["Back End", "API", "UI/UX Designer", "Mobile Developer"],
-      "tools": ["ReactJS", "AngularJS", "VueJS", "jQuery", "Webpack", "Babel", "Sass", "Bootstrap"],
-      "languages": ["HTML", "CSS", "JavaScript", "TypeScript"],
-      "skills": ["Responsive Design", "Accessibility", "Cross-Browser Compatibility", "UI/UX Design", "Performance Optimization"]
+      "related": [
+        "Back End",
+        "API",
+        "UI/UX Designer",
+        "Mobile Developer"
+      ],
+      "tools": [
+        "ReactJS",
+        "AngularJS",
+        "VueJS",
+        "jQuery",
+        "Webpack",
+        "Babel",
+        "Sass",
+        "Bootstrap"
+      ],
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "skills": [
+        "Responsive Design",
+        "Accessibility",
+        "Cross-Browser Compatibility",
+        "UI/UX Design",
+        "Performance Optimization"
+      ]
     },
     {
       "name": "Back End",
       "description": "Handles the business logic, database interactions, and server-side operations of applications, ensuring security, scalability, and reliability.",
-      "related": ["Front End", "Server", "DBMS", "API", "DevOps"],
-      "tools": ["Node.js", "Express", "Django", "Flask", "Spring Boot", "Ruby on Rails", "ASP.NET"],
-      "languages": ["JavaScript", "Python", "Java", "PHP", "Ruby", "C#", "Go"],
-      "skills": ["API Development", "Authentication", "Business Logic", "Security", "Scalability"]
+      "related": [
+        "Front End",
+        "Server",
+        "DBMS",
+        "API",
+        "DevOps"
+      ],
+      "tools": [
+        "Node.js",
+        "Express",
+        "Django",
+        "Flask",
+        "Spring Boot",
+        "Ruby on Rails",
+        "ASP.NET"
+      ],
+      "languages": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "PHP",
+        "Ruby",
+        "C#",
+        "Go"
+      ],
+      "skills": [
+        "API Development",
+        "Authentication",
+        "Business Logic",
+        "Security",
+        "Scalability"
+      ]
     },
     {
       "name": "API",
       "description": "Designs and implements interfaces for communication between different software components or services, often using RESTful or GraphQL standards.",
-      "related": ["Back End", "Front End", "Full Stack", "Mobile Developer"],
-      "tools": ["Swagger", "Postman", "Insomnia", "GraphQL Playground"],
-      "languages": ["JavaScript", "Python", "Go", "Java"],
-      "skills": ["RESTful API Design", "GraphQL", "API Documentation", "Authentication & Authorization", "Versioning"]
+      "related": [
+        "Back End",
+        "Front End",
+        "Full Stack",
+        "Mobile Developer"
+      ],
+      "tools": [
+        "Swagger",
+        "Postman",
+        "Insomnia",
+        "GraphQL Playground"
+      ],
+      "languages": [
+        "JavaScript",
+        "Python",
+        "Go",
+        "Java"
+      ],
+      "skills": [
+        "RESTful API Design",
+        "GraphQL",
+        "API Documentation",
+        "Authentication & Authorization",
+        "Versioning"
+      ]
     },
     {
       "name": "Server",
       "description": "Manages deployment, hosting, and operational aspects of applications, including configuration, scaling, and monitoring.",
-      "related": ["Back End", "Networking", "DevOps", "Cloud Engineer"],
-      "tools": ["Nginx", "Apache", "Docker", "Kubernetes", "PM2", "Systemd", "HAProxy"],
-      "languages": ["Bash", "Python", "Go"],
-      "skills": ["Server Management", "Deployment", "Load Balancing", "Monitoring", "Logging"]
+      "related": [
+        "Back End",
+        "Networking",
+        "DevOps",
+        "Cloud Engineer"
+      ],
+      "tools": [
+        "Nginx",
+        "Apache",
+        "Docker",
+        "Kubernetes",
+        "PM2",
+        "Systemd",
+        "HAProxy"
+      ],
+      "languages": [
+        "Bash",
+        "Python",
+        "Go"
+      ],
+      "skills": [
+        "Server Management",
+        "Deployment",
+        "Load Balancing",
+        "Monitoring",
+        "Logging"
+      ]
     },
     {
       "name": "Networking",
       "description": "Ensures reliable, secure, and efficient communication between computers and systems within an organization or across the internet.",
-      "related": ["Server", "Cloud Engineer", "Security Engineer"],
-      "tools": ["Wireshark", "Cisco IOS", "pfSense", "Nagios", "Juniper", "SolarWinds"],
-      "languages": ["Bash", "Python"],
-      "skills": ["Network Configuration", "Troubleshooting", "Security", "VPN", "Firewalls"]
+      "related": [
+        "Server",
+        "Cloud Engineer",
+        "Security Engineer"
+      ],
+      "tools": [
+        "Wireshark",
+        "Cisco IOS",
+        "pfSense",
+        "Nagios",
+        "Juniper",
+        "SolarWinds"
+      ],
+      "languages": [
+        "Bash",
+        "Python"
+      ],
+      "skills": [
+        "Network Configuration",
+        "Troubleshooting",
+        "Security",
+        "VPN",
+        "Firewalls"
+      ]
     },
     {
       "name": "DevOps",
       "description": "Bridges development and operations by automating software delivery, infrastructure changes, and monitoring.",
-      "related": ["Full Stack", "Back End", "Server", "Cloud Engineer", "Security Engineer"],
-      "tools": ["Docker", "Kubernetes", "Jenkins", "GitLab CI", "Terraform", "Ansible", "Prometheus", "Grafana"],
-      "languages": ["Python", "Bash", "Go"],
-      "skills": ["CI/CD", "Infrastructure as Code", "Monitoring", "Automation", "Cloud Deployment"]
+      "related": [
+        "Full Stack",
+        "Back End",
+        "Server",
+        "Cloud Engineer",
+        "Security Engineer"
+      ],
+      "tools": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "GitLab CI",
+        "Terraform",
+        "Ansible",
+        "Prometheus",
+        "Grafana"
+      ],
+      "languages": [
+        "Python",
+        "Bash",
+        "Go"
+      ],
+      "skills": [
+        "CI/CD",
+        "Infrastructure as Code",
+        "Monitoring",
+        "Automation",
+        "Cloud Deployment"
+      ]
     },
     {
       "name": "Cloud Engineer",
       "description": "Designs, implements, and maintains cloud infrastructure and services for scalability, reliability, and security.",
-      "related": ["DevOps", "Server", "DBMS", "Data Engineer", "Security Engineer"],
-      "tools": ["AWS", "Azure", "GCP", "Terraform", "CloudFormation", "Docker", "Kubernetes"],
-      "languages": ["Python", "Bash", "Go"],
-      "skills": ["Cloud Architecture", "Automation", "Security", "Cost Optimization", "Scalability"]
+      "related": [
+        "DevOps",
+        "Server",
+        "DBMS",
+        "Data Engineer",
+        "Security Engineer"
+      ],
+      "tools": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Terraform",
+        "CloudFormation",
+        "Docker",
+        "Kubernetes"
+      ],
+      "languages": [
+        "Python",
+        "Bash",
+        "Go"
+      ],
+      "skills": [
+        "Cloud Architecture",
+        "Automation",
+        "Security",
+        "Cost Optimization",
+        "Scalability"
+      ]
     },
     {
       "name": "Security Engineer",
       "description": "Protects systems and data from cyber threats by designing secure architectures, monitoring, and responding to incidents.",
-      "related": ["Networking", "Cloud Engineer", "DevOps"],
-      "tools": ["Splunk", "Snort", "Metasploit", "Burp Suite", "Nessus", "Wireshark"],
-      "languages": ["Python", "Bash", "C"],
-      "skills": ["Vulnerability Assessment", "Penetration Testing", "Incident Response", "Security Monitoring", "Encryption"]
+      "related": [
+        "Networking",
+        "Cloud Engineer",
+        "DevOps"
+      ],
+      "tools": [
+        "Splunk",
+        "Snort",
+        "Metasploit",
+        "Burp Suite",
+        "Nessus",
+        "Wireshark"
+      ],
+      "languages": [
+        "Python",
+        "Bash",
+        "C"
+      ],
+      "skills": [
+        "Vulnerability Assessment",
+        "Penetration Testing",
+        "Incident Response",
+        "Security Monitoring",
+        "Encryption"
+      ]
     },
     {
       "name": "UI/UX Designer",
       "description": "Focuses on the design and usability of applications, ensuring a seamless and visually appealing user experience.",
-      "related": ["Front End", "Product Manager", "Mobile Developer"],
-      "tools": ["Figma", "Sketch", "Adobe XD", "InVision", "Photoshop", "Illustrator"],
+      "related": [
+        "Front End",
+        "Product Manager",
+        "Mobile Developer"
+      ],
+      "tools": [
+        "Figma",
+        "Sketch",
+        "Adobe XD",
+        "InVision",
+        "Photoshop",
+        "Illustrator"
+      ],
       "languages": [],
-      "skills": ["Wireframing", "Prototyping", "User Research", "Interaction Design", "Visual Design"]
+      "skills": [
+        "Wireframing",
+        "Prototyping",
+        "User Research",
+        "Interaction Design",
+        "Visual Design"
+      ]
     },
     {
       "name": "Mobile Developer",
       "description": "Builds applications for mobile devices, ensuring performance, usability, and compatibility across platforms.",
-      "related": ["Front End", "Back End", "API", "UI/UX Designer"],
-      "tools": ["Android Studio", "Xcode", "React Native", "Flutter", "Ionic"],
-      "languages": ["Java", "Kotlin", "Swift", "Dart", "JavaScript"],
-      "skills": ["Mobile UI Design", "Cross-Platform Development", "Performance Optimization", "Testing", "App Store Deployment"]
+      "related": [
+        "Front End",
+        "Back End",
+        "API",
+        "UI/UX Designer"
+      ],
+      "tools": [
+        "Android Studio",
+        "Xcode",
+        "React Native",
+        "Flutter",
+        "Ionic"
+      ],
+      "languages": [
+        "Java",
+        "Kotlin",
+        "Swift",
+        "Dart",
+        "JavaScript"
+      ],
+      "skills": [
+        "Mobile UI Design",
+        "Cross-Platform Development",
+        "Performance Optimization",
+        "Testing",
+        "App Store Deployment"
+      ]
     },
     {
       "name": "QA Engineer",
       "description": "Ensures the quality of software through automated and manual testing, identifying bugs and verifying requirements.",
-      "related": ["Front End", "Back End", "DevOps", "Product Manager"],
-      "tools": ["Selenium", "JUnit", "TestNG", "Cypress", "Postman", "Jest"],
-      "languages": ["Java", "Python", "JavaScript"],
-      "skills": ["Test Automation", "Manual Testing", "Bug Tracking", "Performance Testing", "Regression Testing"]
+      "related": [
+        "Front End",
+        "Back End",
+        "DevOps",
+        "Product Manager"
+      ],
+      "tools": [
+        "Selenium",
+        "JUnit",
+        "TestNG",
+        "Cypress",
+        "Postman",
+        "Jest"
+      ],
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript"
+      ],
+      "skills": [
+        "Test Automation",
+        "Manual Testing",
+        "Bug Tracking",
+        "Performance Testing",
+        "Regression Testing"
+      ]
     },
     {
       "name": "Product Manager",
       "description": "Owns the product vision and roadmap, working with cross-functional teams to deliver value to users.",
-      "related": ["UI/UX Designer", "QA Engineer", "Business Analyst", "Front End", "Back End"],
-      "tools": ["Jira", "Trello", "Asana", "Productboard", "Miro"],
+      "related": [
+        "UI/UX Designer",
+        "QA Engineer",
+        "Business Analyst",
+        "Front End",
+        "Back End"
+      ],
+      "tools": [
+        "Jira",
+        "Trello",
+        "Asana",
+        "Productboard",
+        "Miro"
+      ],
       "languages": [],
-      "skills": ["Roadmapping", "User Research", "Agile Methodology", "Prioritization", "Stakeholder Communication"]
+      "skills": [
+        "Roadmapping",
+        "User Research",
+        "Agile Methodology",
+        "Prioritization",
+        "Stakeholder Communication"
+      ]
     },
     {
       "name": "SRE (Site Reliability Engineer)",
       "description": "Ensures reliability, availability, and performance of large-scale systems, blending software engineering with systems engineering.",
-      "related": ["DevOps", "Cloud Engineer", "Server", "Security Engineer"],
-      "tools": ["Prometheus", "Grafana", "PagerDuty", "Terraform", "Kubernetes"],
-      "languages": ["Python", "Go", "Bash"],
-      "skills": ["Incident Response", "Monitoring", "Automation", "Capacity Planning", "Reliability Engineering"]
+      "related": [
+        "DevOps",
+        "Cloud Engineer",
+        "Server",
+        "Security Engineer"
+      ],
+      "tools": [
+        "Prometheus",
+        "Grafana",
+        "PagerDuty",
+        "Terraform",
+        "Kubernetes"
+      ],
+      "languages": [
+        "Python",
+        "Go",
+        "Bash"
+      ],
+      "skills": [
+        "Incident Response",
+        "Monitoring",
+        "Automation",
+        "Capacity Planning",
+        "Reliability Engineering"
+      ]
     },
     {
       "name": "Support Engineer",
       "description": "Provides technical assistance and troubleshooting for software products and services.",
-      "related": ["QA Engineer", "DevOps", "Business Analyst"],
-      "tools": ["Zendesk", "Freshdesk", "Jira", "Confluence"],
-      "languages": ["Python", "JavaScript"],
-      "skills": ["Troubleshooting", "Customer Support", "Documentation", "Incident Management", "Communication"]
+      "related": [
+        "QA Engineer",
+        "DevOps",
+        "Business Analyst"
+      ],
+      "tools": [
+        "Zendesk",
+        "Freshdesk",
+        "Jira",
+        "Confluence"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript"
+      ],
+      "skills": [
+        "Troubleshooting",
+        "Customer Support",
+        "Documentation",
+        "Incident Management",
+        "Communication"
+      ]
     },
     {
       "name": "Scrum Master",
       "description": "Facilitates Agile development teams, removes impediments, and ensures Scrum practices are followed.",
-      "related": ["Product Manager", "QA Engineer", "Business Analyst"],
-      "tools": ["Jira", "Trello", "Confluence", "Miro"],
+      "related": [
+        "Product Manager",
+        "QA Engineer",
+        "Business Analyst"
+      ],
+      "tools": [
+        "Jira",
+        "Trello",
+        "Confluence",
+        "Miro"
+      ],
       "languages": [],
-      "skills": ["Agile Methodology", "Facilitation", "Team Leadership", "Conflict Resolution", "Continuous Improvement"]
+      "skills": [
+        "Agile Methodology",
+        "Facilitation",
+        "Team Leadership",
+        "Conflict Resolution",
+        "Continuous Improvement"
+      ]
     },
     {
       "name": "Technical Writer",
       "description": "Creates and maintains documentation for software products, APIs, and user guides.",
-      "related": ["QA Engineer", "Product Manager", "Business Analyst"],
-      "tools": ["Confluence", "Markdown", "Git", "Word", "MadCap Flare"],
+      "related": [
+        "QA Engineer",
+        "Product Manager",
+        "Business Analyst"
+      ],
+      "tools": [
+        "Confluence",
+        "Markdown",
+        "Git",
+        "Word",
+        "MadCap Flare"
+      ],
       "languages": [],
-      "skills": ["Technical Writing", "Documentation", "Editing", "API Documentation", "Communication"]
+      "skills": [
+        "Technical Writing",
+        "Documentation",
+        "Editing",
+        "API Documentation",
+        "Communication"
+      ]
     },
     {
       "name": "Game Developer",
       "description": "Designs and implements interactive games for various platforms.",
-      "related": ["Front End", "Back End", "UI/UX Designer"],
-      "tools": ["Unity", "Unreal Engine", "Godot", "Blender"],
-      "languages": ["C#", "C++", "Python", "JavaScript"],
-      "skills": ["Game Design", "Physics Simulation", "Graphics Programming", "Animation", "Performance Optimization"]
+      "related": [
+        "Front End",
+        "Back End",
+        "UI/UX Designer"
+      ],
+      "tools": [
+        "Unity",
+        "Unreal Engine",
+        "Godot",
+        "Blender"
+      ],
+      "languages": [
+        "C#",
+        "C++",
+        "Python",
+        "JavaScript"
+      ],
+      "skills": [
+        "Game Design",
+        "Physics Simulation",
+        "Graphics Programming",
+        "Animation",
+        "Performance Optimization"
+      ]
     },
     {
       "name": "Embedded Systems Engineer",
       "description": "Develops software and firmware for embedded devices and hardware.",
-      "related": ["Back End", "Security Engineer"],
-      "tools": ["Keil", "IAR Embedded Workbench", "Arduino IDE", "Oscilloscope"],
-      "languages": ["C", "C++", "Assembly", "Python"],
-      "skills": ["Firmware Development", "Microcontrollers", "RTOS", "Low-Level Programming", "Debugging"]
+      "related": [
+        "Back End",
+        "Security Engineer"
+      ],
+      "tools": [
+        "Keil",
+        "IAR Embedded Workbench",
+        "Arduino IDE",
+        "Oscilloscope"
+      ],
+      "languages": [
+        "C",
+        "C++",
+        "Assembly",
+        "Python"
+      ],
+      "skills": [
+        "Firmware Development",
+        "Microcontrollers",
+        "RTOS",
+        "Low-Level Programming",
+        "Debugging"
+      ]
+    },
+    {
+      "name": "Data Engineer",
+      "description": "Builds and maintains scalable data pipelines and architectures for collecting, storing, and processing large volumes of data.",
+      "related": [
+        "DBMS",
+        "Data Analyst",
+        "Data Scientist",
+        "Cloud Engineer",
+        "ML Engineer"
+      ],
+      "tools": [
+        "Apache Spark",
+        "Airflow",
+        "Kafka",
+        "Hadoop",
+        "AWS Glue",
+        "Databricks",
+        "Snowflake"
+      ],
+      "languages": [
+        "Python",
+        "Scala",
+        "SQL",
+        "Java"
+      ],
+      "skills": [
+        "ETL",
+        "Data Pipeline Design",
+        "Big Data Processing",
+        "Data Warehousing",
+        "Data Quality",
+        "Batch Processing",
+        "Streaming Data"
+      ]
     }
   ]
 }
