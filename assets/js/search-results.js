@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         '/data/ai-tools.json',
         '/data/programming.json',
         '/data/jobs.json',
-        '/data/women-in-tech.json'
+        '/data/upskilling.json',
+        '/data/others.json'
     ];
 
     const searchLoading = document.getElementById('search-loading');
@@ -51,28 +52,24 @@ function scoreResults(data, query) {
         const desc = (item.description || "").toLowerCase();
         const tags = (item.tags || []).map(t => t.toLowerCase());
 
-        // Exact/Prefix matches
+        // Exact/Prefix matches (highest priority)
         if (title === q) score += 100;
         else if (title.includes(q)) score += 50;
         else if (title.startsWith(q)) score += 40;
 
-        // Word matches & Fuzzy matching
+        // Description full match
+        if (desc.includes(q)) score += 30;
+
+        // Word-by-word matching (NO FUZZY MATCHING for speed)
         queryWords.forEach(word => {
             if (title.includes(word)) score += 60;
             if (tags.some(t => t.includes(word))) score += 40;
             if (desc.includes(word)) score += 20;
-
-            // Use shared fuzzy logic
-            title.split(/\s+/).forEach(tWord => {
-                if (utils.isSimilar(word, tWord)) score += (word.length >= 4 ? 70 : 40);
-            });
-            tags.forEach(tag => {
-                if (utils.isSimilar(word, tag)) score += (word.length >= 4 ? 45 : 25);
-            });
         });
 
         return { ...item, score };
     })
         .filter(item => item.score > 0)
-        .sort((a, b) => b.score - a.score);
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 100); // Limit to top 100 results for performance
 }
