@@ -86,12 +86,18 @@ const components = {
         container.innerHTML = '';
         if (dropdownMenu) dropdownMenu.innerHTML = '';
 
-        // Grouping
+        // Grouping - Add each resource to all matching tag sections
         const groups = {};
         resources.forEach(r => {
-            const groupName = (r.tags && r.tags.length > 0) ? r.tags[0] : 'General';
-            if (!groups[groupName]) groups[groupName] = [];
-            groups[groupName].push(r);
+            if (r.tags && r.tags.length > 0) {
+                r.tags.forEach(tag => {
+                    if (!groups[tag]) groups[tag] = [];
+                    groups[tag].push(r);
+                });
+            } else {
+                if (!groups['General']) groups['General'] = [];
+                groups['General'].push(r);
+            }
         });
 
         // Priority Sort: Free, Top, then Alpha
