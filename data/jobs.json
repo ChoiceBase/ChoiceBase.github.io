@@ -1,5 +1,16 @@
 [
     {
+        "id": "76",
+        "title": "Shine",
+        "url": "https://www.shine.com/",
+        "description": "Shine is a job portal platform with over 300,000+ job listings across various industries. Features job search by skills, location, and categories. Popular in India for finding opportunities in IT, sales, marketing, and other sectors.",
+        "tags": [
+            "free",
+            "job portal",
+            "career"
+        ]
+    },
+    {
         "id": "75",
         "title": "DailyRemote",
         "url": "https://dailyremote.com",

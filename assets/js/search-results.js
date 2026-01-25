@@ -8,10 +8,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Load all data in parallel
     const files = [
         '/data/ai-tools.json',
-        '/data/programming.json',
+        '/data/applications.json',
         '/data/jobs.json',
+        '/data/programming.json',
         '/data/upskilling.json',
-        '/data/others.json'
+        '/data/websites.json'
     ];
 
     const searchLoading = document.getElementById('search-loading');
@@ -49,6 +50,7 @@ function scoreResults(data, query) {
     return data.map(item => {
         let score = 0;
         const title = (item.title || "").toLowerCase();
+        const url = (item.url || "").toLowerCase();
         const desc = (item.description || "").toLowerCase();
         const tags = (item.tags || []).map(t => t.toLowerCase());
 
@@ -57,12 +59,17 @@ function scoreResults(data, query) {
         else if (title.includes(q)) score += 50;
         else if (title.startsWith(q)) score += 40;
 
+        // URL matches
+        if (url === q) score += 90;
+        else if (url.includes(q)) score += 35;
+
         // Description full match
         if (desc.includes(q)) score += 30;
 
         // Word-by-word matching (NO FUZZY MATCHING for speed)
         queryWords.forEach(word => {
             if (title.includes(word)) score += 60;
+            if (url.includes(word)) score += 30;
             if (tags.some(t => t.includes(word))) score += 40;
             if (desc.includes(word)) score += 20;
         });

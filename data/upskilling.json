@@ -1,5 +1,88 @@
 [
     {
+        "id": "43",
+        "title": "NPTEL",
+        "url": "https://nptel.ac.in/",
+        "description": "NPTEL (National Programme on Technology Enhanced Learning) is an Indian online learning platform offering courses from top IITs and IISc. Features video lectures, assignments, and certifications. Covers engineering, science, and humanities subjects.",
+        "tags": [
+            "free",
+            "education",
+            "online courses"
+        ]
+    },
+    {
+        "id": "42",
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "description": "AWS Skill Builder is Amazon's official learning platform for cloud computing. Features hands-on labs, digital training, and certification preparation. Offers courses on AWS services, cloud architecture, and solutions.",
+        "tags": [
+            "free",
+            "paid",
+            "cloud",
+            "aws",
+            "training"
+        ]
+    },
+    {
+        "id": "41",
+        "title": "InterviewBit",
+        "url": "https://www.interviewbit.com/",
+        "description": "InterviewBit is a platform for coding interview preparation. Features practice problems, mock interviews, and company-specific questions. Helps developers prepare for technical interviews at top tech companies.",
+        "tags": [
+            "paid",
+            "interview",
+            "practice",
+            "career"
+        ]
+    },
+    {
+        "id": "40",
+        "title": "StackUp",
+        "url": "https://earn.stackup.dev/",
+        "description": "StackUp is a learning platform that rewards users for completing educational tasks and courses. Features gamified learning, skill tracking, and rewards for achievements. Makes learning engaging through incentives and progress tracking.",
+        "tags": [
+            "free",
+            "education",
+            "gamified learning"
+        ]
+    },
+    {
+        "id": "39",
+        "title": "JavaScript.info",
+        "url": "https://javascript.info/",
+        "description": "JavaScript.info is a comprehensive modern JavaScript tutorial covering everything from basics to advanced topics. Features interactive examples, clear explanations, and up-to-date content. Perfect for learning JavaScript from scratch or deepening your knowledge.",
+        "tags": [
+            "free",
+            "education",
+            "javascript",
+            "programming"
+        ]
+    },
+    {
+        "id": "38",
+        "title": "Scaler",
+        "url": "https://www.scaler.com/",
+        "description": "Scaler is an online coding education platform offering structured courses for software development careers. Features live classes, mentorship, and placement assistance. Focuses on data structures, algorithms, and full-stack development.",
+        "tags": [
+            "paid",
+            "education",
+            "coding bootcamp",
+            "career"
+        ]
+    },
+    {
+        "id": "37",
+        "title": "ACI Learning",
+        "url": "https://www.acilearning.com/",
+        "description": "ACI Learning provides cybersecurity training and IT skill development through hands-on labs, videos, and practice exams. Features certification prep for CompTIA, CEH, and CISA. Offers personalized learning paths and real-world simulations for IT professionals.",
+        "tags": [
+            "paid",
+            "cybersecurity",
+            "training",
+            "certifications"
+        ]
+    },
+    {
         "id": "36",
         "title": "Microsoft Learn",
         "url": "https://learn.microsoft.com",

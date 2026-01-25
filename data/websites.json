@@ -1,5 +1,62 @@
 [
     {
+        "id": "52",
+        "title": "Scribd Downloader",
+        "url": "https://scribd.vdownloaders.com/",
+        "description": "Scribd.VDownloaders.com is a free Scribd document downloader. Simply paste a Scribd URL or replace 'scribd.com' with 'scribd.vdownloaders.com' in the URL to get download links. Supports documents, presentations, and other Scribd content. No registration required.",
+        "tags": [
+            "free",
+            "downloads",
+            "utilities",
+            "scribd"
+        ]
+    },
+    {
+        "id": "51",
+        "title": "Guerrilla Mail",
+        "url": "https://www.guerrillamail.com/inbox",
+        "description": "Guerrilla Mail is a disposable temporary email service that helps you avoid spam and stay safe online. Features instant email addresses, no registration required, and automatic email deletion. Perfect for signing up to services without exposing your real email.",
+        "tags": [
+            "free",
+            "email",
+            "privacy"
+        ]
+    },
+    {
+        "id": "50",
+        "title": "DL4All",
+        "url": "https://dl4all.biz/",
+        "description": "DL4All is a platform for downloading various digital resources. Provides access to software, courses, and educational materials. Useful for accessing learning resources and software downloads.",
+        "tags": [
+            "free",
+            "downloads",
+            "resources"
+        ]
+    },
+    {
+        "id": "49",
+        "title": "Hacking Loops",
+        "url": "https://www.hackingloops.com/",
+        "description": "Hacking Loops offers hands-on cybersecurity training focused on ethical hacking and penetration testing. Features real-world scenarios, practical labs, and portfolio building. Designed for career changers and beginners without requiring coding or certifications.",
+        "tags": [
+            "paid",
+            "cybersecurity",
+            "ethical hacking",
+            "training"
+        ]
+    },
+    {
+        "id": "48",
+        "title": "BugMeNot",
+        "url": "https://bugmenot.com/",
+        "description": "BugMeNot is a service that provides shared login credentials for websites that require registration. Helps bypass mandatory registration for accessing content. Useful for quick access to sites without creating accounts.",
+        "tags": [
+            "free",
+            "utilities",
+            "privacy"
+        ]
+    },
+    {
         "id": "47",
         "title": "Stitch",
         "url": "https://stitch.withgoogle.com",
