@@ -1,5 +1,128 @@
 [
     {
+        "id": "57",
+        "title": "Bun",
+        "url": "https://bun.sh",
+        "description": "Bun is a fast all-in-one JavaScript runtime & toolkit designed as a drop-in replacement for Node.js. Features lightning-fast package manager, native bundler, test runner, and TypeScript support. Developed by the creators of ByteDance's app framework.",
+        "tags": [
+            "javascript runtime",
+            "package manager",
+            "bundler",
+            "typescript",
+            "web development",
+            "backend"
+        ]
+    },
+    {
+        "id": "56",
+        "title": "Zig",
+        "url": "https://ziglang.org",
+        "description": "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software. Features manual memory management with no hidden control flow, compile-time generics, and seamless C interop. Perfect for systems programming and performance-critical applications.",
+        "tags": [
+            "systems programming",
+            "memory safety",
+            "performance",
+            "c interop",
+            "compile-time"
+        ]
+    },
+    {
+        "id": "55",
+        "title": "Odin",
+        "url": "https://odin-lang.org",
+        "description": "Odin is a general-purpose programming language with a focus on simplicity, performance, and modern systems programming. Features clear syntax, powerful metaprogramming capabilities, and excellent C interop. Designed for game development, systems programming, and high-performance applications.",
+        "tags": [
+            "systems programming",
+            "game development",
+            "performance",
+            "metaprogramming",
+            "c interop",
+            "modern"
+        ]
+    },
+    {
+        "id": "54",
+        "title": "Carbon",
+        "url": "https://github.com/carbon-language",
+        "description": "Carbon is an experimental successor to C++ designed for performance-critical software and fast and scalable development. Features modern syntax, bidirectional interoperability with C++, and focuses on code that is easy to read, understand, and write.",
+        "tags": [
+            "systems programming",
+            "c++ successor",
+            "performance",
+            "modern syntax"
+        ]
+    },
+    {
+        "id": "53",
+        "title": "Mojo",
+        "url": "https://www.modular.com/mojo",
+        "description": "Mojo is a programming language that bridges the gap between research and production by combining the best of Python syntax with systems programming performance. Features Python compatibility, compile-time metaprogramming, and high-performance computing capabilities.",
+        "tags": [
+            "metaprogramming",
+            "ai/ml",
+            "systems programming",
+            "modern"
+        ]
+    },
+    {
+        "id": "52",
+        "title": "F#",
+        "url": "https://fsharp.org",
+        "description": "F# is a functional-first programming language for .NET that makes it easy to write simple code to solve complex problems. Features strong type inference, immutability by default, and seamless interoperability with C# and the .NET ecosystem.",
+        "tags": [
+            "functional programming",
+            ".net"
+        ]
+    },
+    {
+        "id": "51",
+        "title": "ClojureDart",
+        "url": "https://github.com/Tensegritics/ClojureDart",
+        "description": "ClojureDart is a port of Clojure that compiles to Dart, enabling the development of Flutter applications using Clojure's powerful functional programming paradigm. Combines Lisp's elegance with Dart's performance and Flutter's cross-platform capabilities.",
+        "tags": [
+            "functional programming",
+            "flutter",
+            "dart",
+            "lisp",
+            "cross-platform",
+            "clojure"
+        ]
+    },
+    {
+        "id": "50",
+        "title": "Vale",
+        "url": "https://vale.dev",
+        "description": "Vale is a systems programming language that aims to be fast, safe, and easy to use. Features compile-time memory safety without garbage collection, modern syntax, and focuses on developer productivity while maintaining high performance.",
+        "tags": [
+            "systems programming",
+            "memory safety",
+            "performance",
+            "modern syntax",
+            "productivity"
+        ]
+    },
+    {
+        "id": "49",
+        "title": "Hare",
+        "url": "https://harelang.org",
+        "description": "Hare is a systems programming language designed to be simple, stable, and robust. Features manual memory management, strong type system, and focuses on correctness and maintainability. Designed for writing system software and utilities.",
+        "tags": [
+            "systems programming"
+        ]
+    },
+    {
+        "id": "49",
+        "title": "V",
+        "url": "https://vlang.io",
+        "description": "V is a simple, fast, safe, and compiled language for developing maintainable software. Features simplicity, performance, and safety with a focus on developer productivity. Compiles to native binaries with minimal dependencies.",
+        "tags": [
+            "compiled language",
+            "performance",
+            "safety",
+            "simplicity"
+        ]
+    },
+    {
         "id": "47",
         "title": "Java",
         "url": "https://www.java.com",
@@ -9,12 +132,10 @@
             "object-oriented",
             "web development",
             "enterprise",
-            "Android",
+            "android",
             "backend",
             "microservices",
-            "free",
-            "open-source",
-            "cross-platform"
+            "free"
         ]
     },
     {
@@ -30,10 +151,9 @@
             "frameworks",
             "client-side",
             "server-side",
-            "Node.js",
+            "node.js",
             "free",
-            "open-source",
-            "essential"
+            "open-source"
         ]
     },
     {
@@ -43,15 +163,13 @@
         "description": "Python is a high-level, interpreted programming language known for its simple syntax and readability. It's the #1 language for data science, machine learning, and AI development. Widely used in web development (Django, Flask), automation, scripting, scientific computing, and backend services. Features include extensive standard library, large ecosystem (PyPI), cross-platform support, and strong community. Free and open-source. Perfect for beginners and professionals alike.",
         "tags": [
             "general-purpose",
-            "easy-to-learn",
             "web development",
             "data science",
             "automation",
             "machine learning",
-            "AI",
+            "ai",
             "free",
-            "open-source",
-            "beginner-friendly"
+            "open-source"
         ]
     },
     {
@@ -62,7 +180,7 @@
         "tags": [
             "web development",
             "static typing",
-            "JavaScript",
+            "javascript",
             "front-end",
             "frameworks"
         ]
@@ -112,8 +230,8 @@
         "url": "https://www.swift.org",
         "description": "Swift is a powerful and intuitive language for iOS and macOS app development, known for its performance and modern features.",
         "tags": [
-            "iOS",
-            "macOS",
+            "ios",
+            "macos",
             "object-oriented",
             "performance",
             "modern"
@@ -138,11 +256,9 @@
         "url": "https://www.modular.com/mojo",
         "description": "A new programming language that combines the usability of Python with the performance of C++. Optimized for AI hardware and high-performance computing. Reached 1.0 stability in late 2025, becoming a top choice for AI infrastructure and kernel development.",
         "tags": [
-            "AI",
+            "ai",
             "performance",
-            "python-like",
-            "system programming",
-            "2026"
+            "system programming"
         ]
     },
     {
@@ -154,7 +270,7 @@
             "server-side",
             "web development",
             "dynamic",
-            "CMS",
+            "cms",
             "database"
         ]
     },
@@ -167,7 +283,7 @@
             "web development",
             "object-oriented",
             "dynamic",
-            "Rails",
+            "rails",
             "scripting"
         ]
     },
@@ -177,8 +293,8 @@
         "url": "https://kotlinlang.org",
         "description": "Kotlin is a modern language running on the JVM, known for its concise syntax and interoperability with Java, widely used in Android development.",
         "tags": [
-            "JVM",
-            "Android",
+            "jvm",
+            "android",
             "modern",
             "concise",
             "functional"
@@ -192,7 +308,7 @@
         "tags": [
             "functional",
             "type-safe",
-            "BEAM",
+            "beam",
             "concurrency",
             "modern"
         ]
@@ -205,9 +321,9 @@
         "tags": [
             "functional",
             "object-oriented",
-            "JVM",
+            "jvm",
             "data processing",
-            "Microsoft"
+            "microsoft"
         ]
     },
     {
@@ -217,7 +333,7 @@
         "description": "Racket is a descendant of Scheme, known for its powerful macro system and use in academic settings for teaching programming and language design.",
         "tags": [
             "functional",
-            "Lisp",
+            "lisp",
             "academic",
             "general-purpose",
             "macro"
@@ -231,7 +347,7 @@
         "tags": [
             "functional",
             "object-oriented",
-            "JVM",
+            "jvm",
             "concurrent",
             "data processing"
         ]
@@ -244,8 +360,8 @@
         "tags": [
             "enterprise",
             "cloud computing",
-            "Salesforce",
-            "Java-like",
+            "salesforce",
+            "java-like",
             "business applications"
         ]
     },
@@ -258,8 +374,8 @@
             "scripting",
             "shell",
             "automation",
-            "Linux",
-            "Unix"
+            "linux",
+            "unix"
         ]
     },
     {
@@ -282,7 +398,7 @@
         "description": "ActionScript is a language used primarily for Adobe Flash applications, focusing on interactive web content and client-side programming.",
         "tags": [
             "web development",
-            "Adobe Flash",
+            "adobe flash",
             "client-side",
             "interactive",
             "legacy"
@@ -347,7 +463,7 @@
         "description": "Lisp is a family of functional programming languages known for its unique macro system and use in artificial intelligence research and academic settings.",
         "tags": [
             "functional",
-            "AI",
+            "ai",
             "academic",
             "research",
             "macro"
@@ -427,7 +543,7 @@
             "business",
             "legacy",
             "data processing",
-            "IBM iSeries",
+            "ibm iseries",
             "enterprise"
         ]
     },
@@ -452,7 +568,7 @@
         "tags": [
             "scripting",
             "shell",
-            "Unix",
+            "unix",
             "automation",
             "legacy"
         ]
@@ -465,7 +581,7 @@
         "tags": [
             "web development",
             "mobile apps",
-            "Flutter",
+            "flutter",
             "front-end",
             "performance"
         ]
@@ -479,7 +595,7 @@
             "functional",
             "concurrent",
             "distributed",
-            "Erlang VM",
+            "erlang vm",
             "web development"
         ]
     },
@@ -557,7 +673,7 @@
             "quantum computing",
             "specialized",
             "academic",
-            "Microsoft",
+            "microsoft",
             "research"
         ]
     },
@@ -584,7 +700,7 @@
             "automation",
             "legacy",
             "text processing",
-            "IBM"
+            "ibm"
         ]
     },
     {
@@ -596,7 +712,7 @@
             "scripting",
             "automation",
             "embedded",
-            "GUI",
+            "gui",
             "general-purpose"
         ]
     },
@@ -607,7 +723,7 @@
         "description": "Verilog is a hardware description language used for modeling and simulating digital systems, focusing on hardware design and electrical engineering.",
         "tags": [
             "hardware description",
-            "HDL",
+            "hdl",
             "electrical engineering",
             "simulation",
             "design"
@@ -620,7 +736,7 @@
         "description": "VHDL is a hardware description language used for designing and simulating digital systems, focusing on electrical engineering and hardware design.",
         "tags": [
             "hardware description",
-            "HDL",
+            "hdl",
             "electrical engineering",
             "simulation",
             "design"

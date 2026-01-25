@@ -1,5 +1,69 @@
 [
     {
+        "id": "75",
+        "title": "DailyRemote",
+        "url": "https://dailyremote.com",
+        "description": "DailyRemote is a job board focused on remote work opportunities, providing curated remote job listings from top companies. Features daily updates, company profiles, and remote-friendly job opportunities across various industries.",
+        "tags": [
+            "remote",
+            "global"
+        ]
+    },
+    {
+        "id": "74",
+        "title": "HackerRank Jobs",
+        "url": "https://hackerrank.com/jobs",
+        "description": "HackerRank Jobs connects developers with companies through skill-based hiring. Features coding assessments, personalized job recommendations, and direct connections with tech companies. Companies use HackerRank to evaluate technical skills and cultural fit.",
+        "tags": [
+            "free",
+            "tech",
+            "skill-based"
+        ]
+    },
+    {
+        "id": "73",
+        "title": "Vettery",
+        "url": "https://vettery.com",
+        "description": "Vettery is an AI-powered job platform that matches candidates with companies based on skills and experience. Features personalized job recommendations, company insights, and direct recruiter connections. Uses advanced algorithms to find the best career matches.",
+        "tags": [
+            "free",
+            "ai",
+            "tech"
+        ]
+    },
+    {
+        "id": "72",
+        "title": "Triplebyte",
+        "url": "https://triplebyte.com",
+        "description": "Triplebyte is a technical interview platform that evaluates developers through automated technical assessments. Features fair, skill-based hiring process that eliminates bias. Companies pay for access to pre-vetted, high-quality developer candidates.",
+        "tags": [
+            "paid",
+            "tech",
+            "skill-based"
+        ]
+    },
+    {
+        "id": "71",
+        "title": "Y Combinator Jobs",
+        "url": "https://www.ycombinator.com/jobs",
+        "description": "Y Combinator Jobs connects talented individuals with YC-backed startups. Features exclusive access to high-growth companies, insider insights, and a curated selection of positions. Perfect for developers interested in working at promising startups.",
+        "tags": [
+            "free",
+            "startups"
+        ]
+    },
+    {
+        "id": "70",
+        "title": "TechCrunch Jobs",
+        "url": "https://techcrunch.com/jobs",
+        "description": "TechCrunch Jobs features startup and tech company positions with editorial oversight. Includes company profiles, funding information, and insights into emerging tech companies. Great for developers interested in innovative and well-funded startups.",
+        "tags": [
+            "free",
+            "startups",
+            "tech"
+        ]
+    },
+    {
         "id": "69",
         "title": "LinkedIn",
         "url": "https://www.linkedin.com/jobs",
@@ -42,8 +106,7 @@
         "tags": [
             "free",
             "freelance",
-            "remote",
-            "gig economy"
+            "remote"
         ]
     },
     {
@@ -55,8 +118,7 @@
             "free",
             "paid",
             "tech",
-            "part time",
-            "reomote",
+            "remote",
             "usa"
         ]
     },
@@ -90,12 +152,8 @@
         "description": "The Muse is a career platform that goes beyond job listings by providing company insights, culture information, and career advice. Features include detailed company profiles, salary information, employee reviews, career coaching articles, and personalized job recommendations. Free for job seekers. Helps candidates find companies that match their values and career goals. Great for professionals seeking culture fit and career growth opportunities.",
         "tags": [
             "free",
-            "company insights",
             "career advice",
-            "culture fit",
-            "salary info",
-            "employee reviews",
-            "professional"
+            "company insights"
         ]
     },
     {
@@ -104,7 +162,7 @@
         "url": "https://ottotto.ai",
         "description": "The first AI-native job board that matches candidates based on deep skill-mapping and behavioral fit rather than just keywords. Features AI-driven interview prep and automated application tracking.",
         "tags": [
-            "AI",
+            "ai",
             "job board",
             "tech",
             "recruitment",
@@ -120,7 +178,7 @@
             "limited",
             "remote",
             "freelance",
-            "North Africa"
+            "north africa"
         ]
     },
     {
@@ -187,8 +245,7 @@
             "free",
             "paid",
             "freelance",
-            "remote",
-            "gig economy"
+            "remote"
         ]
     },
     {
@@ -238,8 +295,7 @@
             "free",
             "paid",
             "freelance",
-            "remote",
-            "gig economy"
+            "remote"
         ]
     },
     {
@@ -251,8 +307,7 @@
             "free",
             "paid",
             "freelance",
-            "remote",
-            "gig economy"
+            "remote"
         ]
     },
     {
@@ -264,8 +319,7 @@
             "free",
             "paid",
             "freelance",
-            "remote",
-            "gig economy"
+            "remote"
         ]
     },
     {
@@ -277,7 +331,7 @@
             "exclusive",
             "network",
             "top companies",
-            "Freelance"
+            "freelance"
         ]
     },
     {
@@ -300,8 +354,8 @@
         "tags": [
             "free",
             "remote",
-            "Middle East",
-            "North Africa"
+            "middle east",
+            "north africa"
         ]
     },
     {
@@ -357,7 +411,7 @@
             "free",
             "government",
             "federal",
-            "US"
+            "us"
         ]
     },
     {
@@ -397,7 +451,7 @@
             "tech",
             "design",
             "freelance",
-            "Non IT"
+            "non it"
         ]
     },
     {
@@ -435,7 +489,7 @@
         "tags": [
             "free",
             "paid",
-            "Europe",
+            "europe",
             "global"
         ]
     },
@@ -459,7 +513,7 @@
         "tags": [
             "free",
             "paid",
-            "Luxembourg",
+            "luxembourg",
             "global"
         ]
     },
@@ -471,7 +525,7 @@
         "tags": [
             "free",
             "paid",
-            "Asia",
+            "asia",
             "resume"
         ]
     },
@@ -483,7 +537,7 @@
         "tags": [
             "free",
             "paid",
-            "Asia",
+            "asia",
             "resume"
         ]
     },
@@ -566,8 +620,7 @@
         "tags": [
             "paid",
             "executive",
-            "resume",
-            "career advice"
+            "resume"
         ]
     },
     {
@@ -578,8 +631,7 @@
         "tags": [
             "paid",
             "resume",
-            "career advice",
-            "job search"
+            "career advice"
         ]
     },
     {
@@ -601,7 +653,7 @@
         "url": "https://theaijobboard.com",
         "description": "Top AI job board, Full-time remote jobs, Top 1% of AI companies",
         "tags": [
-            "AI",
+            "ai",
             "top companies",
             "remote",
             "global"
@@ -627,9 +679,8 @@
         "tags": [
             "paid",
             "recruitment",
-            "temp",
             "contract",
-            "Non IT"
+            "non it"
         ]
     },
     {
@@ -687,7 +738,6 @@
         "tags": [
             "paid",
             "recruitment",
-            "temp",
             "contract"
         ]
     },
@@ -699,7 +749,6 @@
         "tags": [
             "paid",
             "recruitment",
-            "temp",
             "contract"
         ]
     },
@@ -711,7 +760,6 @@
         "tags": [
             "paid",
             "recruitment",
-            "temp",
             "contract"
         ]
     },
@@ -722,7 +770,7 @@
         "description": "Remote job opportunities across Asia",
         "tags": [
             "remote",
-            "Asia",
+            "asia",
             "jobs"
         ]
     },
@@ -733,7 +781,7 @@
         "description": "Remote job opportunities across Europe",
         "tags": [
             "remote",
-            "Europe",
+            "europe",
             "jobs"
         ]
     },
@@ -755,7 +803,7 @@
         "tags": [
             "remote",
             "custom search",
-            "US"
+            "us"
         ]
     },
     {
@@ -764,7 +812,7 @@
         "url": "https://remotewoman.com/",
         "description": "Women have the opportunity to work from home, enhancing their productivity and flexibility",
         "tags": [
-            "Women",
+            "women",
             "remote",
             "freelance"
         ]
@@ -787,7 +835,6 @@
         "tags": [
             "paid",
             "recruitment",
-            "temp",
             "contract"
         ]
     },
@@ -809,9 +856,7 @@
         "description": "We Work Remotely is a job board for remote job listings, connecting job seekers with companies offering remote work opportunities in various fields.",
         "tags": [
             "remote",
-            "global",
-            "full-time",
-            "part-time"
+            "global"
         ]
     },
     {

@@ -1,5 +1,88 @@
 [
     {
+        "id": "127",
+        "title": "Claude 3.5 Sonnet (Anthropic)",
+        "url": "https://claude.ai",
+        "description": "Anthropic's most advanced model yet, surpassing GPT-4 in several benchmarks. Features exceptional coding capabilities, advanced reasoning, and a massive 200K token context window. Perfect for complex software development, research, and creative writing. Available in Claude.ai and various API integrations.",
+        "tags": [
+            "paid",
+            "text",
+            "chatbot",
+            "coding",
+            "research",
+            "writing",
+            "anthropic",
+            "long-context"
+        ]
+    },
+    {
+        "id": "126",
+        "title": "GPT-4o (OpenAI)",
+        "url": "https://openai.com/gpt-4o",
+        "description": "OpenAI's latest flagship model with native multimodal capabilities. Processes text, images, and audio simultaneously with unprecedented speed and accuracy. Features real-time voice conversations, advanced coding assistance, and creative generation. Available in ChatGPT Plus and API.",
+        "tags": [
+            "paid",
+            "text",
+            "multimodal",
+            "voice",
+            "coding",
+            "creative",
+            "openai",
+            "real-time",
+            "2024"
+        ]
+    },
+    {
+        "id": "125",
+        "title": "Grok-2 (xAI)",
+        "url": "https://grok.xai",
+        "description": "xAI's advanced AI model with real-time access to X (Twitter) and enhanced reasoning capabilities. Features witty responses, deep understanding of current events, and strong performance on technical and scientific questions. Built for truth-seeking and helpful conversations.",
+        "tags": [
+            "paid",
+            "free",
+            "text",
+            "chatbot",
+            "real-time",
+            "xai",
+            "research",
+            "2024"
+        ]
+    },
+    {
+        "id": "124",
+        "title": "Cursor AI",
+        "url": "https://cursor.sh",
+        "description": "AI-powered code editor built for pair programming with advanced AI capabilities. Features intelligent code completion, refactoring suggestions, natural language code editing, and seamless integration with popular AI models.",
+        "tags": [
+            "paid",
+            "code editor",
+            "ai-powered",
+            "vs code",
+            "ai chat",
+            "code completion",
+            "refactoring",
+            "developer-tools",
+            "2024"
+        ]
+    },
+    {
+        "id": "123",
+        "title": "Replit AI Pro",
+        "url": "https://replit.com/ai",
+        "description": "Advanced AI coding assistant integrated into the Replit platform. Features intelligent code completion, debugging assistance, code explanations, and collaborative coding with AI-powered pair programming capabilities.",
+        "tags": [
+            "paid",
+            "coding",
+            "programming",
+            "education",
+            "debugging",
+            "collaboration",
+            "prototyping",
+            "ai coding",
+            "2024"
+        ]
+    },
+    {
         "id": "122",
         "title": "Gemini 2.0 (Google)",
         "url": "https://gemini.google.com",
@@ -75,18 +158,19 @@
     },
     {
         "id": "117",
-        "title": "DALL-E 3",
-        "url": "https://openai.com/dall-e-3",
-        "description": "DALL-E 3 is OpenAI's latest AI image generation model, integrated into ChatGPT Plus and Bing Chat. Creates high-quality, detailed images from text descriptions with improved understanding of prompts and safety features. Features include natural language understanding, style variations, and integration with ChatGPT for iterative refinement. Available through ChatGPT Plus subscription or Bing Chat (free). Perfect for marketing, design, content creation, and creative projects.",
+        "title": "DALL-E 4",
+        "url": "https://openai.com/dall-e-4",
+        "description": "OpenAI's most advanced image generation model with superior quality, style consistency, and creative control. Features precise prompt following, artistic style variations, and seamless integration with ChatGPT. Available through ChatGPT Plus and API.",
         "tags": [
             "paid",
-            "free",
             "image generation",
             "art",
             "design",
             "creative",
-            "AI art",
-            "openai"
+            "ai art",
+            "openai",
+            "professional",
+            "2024"
         ]
     },
     {
@@ -102,7 +186,7 @@
             "art",
             "local",
             "customizable",
-            "AI art"
+            "ai art"
         ]
     },
     {
@@ -115,7 +199,7 @@
             "free",
             "coding",
             "programming",
-            "IDE",
+            "ide",
             "developer tools",
             "code completion",
             "productivity"
@@ -131,10 +215,10 @@
             "open-source",
             "paid",
             "models",
-            "ML",
+            "ml",
             "developers",
             "research",
-            "API"
+            "api"
         ]
     },
     {
@@ -196,7 +280,7 @@
             "art",
             "design",
             "creative",
-            "AI art",
+            "ai art",
             "discord"
         ]
     },
@@ -224,7 +308,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "enhanced features",
             "customer support"
         ]
@@ -241,7 +325,7 @@
             "image generation",
             "video editing",
             "creative",
-            "AI video",
+            "ai video",
             "film"
         ]
     },
@@ -256,7 +340,7 @@
             "audio",
             "text-to-speech",
             "voice cloning",
-            "AI voice",
+            "ai voice",
             "narration"
         ]
     },
@@ -284,10 +368,10 @@
         "tags": [
             "paid",
             "coding",
-            "IDE",
+            "ide",
             "programming",
             "developer tools",
-            "AI coding",
+            "ai coding",
             "productivity"
         ]
     },
@@ -303,7 +387,7 @@
             "game assets",
             "design",
             "commercial",
-            "AI art"
+            "ai art"
         ]
     },
     {
@@ -315,7 +399,7 @@
             "free",
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "open-source"
         ]
     },
@@ -338,14 +422,14 @@
         "id": "100",
         "title": "Perplexity AI",
         "url": "https://www.perplexity.ai",
-        "description": "Perplexity AI is an AI-powered search engine and chatbot that provides detailed answers and explanations. It's designed to help users find information quickly and efficiently.",
+        "description": "Advanced AI-powered search and research assistant with access to real-time information, academic papers, and comprehensive analysis. Features file uploads, advanced search modes, and integration with multiple AI models for enhanced research capabilities.",
         "tags": [
             "free",
             "text",
             "search",
             "chatbot",
             "information",
-            "Q&A"
+            "q&a"
         ]
     },
     {
@@ -357,9 +441,9 @@
             "free",
             "paid",
             "video generation",
-            "3D",
+            "3d",
             "creative",
-            "AI video",
+            "ai video",
             "content creation"
         ]
     },
@@ -403,7 +487,7 @@
             "free",
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "open-source"
         ]
     },
@@ -424,7 +508,7 @@
         "id": "94",
         "title": "Character AI",
         "url": "https://www.character.ai",
-        "description": "Character AI lets users create and interact with AI-driven characters. It\u2019s designed for entertainment and educational purposes, allowing for creative and interactive experiences.",
+        "description": "Character AI lets users create and interact with AI-driven characters. It’s designed for entertainment and educational purposes, allowing for creative and interactive experiences.",
         "tags": [
             "free",
             "text",
@@ -466,7 +550,7 @@
         "tags": [
             "free",
             "text",
-            "AI writing",
+            "ai writing",
             "content generation",
             "programming"
         ]
@@ -481,7 +565,7 @@
             "text",
             "chatbot",
             "entertainment",
-            "AI assistant"
+            "ai assistant"
         ]
     },
     {
@@ -493,7 +577,7 @@
             "free",
             "text",
             "chatbot",
-            "Q&A",
+            "q&a",
             "multi-model"
         ]
     },
@@ -518,7 +602,7 @@
         "tags": [
             "free",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "speech recognition",
             "natural language processing"
         ]
@@ -531,7 +615,7 @@
         "tags": [
             "paid",
             "design",
-            "UI/UX",
+            "ui/ux",
             "prototyping",
             "productivity",
             "figma"
@@ -546,7 +630,7 @@
             "free",
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "conversation design"
         ]
     },
@@ -572,7 +656,7 @@
             "free",
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer support"
         ]
     },
@@ -585,7 +669,7 @@
             "free",
             "paid",
             "text",
-            "AI research",
+            "ai research",
             "machine learning"
         ]
     },
@@ -612,7 +696,7 @@
             "free",
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "conversation design"
         ]
     },
@@ -625,7 +709,7 @@
             "free",
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "content creation"
         ]
     },
@@ -638,7 +722,7 @@
             "free",
             "paid",
             "text",
-            "AI search",
+            "ai search",
             "machine learning"
         ]
     },
@@ -651,7 +735,7 @@
             "free",
             "paid",
             "video",
-            "AI video",
+            "ai video",
             "content creation"
         ]
     },
@@ -659,7 +743,7 @@
         "id": "76",
         "title": "Rytr",
         "url": "https://www.rytr.me",
-        "description": "Rytr is an AI writing assistant that helps users generate content quickly. It\u2019s designed for copywriting, blogging, and other writing tasks, with a focus on ease of use and efficiency.",
+        "description": "Rytr is an AI writing assistant that helps users generate content quickly. It’s designed for copywriting, blogging, and other writing tasks, with a focus on ease of use and efficiency.",
         "tags": [
             "free",
             "paid",
@@ -678,7 +762,7 @@
             "free",
             "paid",
             "video",
-            "AI video",
+            "ai video",
             "editing"
         ]
     },
@@ -686,7 +770,7 @@
         "id": "74",
         "title": "Writesonic",
         "url": "https://www.writesonic.com",
-        "description": "Writesonic is an AI writer that helps generate articles, ads, and product descriptions. It\u2019s known for its versatility and ability to create high-quality content across different formats.",
+        "description": "Writesonic is an AI writer that helps generate articles, ads, and product descriptions. It’s known for its versatility and ability to create high-quality content across different formats.",
         "tags": [
             "free",
             "paid",
@@ -704,7 +788,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "content creation",
             "programming"
         ]
@@ -717,7 +801,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "content generation"
         ]
     },
@@ -729,7 +813,7 @@
         "tags": [
             "paid",
             "text",
-            "AI analytics",
+            "ai analytics",
             "business",
             "data insights"
         ]
@@ -742,7 +826,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "content generation",
             "programming"
         ]
@@ -768,7 +852,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "business",
             "customer support"
         ]
@@ -782,7 +866,7 @@
             "paid",
             "audio",
             "text-to-speech",
-            "AI voice",
+            "ai voice",
             "content creation"
         ]
     },
@@ -794,7 +878,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer support",
             "business"
         ]
@@ -807,7 +891,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "content creation",
             "programming"
         ]
@@ -820,7 +904,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "content creation",
             "screenwriting"
         ]
@@ -833,7 +917,7 @@
         "tags": [
             "paid",
             "video",
-            "AI video",
+            "ai video",
             "content creation",
             "e-learning"
         ]
@@ -846,7 +930,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "business",
             "customer support"
         ]
@@ -859,7 +943,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer support",
             "automation"
         ]
@@ -872,7 +956,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "creative writing",
             "inspiration"
         ]
@@ -885,7 +969,7 @@
         "tags": [
             "paid",
             "audio",
-            "AI music",
+            "ai music",
             "composition",
             "customization"
         ]
@@ -900,7 +984,7 @@
             "text",
             "writing",
             "content generation",
-            "SEO"
+            "seo"
         ]
     },
     {
@@ -911,7 +995,7 @@
         "tags": [
             "paid",
             "audio",
-            "AI music",
+            "ai music",
             "composition",
             "content creation"
         ]
@@ -926,7 +1010,7 @@
             "text",
             "chatbot",
             "customer service",
-            "AI support"
+            "ai support"
         ]
     },
     {
@@ -937,7 +1021,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "personal assistant",
             "productivity"
         ]
@@ -950,7 +1034,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer engagement",
             "marketing"
         ]
@@ -963,7 +1047,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer support",
             "business"
         ]
@@ -976,7 +1060,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "business",
             "customer support"
         ]
@@ -1002,7 +1086,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "content creation",
             "programming"
         ]
@@ -1015,7 +1099,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "analytics",
             "customer support"
         ]
@@ -1028,7 +1112,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer support",
             "analytics"
         ]
@@ -1054,7 +1138,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer support",
             "automation"
         ]
@@ -1081,7 +1165,7 @@
             "paid",
             "text",
             "image recognition",
-            "AI insights",
+            "ai insights",
             "business"
         ]
     },
@@ -1093,7 +1177,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer service",
             "automation"
         ]
@@ -1106,7 +1190,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer support",
             "business"
         ]
@@ -1119,7 +1203,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "creative writing",
             "content generation"
         ]
@@ -1132,7 +1216,7 @@
         "tags": [
             "paid",
             "text",
-            "AI analysis",
+            "ai analysis",
             "sales",
             "customer interactions"
         ]
@@ -1145,7 +1229,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "programming",
             "business"
         ]
@@ -1158,9 +1242,9 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "content creation",
-            "SEO"
+            "seo"
         ]
     },
     {
@@ -1171,7 +1255,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "face recognition",
             "emotion detection"
         ]
@@ -1184,7 +1268,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "personal assistant",
             "productivity"
         ]
@@ -1197,7 +1281,7 @@
         "tags": [
             "paid",
             "text",
-            "AI search",
+            "ai search",
             "data analytics",
             "machine learning"
         ]
@@ -1210,7 +1294,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "creative writing",
             "content generation"
         ]
@@ -1223,7 +1307,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "programming",
             "business"
         ]
@@ -1236,7 +1320,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "creative writing",
             "content generation"
         ]
@@ -1249,7 +1333,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "storytelling",
             "content creation"
         ]
@@ -1258,7 +1342,7 @@
         "id": "30",
         "title": "NovelAI",
         "url": "https://www.novelai.net",
-        "description": "NovelAI is an AI storytelling tool that helps users generate creative writing content. It\u2019s popular among writers for generating fiction and exploring creative ideas.",
+        "description": "NovelAI is an AI storytelling tool that helps users generate creative writing content. It’s popular among writers for generating fiction and exploring creative ideas.",
         "tags": [
             "paid",
             "text",
@@ -1275,7 +1359,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "business",
             "customer support"
         ]
@@ -1288,7 +1372,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "healthcare",
             "customer support"
         ]
@@ -1302,7 +1386,7 @@
             "paid",
             "audio",
             "text-to-speech",
-            "AI voice",
+            "ai voice",
             "content creation"
         ]
     },
@@ -1314,7 +1398,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer support",
             "business"
         ]
@@ -1327,7 +1411,7 @@
         "tags": [
             "paid",
             "video",
-            "AI video",
+            "ai video",
             "personalization",
             "marketing"
         ]
@@ -1340,7 +1424,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer engagement",
             "business"
         ]
@@ -1353,7 +1437,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "transcription",
             "content creation"
         ]
@@ -1366,7 +1450,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "content creation",
             "transcription"
         ]
@@ -1392,7 +1476,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "business",
             "customer engagement"
         ]
@@ -1405,7 +1489,7 @@
         "tags": [
             "paid",
             "audio",
-            "AI speech",
+            "ai speech",
             "text-to-speech",
             "content creation"
         ]
@@ -1419,7 +1503,7 @@
             "paid",
             "audio",
             "speech recognition",
-            "AI assistant",
+            "ai assistant",
             "transcription"
         ]
     },
@@ -1431,7 +1515,7 @@
         "tags": [
             "paid",
             "text",
-            "AI writing",
+            "ai writing",
             "content creation",
             "marketing"
         ]
@@ -1446,7 +1530,7 @@
             "text",
             "audio",
             "customer service",
-            "AI assistant"
+            "ai assistant"
         ]
     },
     {
@@ -1457,7 +1541,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer engagement",
             "automation"
         ]
@@ -1470,7 +1554,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "lead generation",
             "customer support"
         ]
@@ -1483,7 +1567,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "business",
             "customer support"
         ]
@@ -1497,7 +1581,7 @@
             "paid",
             "audio",
             "transcription",
-            "AI transcription",
+            "ai transcription",
             "content creation"
         ]
     },
@@ -1509,7 +1593,7 @@
         "tags": [
             "paid",
             "video",
-            "AI video",
+            "ai video",
             "content creation",
             "marketing"
         ]
@@ -1522,7 +1606,7 @@
         "tags": [
             "paid",
             "video",
-            "AI video",
+            "ai video",
             "content creation",
             "personalization"
         ]
@@ -1535,7 +1619,7 @@
         "tags": [
             "paid",
             "video",
-            "AI video",
+            "ai video",
             "marketing",
             "content creation"
         ]
@@ -1548,7 +1632,7 @@
         "tags": [
             "paid",
             "audio",
-            "AI voice",
+            "ai voice",
             "voice assistants",
             "chatbot"
         ]
@@ -1561,7 +1645,7 @@
         "tags": [
             "paid",
             "audio",
-            "AI voice",
+            "ai voice",
             "chatbot",
             "voice assistants"
         ]
@@ -1587,7 +1671,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer service",
             "business"
         ]
@@ -1600,7 +1684,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer support",
             "business"
         ]
@@ -1613,7 +1697,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "business",
             "automation"
         ]
@@ -1628,7 +1712,7 @@
             "text",
             "chatbot",
             "business",
-            "AI assistant"
+            "ai assistant"
         ]
     },
     {
@@ -1639,7 +1723,7 @@
         "tags": [
             "paid",
             "text",
-            "AI chatbot",
+            "ai chatbot",
             "customer engagement",
             "automation"
         ]

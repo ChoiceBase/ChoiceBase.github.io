@@ -1,0 +1,379 @@
+[
+    {
+        "id": "35",
+        "title": "Windsurf Editor",
+        "url": "https://windsurf.io",
+        "description": "Windsurf is a next-generation code editor built on VS Code with advanced AI capabilities. Features intelligent code completion, multi-file editing, and seamless AI integration. Designed for modern development workflows with enhanced productivity tools.",
+        "tags": [
+            "paid",
+            "code editor",
+            "ai-powered"
+        ]
+    },
+    {
+        "id": "34",
+        "title": "Trae AI",
+        "url": "https://trae.ai",
+        "description": "Trae AI is an AI-powered IDE that combines coding assistance with project management. Features intelligent code generation, debugging support, and team collaboration tools. Built for modern software development with focus on AI-enhanced productivity.",
+        "tags": [
+            "paid",
+            "ide",
+            "ai-powered"
+        ]
+    },
+    {
+        "id": "33",
+        "title": "Bolt.new",
+        "url": "https://bolt.new",
+        "description": "Bolt.new is an AI-powered web development platform that generates full-stack applications from text prompts. Features instant deployment, real-time collaboration, and modern tech stack integration. Perfect for rapid prototyping and full-stack development.",
+        "tags": [
+            "paid",
+            "web development",
+            "ai-powered"
+        ]
+    },
+    {
+        "id": "32",
+        "title": "v0.dev",
+        "url": "https://v0.dev",
+        "description": "v0.dev is Vercel's AI-powered UI component builder. Generates production-ready React components from text descriptions. Features instant preview, responsive design, and seamless integration with modern web frameworks.",
+        "tags": [
+            "paid",
+            "ui builder",
+            "ai-powered"
+        ]
+    },
+    {
+        "id": "31",
+        "title": "Tempo",
+        "url": "https://tempo.dev",
+        "description": "Tempo is an AI-powered code review and documentation platform. Features automated code analysis, intelligent suggestions, and team collaboration tools. Helps maintain code quality and accelerate development workflows.",
+        "tags": [
+            "paid",
+            "code review",
+            "ai-powered"
+        ]
+    },
+    {
+        "id": "30",
+        "title": "Mintlify",
+        "url": "https://mintlify.com",
+        "description": "Mintlify is an AI-powered documentation platform that generates beautiful documentation from code. Features automatic API documentation, interactive examples, and seamless deployment. Perfect for developer-focused product documentation.",
+        "tags": [
+            "paid",
+            "documentation",
+            "ai-powered"
+        ]
+    },
+    {
+        "id": "29",
+        "title": "Linear",
+        "url": "https://linear.app",
+        "description": "Linear is a modern issue tracking and project management tool designed for software teams. Features streamlined workflows, powerful search, and seamless integration with development tools. Known for its speed and developer-friendly interface.",
+        "tags": [
+            "paid",
+            "project management"
+        ]
+    },
+    {
+        "id": "28",
+        "title": "Arc Browser",
+        "url": "https://arc.net",
+        "description": "Arc is a modern web browser designed for productivity and creativity. Features AI-powered features, customizable interface, built-in note-taking, and seamless integration with modern web workflows. Popular among designers and developers.",
+        "tags": [
+            "free",
+            "web browser",
+            "ai-powered"
+        ]
+    },
+    {
+        "id": "27",
+        "title": "Raycast",
+        "url": "https://raycast.com",
+        "description": "Raycast is a blazingly fast, extensible launcher for macOS. Features AI-powered commands, extensive integrations, and custom workflows. Perfect for developers looking to boost productivity with keyboard-driven workflows.",
+        "tags": [
+            "paid",
+            "launcher",
+            "ai-powered"
+        ]
+    },
+    {
+        "id": "26",
+        "title": "Warp Terminal",
+        "url": "https://warp.dev",
+        "description": "Warp is a modern terminal built for developers. Features AI-powered command suggestions, collaborative features, and beautiful interface. Supports all major shells and provides enhanced productivity for command-line workflows.",
+        "tags": [
+            "free",
+            "terminal",
+            "ai-powered"
+        ]
+    },
+    {
+        "id": "25",
+        "title": "Figma AI",
+        "url": "https://figma.com/ai",
+        "description": "Figma AI brings AI-powered features to the Figma design platform. Features include AI-generated designs, component suggestions, layout generation, and design variations. Helps designers work faster and more efficiently.",
+        "tags": [
+            "paid",
+            "design",
+            "ai-powered"
+        ]
+    },
+    {
+        "id": "24",
+        "title": "Confluence",
+        "url": "https://atlassian.com/software/confluence",
+        "description": "Confluence is a collaboration tool for teams to create, share, and collaborate on content. Features include wikis, documentation, knowledge bases, and team spaces. Essential for technical documentation and team knowledge sharing.",
+        "tags": [
+            "paid",
+            "collaboration",
+            "documentation"
+        ]
+    },
+    {
+        "id": "23",
+        "title": "Jira",
+        "url": "https://atlassian.com/software/jira",
+        "description": "Jira is a project management tool developed by Atlassian. Features include issue tracking, agile project management, and extensive customization. Widely used for software development and IT operations.",
+        "tags": [
+            "paid",
+            "project management"
+        ]
+    },
+    {
+        "id": "22",
+        "title": "Asana",
+        "url": "https://asana.com",
+        "description": "Asana is a work management platform designed to help teams organize, track, and manage their work. Features include task management, project tracking, timelines, and reporting capabilities.",
+        "tags": [
+            "free",
+            "paid",
+            "project management"
+        ]
+    },
+    {
+        "id": "21",
+        "title": "Trello",
+        "url": "https://trello.com",
+        "description": "Trello is a web-based Kanban-style list-making application. Features include boards, lists, and cards for project management. Simple and intuitive interface for task tracking and team collaboration.",
+        "tags": [
+            "free",
+            "paid",
+            "project management"
+        ]
+    },
+    {
+        "id": "20",
+        "title": "Microsoft Office 365",
+        "url": "https://office.com",
+        "description": "Microsoft Office 365 is a subscription-based office suite including Word, Excel, PowerPoint, Outlook, and Teams. Features cloud storage, real-time collaboration, and advanced productivity tools.",
+        "tags": [
+            "paid",
+            "productivity",
+            "office suite"
+        ]
+    },
+    {
+        "id": "19",
+        "title": "Google Workspace",
+        "url": "https://workspace.google.com",
+        "description": "Google Workspace is a collection of productivity apps including Gmail, Docs, Sheets, Slides, Drive, and Meet. Features real-time collaboration, cloud storage, and seamless integration across devices.",
+        "tags": [
+            "paid",
+            "productivity",
+            "office suite"
+        ]
+    },
+    {
+        "id": "18",
+        "title": "Microsoft Teams",
+        "url": "https://teams.microsoft.com",
+        "description": "Microsoft Teams is a collaboration platform that combines chat, video meetings, file storage, and app integration. Features include channels, video calls, and integration with Microsoft 365 applications.",
+        "tags": [
+            "paid",
+            "collaboration"
+        ]
+    },
+    {
+        "id": "17",
+        "title": "Zoom",
+        "url": "https://zoom.us",
+        "description": "Zoom is a video conferencing platform. Features include HD video, audio, screen sharing, and virtual backgrounds. Essential for remote work, online meetings, and virtual events.",
+        "tags": [
+            "free",
+            "paid",
+            "video conferencing"
+        ]
+    },
+    {
+        "id": "16",
+        "title": "Discord",
+        "url": "https://discord.com",
+        "description": "Discord is a voice, video, and text communication service. Features include voice channels, screen sharing, and community servers. Popular for gaming communities, developer communities, and team communication.",
+        "tags": [
+            "free",
+            "communication"
+        ]
+    },
+    {
+        "id": "15",
+        "title": "Slack",
+        "url": "https://slack.com",
+        "description": "Slack is a messaging app for business that connects people to the information they need. Features include channels, direct messaging, file sharing, and integrations with thousands of apps. Essential for team communication.",
+        "tags": [
+            "free",
+            "paid",
+            "communication"
+        ]
+    },
+    {
+        "id": "14",
+        "title": "Notion",
+        "url": "https://notion.so",
+        "description": "Notion is an all-in-one workspace for notes, docs, and projects. Features include databases, wikis, calendars, and kanban boards. Highly customizable and used for personal and team productivity.",
+        "tags": [
+            "free",
+            "paid",
+            "productivity"
+        ]
+    },
+    {
+        "id": "13",
+        "title": "Sketch",
+        "url": "https://sketch.com",
+        "description": "Sketch is a digital design toolkit for macOS. Features vector editing, prototyping, and design systems. Popular among UI/UX designers for creating interfaces and interactive prototypes.",
+        "tags": [
+            "paid",
+            "design"
+        ]
+    },
+    {
+        "id": "12",
+        "title": "Adobe XD",
+        "url": "https://adobe.com/products/xd.html",
+        "description": "Adobe XD is a powerful UI/UX design and prototyping tool. Features include design, prototyping, and collaboration capabilities. Integrates seamlessly with other Adobe Creative Cloud applications.",
+        "tags": [
+            "paid",
+            "design"
+        ]
+    },
+    {
+        "id": "11",
+        "title": "Figma",
+        "url": "https://figma.com",
+        "description": "Figma is a vector graphics editor and prototyping tool. Features collaborative design, real-time editing, and comprehensive design systems. Used by teams for UI/UX design, prototyping, and design collaboration.",
+        "tags": [
+            "free",
+            "paid",
+            "design"
+        ]
+    },
+    {
+        "id": "10",
+        "title": "GitHub Desktop",
+        "url": "https://desktop.github.com",
+        "description": "GitHub Desktop is a free, open-source application that lets you manage Git repositories from your desktop. Features include repository cloning, branching, committing, and pull requests. Simplifies Git workflows for beginners and experts.",
+        "tags": [
+            "free",
+            "git client"
+        ]
+    },
+    {
+        "id": "9",
+        "title": "Git",
+        "url": "https://git-scm.com",
+        "description": "Git is a free and open-source distributed version control system. Features include branching, merging, and collaboration capabilities. Essential for modern software development and team collaboration.",
+        "tags": [
+            "free",
+            "version control"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "Docker Desktop",
+        "url": "https://docker.com/products/docker-desktop",
+        "description": "Docker Desktop is an easy-to-install application for building, sharing, and running containerized applications. Features include container management, Kubernetes integration, and development environments.",
+        "tags": [
+            "free",
+            "paid",
+            "containerization"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "Postman",
+        "url": "https://postman.com",
+        "description": "Postman is an API platform for building and using APIs. Features include API testing, documentation, monitoring, and collaboration tools. Essential for API development, testing, and documentation workflows.",
+        "tags": [
+            "free",
+            "paid",
+            "api testing"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Xcode",
+        "url": "https://developer.apple.com/xcode",
+        "description": "Xcode is Apple's integrated development environment for macOS. Features include code editing, debugging, interface builder, and simulator. Used for developing iOS, macOS, watchOS, and tvOS applications with Swift and Objective-C.",
+        "tags": [
+            "free",
+            "ide",
+            "ios"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Android Studio",
+        "url": "https://developer.android.com/studio",
+        "description": "Android Studio is the official IDE for Android development. Features include code editing, debugging, performance tooling, and emulator. Supports Kotlin and Java development with comprehensive Android SDK integration.",
+        "tags": [
+            "free",
+            "ide",
+            "android"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "PyCharm",
+        "url": "https://jetbrains.com/pycharm",
+        "description": "PyCharm is a dedicated Python IDE with intelligent coding assistance, debugging, testing, and web development support. Features include code analysis, refactoring, and integration with popular Python frameworks and libraries.",
+        "tags": [
+            "paid",
+            "free",
+            "ide",
+            "python"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "WebStorm",
+        "url": "https://jetbrains.com/webstorm",
+        "description": "WebStorm is a powerful IDE for modern JavaScript development. Features intelligent coding assistance, advanced debugging, and seamless integration with popular web frameworks. Includes built-in tools for Node.js, React, Angular, and more.",
+        "tags": [
+            "paid",
+            "ide",
+            "javascript"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Cursor",
+        "url": "https://cursor.sh",
+        "description": "Cursor is an AI-powered code editor built on VS Code. Features AI chat, code completion, refactoring, and natural language code editing. Combines the familiarity of VS Code with advanced AI capabilities for faster development.",
+        "tags": [
+            "paid",
+            "code editor",
+            "ai-powered"
+        ]
+    },
+    {
+        "id": "1",
+        "title": "Visual Studio Code",
+        "url": "https://code.visualstudio.com",
+        "description": "Visual Studio Code is a free, open-source code editor developed by Microsoft. Features include IntelliSense, debugging, Git integration, and extensive extension marketplace. Supports hundreds of languages and frameworks.",
+        "tags": [
+            "free",
+            "code editor"
+        ]
+    }
+]

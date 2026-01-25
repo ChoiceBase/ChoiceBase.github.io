@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', async () => {
   const params = new URLSearchParams(window.location.search);
-  const category = params.get('category') || 'ai-tools';
+  const category = params.get('category') || 'websites';
 
-  const cat = categories[category] || categories['ai-tools'];
+  const cat = categories[category] || categories['websites'];
   const titleEl = document.getElementById('category-title');
   if (titleEl) titleEl.textContent = cat.title;
   document.getElementById('page-title').textContent = `${cat.title} – ChoiceBase`;
@@ -18,10 +18,5 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // Categories map (remains here as it's page-specific context)
 const categories = {
-  'ai-tools': { title: 'AI Tools', data: '/data/ai-tools.json' },
-  'programming': { title: 'Programming', data: '/data/programming.json' },
-  'jobs': { title: 'Jobs', data: '/data/jobs.json' },
-  'upskilling': { title: 'Upskilling', data: '/data/upskilling.json' },
-  'websites': { title: 'Websites', data: '/data/websites.json' },
-  'applications': { title: 'Applications', data: '/data/applications.json' }
+  'websites': { title: 'Websites', data: '/data/websites.json' }
 };
