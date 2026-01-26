@@ -38,7 +38,7 @@
   <meta name="twitter:image" content="https://choicebase.github.io/assets/images/og-image.jpg">
 
   <!-- Theme Color -->
-  <meta name="theme-color" content="#00ffe7">
+  <meta name="theme-color" content="#6366f1">
 
   <!-- Canonical URL -->
   <link rel="canonical" href="https://choicebase.github.io/">
@@ -57,7 +57,7 @@
   </style>
 </head>
 
-<body>
+<body class="home-page">
   <!-- Common header will be loaded here -->
   <div id="common-header"></div>
 
@@ -66,17 +66,17 @@
     <div class="container">
       <h1>Welcome to ChoiceBase</h1>
       <p>
-        Discover, upvote, and bookmark the best resources for programming, AI, jobs, and upskilling.<br>
-        <span style="color: var(--primary); font-weight:600;">Curated by the community. Always free.</span>
+        Discover the best resources for programming, AI, jobs, and upskilling.<br>
+        <span style="color: var(--p); font-weight:600;">Curated for the community. Always free.</span>
       </p>
 
       <!-- Prominent Home Search Bar -->
       <div class="row justify-content-center mt-4 mb-4">
         <div class="col-md-8 col-lg-6">
-          <form id="global-search-form" class="home-search-form">
+          <form id="global-search-form" class="home-search-form search-form-universal">
             <div class="input-group input-group-lg shadow-lg">
-              <input type="search" id="global-search-input" class="form-control border-primary bg-dark text-white"
-                placeholder="Search for tools, jobs, or skills..." aria-label="Search">
+              <input type="search" id="global-search-input" class="form-control" placeholder="Search resources..."
+                aria-label="Search">
               <button class="btn btn-primary px-4" type="submit">
                 <i class="bi bi-search me-2"></i>Search
               </button>
@@ -92,9 +92,9 @@
   <main class="container">
     <!-- Feature Highlights -->
     <div class="row text-center mb-4">
-      <div class="col" style="color: rgb(252, 252, 252);">
+      <div class="col">
         <h2 class="fw-bold mb-2">Empower Your Career Journey</h2>
-        <p style="color: rgb(86, 189, 108);">Interactive career maps, smart search, and curated upskilling
+        <p class="text-muted">Interactive career maps, smart search, and curated upskilling
           resources—everything you need, in one place.</p>
       </div>
     </div>
@@ -122,11 +122,8 @@
       </div>
     </div>
 
-    <!-- User Liked Resources -->
-    <div id="user-liked-resources" class="mb-5"></div>
-
     <!-- Highlighted Resources -->
-    <h2 class="mb-3" style="color: aqua;">Highlighted Resources</h2>
+    <h2 class="mb-3">Highlighted Resources</h2>
     <div class="resource-list" id="highlighted-resources">
       <!-- Cards will be injected by JS -->
     </div>

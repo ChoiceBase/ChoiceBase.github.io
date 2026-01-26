@@ -3,55 +3,276 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Organization Chart from Roles JSON</title>
+  <title>Organization Chart – ChoiceBase</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../assets/css/custom.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../assets/css/custom.css">
   <style>
+    .chart-viewport {
+      position: relative;
+      width: 100%;
+      height: 70vh;
+      background: var(--s);
+      border: 1px solid var(--br);
+      border-radius: var(--r);
+      overflow: hidden;
+      cursor: grab;
+      box-shadow: var(--sh);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .chart-viewport:active {
+      cursor: grabbing;
+    }
+
     #chart_div {
-      margin: 40px auto;
-      width: fit-content;
-      max-width: 95%;
-      overflow-x: auto;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 6rem;
+      transform-origin: center top;
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      width: max-content;
+      will-change: transform;
     }
 
-    /* Optional: tooltips or role cards inside nodes */
+    /* Google Chart Node Styling - Enterprise Rebirth */
     .google-visualization-orgchart-node {
-      font-size: 14px;
-      line-height: 1.4;
-      padding: 6px;
-      border: 1px solid #ccc !important;
-      background-color: #ffffff !important;
-      border-radius: 8px;
-      transition: transform 0.2s ease;
+      background: var(--glass) !important;
+      backdrop-filter: blur(15px);
+      border: 1px solid var(--br) !important;
+      color: var(--tx) !important;
+      border-radius: 12px !important;
+      padding: 0 !important;
+      /* Managed by inner div */
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+      overflow: hidden;
+      transition: var(--trans) !important;
     }
 
-    .google-visualization-orgchart-node:hover {
-      transform: scale(1.05);
-      background-color: #eef6ff !important;
-      border-color: #a3c4f3 !important;
+    .org-node-inner {
+      padding: 12px 20px;
+      text-align: left;
+      min-width: 160px;
+    }
+
+    .google-visualization-orgchart-lineleft,
+    .google-visualization-orgchart-lineright,
+    .google-visualization-orgchart-linebottom {
+      border-color: var(--p) !important;
+      border-width: 2px !important;
+      opacity: 0.3;
+    }
+
+    /* Controls Overlay */
+    .viewport-controls {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      z-index: 1000;
+    }
+
+    .v-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: var(--glass);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--br);
+      color: var(--tx);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: var(--trans);
+    }
+
+    .v-btn:hover {
+      background: var(--p);
+      border-color: var(--p);
+      color: white;
+    }
+
+    /* Interactive Search & Breadcrumbs */
+    .org-tools {
+      position: absolute;
+      top: 1.5rem;
+      left: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      width: 320px;
+      z-index: 1000;
+    }
+
+    .org-search {
+      background: var(--glass);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--br);
+      border-radius: 12px;
+      padding: 0.5rem 1rem;
+      color: var(--tx);
+      width: 100%;
+      outline: none;
+      box-shadow: var(--sh);
+    }
+
+    .breadcrumbs-bar {
+      background: var(--glass);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--br);
+      border-radius: 12px;
+      padding: 0.5rem 1rem;
+      color: var(--tx-m);
+      font-size: 0.75rem;
+      box-shadow: var(--sh);
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+      overflow-x: auto;
+    }
+
+    @media (max-width: 768px) {
+      .org-tools {
+        width: calc(100% - 3rem);
+      }
+
+      .viewport-controls {
+        top: auto;
+        bottom: 2rem;
+        right: 1.5rem;
+        flex-direction: row;
+        z-index: 2000;
+      }
+
+      .v-btn {
+        width: 40px;
+        height: 40px;
+      }
     }
   </style>
 
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
-<body class="responsive-body">
+<body>
   <div id="common-header"></div>
-  <h1>Organization Chart</h1>
-  <div id="chart_div"></div>
+
+  <header class="page-header py-4">
+    <div class="container text-center">
+      <h1 class="h3 fw-bold mb-0">Org Structure</h1>
+    </div>
+  </header>
+
+  <main class="container-fluid px-md-5 mb-5" style="position: relative;">
+    <div class="chart-viewport" id="viewport">
+      <!-- Search & Breadcrumbs -->
+      <div class="org-tools">
+        <div class="breadcrumbs-bar" id="org-breadcrumbs">
+          Select a node to see hierarchy path
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="viewport-controls">
+        <button class="v-btn" onclick="adjustZoom(1.1)" title="Zoom In"><i class="bi bi-zoom-in"></i></button>
+        <button class="v-btn" onclick="adjustZoom(0.9)" title="Zoom Out"><i class="bi bi-zoom-out"></i></button>
+        <button class="v-btn" onclick="resetView()" title="Auto Center"><i class="bi bi-arrows-fullscreen"></i></button>
+        <button class="v-btn" onclick="window.exportOrgChart()" title="Print/Export"><i
+            class="bi bi-camera"></i></button>
+      </div>
+
+      <div id="chart_div"></div>
+
+      <!-- Jump to Footer Button (Mobile only) -->
+      <a href="#common-footer" class="jump-link-btn d-md-none">
+        <i class="bi bi-arrow-down"></i>
+        Skip to Footer
+      </a>
+    </div>
+  </main>
 
   <div id="common-footer"></div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/js/utils.js"></script>
   <script src="/assets/js/components.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      utils.loadHeaderFooter();
-    });
+    document.addEventListener('DOMContentLoaded', () => utils.loadHeaderFooter());
+
+    const vp = document.getElementById('viewport');
+    const chart = document.getElementById('chart_div');
+    let scale = 1, posX = 0, posY = 0;
+
+    function applyTransform() {
+      chart.style.transform = `translate(${posX}px, ${posY}px) scale(${scale})`;
+    }
+
+    function adjustZoom(factor) {
+      scale *= factor;
+      scale = Math.min(Math.max(scale, 0.1), 3);
+      applyTransform();
+    }
+
+    function resetView() {
+      chart.style.transform = `translate(0, 0) scale(1)`;
+      posX = 0; posY = 0; scale = 1;
+
+      // Horizontal centering check
+      const vWidth = vp.clientWidth;
+      const cWidth = chart.scrollWidth;
+      if (cWidth > vWidth) {
+        posX = 0; // The flex-center will handle it or we start at 0
+      }
+      applyTransform();
+    }
+
+    window.focusOnNode = (roleName) => {
+      const el = document.querySelector(`[data-role="${roleName}"]`);
+      if (el) {
+        // Expand and center
+        el.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+
+        // Highlight logic
+        const nodeBody = el.closest('.google-visualization-orgchart-node');
+        if (nodeBody) {
+          nodeBody.style.transition = "all 0.5s ease";
+          nodeBody.style.border = "2px solid var(--p)";
+          nodeBody.style.boxShadow = "0 0 40px var(--p)";
+          nodeBody.style.transform = "scale(1.2)";
+
+          setTimeout(() => {
+            nodeBody.style.boxShadow = "";
+            nodeBody.style.transform = "scale(1)";
+          }, 2000);
+        }
+      }
+    };
+
+    // Pan Functionality
+    let dragging = false, lastX, lastY;
+    vp.onmousedown = (e) => {
+      if (e.target.closest('.org-tools')) return;
+      dragging = true; lastX = e.clientX; lastY = e.clientY;
+    };
+    window.onmouseup = () => dragging = false;
+    window.onmousemove = (e) => {
+      if (!dragging) return;
+      posX += (e.clientX - lastX) / scale;
+      posY += (e.clientY - lastY) / scale;
+      lastX = e.clientX; lastY = e.clientY;
+      applyTransform();
+    };
+
+    vp.onwheel = (e) => {
+      e.preventDefault();
+      adjustZoom(e.deltaY > 0 ? 0.9 : 1.1);
+    };
+
+    setTimeout(resetView, 1200);
   </script>
   <script src="../assets/js/org.js"></script>
 </body>

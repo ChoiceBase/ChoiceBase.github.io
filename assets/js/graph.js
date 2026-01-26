@@ -1,9 +1,4 @@
-// --- D3 Force Network Visualization: Multi-Domain, Reusable ---
-// Assumes: 
-// - <svg></svg> in HTML
-// - <select id="domain-select"> dropdown with values matching domainToJson keys
-// - <input id="node-search">, <button id="search-btn">, <button id="reset-btn">
-// - <div id="details"></div>, <div id="node-popup"></div>
+// --- D3 Career Nexus: The "Infinite Rebirth" Engine (V2 Premium) ---
 
 const domainToJson = {
   construction: '../data/roles_construction.json',
@@ -12,339 +7,275 @@ const domainToJson = {
   manufacturing: '../data/roles_manufacturing.json',
   marketing: '../data/roles_marketing.json',
   medical: '../data/roles_medical.json'
-  // Add more as needed
 };
 
-// Helper: Get domain from hash
+let currentNodes = [], currentLinks = [];
+let pathStartNode = null;
+let simulation = null;
+let width = 0, height = 0;
+
+// Global Resize Listener - only add once
+window.addEventListener('resize', () => {
+  const container = document.getElementById('graph-container');
+  if (!container || !simulation) return;
+  width = container.clientWidth;
+  height = container.clientHeight;
+  simulation.force("center", d3.forceCenter(width / 2, height / 2)).alpha(0.3).restart();
+});
+
 function getDomainFromHash() {
   const hash = window.location.hash.replace('#', '');
-  if (domainToJson[hash]) return hash;
-  // Default domain if hash is missing or invalid
-  return 'software';
+  return domainToJson[hash] ? hash : 'software';
 }
 
-// On page load and on hash change, render the correct domain
 function renderFromHash() {
   const domain = getDomainFromHash();
   renderGraph(domainToJson[domain]);
-  // Optional: scroll to the section if you want
-  const section = document.getElementById(domain);
-  if (section) section.scrollIntoView({ behavior: "smooth" });
 }
-// Listen for hash changes (if user clicks another dropdown item)
-window.addEventListener('hashchange', renderFromHash);
 
-// Initial render on page load
+window.addEventListener('hashchange', renderFromHash);
 renderFromHash();
 
-// // On page load, render default domain
-// renderGraph(domainToJson.software);
-
-// // On dropdown change, render selected domain
-// document.getElementById('domain-select').addEventListener('change', function() {
-//   renderGraph(domainToJson[this.value]);
-// });
-
-// Hide popup when clicking elsewhere (only one handler, global)
-document.addEventListener('click', function (e) {
-  const popup = document.getElementById('node-popup');
-  if (
-    popup && popup.style.display === "block" &&
-    !e.target.closest('.node') &&
-    !e.target.closest('#node-popup')
-  ) {
-    popup.classList.remove('show');
-    setTimeout(() => popup.style.display = "none", 250);
+// 3D Parallax Tilt Effect
+document.getElementById('graph-container').addEventListener('mousemove', (e) => {
+  const rect = e.currentTarget.getBoundingClientRect();
+  const x = (e.clientX - rect.left) / rect.width - 0.5;
+  const y = (e.clientY - rect.top) / rect.height - 0.5;
+  const svg = e.currentTarget.querySelector('svg');
+  if (svg) {
+    svg.style.transform = `rotateY(${x * 5}deg) rotateX(${-y * 5}deg)`;
   }
 });
 
-// --- Main Render Function ---
 function renderGraph(jsonUrl) {
-  // Clear previous SVG content, details, popup
-  d3.select("svg").selectAll("*").remove();
-  document.getElementById('details').innerHTML = '';
-  document.getElementById('node-popup').style.display = "none";
+  const svg = d3.select("#nexus-svg");
+  const container = document.getElementById('graph-container');
 
-  fetch(jsonUrl)
-    .then(response => response.json())
-    .then(json => {
-      // Node sizing and color based on related/included count
-      const nodes = json.roles.map(role => {
-        const baseCount =
-          (role.tools ? role.tools.length : 0) +
-          (role.languages ? role.languages.length : 0) +
-          (role.skills ? role.skills.length : 0);
-        const includesCount = (role.includes ? role.includes.length : 0);
-        const nodeSize = baseCount * (includesCount > 0 ? includesCount : 1);
-        const relatedCount = (role.related ? role.related.length : 0);
-        return {
-          id: role.name,
-          ...role,
-          nodeSize,
-          relatedCount
-        };
-      });
+  if (simulation) simulation.stop();
+  svg.selectAll("*").remove();
 
-      // Color scales
-      const includesCounts = nodes.map(n => n.includes ? n.includes.length : 0);
-      const minInc = Math.min(...includesCounts);
-      const maxInc = Math.max(...includesCounts, 1);
-      const includesColorScale = d3.scaleLinear()
-        .domain([minInc, maxInc])
-        .range(["#ffebee", "#b71c1c"]); // light red to dark red
-
-      const relatedCounts = nodes.map(n => n.related ? n.related.length : 0);
-      const minRel = Math.min(...relatedCounts);
-      const maxRel = Math.max(...relatedCounts, 1);
-      const relatedColorScale = d3.scaleLinear()
-        .domain([minRel, maxRel])
-        .range(["#b9f6ca", "#1b5e20"]); // light green to dark green
-
-      const defaultBlue = "#1976d2";
-
-      // Build links (related)
-      const links = [];
-      json.roles.forEach(role => {
-        if (role.related) {
-          role.related.forEach(rel => {
-            if (json.roles.find(r => r.name === rel)) {
-              links.push({ source: role.name, target: rel, type: "related" });
-            }
-          });
-        }
-      });
-
-      // Node size scale
-      const sizes = nodes.map(n => n.nodeSize);
-      const minSize = Math.min(...sizes), maxSize = Math.max(...sizes);
-      const minRadius = 30, maxRadius = 60;
-      const sizeScale = d3.scaleLinear().domain([minSize, maxSize]).range([minRadius, maxRadius]);
-
-      // Responsive SVG setup
-      const svg = d3.select("svg");
-      let width = svg.node().clientWidth || 900;
-      let height = svg.node().clientHeight || 600;
-      svg.attr("viewBox", `0 0 ${width} ${height}`);
-
-      // Add a <g> group for zoom/pan
-      const container = svg.append("g");
-
-      // D3 zoom behavior
-      const zoom = d3.zoom()
-        .scaleExtent([0.3, 5])
-        .on("zoom", (event) => {
-          container.attr("transform", event.transform);
-        });
-
-      svg.call(zoom);
-
-      // Function to zoom to a specific node
-      function zoomToNode(d) {
-        const scale = 1.5;
-        const x = -d.x * scale + width / 2;
-        const y = -d.y * scale + height / 2;
-
-        svg.transition()
-          .duration(750)
-          .call(zoom.transform, d3.zoomIdentity.translate(x, y).scale(scale));
-      }
-
-      // Draw links (brown)
-      const link = container.append("g")
-        .attr("stroke-opacity", 0.7)
-        .selectAll("line")
-        .data(links)
-        .enter().append("line")
-        .attr("class", "link")
-        .attr("stroke", "#795548")
-        .attr("stroke-width", 3);
-
-      // Draw nodes
-      const node = container.append("g")
-        .selectAll("g")
-        .data(nodes)
-        .enter().append("g")
-        .attr("class", "node")
-        .on("click", function (event, d) {
-          event.stopPropagation();
-          showPopup(d, event);
-          zoomToNode(d);
-        })
-        .call(d3.drag()
-          .on("start", dragstarted)
-          .on("drag", dragged)
-          .on("end", dragended)
-        );
-
-      node.append("circle")
-        .attr("r", d => sizeScale(d.nodeSize))
-        .attr("fill", d => {
-          const inc = (d.includes && d.includes.length) ? d.includes.length : 0;
-          const rel = (d.related && d.related.length) ? d.related.length : 0;
-          if (inc > 0) {
-            return includesColorScale(inc);
-          } else if (rel > 0) {
-            return relatedColorScale(rel);
-          } else {
-            return defaultBlue;
-          }
-        });
-
-      // TEXT WRAP HELPER
-      function wrapText(text, width) {
-        text.each(function () {
-          var text = d3.select(this),
-            words = text.text().split(/\s+/).reverse(),
-            word,
-            line = [],
-            lineNumber = 0,
-            lineHeight = 1.1,
-            y = text.attr("y") || 0,
-            dy = parseFloat(text.attr("dy")) || 0,
-            tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
-          while (word = words.pop()) {
-            line.push(word);
-            tspan.text(line.join(" "));
-            if (tspan.node().getComputedTextLength() > width) {
-              line.pop();
-              tspan.text(line.join(" "));
-              line = [word];
-              tspan = text.append("tspan").attr("x", 0).attr("y", y)
-                .attr("dy", ++lineNumber * lineHeight + dy + "em")
-                .text(word);
-            }
-          }
-        });
-      }
-
-      node.append("text")
-        .attr("text-anchor", "middle")
-        .attr("dy", 0)
-        .style("font-size", d => `${sizeScale(d.nodeSize) / 3}px`)
-        .text(d => d.id)
-        .each(function (d) {
-          wrapText(d3.select(this), sizeScale(d.nodeSize) * 1.5);
-        });
-
-      // Force simulation
-      const simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.id).distance(220))
-        .force("charge", d3.forceManyBody().strength(-800))
-        .force("center", d3.forceCenter(width / 2, height / 2))
-        .on("tick", ticked);
-
-      function ticked() {
-        link
-          .attr("x1", d => d.source.x)
-          .attr("y1", d => d.source.y)
-          .attr("x2", d => d.target.x)
-          .attr("y2", d => d.target.y);
-
-        node
-          .attr("transform", d => `translate(${d.x},${d.y})`);
-
-        // Cluster included nodes near their parent
-        nodes.forEach(parent => {
-          if (parent.includes) {
-            parent.includes.forEach(childName => {
-              const child = nodes.find(n => n.id === childName);
-              if (child) {
-                child.x += (parent.x - child.x) * 0.005;
-                child.y += (parent.y - child.y) * 0.005;
-              }
-            });
-          }
-        });
-      }
-
-      function dragstarted(event, d) {
-        if (!event.active) simulation.alphaTarget(0.3).restart();
-        d.fx = d.x;
-        d.fy = d.y;
-      }
-
-      function dragged(event, d) {
-        d.fx = event.x;
-        d.fy = event.y;
-      }
-
-      function dragended(event, d) {
-        if (!event.active) simulation.alphaTarget(0);
-        d.fx = null;
-        d.fy = null;
-      }
-
-      function showPopup(d, event) {
-        const popup = document.getElementById('node-popup');
-        popup.innerHTML = `
-          <h3 style="margin-top:0;">${d.name}</h3>
-          <div><strong>Description:</strong> ${d.description || ''}</div>
-          ${d.includes ? `<div><strong>Includes:</strong> ${d.includes.join(', ')}</div>` : ''}
-          ${d.related ? `<div><strong>Related:</strong> ${d.related.join(', ')}</div>` : ''}
-          ${d.tools ? `<div><strong>Tools:</strong> ${d.tools.join(', ')}</div>` : ''}
-          ${Array.isArray(d.languages) && d.languages.length > 0 ? `<div><strong>Languages:</strong> ${d.languages.join(', ')}</div>` : ''}
-          ${d.skills ? `<div><strong>Skills:</strong> ${d.skills.join(', ')}</div>` : ''}
-        `;
-        const [x, y] = d3.pointer(event, document.body);
-        popup.style.left = (x + 20) + "px";
-        popup.style.top = (y - 10) + "px";
-        popup.style.display = "block";
-        setTimeout(() => popup.classList.add('show'), 10);
-      }
-
-      // ---- SEARCH FUNCTIONALITY ----
-      function highlightAndFilterNodes(searchTerm) {
-        d3.selectAll(".node circle").classed("highlight", false);
-        d3.selectAll(".node").style("display", null);
-        d3.selectAll(".link").style("display", null);
-
-        if (!searchTerm) return;
-
-        const term = searchTerm.trim().toLowerCase();
-        d3.selectAll(".node")
-          .each(function (d) {
-            const inId = d.id && d.id.toLowerCase().includes(term);
-            const inSkills = d.skills && d.skills.join(' ').toLowerCase().includes(term);
-            const inLangs = d.languages && d.languages.join(' ').toLowerCase().includes(term);
-            const inTools = d.tools && d.tools.join(' ').toLowerCase().includes(term);
-            if (inId || inSkills || inLangs || inTools) {
-              d3.select(this).select("circle").classed("highlight", true);
-              d3.select(this).style("display", null);
-            } else {
-              d3.select(this).style("display", "none");
-            }
-          });
-
-        d3.selectAll(".link")
-          .each(function (d) {
-            const srcVisible = d3.selectAll(".node").filter(nd => nd.id === d.source.id).style("display") !== "none";
-            const tgtVisible = d3.selectAll(".node").filter(nd => nd.id === d.target.id).style("display") !== "none";
-            d3.select(this).style("display", (srcVisible && tgtVisible) ? null : "none");
-          });
-      }
-
-      // Attach search/reset handlers (remove old first)
-      document.getElementById('search-btn').onclick = function () {
-        const val = document.getElementById('node-search').value;
-        highlightAndFilterNodes(val);
-      };
-      document.getElementById('node-search').onkeydown = function (e) {
-        if (e.key === 'Enter') {
-          highlightAndFilterNodes(this.value);
-        }
-      };
-      document.getElementById('reset-btn').onclick = function () {
-        document.getElementById('node-search').value = '';
-        highlightAndFilterNodes('');
-      };
-
-      // Responsive resize: update SVG and simulation center
-      window.addEventListener('resize', () => {
-        width = svg.node().clientWidth || 900;
-        height = svg.node().clientHeight || 600;
-        svg.attr("viewBox", `0 0 ${width} ${height}`);
-        simulation.force("center", d3.forceCenter(width / 2, height / 2));
-        simulation.alpha(0.5).restart();
-      });
+  fetch(jsonUrl).then(r => r.json()).then(json => {
+    // 1. Data Processing
+    const rawLinks = [];
+    json.roles.forEach(n => {
+      if (n.related) n.related.forEach(rel => rawLinks.push({ source: n.name, target: rel }));
     });
+
+    const connections = {};
+    rawLinks.forEach(l => {
+      connections[l.source] = (connections[l.source] || 0) + 1;
+      connections[l.target] = (connections[l.target] || 0) + 1;
+    });
+
+    const nodes = json.roles.map(r => ({ ...r, id: r.name, connCount: connections[r.name] || 0 }));
+    const links = rawLinks.filter(l => nodes.find(n => n.id === l.source) && nodes.find(n => n.id === l.target));
+
+    currentNodes = nodes; currentLinks = links;
+
+    // 2. Dimensions
+    width = container.clientWidth;
+    height = container.clientHeight;
+
+    const g = svg.append("g");
+
+    // 3. Zoom handling
+    const zoom = d3.zoom().scaleExtent([0.1, 10]).on("zoom", (e) => g.attr("transform", e.transform));
+    svg.call(zoom);
+
+    window.zoomNexus = (f) => svg.transition().duration(400).call(zoom.scaleBy, f);
+    window.resetNexusZoom = () => {
+      const bounds = g.node().getBBox();
+      const scale = 0.8 / Math.max(bounds.width / width, bounds.height / height);
+      const transform = d3.zoomIdentity
+        .translate(width / 2 - scale * (bounds.x + bounds.width / 2), height / 2 - scale * (bounds.y + bounds.height / 2))
+        .scale(scale);
+      svg.transition().duration(750).call(zoom.transform, transform);
+    };
+
+    const colorScale = d3.scaleLinear().domain([0, 2, 5, 8]).range(["#4f46e5", "#6366f1", "#a855f7", "#06b6d4"]);
+
+    // 4. Forces
+    simulation = d3.forceSimulation(nodes)
+      .force("link", d3.forceLink(links).id(d => d.id).distance(220))
+      .force("charge", d3.forceManyBody().strength(-800))
+      .force("center", d3.forceCenter(width / 2, height / 2))
+      .alphaDecay(0.05);
+
+    // 5. Drawing Layers
+    const linkGroup = g.append("g");
+    const nodeGroup = g.append("g");
+
+    const link = linkGroup.selectAll("line").data(links).enter().append("line").attr("class", "link");
+    const pulseLink = linkGroup.selectAll(".link-pulse").data(links).enter().append("line").attr("class", "link-pulse").style("pointer-events", "none");
+
+    const node = nodeGroup.selectAll("g")
+      .data(nodes).enter().append("g")
+      .attr("class", "node")
+      .on("click", (e, d) => {
+        if (e.shiftKey) togglePathSelection(d);
+        else showSideInfo(d, e);
+      })
+      .on("mouseenter", (e, d) => setFocusScope(d))
+      .on("mouseleave", () => resetFocusScope())
+      .call(d3.drag()
+        .on("start", (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+        .on("drag", (e, d) => { d.fx = e.x; d.fy = e.y; })
+        .on("end", (e, d) => { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; }));
+
+    node.append("text").attr("text-anchor", "middle").attr("dy", ".35em").text(d => d.id);
+    node.insert("rect", "text")
+      .attr("fill", d => colorScale(d.connCount))
+      .attr("x", function () { const b = d3.select(this.parentNode).select("text").node().getBBox(); return b.x - 15; })
+      .attr("y", function () { const b = d3.select(this.parentNode).select("text").node().getBBox(); return b.y - 8; })
+      .attr("width", function () { const b = d3.select(this.parentNode).select("text").node().getBBox(); return b.width + 30; })
+      .attr("height", function () { const b = d3.select(this.parentNode).select("text").node().getBBox(); return b.height + 16; })
+      .attr("rx", 10).attr("ry", 10);
+
+    let lastUpdate = 0;
+    simulation.on("tick", () => {
+      link.attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+      pulseLink.attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+      node.attr("transform", d => `translate(${d.x},${d.y})`);
+      const now = Date.now();
+      if (now - lastUpdate > 300) { updateDashboardData(); lastUpdate = now; }
+    });
+
+    // --- Core Interaction Logic ---
+
+    function setFocusScope(d) {
+      const neighbors = new Set([d.id]);
+      links.forEach(l => {
+        if (l.source.id === d.id) neighbors.add(l.target.id);
+        if (l.target.id === d.id) neighbors.add(l.source.id);
+      });
+      node.classed("faded", n => !neighbors.has(n.id));
+      link.classed("faded", l => l.source.id !== d.id && l.target.id !== d.id);
+      pulseLink.classed("faded", l => l.source.id !== d.id && l.target.id !== d.id);
+    }
+
+    function resetFocusScope() {
+      node.classed("faded", false);
+      link.classed("faded", false);
+      pulseLink.classed("faded", false);
+    }
+
+    let allVisibleTools = [];
+    function updateDashboardData() {
+      const isMob = window.innerWidth <= 768;
+      const limit = isMob ? 5 : 10;
+      const visibleTools = {};
+      nodes.forEach(n => {
+        if (n.x > 0 && n.x < width && n.y > 0 && n.y < height && n.tools) {
+          n.tools.forEach(t => visibleTools[t] = (visibleTools[t] || 0) + 1);
+        }
+      });
+      allVisibleTools = Object.entries(visibleTools).sort((a, b) => b[1] - a[1]);
+      const top = allVisibleTools.slice(0, limit);
+      const dashList = document.getElementById('dash-list');
+      if (dashList) dashList.innerHTML = top.map(t => `<div class="dashboard-item"><span>${t[0]}</span><b>${t[1]}</b></div>`).join('');
+    }
+
+    window.toggleFullIntel = () => {
+      const modal = document.getElementById('intel-modal');
+      const list = document.getElementById('full-intel-list');
+      if (!modal.classList.contains('show')) {
+        list.innerHTML = allVisibleTools.map(t => `<div class="dashboard-item border-bottom py-2"><span>${t[0]}</span><b>${t[1]} instances</b></div>`).join('');
+        modal.style.visibility = "visible";
+        setTimeout(() => modal.classList.add('show'), 10);
+      } else {
+        modal.classList.remove('show');
+        setTimeout(() => modal.style.visibility = "hidden", 300);
+      }
+    };
+
+    window.teleportToNode = (id) => {
+      const d = nodes.find(n => n.id === id);
+      if (!d) return;
+      const panel = document.getElementById('nexus-info-panel');
+      panel.classList.remove('show');
+      const scale = 2;
+      const transform = d3.zoomIdentity.translate(width / 2 - scale * d.x, height / 2 - scale * d.y).scale(scale);
+      svg.transition().duration(1000).call(zoom.transform, transform).on("end", () => showSideInfo(d));
+    };
+
+    function showSideInfo(d, e = null) {
+      if (e) e.stopPropagation();
+      const panel = document.getElementById('nexus-info-panel');
+      const body = document.getElementById('info-panel-body');
+      const toolsHTML = d.tools ? d.tools.map(t => `<span class="info-badge">${t}</span>`).join('') : 'None';
+      const skillsHTML = d.skills ? d.skills.map(s => `<span class="info-badge">${s}</span>`).join('') : 'None';
+      const relatedHTML = (d.related && d.related.length > 0)
+        ? d.related.map(r => `<span class="info-badge bg-primary text-white" style="cursor:pointer" onclick="teleportToNode('${r}')">${r}</span>`).join('')
+        : 'None';
+
+      body.innerHTML = `
+        <div class="info-section">
+          <h3>${d.name}</h3>
+          <p class="badge bg-primary mb-3">${d.connCount} Connections</p>
+          <div class="info-content">${d.description || ''}</div>
+        </div>
+        <div class="info-section"><span class="info-label">Essential Tools</span><div class="d-flex flex-wrap">${toolsHTML}</div></div>
+        <div class="info-section"><span class="info-label">Core Skills</span><div class="d-flex flex-wrap">${skillsHTML}</div></div>
+        <div class="info-section"><span class="info-label">Related Roles</span><div class="d-flex flex-wrap">${relatedHTML}</div></div>
+      `;
+      panel.classList.add('show');
+    }
+
+    window.filterNexusGraph = function (searchTerm) {
+      if (!searchTerm) { resetFocusScope(); return; }
+      const term = searchTerm.trim().toLowerCase();
+      const matchedNodes = new Set();
+      nodes.forEach(n => {
+        const inName = n.name && n.name.toLowerCase().includes(term);
+        const inTools = n.tools && n.tools.join(' ').toLowerCase().includes(term);
+        if (inName || inTools) matchedNodes.add(n.id);
+      });
+      if (matchedNodes.size > 0) {
+        node.classed("faded", n => !matchedNodes.has(n.id));
+        link.classed("faded", l => !matchedNodes.has(l.source.id) || !matchedNodes.has(l.target.id));
+        const first = nodes.find(n => matchedNodes.has(n.id));
+        if (first) teleportToNode(first.id);
+      } else { resetFocusScope(); }
+    };
+
+    function togglePathSelection(d) {
+      if (!pathStartNode) {
+        pathStartNode = d;
+        document.getElementById('path-status').innerHTML = `Tracing: <b>${d.id}</b>... click target`;
+      } else {
+        findAndHighlightPath(pathStartNode, d);
+        pathStartNode = null;
+      }
+    }
+
+    function findAndHighlightPath(start, end) {
+      const queue = [[start.id]];
+      const visited = new Set();
+      let path = null;
+      while (queue.length > 0) {
+        const currentPath = queue.shift();
+        const nodeID = currentPath[currentPath.length - 1];
+        if (nodeID === end.id) { path = currentPath; break; }
+        if (!visited.has(nodeID)) {
+          visited.add(nodeID);
+          const currentNeighbors = links.filter(l => l.source.id === nodeID || l.target.id === nodeID)
+            .map(l => l.source.id === nodeID ? l.target.id : l.source.id);
+          currentNeighbors.forEach(neigh => queue.push([...currentPath, neigh]));
+        }
+      }
+      node.classed("path-member", false); link.classed("path-member", false);
+      if (path) {
+        node.classed("path-member", n => path.includes(n.id));
+        link.classed("path-member", l => path.includes(l.source.id) && path.includes(l.target.id));
+        document.getElementById('path-status').innerHTML = `Path Trace Active! <span style="cursor:pointer; text-decoration:underline" onclick="resetPathVisuals()">Clear</span>`;
+      } else { document.getElementById('path-status').innerHTML = "No direct connection found."; }
+    }
+
+    window.resetPathVisuals = () => {
+      node.classed("path-member", false); link.classed("path-member", false);
+      document.getElementById('path-status').innerHTML = "Shift+Click a role for path trace.";
+    };
+
+    setTimeout(window.resetNexusZoom, 1000);
+  });
 }

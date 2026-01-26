@@ -8,7 +8,8 @@
         "Data Analyst",
         "Data Scientist",
         "Cloud Engineer",
-        "ML Engineer"
+        "ML Engineer",
+        "Scrum Master"
       ],
       "tools": [
         "Apache Spark",
@@ -857,41 +858,6 @@
         "RTOS",
         "Low-Level Programming",
         "Debugging"
-      ]
-    },
-    {
-      "name": "Data Engineer",
-      "description": "Builds and maintains scalable data pipelines and architectures for collecting, storing, and processing large volumes of data.",
-      "related": [
-        "DBMS",
-        "Data Analyst",
-        "Data Scientist",
-        "Cloud Engineer",
-        "ML Engineer"
-      ],
-      "tools": [
-        "Apache Spark",
-        "Airflow",
-        "Kafka",
-        "Hadoop",
-        "AWS Glue",
-        "Databricks",
-        "Snowflake"
-      ],
-      "languages": [
-        "Python",
-        "Scala",
-        "SQL",
-        "Java"
-      ],
-      "skills": [
-        "ETL",
-        "Data Pipeline Design",
-        "Big Data Processing",
-        "Data Warehousing",
-        "Data Quality",
-        "Batch Processing",
-        "Streaming Data"
       ]
     }
   ]

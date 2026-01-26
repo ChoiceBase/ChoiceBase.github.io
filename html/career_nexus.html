@@ -3,49 +3,123 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Multi-Domain Roles Graph</title>
+  <title>Career Nexus – ChoiceBase Intelligence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../assets/css/graph.css">
   <link rel="stylesheet" href="../assets/css/custom.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    /* Interactive Workspace with Scrolling Intelligence */
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      background: var(--bg);
+    }
+
+    .nexus-body {
+      display: block;
+      min-height: 100vh;
+    }
+
+    #graph-container {
+      width: 100%;
+      height: 90vh;
+      position: relative;
+      overflow: hidden;
+      touch-action: none;
+    }
+  </style>
 </head>
 
-<body class="responsive-body">
+<body class="nexus-body">
   <div id="common-header"></div>
 
-  <main class="container"></main>
-
   <div id="graph-container">
-    <section id="construction" class="domain-section"></section>
-    <section id="electronics" class="domain-section"></section>
-    <section id="software" class="domain-section"></section>
-    <section id="manufacturing" class="domain-section"></section>
-    <section id="marketing" class="domain-section"></section>
-    <section id="medical" class="domain-section"></section>
-    <input id="node-search" type="text" placeholder="Search roles, skills, tools..."
-      style="padding: 7px 12px; border: 1px solid #bbb; width: 260px; margin-right: 10px; font-size: 17px; border-radius: 6px;">
-    <button id="search-btn"
-      style="padding: 7px 18px; background: #1976d2; color: #fff; border: none; font-size: 17px; border-radius: 6px;">Search</button>
-    <button id="reset-btn"
-      style="padding: 7px 18px; background: #bbb; color: #222; border: none; margin-left: 10px; font-size: 17px; border-radius: 6px;">Reset</button>
-    <svg width="1000" height="700"></svg>
+    <!-- Path Status Overlay -->
+    <div class="path-selector">
+      <i class="bi bi-compass"></i>
+      <span id="path-status">Shift+Click a role to start path trace.</span>
+    </div>
+
+
+    <!-- Expanded Intelligence Modal -->
+    <div id="intel-modal" class="intel-modal">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="h4 fw-bold mb-0">Industry Insights</h2>
+        <button class="btn-close btn-close-white" onclick="window.toggleFullIntel()"></button>
+      </div>
+      <div id="full-intel-list">
+        <!-- Full list of tools -->
+      </div>
+      <div class="mt-4 text-center">
+        <button class="btn btn-outline-primary btn-sm rounded-pill px-4" onclick="window.toggleFullIntel()">Close
+          Insights</button>
+      </div>
+    </div>
+
+    <!-- Navigation Controls -->
+    <div class="zoom-controls">
+      <button class="zoom-btn" onclick="window.zoomNexus(1.2)" title="Zoom In"><i class="bi bi-zoom-in"></i></button>
+      <button class="zoom-btn" onclick="window.zoomNexus(0.8)" title="Zoom Out"><i class="bi bi-zoom-out"></i></button>
+      <button class="zoom-btn" onclick="window.resetNexusZoom()" title="Reset Zoom"><i
+          class="bi bi-arrows-fullscreen"></i></button>
+    </div>
+
+    <!-- Dynamic SVG -->
+    <svg id="nexus-svg"></svg>
+
+    <!-- Jump to Insights Button -->
+    <a href="#nexus-hub-section" class="jump-link-btn">
+      <i class="bi bi-graph-up-arrow"></i>
+      View Industry Metrics
+    </a>
+
+    <!-- Role Details Side/Bottom Panel -->
+    <div id="nexus-info-panel" class="nexus-info-side">
+      <div class="info-header">
+        <span class="fw-bold"><i class="bi bi-file-earmark-text me-2"></i>Role Details</span>
+        <button class="btn-close btn-close-white"
+          onclick="document.getElementById('nexus-info-panel').classList.remove('show')"></button>
+      </div>
+      <div id="info-panel-body" class="info-body">
+        <!-- Content injected by JS -->
+      </div>
+    </div>
   </div>
 
-  <div id="details"></div>
-  <div id="node-popup" class="popup" style="display:none;"></div>
+  <!-- Intelligence Hub Section -->
+  <div id="nexus-hub-section" class="nexus-dashboard">
+    <div class="dashboard-title">
+      <span>Intelligence Hub</span>
+      <i class="bi bi-info-circle small"></i>
+      <!-- Back to Graph (Mobile only) -->
+      <a href="#graph-container" class="ms-auto text-decoration-none small fw-bold d-md-none" style="color: var(--p)">
+        <i class="bi bi-arrow-up"></i> BACK TO MAP
+      </a>
+    </div>
+    <div id="dash-list">
+      <!-- Live trending tools -->
+    </div>
+    <a class="expand-link" onclick="window.toggleFullIntel()">EXPAND TRENDS <i class="bi bi-arrow-right"></i></a>
+  </div>
 
-  <div id="common-footer"></div>
+  <!-- Note: Footer is hidden on this specific page to maximize workspace -->
+  <div id="common-footer" style="display:none"></div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/js/utils.js"></script>
   <script src="/assets/js/components.js"></script>
+  <script src="/assets/js/global-search.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       utils.loadHeaderFooter();
     });
   </script>
   <script src="../assets/js/graph.js"></script>
-
 </body>
 
 </html>

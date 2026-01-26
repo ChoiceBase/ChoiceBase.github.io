@@ -1,5 +1,16 @@
 [
     {
+        "id": "128",
+        "title": "Taskade",
+        "url": "https://www.taskade.com",
+        "description": "Taskade is an all-in-one collaboration platform that combines task management, note-taking, and video conferencing. It features AI-powered productivity tools such as smart task suggestions, automated meeting notes, and content generation. Ideal for remote teams and individuals looking to streamline their workflow and enhance collaboration.",
+        "tags": [
+            "free",
+            "task management",
+            "collaboration"
+        ]
+    },
+    {
         "id": "127",
         "title": "Claude 3.5 Sonnet (Anthropic)",
         "url": "https://claude.ai",

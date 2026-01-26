@@ -3,9 +3,7 @@
  */
 
 const utils = {
-    // Persistence Keys
-    FAVS_KEY: 'favorites',
-    VOTES_KEY: 'votes',
+    // Persistence Keys - None needed currently
 
     /**
      * Fetch JSON data with error handling
@@ -37,7 +35,22 @@ const utils = {
             try {
                 const resp = await fetch(adjustedUrl);
                 if (resp.ok) {
-                    container.innerHTML = await resp.text();
+                    const html = await resp.text();
+                    container.innerHTML = html;
+
+                    // Manually execute scripts found in the fragment
+                    const scripts = container.querySelectorAll('script');
+                    scripts.forEach(oldScript => {
+                        const newScript = document.createElement('script');
+                        Array.from(oldScript.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value));
+                        newScript.appendChild(document.createTextNode(oldScript.innerHTML));
+                        oldScript.parentNode.replaceChild(newScript, oldScript);
+                    });
+
+                    // If it's the header, re-initialize theme toggle
+                    if (id === 'common-header') {
+                        this.initTheme();
+                    }
                 } else {
                     console.error(`Fetch failed for ${adjustedUrl} with status ${resp.status}`);
                 }
@@ -53,37 +66,36 @@ const utils = {
     },
 
     /**
-     * Favorites Management
+     * Theme Initialization and Management
      */
-    getFavorites() {
-        return JSON.parse(localStorage.getItem(this.FAVS_KEY) || '[]');
-    },
+    initTheme() {
+        const toggle = document.getElementById('theme-toggle');
+        if (!toggle) return;
 
-    toggleFavorite(id, onUpdate) {
-        let favs = this.getFavorites();
-        id = String(id);
-        if (favs.includes(id)) {
-            favs = favs.filter(f => f !== id);
-        } else {
-            favs.push(id);
-        }
-        localStorage.setItem(this.FAVS_KEY, JSON.stringify(favs));
-        if (onUpdate) onUpdate(favs);
-        return favs;
-    },
+        const icon = toggle.querySelector('i');
+        const storedTheme = localStorage.getItem('theme') || 'dark';
 
-    /**
-     * Voting Management
-     */
-    getVotes() {
-        return JSON.parse(localStorage.getItem(this.VOTES_KEY) || '{}');
-    },
+        const setTheme = (theme) => {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            if (icon) {
+                if (theme === 'light') {
+                    icon.classList.remove('bi-moon-stars');
+                    icon.classList.add('bi-sun');
+                } else {
+                    icon.classList.remove('bi-sun');
+                    icon.classList.add('bi-moon-stars');
+                }
+            }
+        };
 
-    recordVote(id) {
-        let votes = this.getVotes();
-        votes[id] = (votes[id] || 0) + 1;
-        localStorage.setItem(this.VOTES_KEY, JSON.stringify(votes));
-        return votes[id];
+        // Apply stored theme immediately
+        setTheme(storedTheme);
+
+        toggle.onclick = () => {
+            const current = document.documentElement.getAttribute('data-theme');
+            setTheme(current === 'light' ? 'dark' : 'light');
+        };
     },
 
     /**

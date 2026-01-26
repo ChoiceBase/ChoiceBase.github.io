@@ -4,99 +4,71 @@
 
 const components = {
     /**
-     * Create a single resource card
+     * Create a single resource row (Flat View)
      */
-    createResourceCard(resource, favs) {
-        const isFav = favs.includes(String(resource.id));
-        const card = document.createElement('div');
-        card.className = 'resource-card';
-        card.innerHTML = `
-      <div class="card h-100 bg-transparent border-primary">
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title"><a href="${resource.url}" target="_blank" class="text-primary text-decoration-none">${resource.title}</a></h5>
-          <p class="card-text text-secondary small flex-grow-1">${resource.description || 'No description available.'}</p>
-          <div class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top border-secondary border-opacity-25">
-            <button class="btn btn-sm vote-btn" data-id="${resource.id}">👍 <span class="vote-count">${resource.votes || 0}</span></button>
-            <button class="btn btn-sm fav-btn${isFav ? ' active' : ''}" data-id="${resource.id}">⭐</button>
-          </div>
-        </div>
-      </div>
-    `;
+    createResourceRow(resource) {
+        const row = document.createElement('div');
+        row.className = 'resource-item';
 
-        // Attach scoped listeners
-        card.querySelector('.vote-btn').onclick = (e) => {
-            const btn = e.currentTarget;
-            const id = btn.dataset.id;
-            const count = utils.recordVote(id);
-            btn.querySelector('.vote-count').textContent = count;
-        };
+        row.innerHTML = `
+            <div class="resource-content">
+                <h3 class="resource-title">
+                    <a href="${resource.url}" target="_blank" class="stretched-link">${resource.title}</a>
+                </h3>
+                <p class="resource-desc">${resource.description || 'No description available.'}</p>
+            </div>
+            <!-- Actions removed to save space -->
+        `;
 
-        card.querySelector('.fav-btn').onclick = (e) => {
-            const btn = e.currentTarget;
-            const id = btn.dataset.id;
-            const updatedFavs = utils.toggleFavorite(id);
-            btn.classList.toggle('active', updatedFavs.includes(String(id)));
+        // Ensure relative positioning for stretched-link
+        row.style.position = 'relative';
 
-            // Global trigger for home page refresh if needed
-            if (window.onFavoritesUpdated) window.onFavoritesUpdated();
-        };
-
-        return card;
+        return row;
     },
 
     /**
-     * Create a horizontal scroller
+     * Create a single resource card (Now alias to Row)
      */
-    createScroller(resources, favs) {
-        const wrapper = document.createElement('div');
-        wrapper.className = 'resource-scroller-container';
-
-        const prevBtn = document.createElement('button');
-        prevBtn.className = 'scroller-btn prev';
-        prevBtn.innerHTML = '<i class="bi bi-chevron-left"></i>';
-
-        const nextBtn = document.createElement('button');
-        nextBtn.className = 'scroller-btn next';
-        nextBtn.innerHTML = '<i class="bi bi-chevron-right"></i>';
-
-        const scroller = document.createElement('div');
-        scroller.className = 'resource-scroller';
-
-        resources.forEach(r => scroller.appendChild(this.createResourceCard(r, favs)));
-
-        const scrollOffset = 374;
-        prevBtn.onclick = () => scroller.scrollBy({ left: -scrollOffset, behavior: 'smooth' });
-        nextBtn.onclick = () => scroller.scrollBy({ left: scrollOffset, behavior: 'smooth' });
-
-        wrapper.appendChild(prevBtn);
-        wrapper.appendChild(scroller);
-        wrapper.appendChild(nextBtn);
-        return wrapper;
+    createResourceCard(resource) {
+        return this.createResourceRow(resource);
     },
 
     /**
-     * Render a sectioned list (used in resource-list.html)
+     * Create a vertical list
+     */
+    createScroller(resources) {
+        const container = document.createElement('div');
+        container.className = 'resource-list-grid';
+        resources.forEach(r => container.appendChild(this.createResourceRow(r)));
+        return container;
+    },
+
+    /**
+     * Render a sectioned list
      */
     renderSectionedList(resources, containerId, dropdownMenuId) {
         const container = document.getElementById(containerId);
         const dropdownMenu = document.getElementById(dropdownMenuId);
-        const favs = utils.getFavorites();
         if (!container) return;
 
         container.innerHTML = '';
         if (dropdownMenu) dropdownMenu.innerHTML = '';
 
-        // Grouping - Add each resource to all matching tag sections
-        const groups = {};
+        // Grouping: Use only the first tag, or 'General'
+        let groups = {};
         resources.forEach(r => {
-            if (r.tags && r.tags.length > 0) {
-                r.tags.forEach(tag => {
-                    if (!groups[tag]) groups[tag] = [];
-                    groups[tag].push(r);
-                });
-            } else {
+            const tag = (r.tags && r.tags.length > 0) ? r.tags[0] : 'General';
+            if (!groups[tag]) groups[tag] = [];
+            groups[tag].push(r);
+        });
+
+        // Consolidate single-item sections into 'General'
+        const groupKeys = Object.keys(groups);
+        groupKeys.forEach(tag => {
+            if (tag !== 'General' && groups[tag].length === 1) {
                 if (!groups['General']) groups['General'] = [];
-                groups['General'].push(r);
+                groups['General'].push(...groups[tag]);
+                delete groups[tag];
             }
         });
 
@@ -127,34 +99,39 @@ const components = {
 
             // Details Section
             const details = document.createElement('details');
-            details.className = 'section-details mb-5';
+            details.className = 'section-details';
             details.id = id;
-            if (name.toLowerCase() === 'free' || name.toLowerCase().includes('tos')) {
+
+            // Open top sections by default
+            if (['free', 'top', 'popular', 'general'].some(k => name.toLowerCase().includes(k))) {
                 details.setAttribute('open', '');
             }
 
             const summary = document.createElement('summary');
-            summary.className = 'section-summary h2 mb-0 px-4 py-3';
-            summary.textContent = name;
+            summary.className = 'section-summary';
+            summary.innerHTML = `<span class="me-2">▶</span> ${name} <span class="badge bg-primary rounded-pill ms-2 profile-badge" style="font-size:0.7em">${groups[name].length}</span>`;
             details.appendChild(summary);
 
-            details.appendChild(this.createScroller(groups[name], favs));
+            const listContainer = document.createElement('div');
+            listContainer.className = 'p-3';
+            listContainer.appendChild(this.createScroller(groups[name]));
+
+            details.appendChild(listContainer);
             container.appendChild(details);
         });
     },
 
     /**
-     * Render a simple grid (used in search-results.html)
+     * Render a simple grid (Search Results)
      */
     renderGrid(resources, containerId) {
         const container = document.getElementById(containerId);
-        const favs = utils.getFavorites();
         if (!container) return;
 
         container.innerHTML = '';
-        const grid = document.createElement('div');
-        grid.className = 'resource-list-grid mt-4';
-        resources.forEach(r => grid.appendChild(this.createResourceCard(r, favs)));
-        container.appendChild(grid);
+        const list = document.createElement('div');
+        list.className = 'resource-list-grid mt-4';
+        resources.forEach(r => list.appendChild(this.createResourceRow(r)));
+        container.appendChild(list);
     }
 };

@@ -1,28 +1,41 @@
-// Robust Global Search with Event Delegation
+// Universal Integrated Search Logic
 document.addEventListener('submit', (e) => {
-    const searchForm = e.target.closest('#global-search-form');
+    const searchForm = e.target.closest('#header-search-form, #global-search-form, .search-form-universal');
     if (searchForm) {
         e.preventDefault();
-        const searchInput = searchForm.querySelector('#global-search-input');
+        const searchInput = searchForm.querySelector('input[type="search"], #header-search-input, #global-search-input');
         if (searchInput) {
             const query = searchInput.value.trim();
             if (query) {
-                console.log('Searching for:', query);
-
-                const isLocalFile = window.location.protocol === 'file:';
-                let baseUrl = '/html/search-results.html';
-
-                if (isLocalFile) {
-                    const pathDepth = window.location.pathname.includes('/html/') ? '' : 'html/';
-                    baseUrl = pathDepth + 'search-results.html';
+                // Check if we are on Career Nexus page
+                if (window.location.pathname.includes('career_nexus.html')) {
+                    if (typeof window.filterNexusGraph === 'function') {
+                        window.filterNexusGraph(query);
+                        return;
+                    }
                 }
 
-                const searchUrl = new URL(baseUrl, window.location.href.split('?')[0]);
-                searchUrl.searchParams.set('q', query);
-                window.location.href = searchUrl.toString();
+                // Check if we are on Organization Chart page
+                if (window.location.pathname.includes('org.html')) {
+                    if (typeof window.searchOrg === 'function') {
+                        window.searchOrg(query);
+                        return;
+                    }
+                }
+
+                // Default behavior: redirect to search results
+                let searchUrl;
+                if (window.location.protocol === 'file:') {
+                    const isSubfolder = window.location.pathname.includes('/html/');
+                    searchUrl = (isSubfolder ? '' : 'html/') + 'search-results.html';
+                } else {
+                    searchUrl = '/html/search-results.html';
+                }
+
+                window.location.href = searchUrl + '?q=' + encodeURIComponent(query);
             }
         }
     }
 });
 
-console.log('Global search script loaded');
+

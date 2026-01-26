@@ -1,4 +1,70 @@
-[
+[ 
+    {
+        "id": "58",
+        "title": "Databricks",
+        "url": "https://www.databricks.com/",
+        "description": "Databricks is a unified analytics platform built on Apache Spark for data engineering, data science, and machine learning. Features collaborative notebooks, automated cluster management, and integration with major cloud providers. Enables teams to build and deploy ML models at scale.",
+        "tags": [
+            "free",
+            "paid",
+            "development",
+            "ai",
+            "cloud"
+        ]
+    },
+    {
+        "id": "57",
+        "title": "Google Colab",
+        "url": "https://colab.research.google.com/",
+        "description": "Google Colab is a free Jupyter notebook environment that runs in the cloud. Features free GPU access, collaborative editing, and integration with Google Drive. Perfect for data science, machine learning, and Python development.",
+        "tags": [
+            "free",
+            "ai",
+            "development"
+        ]
+    },
+    {
+        "id": "56",
+        "title": "SFTPCloud",
+        "url": "https://sftpcloud.io/",
+        "description": "paid - SFTPCloud is a secure file transfer service that allows users to upload and share files via SFTP. Features include encrypted transfers, user management, and integration with cloud storage providers. Ideal for businesses needing a reliable and secure file transfer solution.",
+        "tags": [
+            "file transfer",
+            "sftp",
+            "cloud"
+        ]
+    },
+    {
+        "id": "55",
+        "title": "LocalTunnel",
+        "url": "https://localtunnel.github.io/www/",
+        "description": "LocalTunnel is an open-source tool that allows developers to expose their local web servers to the internet. It creates secure tunnels to localhost, enabling easy sharing and testing of web applications during development.",
+        "tags": [
+            "development",
+            "tunneling"
+        ]
+    },
+    {
+        "id": "54",
+        "title": "ngrok",
+        "url": "https://ngrok.com/",
+        "description": "ngrok is a tool for creating secure tunnels to localhost. It allows developers to expose local servers to the internet, making it easy to test and share web applications during development.",
+        "tags": [
+            "development",
+            "tunneling"
+        ]
+    },
+    {
+        "id": "53",
+        "title": "Z-Library",
+        "url": "https://z-lib.org/",
+        "description": "Z-Library is a free online library offering millions of books and articles across various genres and topics. Features a vast collection of eBooks, academic papers, and research articles. Accessible without registration, making it easy to find and download reading materials.",
+        "tags": [
+            "library",
+            "ebooks",
+            "research"
+        ]
+    },
     {
         "id": "52",
         "title": "Scribd Downloader",
@@ -7,7 +73,7 @@
         "tags": [
             "free",
             "downloads",
-            "utilities",
+            "pdf",
             "scribd"
         ]
     },

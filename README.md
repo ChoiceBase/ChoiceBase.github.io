@@ -146,6 +146,6 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 <div align="center">
 
-**Made with ❤️ by the ChoiceBase Community**
+**Made with by the ChoiceBase Community**
 
 </div>
