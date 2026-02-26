@@ -11,36 +11,17 @@
         ]
     },
     {
-        "id": "127",
-        "title": "Claude 3.5 Sonnet (Anthropic)",
-        "url": "https://claude.ai",
-        "description": "Anthropic's most advanced model yet, surpassing GPT-4 in several benchmarks. Features exceptional coding capabilities, advanced reasoning, and a massive 200K token context window. Perfect for complex software development, research, and creative writing. Available in Claude.ai and various API integrations.",
-        "tags": [
-            "paid",
-            "text",
-            "chatbot",
-            "coding",
-            "research",
-            "writing",
-            "anthropic",
-            "long-context"
-        ]
-    },
-    {
         "id": "126",
-        "title": "GPT-4o (OpenAI)",
+        "title": "chatGPT (OpenAI)",
         "url": "https://openai.com/gpt-4o",
         "description": "OpenAI's latest flagship model with native multimodal capabilities. Processes text, images, and audio simultaneously with unprecedented speed and accuracy. Features real-time voice conversations, advanced coding assistance, and creative generation. Available in ChatGPT Plus and API.",
         "tags": [
-            "paid",
+            "free",
             "text",
-            "multimodal",
             "voice",
             "coding",
             "creative",
-            "openai",
-            "real-time",
-            "2024"
+            "real-time"
         ]
     },
     {
@@ -109,79 +90,14 @@
         ]
     },
     {
-        "id": "121",
-        "title": "SearchGPT (OpenAI)",
-        "url": "https://openai.com/index/searchgpt-prototype/",
-        "description": "OpenAI's dedicated AI search engine that combines conversational excellence with real-time web data. Provides direct answers with clear citations and interactive search results. Optimized for fast information retrieval and current events, challenging traditional search frameworks.",
-        "tags": [
-            "free",
-            "search",
-            "chatbot",
-            "citations",
-            "real-time",
-            "openai"
-        ]
-    },
-    {
         "id": "120",
-        "title": "Claude 4 Opus (Anthropic)",
+        "title": "Claude AI (Anthropic)",
         "url": "https://claude.ai",
         "description": "Anthropic's 2026 flagship model featuring 'Recursive Reasoning' and human-level nuance. Known for its exceptional coding ability and safe agentic capabilities. Introduced a 1-million token context window for massive codebase analysis and research.",
         "tags": [
-            "paid",
-            "coding",
-            "research",
-            "long-context",
-            "anthropic",
-            "safe-ai"
-        ]
-    },
-    {
-        "id": "119",
-        "title": "ChatGPT",
-        "url": "https://chat.openai.com",
-        "description": "ChatGPT is OpenAI's advanced AI chatbot powered by GPT-4. It excels at natural language conversations, code generation, creative writing, problem-solving, and analysis. Features include multi-modal capabilities (text, images), code interpreter, custom GPTs, and plugin support. Free tier available with GPT-3.5, premium plans offer GPT-4, faster responses, and priority access. Widely used for coding assistance, content creation, research, and learning.",
-        "tags": [
             "free",
-            "paid",
-            "text",
-            "chatbot",
-            "programming",
-            "writing",
-            "brainstorming",
             "coding",
-            "research",
-            "multimodal"
-        ]
-    },
-    {
-        "id": "118",
-        "title": "OpenAI Sora (Pro)",
-        "url": "https://openai.com/sora",
-        "description": "The commercially released version of Sora, OpenAI's text-to-video model. Capable of generating highly realistic 4K video up to 2 minutes long with complex camera motions and consistent character physics. Integrated with major creative suites for professional filmmaking and marketing.",
-        "tags": [
-            "paid",
-            "video generation",
-            "creative",
-            "film",
-            "2026"
-        ]
-    },
-    {
-        "id": "117",
-        "title": "DALL-E 4",
-        "url": "https://openai.com/dall-e-4",
-        "description": "OpenAI's most advanced image generation model with superior quality, style consistency, and creative control. Features precise prompt following, artistic style variations, and seamless integration with ChatGPT. Available through ChatGPT Plus and API.",
-        "tags": [
-            "paid",
-            "image generation",
-            "art",
-            "design",
-            "creative",
-            "ai art",
-            "openai",
-            "professional",
-            "2024"
+            "research"
         ]
     },
     {
@@ -230,23 +146,6 @@
             "developers",
             "research",
             "api"
-        ]
-    },
-    {
-        "id": "113",
-        "title": "Claude AI (Anthropic)",
-        "url": "https://claude.ai",
-        "description": "Claude is Anthropic's advanced AI assistant known for its safety, helpfulness, and ability to handle long context windows (up to 200K tokens). Features include document analysis, code generation, creative writing, and ethical AI practices. Free tier available with Claude 3 Sonnet, premium for Claude 3 Opus. Excellent for research, analysis, and tasks requiring deep understanding. Known for being more cautious and accurate than competitors.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "chatbot",
-            "coding",
-            "research",
-            "analysis",
-            "long-context",
-            "safe-ai"
         ]
     },
     {
