@@ -1,0 +1,1001 @@
+{
+  "Citizens of India": {
+    "manages": ["President of India"],
+    "description": "The sovereign people and ultimate authority in the Republic of India."
+  },
+  "President of India": {
+    "manages": [
+      "Vice-President of India",
+      "Prime Minister of India",
+      "Chief Justice of India",
+      "Cabinet Secretary",
+      "Governors (States)",
+      "Speaker of Lok Sabha",
+      "Chairman of Rajya Sabha",
+      "Attorney General of India",
+      "Comptroller and Auditor General (CAG)",
+      "Chief Election Commissioner",
+      "Chairman, UPSC",
+      "Chairman, Finance Commission",
+      "National Human Rights Commission (NHRC)",
+      "Chiefs of Armed Forces"
+    ],
+    "description": "The Constitutional Head of State, Supreme Commander of the Armed Forces, and the first citizen of India."
+  },
+  "Vice-President of India": {
+    "manages": [],
+    "description": "The second-highest constitutional office. Acts as ex-officio Chairman of the Rajya Sabha."
+  },
+  "Prime Minister of India": {
+    "manages": [
+      "Union Cabinet Ministers",
+      "NITI Aayog Vice-Chairman",
+      "National Security Advisor",
+      "Principal Secretary to PM",
+      "PMO Staff"
+    ],
+    "description": "The real executive head (de facto) and leader of the Council of Ministers."
+  },
+  "NITI Aayog Vice-Chairman": {
+    "manages": ["NITI Aayog CEO", "NITI Aayog Members"],
+    "description": "Heads the NITI Aayog, the policy think-tank of the Government of India."
+  },
+  "NITI Aayog CEO": {
+    "manages": [],
+    "description": "Manages day-to-day affairs of NITI Aayog.",
+    "department": "Operations"
+  },
+  "NITI Aayog Members": {
+    "manages": [],
+    "description": "Full-time and part-time experts on various policy domains.",
+    "department": "Operations"
+  },
+  "National Security Advisor": {
+    "manages": ["Deputy NSA", "Intelligence Bureau (IB) Director", "Research & Analysis Wing (RAW) Chief", "National Investigation Agency (NIA) Director General"],
+    "description": "Principal advisor to the PM on national security matters."
+  },
+  "Research & Analysis Wing (RAW) Chief": {
+    "manages": [],
+    "description": "Head of India's external intelligence agency."
+  },
+  "National Investigation Agency (NIA) Director General": {
+    "manages": ["NIA IG", "NIA SP"],
+    "description": "Heads the central counter-terrorism law enforcement agency."
+  },
+  "Intelligence Bureau (IB) Director": {
+    "manages": ["IB Additional Director", "IB Joint Director"],
+    "description": "Heads the country's domestic intelligence agency."
+  },
+  "Principal Secretary to PM": {
+    "manages": [],
+    "description": "The senior IAS/IFS officer serving as Principal Secretary to the Prime Minister.",
+    "department": "Operations"
+  },
+  "PMO Staff": {
+    "manages": [],
+    "description": "Secretarial, research and administrative staff supporting the PM.",
+    "department": "Operations"
+  },
+  "Union Cabinet Ministers": {
+    "manages": [
+      "Ministers of State (Independent Charge)",
+      "Ministers of State (Assisting)",
+      "Ministry of Home Affairs",
+      "Ministry of Finance",
+      "Ministry of Defence",
+      "Ministry of External Affairs",
+      "Ministry of Education",
+      "Ministry of Health & Family Welfare",
+      "Ministry of Agriculture & Farmers Welfare",
+      "Ministry of Railways",
+      "Ministry of Road Transport & Highways",
+      "Ministry of Communications",
+      "Ministry of Science & Technology",
+      "Ministry of Space",
+      "Ministry of Jal Shakti",
+      "Ministry of Power",
+      "Ministry of Petroleum & Natural Gas",
+      "Ministry of Mines",
+      "Ministry of Steel",
+      "Ministry of Civil Aviation",
+      "Ministry of Shipping & Ports",
+      "Ministry of Information & Broadcasting",
+      "Ministry of Culture",
+      "Ministry of Tourism",
+      "Ministry of Labour & Employment",
+      "Ministry of Women & Child Development",
+      "Ministry of Tribal Affairs",
+      "Ministry of Social Justice & Empowerment",
+      "Ministry of Environment, Forest & Climate Change",
+      "Ministry of New & Renewable Energy",
+      "Ministry of Electronics & IT (MeitY)",
+      "Ministry of Skill Development & Entrepreneurship",
+      "Ministry of Housing & Urban Affairs",
+      "Ministry of Rural Development",
+      "Ministry of Panchayati Raj",
+      "Ministry of Cooperation",
+      "Ministry of Corporate Affairs",
+      "Ministry of Consumer Affairs, Food & Public Distribution",
+      "Ministry of Textiles",
+      "Ministry of MSME",
+      "Ministry of Fisheries, Animal Husbandry & Dairying",
+      "Ministry of Ayush"
+    ],
+    "description": "Cabinet Ministers heading all 42 Union Ministries & Departments of India."
+  },
+  "Ministry of Home Affairs": {
+    "manages": ["Central Bureau of Investigation (CBI)", "Central Reserve Police Force (CRPF)", "Border Security Force (BSF)", "Central Industrial Security Force (CISF)"],
+    "description": "Responsible for internal security, border management, and Central Armed Police Forces.",
+    "department": "Operations"
+  },
+  "Central Bureau of Investigation (CBI)": {
+    "manages": ["CBI Director"],
+    "description": "India's premier investigation agency for corruption and high-profile crimes.",
+    "department": "Operations"
+  },
+  "CBI Director": {
+    "manages": ["CBI Joint Director", "CBI Deputy Inspector General"],
+    "description": "Heads the CBI, appointed by the Appointment Committee of the Cabinet.",
+    "department": "Operations"
+  },
+  "Central Reserve Police Force (CRPF)": {
+    "manages": ["CRPF DG", "CRPF Sector IGs"],
+    "description": "Largest Central Armed Police Force, handles internal security.",
+    "department": "Operations"
+  },
+  "Border Security Force (BSF)": {
+    "manages": ["BSF DG", "BSF Frontier IGs"],
+    "description": "Guards India's borders with Pakistan and Bangladesh.",
+    "department": "Operations"
+  },
+  "Ministry of Finance": {
+    "manages": ["Finance Secretary", "Reserve Bank of India (RBI) Governor", "SEBI Chairman", "Insurance Regulatory Authority (IRDAI)"],
+    "description": "Manages national finances, budgets, taxation, and financial regulation.",
+    "department": "Operations"
+  },
+  "Reserve Bank of India (RBI) Governor": {
+    "manages": ["RBI Deputy Governors"],
+    "description": "Heads the central bank of India, manages monetary policy and banking regulation."
+  },
+  "RBI Deputy Governors": {
+    "manages": ["RBI Executive Directors"],
+    "description": "Assist the governor in managing different departments of the RBI."
+  },
+  "SEBI Chairman": {
+    "manages": ["SEBI Whole Time Members"],
+    "description": "Heads the Securities and Exchange Board of India, the markets regulator."
+  },
+  "Ministry of Defence": {
+    "manages": ["Defence Secretary", "Chiefs of Armed Forces"],
+    "description": "Responsible for defence policy and management of the three armed forces.",
+    "department": "Operations"
+  },
+  "Ministers of State (Independent Charge)": {
+    "manages": [],
+    "description": "Ministers holding independent charge of smaller departments."
+  },
+  "Ministers of State (Assisting)": {
+    "manages": [],
+    "description": "Junior ministers who assist Cabinet Ministers in their duties."
+  },
+  "Cabinet Secretary": {
+    "manages": [
+      "Union Secretaries (IAS)",
+      "Director of Intelligence Bureau",
+      "Additional Cabinet Secretaries"
+    ],
+    "description": "The top-most civil servant and head of the Civil Services in India.",
+    "department": "Operations"
+  },
+  "Additional Cabinet Secretaries": {
+    "manages": [],
+    "description": "Senior IAS officers assisting the Cabinet Secretary.",
+    "department": "Operations"
+  },
+  "Director of Intelligence Bureau": {
+    "manages": ["Intelligence Bureau (IB) Director"],
+    "description": "The IB Director reports functionally through the Cabinet Secretariat.",
+    "department": "Operations"
+  },
+  "Union Secretaries (IAS)": {
+    "manages": [
+      "Additional Secretaries",
+      "Joint Secretaries"
+    ],
+    "description": "Administrative heads of various Union Ministries (e.g., Home Secretary, Finance Secretary).",
+    "department": "Operations"
+  },
+  "Additional Secretaries": {
+    "manages": ["Deputy Secretaries (Ministry)"],
+    "description": "Senior IAS officers assisting Union Secretaries in ministries.",
+    "department": "Operations"
+  },
+  "Joint Secretaries": {
+    "manages": ["Under Secretaries (Ministry)"],
+    "description": "Middle-management IAS officers in ministries handling policy implementation.",
+    "department": "Operations"
+  },
+  "Deputy Secretaries (Ministry)": {
+    "manages": ["Section Officers (Ministry)"],
+    "description": "Handle specific programme/policy areas under Additional Secretaries.",
+    "department": "Operations"
+  },
+  "Under Secretaries (Ministry)": {
+    "manages": ["Assistant Section Officers"],
+    "description": "Entry-level officers managing files and correspondence in ministries.",
+    "department": "Operations"
+  },
+  "Chief Justice of India": {
+    "manages": [
+      "Supreme Court Judges",
+      "High Court Chief Justices"
+    ],
+    "description": "The highest-ranking officer of the Indian federal judiciary.",
+    "department": "HR"
+  },
+  "Supreme Court Judges": {
+    "manages": [],
+    "description": "Judges representing the highest court of appeal under the Constitution.",
+    "department": "HR"
+  },
+  "High Court Chief Justices": {
+    "manages": [
+      "High Court Judges",
+      "District & Sessions Judges"
+    ],
+    "description": "The heads of the highest judicial courts at the State level.",
+    "department": "HR"
+  },
+  "District & Sessions Judges": {
+    "manages": [
+      "Civil Judges (Senior Division)",
+      "Chief Judicial Magistrates"
+    ],
+    "description": "Highest judicial authority in a district.",
+    "department": "HR"
+  },
+  "Civil Judges (Senior Division)": {
+    "manages": ["Civil Judges (Junior Division)", "Munsiffs"],
+    "description": "Handles civil cases involving higher monetary limits at the district level.",
+    "department": "HR"
+  },
+  "Chief Judicial Magistrates": {
+    "manages": ["Judicial Magistrates (First Class)", "Executive Magistrates"],
+    "description": "Presides over criminal trials and committal proceedings.",
+    "department": "HR"
+  },
+  "Judicial Magistrates (First Class)": {
+    "manages": [],
+    "description": "Handle criminal cases like theft, assault, and minor offences.",
+    "department": "HR"
+  },
+  "Executive Magistrates": {
+    "manages": [],
+    "description": "Handle public order, tenant disputes and executive orders.",
+    "department": "HR"
+  },
+  "Speaker of Lok Sabha": {
+    "manages": [
+      "Members of Parliament (MPS - Lower House)",
+      "Secretary General of Lok Sabha"
+    ],
+    "description": "The presiding officer of the Lok Sabha (House of the People).",
+    "department": "Design"
+  },
+  "Secretary General of Lok Sabha": {
+    "manages": ["Lok Sabha Committees", "Parliament Security Staff"],
+    "description": "Permanent head of the Lok Sabha Secretariat.",
+    "department": "Design"
+  },
+  "Chairman of Rajya Sabha": {
+    "manages": [
+      "Members of Parliament (MPS - Upper House)",
+      "Secretary General of Rajya Sabha"
+    ],
+    "description": "The presiding officer of the Rajya Sabha (Council of States).",
+    "department": "Design"
+  },
+  "Secretary General of Rajya Sabha": {
+    "manages": ["Rajya Sabha Committees"],
+    "description": "Permanent head of the Rajya Sabha Secretariat.",
+    "department": "Design"
+  },
+  "Members of Parliament (MPS - Lower House)": {
+    "manages": [],
+    "description": "Elected representatives of the people (545 seats in Lok Sabha).",
+    "department": "Design"
+  },
+  "Members of Parliament (MPS - Upper House)": {
+    "manages": [],
+    "description": "Elected and nominated members of the Rajya Sabha (245 seats).",
+    "department": "Design"
+  },
+  "Governors (States)": {
+    "manages": [
+      "Chief Ministers (States)",
+      "State Chief Secretaries"
+    ],
+    "description": "Constitutional heads of individual states, appointed by the President.",
+    "department": "Product"
+  },
+  "Chief Ministers (States)": {
+    "manages": [
+      "State Cabinet Ministers",
+      "Zilla Parishad Chairpersons",
+      "State Advisory Councils"
+    ],
+    "description": "The elected head of the state government.",
+    "department": "Product"
+  },
+  "State Advisory Councils": {
+    "manages": [],
+    "description": "Expert advisory bodies on specific sectors like agriculture, health, IT.",
+    "department": "Product"
+  },
+  "State Cabinet Ministers": {
+    "manages": [
+      "MLAs (Members of Legislative Assembly)",
+      "State Departments (Education, Health, Police)"
+    ],
+    "description": "Ministers heading state-level departments like Health, Education, and Police.",
+    "department": "Product"
+  },
+  "State Departments (Education, Health, Police)": {
+    "manages": ["State Department Heads / Directors General"],
+    "description": "Line departments implementing state government schemes and services.",
+    "department": "Operations"
+  },
+  "State Department Heads / Directors General": {
+    "manages": [],
+    "description": "IAS/IPS/IFS officers heading state departments like DGP (Police), DPI (Education).",
+    "department": "Operations"
+  },
+  "MLAs (Members of Legislative Assembly)": {
+    "manages": [],
+    "description": "Elected representatives at the state assembly level.",
+    "department": "Product"
+  },
+  "State Chief Secretaries": {
+    "manages": [
+      "State Secretaries (IAS)",
+      "Divisional Commissioners"
+    ],
+    "description": "The highest administrative officer of a state government.",
+    "department": "Operations"
+  },
+  "State Secretaries (IAS)": {
+    "manages": ["State Additional Secretaries", "State Joint Secretaries"],
+    "description": "Senior IAS officers heading state-level departments.",
+    "department": "Operations"
+  },
+  "State Additional Secretaries": {
+    "manages": [],
+    "description": "Support State Secretaries in policy planning and implementation.",
+    "department": "Operations"
+  },
+  "State Joint Secretaries": {
+    "manages": [],
+    "description": "Middle management in state secretariat, coordinating with departments.",
+    "department": "Operations"
+  },
+  "Divisional Commissioners": {
+    "manages": [
+      "District Magistrates (DM) / Collectors"
+    ],
+    "description": "Administrative heads of a division comprising several districts.",
+    "department": "Operations"
+  },
+  "District Magistrates (DM) / Collectors": {
+    "manages": [
+      "Sub-Divisional Magistrates (SDM)",
+      "District Planning Officer",
+      "Chief Executive Officer (Zila Parishad)",
+      "Superintendent of Police (SP)",
+      "Chief Medical Officer (CMO)",
+      "District Education Officer (DEO)"
+    ],
+    "description": "The primary unit of administration in a district, responsible for law, order, and revenue.",
+    "department": "Operations"
+  },
+  "Superintendent of Police (SP)": {
+    "manages": ["Additional SP", "DSP (Deputy SP)", "Circle Inspector"],
+    "description": "Head of police in a district, responsible for law and order.",
+    "department": "Operations"
+  },
+  "Circle Inspector": {
+    "manages": ["Sub-Inspector (SI)", "Head Constable"],
+    "description": "In-charge of a police circle consisting of several police stations.",
+    "department": "Operations"
+  },
+  "Sub-Inspector (SI)": {
+    "manages": ["Assistant Sub-Inspector (ASI)", "Constables"],
+    "description": "In-charge of a police station (SHO) and its jurisdiction.",
+    "department": "Operations"
+  },
+  "Chief Medical Officer (CMO)": {
+    "manages": ["Medical Officer (MO)", "District Hospital Superintendent", "Community Health Centres (CHC) In-charge"],
+    "description": "Heads the public health system in a district.",
+    "department": "Operations"
+  },
+  "Community Health Centres (CHC) In-charge": {
+    "manages": ["Primary Health Centres (PHC) In-charge"],
+    "description": "Manages CHC providing secondary healthcare at the block level.",
+    "department": "Operations"
+  },
+  "Primary Health Centres (PHC) In-charge": {
+    "manages": ["ASHA Workers", "ANM (Auxiliary Nurse Midwife)"],
+    "description": "Manages PHC delivering primary healthcare to rural populations.",
+    "department": "Operations"
+  },
+  "District Education Officer (DEO)": {
+    "manages": ["Block Education Officers (BEO)", "School Principals & Headmasters"],
+    "description": "Oversees government schools and education programmes in a district.",
+    "department": "Operations"
+  },
+  "Block Education Officers (BEO)": {
+    "manages": ["School Principals & Headmasters"],
+    "description": "Handles educational activities at the block level.",
+    "department": "Operations"
+  },
+  "Sub-Divisional Magistrates (SDM)": {
+    "manages": [
+      "Tehsildars",
+      "Block Development Officers (BDO)"
+    ],
+    "description": "In-charge of a sub-division of a district.",
+    "department": "Operations"
+  },
+  "Tehsildars": {
+    "manages": ["Naib Tahsildars", "Revenue Inspectors"],
+    "description": "Head of a tehsil, handles revenue records, property matters, and land registration.",
+    "department": "Operations"
+  },
+  "Naib Tahsildars": {
+    "manages": ["Patwaris / Lekhpals"],
+    "description": "Assist the Tehsildar in revenue administration.",
+    "department": "Operations"
+  },
+  "Block Development Officers (BDO)": {
+    "manages": [
+      "Village Development Officers (VDO)",
+      "Gram Sachivs (Secretaries)"
+    ],
+    "description": "The operational head of a Community Development Block.",
+    "department": "Operations"
+  },
+  "Village Development Officers (VDO)": {
+    "manages": [
+      "Patwaris / Lekhpals"
+    ],
+    "description": "Administrative officers at the village level assisting in development projects.",
+    "department": "Operations"
+  },
+  "Patwaris / Lekhpals": {
+    "manages": [],
+    "description": "Ground-level revenue officers maintaining land records at the village level.",
+    "department": "Operations"
+  },
+  "Gram Sachivs (Secretaries)": {
+    "manages": [],
+    "description": "Village Secretaries assisting the Gram Panchayat in administrative tasks.",
+    "department": "Operations"
+  },
+  "Zilla Parishad Chairpersons": {
+    "manages": [
+      "Panchayat Samiti Chairpersons (Block Pramukhs)",
+      "Zilla Parishad Members",
+      "Zilla Parishad CEO"
+    ],
+    "description": "The elected heads of the three-tier Panchayati Raj system at the district level.",
+    "department": "Marketing"
+  },
+  "Zilla Parishad CEO": {
+    "manages": [],
+    "description": "Senior IAS officer managing the administration of the Zilla Parishad.",
+    "department": "Operations"
+  },
+  "Panchayat Samiti Chairpersons (Block Pramukhs)": {
+    "manages": [
+      "Sarpanchs (Village Heads)",
+      "Panchayat Samiti Members"
+    ],
+    "description": "Elected heads of the Panchayati Raj system at the block level.",
+    "department": "Marketing"
+  },
+  "Sarpanchs (Village Heads)": {
+    "manages": [
+      "Gram Panchayat Members (Ward Panches)"
+    ],
+    "description": "The elected heads of a Gram Panchayat at the village level.",
+    "department": "Marketing"
+  },
+  "Gram Panchayat Members (Ward Panches)": {
+    "manages": [],
+    "description": "Individually elected representatives of village wards.",
+    "department": "Marketing"
+  },
+  "Attorney General of India": {
+    "manages": ["Solicitor General of India"],
+    "description": "Chief legal advisor to the Government of India and its primary lawyer in the Supreme Court.",
+    "department": "HR"
+  },
+  "Solicitor General of India": {
+    "manages": ["Additional Solicitors General"],
+    "description": "Second law officer of the country, assists the Attorney General.",
+    "department": "HR"
+  },
+  "Additional Solicitors General": {
+    "manages": [],
+    "description": "Law officers who assist the Solicitor General.",
+    "department": "HR"
+  },
+  "Comptroller and Auditor General (CAG)": {
+    "manages": ["Deputy CAG"],
+    "description": "The supreme audit institution of India, responsible for auditing all receipts and expenditure."
+  },
+  "Deputy CAG": {
+    "manages": ["Accountant Generals (States)"],
+    "description": "Assists the CAG in auditing the accounts of the Union and State governments."
+  },
+  "Accountant Generals (States)": {
+    "manages": ["Senior Audit Officers", "Audit Officers"],
+    "description": "Principal auditors for state government accounts.",
+    "department": "Operations"
+  },
+  "Chief Election Commissioner": {
+    "manages": ["Election Commissioners"],
+    "description": "Heads the Election Commission of India, responsible for conducting free and fair elections."
+  },
+  "Election Commissioners": {
+    "manages": ["Chief Electoral Officers (States)"],
+    "description": "Assist the CEC in managing national and state elections."
+  },
+  "Chief Electoral Officers (States)": {
+    "manages": ["District Election Officers (DEO)"],
+    "description": "Supervises the election work in the state.",
+    "department": "Operations"
+  },
+  "District Election Officers (DEO)": {
+    "manages": ["Returning Officers (RO)", "Assistant Electoral Registration Officers"],
+    "description": "Often the District Magistrate, responsible for elections in a district.",
+    "department": "Operations"
+  },
+  "Returning Officers (RO)": {
+    "manages": ["Presiding Officers", "Polling Officers"],
+    "description": "Responsible for overseeing the election in a constituency.",
+    "department": "Operations"
+  },
+  "Presiding Officers": {
+    "manages": ["Polling Officers"],
+    "description": "An officer in-charge of a polling station during election day.",
+    "department": "Operations"
+  },
+  "Chairman, UPSC": {
+    "manages": ["UPSC Members", "UPSC Secretary"],
+    "description": "Heads the Union Public Service Commission, the premier central recruiting agency."
+  },
+  "UPSC Members": {
+    "manages": [],
+    "description": "Assist in the selection of top civil servants and defense officers."
+  },
+  "UPSC Secretary": {
+    "manages": ["UPSC Joint Secretary", "UPSC Controller of Examinations"],
+    "description": "The senior officer managing the secretariat and examination departments of UPSC.",
+    "department": "Operations"
+  },
+  "Chairman, Finance Commission": {
+    "manages": ["Finance Commission Members", "Finance Commission Secretary"],
+    "description": "Heads the constitutionally mandated body to recommend revenue sharing between Union and States."
+  },
+  "Finance Commission Members": {
+    "manages": [],
+    "description": "Experts in finance, economics and public administration."
+  },
+  "National Human Rights Commission (NHRC)": {
+    "manages": ["NHRC Chairperson", "State HRCs"],
+    "description": "An independent statutory body for protection of human rights in India.",
+    "department": "HR"
+  },
+  "NHRC Chairperson": {
+    "manages": ["NHRC Members", "NHRC Secretary General"],
+    "description": "Retired Chief Justice of India heading the NHRC.",
+    "department": "HR"
+  },
+  "State HRCs": {
+    "manages": [],
+    "description": "Human Rights Commissions established at the state level.",
+    "department": "HR"
+  },
+  "Chiefs of Armed Forces": {
+    "manages": ["Chief of Army Staff", "Chief of Naval Staff", "Chief of Air Staff", "Chief of Defence Staff (CDS)"],
+    "description": "The three Service Chiefs and CDS commanding India's defence forces."
+  },
+  "Chief of Army Staff": {
+    "manages": ["Army Commanders (Eastern, Western, Northern, Southern, Central)", "Vice Chief of Army Staff"],
+    "description": "Commander of the Indian Army of over 1.4 million active personnel."
+  },
+  "Army Commanders (Eastern, Western, Northern, Southern, Central)": {
+    "manages": ["Corps Commanders (Lieutenant Generals)", "District Military Liaison Officers"],
+    "description": "General Officers Commanding-in-Chief of the five Army Commands."
+  },
+  "Corps Commanders (Lieutenant Generals)": {
+    "manages": ["Division Commanders (Major Generals)"],
+    "description": "Command a Corps consisting of 2 or more divisions."
+  },
+  "Division Commanders (Major Generals)": {
+    "manages": ["Brigade Commanders (Brigadiers)"],
+    "description": "Command a Division consisting of 15,000-20,000 troops."
+  },
+  "Brigade Commanders (Brigadiers)": {
+    "manages": ["Battalion Commanding Officers (Colonels / Lt. Colonels)"],
+    "description": "Command a Brigade consisting of 3-6 battalions."
+  },
+  "Battalion Commanding Officers (Colonels / Lt. Colonels)": {
+    "manages": ["Company Commanders (Majors / Captains)"],
+    "description": "Commands a battalion of ~800-1000 soldiers."
+  },
+  "Company Commanders (Majors / Captains)": {
+    "manages": ["Platoon Commanders (Lieutenants / JCOs)", "Havildar (Sergeant)"],
+    "description": "Commands a company of ~100-150 soldiers."
+  },
+  "Platoon Commanders (Lieutenants / JCOs)": {
+    "manages": ["Naiks", "Sepoys / Jawans"],
+    "description": "Commands a platoon of ~30-40 soldiers."
+  },
+  "Chief of Naval Staff": {
+    "manages": ["Vice Chief of Naval Staff", "Naval Commands (Western, Eastern, Southern, Andaman, Fareast)"],
+    "description": "Commander of the Indian Navy, managing maritime defence."
+  },
+  "Chief of Air Staff": {
+    "manages": ["Vice Chief of Air Staff", "Air Commands", "Air Defence Systems"],
+    "description": "Commander of the Indian Air Force, managing aerial defence."
+  },
+  "Chief of Defence Staff (CDS)": {
+    "manages": ["Department of Military Affairs", "Integrated Defence Staff"],
+    "description": "Single-point military advisor to the Govt. & head of joint military operations."
+  },
+  "High Court Judges": {
+    "manages": [],
+    "description": "Judges serving in the High Courts of respective States and UTs.",
+    "department": "HR"
+  },
+  "Finance Secretary": {
+    "manages": ["Revenue Secretary", "Expenditure Secretary", "Economic Affairs Secretary"],
+    "description": "The senior-most IAS officer in the Ministry of Finance.",
+    "department": "Operations"
+  },
+  "Defence Secretary": {
+    "manages": ["Defence Production Secretary", "Defence Research Secretary"],
+    "description": "Heads the administrative side of the Ministry of Defence.",
+    "department": "Operations"
+  },
+  "Deputy NSA": {
+    "manages": [],
+    "description": "Assists the NSA in security advisory and intelligence coordination."
+  },
+  "Ministry of External Affairs": {
+    "manages": ["Foreign Secretary", "Indian Ambassadors & High Commissioners"],
+    "description": "Manages India's foreign policy, diplomatic relations, and overseas Indian affairs.",
+    "department": "Operations"
+  },
+  "Foreign Secretary": {
+    "manages": ["Secretary (West)", "Secretary (East)", "Secretary (Economic Relations)"],
+    "description": "The top diplomat and head of the Indian Foreign Service.",
+    "department": "Operations"
+  },
+  "Indian Ambassadors & High Commissioners": {
+    "manages": [],
+    "description": "India's top diplomatic representatives in foreign countries.",
+    "department": "Operations"
+  },
+  "Ministry of Education": {
+    "manages": ["Secretary (School Education)", "Secretary (Higher Education)", "UGC Chairman", "AICTE Chairman"],
+    "description": "Responsible for national education policy, school and higher education.",
+    "department": "Design"
+  },
+  "UGC Chairman": {
+    "manages": ["UGC Members", "University VCs (Central Universities)"],
+    "description": "Heads the University Grants Commission, regulating higher education.",
+    "department": "Design"
+  },
+  "University VCs (Central Universities)": {
+    "manages": ["Registrar", "Deans of Faculties", "Department Heads"],
+    "description": "Vice Chancellors of Central Universities like JNU, AMU, BHU, Delhi University.",
+    "department": "Design"
+  },
+  "AICTE Chairman": {
+    "manages": ["AICTE Vice Chairman", "Regional Offices"],
+    "description": "Heads the All India Council for Technical Education, regulating engineering/management colleges.",
+    "department": "Design"
+  },
+  "Ministry of Health & Family Welfare": {
+    "manages": ["Health Secretary", "ICMR Director General", "AIIMS Directors", "National Health Authority (NHA) CEO"],
+    "description": "Formulates health policy and manages national health programmes.",
+    "department": "Operations"
+  },
+  "ICMR Director General": {
+    "manages": ["ICMR Institute Directors (All India)"],
+    "description": "Heads the Indian Council of Medical Research, apex body for biomedical research.",
+    "department": "Operations"
+  },
+  "AIIMS Directors": {
+    "manages": ["AIIMS Medical Superintendents", "AIIMS Deans"],
+    "description": "Directors of the All India Institute of Medical Sciences campuses across India.",
+    "department": "Operations"
+  },
+  "National Health Authority (NHA) CEO": {
+    "manages": ["Ayushman Bharat PM-JAY Officials"],
+    "description": "Manages the Pradhan Mantri Jan Arogya Yojana (PM-JAY) health insurance scheme.",
+    "department": "Operations"
+  },
+  "Ministry of Agriculture & Farmers Welfare": {
+    "manages": ["Agriculture Secretary", "ICAR Director General", "FCI Chairman & MD"],
+    "description": "Responsible for agriculture policy, crop insurance, and farmer welfare schemes.",
+    "department": "Operations"
+  },
+  "ICAR Director General": {
+    "manages": ["ICAR Research Institutes Directors"],
+    "description": "Heads the Indian Council of Agricultural Research, the apex agricultural research body.",
+    "department": "Operations"
+  },
+  "FCI Chairman & MD": {
+    "manages": ["FCI Executive Directors (Zones)"],
+    "description": "Heads the Food Corporation of India, managing food grain procurement and storage.",
+    "department": "Operations"
+  },
+  "Ministry of Railways": {
+    "manages": ["Railway Board Chairman & CEO", "General Managers (Railway Zones)"],
+    "description": "Manages the Indian Railways, the world's largest railway network under single management.",
+    "department": "Operations"
+  },
+  "Railway Board Chairman & CEO": {
+    "manages": ["Railway Board Members (Finance, Traffic, Electrical etc.)"],
+    "description": "Heads the Railway Board, the apex body for Indian Railways policy and operations.",
+    "department": "Operations"
+  },
+  "General Managers (Railway Zones)": {
+    "manages": ["Divisional Railway Managers (DRMs)"],
+    "description": "Head of one of the 18 railway zones of Indian Railways.",
+    "department": "Operations"
+  },
+  "Divisional Railway Managers (DRMs)": {
+    "manages": ["Station Masters", "Loco Pilots", "Station Superintendents"],
+    "description": "Manage railway operations in a division consisting of several districts.",
+    "department": "Operations"
+  },
+  "Ministry of Road Transport & Highways": {
+    "manages": ["Road Transport Secretary", "NHAI Chairman"],
+    "description": "Responsible for highways, road transport, and national infrastructure.",
+    "department": "Operations"
+  },
+  "NHAI Chairman": {
+    "manages": ["NHAI Regional Officers", "Project Directors (Highway Projects)"],
+    "description": "Heads the National Highways Authority of India, building and maintaining national highways.",
+    "department": "Operations"
+  },
+  "Ministry of Communications": {
+    "manages": ["Telecom Secretary", "TRAI Chairman", "Department of Posts Secretary"],
+    "description": "Oversees telecommunications policy, postal services, and digital communications."
+  },
+  "TRAI Chairman": {
+    "manages": ["TRAI Members"],
+    "description": "Heads the Telecom Regulatory Authority of India, the independent telecom regulator."
+  },
+  "Department of Posts Secretary": {
+    "manages": ["Chief Postmaster Generals (Circles)", "Postmaster General"],
+    "description": "Heads India Post, one of the world's largest postal networks.",
+    "department": "Operations"
+  },
+  "Ministry of Science & Technology": {
+    "manages": ["DST Secretary", "DBT Secretary", "CSIR Director General"],
+    "description": "Promotes science and technology research, biotechnology, and scientific institutions."
+  },
+  "CSIR Director General": {
+    "manages": ["CSIR Laboratory Directors (DRDO, NPL, CLRI etc.)"],
+    "description": "Heads the Council of Scientific and Industrial Research with 37 national labs."
+  },
+  "Ministry of Space": {
+    "manages": ["ISRO Chairman", "DOS Secretary"],
+    "description": "Governs India's space programmes and the Department of Space."
+  },
+  "ISRO Chairman": {
+    "manages": ["ISRO Satellite Centre Directors", "Launch Vehicle Programme Director", "ISRO Telemetry Tracking & Command Network"],
+    "description": "Heads the Indian Space Research Organisation."
+  },
+  "Ministry of Jal Shakti": {
+    "manages": ["Jal Shakti Secretary", "National Water Mission Director"],
+    "description": "Manages water resources, Ganga rejuvenation, and drinking water supply.",
+    "department": "Operations"
+  },
+  "Ministry of Power": {
+    "manages": ["Power Secretary", "CEA Chairman", "NTPC CMD", "PGCIL CMD"],
+    "description": "Responsible for electricity generation, transmission, and distribution policy."
+  },
+  "CEA Chairman": {
+    "manages": ["CEA Members (Planning, Thermal, Hydro)"],
+    "description": "Heads the Central Electricity Authority, the technical and planning body for power."
+  },
+  "Ministry of Petroleum & Natural Gas": {
+    "manages": ["Petroleum Secretary", "ONGC CMD", "IOC CMD", "BPCL CMD"],
+    "description": "Manages hydrocarbons exploration, production, refining, and pricing."
+  },
+  "Ministry of Mines": {
+    "manages": ["Mines Secretary", "GSI Director General", "IBM Controller General"],
+    "description": "Regulates mining of major minerals, geological surveys, and mineral resources."
+  },
+  "Ministry of Steel": {
+    "manages": ["Steel Secretary", "SAIL Chairman", "RINL CMD"],
+    "description": "Oversees India's steel industry and public sector steel companies."
+  },
+  "Ministry of Civil Aviation": {
+    "manages": ["Civil Aviation Secretary", "DGCA Director General", "AAI Chairman & MD"],
+    "description": "Regulates civil aviation, airports, and airline policy.",
+    "department": "Operations"
+  },
+  "AAI Chairman & MD": {
+    "manages": ["AAI Regional Executive Directors", "Airport Directors"],
+    "description": "Heads the Airports Authority of India managing over 130 airports.",
+    "department": "Operations"
+  },
+  "Ministry of Shipping & Ports": {
+    "manages": ["Ports Secretary", "Major Port Trust Chairmen"],
+    "description": "Manages seaports, inland waterways, and shipping policy.",
+    "department": "Operations"
+  },
+  "Ministry of Information & Broadcasting": {
+    "manages": ["I&B Secretary", "Prasar Bharati CEO", "CBFC Chairman", "PIB Director General"],
+    "description": "Regulates broadcast media, film certification, and government communications.",
+    "department": "Design"
+  },
+  "Prasar Bharati CEO": {
+    "manages": ["Doordarshan Director General", "All India Radio Director General"],
+    "description": "Heads India's public broadcaster managing DD and AIR.",
+    "department": "Design"
+  },
+  "Ministry of Culture": {
+    "manages": ["Culture Secretary", "ASI Director General", "National Museum Director"],
+    "description": "Promotes Indian arts, culture, heritage, and national monuments.",
+    "department": "Design"
+  },
+  "Ministry of Tourism": {
+    "manages": ["Tourism Secretary", "India Tourism Development Corporation (ITDC) CMD"],
+    "description": "Develops domestic and international tourism infrastructure and promotion.",
+    "department": "Marketing"
+  },
+  "Ministry of Labour & Employment": {
+    "manages": ["Labour Secretary", "EPFO Central Provident Fund Commissioner", "ESIC Director General"],
+    "description": "Regulates labour laws, employment policy, and social security for workers.",
+    "department": "HR"
+  },
+  "EPFO Central Provident Fund Commissioner": {
+    "manages": ["EPFO Regional Commissioners"],
+    "description": "Manages the Employees' Provident Fund Organization serving 60+ million subscribers.",
+    "department": "HR"
+  },
+  "Ministry of Women & Child Development": {
+    "manages": ["WCD Secretary", "National Commission for Women Chairperson", "NCPCR Chairperson"],
+    "description": "Responsible for welfare of women, children, Anganwadi workers and ICDS scheme.",
+    "department": "HR"
+  },
+  "Ministry of Tribal Affairs": {
+    "manages": ["Tribal Affairs Secretary", "National Commission for Scheduled Tribes Chairman"],
+    "description": "Responsible for welfare and development of Scheduled Tribes.",
+    "department": "HR"
+  },
+  "Ministry of Social Justice & Empowerment": {
+    "manages": ["Social Justice Secretary", "NHFDC CMD", "National Commission for SCs Chairman"],
+    "description": "Responsible for welfare of Scheduled Castes, OBCs, and differently abled persons.",
+    "department": "HR"
+  },
+  "Ministry of Environment, Forest & Climate Change": {
+    "manages": ["Environment Secretary", "CPCB Chairman", "Director General of Forests (DGF)"],
+    "description": "Oversees environmental protection, forest conservation, and climate policy.",
+    "department": "Operations"
+  },
+  "CPCB Chairman": {
+    "manages": ["State Pollution Control Boards (SPCBs)"],
+    "description": "Heads the Central Pollution Control Board, monitoring pollution across India.",
+    "department": "Operations"
+  },
+  "Ministry of New & Renewable Energy": {
+    "manages": ["MNRE Secretary", "SECI CMD", "IREDA CMD"],
+    "description": "Drives solar, wind, and other renewable energy policy and development."
+  },
+  "Ministry of Electronics & IT (MeitY)": {
+    "manages": ["MeitY Secretary", "NIC Director General", "CERT-In Director General"],
+    "description": "Responsible for IT policy, digital infrastructure, and cybersecurity."
+  },
+  "NIC Director General": {
+    "manages": ["NIC State Centers"],
+    "description": "Heads the National Informatics Centre, the IT backbone of Indian government."
+  },
+  "Ministry of Skill Development & Entrepreneurship": {
+    "manages": ["Skill Development Secretary", "NSDC CEO", "NIESBUD Director General"],
+    "description": "Promotes vocational training and entrepreneurship in India.",
+    "department": "HR"
+  },
+  "Ministry of Housing & Urban Affairs": {
+    "manages": ["Urban Affairs Secretary", "DUDA CEO", "Smart Cities Mission Director"],
+    "description": "Responsible for urban development, smart cities, housing schemes like PMAY.",
+    "department": "Operations"
+  },
+  "Ministry of Rural Development": {
+    "manages": ["Rural Development Secretary", "NRLM Director", "MGNREGS Commissioner"],
+    "description": "Manages MGNREGA, PMGSY, PMAY-G, and other rural development schemes.",
+    "department": "Operations"
+  },
+  "Ministry of Panchayati Raj": {
+    "manages": ["Panchayati Raj Secretary", "RGSA Mission Director"],
+    "description": "Strengthens the three-tier Panchayati Raj institutions across India.",
+    "department": "Marketing"
+  },
+  "Ministry of Cooperation": {
+    "manages": ["Cooperation Secretary", "NCUI President", "NABARD Chairman"],
+    "description": "Promotes cooperative movement and regulates multi-state cooperatives.",
+    "department": "Operations"
+  },
+  "NABARD Chairman": {
+    "manages": ["NABARD CGMs (Regional)", "NABARD DGM"],
+    "description": "Heads the National Bank for Agriculture and Rural Development.",
+    "department": "Operations"
+  },
+  "Ministry of Corporate Affairs": {
+    "manages": ["Corporate Affairs Secretary", "MCA21 Registrar of Companies", "NCLT President", "IBBI Chairman"],
+    "description": "Regulates corporates, company law, and insolvency proceedings."
+  },
+  "Ministry of Consumer Affairs, Food & Public Distribution": {
+    "manages": ["Consumer Affairs Secretary", "Bureau of Indian Standards (BIS) DG", "FCI Chairman & MD"],
+    "description": "Ensures food security, consumer protection, and fair trade standards.",
+    "department": "Operations"
+  },
+  "Ministry of Textiles": {
+    "manages": ["Textiles Secretary", "Textile Commissioner", "Cotton Corporation of India CMD"],
+    "description": "Promotes the textile, apparel, and handicraft sector.",
+    "department": "Operations"
+  },
+  "Ministry of MSME": {
+    "manages": ["MSME Secretary", "NSIC CMD", "Khadi and Village Industries Commission CEO"],
+    "description": "Promotes Micro, Small and Medium Enterprises across India.",
+    "department": "Operations"
+  },
+  "Ministry of Fisheries, Animal Husbandry & Dairying": {
+    "manages": ["Fisheries Secretary", "NDDB Chairman", "DAHD Secretary"],
+    "description": "Manages blue economy, animal husbandry, veterinary, and dairy cooperation.",
+    "department": "Operations"
+  },
+  "Ministry of Ayush": {
+    "manages": ["Ayush Secretary", "CCRAS Director General", "Morarji Desai National Institute of Yoga Director"],
+    "description": "Promotes Ayurveda, Yoga, Unani, Siddha, and Homeopathy (AYUSH).",
+    "department": "Operations"
+  },
+  "CBI Deputy Inspector General": {
+    "manages": [],
+    "description": "Senior police/paramilitary officer at deputy IG rank.",
+    "department": "Operations"
+  },
+  "Central Industrial Security Force (CISF)": {
+    "manages": ["CISF DG", "CISF Sector Units"],
+    "description": "Provides security to airports, nuclear installations, and industrial units.",
+    "department": "Operations"
+  },
+  "Insurance Regulatory Authority (IRDAI)": {
+    "manages": ["IRDAI Whole Time Members"],
+    "description": "Regulates the insurance industry in India, protecting policyholder interests."
+  },
+  "Secretary (School Education)": {
+    "manages": ["NCERT Director", "Kendriya Vidyalaya Sangathan Commissioner", "Navodaya Vidyalaya Samiti Commissioner"],
+    "description": "Heads the School Education and Literacy Department under MoE.",
+    "department": "Design"
+  },
+  "Secretary (Higher Education)": {
+    "manages": ["UGC Chairman", "AICTE Chairman", "NIT Director General"],
+    "description": "Heads the Higher Education Department under MoE.",
+    "department": "Design"
+  },
+  "Health Secretary": {
+    "manages": ["Additional Health Secretaries", "State Health Secretaries (IAS)"],
+    "description": "Top bureaucrat in the Ministry of Health & Family Welfare.",
+    "department": "Operations"
+  }
+
+}

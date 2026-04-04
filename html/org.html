@@ -9,10 +9,32 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../assets/css/custom.css">
   <style>
+    /* --- Full-height flexible canvas layout --- */
+    html, body {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #common-header { flex-shrink: 0; }
+
+    main.org-main {
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      padding: 0 0.75rem 0.5rem;
+    }
+
     .chart-viewport {
       position: relative;
+      flex: 1 1 auto;   /* Fills ALL remaining vertical space between header and bottom */
       width: 100%;
-      height: 70vh;
+      min-height: 200px;
       background: var(--s);
       border: 1px solid var(--br);
       border-radius: var(--r);
@@ -28,42 +50,67 @@
       cursor: grabbing;
     }
 
-    #chart_div {
-      padding: 6rem;
-      transform-origin: center top;
-      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-      width: max-content;
-      will-change: transform;
-    }
-
-    /* Google Chart Node Styling - Enterprise Rebirth */
-    .google-visualization-orgchart-node {
-      background: var(--glass) !important;
-      backdrop-filter: blur(15px);
-      border: 1px solid var(--br) !important;
-      color: var(--tx) !important;
-      border-radius: 12px !important;
-      padding: 0 !important;
-      /* Managed by inner div */
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+    /* Footer: hidden by default, slides in when toggled */
+    #common-footer {
+      flex-shrink: 0;
+      max-height: 0;
       overflow: hidden;
-      transition: var(--trans) !important;
+      transition: max-height 0.4s ease;
     }
 
-    .org-node-inner {
-      padding: 12px 20px;
-      text-align: left;
-      min-width: 160px;
+    #common-footer.footer-open {
+      max-height: 600px;
     }
 
-    .google-visualization-orgchart-lineleft,
-    .google-visualization-orgchart-lineright,
-    .google-visualization-orgchart-linebottom {
-      border-color: var(--p) !important;
-      border-width: 2px !important;
-      opacity: 0.3;
+    /* Footer toggle button — always visible at bottom-left of canvas */
+    .footer-toggle-btn {
+      position: absolute;
+      bottom: 4.5rem;
+      left: 1.5rem;
+      z-index: 1001;
+      background: var(--glass);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--br);
+      border-radius: 12px;
+      padding: 6px 14px;
+      color: var(--tx);
+      font-size: 0.75rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: var(--trans);
     }
 
+    .footer-toggle-btn:hover {
+      background: var(--p);
+      color: white;
+      border-color: var(--p);
+    }
+
+    /* Style for suggestion items */
+    #org-search-suggestions .dropdown-item {
+      color: var(--tx);
+      cursor: pointer;
+      font-size: 0.85rem;
+      padding: 0.4rem 1rem;
+      white-space: normal;
+    }
+    #org-search-suggestions .dropdown-item:hover,
+    #org-search-suggestions .dropdown-item:focus {
+      background: var(--glass);
+      backdrop-filter: brightness(1.2);
+    }
+
+    #chart_div {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden; /* SVG handles its own overflow/panning */
+    }
+
+    /* Google Chart Node Styling - Removed for D3 */
     /* Controls Overlay */
     .viewport-controls {
       position: absolute;
@@ -120,24 +167,42 @@
       box-shadow: var(--sh);
     }
 
+
     .breadcrumbs-bar {
+      position: absolute;
+      bottom: 1.5rem;
+      left: 1.5rem;
+      right: 1.5rem;
       background: var(--glass);
       backdrop-filter: blur(10px);
       border: 1px solid var(--br);
       border-radius: 12px;
-      padding: 0.5rem 1rem;
+      padding: 0.75rem 1.25rem;
       color: var(--tx-m);
-      font-size: 0.75rem;
+      font-size: 0.85rem;
       box-shadow: var(--sh);
       display: flex;
       align-items: center;
       white-space: nowrap;
       overflow-x: auto;
+      z-index: 1000;
+    }
+
+    .breadcrumbs-bar span {
+      color: var(--tx);
+      font-weight: 600;
     }
 
     @media (max-width: 768px) {
+      html, body { overflow: hidden; }
+
       .org-tools {
         width: calc(100% - 3rem);
+      }
+
+      .breadcrumbs-bar {
+        bottom: 5rem; /* Avoid overlapping mobile controls */
+        font-size: 0.75rem;
       }
 
       .viewport-controls {
@@ -154,26 +219,28 @@
       }
     }
   </style>
-
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
-<body>
-  <div id="common-header"></div>
+<body style="display:flex;flex-direction:column;height:100%;overflow:hidden">
+  <div id="common-header" style="flex-shrink:0"></div>
 
-  <header class="page-header py-4">
-    <div class="container text-center">
-      <h1 class="h3 fw-bold mb-0">Org Structure</h1>
-    </div>
-  </header>
-
-  <main class="container-fluid px-md-5 mb-5" style="position: relative;">
+  <main class="org-main">
     <div class="chart-viewport" id="viewport">
       <!-- Search & Breadcrumbs -->
       <div class="org-tools">
-        <div class="breadcrumbs-bar" id="org-breadcrumbs">
-          Select a node to see hierarchy path
+
+        <!-- Search Container with Suggestions -->
+        <div class="position-relative mb-3 search-container">
+          <input type="text" id="org-search-input" class="org-search" placeholder="Search roles..." autocomplete="off">
+          <i class="bi bi-search position-absolute top-50 end-0 translate-middle-y me-3 opacity-50"></i>
+          
+          <!-- Dropdown container -->
+          <ul id="org-search-suggestions" class="dropdown-menu w-100 shadow" style="display:none; max-height: 250px; overflow-y: auto; position: absolute; z-index: 1050; border-radius: 12px; border: 1px solid var(--br); background: var(--glass); backdrop-filter: blur(15px);"></ul>
         </div>
+      </div>
+
+      <div class="breadcrumbs-bar" id="org-breadcrumbs">
+        Select a node to see hierarchy path
       </div>
 
       <!-- Controls -->
@@ -181,100 +248,40 @@
         <button class="v-btn" onclick="adjustZoom(1.1)" title="Zoom In"><i class="bi bi-zoom-in"></i></button>
         <button class="v-btn" onclick="adjustZoom(0.9)" title="Zoom Out"><i class="bi bi-zoom-out"></i></button>
         <button class="v-btn" onclick="resetView()" title="Auto Center"><i class="bi bi-arrows-fullscreen"></i></button>
-        <button class="v-btn" onclick="window.exportOrgChart()" title="Print/Export"><i
-            class="bi bi-camera"></i></button>
+        <button class="v-btn" onclick="window.exportOrgChart()" title="Print/Export"><i class="bi bi-camera"></i></button>
+        <button class="v-btn" onclick="scrollToTop()" title="Back to Top"><i class="bi bi-arrow-up-short"></i></button>
+        <button class="v-btn" onclick="openFooter()" title="Jump to Footer"><i class="bi bi-arrow-down-short"></i></button>
       </div>
 
       <div id="chart_div"></div>
 
-      <!-- Jump to Footer Button (Mobile only) -->
-      <a href="#common-footer" class="jump-link-btn d-md-none">
-        <i class="bi bi-arrow-down"></i>
-        Skip to Footer
-      </a>
     </div>
   </main>
-
   <div id="common-footer"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/js/utils.js"></script>
-  <script src="/assets/js/components.js"></script>
+  <script src="/assets/js/global-search.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', () => utils.loadHeaderFooter());
+    document.addEventListener('DOMContentLoaded', () => Utils.loadHeaderFooter());
 
     const vp = document.getElementById('viewport');
-    const chart = document.getElementById('chart_div');
-    let scale = 1, posX = 0, posY = 0;
+    
+    // Zoom & pan is now handled natively by D3 inside org.js
+    // HTML buttons call window.adjustZoom -> orgChart.zoomIn()/zoomOut()
 
-    function applyTransform() {
-      chart.style.transform = `translate(${posX}px, ${posY}px) scale(${scale})`;
+    function scrollToTop() {
+      const footer = document.getElementById('common-footer');
+      footer.classList.remove('footer-open');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function adjustZoom(factor) {
-      scale *= factor;
-      scale = Math.min(Math.max(scale, 0.1), 3);
-      applyTransform();
+    function openFooter() {
+      const footer = document.getElementById('common-footer');
+      footer.classList.add('footer-open');
+      setTimeout(() => footer.scrollIntoView({ behavior: 'smooth', block: 'end' }), 50);
     }
-
-    function resetView() {
-      chart.style.transform = `translate(0, 0) scale(1)`;
-      posX = 0; posY = 0; scale = 1;
-
-      // Horizontal centering check
-      const vWidth = vp.clientWidth;
-      const cWidth = chart.scrollWidth;
-      if (cWidth > vWidth) {
-        posX = 0; // The flex-center will handle it or we start at 0
-      }
-      applyTransform();
-    }
-
-    window.focusOnNode = (roleName) => {
-      const el = document.querySelector(`[data-role="${roleName}"]`);
-      if (el) {
-        // Expand and center
-        el.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
-
-        // Highlight logic
-        const nodeBody = el.closest('.google-visualization-orgchart-node');
-        if (nodeBody) {
-          nodeBody.style.transition = "all 0.5s ease";
-          nodeBody.style.border = "2px solid var(--p)";
-          nodeBody.style.boxShadow = "0 0 40px var(--p)";
-          nodeBody.style.transform = "scale(1.2)";
-
-          setTimeout(() => {
-            nodeBody.style.boxShadow = "";
-            nodeBody.style.transform = "scale(1)";
-          }, 2000);
-        }
-      }
-    };
-
-    // Pan Functionality
-    let dragging = false, lastX, lastY;
-    vp.onmousedown = (e) => {
-      if (e.target.closest('.org-tools')) return;
-      dragging = true; lastX = e.clientX; lastY = e.clientY;
-    };
-    window.onmouseup = () => dragging = false;
-    window.onmousemove = (e) => {
-      if (!dragging) return;
-      posX += (e.clientX - lastX) / scale;
-      posY += (e.clientY - lastY) / scale;
-      lastX = e.clientX; lastY = e.clientY;
-      applyTransform();
-    };
-
-    vp.onwheel = (e) => {
-      e.preventDefault();
-      adjustZoom(e.deltaY > 0 ? 0.9 : 1.1);
-    };
-
-    setTimeout(resetView, 1200);
   </script>
   <script src="../assets/js/org.js"></script>
 </body>
-
 </html>

@@ -78,7 +78,18 @@
           </ul>
         </li>
 
-        <li class="nav-item"><a class="nav-link" href="/html/org.html">Org Chart</a></li>
+
+        <!-- Org Chart Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="orgDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Org Chart
+          </a>
+          <ul class="dropdown-menu shadow border-0" aria-labelledby="orgDropdown">
+            <li><a class="dropdown-item" href="/html/org.html?source=org_corporate.json">Corporate Structure</a></li>
+            <li><a class="dropdown-item" href="/html/org.html?source=org_indian_political.json">Indian Political Structure</a></li>
+          </ul>
+        </li>
         <li class="nav-item"><a class="nav-link" href="https://rvakr.github.io/#about" target="_blank">About</a></li>
         <li class="nav-item"><a class="nav-link" href="https://rvakr.github.io/#contact" target="_blank">Contact</a>
         </li>
