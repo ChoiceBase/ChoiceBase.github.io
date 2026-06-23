@@ -1,1641 +1,1659 @@
 [
-    {
-        "id": "128",
-        "title": "Taskade",
-        "url": "https://www.taskade.com",
-        "description": "Taskade is an all-in-one collaboration platform that combines task management, note-taking, and video conferencing. It features AI-powered productivity tools such as smart task suggestions, automated meeting notes, and content generation. Ideal for remote teams and individuals looking to streamline their workflow and enhance collaboration.",
-        "tags": [
-            "free",
-            "task management",
-            "collaboration"
-        ]
-    },
-    {
-        "id": "126",
-        "title": "chatGPT (OpenAI)",
-        "url": "https://openai.com/gpt-4o",
-        "description": "OpenAI's latest flagship model with native multimodal capabilities. Processes text, images, and audio simultaneously with unprecedented speed and accuracy. Features real-time voice conversations, advanced coding assistance, and creative generation. Available in ChatGPT Plus and API.",
-        "tags": [
-            "free",
-            "text",
-            "voice",
-            "coding",
-            "creative",
-            "real-time"
-        ]
-    },
-    {
-        "id": "125",
-        "title": "Grok-2 (xAI)",
-        "url": "https://grok.xai",
-        "description": "xAI's advanced AI model with real-time access to X (Twitter) and enhanced reasoning capabilities. Features witty responses, deep understanding of current events, and strong performance on technical and scientific questions. Built for truth-seeking and helpful conversations.",
-        "tags": [
-            "paid",
-            "free",
-            "text",
-            "chatbot",
-            "real-time",
-            "xai",
-            "research",
-            "2024"
-        ]
-    },
-    {
-        "id": "124",
-        "title": "Cursor AI",
-        "url": "https://cursor.sh",
-        "description": "AI-powered code editor built for pair programming with advanced AI capabilities. Features intelligent code completion, refactoring suggestions, natural language code editing, and seamless integration with popular AI models.",
-        "tags": [
-            "paid",
-            "code editor",
-            "ai-powered",
-            "vs code",
-            "ai chat",
-            "code completion",
-            "refactoring",
-            "developer-tools",
-            "2024"
-        ]
-    },
-    {
-        "id": "123",
-        "title": "Replit AI Pro",
-        "url": "https://replit.com/ai",
-        "description": "Advanced AI coding assistant integrated into the Replit platform. Features intelligent code completion, debugging assistance, code explanations, and collaborative coding with AI-powered pair programming capabilities.",
-        "tags": [
-            "paid",
-            "coding",
-            "programming",
-            "education",
-            "debugging",
-            "collaboration",
-            "prototyping",
-            "ai coding",
-            "2024"
-        ]
-    },
-    {
-        "id": "122",
-        "title": "Gemini 2.0 (Google)",
-        "url": "https://gemini.google.com",
-        "description": "Google's next-generation multimodal model released in late 2025. Features ultra-low latency, advanced reasoning, and deep integration with Android 16/17 and Google Workspace. Excels at complex planning, long-context video understanding, and real-time agentic tasks. Available in Pro, Ultra, and Flash variants for diverse use cases.",
-        "tags": [
-            "free",
-            "paid",
-            "multimodal",
-            "video",
-            "agents",
-            "google",
-            "2026"
-        ]
-    },
-    {
-        "id": "120",
-        "title": "Claude AI (Anthropic)",
-        "url": "https://claude.ai",
-        "description": "Anthropic's 2026 flagship model featuring 'Recursive Reasoning' and human-level nuance. Known for its exceptional coding ability and safe agentic capabilities. Introduced a 1-million token context window for massive codebase analysis and research.",
-        "tags": [
-            "free",
-            "coding",
-            "research"
-        ]
-    },
-    {
-        "id": "116",
-        "title": "Stable Diffusion",
-        "url": "https://stability.ai",
-        "description": "Stable Diffusion is an open-source AI image generation model that can run locally on your computer. Available through various interfaces like Automatic1111, ComfyUI, and online services. Features include control over generation parameters, fine-tuning, inpainting, and outpainting. Free and open-source, with commercial options available. Popular among developers, artists, and researchers. Requires technical knowledge for local setup but offers maximum control and privacy.",
-        "tags": [
-            "free",
-            "open-source",
-            "paid",
-            "image generation",
-            "art",
-            "local",
-            "customizable",
-            "ai art"
-        ]
-    },
-    {
-        "id": "115",
-        "title": "GitHub Copilot",
-        "url": "https://github.com/features/copilot",
-        "description": "GitHub Copilot is an AI pair programmer that suggests code completions in real-time as you type. Powered by OpenAI's Codex, it understands context and suggests entire functions, tests, and documentation. Works in VS Code, JetBrains IDEs, Neovim, and more. Features include chat interface (Copilot Chat), inline suggestions, and multi-language support. Subscription-based. Used by millions of developers to write code faster and learn new patterns. Free for students and open-source maintainers.",
-        "tags": [
-            "paid",
-            "free",
-            "coding",
-            "programming",
-            "ide",
-            "developer tools",
-            "code completion",
-            "productivity"
-        ]
-    },
-    {
-        "id": "114",
-        "title": "Hugging Face",
-        "url": "https://huggingface.co",
-        "description": "Hugging Face is the leading platform for AI models, datasets, and ML applications. Features include model hosting, Spaces (deploy AI apps), Transformers library, and Inference API. Free access to thousands of open-source models. Used by researchers, developers, and companies. Perfect for experimenting with AI models, building AI applications, and accessing state-of-the-art models. Community-driven with extensive documentation and tutorials.",
-        "tags": [
-            "free",
-            "open-source",
-            "paid",
-            "models",
-            "ml",
-            "developers",
-            "research",
-            "api"
-        ]
-    },
-    {
-        "id": "112",
-        "title": "Google Gemini (formerly Bard)",
-        "url": "https://gemini.google.com",
-        "description": "Google Gemini is Google's advanced AI assistant powered by the Gemini model. It provides real-time information from Google Search, supports image analysis, code generation, and multi-language conversations. Features include integration with Google Workspace, voice input, and export to Google Docs/Gmail. Free to use with Google account. Excellent for research, coding help, content creation, and accessing up-to-date information.",
-        "tags": [
-            "free",
-            "text",
-            "chatbot",
-            "search engine",
-            "coding",
-            "multimodal",
-            "google",
-            "research"
-        ]
-    },
-    {
-        "id": "111",
-        "title": "Flux.1 (Black Forest Labs)",
-        "url": "https://blackforestlabs.ai",
-        "description": "A state-of-the-art open-weights image generation model that rivals Midjourney in quality. Features excellent text rendering, photorealism, and prompt adherence. Available for local deployment and through various API providers.",
-        "tags": [
-            "free",
-            "open-weight",
-            "paid",
-            "image generation",
-            "art",
-            "photorealism"
-        ]
-    },
-    {
-        "id": "110",
-        "title": "Midjourney",
-        "url": "https://www.midjourney.com",
-        "description": "Midjourney is a leading AI image generation tool known for creating highly artistic and photorealistic images. Accessible through Discord, it uses advanced diffusion models to generate stunning visuals from text prompts. Features include style control, upscaling, variations, and remix modes. Subscription-based pricing. Popular among artists, designers, marketers, and content creators. Known for producing more artistic and stylized images compared to DALL-E.",
-        "tags": [
-            "paid",
-            "subscription",
-            "image generation",
-            "art",
-            "design",
-            "creative",
-            "ai art",
-            "discord"
-        ]
-    },
-    {
-        "id": "109",
-        "title": "Bing Chat (Copilot)",
-        "url": "https://www.bing.com/chat",
-        "description": "Bing Chat is Microsoft's AI-powered search assistant integrated into Bing search engine. Powered by GPT-4, it provides real-time web search results, image generation with DALL-E 3, and conversational AI. Features include citation of sources, image analysis, code generation, and free access with Microsoft account. No subscription required. Ideal for research, current events, coding assistance, and creative tasks.",
-        "tags": [
-            "free",
-            "text",
-            "search engine",
-            "programming",
-            "coding",
-            "image generation",
-            "research",
-            "multimodal"
-        ]
-    },
-    {
-        "id": "108",
-        "title": "ChatGPT Plus",
-        "url": "https://www.chatgpt.com",
-        "description": "ChatGPT Plus provides enhanced features and capabilities for ChatGPT, offering advanced functionalities for users seeking more from their AI interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "enhanced features",
-            "customer support"
-        ]
-    },
-    {
-        "id": "107",
-        "title": "Runway ML",
-        "url": "https://runwayml.com",
-        "description": "Runway ML is a creative AI suite for video and image generation. Features include Gen-2 video generation from text/images, image-to-video, video editing with AI, background removal, and motion tracking. Used by filmmakers, content creators, and designers. Subscription-based with free tier. Known for high-quality video generation and professional editing tools. Popular for creating AI-generated videos, animations, and visual effects.",
-        "tags": [
-            "paid",
-            "free",
-            "video generation",
-            "image generation",
-            "video editing",
-            "creative",
-            "ai video",
-            "film"
-        ]
-    },
-    {
-        "id": "106",
-        "title": "ElevenLabs",
-        "url": "https://elevenlabs.io",
-        "description": "ElevenLabs is an AI voice synthesis platform that creates natural, human-like voiceovers. Features include text-to-speech in multiple languages, voice cloning, voice library, and API access. Used for audiobooks, podcasts, video narration, and accessibility. Free tier with limited characters, paid plans for commercial use. Known for the most natural-sounding AI voices available. Popular among content creators, developers, and businesses.",
-        "tags": [
-            "paid",
-            "free",
-            "audio",
-            "text-to-speech",
-            "voice cloning",
-            "ai voice",
-            "narration"
-        ]
-    },
-    {
-        "id": "105",
-        "title": "Character.AI",
-        "url": "https://character.ai",
-        "description": "Character.AI allows users to create and chat with AI characters, including historical figures, fictional characters, and custom personalities. Features include character creation, group chats, voice features, and community characters. Free to use with premium features. Popular for entertainment, roleplay, language learning, and creative writing. Known for engaging, personality-driven conversations. Used by millions for fun and educational purposes.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "chatbot",
-            "entertainment",
-            "roleplay",
-            "creative",
-            "characters"
-        ]
-    },
-    {
-        "id": "104",
-        "title": "Cursor",
-        "url": "https://cursor.sh",
-        "description": "Cursor is an AI-powered code editor built for pair programming with AI. Features include AI chat, code completion, refactoring, and natural language code editing. Based on VS Code with enhanced AI capabilities. Subscription-based. Popular among developers for its advanced AI coding features. Known for understanding codebase context and providing intelligent suggestions. Free trial available.",
-        "tags": [
-            "paid",
-            "coding",
-            "ide",
-            "programming",
-            "developer tools",
-            "ai coding",
-            "productivity"
-        ]
-    },
-    {
-        "id": "103",
-        "title": "Leonardo.AI",
-        "url": "https://leonardo.ai",
-        "description": "Leonardo.AI is an AI image generation platform with advanced features for game assets, product images, and creative projects. Features include model training, image-to-image, control over style, and commercial licensing. Free tier with daily credits, paid plans for more. Popular among game developers, designers, and marketers. Known for high-quality outputs and fine-grained control over generation parameters.",
-        "tags": [
-            "free",
-            "paid",
-            "image generation",
-            "game assets",
-            "design",
-            "commercial",
-            "ai art"
-        ]
-    },
-    {
-        "id": "102",
-        "title": "Botpress",
-        "url": "https://www.botpress.com",
-        "description": "Botpress is an open-source platform for building and managing AI chatbots, providing tools for creating advanced conversational experiences.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "ai chatbot",
-            "open-source"
-        ]
-    },
-    {
-        "id": "101",
-        "title": "Gamma",
-        "url": "https://gamma.app",
-        "description": "Gamma is an AI-powered presentation and document generator. Creates beautiful presentations, documents, and web pages from simple prompts. Features include automatic design, templates, real-time collaboration, and export options. Free tier available, paid for advanced features. Perfect for quickly creating professional presentations, reports, and documents. Used by teams, educators, and professionals for fast content creation.",
-        "tags": [
-            "free",
-            "paid",
-            "presentations",
-            "documents",
-            "design",
-            "productivity",
-            "business"
-        ]
-    },
-    {
-        "id": "100",
-        "title": "Perplexity AI",
-        "url": "https://www.perplexity.ai",
-        "description": "Advanced AI-powered search and research assistant with access to real-time information, academic papers, and comprehensive analysis. Features file uploads, advanced search modes, and integration with multiple AI models for enhanced research capabilities.",
-        "tags": [
-            "free",
-            "text",
-            "search",
-            "chatbot",
-            "information",
-            "q&a"
-        ]
-    },
-    {
-        "id": "99",
-        "title": "Luma AI (Dream Machine)",
-        "url": "https://lumalabs.ai",
-        "description": "Luma AI offers Dream Machine for high-quality AI video generation from text and images. Features include realistic video generation, image-to-video, and 3D scene generation. Free tier with limited generations, paid for more. Known for producing smooth, realistic videos. Popular among content creators, marketers, and filmmakers. Used for creating video content, animations, and visual effects.",
-        "tags": [
-            "free",
-            "paid",
-            "video generation",
-            "3d",
-            "creative",
-            "ai video",
-            "content creation"
-        ]
-    },
-    {
-        "id": "98",
-        "title": "Notion AI",
-        "url": "https://www.notion.so/product/ai",
-        "description": "Notion AI integrates AI writing assistance directly into Notion workspace. Features include content generation, summarization, translation, brainstorming, and editing. Helps with writing docs, meeting notes, blog posts, and more within Notion. Available as add-on to Notion plans. Seamlessly integrates with Notion's database, pages, and collaboration features. Perfect for teams using Notion for documentation and project management.",
-        "tags": [
-            "paid",
-            "text",
-            "writing",
-            "productivity",
-            "notion",
-            "workspace",
-            "collaboration"
-        ]
-    },
-    {
-        "id": "97",
-        "title": "Microsoft Copilot",
-        "url": "https://copilot.microsoft.com/",
-        "description": "Microsoft Copilot is an AI-powered assistant integrated across Microsoft 365 applications. It helps with coding, writing, data analysis, and productivity tasks. Features include code generation, document summarization, email drafting, and Excel formula suggestions. Available in Visual Studio Code, Word, Excel, PowerPoint, and Outlook. Free tier available with premium features for Microsoft 365 subscribers.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "programming",
-            "productivity",
-            "coding",
-            "office",
-            "assistant"
-        ]
-    },
-    {
-        "id": "96",
-        "title": "Rasa",
-        "url": "https://www.rasa.com",
-        "description": "Rasa is an open-source framework for developing AI chatbots and conversational agents, offering flexibility and control over chatbot functionality.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "ai chatbot",
-            "open-source"
-        ]
-    },
-    {
-        "id": "95",
-        "title": "Jasper AI",
-        "url": "https://www.jasper.ai",
-        "description": "Jasper AI is an AI writing assistant that helps users create content, from blog posts to marketing copy. It's known for its ability to generate high-quality text with minimal input.",
-        "tags": [
-            "paid",
-            "text",
-            "writing",
-            "content creation",
-            "marketing"
-        ]
-    },
-    {
-        "id": "94",
-        "title": "Character AI",
-        "url": "https://www.character.ai",
-        "description": "Character AI lets users create and interact with AI-driven characters. It’s designed for entertainment and educational purposes, allowing for creative and interactive experiences.",
-        "tags": [
-            "free",
-            "text",
-            "chatbot",
-            "entertainment",
-            "roleplay"
-        ]
-    },
-    {
-        "id": "93",
-        "title": "Cleverbot",
-        "url": "https://www.cleverbot.com",
-        "description": "Cleverbot is an AI chatbot that engages users in conversations, learning from interactions to provide more human-like responses over time.",
-        "tags": [
-            "free",
-            "text",
-            "chatbot",
-            "lifestyle"
-        ]
-    },
-    {
-        "id": "92",
-        "title": "DeepL Write",
-        "url": "https://www.deepl.com/write",
-        "description": "DeepL Write is an AI writing tool that helps users improve their writing, whether it's for translations or creating content in multiple languages.",
-        "tags": [
-            "free",
-            "text",
-            "translation",
-            "writing",
-            "proofreading"
-        ]
-    },
-    {
-        "id": "91",
-        "title": "Flair",
-        "url": "https://www.flair.ai",
-        "description": "Flair offers AI-powered content generation tools that assist with writing and programming tasks, aiming to enhance productivity and creativity.",
-        "tags": [
-            "free",
-            "text",
-            "ai writing",
-            "content generation",
-            "programming"
-        ]
-    },
-    {
-        "id": "90",
-        "title": "Kuki",
-        "url": "https://www.kuki.ai",
-        "description": "Kuki (formerly known as Mitsuku) is a conversational AI chatbot designed for engaging interactions and entertainment.",
-        "tags": [
-            "free",
-            "text",
-            "chatbot",
-            "entertainment",
-            "ai assistant"
-        ]
-    },
-    {
-        "id": "89",
-        "title": "Poe by Quora",
-        "url": "https://chatgpt.pandora.vip",
-        "description": "Poe by Quora is a chatbot that allows users to interact with various AI models, including GPT-3, to answer questions, generate content, and explore different topics.",
-        "tags": [
-            "free",
-            "text",
-            "chatbot",
-            "q&a",
-            "multi-model"
-        ]
-    },
-    {
-        "id": "88",
-        "title": "Replika",
-        "url": "https://www.replika.ai",
-        "description": "Replika is an AI chatbot designed to provide emotional support and companionship, helping users with mental health and personal growth.",
-        "tags": [
-            "free",
-            "text",
-            "chatbot",
-            "mental health",
-            "companionship"
-        ]
-    },
-    {
-        "id": "87",
-        "title": "Wit.ai",
-        "url": "https://wit.ai",
-        "description": "Wit.ai provides AI-powered natural language processing and speech recognition tools, enabling developers to create intelligent conversational applications.",
-        "tags": [
-            "free",
-            "text",
-            "ai chatbot",
-            "speech recognition",
-            "natural language processing"
-        ]
-    },
-    {
-        "id": "86",
-        "title": "Figma AI",
-        "url": "https://www.figma.com",
-        "description": "Figma's AI features help designers create faster with AI-powered design tools. Features include AI-generated designs, component suggestions, layout generation, and design variations. Integrated into Figma's design platform. Subscription-based. Perfect for UI/UX designers looking to speed up their workflow. Helps with rapid prototyping, design exploration, and repetitive tasks.",
-        "tags": [
-            "paid",
-            "design",
-            "ui/ux",
-            "prototyping",
-            "productivity",
-            "figma"
-        ]
-    },
-    {
-        "id": "85",
-        "title": "Pandorabots",
-        "url": "https://www.pandorabots.com",
-        "description": "Pandorabots provides a platform for building and deploying AI chatbots with advanced conversation design capabilities and natural language processing.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "ai chatbot",
-            "conversation design"
-        ]
-    },
-    {
-        "id": "84",
-        "title": "AI Writing Assistant",
-        "url": "https://www.aiwritingassistant.com",
-        "description": "AI Writing Assistant helps users generate and refine written content using AI, focusing on improving writing quality and productivity.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "writing",
-            "content creation"
-        ]
-    },
-    {
-        "id": "83",
-        "title": "Chatbot.com",
-        "url": "https://www.chatbot.com",
-        "description": "Chatbot.com offers AI-powered chatbot solutions for customer support, sales, and engagement, with a focus on ease of use and integration.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer support"
-        ]
-    },
-    {
-        "id": "82",
-        "title": "Comet",
-        "url": "https://www.comet.ml",
-        "description": "Comet provides tools for tracking and managing machine learning experiments, helping researchers and developers improve their models.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "ai research",
-            "machine learning"
-        ]
-    },
-    {
-        "id": "81",
-        "title": "Copy.ai",
-        "url": "https://www.copy.ai",
-        "description": "Copy.ai is an AI tool that helps users generate marketing copy, product descriptions, and content for social media. It's designed for businesses looking to streamline their content creation.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "writing",
-            "marketing",
-            "e-commerce"
-        ]
-    },
-    {
-        "id": "80",
-        "title": "Dialogflow",
-        "url": "https://dialogflow.cloud.google.com",
-        "description": "Dialogflow is a Google-powered AI tool for building conversational interfaces, including chatbots and voice assistants, with natural language processing capabilities.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "ai chatbot",
-            "conversation design"
-        ]
-    },
-    {
-        "id": "79",
-        "title": "Hyperwrite",
-        "url": "https://www.hyperwrite.ai",
-        "description": "Hyperwrite uses AI to assist with writing tasks, providing tools for generating content, brainstorming, and improving writing quality.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "ai writing",
-            "content creation"
-        ]
-    },
-    {
-        "id": "78",
-        "title": "Jina",
-        "url": "https://www.jina.ai",
-        "description": "Jina offers an AI-based search engine platform, focusing on creating intelligent search capabilities and integrating machine learning for better results.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "ai search",
-            "machine learning"
-        ]
-    },
-    {
-        "id": "77",
-        "title": "Lumen5",
-        "url": "https://www.lumen5.com",
-        "description": "Lumen5 is an AI-powered video creation tool that converts text into engaging videos, ideal for marketing, social media, and content creation.",
-        "tags": [
-            "free",
-            "paid",
-            "video",
-            "ai video",
-            "content creation"
-        ]
-    },
-    {
-        "id": "76",
-        "title": "Rytr",
-        "url": "https://www.rytr.me",
-        "description": "Rytr is an AI writing assistant that helps users generate content quickly. It’s designed for copywriting, blogging, and other writing tasks, with a focus on ease of use and efficiency.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "writing",
-            "copywriting",
-            "content creation"
-        ]
-    },
-    {
-        "id": "75",
-        "title": "Veed.io",
-        "url": "https://www.veed.io",
-        "description": "Veed.io is an AI-powered video editing tool that simplifies the creation and editing of videos for various purposes, including social media and marketing.",
-        "tags": [
-            "free",
-            "paid",
-            "video",
-            "ai video",
-            "editing"
-        ]
-    },
-    {
-        "id": "74",
-        "title": "Writesonic",
-        "url": "https://www.writesonic.com",
-        "description": "Writesonic is an AI writer that helps generate articles, ads, and product descriptions. It’s known for its versatility and ability to create high-quality content across different formats.",
-        "tags": [
-            "free",
-            "paid",
-            "text",
-            "writing",
-            "marketing",
-            "content creation"
-        ]
-    },
-    {
-        "id": "73",
-        "title": "AI Writer",
-        "url": "https://www.aiwriter.io",
-        "description": "AI Writer provides AI-powered tools for content creation and writing, assisting users in generating high-quality material with advanced AI capabilities.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "content creation",
-            "programming"
-        ]
-    },
-    {
-        "id": "72",
-        "title": "AI21 Labs",
-        "url": "https://www.ai21.com",
-        "description": "AI21 Labs provides advanced AI writing tools that focus on generating high-quality text and assisting with various writing tasks.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "content generation"
-        ]
-    },
-    {
-        "id": "71",
-        "title": "Analyze AI",
-        "url": "https://www.analyze.ai",
-        "description": "Analyze AI offers advanced analytics tools that leverage AI to provide actionable insights and improve business decision-making.",
-        "tags": [
-            "paid",
-            "text",
-            "ai analytics",
-            "business",
-            "data insights"
-        ]
-    },
-    {
-        "id": "70",
-        "title": "Brain AI",
-        "url": "https://www.brain.ai",
-        "description": "Brain AI provides advanced writing and content generation tools, leveraging AI to assist with various writing and programming tasks.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "content generation",
-            "programming"
-        ]
-    },
-    {
-        "id": "69",
-        "title": "Descript",
-        "url": "https://www.descript.com",
-        "description": "Descript is a powerful AI-based video and audio editing tool. It's used for creating podcasts, videos, and other multimedia content with ease.",
-        "tags": [
-            "paid",
-            "video",
-            "audio",
-            "editing",
-            "content creation"
-        ]
-    },
-    {
-        "id": "68",
-        "title": "Elevate AI",
-        "url": "https://www.elevate.ai",
-        "description": "Elevate AI offers chatbot solutions designed to enhance customer support and business processes through advanced AI technologies.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "business",
-            "customer support"
-        ]
-    },
-    {
-        "id": "67",
-        "title": "Eleven Labs",
-        "url": "https://www.elevenlabs.io",
-        "description": "Eleven Labs offers advanced text-to-speech solutions with realistic AI voices for creating engaging audio content.",
-        "tags": [
-            "paid",
-            "audio",
-            "text-to-speech",
-            "ai voice",
-            "content creation"
-        ]
-    },
-    {
-        "id": "66",
-        "title": "NeuralBot",
-        "url": "https://www.neuralbot.io",
-        "description": "NeuralBot offers AI chatbot solutions designed for customer support and business automation, utilizing advanced AI to enhance user interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer support",
-            "business"
-        ]
-    },
-    {
-        "id": "65",
-        "title": "Riva",
-        "url": "https://www.riva.ai",
-        "description": "Riva provides advanced AI tools for writing and content creation, focusing on improving productivity and creativity across various domains.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "content creation",
-            "programming"
-        ]
-    },
-    {
-        "id": "64",
-        "title": "Scripts AI",
-        "url": "https://www.scripts.ai",
-        "description": "Scripts AI provides AI tools for screenwriting and content creation, helping users generate and refine scripts and written material with advanced AI assistance.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "content creation",
-            "screenwriting"
-        ]
-    },
-    {
-        "id": "63",
-        "title": "Synthesia",
-        "url": "https://www.synthesia.io",
-        "description": "Synthesia is an AI video generation platform that allows users to create professional videos using AI avatars and voiceovers. It's ideal for marketing, e-learning, and content creation.",
-        "tags": [
-            "paid",
-            "video",
-            "ai video",
-            "content creation",
-            "e-learning"
-        ]
-    },
-    {
-        "id": "62",
-        "title": "Unified AI",
-        "url": "https://www.unified.ai",
-        "description": "Unified AI offers comprehensive chatbot solutions designed to streamline customer support and enhance business processes through intelligent automation.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "business",
-            "customer support"
-        ]
-    },
-    {
-        "id": "61",
-        "title": "4D AI",
-        "url": "https://www.4d.ai",
-        "description": "4D AI provides AI chatbot and automation solutions aimed at improving customer support and business processes through intelligent interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer support",
-            "automation"
-        ]
-    },
-    {
-        "id": "60",
-        "title": "AI Muse",
-        "url": "https://www.ai-muse.com",
-        "description": "AI Muse offers AI-powered writing assistance, helping users with creative writing, brainstorming, and generating new ideas for various projects.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "creative writing",
-            "inspiration"
-        ]
-    },
-    {
-        "id": "59",
-        "title": "AI Music",
-        "url": "https://www.ai-music.com",
-        "description": "AI Music provides AI-driven music composition services, allowing users to create tailored music tracks for different media and personal use.",
-        "tags": [
-            "paid",
-            "audio",
-            "ai music",
-            "composition",
-            "customization"
-        ]
-    },
-    {
-        "id": "58",
-        "title": "AI Writer",
-        "url": "https://www.ai-writer.com",
-        "description": "AI Writer provides AI-generated content for articles, blog posts, and SEO purposes, focusing on high-quality and coherent writing.",
-        "tags": [
-            "paid",
-            "text",
-            "writing",
-            "content generation",
-            "seo"
-        ]
-    },
-    {
-        "id": "57",
-        "title": "Aiva",
-        "url": "https://www.aiva.ai",
-        "description": "Aiva is an AI-powered music composition tool that creates original music based on user input, suitable for content creators, filmmakers, and game developers.",
-        "tags": [
-            "paid",
-            "audio",
-            "ai music",
-            "composition",
-            "content creation"
-        ]
-    },
-    {
-        "id": "56",
-        "title": "Aivo",
-        "url": "https://www.aivo.co",
-        "description": "Aivo offers AI-powered customer support chatbots designed to provide fast and efficient service through text-based interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "chatbot",
-            "customer service",
-            "ai support"
-        ]
-    },
-    {
-        "id": "55",
-        "title": "Andy AI",
-        "url": "https://www.andy.ai",
-        "description": "Andy AI offers personal assistant and chatbot solutions designed to enhance productivity and automate various tasks and interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "personal assistant",
-            "productivity"
-        ]
-    },
-    {
-        "id": "54",
-        "title": "Aryel",
-        "url": "https://www.aryel.io",
-        "description": "Aryel offers AI chatbot solutions focused on customer engagement and marketing, providing tools for interactive and personalized user experiences.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer engagement",
-            "marketing"
-        ]
-    },
-    {
-        "id": "53",
-        "title": "Ask Mona",
-        "url": "https://www.askmona.com",
-        "description": "Ask Mona provides AI-driven chatbot solutions for customer support and business applications, focusing on improving efficiency and user experience.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer support",
-            "business"
-        ]
-    },
-    {
-        "id": "52",
-        "title": "Aurora",
-        "url": "https://www.aurora.ai",
-        "description": "Aurora offers AI chatbot solutions designed to improve business interactions and customer support with intelligent automation.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "business",
-            "customer support"
-        ]
-    },
-    {
-        "id": "51",
-        "title": "Automata",
-        "url": "https://www.automata.tech",
-        "description": "Automata delivers AI-powered chatbots and automation solutions for businesses to streamline operations and enhance customer interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "chatbot",
-            "automation",
-            "business"
-        ]
-    },
-    {
-        "id": "50",
-        "title": "BrightAI",
-        "url": "https://www.brightai.com",
-        "description": "BrightAI provides AI-powered writing tools for content creation and programming, designed to enhance productivity and creativity.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "content creation",
-            "programming"
-        ]
-    },
-    {
-        "id": "49",
-        "title": "Chatbase",
-        "url": "https://www.chatbase.co",
-        "description": "Chatbase provides AI chatbot analytics and optimization tools, helping businesses analyze chatbot performance and improve customer interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "analytics",
-            "customer support"
-        ]
-    },
-    {
-        "id": "48",
-        "title": "Cogito",
-        "url": "https://www.cogito.ai",
-        "description": "Cogito provides AI-driven solutions for enhancing customer support interactions, using analytics to improve communication and service quality.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer support",
-            "analytics"
-        ]
-    },
-    {
-        "id": "47",
-        "title": "ContentBot",
-        "url": "https://www.contentbot.ai",
-        "description": "ContentBot offers AI-driven content generation tools for creating marketing copy, blog posts, and other types of written content.",
-        "tags": [
-            "paid",
-            "text",
-            "writing",
-            "content creation",
-            "marketing"
-        ]
-    },
-    {
-        "id": "46",
-        "title": "Contxt",
-        "url": "https://www.contxt.ai",
-        "description": "Contxt provides AI-driven chatbot solutions for automating customer support and business processes, focusing on improving efficiency and customer satisfaction.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer support",
-            "automation"
-        ]
-    },
-    {
-        "id": "45",
-        "title": "Copysmith",
-        "url": "https://www.copysmith.ai",
-        "description": "Copysmith is an AI-powered tool that generates marketing copy, product descriptions, and other types of content. It's designed to help businesses and marketers create content efficiently.",
-        "tags": [
-            "paid",
-            "text",
-            "writing",
-            "marketing",
-            "e-commerce"
-        ]
-    },
-    {
-        "id": "44",
-        "title": "Cortexica",
-        "url": "https://www.cortexica.com",
-        "description": "Cortexica provides AI-driven image recognition and insights for businesses, enhancing visual search and content understanding.",
-        "tags": [
-            "paid",
-            "text",
-            "image recognition",
-            "ai insights",
-            "business"
-        ]
-    },
-    {
-        "id": "43",
-        "title": "Diachat",
-        "url": "https://www.diachat.ai",
-        "description": "Diachat offers AI-powered chatbot solutions aimed at automating customer service and business interactions, enhancing overall efficiency.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer service",
-            "automation"
-        ]
-    },
-    {
-        "id": "42",
-        "title": "Echo",
-        "url": "https://www.echo.ai",
-        "description": "Echo provides AI-driven chatbot solutions for enhancing customer support and automating business processes with intelligent interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer support",
-            "business"
-        ]
-    },
-    {
-        "id": "41",
-        "title": "Ellie AI",
-        "url": "https://www.ellie.ai",
-        "description": "Ellie AI offers tools for creative writing and content generation, using AI to assist with various writing tasks and enhance overall creativity.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "creative writing",
-            "content generation"
-        ]
-    },
-    {
-        "id": "40",
-        "title": "Gong",
-        "url": "https://www.gong.io",
-        "description": "Gong uses AI to analyze sales conversations and customer interactions, providing insights to improve sales performance and customer engagement.",
-        "tags": [
-            "paid",
-            "text",
-            "ai analysis",
-            "sales",
-            "customer interactions"
-        ]
-    },
-    {
-        "id": "39",
-        "title": "IBM Watson",
-        "url": "https://www.ibm.com/watson",
-        "description": "IBM Watson offers a suite of AI tools for business, including chatbots, data analysis, and natural language processing to enhance various business applications.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "programming",
-            "business"
-        ]
-    },
-    {
-        "id": "38",
-        "title": "Inkforal",
-        "url": "https://www.inkforal.com",
-        "description": "Inkforal offers AI tools for writing and SEO, helping users create optimized content that ranks well on search engines and engages readers.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "content creation",
-            "seo"
-        ]
-    },
-    {
-        "id": "37",
-        "title": "Kairos",
-        "url": "https://www.kairos.com",
-        "description": "Kairos provides AI tools for facial recognition and emotion detection, in addition to chatbot solutions for enhancing user interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "face recognition",
-            "emotion detection"
-        ]
-    },
-    {
-        "id": "36",
-        "title": "Leyla AI",
-        "url": "https://www.leyla.ai",
-        "description": "Leyla AI offers AI-powered personal assistant services to help users with scheduling, reminders, and productivity enhancements.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "personal assistant",
-            "productivity"
-        ]
-    },
-    {
-        "id": "35",
-        "title": "Lucidworks",
-        "url": "https://www.lucidworks.com",
-        "description": "Lucidworks offers AI-driven search and data analytics solutions, using machine learning to enhance search capabilities and data insights for businesses.",
-        "tags": [
-            "paid",
-            "text",
-            "ai search",
-            "data analytics",
-            "machine learning"
-        ]
-    },
-    {
-        "id": "34",
-        "title": "Lumin",
-        "url": "https://www.lumin.ai",
-        "description": "Lumin offers AI-powered writing tools for creative content generation and storytelling, focusing on enhancing writing quality and originality.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "creative writing",
-            "content generation"
-        ]
-    },
-    {
-        "id": "33",
-        "title": "Microsoft Azure AI",
-        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/",
-        "description": "Microsoft Azure AI provides a range of AI services, including chatbots, machine learning, and natural language processing, to help businesses develop intelligent solutions.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "programming",
-            "business"
-        ]
-    },
-    {
-        "id": "32",
-        "title": "Muse",
-        "url": "https://www.muse.ai",
-        "description": "Muse provides AI tools for creative writing and content generation, helping users craft engaging and original written material.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "creative writing",
-            "content generation"
-        ]
-    },
-    {
-        "id": "31",
-        "title": "Narrative",
-        "url": "https://www.narrative.ai",
-        "description": "Narrative uses AI to assist with storytelling and content creation, providing tools for writing and generating engaging narratives.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "storytelling",
-            "content creation"
-        ]
-    },
-    {
-        "id": "30",
-        "title": "NovelAI",
-        "url": "https://www.novelai.net",
-        "description": "NovelAI is an AI storytelling tool that helps users generate creative writing content. It’s popular among writers for generating fiction and exploring creative ideas.",
-        "tags": [
-            "paid",
-            "text",
-            "writing",
-            "storytelling",
-            "creative writing"
-        ]
-    },
-    {
-        "id": "29",
-        "title": "Orca AI",
-        "url": "https://www.orca.ai",
-        "description": "Orca AI provides AI-driven chatbots and virtual assistants for businesses, focusing on improving customer support and automating interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "business",
-            "customer support"
-        ]
-    },
-    {
-        "id": "28",
-        "title": "Otsuka AI",
-        "url": "https://www.otsuka.com",
-        "description": "Otsuka AI focuses on providing AI chatbot solutions for the healthcare industry, offering patient support and enhancing healthcare services.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "healthcare",
-            "customer support"
-        ]
-    },
-    {
-        "id": "27",
-        "title": "Play.ht",
-        "url": "https://www.play.ht",
-        "description": "Play.ht is an AI-powered text-to-speech tool that converts written content into realistic human voiceovers. It's used for podcasts, audiobooks, and other audio content.",
-        "tags": [
-            "paid",
-            "audio",
-            "text-to-speech",
-            "ai voice",
-            "content creation"
-        ]
-    },
-    {
-        "id": "26",
-        "title": "Queria",
-        "url": "https://www.queria.ai",
-        "description": "Queria specializes in AI chatbots for business applications, providing solutions for customer support, sales, and engagement.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer support",
-            "business"
-        ]
-    },
-    {
-        "id": "25",
-        "title": "Rephrase.ai",
-        "url": "https://www.rephrase.ai",
-        "description": "Rephrase.ai uses AI to create personalized video messages for marketing and communication purposes, allowing for dynamic content tailored to individual viewers.",
-        "tags": [
-            "paid",
-            "video",
-            "ai video",
-            "personalization",
-            "marketing"
-        ]
-    },
-    {
-        "id": "24",
-        "title": "Scenario",
-        "url": "https://www.scenario.ai",
-        "description": "Scenario offers AI-driven chatbot solutions for customer engagement and business automation, focusing on creating interactive and personalized experiences.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer engagement",
-            "business"
-        ]
-    },
-    {
-        "id": "23",
-        "title": "Scribe",
-        "url": "https://www.scribe.ai",
-        "description": "Scribe offers AI-powered transcription and writing tools to help users convert speech to text and generate content efficiently.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "transcription",
-            "content creation"
-        ]
-    },
-    {
-        "id": "22",
-        "title": "Scribe AI",
-        "url": "https://www.scribe.ai",
-        "description": "Scribe AI offers tools for content creation and transcription, helping users generate and refine written material with AI assistance.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "content creation",
-            "transcription"
-        ]
-    },
-    {
-        "id": "21",
-        "title": "Smith.ai",
-        "url": "https://www.smith.ai",
-        "description": "Smith.ai offers virtual assistant services with AI-powered chatbots to handle customer inquiries, schedule meetings, and provide support.",
-        "tags": [
-            "paid",
-            "text",
-            "chatbot",
-            "virtual assistant",
-            "customer support"
-        ]
-    },
-    {
-        "id": "20",
-        "title": "Sparc",
-        "url": "https://www.sparc.ai",
-        "description": "Sparc offers AI chatbot and customer engagement solutions designed to enhance business interactions and automate support processes.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "business",
-            "customer engagement"
-        ]
-    },
-    {
-        "id": "19",
-        "title": "SpeechGen",
-        "url": "https://www.speechgen.io",
-        "description": "SpeechGen provides AI-powered text-to-speech solutions, allowing users to convert written content into realistic audio for various applications.",
-        "tags": [
-            "paid",
-            "audio",
-            "ai speech",
-            "text-to-speech",
-            "content creation"
-        ]
-    },
-    {
-        "id": "18",
-        "title": "Speechly",
-        "url": "https://www.speechly.com",
-        "description": "Speechly provides AI-based speech recognition and transcription services, enhancing communication and accessibility for various applications.",
-        "tags": [
-            "paid",
-            "audio",
-            "speech recognition",
-            "ai assistant",
-            "transcription"
-        ]
-    },
-    {
-        "id": "17",
-        "title": "Studio AI",
-        "url": "https://www.studio.ai",
-        "description": "Studio AI provides AI-driven writing tools designed for creating high-quality marketing content, blog posts, and other types of written material.",
-        "tags": [
-            "paid",
-            "text",
-            "ai writing",
-            "content creation",
-            "marketing"
-        ]
-    },
-    {
-        "id": "16",
-        "title": "Talkdesk",
-        "url": "https://www.talkdesk.com",
-        "description": "Talkdesk provides an AI-driven customer service platform with features like intelligent call routing, chatbots, and analytics.",
-        "tags": [
-            "paid",
-            "text",
-            "audio",
-            "customer service",
-            "ai assistant"
-        ]
-    },
-    {
-        "id": "15",
-        "title": "Talks",
-        "url": "https://www.talks.io",
-        "description": "Talks provides AI-driven chatbot services focused on enhancing customer engagement and automating business communications.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer engagement",
-            "automation"
-        ]
-    },
-    {
-        "id": "14",
-        "title": "Tars",
-        "url": "https://www.tars.com",
-        "description": "Tars offers AI chatbot solutions focused on lead generation and customer support, providing tools for creating effective conversational experiences.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "lead generation",
-            "customer support"
-        ]
-    },
-    {
-        "id": "13",
-        "title": "Trilio",
-        "url": "https://www.trilio.io",
-        "description": "Trilio provides AI chatbot services designed to improve customer support and automate business processes through intelligent interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "business",
-            "customer support"
-        ]
-    },
-    {
-        "id": "12",
-        "title": "Trint",
-        "url": "https://www.trint.com",
-        "description": "Trint offers AI-powered transcription services that convert audio and video recordings into editable text, enhancing accessibility and content creation.",
-        "tags": [
-            "paid",
-            "audio",
-            "transcription",
-            "ai transcription",
-            "content creation"
-        ]
-    },
-    {
-        "id": "11",
-        "title": "Vidnami",
-        "url": "https://www.vidnami.com",
-        "description": "Vidnami provides AI-driven video creation tools that help users produce marketing videos, social media content, and other visual media quickly and effectively.",
-        "tags": [
-            "paid",
-            "video",
-            "ai video",
-            "content creation",
-            "marketing"
-        ]
-    },
-    {
-        "id": "10",
-        "title": "Vidnoz",
-        "url": "https://www.vidnoz.com",
-        "description": "Vidnoz offers AI-driven video creation and personalization tools, enabling users to produce customized videos for various marketing and communication needs.",
-        "tags": [
-            "paid",
-            "video",
-            "ai video",
-            "content creation",
-            "personalization"
-        ]
-    },
-    {
-        "id": "9",
-        "title": "Vidyard",
-        "url": "https://www.vidyard.com",
-        "description": "Vidyard offers AI-powered video tools for marketing and content creation, helping businesses create engaging video content and analyze viewer interactions.",
-        "tags": [
-            "paid",
-            "video",
-            "ai video",
-            "marketing",
-            "content creation"
-        ]
-    },
-    {
-        "id": "8",
-        "title": "Voicebot",
-        "url": "https://www.voicebot.ai",
-        "description": "Voicebot provides AI-powered voice assistant solutions for creating and managing conversational interfaces, with a focus on enhancing user interactions.",
-        "tags": [
-            "paid",
-            "audio",
-            "ai voice",
-            "voice assistants",
-            "chatbot"
-        ]
-    },
-    {
-        "id": "7",
-        "title": "Voiceflow",
-        "url": "https://www.voiceflow.com",
-        "description": "Voiceflow offers tools for creating voice applications and chatbots, using AI to design and build conversational experiences for various platforms.",
-        "tags": [
-            "paid",
-            "audio",
-            "ai voice",
-            "chatbot",
-            "voice assistants"
-        ]
-    },
-    {
-        "id": "6",
-        "title": "Waibotic",
-        "url": "https://www.waibotic.com",
-        "description": "Waibotic specializes in AI chatbots for automating customer support and enhancing user engagement through intelligent conversations.",
-        "tags": [
-            "paid",
-            "text",
-            "chatbot",
-            "customer support",
-            "automation"
-        ]
-    },
-    {
-        "id": "5",
-        "title": "Yse AI",
-        "url": "https://www.yse.ai",
-        "description": "Yse AI specializes in AI chatbots for customer service and business applications, focusing on improving user interactions and support automation.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer service",
-            "business"
-        ]
-    },
-    {
-        "id": "4",
-        "title": "Zendesk",
-        "url": "https://www.zendesk.com",
-        "description": "Zendesk offers AI-powered customer support solutions, including chatbots and analytics tools designed to enhance customer service and engagement.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer support",
-            "business"
-        ]
-    },
-    {
-        "id": "3",
-        "title": "Zoho AI",
-        "url": "https://www.zoho.com/ai",
-        "description": "Zoho AI provides a range of AI-powered tools for business automation, including chatbots and intelligent assistants designed to improve efficiency and customer interactions.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "business",
-            "automation"
-        ]
-    },
-    {
-        "id": "2",
-        "title": "Zoho Zia",
-        "url": "https://www.zoho.com/crm/help/ai.html",
-        "description": "Zoho Zia is an AI-powered assistant integrated into Zoho CRM, providing insights, predictions, and automation for business processes.",
-        "tags": [
-            "paid",
-            "text",
-            "chatbot",
-            "business",
-            "ai assistant"
-        ]
-    },
-    {
-        "id": "1",
-        "title": "Zot",
-        "url": "https://www.zot.ai",
-        "description": "Zot offers AI chatbot solutions to automate customer interactions and enhance engagement, focusing on improving business communications.",
-        "tags": [
-            "paid",
-            "text",
-            "ai chatbot",
-            "customer engagement",
-            "automation"
-        ]
-    }
+  {
+    "id": "128",
+    "title": "Taskade",
+    "url": "https://www.taskade.com",
+    "description": "Taskade is an all-in-one collaboration platform that combines task management, note-taking, and video conferencing. It features AI-powered productivity tools such as smart task suggestions, automated meeting notes, and content generation. Ideal for remote teams and individuals looking to streamline their workflow and enhance collaboration.",
+    "tags": [
+      "free",
+      "task management",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "126",
+    "title": "chatGPT (OpenAI)",
+    "url": "https://openai.com/gpt-4o",
+    "description": "OpenAI's latest flagship model with native multimodal capabilities. Processes text, images, and audio simultaneously with unprecedented speed and accuracy. Features real-time voice conversations, advanced coding assistance, and creative generation. Available in ChatGPT Plus and API.",
+    "tags": [
+      "free",
+      "text",
+      "voice",
+      "coding",
+      "creative",
+      "real-time"
+    ]
+  },
+  {
+    "id": "125",
+    "title": "Grok-2 (xAI)",
+    "url": "https://grok.xai",
+    "description": "xAI's advanced AI model with real-time access to X (Twitter) and enhanced reasoning capabilities. Features witty responses, deep understanding of current events, and strong performance on technical and scientific questions. Built for truth-seeking and helpful conversations.",
+    "tags": [
+      "paid",
+      "free",
+      "text",
+      "chatbot",
+      "real-time",
+      "xai",
+      "research",
+      "2024"
+    ]
+  },
+  {
+    "id": "124",
+    "title": "Cursor AI",
+    "url": "https://cursor.sh",
+    "description": "AI-powered code editor built for pair programming with advanced AI capabilities. Features intelligent code completion, refactoring suggestions, natural language code editing, and seamless integration with popular AI models.",
+    "tags": [
+      "paid",
+      "code editor",
+      "ai-powered",
+      "vs code",
+      "ai chat",
+      "code completion",
+      "refactoring",
+      "developer-tools",
+      "2024"
+    ]
+  },
+  {
+    "id": "123",
+    "title": "Replit AI Pro",
+    "url": "https://replit.com/ai",
+    "description": "Advanced AI coding assistant integrated into the Replit platform. Features intelligent code completion, debugging assistance, code explanations, and collaborative coding with AI-powered pair programming capabilities.",
+    "tags": [
+      "paid",
+      "coding",
+      "programming",
+      "education",
+      "debugging",
+      "collaboration",
+      "prototyping",
+      "ai coding",
+      "2024"
+    ]
+  },
+  {
+    "id": "122",
+    "title": "Gemini 2.0 (Google)",
+    "url": "https://gemini.google.com",
+    "description": "Google's next-generation multimodal model released in late 2025. Features ultra-low latency, advanced reasoning, and deep integration with Android 16/17 and Google Workspace. Excels at complex planning, long-context video understanding, and real-time agentic tasks. Available in Pro, Ultra, and Flash variants for diverse use cases.",
+    "tags": [
+      "free",
+      "paid",
+      "multimodal",
+      "video",
+      "agents",
+      "google",
+      "2026"
+    ]
+  },
+  {
+    "id": "120",
+    "title": "Claude AI (Anthropic)",
+    "url": "https://claude.ai",
+    "description": "Anthropic's 2026 flagship model featuring 'Recursive Reasoning' and human-level nuance. Known for its exceptional coding ability and safe agentic capabilities. Introduced a 1-million token context window for massive codebase analysis and research.",
+    "tags": [
+      "free",
+      "coding",
+      "research"
+    ]
+  },
+  {
+    "id": "116",
+    "title": "Stable Diffusion",
+    "url": "https://stability.ai",
+    "description": "Stable Diffusion is an open-source AI image generation model that can run locally on your computer. Available through various interfaces like Automatic1111, ComfyUI, and online services. Features include control over generation parameters, fine-tuning, inpainting, and outpainting. Free and open-source, with commercial options available. Popular among developers, artists, and researchers. Requires technical knowledge for local setup but offers maximum control and privacy.",
+    "tags": [
+      "free",
+      "open-source",
+      "paid",
+      "image generation",
+      "art",
+      "local",
+      "customizable",
+      "ai art"
+    ]
+  },
+  {
+    "id": "115",
+    "title": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "description": "GitHub Copilot is an AI pair programmer that suggests code completions in real-time as you type. Powered by OpenAI's Codex, it understands context and suggests entire functions, tests, and documentation. Works in VS Code, JetBrains IDEs, Neovim, and more. Features include chat interface (Copilot Chat), inline suggestions, and multi-language support. Subscription-based. Used by millions of developers to write code faster and learn new patterns. Free for students and open-source maintainers.",
+    "tags": [
+      "paid",
+      "free",
+      "coding",
+      "programming",
+      "ide",
+      "developer tools",
+      "code completion",
+      "productivity"
+    ]
+  },
+  {
+    "id": "114",
+    "title": "Hugging Face",
+    "url": "https://huggingface.co",
+    "description": "Hugging Face is the leading platform for AI models, datasets, and ML applications. Features include model hosting, Spaces (deploy AI apps), Transformers library, and Inference API. Free access to thousands of open-source models. Used by researchers, developers, and companies. Perfect for experimenting with AI models, building AI applications, and accessing state-of-the-art models. Community-driven with extensive documentation and tutorials.",
+    "tags": [
+      "free",
+      "open-source",
+      "paid",
+      "models",
+      "ml",
+      "developers",
+      "research",
+      "api"
+    ]
+  },
+  {
+    "id": "112",
+    "title": "Google Gemini (formerly Bard)",
+    "url": "https://gemini.google.com",
+    "description": "Google Gemini is Google's advanced AI assistant powered by the Gemini model. It provides real-time information from Google Search, supports image analysis, code generation, and multi-language conversations. Features include integration with Google Workspace, voice input, and export to Google Docs/Gmail. Free to use with Google account. Excellent for research, coding help, content creation, and accessing up-to-date information.",
+    "tags": [
+      "free",
+      "text",
+      "chatbot",
+      "search engine",
+      "coding",
+      "multimodal",
+      "google",
+      "research"
+    ]
+  },
+  {
+    "id": "111",
+    "title": "Flux.1 (Black Forest Labs)",
+    "url": "https://blackforestlabs.ai",
+    "description": "A state-of-the-art open-weights image generation model that rivals Midjourney in quality. Features excellent text rendering, photorealism, and prompt adherence. Available for local deployment and through various API providers.",
+    "tags": [
+      "free",
+      "open-weight",
+      "paid",
+      "image generation",
+      "art",
+      "photorealism"
+    ]
+  },
+  {
+    "id": "110",
+    "title": "Midjourney",
+    "url": "https://www.midjourney.com",
+    "description": "Midjourney is a leading AI image generation tool known for creating highly artistic and photorealistic images. Accessible through Discord, it uses advanced diffusion models to generate stunning visuals from text prompts. Features include style control, upscaling, variations, and remix modes. Subscription-based pricing. Popular among artists, designers, marketers, and content creators. Known for producing more artistic and stylized images compared to DALL-E.",
+    "tags": [
+      "paid",
+      "subscription",
+      "image generation",
+      "art",
+      "design",
+      "creative",
+      "ai art",
+      "discord"
+    ]
+  },
+  {
+    "id": "109",
+    "title": "Bing Chat (Copilot)",
+    "url": "https://www.bing.com/chat",
+    "description": "Bing Chat is Microsoft's AI-powered search assistant integrated into Bing search engine. Powered by GPT-4, it provides real-time web search results, image generation with DALL-E 3, and conversational AI. Features include citation of sources, image analysis, code generation, and free access with Microsoft account. No subscription required. Ideal for research, current events, coding assistance, and creative tasks.",
+    "tags": [
+      "free",
+      "text",
+      "search engine",
+      "programming",
+      "coding",
+      "image generation",
+      "research",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "108",
+    "title": "ChatGPT Plus",
+    "url": "https://www.chatgpt.com",
+    "description": "ChatGPT Plus provides enhanced features and capabilities for ChatGPT, offering advanced functionalities for users seeking more from their AI interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "enhanced features",
+      "customer support"
+    ]
+  },
+  {
+    "id": "107",
+    "title": "Runway ML",
+    "url": "https://runwayml.com",
+    "description": "Runway ML is a creative AI suite for video and image generation. Features include Gen-2 video generation from text/images, image-to-video, video editing with AI, background removal, and motion tracking. Used by filmmakers, content creators, and designers. Subscription-based with free tier. Known for high-quality video generation and professional editing tools. Popular for creating AI-generated videos, animations, and visual effects.",
+    "tags": [
+      "paid",
+      "free",
+      "video generation",
+      "image generation",
+      "video editing",
+      "creative",
+      "ai video",
+      "film"
+    ]
+  },
+  {
+    "id": "106",
+    "title": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "description": "ElevenLabs is an AI voice synthesis platform that creates natural, human-like voiceovers. Features include text-to-speech in multiple languages, voice cloning, voice library, and API access. Used for audiobooks, podcasts, video narration, and accessibility. Free tier with limited characters, paid plans for commercial use. Known for the most natural-sounding AI voices available. Popular among content creators, developers, and businesses.",
+    "tags": [
+      "paid",
+      "free",
+      "audio",
+      "text-to-speech",
+      "voice cloning",
+      "ai voice",
+      "narration"
+    ]
+  },
+  {
+    "id": "105",
+    "title": "Character.AI",
+    "url": "https://character.ai",
+    "description": "Character.AI allows users to create and chat with AI characters, including historical figures, fictional characters, and custom personalities. Features include character creation, group chats, voice features, and community characters. Free to use with premium features. Popular for entertainment, roleplay, language learning, and creative writing. Known for engaging, personality-driven conversations. Used by millions for fun and educational purposes.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "chatbot",
+      "entertainment",
+      "roleplay",
+      "creative",
+      "characters"
+    ]
+  },
+  {
+    "id": "104",
+    "title": "Cursor",
+    "url": "https://cursor.sh",
+    "description": "Cursor is an AI-powered code editor built for pair programming with AI. Features include AI chat, code completion, refactoring, and natural language code editing. Based on VS Code with enhanced AI capabilities. Subscription-based. Popular among developers for its advanced AI coding features. Known for understanding codebase context and providing intelligent suggestions. Free trial available.",
+    "tags": [
+      "paid",
+      "coding",
+      "ide",
+      "programming",
+      "developer tools",
+      "ai coding",
+      "productivity"
+    ]
+  },
+  {
+    "id": "103",
+    "title": "Leonardo.AI",
+    "url": "https://leonardo.ai",
+    "description": "Leonardo.AI is an AI image generation platform with advanced features for game assets, product images, and creative projects. Features include model training, image-to-image, control over style, and commercial licensing. Free tier with daily credits, paid plans for more. Popular among game developers, designers, and marketers. Known for high-quality outputs and fine-grained control over generation parameters.",
+    "tags": [
+      "free",
+      "paid",
+      "image generation",
+      "game assets",
+      "design",
+      "commercial",
+      "ai art"
+    ]
+  },
+  {
+    "id": "102",
+    "title": "Botpress",
+    "url": "https://www.botpress.com",
+    "description": "Botpress is an open-source platform for building and managing AI chatbots, providing tools for creating advanced conversational experiences.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "ai chatbot",
+      "open-source"
+    ]
+  },
+  {
+    "id": "101",
+    "title": "Gamma",
+    "url": "https://gamma.app",
+    "description": "Gamma is an AI-powered presentation and document generator. Creates beautiful presentations, documents, and web pages from simple prompts. Features include automatic design, templates, real-time collaboration, and export options. Free tier available, paid for advanced features. Perfect for quickly creating professional presentations, reports, and documents. Used by teams, educators, and professionals for fast content creation.",
+    "tags": [
+      "free",
+      "paid",
+      "presentations",
+      "documents",
+      "design",
+      "productivity",
+      "business"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "Perplexity AI",
+    "url": "https://www.perplexity.ai",
+    "description": "Advanced AI-powered search and research assistant with access to real-time information, academic papers, and comprehensive analysis. Features file uploads, advanced search modes, and integration with multiple AI models for enhanced research capabilities.",
+    "tags": [
+      "free",
+      "text",
+      "search",
+      "chatbot",
+      "information",
+      "q&a"
+    ]
+  },
+  {
+    "id": "99",
+    "title": "Luma AI (Dream Machine)",
+    "url": "https://lumalabs.ai",
+    "description": "Luma AI offers Dream Machine for high-quality AI video generation from text and images. Features include realistic video generation, image-to-video, and 3D scene generation. Free tier with limited generations, paid for more. Known for producing smooth, realistic videos. Popular among content creators, marketers, and filmmakers. Used for creating video content, animations, and visual effects.",
+    "tags": [
+      "free",
+      "paid",
+      "video generation",
+      "3d",
+      "creative",
+      "ai video",
+      "content creation"
+    ]
+  },
+  {
+    "id": "98",
+    "title": "Notion AI",
+    "url": "https://www.notion.so/product/ai",
+    "description": "Notion AI integrates AI writing assistance directly into Notion workspace. Features include content generation, summarization, translation, brainstorming, and editing. Helps with writing docs, meeting notes, blog posts, and more within Notion. Available as add-on to Notion plans. Seamlessly integrates with Notion's database, pages, and collaboration features. Perfect for teams using Notion for documentation and project management.",
+    "tags": [
+      "paid",
+      "text",
+      "writing",
+      "productivity",
+      "notion",
+      "workspace",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "97",
+    "title": "Microsoft Copilot",
+    "url": "https://copilot.microsoft.com/",
+    "description": "Microsoft Copilot is an AI-powered assistant integrated across Microsoft 365 applications. It helps with coding, writing, data analysis, and productivity tasks. Features include code generation, document summarization, email drafting, and Excel formula suggestions. Available in Visual Studio Code, Word, Excel, PowerPoint, and Outlook. Free tier available with premium features for Microsoft 365 subscribers.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "programming",
+      "productivity",
+      "coding",
+      "office",
+      "assistant"
+    ]
+  },
+  {
+    "id": "96",
+    "title": "Rasa",
+    "url": "https://www.rasa.com",
+    "description": "Rasa is an open-source framework for developing AI chatbots and conversational agents, offering flexibility and control over chatbot functionality.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "ai chatbot",
+      "open-source"
+    ]
+  },
+  {
+    "id": "95",
+    "title": "Jasper AI",
+    "url": "https://www.jasper.ai",
+    "description": "Jasper AI is an AI writing assistant that helps users create content, from blog posts to marketing copy. It's known for its ability to generate high-quality text with minimal input.",
+    "tags": [
+      "paid",
+      "text",
+      "writing",
+      "content creation",
+      "marketing"
+    ]
+  },
+  {
+    "id": "94",
+    "title": "Character AI",
+    "url": "https://www.character.ai",
+    "description": "Character AI lets users create and interact with AI-driven characters. It’s designed for entertainment and educational purposes, allowing for creative and interactive experiences.",
+    "tags": [
+      "free",
+      "text",
+      "chatbot",
+      "entertainment",
+      "roleplay"
+    ]
+  },
+  {
+    "id": "93",
+    "title": "Cleverbot",
+    "url": "https://www.cleverbot.com",
+    "description": "Cleverbot is an AI chatbot that engages users in conversations, learning from interactions to provide more human-like responses over time.",
+    "tags": [
+      "free",
+      "text",
+      "chatbot",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "92",
+    "title": "DeepL Write",
+    "url": "https://www.deepl.com/write",
+    "description": "DeepL Write is an AI writing tool that helps users improve their writing, whether it's for translations or creating content in multiple languages.",
+    "tags": [
+      "free",
+      "text",
+      "translation",
+      "writing",
+      "proofreading"
+    ]
+  },
+  {
+    "id": "91",
+    "title": "Flair",
+    "url": "https://www.flair.ai",
+    "description": "Flair offers AI-powered content generation tools that assist with writing and programming tasks, aiming to enhance productivity and creativity.",
+    "tags": [
+      "free",
+      "text",
+      "ai writing",
+      "content generation",
+      "programming"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Kuki",
+    "url": "https://www.kuki.ai",
+    "description": "Kuki (formerly known as Mitsuku) is a conversational AI chatbot designed for engaging interactions and entertainment.",
+    "tags": [
+      "free",
+      "text",
+      "chatbot",
+      "entertainment",
+      "ai assistant"
+    ]
+  },
+  {
+    "id": "89",
+    "title": "Poe by Quora",
+    "url": "https://chatgpt.pandora.vip",
+    "description": "Poe by Quora is a chatbot that allows users to interact with various AI models, including GPT-3, to answer questions, generate content, and explore different topics.",
+    "tags": [
+      "free",
+      "text",
+      "chatbot",
+      "q&a",
+      "multi-model"
+    ]
+  },
+  {
+    "id": "88",
+    "title": "Replika",
+    "url": "https://www.replika.ai",
+    "description": "Replika is an AI chatbot designed to provide emotional support and companionship, helping users with mental health and personal growth.",
+    "tags": [
+      "free",
+      "text",
+      "chatbot",
+      "mental health",
+      "companionship"
+    ]
+  },
+  {
+    "id": "87",
+    "title": "Wit.ai",
+    "url": "https://wit.ai",
+    "description": "Wit.ai provides AI-powered natural language processing and speech recognition tools, enabling developers to create intelligent conversational applications.",
+    "tags": [
+      "free",
+      "text",
+      "ai chatbot",
+      "speech recognition",
+      "natural language processing"
+    ]
+  },
+  {
+    "id": "86",
+    "title": "Figma AI",
+    "url": "https://www.figma.com",
+    "description": "Figma's AI features help designers create faster with AI-powered design tools. Features include AI-generated designs, component suggestions, layout generation, and design variations. Integrated into Figma's design platform. Subscription-based. Perfect for UI/UX designers looking to speed up their workflow. Helps with rapid prototyping, design exploration, and repetitive tasks.",
+    "tags": [
+      "paid",
+      "design",
+      "ui/ux",
+      "prototyping",
+      "productivity",
+      "figma"
+    ]
+  },
+  {
+    "id": "85",
+    "title": "Pandorabots",
+    "url": "https://www.pandorabots.com",
+    "description": "Pandorabots provides a platform for building and deploying AI chatbots with advanced conversation design capabilities and natural language processing.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "ai chatbot",
+      "conversation design"
+    ]
+  },
+  {
+    "id": "84",
+    "title": "AI Writing Assistant",
+    "url": "https://www.aiwritingassistant.com",
+    "description": "AI Writing Assistant helps users generate and refine written content using AI, focusing on improving writing quality and productivity.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "writing",
+      "content creation"
+    ]
+  },
+  {
+    "id": "83",
+    "title": "Chatbot.com",
+    "url": "https://www.chatbot.com",
+    "description": "Chatbot.com offers AI-powered chatbot solutions for customer support, sales, and engagement, with a focus on ease of use and integration.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer support"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "Comet",
+    "url": "https://www.comet.ml",
+    "description": "Comet provides tools for tracking and managing machine learning experiments, helping researchers and developers improve their models.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "ai research",
+      "machine learning"
+    ]
+  },
+  {
+    "id": "81",
+    "title": "Copy.ai",
+    "url": "https://www.copy.ai",
+    "description": "Copy.ai is an AI tool that helps users generate marketing copy, product descriptions, and content for social media. It's designed for businesses looking to streamline their content creation.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "writing",
+      "marketing",
+      "e-commerce"
+    ]
+  },
+  {
+    "id": "80",
+    "title": "Dialogflow",
+    "url": "https://dialogflow.cloud.google.com",
+    "description": "Dialogflow is a Google-powered AI tool for building conversational interfaces, including chatbots and voice assistants, with natural language processing capabilities.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "ai chatbot",
+      "conversation design"
+    ]
+  },
+  {
+    "id": "79",
+    "title": "Hyperwrite",
+    "url": "https://www.hyperwrite.ai",
+    "description": "Hyperwrite uses AI to assist with writing tasks, providing tools for generating content, brainstorming, and improving writing quality.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "ai writing",
+      "content creation"
+    ]
+  },
+  {
+    "id": "78",
+    "title": "Jina",
+    "url": "https://www.jina.ai",
+    "description": "Jina offers an AI-based search engine platform, focusing on creating intelligent search capabilities and integrating machine learning for better results.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "ai search",
+      "machine learning"
+    ]
+  },
+  {
+    "id": "77",
+    "title": "Lumen5",
+    "url": "https://www.lumen5.com",
+    "description": "Lumen5 is an AI-powered video creation tool that converts text into engaging videos, ideal for marketing, social media, and content creation.",
+    "tags": [
+      "free",
+      "paid",
+      "video",
+      "ai video",
+      "content creation"
+    ]
+  },
+  {
+    "id": "76",
+    "title": "Rytr",
+    "url": "https://www.rytr.me",
+    "description": "Rytr is an AI writing assistant that helps users generate content quickly. It’s designed for copywriting, blogging, and other writing tasks, with a focus on ease of use and efficiency.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "writing",
+      "copywriting",
+      "content creation"
+    ]
+  },
+  {
+    "id": "75",
+    "title": "Veed.io",
+    "url": "https://www.veed.io",
+    "description": "Veed.io is an AI-powered video editing tool that simplifies the creation and editing of videos for various purposes, including social media and marketing.",
+    "tags": [
+      "free",
+      "paid",
+      "video",
+      "ai video",
+      "editing"
+    ]
+  },
+  {
+    "id": "74",
+    "title": "Writesonic",
+    "url": "https://www.writesonic.com",
+    "description": "Writesonic is an AI writer that helps generate articles, ads, and product descriptions. It’s known for its versatility and ability to create high-quality content across different formats.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "writing",
+      "marketing",
+      "content creation"
+    ]
+  },
+  {
+    "id": "73",
+    "title": "AI Writer",
+    "url": "https://www.aiwriter.io",
+    "description": "AI Writer provides AI-powered tools for content creation and writing, assisting users in generating high-quality material with advanced AI capabilities.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "content creation",
+      "programming"
+    ]
+  },
+  {
+    "id": "72",
+    "title": "AI21 Labs",
+    "url": "https://www.ai21.com",
+    "description": "AI21 Labs provides advanced AI writing tools that focus on generating high-quality text and assisting with various writing tasks.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "content generation"
+    ]
+  },
+  {
+    "id": "71",
+    "title": "Analyze AI",
+    "url": "https://www.analyze.ai",
+    "description": "Analyze AI offers advanced analytics tools that leverage AI to provide actionable insights and improve business decision-making.",
+    "tags": [
+      "paid",
+      "text",
+      "ai analytics",
+      "business",
+      "data insights"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Brain AI",
+    "url": "https://www.brain.ai",
+    "description": "Brain AI provides advanced writing and content generation tools, leveraging AI to assist with various writing and programming tasks.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "content generation",
+      "programming"
+    ]
+  },
+  {
+    "id": "69",
+    "title": "Descript",
+    "url": "https://www.descript.com",
+    "description": "Descript is a powerful AI-based video and audio editing tool. It's used for creating podcasts, videos, and other multimedia content with ease.",
+    "tags": [
+      "paid",
+      "video",
+      "audio",
+      "editing",
+      "content creation"
+    ]
+  },
+  {
+    "id": "68",
+    "title": "Elevate AI",
+    "url": "https://www.elevate.ai",
+    "description": "Elevate AI offers chatbot solutions designed to enhance customer support and business processes through advanced AI technologies.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "business",
+      "customer support"
+    ]
+  },
+  {
+    "id": "67",
+    "title": "Eleven Labs",
+    "url": "https://www.elevenlabs.io",
+    "description": "Eleven Labs offers advanced text-to-speech solutions with realistic AI voices for creating engaging audio content.",
+    "tags": [
+      "paid",
+      "audio",
+      "text-to-speech",
+      "ai voice",
+      "content creation"
+    ]
+  },
+  {
+    "id": "66",
+    "title": "NeuralBot",
+    "url": "https://www.neuralbot.io",
+    "description": "NeuralBot offers AI chatbot solutions designed for customer support and business automation, utilizing advanced AI to enhance user interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer support",
+      "business"
+    ]
+  },
+  {
+    "id": "65",
+    "title": "Riva",
+    "url": "https://www.riva.ai",
+    "description": "Riva provides advanced AI tools for writing and content creation, focusing on improving productivity and creativity across various domains.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "content creation",
+      "programming"
+    ]
+  },
+  {
+    "id": "64",
+    "title": "Scripts AI",
+    "url": "https://www.scripts.ai",
+    "description": "Scripts AI provides AI tools for screenwriting and content creation, helping users generate and refine scripts and written material with advanced AI assistance.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "content creation",
+      "screenwriting"
+    ]
+  },
+  {
+    "id": "63",
+    "title": "Synthesia",
+    "url": "https://www.synthesia.io",
+    "description": "Synthesia is an AI video generation platform that allows users to create professional videos using AI avatars and voiceovers. It's ideal for marketing, e-learning, and content creation.",
+    "tags": [
+      "paid",
+      "video",
+      "ai video",
+      "content creation",
+      "e-learning"
+    ]
+  },
+  {
+    "id": "62",
+    "title": "Unified AI",
+    "url": "https://www.unified.ai",
+    "description": "Unified AI offers comprehensive chatbot solutions designed to streamline customer support and enhance business processes through intelligent automation.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "business",
+      "customer support"
+    ]
+  },
+  {
+    "id": "61",
+    "title": "4D AI",
+    "url": "https://www.4d.ai",
+    "description": "4D AI provides AI chatbot and automation solutions aimed at improving customer support and business processes through intelligent interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer support",
+      "automation"
+    ]
+  },
+  {
+    "id": "60",
+    "title": "AI Muse",
+    "url": "https://www.ai-muse.com",
+    "description": "AI Muse offers AI-powered writing assistance, helping users with creative writing, brainstorming, and generating new ideas for various projects.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "creative writing",
+      "inspiration"
+    ]
+  },
+  {
+    "id": "59",
+    "title": "AI Music",
+    "url": "https://www.ai-music.com",
+    "description": "AI Music provides AI-driven music composition services, allowing users to create tailored music tracks for different media and personal use.",
+    "tags": [
+      "paid",
+      "audio",
+      "ai music",
+      "composition",
+      "customization"
+    ]
+  },
+  {
+    "id": "58",
+    "title": "AI Writer",
+    "url": "https://www.ai-writer.com",
+    "description": "AI Writer provides AI-generated content for articles, blog posts, and SEO purposes, focusing on high-quality and coherent writing.",
+    "tags": [
+      "paid",
+      "text",
+      "writing",
+      "content generation",
+      "seo"
+    ]
+  },
+  {
+    "id": "57",
+    "title": "Aiva",
+    "url": "https://www.aiva.ai",
+    "description": "Aiva is an AI-powered music composition tool that creates original music based on user input, suitable for content creators, filmmakers, and game developers.",
+    "tags": [
+      "paid",
+      "audio",
+      "ai music",
+      "composition",
+      "content creation"
+    ]
+  },
+  {
+    "id": "56",
+    "title": "Aivo",
+    "url": "https://www.aivo.co",
+    "description": "Aivo offers AI-powered customer support chatbots designed to provide fast and efficient service through text-based interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "chatbot",
+      "customer service",
+      "ai support"
+    ]
+  },
+  {
+    "id": "55",
+    "title": "Andy AI",
+    "url": "https://www.andy.ai",
+    "description": "Andy AI offers personal assistant and chatbot solutions designed to enhance productivity and automate various tasks and interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "personal assistant",
+      "productivity"
+    ]
+  },
+  {
+    "id": "54",
+    "title": "Aryel",
+    "url": "https://www.aryel.io",
+    "description": "Aryel offers AI chatbot solutions focused on customer engagement and marketing, providing tools for interactive and personalized user experiences.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer engagement",
+      "marketing"
+    ]
+  },
+  {
+    "id": "53",
+    "title": "Ask Mona",
+    "url": "https://www.askmona.com",
+    "description": "Ask Mona provides AI-driven chatbot solutions for customer support and business applications, focusing on improving efficiency and user experience.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer support",
+      "business"
+    ]
+  },
+  {
+    "id": "52",
+    "title": "Aurora",
+    "url": "https://www.aurora.ai",
+    "description": "Aurora offers AI chatbot solutions designed to improve business interactions and customer support with intelligent automation.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "business",
+      "customer support"
+    ]
+  },
+  {
+    "id": "51",
+    "title": "Automata",
+    "url": "https://www.automata.tech",
+    "description": "Automata delivers AI-powered chatbots and automation solutions for businesses to streamline operations and enhance customer interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "chatbot",
+      "automation",
+      "business"
+    ]
+  },
+  {
+    "id": "50",
+    "title": "BrightAI",
+    "url": "https://www.brightai.com",
+    "description": "BrightAI provides AI-powered writing tools for content creation and programming, designed to enhance productivity and creativity.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "content creation",
+      "programming"
+    ]
+  },
+  {
+    "id": "49",
+    "title": "Chatbase",
+    "url": "https://www.chatbase.co",
+    "description": "Chatbase provides AI chatbot analytics and optimization tools, helping businesses analyze chatbot performance and improve customer interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "analytics",
+      "customer support"
+    ]
+  },
+  {
+    "id": "48",
+    "title": "Cogito",
+    "url": "https://www.cogito.ai",
+    "description": "Cogito provides AI-driven solutions for enhancing customer support interactions, using analytics to improve communication and service quality.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer support",
+      "analytics"
+    ]
+  },
+  {
+    "id": "47",
+    "title": "ContentBot",
+    "url": "https://www.contentbot.ai",
+    "description": "ContentBot offers AI-driven content generation tools for creating marketing copy, blog posts, and other types of written content.",
+    "tags": [
+      "paid",
+      "text",
+      "writing",
+      "content creation",
+      "marketing"
+    ]
+  },
+  {
+    "id": "46",
+    "title": "Contxt",
+    "url": "https://www.contxt.ai",
+    "description": "Contxt provides AI-driven chatbot solutions for automating customer support and business processes, focusing on improving efficiency and customer satisfaction.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer support",
+      "automation"
+    ]
+  },
+  {
+    "id": "45",
+    "title": "Copysmith",
+    "url": "https://www.copysmith.ai",
+    "description": "Copysmith is an AI-powered tool that generates marketing copy, product descriptions, and other types of content. It's designed to help businesses and marketers create content efficiently.",
+    "tags": [
+      "paid",
+      "text",
+      "writing",
+      "marketing",
+      "e-commerce"
+    ]
+  },
+  {
+    "id": "44",
+    "title": "Cortexica",
+    "url": "https://www.cortexica.com",
+    "description": "Cortexica provides AI-driven image recognition and insights for businesses, enhancing visual search and content understanding.",
+    "tags": [
+      "paid",
+      "text",
+      "image recognition",
+      "ai insights",
+      "business"
+    ]
+  },
+  {
+    "id": "43",
+    "title": "Diachat",
+    "url": "https://www.diachat.ai",
+    "description": "Diachat offers AI-powered chatbot solutions aimed at automating customer service and business interactions, enhancing overall efficiency.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer service",
+      "automation"
+    ]
+  },
+  {
+    "id": "42",
+    "title": "Echo",
+    "url": "https://www.echo.ai",
+    "description": "Echo provides AI-driven chatbot solutions for enhancing customer support and automating business processes with intelligent interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer support",
+      "business"
+    ]
+  },
+  {
+    "id": "41",
+    "title": "Ellie AI",
+    "url": "https://www.ellie.ai",
+    "description": "Ellie AI offers tools for creative writing and content generation, using AI to assist with various writing tasks and enhance overall creativity.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "creative writing",
+      "content generation"
+    ]
+  },
+  {
+    "id": "40",
+    "title": "Gong",
+    "url": "https://www.gong.io",
+    "description": "Gong uses AI to analyze sales conversations and customer interactions, providing insights to improve sales performance and customer engagement.",
+    "tags": [
+      "paid",
+      "text",
+      "ai analysis",
+      "sales",
+      "customer interactions"
+    ]
+  },
+  {
+    "id": "39",
+    "title": "IBM Watson",
+    "url": "https://www.ibm.com/watson",
+    "description": "IBM Watson offers a suite of AI tools for business, including chatbots, data analysis, and natural language processing to enhance various business applications.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "programming",
+      "business"
+    ]
+  },
+  {
+    "id": "38",
+    "title": "Inkforal",
+    "url": "https://www.inkforal.com",
+    "description": "Inkforal offers AI tools for writing and SEO, helping users create optimized content that ranks well on search engines and engages readers.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "content creation",
+      "seo"
+    ]
+  },
+  {
+    "id": "37",
+    "title": "Kairos",
+    "url": "https://www.kairos.com",
+    "description": "Kairos provides AI tools for facial recognition and emotion detection, in addition to chatbot solutions for enhancing user interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "face recognition",
+      "emotion detection"
+    ]
+  },
+  {
+    "id": "36",
+    "title": "Leyla AI",
+    "url": "https://www.leyla.ai",
+    "description": "Leyla AI offers AI-powered personal assistant services to help users with scheduling, reminders, and productivity enhancements.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "personal assistant",
+      "productivity"
+    ]
+  },
+  {
+    "id": "35",
+    "title": "Lucidworks",
+    "url": "https://www.lucidworks.com",
+    "description": "Lucidworks offers AI-driven search and data analytics solutions, using machine learning to enhance search capabilities and data insights for businesses.",
+    "tags": [
+      "paid",
+      "text",
+      "ai search",
+      "data analytics",
+      "machine learning"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Lumin",
+    "url": "https://www.lumin.ai",
+    "description": "Lumin offers AI-powered writing tools for creative content generation and storytelling, focusing on enhancing writing quality and originality.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "creative writing",
+      "content generation"
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Microsoft Azure AI",
+    "url": "https://azure.microsoft.com/en-us/services/cognitive-services/",
+    "description": "Microsoft Azure AI provides a range of AI services, including chatbots, machine learning, and natural language processing, to help businesses develop intelligent solutions.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "programming",
+      "business"
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Muse",
+    "url": "https://www.muse.ai",
+    "description": "Muse provides AI tools for creative writing and content generation, helping users craft engaging and original written material.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "creative writing",
+      "content generation"
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Narrative",
+    "url": "https://www.narrative.ai",
+    "description": "Narrative uses AI to assist with storytelling and content creation, providing tools for writing and generating engaging narratives.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "storytelling",
+      "content creation"
+    ]
+  },
+  {
+    "id": "30",
+    "title": "NovelAI",
+    "url": "https://www.novelai.net",
+    "description": "NovelAI is an AI storytelling tool that helps users generate creative writing content. It’s popular among writers for generating fiction and exploring creative ideas.",
+    "tags": [
+      "paid",
+      "text",
+      "writing",
+      "storytelling",
+      "creative writing"
+    ]
+  },
+  {
+    "id": "29",
+    "title": "Orca AI",
+    "url": "https://www.orca.ai",
+    "description": "Orca AI provides AI-driven chatbots and virtual assistants for businesses, focusing on improving customer support and automating interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "business",
+      "customer support"
+    ]
+  },
+  {
+    "id": "28",
+    "title": "Otsuka AI",
+    "url": "https://www.otsuka.com",
+    "description": "Otsuka AI focuses on providing AI chatbot solutions for the healthcare industry, offering patient support and enhancing healthcare services.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "healthcare",
+      "customer support"
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Play.ht",
+    "url": "https://www.play.ht",
+    "description": "Play.ht is an AI-powered text-to-speech tool that converts written content into realistic human voiceovers. It's used for podcasts, audiobooks, and other audio content.",
+    "tags": [
+      "paid",
+      "audio",
+      "text-to-speech",
+      "ai voice",
+      "content creation"
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Queria",
+    "url": "https://www.queria.ai",
+    "description": "Queria specializes in AI chatbots for business applications, providing solutions for customer support, sales, and engagement.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer support",
+      "business"
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Rephrase.ai",
+    "url": "https://www.rephrase.ai",
+    "description": "Rephrase.ai uses AI to create personalized video messages for marketing and communication purposes, allowing for dynamic content tailored to individual viewers.",
+    "tags": [
+      "paid",
+      "video",
+      "ai video",
+      "personalization",
+      "marketing"
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Scenario",
+    "url": "https://www.scenario.ai",
+    "description": "Scenario offers AI-driven chatbot solutions for customer engagement and business automation, focusing on creating interactive and personalized experiences.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer engagement",
+      "business"
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Scribe",
+    "url": "https://www.scribe.ai",
+    "description": "Scribe offers AI-powered transcription and writing tools to help users convert speech to text and generate content efficiently.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "transcription",
+      "content creation"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Scribe AI",
+    "url": "https://www.scribe.ai",
+    "description": "Scribe AI offers tools for content creation and transcription, helping users generate and refine written material with AI assistance.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "content creation",
+      "transcription"
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Smith.ai",
+    "url": "https://www.smith.ai",
+    "description": "Smith.ai offers virtual assistant services with AI-powered chatbots to handle customer inquiries, schedule meetings, and provide support.",
+    "tags": [
+      "paid",
+      "text",
+      "chatbot",
+      "virtual assistant",
+      "customer support"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Sparc",
+    "url": "https://www.sparc.ai",
+    "description": "Sparc offers AI chatbot and customer engagement solutions designed to enhance business interactions and automate support processes.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "business",
+      "customer engagement"
+    ]
+  },
+  {
+    "id": "19",
+    "title": "SpeechGen",
+    "url": "https://www.speechgen.io",
+    "description": "SpeechGen provides AI-powered text-to-speech solutions, allowing users to convert written content into realistic audio for various applications.",
+    "tags": [
+      "paid",
+      "audio",
+      "ai speech",
+      "text-to-speech",
+      "content creation"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Speechly",
+    "url": "https://www.speechly.com",
+    "description": "Speechly provides AI-based speech recognition and transcription services, enhancing communication and accessibility for various applications.",
+    "tags": [
+      "paid",
+      "audio",
+      "speech recognition",
+      "ai assistant",
+      "transcription"
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Studio AI",
+    "url": "https://www.studio.ai",
+    "description": "Studio AI provides AI-driven writing tools designed for creating high-quality marketing content, blog posts, and other types of written material.",
+    "tags": [
+      "paid",
+      "text",
+      "ai writing",
+      "content creation",
+      "marketing"
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Talkdesk",
+    "url": "https://www.talkdesk.com",
+    "description": "Talkdesk provides an AI-driven customer service platform with features like intelligent call routing, chatbots, and analytics.",
+    "tags": [
+      "paid",
+      "text",
+      "audio",
+      "customer service",
+      "ai assistant"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Talks",
+    "url": "https://www.talks.io",
+    "description": "Talks provides AI-driven chatbot services focused on enhancing customer engagement and automating business communications.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer engagement",
+      "automation"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Tars",
+    "url": "https://www.tars.com",
+    "description": "Tars offers AI chatbot solutions focused on lead generation and customer support, providing tools for creating effective conversational experiences.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "lead generation",
+      "customer support"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Trilio",
+    "url": "https://www.trilio.io",
+    "description": "Trilio provides AI chatbot services designed to improve customer support and automate business processes through intelligent interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "business",
+      "customer support"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Trint",
+    "url": "https://www.trint.com",
+    "description": "Trint offers AI-powered transcription services that convert audio and video recordings into editable text, enhancing accessibility and content creation.",
+    "tags": [
+      "paid",
+      "audio",
+      "transcription",
+      "ai transcription",
+      "content creation"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Vidnami",
+    "url": "https://www.vidnami.com",
+    "description": "Vidnami provides AI-driven video creation tools that help users produce marketing videos, social media content, and other visual media quickly and effectively.",
+    "tags": [
+      "paid",
+      "video",
+      "ai video",
+      "content creation",
+      "marketing"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Vidnoz",
+    "url": "https://www.vidnoz.com",
+    "description": "Vidnoz offers AI-driven video creation and personalization tools, enabling users to produce customized videos for various marketing and communication needs.",
+    "tags": [
+      "paid",
+      "video",
+      "ai video",
+      "content creation",
+      "personalization"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Vidyard",
+    "url": "https://www.vidyard.com",
+    "description": "Vidyard offers AI-powered video tools for marketing and content creation, helping businesses create engaging video content and analyze viewer interactions.",
+    "tags": [
+      "paid",
+      "video",
+      "ai video",
+      "marketing",
+      "content creation"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Voicebot",
+    "url": "https://www.voicebot.ai",
+    "description": "Voicebot provides AI-powered voice assistant solutions for creating and managing conversational interfaces, with a focus on enhancing user interactions.",
+    "tags": [
+      "paid",
+      "audio",
+      "ai voice",
+      "voice assistants",
+      "chatbot"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Voiceflow",
+    "url": "https://www.voiceflow.com",
+    "description": "Voiceflow offers tools for creating voice applications and chatbots, using AI to design and build conversational experiences for various platforms.",
+    "tags": [
+      "paid",
+      "audio",
+      "ai voice",
+      "chatbot",
+      "voice assistants"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Waibotic",
+    "url": "https://www.waibotic.com",
+    "description": "Waibotic specializes in AI chatbots for automating customer support and enhancing user engagement through intelligent conversations.",
+    "tags": [
+      "paid",
+      "text",
+      "chatbot",
+      "customer support",
+      "automation"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Yse AI",
+    "url": "https://www.yse.ai",
+    "description": "Yse AI specializes in AI chatbots for customer service and business applications, focusing on improving user interactions and support automation.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer service",
+      "business"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Zendesk",
+    "url": "https://www.zendesk.com",
+    "description": "Zendesk offers AI-powered customer support solutions, including chatbots and analytics tools designed to enhance customer service and engagement.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer support",
+      "business"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Zoho AI",
+    "url": "https://www.zoho.com/ai",
+    "description": "Zoho AI provides a range of AI-powered tools for business automation, including chatbots and intelligent assistants designed to improve efficiency and customer interactions.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "business",
+      "automation"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Zoho Zia",
+    "url": "https://www.zoho.com/crm/help/ai.html",
+    "description": "Zoho Zia is an AI-powered assistant integrated into Zoho CRM, providing insights, predictions, and automation for business processes.",
+    "tags": [
+      "paid",
+      "text",
+      "chatbot",
+      "business",
+      "ai assistant"
+    ]
+  },
+  {
+    "id": "1",
+    "title": "Zot",
+    "url": "https://www.zot.ai",
+    "description": "Zot offers AI chatbot solutions to automate customer interactions and enhance engagement, focusing on improving business communications.",
+    "tags": [
+      "paid",
+      "text",
+      "ai chatbot",
+      "customer engagement",
+      "automation"
+    ]
+  },
+  {
+    "id": "129",
+    "title": "Auferet",
+    "url": "https://auferet.com",
+    "description": "AI game master for solo text adventures and tabletop-style RPGs. Keeps long-term memory of your characters, world, and story in dedicated libraries, reads your own uploaded lore, supports 5e and Pathfinder 2e style rules with a built-in dice roller, and runs in the browser and on Android. Free tier gives 10 actions a day.",
+    "tags": [
+      "free",
+      "paid",
+      "text",
+      "games",
+      "roleplay",
+      "rpg",
+      "storytelling",
+      "memory",
+      "interactive fiction",
+      "2026"
+    ]
+  }
 ]
