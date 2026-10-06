@@ -1,669 +1,705 @@
-[ 
+﻿[
     {
-        "id": "58",
-        "title": "Databricks",
-        "url": "https://www.databricks.com/",
-        "description": "Databricks is a unified analytics platform built on Apache Spark for data engineering, data science, and machine learning. Features collaborative notebooks, automated cluster management, and integration with major cloud providers. Enables teams to build and deploy ML models at scale.",
-        "tags": [
-            "free",
-            "paid",
-            "development",
-            "ai",
-            "cloud"
-        ]
+        "id":  "websites-1",
+        "title":  "Excalidraw",
+        "url":  "https://excalidraw.com",
+        "description":  "Virtual collaborative whiteboard for sketching hand-drawn like diagrams, architecture flowcharts, and wireframes.",
+        "tags":  [
+                     "Top",
+                     "Diagramming",
+                     "Architecture",
+                     "Open Source",
+                     "Free"
+                 ]
     },
     {
-        "id": "57",
-        "title": "Google Colab",
-        "url": "https://colab.research.google.com/",
-        "description": "Google Colab is a free Jupyter notebook environment that runs in the cloud. Features free GPU access, collaborative editing, and integration with Google Drive. Perfect for data science, machine learning, and Python development.",
-        "tags": [
-            "free",
-            "ai",
-            "development"
-        ]
+        "id":  "websites-2",
+        "title":  "DevDocs",
+        "url":  "https://devdocs.io",
+        "description":  "Fast, organized, and searchable API documentation browser with offline support for 100+ languages and libraries.",
+        "tags":  [
+                     "Documentation",
+                     "Offline",
+                     "Fast Search",
+                     "Developer Tools",
+                     "Free"
+                 ]
     },
     {
-        "id": "56",
-        "title": "SFTPCloud",
-        "url": "https://sftpcloud.io/",
-        "description": "paid - SFTPCloud is a secure file transfer service that allows users to upload and share files via SFTP. Features include encrypted transfers, user management, and integration with cloud storage providers. Ideal for businesses needing a reliable and secure file transfer solution.",
-        "tags": [
-            "file transfer",
-            "sftp",
-            "cloud"
-        ]
+        "id":  "websites-3",
+        "title":  "Papers with Code",
+        "url":  "https://paperswithcode.com",
+        "description":  "Free resource to discover the latest machine learning papers, benchmarks, datasets, and code repositories.",
+        "tags":  [
+                     "Research",
+                     "Machine Learning",
+                     "AI",
+                     "Benchmarks",
+                     "Free"
+                 ]
     },
     {
-        "id": "55",
-        "title": "LocalTunnel",
-        "url": "https://localtunnel.github.io/www/",
-        "description": "LocalTunnel is an open-source tool that allows developers to expose their local web servers to the internet. It creates secure tunnels to localhost, enabling easy sharing and testing of web applications during development.",
-        "tags": [
-            "development",
-            "tunneling"
-        ]
+        "id":  "websites-4",
+        "title":  "Can I Use",
+        "url":  "https://caniuse.com",
+        "description":  "Up-to-date browser feature support tables for modern frontend web technologies on desktop and mobile.",
+        "tags":  [
+                     "Web Standards",
+                     "Frontend",
+                     "Browser Support",
+                     "CSS",
+                     "Free"
+                 ]
     },
     {
-        "id": "54",
-        "title": "ngrok",
-        "url": "https://ngrok.com/",
-        "description": "ngrok is a tool for creating secure tunnels to localhost. It allows developers to expose local servers to the internet, making it easy to test and share web applications during development.",
-        "tags": [
-            "development",
-            "tunneling"
-        ]
+        "id":  "websites-5",
+        "title":  "Bundlephobia",
+        "url":  "https://bundlephobia.com",
+        "description":  "Inspect the bundle size cost, download times, and tree-shaking support of any npm package before installing.",
+        "tags":  [
+                     "Developer Tools",
+                     "Performance",
+                     "JavaScript",
+                     "npm",
+                     "Free"
+                 ]
     },
     {
-        "id": "53",
-        "title": "Z-Library",
-        "url": "https://z-lib.org/",
-        "description": "Z-Library is a free online library offering millions of books and articles across various genres and topics. Features a vast collection of eBooks, academic papers, and research articles. Accessible without registration, making it easy to find and download reading materials.",
-        "tags": [
-            "library",
-            "ebooks",
-            "research"
-        ]
+        "id":  "websites-6",
+        "title":  "TLDR Tech \u0026 AI",
+        "url":  "https://tldr.tech",
+        "description":  "Byte-sized daily newsletters covering the most interesting developments in software, AI, and startups.",
+        "tags":  [
+                     "Community \u0026 News",
+                     "Newsletter",
+                     "Tech News",
+                     "Curated"
+                 ]
     },
     {
-        "id": "52",
-        "title": "Scribd Downloader",
-        "url": "https://scribd.vdownloaders.com/",
-        "description": "Scribd.VDownloaders.com is a free Scribd document downloader. Simply paste a Scribd URL or replace 'scribd.com' with 'scribd.vdownloaders.com' in the URL to get download links. Supports documents, presentations, and other Scribd content. No registration required.",
-        "tags": [
-            "free",
-            "downloads",
-            "pdf",
-            "scribd"
-        ]
+        "id":  "websites-7",
+        "title":  "Daily.dev",
+        "url":  "https://daily.dev",
+        "description":  "Personalized developer news feed aggregating technical blog posts, tutorials, and community discussions.",
+        "tags":  [
+                     "Community \u0026 News",
+                     "Dev News",
+                     "Aggregator",
+                     "Community",
+                     "Free"
+                 ]
     },
     {
-        "id": "51",
-        "title": "Guerrilla Mail",
-        "url": "https://www.guerrillamail.com/inbox",
-        "description": "Guerrilla Mail is a disposable temporary email service that helps you avoid spam and stay safe online. Features instant email addresses, no registration required, and automatic email deletion. Perfect for signing up to services without exposing your real email.",
-        "tags": [
-            "free",
-            "email",
-            "privacy"
-        ]
+        "id":  "websites-8",
+        "title":  "Web.dev (Google)",
+        "url":  "https://web.dev",
+        "description":  "Google\u0027s guidance for modern web developers on Core Web Vitals, performance optimization, and accessibility.",
+        "tags":  [
+                     "Web Standards",
+                     "Performance",
+                     "Core Web Vitals",
+                     "Google",
+                     "Free"
+                 ]
     },
     {
-        "id": "50",
-        "title": "DL4All",
-        "url": "https://dl4all.biz/",
-        "description": "DL4All is a platform for downloading various digital resources. Provides access to software, courses, and educational materials. Useful for accessing learning resources and software downloads.",
-        "tags": [
-            "free",
-            "downloads",
-            "resources"
-        ]
+        "id":  "websites-9",
+        "title":  "Lobste.rs",
+        "url":  "https://lobste.rs",
+        "description":  "Computing-focused community centered around engineering depth, programming language theory, and technology.",
+        "tags":  [
+                     "Community \u0026 News",
+                     "Engineering",
+                     "Discussions",
+                     "High Signal"
+                 ]
     },
     {
-        "id": "49",
-        "title": "Hacking Loops",
-        "url": "https://www.hackingloops.com/",
-        "description": "Hacking Loops offers hands-on cybersecurity training focused on ethical hacking and penetration testing. Features real-world scenarios, practical labs, and portfolio building. Designed for career changers and beginners without requiring coding or certifications.",
-        "tags": [
-            "paid",
-            "cybersecurity",
-            "ethical hacking",
-            "training"
-        ]
+        "id":  "websites-10",
+        "title":  "Crates.io",
+        "url":  "https://crates.io",
+        "description":  "The official package registry for the Rust programming language, hosting thousands of high-performance crates.",
+        "tags":  [
+                     "Package Index",
+                     "Open Source",
+                     "Rust",
+                     "Free"
+                 ]
     },
     {
-        "id": "48",
-        "title": "BugMeNot",
-        "url": "https://bugmenot.com/",
-        "description": "BugMeNot is a service that provides shared login credentials for websites that require registration. Helps bypass mandatory registration for accessing content. Useful for quick access to sites without creating accounts.",
-        "tags": [
-            "free",
-            "utilities",
-            "privacy"
-        ]
+        "id":  "websites-11",
+        "title":  "Databricks",
+        "url":  "https://www.databricks.com/",
+        "description":  "Databricks is a unified analytics platform built on Apache Spark for data engineering, data science, and machine learning. Features collaborative notebooks, automated cluster management, and integration with major cloud providers. Enables teams to build and deploy ML models at scale.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "development",
+                     "ai",
+                     "cloud"
+                 ]
     },
     {
-        "id": "47",
-        "title": "Stitch",
-        "url": "https://stitch.withgoogle.com",
-        "description": "Stitch is a Google tool for data integration and ETL processes. Part of Google's data movement platform, enabling seamless data pipeline creation and management.",
-        "tags": [
-            "free",
-            "data analytics",
-            "etl"
-        ]
+        "id":  "websites-12",
+        "title":  "Google Colab",
+        "url":  "https://colab.research.google.com/",
+        "description":  "Google Colab is a free Jupyter notebook environment that runs in the cloud. Features free GPU access, collaborative editing, and integration with Google Drive. Perfect for data science, machine learning, and Python development.",
+        "tags":  [
+                     "free",
+                     "ai",
+                     "development"
+                 ]
     },
     {
-        "id": "46",
-        "title": "Deepnote",
-        "url": "https://deepnote.com",
-        "description": "Deepnote is a collaborative data science notebook platform. Features real-time collaboration, integrated data sources, and powerful computing environments. Perfect for data science teams working together on analysis and machine learning projects.",
-        "tags": [
-            "free",
-            "paid",
-            "data analytics",
-            "ai"
-        ]
+        "id":  "websites-13",
+        "title":  "SFTPCloud",
+        "url":  "https://sftpcloud.io/",
+        "description":  "paid - SFTPCloud is a secure file transfer service that allows users to upload and share files via SFTP. Features include encrypted transfers, user management, and integration with cloud storage providers. Ideal for businesses needing a reliable and secure file transfer solution.",
+        "tags":  [
+                     "file transfer",
+                     "sftp",
+                     "cloud"
+                 ]
     },
     {
-        "id": "45",
-        "title": "Paperspace Gradient",
-        "url": "https://www.paperspace.com/gradient",
-        "description": "Paperspace Gradient is a cloud machine learning platform providing GPU-powered compute for training and deploying ML models. Features Jupyter notebooks, experiment tracking, and model deployment capabilities.",
-        "tags": [
-            "paid",
-            "ai",
-            "cloud"
-        ]
+        "id":  "websites-14",
+        "title":  "LocalTunnel",
+        "url":  "https://localtunnel.github.io/www/",
+        "description":  "LocalTunnel is an open-source tool that allows developers to expose their local web servers to the internet. It creates secure tunnels to localhost, enabling easy sharing and testing of web applications during development.",
+        "tags":  [
+                     "development",
+                     "tunneling"
+                 ]
     },
     {
-        "id": "44",
-        "title": "RunPod",
-        "url": "https://www.runpod.io",
-        "description": "RunPod is a cloud GPU platform for AI and machine learning workloads. Features on-demand GPU instances, pre-configured ML environments, and cost-effective compute for training models and running inference.",
-        "tags": [
-            "paid",
-            "ai",
-            "cloud"
-        ]
+        "id":  "websites-15",
+        "title":  "Grok-3 (xAI)",
+        "url":  "https://ngrok.com/",
+        "description":  "xAI\u0027s frontier AI model with real-time X data access, deep reasoning, and advanced coding performance.",
+        "tags":  [
+                     "development",
+                     "tunneling"
+                 ]
     },
     {
-        "id": "43",
-        "title": "AWS SageMaker Studio Lab",
-        "url": "https://studiolab.sagemaker.aws",
-        "description": "AWS SageMaker Studio Lab is a free machine learning development environment. Features Jupyter notebooks, GPU access, and pre-installed ML frameworks. No AWS account required, perfect for learning and experimenting with ML.",
-        "tags": [
-            "free",
-            "ai",
-            "cloud"
-        ]
+        "id":  "websites-16",
+        "title":  "Guerrilla Mail",
+        "url":  "https://www.guerrillamail.com/inbox",
+        "description":  "Guerrilla Mail is a disposable temporary email service that helps you avoid spam and stay safe online. Features instant email addresses, no registration required, and automatic email deletion. Perfect for signing up to services without exposing your real email.",
+        "tags":  [
+                     "free",
+                     "email",
+                     "privacy"
+                 ]
     },
     {
-        "id": "42",
-        "title": "Kaggle",
-        "url": "https://www.kaggle.com",
-        "description": "Kaggle is a data science and machine learning platform. Features datasets, competitions, notebooks, courses, and a community of data scientists. Includes free GPU compute, collaborative notebooks, and learning resources.",
-        "tags": [
-            "free",
-            "data analytics",
-            "ai",
-            "learning"
-        ]
+        "id":  "websites-17",
+        "title":  "Hacking Loops",
+        "url":  "https://www.hackingloops.com/",
+        "description":  "Hacking Loops offers hands-on cybersecurity training focused on ethical hacking and penetration testing. Features real-world scenarios, practical labs, and portfolio building. Designed for career changers and beginners without requiring coding or certifications.",
+        "tags":  [
+                     "paid",
+                     "cybersecurity",
+                     "ethical hacking",
+                     "training"
+                 ]
     },
     {
-        "id": "41",
-        "title": "Fivetran",
-        "url": "https://fivetran.com",
-        "description": "Fivetran is a data integration platform that automates data movement from 700+ sources to data warehouses and data lakes. Features automated ETL pipelines, real-time replication, and managed data transformations. Trusted by enterprises for reliable data movement.",
-        "tags": [
-            "paid",
-            "data analytics",
-            "etl"
-        ]
+        "id":  "websites-18",
+        "title":  "BugMeNot",
+        "url":  "https://bugmenot.com/",
+        "description":  "BugMeNot is a service that provides shared login credentials for websites that require registration. Helps bypass mandatory registration for accessing content. Useful for quick access to sites without creating accounts.",
+        "tags":  [
+                     "free",
+                     "utilities",
+                     "privacy"
+                 ]
     },
     {
-        "id": "40",
-        "title": "Google AI Studio",
-        "url": "https://aistudio.google.com",
-        "description": "Google AI Studio is a web-based tool for building with Google's generative AI models. Features API access, prompt engineering, and model testing. Enables developers to prototype and build applications with Gemini and other Google AI models.",
-        "tags": [
-            "free",
-            "ai",
-            "api"
-        ]
+        "id":  "websites-19",
+        "title":  "Stitch",
+        "url":  "https://stitch.withgoogle.com",
+        "description":  "Stitch is a Google tool for data integration and ETL processes. Part of Google\u0027s data movement platform, enabling seamless data pipeline creation and management.",
+        "tags":  [
+                     "free",
+                     "data analytics",
+                     "etl"
+                 ]
     },
     {
-        "id": "39",
-        "title": "Google Colab",
-        "url": "https://colab.research.google.com",
-        "description": "Google Colab is a free Jupyter notebook environment that runs in the cloud. Features free GPU access, collaborative editing, and integration with Google Drive. Perfect for data science, machine learning, and Python development.",
-        "tags": [
-            "free",
-            "ai",
-            "data analytics"
-        ]
+        "id":  "websites-20",
+        "title":  "Deepnote",
+        "url":  "https://deepnote.com",
+        "description":  "Deepnote is a collaborative data science notebook platform. Features real-time collaboration, integrated data sources, and powerful computing environments. Perfect for data science teams working together on analysis and machine learning projects.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "data analytics",
+                     "ai"
+                 ]
     },
     {
-        "id": "38",
-        "title": "Antigravity",
-        "url": "https://antigravity.com",
-        "description": "Antigravity is a platform for AI and machine learning development. Provides tools and resources for building AI applications.",
-        "tags": [
-            "free",
-            "ai"
-        ]
+        "id":  "websites-21",
+        "title":  "RunPod",
+        "url":  "https://www.runpod.io",
+        "description":  "RunPod is a cloud GPU platform for AI and machine learning workloads. Features on-demand GPU instances, pre-configured ML environments, and cost-effective compute for training models and running inference.",
+        "tags":  [
+                     "paid",
+                     "ai",
+                     "cloud"
+                 ]
     },
     {
-        "id": "37",
-        "title": "Google Opal",
-        "url": "https://opal.google.com",
-        "description": "Google Opal is a Google tool for data and AI workflows. Part of Google's suite of data and AI development tools.",
-        "tags": [
-            "free",
-            "ai",
-            "data analytics"
-        ]
+        "id":  "websites-22",
+        "title":  "AWS SageMaker Studio Lab",
+        "url":  "https://studiolab.sagemaker.aws",
+        "description":  "AWS SageMaker Studio Lab is a free machine learning development environment. Features Jupyter notebooks, GPU access, and pre-installed ML frameworks. No AWS account required, perfect for learning and experimenting with ML.",
+        "tags":  [
+                     "free",
+                     "ai",
+                     "cloud"
+                 ]
     },
     {
-        "id": "36",
-        "title": "Google Cloud Platform (GCP)",
-        "url": "https://cloud.google.com",
-        "description": "Google Cloud Platform provides cloud computing services including compute, storage, databases, analytics, machine learning, and AI. Features scalable infrastructure, data analytics tools, and enterprise solutions. Includes BigQuery, Cloud Storage, Compute Engine, and AI/ML services.",
-        "tags": [
-            "paid",
-            "cloud",
-            "data analytics",
-            "ai"
-        ]
+        "id":  "websites-23",
+        "title":  "Kaggle",
+        "url":  "https://www.kaggle.com",
+        "description":  "Kaggle is a data science and machine learning platform. Features datasets, competitions, notebooks, courses, and a community of data scientists. Includes free GPU compute, collaborative notebooks, and learning resources.",
+        "tags":  [
+                     "free",
+                     "data analytics",
+                     "ai",
+                     "learning"
+                 ]
     },
     {
-        "id": "35",
-        "title": "Microsoft Azure",
-        "url": "https://azure.microsoft.com",
-        "description": "Microsoft Azure is a cloud computing platform offering infrastructure, platform, and software services. Features virtual machines, databases, AI services, analytics, and enterprise solutions. Includes Azure Data Factory, Synapse Analytics, and comprehensive cloud services.",
-        "tags": [
-            "paid",
-            "cloud",
-            "data analytics",
-            "ai"
-        ]
+        "id":  "websites-24",
+        "title":  "Fivetran",
+        "url":  "https://fivetran.com",
+        "description":  "Fivetran is a data integration platform that automates data movement from 700+ sources to data warehouses and data lakes. Features automated ETL pipelines, real-time replication, and managed data transformations. Trusted by enterprises for reliable data movement.",
+        "tags":  [
+                     "paid",
+                     "data analytics",
+                     "etl"
+                 ]
     },
     {
-        "id": "34",
-        "title": "Amazon Web Services (AWS)",
-        "url": "https://aws.amazon.com",
-        "description": "Amazon Web Services is the world's most comprehensive cloud platform, offering over 200 services including compute, storage, databases, analytics, machine learning, and AI. Features scalable infrastructure, data lakes, and enterprise solutions. Includes EC2, S3, Redshift, and SageMaker.",
-        "tags": [
-            "paid",
-            "cloud",
-            "data analytics",
-            "ai"
-        ]
+        "id":  "websites-25",
+        "title":  "Google AI Studio",
+        "url":  "https://aistudio.google.com",
+        "description":  "Google AI Studio is a web-based tool for building with Google\u0027s generative AI models. Features API access, prompt engineering, and model testing. Enables developers to prototype and build applications with Gemini and other Google AI models.",
+        "tags":  [
+                     "free",
+                     "ai",
+                     "api"
+                 ]
     },
     {
-        "id": "33",
-        "title": "Databricks",
-        "url": "https://www.databricks.com",
-        "description": "Databricks is a unified analytics platform built on Apache Spark for data engineering, data science, and machine learning. Features collaborative notebooks, automated cluster management, and integration with major cloud providers. Enables teams to build and deploy ML models at scale.",
-        "tags": [
-            "paid",
-            "data analytics",
-            "ai",
-            "cloud"
-        ]
+        "id":  "websites-26",
+        "title":  "Antigravity",
+        "url":  "https://antigravity.com",
+        "description":  "Antigravity is a platform for AI and machine learning development. Provides tools and resources for building AI applications.",
+        "tags":  [
+                     "free",
+                     "ai"
+                 ]
     },
     {
-        "id": "32",
-        "title": "dbt (data build tool)",
-        "url": "https://www.getdbt.com",
-        "description": "dbt is a transformation tool that enables analytics engineers to transform data in their warehouse using SQL. Features version control, testing, documentation, and modular SQL. Works with Snowflake, BigQuery, Redshift, Databricks, and other data warehouses. Open source with a cloud platform option.",
-        "tags": [
-            "free",
-            "paid",
-            "data analytics",
-            "sql"
-        ]
+        "id":  "websites-27",
+        "title":  "Google Opal",
+        "url":  "https://opal.google.com",
+        "description":  "Google Opal is a Google tool for data and AI workflows. Part of Google\u0027s suite of data and AI development tools.",
+        "tags":  [
+                     "free",
+                     "ai",
+                     "data analytics"
+                 ]
     },
     {
-        "id": "31",
-        "title": "Vocareum",
-        "url": "https://www.vocareum.com/",
-        "description": "Vocareum is an AI-powered learning platform that combines personalized AI tutoring with actionable analytics. Features AI Compass for personalized learning, AI Notebook for cloud-based Jupyter environments, Cloud Labs for hands-on cloud learning, and support for AWS, Azure, GCP, and Databricks. Trusted by 7k+ organizations and over 4 million learners.",
-        "tags": [
-            "ai",
-            "learning",
-            "cloud"
-        ]
+        "id":  "websites-28",
+        "title":  "Google Cloud Platform (GCP)",
+        "url":  "https://cloud.google.com",
+        "description":  "Google Cloud Platform provides cloud computing services including compute, storage, databases, analytics, machine learning, and AI. Features scalable infrastructure, data analytics tools, and enterprise solutions. Includes BigQuery, Cloud Storage, Compute Engine, and AI/ML services.",
+        "tags":  [
+                     "paid",
+                     "cloud",
+                     "data analytics",
+                     "ai"
+                 ]
     },
     {
-        "id": "30",
-        "title": "Exercism",
-        "url": "https://exercism.org",
-        "description": "Exercism is a coding platform that provides mentorship and practice exercises in over 60 programming languages. Features automated testing, mentor feedback, and a supportive community. Perfect for learning new languages and improving coding skills through practical exercises.",
-        "tags": [
-            "free",
-            "learning",
-            "programming",
-            "community"
-        ]
+        "id":  "websites-29",
+        "title":  "Microsoft Azure",
+        "url":  "https://azure.microsoft.com",
+        "description":  "Microsoft Azure is a cloud computing platform offering infrastructure, platform, and software services. Features virtual machines, databases, AI services, analytics, and enterprise solutions. Includes Azure Data Factory, Synapse Analytics, and comprehensive cloud services.",
+        "tags":  [
+                     "paid",
+                     "cloud",
+                     "data analytics",
+                     "ai"
+                 ]
     },
     {
-        "id": "29",
-        "title": "Roadmap.sh",
-        "url": "https://roadmap.sh",
-        "description": "Roadmap.sh provides interactive roadmaps, guides, and other educational content to help developers grow their careers. Features detailed learning paths for different roles including frontend, backend, devops, AI, and more. Community-driven and regularly updated.",
-        "tags": [
-            "free",
-            "learning",
-            "career development"
-        ]
+        "id":  "websites-30",
+        "title":  "Amazon Web Services (AWS)",
+        "url":  "https://aws.amazon.com",
+        "description":  "Amazon Web Services is the world\u0027s most comprehensive cloud platform, offering over 200 services including compute, storage, databases, analytics, machine learning, and AI. Features scalable infrastructure, data lakes, and enterprise solutions. Includes EC2, S3, Redshift, and SageMaker.",
+        "tags":  [
+                     "paid",
+                     "cloud",
+                     "data analytics",
+                     "ai"
+                 ]
     },
     {
-        "id": "28",
-        "title": "The Primeagen",
-        "url": "https://theprimeagen.dev",
-        "description": "The Primeagen's website featuring coding tutorials, live streams, and developer content. Focuses on practical programming skills, algorithms, system design, and modern development practices. Known for high-quality technical content and entertaining delivery.",
-        "tags": [
-            "free",
-            "tutorials",
-            "algorithms"
-        ]
+        "id":  "websites-31",
+        "title":  "dbt (data build tool)",
+        "url":  "https://www.getdbt.com",
+        "description":  "dbt is a transformation tool that enables analytics engineers to transform data in their warehouse using SQL. Features version control, testing, documentation, and modular SQL. Works with Snowflake, BigQuery, Redshift, Databricks, and other data warehouses. Open source with a cloud platform option.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "data analytics",
+                     "sql"
+                 ]
     },
     {
-        "id": "27",
-        "title": "Fireship",
-        "url": "https://fireship.io",
-        "description": "Fireship provides quick, practical tutorials and courses on modern web development technologies. Features short, focused videos on frameworks, tools, and best practices. Known for high-quality content and covering cutting-edge technologies.",
-        "tags": [
-            "free",
-            "paid",
-            "tutorials",
-            "web development"
-        ]
+        "id":  "websites-32",
+        "title":  "Vocareum",
+        "url":  "https://www.vocareum.com/",
+        "description":  "Vocareum is an AI-powered learning platform that combines personalized AI tutoring with actionable analytics. Features AI Compass for personalized learning, AI Notebook for cloud-based Jupyter environments, Cloud Labs for hands-on cloud learning, and support for AWS, Azure, GCP, and Databricks. Trusted by 7k+ organizations and over 4 million learners.",
+        "tags":  [
+                     "ai",
+                     "learning",
+                     "cloud"
+                 ]
     },
     {
-        "id": "26",
-        "title": "Daily.dev",
-        "url": "https://daily.dev",
-        "description": "Daily.dev is a personalized feed of developer news, articles, and tutorials. Features curated content from top tech publications, personalized recommendations, and reading lists. Helps developers stay updated with the latest trends and technologies.",
-        "tags": [
-            "free",
-            "news",
-            "tutorials",
-            "community"
-        ]
+        "id":  "websites-33",
+        "title":  "Exercism",
+        "url":  "https://exercism.org",
+        "description":  "Exercism is a coding platform that provides mentorship and practice exercises in over 60 programming languages. Features automated testing, mentor feedback, and a supportive community. Perfect for learning new languages and improving coding skills through practical exercises.",
+        "tags":  [
+                     "free",
+                     "learning",
+                     "programming",
+                     "community"
+                 ]
     },
     {
-        "id": "25",
-        "title": "StateOfJS",
-        "url": "https://stateofjs.com",
-        "description": "StateOfJS is an annual survey of the JavaScript ecosystem featuring insights from thousands of developers. Provides data on framework popularity, satisfaction levels, and trends. Essential for understanding the JavaScript landscape and making technology decisions.",
-        "tags": [
-            "free",
-            "javascript",
-            "trends"
-        ]
+        "id":  "websites-34",
+        "title":  "Roadmap.sh",
+        "url":  "https://roadmap.sh",
+        "description":  "Roadmap.sh provides interactive roadmaps, guides, and other educational content to help developers grow their careers. Features detailed learning paths for different roles including frontend, backend, devops, AI, and more. Community-driven and regularly updated.",
+        "tags":  [
+                     "free",
+                     "learning",
+                     "career development"
+                 ]
     },
     {
-        "id": "24",
-        "title": "Web.dev",
-        "url": "https://web.dev",
-        "description": "Web.dev is Google's comprehensive resource for modern web development. Features guides, tutorials, and tools for building fast, accessible, and reliable websites. Covers performance, accessibility, SEO, and best practices with interactive learning experiences.",
-        "tags": [
-            "free",
-            "web development",
-            "tutorials"
-        ]
+        "id":  "websites-35",
+        "title":  "The Primeagen",
+        "url":  "https://theprimeagen.dev",
+        "description":  "The Primeagen\u0027s website featuring coding tutorials, live streams, and developer content. Focuses on practical programming skills, algorithms, system design, and modern development practices. Known for high-quality technical content and entertaining delivery.",
+        "tags":  [
+                     "free",
+                     "tutorials",
+                     "algorithms"
+                 ]
     },
     {
-        "id": "23",
-        "title": "CSS Grid Garden",
-        "url": "https://cssgridgarden.com",
-        "description": "CSS Grid Garden is an interactive game for learning CSS Grid layout. Features gamified learning with practical examples and challenges. Perfect for developers looking to master modern CSS layout techniques in a fun and engaging way.",
-        "tags": [
-            "free",
-            "interactive",
-            "learning",
-            "css"
-        ]
+        "id":  "websites-36",
+        "title":  "Fireship",
+        "url":  "https://fireship.io",
+        "description":  "Fireship provides quick, practical tutorials and courses on modern web development technologies. Features short, focused videos on frameworks, tools, and best practices. Known for high-quality content and covering cutting-edge technologies.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "tutorials",
+                     "web development"
+                 ]
     },
     {
-        "id": "22",
-        "title": "JavaScript Info",
-        "url": "https://javascript.info",
-        "description": "JavaScript Info is a comprehensive resource for learning modern JavaScript. Features detailed explanations, examples, and interactive tasks. Covers everything from basics to advanced topics with clear, practical examples and exercises.",
-        "tags": [
-            "free",
-            "javascript",
-            "tutorials"
-        ]
+        "id":  "websites-37",
+        "title":  "StateOfJS",
+        "url":  "https://stateofjs.com",
+        "description":  "StateOfJS is an annual survey of the JavaScript ecosystem featuring insights from thousands of developers. Provides data on framework popularity, satisfaction levels, and trends. Essential for understanding the JavaScript landscape and making technology decisions.",
+        "tags":  [
+                     "free",
+                     "javascript",
+                     "trends"
+                 ]
     },
     {
-        "id": "21",
-        "title": "TypeScript Handbook",
-        "url": "https://typescriptlang.org/docs/handbook",
-        "description": "Official TypeScript Handbook providing comprehensive documentation and guides. Features in-depth explanations of TypeScript features, best practices, and migration guides. Essential resource for developers working with TypeScript.",
-        "tags": [
-            "free",
-            "documentation",
-            "typescript"
-        ]
+        "id":  "websites-38",
+        "title":  "Web.dev",
+        "url":  "https://web.dev",
+        "description":  "Web.dev is Google\u0027s comprehensive resource for modern web development. Features guides, tutorials, and tools for building fast, accessible, and reliable websites. Covers performance, accessibility, SEO, and best practices with interactive learning experiences.",
+        "tags":  [
+                     "free",
+                     "web development",
+                     "tutorials"
+                 ]
     },
     {
-        "id": "20",
-        "title": "JSFiddle",
-        "url": "https://jsfiddle.net",
-        "description": "JSFiddle is an online IDE for testing and showcasing user-created and collaborational HTML, CSS and JavaScript code snippets. Features live code editing, sharing, and embedding. Great for quick prototyping and bug reproduction.",
-        "tags": [
-            "free",
-            "online ide",
-            "web development"
-        ]
+        "id":  "websites-39",
+        "title":  "CSS Grid Garden",
+        "url":  "https://cssgridgarden.com",
+        "description":  "CSS Grid Garden is an interactive game for learning CSS Grid layout. Features gamified learning with practical examples and challenges. Perfect for developers looking to master modern CSS layout techniques in a fun and engaging way.",
+        "tags":  [
+                     "free",
+                     "interactive",
+                     "learning",
+                     "css"
+                 ]
     },
     {
-        "id": "19",
-        "title": "CodePen",
-        "url": "https://codepen.io",
-        "description": "CodePen is an online code editor and social development environment. Features live HTML, CSS, and JavaScript editing, code sharing, and a community of front-end developers. Perfect for prototyping and sharing code snippets.",
-        "tags": [
-            "free",
-            "code editor",
-            "web development",
-            "community"
-        ]
+        "id":  "websites-40",
+        "title":  "JavaScript Info",
+        "url":  "https://javascript.info",
+        "description":  "JavaScript Info is a comprehensive resource for learning modern JavaScript. Features detailed explanations, examples, and interactive tasks. Covers everything from basics to advanced topics with clear, practical examples and exercises.",
+        "tags":  [
+                     "free",
+                     "javascript",
+                     "tutorials"
+                 ]
     },
     {
-        "id": "18",
-        "title": "Can I Use",
-        "url": "https://caniuse.com",
-        "description": "Can I Use provides up-to-date browser support tables for modern web technologies. Features compatibility information for HTML5, CSS3, SVG, and JavaScript APIs across different browsers and versions.",
-        "tags": [
-            "free",
-            "web development",
-            "reference"
-        ]
+        "id":  "websites-41",
+        "title":  "TypeScript Handbook",
+        "url":  "https://typescriptlang.org/docs/handbook",
+        "description":  "Official TypeScript Handbook providing comprehensive documentation and guides. Features in-depth explanations of TypeScript features, best practices, and migration guides. Essential resource for developers working with TypeScript.",
+        "tags":  [
+                     "free",
+                     "documentation",
+                     "typescript"
+                 ]
     },
     {
-        "id": "17",
-        "title": "W3Schools",
-        "url": "https://w3schools.com",
-        "description": "W3Schools is a web developers site with tutorials and references on web development languages. Features interactive examples, quizzes, and exercises. Covers HTML, CSS, JavaScript, and various web technologies.",
-        "tags": [
-            "free",
-            "tutorials",
-            "web development"
-        ]
+        "id":  "websites-42",
+        "title":  "JSFiddle",
+        "url":  "https://jsfiddle.net",
+        "description":  "JSFiddle is an online IDE for testing and showcasing user-created and collaborational HTML, CSS and JavaScript code snippets. Features live code editing, sharing, and embedding. Great for quick prototyping and bug reproduction.",
+        "tags":  [
+                     "free",
+                     "online ide",
+                     "web development"
+                 ]
     },
     {
-        "id": "16",
-        "title": "A List Apart",
-        "url": "https://alistapart.com",
-        "description": "A List Apart explores the design, development, and meaning of web content. Features articles about web standards, accessibility, performance, and the business of web development. Known for thoughtful, in-depth content.",
-        "tags": [
-            "free",
-            "web development"
-        ]
+        "id":  "websites-43",
+        "title":  "CodePen",
+        "url":  "https://codepen.io",
+        "description":  "CodePen is an online code editor and social development environment. Features live HTML, CSS, and JavaScript editing, code sharing, and a community of front-end developers. Perfect for prototyping and sharing code snippets.",
+        "tags":  [
+                     "free",
+                     "code editor",
+                     "web development",
+                     "community"
+                 ]
     },
     {
-        "id": "15",
-        "title": "SitePoint",
-        "url": "https://sitepoint.com",
-        "description": "SitePoint is a hub for web developers, covering all aspects of web development. Features tutorials, articles, books, and courses. Topics include HTML, CSS, JavaScript, PHP, and various frameworks and tools.",
-        "tags": [
-            "free",
-            "paid",
-            "web development",
-            "tutorials"
-        ]
+        "id":  "websites-44",
+        "title":  "W3Schools",
+        "url":  "https://w3schools.com",
+        "description":  "W3Schools is a web developers site with tutorials and references on web development languages. Features interactive examples, quizzes, and exercises. Covers HTML, CSS, JavaScript, and various web technologies.",
+        "tags":  [
+                     "free",
+                     "tutorials",
+                     "web development"
+                 ]
     },
     {
-        "id": "14",
-        "title": "Smashing Magazine",
-        "url": "https://smashingmagazine.com",
-        "description": "Smashing Magazine is an online magazine for professional web designers and developers. Features articles about UX, UI, frontend development, and design trends. Known for high-quality content and practical insights.",
-        "tags": [
-            "free",
-            "paid",
-            "web development"
-        ]
+        "id":  "websites-45",
+        "title":  "A List Apart",
+        "url":  "https://alistapart.com",
+        "description":  "A List Apart explores the design, development, and meaning of web content. Features articles about web standards, accessibility, performance, and the business of web development. Known for thoughtful, in-depth content.",
+        "tags":  [
+                     "free",
+                     "web development"
+                 ]
     },
     {
-        "id": "13",
-        "title": "CSS-Tricks",
-        "url": "https://css-tricks.com",
-        "description": "CSS-Tricks is a website about building websites. Features articles, guides, and tutorials about CSS, HTML, JavaScript, and web development best practices. Known for comprehensive guides and practical examples.",
-        "tags": [
-            "free",
-            "web development",
-            "tutorials"
-        ]
+        "id":  "websites-46",
+        "title":  "SitePoint",
+        "url":  "https://sitepoint.com",
+        "description":  "SitePoint is a hub for web developers, covering all aspects of web development. Features tutorials, articles, books, and courses. Topics include HTML, CSS, JavaScript, PHP, and various frameworks and tools.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "web development",
+                     "tutorials"
+                 ]
     },
     {
-        "id": "12",
-        "title": "YouTube",
-        "url": "https://youtube.com",
-        "description": "YouTube is the world's largest video sharing platform. Features educational content from channels like freeCodeCamp, Traversy Media, Academind, and many others. Perfect for learning programming, design, and technology topics.",
-        "tags": [
-            "free",
-            "tutorials",
-            "learning"
-        ]
+        "id":  "websites-47",
+        "title":  "Smashing Magazine",
+        "url":  "https://smashingmagazine.com",
+        "description":  "Smashing Magazine is an online magazine for professional web designers and developers. Features articles about UX, UI, frontend development, and design trends. Known for high-quality content and practical insights.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "web development"
+                 ]
     },
     {
-        "id": "11",
-        "title": "LinkedIn Learning",
-        "url": "https://linkedin.com/learning",
-        "description": "LinkedIn Learning offers professional development courses taught by industry experts. Features include video courses, hands-on exercises, and certificates. Topics cover technology, business, creative skills, and personal development.",
-        "tags": [
-            "paid",
-            "professional development",
-            "certifications"
-        ]
+        "id":  "websites-48",
+        "title":  "CSS-Tricks",
+        "url":  "https://css-tricks.com",
+        "description":  "CSS-Tricks is a website about building websites. Features articles, guides, and tutorials about CSS, HTML, JavaScript, and web development best practices. Known for comprehensive guides and practical examples.",
+        "tags":  [
+                     "free",
+                     "web development",
+                     "tutorials"
+                 ]
     },
     {
-        "id": "10",
-        "title": "Udemy",
-        "url": "https://udemy.com",
-        "description": "Udemy is an online learning platform with over 200,000 courses. Features video courses taught by expert instructors, lifetime access, and certificates of completion. Topics range from programming to business, design, and more.",
-        "tags": [
-            "paid",
-            "courses",
-            "certifications"
-        ]
+        "id":  "websites-49",
+        "title":  "YouTube",
+        "url":  "https://youtube.com",
+        "description":  "YouTube is the world\u0027s largest video sharing platform. Features educational content from channels like freeCodeCamp, Traversy Media, Academind, and many others. Perfect for learning programming, design, and technology topics.",
+        "tags":  [
+                     "free",
+                     "tutorials",
+                     "learning"
+                 ]
     },
     {
-        "id": "11",
-        "title": "Coursera",
-        "url": "https://coursera.org",
-        "description": "Coursera offers online courses, Specializations, and degrees from world-class universities and companies. Features include video lectures, quizzes, peer assessments, and certificates. Courses from institutions like Stanford, Google, and IBM.",
-        "tags": [
-            "free",
-            "paid",
-            "courses",
-            "certifications"
-        ]
+        "id":  "websites-50",
+        "title":  "LinkedIn Learning",
+        "url":  "https://linkedin.com/learning",
+        "description":  "LinkedIn Learning offers professional development courses taught by industry experts. Features include video courses, hands-on exercises, and certificates. Topics cover technology, business, creative skills, and personal development.",
+        "tags":  [
+                     "paid",
+                     "professional development",
+                     "certifications"
+                 ]
     },
     {
-        "id": "9",
-        "title": "freeCodeCamp",
-        "url": "https://freecodecamp.org",
-        "description": "freeCodeCamp is a non-profit organization that helps people learn to code for free. Features comprehensive curriculum, coding challenges, projects, and certifications. Includes responsive web design, JavaScript algorithms, and more.",
-        "tags": [
-            "free",
-            "learning",
-            "web development"
-        ]
+        "id":  "websites-51",
+        "title":  "Udemy",
+        "url":  "https://udemy.com",
+        "description":  "Udemy is an online learning platform with over 200,000 courses. Features video courses taught by expert instructors, lifetime access, and certificates of completion. Topics range from programming to business, design, and more.",
+        "tags":  [
+                     "paid",
+                     "courses",
+                     "certifications"
+                 ]
     },
     {
-        "id": "8",
-        "title": "Codecademy",
-        "url": "https://codecademy.com",
-        "description": "Codecademy is an interactive platform that offers free coding classes in various programming languages. Features hands-on learning, projects, and career paths. Perfect for beginners and those looking to upskill in specific technologies.",
-        "tags": [
-            "free",
-            "paid",
-            "learning",
-            "web development"
-        ]
+        "id":  "websites-52",
+        "title":  "Coursera",
+        "url":  "https://coursera.org",
+        "description":  "Coursera offers online courses, Specializations, and degrees from world-class universities and companies. Features include video lectures, quizzes, peer assessments, and certificates. Courses from institutions like Stanford, Google, and IBM.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "courses",
+                     "certifications"
+                 ]
     },
     {
-        "id": "7",
-        "title": "HackerRank",
-        "url": "https://hackerrank.com",
-        "description": "HackerRank is a technical interview platform that helps companies evaluate software developers. Features coding challenges, skill assessments, and interview preparation. Used by companies like Google, Facebook, and Amazon for hiring.",
-        "tags": [
-            "free",
-            "paid",
-            "coding challenges",
-            "interview preparation"
-        ]
+        "id":  "websites-53",
+        "title":  "freeCodeCamp",
+        "url":  "https://freecodecamp.org",
+        "description":  "freeCodeCamp is a non-profit organization that helps people learn to code for free. Features comprehensive curriculum, coding challenges, projects, and certifications. Includes responsive web design, JavaScript algorithms, and more.",
+        "tags":  [
+                     "free",
+                     "learning",
+                     "web development"
+                 ]
     },
     {
-        "id": "6",
-        "title": "LeetCode",
-        "url": "https://leetcode.com",
-        "description": "LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews. Features thousands of coding problems, mock interviews, and company-specific question sets.",
-        "tags": [
-            "free",
-            "paid",
-            "coding challenges",
-            "interview preparation"
-        ]
+        "id":  "websites-54",
+        "title":  "Codecademy",
+        "url":  "https://codecademy.com",
+        "description":  "Codecademy is an interactive platform that offers free coding classes in various programming languages. Features hands-on learning, projects, and career paths. Perfect for beginners and those looking to upskill in specific technologies.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "learning",
+                     "web development"
+                 ]
     },
     {
-        "id": "5",
-        "title": "Dev.to",
-        "url": "https://dev.to",
-        "description": "Dev.to is a community of software developers sharing articles, tutorials, and discussions. Features include daily.dev feed, tags for different technologies, and a supportive community for sharing knowledge and networking.",
-        "tags": [
-            "free",
-            "community",
-            "tutorials"
-        ]
+        "id":  "websites-55",
+        "title":  "HackerRank",
+        "url":  "https://hackerrank.com",
+        "description":  "HackerRank is a technical interview platform that helps companies evaluate software developers. Features coding challenges, skill assessments, and interview preparation. Used by companies like Google, Facebook, and Amazon for hiring.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "coding challenges",
+                     "interview preparation"
+                 ]
     },
     {
-        "id": "4",
-        "title": "MDN Web Docs",
-        "url": "https://developer.mozilla.org",
-        "description": "MDN Web Docs is the definitive resource for web technologies including HTML, CSS, JavaScript, and Web APIs. Comprehensive documentation, tutorials, and browser compatibility information maintained by Mozilla and the web community.",
-        "tags": [
-            "free",
-            "documentation",
-            "web development"
-        ]
+        "id":  "websites-56",
+        "title":  "LeetCode",
+        "url":  "https://leetcode.com",
+        "description":  "LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews. Features thousands of coding problems, mock interviews, and company-specific question sets.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "coding challenges",
+                     "interview preparation"
+                 ]
     },
     {
-        "id": "3",
-        "title": "Stack Overflow",
-        "url": "https://stackoverflow.com",
-        "description": "Stack Overflow is a question and answer site for professional and enthusiast programmers. Find answers to technical questions, share knowledge, and build your reputation. Features include voting, badges, and job listings.",
-        "tags": [
-            "free",
-            "q&a",
-            "community"
-        ]
+        "id":  "websites-57",
+        "title":  "Dev.to",
+        "url":  "https://dev.to",
+        "description":  "Dev.to is a community of software developers sharing articles, tutorials, and discussions. Features include daily.dev feed, tags for different technologies, and a supportive community for sharing knowledge and networking.",
+        "tags":  [
+                     "free",
+                     "community",
+                     "tutorials"
+                 ]
     },
     {
-        "id": "2",
-        "title": "GitHub",
-        "url": "https://github.com",
-        "description": "GitHub is the world's largest developer platform. Host and review code, manage projects, and build software alongside millions of other developers. Features include version control, issue tracking, CI/CD, and collaboration tools.",
-        "tags": [
-            "free",
-            "paid",
-            "version control",
-            "collaboration"
-        ]
+        "id":  "websites-58",
+        "title":  "MDN Web Docs",
+        "url":  "https://developer.mozilla.org",
+        "description":  "MDN Web Docs is the definitive resource for web technologies including HTML, CSS, JavaScript, and Web APIs. Comprehensive documentation, tutorials, and browser compatibility information maintained by Mozilla and the web community.",
+        "tags":  [
+                     "free",
+                     "documentation",
+                     "web development"
+                 ]
     },
     {
-        "id": "1",
-        "title": "FinalScout",
-        "url": "https://finalscout.com",
-        "description": "Transform your LinkedIn connections into email lists with this ChatGPT-Powered Email Finding Extension",
-        "tags": [
-            "linkedin",
-            "email",
-            "contacts"
-        ]
+        "id":  "websites-59",
+        "title":  "Stack Overflow",
+        "url":  "https://stackoverflow.com",
+        "description":  "Stack Overflow is a question and answer site for professional and enthusiast programmers. Find answers to technical questions, share knowledge, and build your reputation. Features include voting, badges, and job listings.",
+        "tags":  [
+                     "free",
+                     "q\u0026a",
+                     "community"
+                 ]
+    },
+    {
+        "id":  "websites-60",
+        "title":  "GitHub",
+        "url":  "https://github.com",
+        "description":  "GitHub is the world\u0027s largest developer platform. Host and review code, manage projects, and build software alongside millions of other developers. Features include version control, issue tracking, CI/CD, and collaboration tools.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "version control",
+                     "collaboration"
+                 ]
+    },
+    {
+        "id":  "websites-61",
+        "title":  "FinalScout",
+        "url":  "https://finalscout.com",
+        "description":  "Transform your LinkedIn connections into email lists with this ChatGPT-Powered Email Finding Extension",
+        "tags":  [
+                     "linkedin",
+                     "email",
+                     "contacts"
+                 ]
     }
 ]

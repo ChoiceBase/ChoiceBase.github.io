@@ -1,121 +1,326 @@
 {
   "roles": [
     {
-      "name": "Production Manager",
-      "description": "Oversees the manufacturing process and manages production staff.",
-      "includes": ["Shift Supervisor"],
-      "related": ["Quality Control Engineer", "Maintenance Engineer", "Supply Chain Manager"],
-      "tools": ["ERP Software", "Production Scheduling Tools"],
+      "name": "Plant Director",
+      "description": "Leads overall smart factory operations, Industry 4.0 automation, ESG targets, and high-volume manufacturing throughput.",
+      "related": [
+        "Production Manager",
+        "Supply Chain Manager",
+        "Process Engineer"
+      ],
+      "tools": [
+        "Enterprise ERP (SAP S/4HANA)",
+        "OEE Dashboards",
+        "Power BI"
+      ],
       "languages": [],
-      "skills": ["Leadership", "Process Optimization", "Resource Planning"]
+      "skills": [
+        "Smart Factory Strategy",
+        "Continuous Improvement",
+        "Capital Expenditure Management",
+        "Safety Culture"
+      ]
+    },
+    {
+      "name": "Production Manager",
+      "description": "Manages automated assembly lines, shift scheduling, robotic cell utilization, and takt time optimization.",
+      "related": [
+        "Plant Director",
+        "Quality Control Engineer",
+        "Maintenance Engineer",
+        "Shift Supervisor"
+      ],
+      "tools": [
+        "Manufacturing Execution Systems (MES)",
+        "SCADA Systems",
+        "Digital Twin Models"
+      ],
+      "languages": [],
+      "skills": [
+        "Lean Manufacturing",
+        "Capacity Planning",
+        "Bottleneck Analysis",
+        "Resource Allocation"
+      ]
+    },
+    {
+      "name": "Automation & Robotics Engineer",
+      "description": "Programs and maintains industrial robotic arms (KUKA/ABB/Fanuc), programmable logic controllers (PLCs), and automated guided vehicles (AGVs).",
+      "related": [
+        "Maintenance Engineer",
+        "Process Engineer",
+        "Machine Operator"
+      ],
+      "tools": [
+        "Siemens TIA Portal",
+        "Allen-Bradley Studio 5000",
+        "ROS2",
+        "RoboDK"
+      ],
+      "languages": [
+        "Ladder Logic",
+        "Structured Text",
+        "Python",
+        "C++"
+      ],
+      "skills": [
+        "PLC Programming",
+        "Robot Kinematics",
+        "Machine Vision Systems",
+        "Industrial Ethernet"
+      ]
     },
     {
       "name": "Quality Control Engineer",
-      "description": "Ensures products meet quality standards.",
-      "includes": ["Quality Inspector"],
-      "related": ["Production Manager", "Maintenance Engineer", "Process Engineer"],
-      "tools": ["Inspection Tools", "Statistical Analysis Software"],
-      "languages": [],
-      "skills": ["Attention to Detail", "Data Analysis", "Problem Solving"]
+      "description": "Applies statistical process control (SPC), AI optical inspection, and Six Sigma to ensure zero-defect production.",
+      "related": [
+        "Production Manager",
+        "Process Engineer",
+        "Quality Inspector"
+      ],
+      "tools": [
+        "Minitab",
+        "Coordinate Measuring Machines (CMM)",
+        "Vision AI Inspection Tools"
+      ],
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "skills": [
+        "Statistical Process Control (SPC)",
+        "Root Cause Analysis (8D / 5 Why)",
+        "ISO 9001 / IATF 16949 Standards",
+        "FMEA"
+      ]
     },
     {
       "name": "Maintenance Engineer",
-      "description": "Maintains and repairs manufacturing equipment.",
-      "includes": ["Maintenance Technician"],
-      "related": ["Production Manager", "Quality Control Engineer"],
-      "tools": ["Maintenance Management Software", "Diagnostic Tools"],
+      "description": "Implements predictive maintenance (PdM) using IoT vibration sensors, thermal imaging, and asset management systems.",
+      "related": [
+        "Production Manager",
+        "Automation & Robotics Engineer",
+        "Maintenance Technician"
+      ],
+      "tools": [
+        "CMMS Software (MaintainX/UpKeep)",
+        "Vibration Analyzers",
+        "Thermal Cameras"
+      ],
       "languages": [],
-      "skills": ["Mechanical Skills", "Preventive Maintenance", "Troubleshooting"]
+      "skills": [
+        "Predictive Maintenance",
+        "Reliability Centered Maintenance (RCM)",
+        "Root Cause Failure Analysis",
+        "Total Productive Maintenance (TPM)"
+      ]
     },
     {
       "name": "Shift Supervisor",
-      "description": "Supervises manufacturing staff during a shift.",
-      "includes": [],
-      "related": ["Production Manager", "Machine Operator"],
-      "tools": ["Time Tracking Software"],
+      "description": "Directs shift crews, coordinates line changeovers, enforces safety compliance, and manages real-time production quotas.",
+      "related": [
+        "Production Manager",
+        "Machine Operator",
+        "Maintenance Technician"
+      ],
+      "tools": [
+        "Shift Handover Software",
+        "Digital Andon Boards"
+      ],
       "languages": [],
-      "skills": ["Team Leadership", "Conflict Resolution"]
+      "skills": [
+        "Frontline Leadership",
+        "Conflict Resolution",
+        "Safety Protocol Enforcement",
+        "Line Balancing"
+      ]
     },
     {
       "name": "Supply Chain Manager",
-      "description": "Manages the flow of materials and products.",
-      "includes": ["Logistics Coordinator"],
-      "related": ["Production Manager", "Procurement Specialist"],
-      "tools": ["Supply Chain Management Software", "Inventory Systems"],
+      "description": "Orchestrates end-to-end supply resilience, raw material demand forecasting, vendor logistics, and warehouse automation.",
+      "related": [
+        "Plant Director",
+        "Procurement Specialist",
+        "Logistics Coordinator",
+        "Warehouse Manager"
+      ],
+      "tools": [
+        "SAP IBP",
+        "Kinaxis",
+        "Blue Yonder"
+      ],
       "languages": [],
-      "skills": ["Logistics", "Negotiation", "Inventory Management"]
-    },
-    {
-      "name": "Logistics Coordinator",
-      "description": "Coordinates the movement of goods and materials.",
-      "includes": [],
-      "related": ["Supply Chain Manager", "Warehouse Manager"],
-      "tools": ["Logistics Software", "Barcode Scanners"],
-      "languages": [],
-      "skills": ["Scheduling", "Communication", "Problem Solving"]
-    },
-    {
-      "name": "Warehouse Manager",
-      "description": "Oversees warehouse operations and staff.",
-      "includes": ["Warehouse Worker"],
-      "related": ["Logistics Coordinator", "Supply Chain Manager"],
-      "tools": ["Warehouse Management Systems", "Forklifts"],
-      "languages": [],
-      "skills": ["Organization", "Safety Compliance", "Inventory Control"]
-    },
-    {
-      "name": "Machine Operator",
-      "description": "Operates and monitors manufacturing machinery.",
-      "includes": [],
-      "related": ["Shift Supervisor", "Maintenance Technician"],
-      "tools": ["CNC Machines", "Safety Equipment"],
-      "languages": [],
-      "skills": ["Attention to Detail", "Technical Skills", "Safety Awareness"]
-    },
-    {
-      "name": "Maintenance Technician",
-      "description": "Performs routine maintenance and repairs on equipment.",
-      "includes": [],
-      "related": ["Maintenance Engineer", "Machine Operator"],
-      "tools": ["Hand Tools", "Diagnostic Instruments"],
-      "languages": [],
-      "skills": ["Mechanical Skills", "Troubleshooting", "Preventive Maintenance"]
-    },
-    {
-      "name": "Quality Inspector",
-      "description": "Inspects products for defects and compliance.",
-      "includes": [],
-      "related": ["Quality Control Engineer"],
-      "tools": ["Calipers", "Micrometers", "Inspection Checklists"],
-      "languages": [],
-      "skills": ["Attention to Detail", "Reporting", "Quality Standards"]
+      "skills": [
+        "Demand Forecasting",
+        "Supply Chain Risk Modeling",
+        "Inventory Optimization",
+        "Contract Negotiation"
+      ]
     },
     {
       "name": "Process Engineer",
-      "description": "Designs and optimizes manufacturing processes.",
-      "includes": [],
-      "related": ["Quality Control Engineer", "Production Manager"],
-      "tools": ["Process Simulation Software", "Lean Manufacturing Tools"],
-      "languages": [],
-      "skills": ["Process Improvement", "Data Analysis", "Lean Manufacturing"]
+      "description": "Designs and optimizes continuous production workflows, cycle times, thermodynamic yields, and energy efficiency.",
+      "related": [
+        "Plant Director",
+        "Quality Control Engineer",
+        "Automation & Robotics Engineer",
+        "Production Manager"
+      ],
+      "tools": [
+        "Aspen Plus",
+        "SolidWorks",
+        "Value Stream Mapping Tools"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "skills": [
+        "Value Stream Mapping",
+        "Kaizen & Continuous Improvement",
+        "Thermodynamics & Fluid Dynamics",
+        "Process Simulation"
+      ]
     },
     {
       "name": "Procurement Specialist",
-      "description": "Sources and purchases materials and equipment.",
-      "includes": [],
-      "related": ["Supply Chain Manager"],
-      "tools": ["Procurement Software", "Supplier Portals"],
+      "description": "Manages strategic supplier relationships, raw material purchasing, cost benchmarking, and contract compliance.",
+      "related": [
+        "Supply Chain Manager",
+        "Logistics Coordinator"
+      ],
+      "tools": [
+        "Coupa",
+        "SAP Ariba",
+        "Excel"
+      ],
       "languages": [],
-      "skills": ["Negotiation", "Vendor Management", "Cost Analysis"]
+      "skills": [
+        "Strategic Sourcing",
+        "Vendor Risk Analysis",
+        "Contract Negotiation",
+        "Cost Structure Modeling"
+      ]
+    },
+    {
+      "name": "Logistics Coordinator",
+      "description": "Coordinates freight forwarding, customs documentation, multimodal transport logistics, and tracking.",
+      "related": [
+        "Supply Chain Manager",
+        "Warehouse Manager",
+        "Procurement Specialist"
+      ],
+      "tools": [
+        "Transportation Management Systems (TMS)",
+        "Fleet Telematics"
+      ],
+      "languages": [],
+      "skills": [
+        "Multimodal Freight Routing",
+        "Customs Compliance",
+        "Carrier Management"
+      ]
+    },
+    {
+      "name": "Warehouse Manager",
+      "description": "Directs automated storage and retrieval systems (ASRS), picking robots, inventory accuracy, and shipping docks.",
+      "related": [
+        "Supply Chain Manager",
+        "Logistics Coordinator",
+        "Warehouse Worker"
+      ],
+      "tools": [
+        "Warehouse Management Systems (Manhattan/HighJump)",
+        "Barcode / RFID Scanners"
+      ],
+      "languages": [],
+      "skills": [
+        "Inventory Accuracy (Cycle Counting)",
+        "Slotting Optimization",
+        "ASRS Management",
+        "Safety Compliance"
+      ]
+    },
+    {
+      "name": "Machine Operator",
+      "description": "Operates high-precision CNC mills, laser cutters, 3D additive metal printers, and injection molding machinery.",
+      "related": [
+        "Shift Supervisor",
+        "Automation & Robotics Engineer",
+        "Maintenance Technician"
+      ],
+      "tools": [
+        "5-Axis CNC Centers",
+        "Industrial 3D Printers",
+        "Digital Calipers"
+      ],
+      "languages": [
+        "G-Code"
+      ],
+      "skills": [
+        "CNC Setup & Operation",
+        "Precision Measurement",
+        "Workpiece Staging",
+        "Safety Protocols"
+      ]
+    },
+    {
+      "name": "Maintenance Technician",
+      "description": "Conducts electromechanical repairs, hydraulic servicing, sensor calibration, and emergency repairs.",
+      "related": [
+        "Maintenance Engineer",
+        "Machine Operator",
+        "Shift Supervisor"
+      ],
+      "tools": [
+        "Multimeters",
+        "Hydraulic Gauges",
+        "Bearing Pullers"
+      ],
+      "languages": [],
+      "skills": [
+        "Electromechanical Troubleshooting",
+        "Hydraulics & Pneumatics",
+        "Component Replacement",
+        "Safety Lockout/Tagout (LOTO)"
+      ]
+    },
+    {
+      "name": "Quality Inspector",
+      "description": "Performs geometric dimensioning and tolerancing (GD&T) checks, surface finish scans, and non-destructive testing.",
+      "related": [
+        "Quality Control Engineer",
+        "Machine Operator"
+      ],
+      "tools": [
+        "Optical Comparators",
+        "Digital Micrometers",
+        "Hardness Testers"
+      ],
+      "languages": [],
+      "skills": [
+        "GD&T Inspection",
+        "Non-Destructive Testing (NDT)",
+        "Documentation & Traceability"
+      ]
     },
     {
       "name": "Warehouse Worker",
-      "description": "Handles goods within the warehouse.",
-      "includes": [],
-      "related": ["Warehouse Manager"],
-      "tools": ["Pallet Jacks", "Barcode Scanners"],
+      "description": "Handles stock receiving, automated picking carts, pallet wrapping, and staging for outbound distribution.",
+      "related": [
+        "Warehouse Manager",
+        "Logistics Coordinator"
+      ],
+      "tools": [
+        "Electric Pallet Jacks",
+        "Voice-Directed Picking Headsets",
+        "Handheld Scanners"
+      ],
       "languages": [],
-      "skills": ["Physical Stamina", "Attention to Detail", "Teamwork"]
+      "skills": [
+        "RF Scanning",
+        "Order Staging",
+        "Material Handling Safety"
+      ]
     }
   ]
 }

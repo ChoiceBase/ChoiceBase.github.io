@@ -2,330 +2,317 @@
   "roles": [
     {
       "name": "Physician",
-      "description": "Diagnoses and treats illnesses, prescribes medication, and manages patient care.",
-      "includes": [
-        "General Practitioner",
-        "Specialist Physician"
-      ],
+      "description": "Diagnoses and treats complex illnesses, interprets AI diagnostics, prescribes medications, and directs patient care plans.",
       "related": [
-        "Nurse",
+        "Nurse Practitioner",
         "Physician Assistant",
-        "Pharmacist"
+        "Pharmacist",
+        "Cardiologist"
       ],
       "tools": [
-        "Electronic Health Records (EHR)",
-        "Stethoscope",
-        "Diagnostic Imaging"
+        "Epic Systems / Cerner EHR",
+        "Digital Stethoscope",
+        "AI Diagnostic Assistants",
+        "Telehealth Platforms"
       ],
       "languages": [],
       "skills": [
-        "Diagnosis",
+        "Differential Diagnosis",
+        "Clinical Decision Support",
         "Patient Care",
-        "Medical Knowledge"
+        "Chronic Disease Management"
       ]
     },
     {
-      "name": "Nurse",
-      "description": "Provides direct patient care, administers medication, and assists physicians.",
-      "includes": [
-        "Registered Nurse",
-        "Nurse Practitioner",
-        "Licensed Practical Nurse"
-      ],
+      "name": "Nurse Practitioner",
+      "description": "Advanced practice registered nurse delivering autonomous clinical care, prescribing medications, and managing health outcomes.",
       "related": [
         "Physician",
+        "Staff Nurse",
         "Physician Assistant",
-        "Medical Assistant"
+        "Pediatrician"
       ],
       "tools": [
-        "EHR",
-        "Vital Signs Monitor",
-        "IV Pump"
+        "EHR Software",
+        "Point-of-Care Ultrasound (POCUS)",
+        "Patient Monitoring Systems"
       ],
       "languages": [],
       "skills": [
-        "Patient Care",
+        "Autonomous Diagnosis",
+        "Preventive Healthcare",
+        "Prescription Governance",
+        "Patient Education"
+      ]
+    },
+    {
+      "name": "Staff Nurse",
+      "description": "Administers acute bedside care, IV medications, real-time vital telemetry, and patient stabilization.",
+      "related": [
+        "Nurse Practitioner",
+        "Surgeon",
+        "Physician",
+        "Medical Assistant"
+      ],
+      "tools": [
+        "Smart Infusion Pumps",
+        "Telemetry Monitors",
+        "Barcode Medication Scanners",
+        "EHR"
+      ],
+      "languages": [],
+      "skills": [
+        "Critical Care",
         "Medication Administration",
-        "Communication"
+        "Triage & Assessment",
+        "Compassionate Care"
       ]
     },
     {
       "name": "Surgeon",
-      "description": "Performs surgical procedures to treat injuries, diseases, and deformities.",
-      "includes": [
-        "General Surgeon",
-        "Orthopedic Surgeon",
-        "Cardiac Surgeon"
-      ],
+      "description": "Performs robotic-assisted and minimally invasive operative procedures to treat complex conditions and trauma.",
       "related": [
         "Anesthesiologist",
-        "Surgical Nurse",
-        "Physician"
+        "Staff Nurse",
+        "Cardiologist",
+        "Neurosurgeon"
       ],
       "tools": [
-        "Surgical Instruments",
-        "Operating Room Equipment",
-        "EHR"
+        "da Vinci Surgical System",
+        "Laparoscopic Instruments",
+        "Intraoperative Navigation"
       ],
       "languages": [],
       "skills": [
-        "Surgical Skills",
-        "Precision",
+        "Robotic-Assisted Surgery",
+        "Microsurgical Precision",
+        "Intraoperative Decision Making",
         "Team Leadership"
       ]
     },
     {
-      "name": "Anesthesiologist",
-      "description": "Administers anesthesia and monitors patients during surgery.",
-      "includes": [],
+      "name": "Neurosurgeon",
+      "description": "Performs high-precision microsurgery and stereotactic radiosurgery on the brain, spine, and central nervous system.",
       "related": [
         "Surgeon",
-        "Nurse Anesthetist",
-        "Operating Room Nurse"
-      ],
-      "tools": [
-        "Anesthesia Machine",
-        "Patient Monitoring Systems",
-        "EHR"
-      ],
-      "languages": [],
-      "skills": [
-        "Anesthesia Administration",
-        "Monitoring",
-        "Critical Thinking"
-      ]
-    },
-    {
-      "name": "Pharmacist",
-      "description": "Dispenses medications, advises on drug interactions, and counsels patients.",
-      "includes": [],
-      "related": [
-        "Physician",
-        "Pharmacy Technician",
-        "Nurse"
-      ],
-      "tools": [
-        "Pharmacy Management Software",
-        "Pill Counter",
-        "Reference Databases"
-      ],
-      "languages": [],
-      "skills": [
-        "Pharmacology",
-        "Attention to Detail",
-        "Patient Counseling"
-      ]
-    },
-    {
-      "name": "Medical Laboratory Technician",
-      "description": "Performs lab tests to assist in diagnosis and treatment.",
-      "includes": [],
-      "related": [
-        "Pathologist",
-        "Phlebotomist",
-        "Nurse"
-      ],
-      "tools": [
-        "Lab Analyzers",
-        "Microscope",
-        "EHR"
-      ],
-      "languages": [],
-      "skills": [
-        "Lab Testing",
-        "Sample Handling",
-        "Data Analysis"
-      ]
-    },
-    {
-      "name": "Radiologic Technologist",
-      "description": "Operates imaging equipment to perform diagnostic imaging exams.",
-      "includes": [],
-      "related": [
-        "Radiologist",
-        "Physician",
-        "Medical Laboratory Technician"
-      ],
-      "tools": [
-        "X-ray Machine",
-        "MRI Scanner",
-        "PACS"
-      ],
-      "languages": [],
-      "skills": [
-        "Imaging Techniques",
-        "Patient Positioning",
-        "Radiation Safety"
-      ]
-    },
-    {
-      "name": "Physician Assistant",
-      "description": "Practices medicine under physician supervision, can diagnose and treat patients.",
-      "includes": [],
-      "related": [
-        "Physician",
-        "Nurse Practitioner",
-        "Nurse"
-      ],
-      "tools": [
-        "EHR",
-        "Medical Instruments",
-        "Diagnostic Tools"
-      ],
-      "languages": [],
-      "skills": [
-        "Clinical Assessment",
-        "Patient Care",
-        "Teamwork"
-      ]
-    },
-    {
-      "name": "Medical Assistant",
-      "description": "Performs administrative and basic clinical tasks in healthcare settings.",
-      "includes": [],
-      "related": [
-        "Nurse",
-        "Physician",
-        "Receptionist"
-      ],
-      "tools": [
-        "EHR",
-        "Blood Pressure Monitor",
-        "Scheduling Software"
-      ],
-      "languages": [],
-      "skills": [
-        "Patient Interaction",
-        "Vital Signs Measurement",
-        "Organization"
-      ]
-    },
-    {
-      "name": "Physical Therapist",
-      "description": "Helps patients improve movement and manage pain after injuries or illness.",
-      "includes": [],
-      "related": [
-        "Physician",
-        "Occupational Therapist",
-        "Rehabilitation Nurse"
-      ],
-      "tools": [
-        "Therapy Equipment",
-        "Exercise Bands",
-        "EHR"
-      ],
-      "languages": [],
-      "skills": [
-        "Rehabilitation",
-        "Exercise Instruction",
-        "Patient Motivation"
-      ]
-    },
-    {
-      "name": "Occupational Therapist",
-      "description": "Assists patients in developing, recovering, or maintaining daily living skills.",
-      "includes": [],
-      "related": [
-        "Physical Therapist",
-        "Speech Therapist",
-        "Rehabilitation Nurse"
-      ],
-      "tools": [
-        "Adaptive Equipment",
-        "Therapy Tools",
-        "EHR"
-      ],
-      "languages": [],
-      "skills": [
-        "Therapy Planning",
-        "Patient Assessment",
-        "Adaptation"
-      ]
-    },
-    {
-      "name": "Speech Therapist",
-      "description": "Diagnoses and treats speech, language, and swallowing disorders.",
-      "includes": [],
-      "related": [
-        "Occupational Therapist",
-        "Physical Therapist",
+        "Anesthesiologist",
         "Physician"
       ],
       "tools": [
-        "Speech Therapy Software",
-        "Assessment Tools",
-        "EHR"
+        "Surgical Neuro-Navigation",
+        "Intraoperative MRI",
+        "Operating Micro-Doppler"
       ],
       "languages": [],
       "skills": [
-        "Speech Assessment",
-        "Therapy Delivery",
-        "Communication"
+        "Cranial & Spinal Microsurgery",
+        "Stereotactic Guidance",
+        "Neurotrauma Critical Care"
       ]
     },
     {
       "name": "Cardiologist",
-      "description": "Specializes in diagnosing and treating heart diseases.",
-      "includes": [
-        "Interventional Cardiologist",
-        "Electrophysiologist"
-      ],
+      "description": "Specializes in cardiovascular disease management, interventional catheterization, echocardiography, and cardiac electrophysiology.",
       "related": [
-        "Cardiac Surgeon",
-        "Primary Care Physician",
-        "Physician"
+        "Physician",
+        "Surgeon",
+        "Radiologic Technologist"
       ],
       "tools": [
-        "Echocardiogram",
-        "ECG",
-        "Catheterization Lab"
+        "3D Echocardiography",
+        "Cardiac Catheterization Labs",
+        "AI ECG Analytics"
       ],
       "languages": [],
       "skills": [
-        "Cardiac Care",
-        "Diagnostic Testing",
-        "Patient Management"
+        "Interventional Cardiology",
+        "Hemodynamic Monitoring",
+        "Electrophysiology Analysis"
       ]
     },
     {
-      "name": "Neurosurgeon",
-      "description": "Performs surgery on the nervous system including brain and spine.",
-      "includes": [],
+      "name": "Anesthesiologist",
+      "description": "Administers precision anesthesia, targeted nerve blocks, and manages hemodynamic stability and pain during surgery.",
       "related": [
-        "Neurologist",
-        "Anesthesiologist"
+        "Surgeon",
+        "Neurosurgeon",
+        "Staff Nurse"
       ],
       "tools": [
-        "Operating Microscope",
-        "Neuro-navigation Systems"
+        "Advanced Anesthesia Workstations",
+        "Bispectral Index (BIS) Monitors",
+        "Ultrasound Nerve Block Locators"
       ],
       "languages": [],
       "skills": [
-        "Surgical Skills",
-        "Neuroanatomy",
-        "Critical Care"
+        "Hemodynamic Regulation",
+        "Airway Management",
+        "Regional Anesthesia",
+        "Critical Care Resuscitation"
+      ]
+    },
+    {
+      "name": "Pharmacist",
+      "description": "Oversees precision pharmacotherapy, clinical drug interactions, automated dispensing, and patient medication therapy management.",
+      "related": [
+        "Physician",
+        "Nurse Practitioner",
+        "Physician Assistant"
+      ],
+      "tools": [
+        "Robotic Pill Dispensers",
+        "Clinical Decision Support Databases",
+        "E-Prescribing Systems"
+      ],
+      "languages": [],
+      "skills": [
+        "Pharmacogenomics",
+        "Drug-Drug Interaction Analysis",
+        "Therapeutic Drug Monitoring"
+      ]
+    },
+    {
+      "name": "Medical Laboratory Scientist",
+      "description": "Executes complex clinical diagnostic assays, molecular PCR diagnostics, hematology analysis, and immunoassays.",
+      "related": [
+        "Physician",
+        "Staff Nurse",
+        "Radiologic Technologist"
+      ],
+      "tools": [
+        "Automated Chemistry Analyzers",
+        "Next-Generation Sequencers (NGS)",
+        "Digital Flow Cytometers"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "skills": [
+        "Molecular Diagnostics",
+        "Immunoassay Interpretation",
+        "Quality Control Validation",
+        "Pathology Specimen Handling"
+      ]
+    },
+    {
+      "name": "Radiologic Technologist",
+      "description": "Performs diagnostic imaging using CT scanners, high-field MRI, digital radiography, and AI triage systems.",
+      "related": [
+        "Cardiologist",
+        "Physician",
+        "Medical Laboratory Scientist"
+      ],
+      "tools": [
+        "Multi-Slice CT Scanners",
+        "3T MRI Systems",
+        "PACS / DICOM Viewers"
+      ],
+      "languages": [],
+      "skills": [
+        "Cross-Sectional Imaging",
+        "Radiation Dose Optimization (ALARA)",
+        "Patient Safety Positioning"
+      ]
+    },
+    {
+      "name": "Physician Assistant",
+      "description": "Performs comprehensive medical examinations, formulates treatment plans, assists in surgery, and prescribes medications.",
+      "related": [
+        "Physician",
+        "Nurse Practitioner",
+        "Surgeon"
+      ],
+      "tools": [
+        "EHR Workstations",
+        "Clinical Diagnostic Kits",
+        "Point-of-Care Ultrasound"
+      ],
+      "languages": [],
+      "skills": [
+        "Clinical Assessment",
+        "Surgical First Assisting",
+        "Patient Education"
       ]
     },
     {
       "name": "Pediatrician",
-      "description": "Provides medical care to infants, children, and adolescents.",
-      "includes": [
-        "Neonatologist",
-        "Pediatric Endocrinologist"
-      ],
+      "description": "Provides dedicated medical care, neurodevelopmental screening, immunizations, and wellness tracking for infants and adolescents.",
       "related": [
-        "Pediatric Nurse",
-        "Family Physician"
+        "Nurse Practitioner",
+        "Physician",
+        "Physical Therapist"
       ],
       "tools": [
-        "Growth Charts",
-        "Vaccination Records"
+        "Digital Pediatric Growth Trackers",
+        "Pediatric Vital Monitors",
+        "Vaccine Management Systems"
       ],
       "languages": [],
       "skills": [
-        "Child Health",
-        "Immunization",
-        "Developmental Assessment"
+        "Neonatal & Pediatric Care",
+        "Developmental Milestone Assessment",
+        "Family-Centered Communication"
+      ]
+    },
+    {
+      "name": "Physical Therapist",
+      "description": "Designs biomechanical rehabilitation protocols, neuromuscular re-education, and robotic gait therapy.",
+      "related": [
+        "Occupational Therapist",
+        "Physician",
+        "Pediatrician"
+      ],
+      "tools": [
+        "Exoskeleton Gait Trainers",
+        "Electromyography (EMG)",
+        "Therapeutic Ultrasound"
+      ],
+      "languages": [],
+      "skills": [
+        "Biomechanical Analysis",
+        "Musculoskeletal Rehabilitation",
+        "Therapeutic Exercise Prescription"
+      ]
+    },
+    {
+      "name": "Occupational Therapist",
+      "description": "Assists patients in restoring functional independence, fine motor skills, cognitive function, and adaptive technology usage.",
+      "related": [
+        "Physical Therapist",
+        "Physician",
+        "Medical Assistant"
+      ],
+      "tools": [
+        "Assistive Adaptive Tech Devices",
+        "Sensory Integration Kits",
+        "Ergonomic Assessment Tools"
+      ],
+      "languages": [],
+      "skills": [
+        "Activities of Daily Living (ADL) Training",
+        "Ergonomic Evaluation",
+        "Adaptive Device Customization"
+      ]
+    },
+    {
+      "name": "Medical Assistant",
+      "description": "Facilitates outpatient intake, vital sign logging, phlebotomy, schedule management, and electronic chart preparation.",
+      "related": [
+        "Staff Nurse",
+        "Physician",
+        "Occupational Therapist"
+      ],
+      "tools": [
+        "Automated Vital Monitors",
+        "EHR Scheduling Software",
+        "Phlebotomy Equipment"
+      ],
+      "languages": [],
+      "skills": [
+        "Patient Intake & Vitals",
+        "Clinical Phlebotomy",
+        "HIPAA Compliance",
+        "Administrative Organization"
       ]
     }
   ]
