@@ -2,139 +2,339 @@
   "roles": [
     {
       "name": "Chief Construction Officer",
-      "description": "Leads all construction operations and sets company-wide strategy.",
-      "includes": ["Vice President of Construction", "Construction Director"],
-      "related": ["Chief Financial Officer", "Chief Executive Officer"],
-      "tools": ["ERP Systems", "Board Reports"],
-      "skills": ["Leadership", "Strategic Planning", "Risk Management"]
+      "description": "Leads organizational construction strategy, digital BIM transformation, sustainability, and large-scale capital project portfolios.",
+      "related": [
+        "Vice President of Construction",
+        "Construction Director",
+        "Construction Architect"
+      ],
+      "tools": [
+        "ERP Systems",
+        "Autodesk Construction Cloud",
+        "Procore",
+        "Power BI"
+      ],
+      "skills": [
+        "Executive Leadership",
+        "Capital Allocation",
+        "ESG & Sustainable Building",
+        "Risk Mitigation"
+      ]
     },
     {
       "name": "Vice President of Construction",
-      "description": "Oversees multiple projects and provides management support to construction teams.",
-      "includes": ["Construction Director", "Regional Managers"],
-      "related": ["Chief Construction Officer", "COO"],
-      "tools": ["Management Dashboards", "Reporting Tools"],
-      "skills": ["Team Leadership", "Policy Implementation", "Strategic Oversight"]
+      "description": "Oversees multi-site regional construction operations, resource allocation, and program-level safety and financial targets.",
+      "related": [
+        "Chief Construction Officer",
+        "Construction Director",
+        "Construction Manager"
+      ],
+      "tools": [
+        "Procore",
+        "Primavera P6",
+        "Enterprise Dashboards"
+      ],
+      "skills": [
+        "Multi-Project Governance",
+        "Strategic Sourcing",
+        "Operational Leadership"
+      ]
     },
     {
       "name": "Construction Director",
-      "description": "Directs construction activity, timelines, and safety policies.",
-      "includes": ["Construction Manager", "Project Manager"],
-      "related": ["VP of Construction", "Director of Operations"],
-      "tools": ["Project Management Software", "Safety Manuals"],
-      "skills": ["Project Delivery", "Team Coordination", "Safety Management"]
+      "description": "Directs project delivery timelines, contractor negotiations, quality assurance protocols, and environmental standards.",
+      "related": [
+        "Vice President of Construction",
+        "Construction Manager",
+        "Project Manager"
+      ],
+      "tools": [
+        "Procore",
+        "Autodesk BIM 360",
+        "Safety Culture"
+      ],
+      "skills": [
+        "Program Management",
+        "Contract Negotiation",
+        "Site Safety Governance"
+      ]
     },
     {
       "name": "Construction Manager",
-      "description": "Manages projects from initiation to completion, handling budgets, schedules, and compliance.",
-      "includes": ["Project Manager", "Construction Superintendent"],
-      "related": ["General Contractor", "Civil Engineer"],
-      "tools": ["Scheduling Software", "Blueprints"],
-      "skills": ["Project Management", "Problem Solving", "Budgeting"]
+      "description": "Directs total construction execution from groundbreaking to handover, managing multi-million dollar budgets and subcontractor teams.",
+      "related": [
+        "Construction Director",
+        "Project Manager",
+        "Civil Engineer",
+        "General Contractor"
+      ],
+      "tools": [
+        "Primavera P6",
+        "PlanGrid",
+        "DroneDeploy",
+        "Revit"
+      ],
+      "skills": [
+        "Lean Construction",
+        "Cost Engineering",
+        "BIM Coordination",
+        "Compliance"
+      ]
     },
     {
       "name": "Project Manager",
-      "description": "Plans, executes, and closes construction projects, managing teams and resources.",
-      "includes": ["Site Supervisor", "Scheduler"],
-      "related": ["Construction Manager", "Estimator"],
-      "tools": ["Gantt Charts", "Project Management Software"],
-      "skills": ["Organization", "Communication", "Resource Allocation"]
+      "description": "Controls day-to-day project milestones, scope changes, stakeholder communications, and vendor deliverables.",
+      "related": [
+        "Construction Manager",
+        "Estimator",
+        "Scheduler",
+        "Construction Superintendent"
+      ],
+      "tools": [
+        "MS Project",
+        "Procore",
+        "Bluebeam Revu",
+        "Smartsheet"
+      ],
+      "skills": [
+        "Scope & Change Management",
+        "Resource Leveling",
+        "Stakeholder Communication"
+      ]
     },
     {
       "name": "Construction Superintendent",
-      "description": "Oversees daily operations on the construction site, ensuring schedule and quality.",
-      "includes": ["Construction Foreman", "Skilled Tradespeople"],
-      "related": ["Project Manager", "General Contractor"],
-      "tools": ["Site Logs", "Safety Equipment"],
-      "skills": ["Site Supervision", "Scheduling", "Quality Control"]
+      "description": "Leads all on-site field execution, daily crew logistics, site inspection, and subcontractor trade synchronization.",
+      "related": [
+        "Project Manager",
+        "General Contractor",
+        "Construction Foreman",
+        "Site Supervisor"
+      ],
+      "tools": [
+        "Fieldwire",
+        "Drone Surveying",
+        "Bluebeam Mobile",
+        "Laser Scanners"
+      ],
+      "skills": [
+        "Field Logistics",
+        "Quality Control",
+        "Site Safety Enforcement",
+        "Trade Coordination"
+      ]
     },
     {
       "name": "General Contractor",
-      "description": "Coordinates and oversees construction activities, manages subcontractors, and ensures completion.",
-      "includes": ["Subcontractor", "Construction Laborer"],
-      "related": ["Construction Manager", "Client"],
-      "tools": ["Contracts", "Scheduling Tools"],
-      "skills": ["Negotiation", "Coordination", "Quality Assurance"]
+      "description": "Coordinates prime contract requirements, procures materials, and leads all specialty trade subcontractors on site.",
+      "related": [
+        "Construction Manager",
+        "Construction Superintendent",
+        "Estimator",
+        "Skilled Tradesperson"
+      ],
+      "tools": [
+        "Procore",
+        "BuilderTREND",
+        "Contract Management Tools"
+      ],
+      "skills": [
+        "Subcontractor Procurement",
+        "Bidding",
+        "Risk Allocation",
+        "Site Safety"
+      ]
     },
     {
       "name": "Construction Foreman",
-      "description": "Leads a crew of skilled tradespeople on site, reporting to the superintendent or project manager.",
-      "includes": ["Skilled Tradespeople", "Construction Laborers"],
-      "related": ["Superintendent", "Site Supervisor"],
-      "tools": ["Walkie Talkies", "Safety Equipment"],
-      "skills": ["Team Leadership", "Safety Compliance", "Scheduling"]
+      "description": "Directs daily trade tasks, tool safety, field material staging, and productivity for specific trade crews.",
+      "related": [
+        "Construction Superintendent",
+        "Site Supervisor",
+        "Skilled Tradesperson",
+        "Construction Laborer"
+      ],
+      "tools": [
+        "Field Inspection Tablets",
+        "Safety Gear",
+        "Laser Levels"
+      ],
+      "skills": [
+        "Crew Leadership",
+        "Task Scheduling",
+        "OSHA Safety Standards"
+      ]
     },
     {
       "name": "Estimator",
-      "description": "Estimates project costs, materials, and labor requirements.",
-      "includes": [],
-      "related": ["Project Manager", "Procurement Manager"],
-      "tools": ["Estimating Software", "Spreadsheets"],
-      "skills": ["Cost Estimation", "Attention to Detail", "Negotiation"]
+      "description": "Performs quantity takeoffs, cost modeling, labor projections, and competitive tender bid preparations.",
+      "related": [
+        "Project Manager",
+        "General Contractor",
+        "Civil Engineer"
+      ],
+      "tools": [
+        "CostX",
+        "Planswift",
+        "ProEst",
+        "Excel"
+      ],
+      "skills": [
+        "3D Model Takeoffs",
+        "Cost Indexing",
+        "Vendor Pricing Analytics"
+      ]
     },
     {
       "name": "Scheduler",
-      "description": "Develops and maintains project schedules.",
-      "includes": [],
-      "related": ["Project Manager", "Superintendent"],
-      "tools": ["Scheduling Software", "Calendars"],
-      "skills": ["Time Management", "Planning", "Coordination"]
+      "description": "Builds and baselines critical path method (CPM) master schedules and simulates delay scenarios.",
+      "related": [
+        "Project Manager",
+        "Construction Superintendent"
+      ],
+      "tools": [
+        "Primavera P6",
+        "Asta Powerproject",
+        "MS Project"
+      ],
+      "skills": [
+        "Critical Path Analysis (CPM)",
+        "Earned Value Management (EVM)",
+        "Schedule Risk Analysis"
+      ]
     },
     {
       "name": "Site Supervisor",
-      "description": "Supervises daily site operations and ensures safety compliance.",
-      "includes": [],
-      "related": ["Foreman", "Superintendent"],
-      "tools": ["Safety Checklists", "Site Reports"],
-      "skills": ["Supervision", "Safety", "Problem Solving"]
+      "description": "Maintains physical site safety compliance, perimeter security, permit verifications, and daily shift logs.",
+      "related": [
+        "Construction Superintendent",
+        "Construction Foreman",
+        "Equipment Operator"
+      ],
+      "tools": [
+        "Safety Checklists",
+        "Digital Incident Logging Apps",
+        "PPE"
+      ],
+      "skills": [
+        "Hazard Identification",
+        "Emergency Response",
+        "Site Protocol Enforcement"
+      ]
     },
     {
       "name": "Civil Engineer",
-      "description": "Designs, plans, and oversees construction and maintenance of building structures and infrastructure.",
-      "includes": [],
-      "related": ["Construction Manager", "Architect"],
-      "tools": ["CAD Software", "Survey Equipment"],
-      "skills": ["Structural Analysis", "Design", "Project Management"]
+      "description": "Performs structural, geotechnical, and environmental calculations for foundations, roadways, and superstructure framing.",
+      "related": [
+        "Construction Architect",
+        "Construction Manager",
+        "Estimator"
+      ],
+      "tools": [
+        "AutoCAD Civil 3D",
+        "ETABS",
+        "STAAD.Pro",
+        "GIS"
+      ],
+      "skills": [
+        "Structural Analysis",
+        "Geotechnical Design",
+        "Stormwater Management",
+        "Building Codes"
+      ]
     },
     {
       "name": "Construction Architect",
-      "description": "Develops and manages project design, ensuring compliance with regulations.",
-      "includes": [],
-      "related": ["Civil Engineer", "Project Manager"],
-      "tools": ["Design Software", "Blueprints"],
-      "skills": ["Design", "Technical Proficiency", "Regulatory Knowledge"]
+      "description": "Creates architectural blueprints, spatial layouts, parametric facades, and sustainable building documentation.",
+      "related": [
+        "Civil Engineer",
+        "Chief Construction Officer",
+        "Construction Manager"
+      ],
+      "tools": [
+        "Autodesk Revit",
+        "Rhino / Grasshopper",
+        "Enscape",
+        "SketchUp"
+      ],
+      "skills": [
+        "Parametric Modeling",
+        "BIM Level 3",
+        "LEED Certification",
+        "Spatial Design"
+      ]
     },
     {
       "name": "Skilled Tradesperson",
-      "description": "Executes specialized tasks such as carpentry, plumbing, or electrical work.",
-      "includes": ["Apprentice"],
-      "related": ["Construction Foreman", "General Contractor"],
-      "tools": ["Trade-specific Tools", "Safety Gear"],
-      "skills": ["Technical Skills", "Attention to Detail", "Problem Solving"]
+      "description": "Carries out specialized technical installations across electrical, HVAC, smart plumbing, and framing.",
+      "related": [
+        "Construction Foreman",
+        "General Contractor",
+        "Apprentice"
+      ],
+      "tools": [
+        "Smart Power Tools",
+        "Thermal Imaging Scanners",
+        "Diagnostic Gauges"
+      ],
+      "skills": [
+        "Precision Carpentry / Wiring / Plumbing",
+        "Code Compliance",
+        "Blueprint Reading"
+      ]
     },
     {
       "name": "Equipment Operator",
-      "description": "Operates heavy machinery such as cranes, bulldozers, and excavators.",
-      "includes": [],
-      "related": ["Site Supervisor", "Foreman"],
-      "tools": ["Cranes", "Bulldozers", "Excavators"],
-      "skills": ["Machinery Operation", "Safety", "Coordination"]
+      "description": "Operates telematics-guided excavators, autonomous cranes, bulldozers, and heavy earthmoving machines.",
+      "related": [
+        "Site Supervisor",
+        "Construction Foreman"
+      ],
+      "tools": [
+        "GPS Machine Guidance Systems",
+        "Tower Cranes",
+        "Hydraulic Excavators"
+      ],
+      "skills": [
+        "Precision Grading",
+        "Machine Telematics",
+        "Rigging & Heavy Lifting"
+      ]
     },
     {
       "name": "Construction Laborer",
-      "description": "Performs physical labor on construction sites, assisting skilled trades and supervisors.",
-      "includes": [],
-      "related": ["Skilled Tradesperson", "Foreman"],
-      "tools": ["Hand Tools", "Power Tools", "Safety Equipment"],
-      "skills": ["Physical Stamina", "Teamwork", "Safety Awareness"]
+      "description": "Assists with material distribution, staging, basic assembly, site housekeeping, and support operations.",
+      "related": [
+        "Construction Foreman",
+        "Apprentice"
+      ],
+      "tools": [
+        "Power Tools",
+        "Safety Rigging",
+        "Material Handling Equipment"
+      ],
+      "skills": [
+        "Physical Endurance",
+        "Safe Staging",
+        "Tool Operation"
+      ]
     },
     {
       "name": "Apprentice",
-      "description": "Learns a specific trade under the supervision of skilled tradespeople.",
-      "includes": [],
-      "related": ["Skilled Tradesperson", "Foreman"],
-      "tools": ["Trade-specific Tools"],
-      "skills": ["Willingness to Learn", "Technical Skills", "Safety"]
+      "description": "Gains structured hands-on trade experience under the mentorship of certified journeypersons and master craftsmen.",
+      "related": [
+        "Skilled Tradesperson",
+        "Construction Laborer"
+      ],
+      "tools": [
+        "Hand & Power Tools",
+        "Trade Measurement Kits"
+      ],
+      "skills": [
+        "Trade Foundations",
+        "Blueprint Basics",
+        "Safety Protocol"
+      ]
     }
   ]
 }

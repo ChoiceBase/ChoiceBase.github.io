@@ -2,66 +2,178 @@
   "roles": [
     {
       "name": "Electronics Engineer",
-      "description": "Designs, develops, and tests electronic systems and components.",
-      "includes": ["Embedded Systems Engineer", "PCB Designer"],
-      "related": ["Electrical Engineer", "Firmware Engineer"],
-      "tools": ["Oscilloscope", "Multimeter", "EDA Software"],
-      "languages": ["C", "VHDL"],
-      "skills": ["Circuit Design", "Testing", "Problem Solving"]
+      "description": "Designs, models, and verifies high-speed analog, digital, and mixed-signal electronic circuits and power systems.",
+      "related": [
+        "Embedded Systems Engineer",
+        "PCB Designer",
+        "Firmware Engineer",
+        "Test Engineer"
+      ],
+      "tools": [
+        "Digital Oscilloscope",
+        "Spectrum Analyzer",
+        "SPICE Simulation",
+        "Altium 365"
+      ],
+      "languages": [
+        "C",
+        "VHDL",
+        "Verilog",
+        "Python"
+      ],
+      "skills": [
+        "Analog & Digital Design",
+        "Signal Integrity",
+        "EMC/EMI Compliance",
+        "Power Management"
+      ]
     },
     {
       "name": "Embedded Systems Engineer",
-      "description": "Develops embedded hardware and software for electronic devices.",
-      "includes": [],
-      "related": ["Electronics Engineer", "Firmware Engineer"],
-      "tools": ["Microcontrollers", "Debuggers", "IDE"],
-      "languages": ["C", "C++", "Assembly"],
-      "skills": ["Embedded Programming", "Hardware Integration", "Debugging"]
+      "description": "Develops real-time embedded hardware, Edge AI microcontrollers, and IoT sensor network architectures.",
+      "related": [
+        "Electronics Engineer",
+        "Firmware Engineer",
+        "IoT Architect"
+      ],
+      "tools": [
+        "JTAG / SWD Debuggers",
+        "Logic Analyzers",
+        "FreeRTOS",
+        "Zephyr RTOS"
+      ],
+      "languages": [
+        "C",
+        "C++",
+        "Rust",
+        "Assembly"
+      ],
+      "skills": [
+        "Microcontroller Architecture (ARM/RISC-V)",
+        "Hardware Interfacing (I2C/SPI/UART/CAN)",
+        "Low Power Optimization",
+        "Edge ML"
+      ]
     },
     {
       "name": "PCB Designer",
-      "description": "Designs printed circuit boards for electronic products.",
-      "includes": [],
-      "related": ["Electronics Engineer", "Manufacturing Engineer"],
-      "tools": ["PCB Design Software (Altium, Eagle)", "Schematic Capture Tools"],
+      "description": "Engineers multi-layer high-density interconnect (HDI) PCB layouts, impedance matching, and thermal dissipation systems.",
+      "related": [
+        "Electronics Engineer",
+        "Manufacturing Engineer",
+        "Hardware Test Engineer"
+      ],
+      "tools": [
+        "Altium Designer",
+        "Cadence Allegro",
+        "KiCad",
+        "Ansys SIwave"
+      ],
       "languages": [],
-      "skills": ["PCB Layout", "Schematic Design", "Attention to Detail"]
-    },
-    {
-      "name": "Test Engineer",
-      "description": "Develops and executes tests to ensure the quality and functionality of electronic products.",
-      "includes": [],
-      "related": ["Quality Assurance Engineer", "Electronics Engineer"],
-      "tools": ["Automated Test Equipment", "Signal Generators"],
-      "languages": ["Python", "LabVIEW"],
-      "skills": ["Test Planning", "Data Analysis", "Troubleshooting"]
-    },
-    {
-      "name": "Electronics Technician",
-      "description": "Assembles, installs, and repairs electronic equipment.",
-      "includes": [],
-      "related": ["Test Engineer", "Manufacturing Technician"],
-      "tools": ["Soldering Iron", "Multimeter", "Hand Tools"],
-      "languages": [],
-      "skills": ["Assembly", "Repair", "Diagnostics"]
+      "skills": [
+        "High-Speed Routing",
+        "DFM/DFA Standards",
+        "Layer Stackup Design",
+        "Thermal Relief Management"
+      ]
     },
     {
       "name": "Firmware Engineer",
-      "description": "Develops low-level software that controls hardware devices.",
-      "includes": [],
-      "related": ["Embedded Systems Engineer", "Electronics Engineer"],
-      "tools": ["IDE", "Emulators", "Version Control"],
-      "languages": ["C", "C++", "Assembly"],
-      "skills": ["Firmware Development", "Debugging", "Optimization"]
+      "description": "Writes low-level deterministic firmware, device drivers, bootloaders, and hardware abstraction layers.",
+      "related": [
+        "Embedded Systems Engineer",
+        "Electronics Engineer",
+        "Test Engineer"
+      ],
+      "tools": [
+        "Keil uVision",
+        "STM32CubeIDE",
+        "GDB",
+        "Git"
+      ],
+      "languages": [
+        "C",
+        "C++",
+        "Rust"
+      ],
+      "skills": [
+        "RTOS Scheduling",
+        "Secure Boot & OTA Updates",
+        "DMA & Peripheral Drivers",
+        "Memory Safety"
+      ]
+    },
+    {
+      "name": "IoT Architect",
+      "description": "Designs end-to-end connected device ecosystems, wireless protocols, telemetry pipelines, and cloud edge sync.",
+      "related": [
+        "Embedded Systems Engineer",
+        "Electronics Engineer",
+        "Firmware Engineer"
+      ],
+      "tools": [
+        "MQTT Brokers",
+        "AWS IoT Core",
+        "Wireshark",
+        "Docker"
+      ],
+      "languages": [
+        "Python",
+        "C++",
+        "Go"
+      ],
+      "skills": [
+        "BLE / Zigbee / LoRaWAN",
+        "End-to-End Security",
+        "Telemetry Ingestion",
+        "Edge Computing"
+      ]
+    },
+    {
+      "name": "Test Engineer",
+      "description": "Automates automated testing equipment (ATE), environmental stress testing, and quality characterization for electronics.",
+      "related": [
+        "Electronics Engineer",
+        "Firmware Engineer",
+        "Manufacturing Engineer"
+      ],
+      "tools": [
+        "LabVIEW",
+        "Automated Test Benches",
+        "Chroma Power Supplies"
+      ],
+      "languages": [
+        "Python",
+        "LabVIEW",
+        "MATLAB"
+      ],
+      "skills": [
+        "Hardware-in-the-Loop (HIL)",
+        "Test Automation",
+        "Statistical Quality Control",
+        "Failure Analysis"
+      ]
     },
     {
       "name": "Manufacturing Engineer",
-      "description": "Oversees the manufacturing process for electronic products.",
-      "includes": [],
-      "related": ["PCB Designer", "Quality Assurance Engineer"],
-      "tools": ["Manufacturing Execution Systems", "Process Control Software"],
+      "description": "Optimizes high-volume surface mount technology (SMT) lines, automated optical inspection (AOI), and yield rates.",
+      "related": [
+        "PCB Designer",
+        "Test Engineer",
+        "Electronics Engineer"
+      ],
+      "tools": [
+        "SMT Pick-and-Place Tools",
+        "MES Systems",
+        "AOI Scanners"
+      ],
       "languages": [],
-      "skills": ["Process Improvement", "Quality Control", "Production Planning"]
+      "skills": [
+        "SMT Assembly",
+        "Six Sigma",
+        "Root Cause Analysis",
+        "Yield Maximization"
+      ]
     }
   ]
 }

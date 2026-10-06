@@ -1,504 +1,581 @@
-[
+﻿[
     {
-        "id": "43",
-        "title": "NPTEL",
-        "url": "https://nptel.ac.in/",
-        "description": "NPTEL (National Programme on Technology Enhanced Learning) is an Indian online learning platform offering courses from top IITs and IISc. Features video lectures, assignments, and certifications. Covers engineering, science, and humanities subjects.",
-        "tags": [
-            "free",
-            "education",
-            "online courses"
-        ]
+        "id":  "upskilling-1",
+        "title":  "roadmap.sh",
+        "url":  "https://roadmap.sh",
+        "description":  "Community-driven visual roadmaps, study plans, and interactive guides for Frontend, Backend, DevOps, AI Engineer, Full Stack, and Cybersecurity career paths.",
+        "tags":  [
+                     "Top",
+                     "Roadmaps",
+                     "Career Path",
+                     "Interactive",
+                     "Free"
+                 ]
     },
     {
-        "id": "42",
-        "title": "AWS Skill Builder",
-        "url": "https://skillbuilder.aws/",
-        "description": "AWS Skill Builder is Amazon's official learning platform for cloud computing. Features hands-on labs, digital training, and certification preparation. Offers courses on AWS services, cloud architecture, and solutions.",
-        "tags": [
-            "free",
-            "paid",
-            "cloud",
-            "aws",
-            "training"
-        ]
+        "id":  "upskilling-2",
+        "title":  "DeepLearning.AI",
+        "url":  "https://www.deeplearning.ai",
+        "description":  "Founded by Andrew Ng, offering premier short courses and deep specializations on Generative AI, LLM Application Engineering, RAG Systems, and AI Agent Architecture.",
+        "tags":  [
+                     "Top",
+                     "AI \u0026 ML",
+                     "Generative AI",
+                     "Certifications",
+                     "Free Courses"
+                 ]
     },
     {
-        "id": "41",
-        "title": "InterviewBit",
-        "url": "https://www.interviewbit.com/",
-        "description": "InterviewBit is a platform for coding interview preparation. Features practice problems, mock interviews, and company-specific questions. Helps developers prepare for technical interviews at top tech companies.",
-        "tags": [
-            "paid",
-            "interview",
-            "practice",
-            "career"
-        ]
+        "id":  "upskilling-3",
+        "title":  "NeetCode",
+        "url":  "https://neetcode.io",
+        "description":  "Structured algorithmic problem solving and coding interview preparation platform featuring video explanations for the Blind 75 and NeetCode 150 challenges.",
+        "tags":  [
+                     "Interview Prep",
+                     "Data Structures",
+                     "Algorithms",
+                     "Coding Practice"
+                 ]
     },
     {
-        "id": "40",
-        "title": "StackUp",
-        "url": "https://earn.stackup.dev/",
-        "description": "StackUp is a learning platform that rewards users for completing educational tasks and courses. Features gamified learning, skill tracking, and rewards for achievements. Makes learning engaging through incentives and progress tracking.",
-        "tags": [
-            "free",
-            "education",
-            "gamified learning"
-        ]
+        "id":  "upskilling-4",
+        "title":  "Full Stack Open (University of Helsinki)",
+        "url":  "https://fullstackopen.com",
+        "description":  "Comprehensive, modern full-stack web development course covering React, Redux, Node.js, REST APIs, GraphQL, TypeScript, React Native, CI/CD, and Containers.",
+        "tags":  [
+                     "Full Stack",
+                     "University",
+                     "React",
+                     "Node.js",
+                     "Free"
+                 ]
     },
     {
-        "id": "39",
-        "title": "JavaScript.info",
-        "url": "https://javascript.info/",
-        "description": "JavaScript.info is a comprehensive modern JavaScript tutorial covering everything from basics to advanced topics. Features interactive examples, clear explanations, and up-to-date content. Perfect for learning JavaScript from scratch or deepening your knowledge.",
-        "tags": [
-            "free",
-            "education",
-            "javascript",
-            "programming"
-        ]
+        "id":  "upskilling-5",
+        "title":  "Fast.ai (Practical Deep Learning)",
+        "url":  "https://course.fast.ai",
+        "description":  "Top-down practical deep learning course for coders. Learn PyTorch, computer vision, natural language processing, and diffusion models from first principles.",
+        "tags":  [
+                     "AI \u0026 ML",
+                     "Deep Learning",
+                     "PyTorch",
+                     "Free"
+                 ]
     },
     {
-        "id": "38",
-        "title": "Scaler",
-        "url": "https://www.scaler.com/",
-        "description": "Scaler is an online coding education platform offering structured courses for software development careers. Features live classes, mentorship, and placement assistance. Focuses on data structures, algorithms, and full-stack development.",
-        "tags": [
-            "paid",
-            "education",
-            "coding bootcamp",
-            "career"
-        ]
+        "id":  "upskilling-6",
+        "title":  "Prompt Engineering Guide (DAIR.AI)",
+        "url":  "https://www.promptingguide.ai",
+        "description":  "The definitive open-source guide and research paper hub on prompt engineering, context management, multi-agent frameworks, chain-of-thought, and LLM evaluation.",
+        "tags":  [
+                     "AI \u0026 ML",
+                     "Prompt Engineering",
+                     "Agents",
+                     "Research",
+                     "Free"
+                 ]
     },
     {
-        "id": "37",
-        "title": "ACI Learning",
-        "url": "https://www.acilearning.com/",
-        "description": "ACI Learning provides cybersecurity training and IT skill development through hands-on labs, videos, and practice exams. Features certification prep for CompTIA, CEH, and CISA. Offers personalized learning paths and real-world simulations for IT professionals.",
-        "tags": [
-            "paid",
-            "cybersecurity",
-            "training",
-            "certifications"
-        ]
+        "id":  "upskilling-7",
+        "title":  "ByteByteGo (System Design)",
+        "url":  "https://bytebytego.com",
+        "description":  "Illustrated software architecture and system design guides by Alex Xu covering high-scalability systems, microservices, caching, rate limiters, and distributed databases.",
+        "tags":  [
+                     "System Design",
+                     "Architecture",
+                     "Engineering",
+                     "Interviews"
+                 ]
     },
     {
-        "id": "36",
-        "title": "Microsoft Learn",
-        "url": "https://learn.microsoft.com",
-        "description": "Microsoft Learn provides free, interactive training for Microsoft technologies and platforms. Features hands-on learning paths, modules, and certifications. Perfect for developers working with Azure, .NET, and Microsoft cloud technologies.",
-        "tags": [
-            "free",
-            "certifications"
-        ]
+        "id":  "upskilling-8",
+        "title":  "Scrimba",
+        "url":  "https://scrimba.com",
+        "description":  "Interactive coding school where you can pause any video tutorial and edit the code directly in the screencast player to learn frontend frameworks and UI styling.",
+        "tags":  [
+                     "Interactive",
+                     "Frontend",
+                     "React",
+                     "JavaScript"
+                 ]
     },
     {
-        "id": "35",
-        "title": "Google Career Certificates",
-        "url": "https://grow.google/certificates",
-        "description": "Google Career Certificates provide professional training in high-demand fields. Features hands-on projects, expert instructors, and job-ready skills. Programs include Data Analytics, IT Support, UX Design, and more with potential for career advancement.",
-        "tags": [
-            "paid",
-            "certifications"
-        ]
+        "id":  "upskilling-9",
+        "title":  "NPTEL",
+        "url":  "https://nptel.ac.in/",
+        "description":  "NPTEL (National Programme on Technology Enhanced Learning) is an Indian online learning platform offering courses from top IITs and IISc. Features video lectures, assignments, and certifications. Covers engineering, science, and humanities subjects.",
+        "tags":  [
+                     "free",
+                     "education",
+                     "online courses"
+                 ]
     },
     {
-        "id": "34",
-        "title": "Stanford Online",
-        "url": "https://online.stanford.edu",
-        "description": "Stanford Online offers professional education courses and degrees from Stanford University. Features expert instructors, flexible learning options, and recognized credentials. Access Stanford's renowned faculty and cutting-edge research.",
-        "tags": [
-            "paid",
-            "courses"
-        ]
+        "id":  "upskilling-10",
+        "title":  "AWS Skill Builder",
+        "url":  "https://skillbuilder.aws/",
+        "description":  "AWS Skill Builder is Amazon\u0027s official learning platform for cloud computing. Features hands-on labs, digital training, and certification preparation. Offers courses on AWS services, cloud architecture, and solutions.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "cloud",
+                     "aws",
+                     "training"
+                 ]
     },
     {
-        "id": "33",
-        "title": "MIT OpenCourseWare",
-        "url": "https://ocw.mit.edu",
-        "description": "MIT OpenCourseWare provides free course materials from MIT's undergraduate and graduate level courses. Features comprehensive materials including lecture notes, assignments, and exams. Access world-class education from one of the top universities.",
-        "tags": [
-            "free",
-            "courses"
-        ]
+        "id":  "upskilling-11",
+        "title":  "InterviewBit",
+        "url":  "https://www.interviewbit.com/",
+        "description":  "InterviewBit is a platform for coding interview preparation. Features practice problems, mock interviews, and company-specific questions. Helps developers prepare for technical interviews at top tech companies.",
+        "tags":  [
+                     "paid",
+                     "interview",
+                     "practice",
+                     "career"
+                 ]
     },
     {
-        "id": "32",
-        "title": "CS50's Web Programming",
-        "url": "https://cs50.harvard.edu/web/2020",
-        "description": "CS50's Web Programming course from Harvard University. Features comprehensive coverage of web technologies, practical projects, and problem sets. Taught by David Malan, this course provides a solid foundation in modern web development.",
-        "tags": [
-            "free",
-            "web development"
-        ]
+        "id":  "upskilling-12",
+        "title":  "StackUp",
+        "url":  "https://earn.stackup.dev/",
+        "description":  "StackUp is a learning platform that rewards users for completing educational tasks and courses. Features gamified learning, skill tracking, and rewards for achievements. Makes learning engaging through incentives and progress tracking.",
+        "tags":  [
+                     "free",
+                     "education",
+                     "gamified learning"
+                 ]
     },
     {
-        "id": "31",
-        "title": "The Odin Project",
-        "url": "https://theodinproject.com",
-        "description": "The Odin Project is a comprehensive open-source curriculum for learning web development. Features structured learning paths, project-based learning, and community support. Covers everything from basics to advanced topics with practical projects.",
-        "tags": [
-            "free",
-            "web development"
-        ]
+        "id":  "upskilling-13",
+        "title":  "JavaScript.info",
+        "url":  "https://javascript.info/",
+        "description":  "JavaScript.info is a comprehensive modern JavaScript tutorial covering everything from basics to advanced topics. Features interactive examples, clear explanations, and up-to-date content. Perfect for learning JavaScript from scratch or deepening your knowledge.",
+        "tags":  [
+                     "free",
+                     "education",
+                     "javascript",
+                     "programming"
+                 ]
     },
     {
-        "id": "30",
-        "title": "Fullstack Open",
-        "url": "https://fullstackopen.com",
-        "description": "Fullstack Open is a comprehensive course on modern web development. Features MERN stack development, GraphQL, TypeScript, and React Native. Includes building real applications and is highly regarded in the developer community.",
-        "tags": [
-            "free",
-            "web development"
-        ]
+        "id":  "upskilling-14",
+        "title":  "Scaler",
+        "url":  "https://www.scaler.com/",
+        "description":  "Scaler is an online coding education platform offering structured courses for software development careers. Features live classes, mentorship, and placement assistance. Focuses on data structures, algorithms, and full-stack development.",
+        "tags":  [
+                     "paid",
+                     "education",
+                     "coding bootcamp",
+                     "career"
+                 ]
     },
     {
-        "id": "29",
-        "title": "Hugging Face Learn",
-        "url": "https://huggingface.co/learn",
-        "description": "Hugging Face Learn offers comprehensive courses on natural language processing and machine learning. Features interactive notebooks, practical examples, and hands-on experience with state-of-the-art models. Perfect for learning modern NLP techniques.",
-        "tags": [
-            "free",
-            "ai"
-        ]
+        "id":  "upskilling-15",
+        "title":  "ACI Learning",
+        "url":  "https://www.acilearning.com/",
+        "description":  "ACI Learning provides cybersecurity training and IT skill development through hands-on labs, videos, and practice exams. Features certification prep for CompTIA, CEH, and CISA. Offers personalized learning paths and real-world simulations for IT professionals.",
+        "tags":  [
+                     "paid",
+                     "cybersecurity",
+                     "training",
+                     "certifications"
+                 ]
     },
     {
-        "id": "28",
-        "title": "fast.ai",
-        "url": "https://fast.ai",
-        "description": "fast.ai provides practical deep learning courses that make AI accessible to everyone. Features cutting-edge research, practical coding lessons, and a supportive community. Known for making complex AI concepts simple and approachable.",
-        "tags": [
-            "free",
-            "paid",
-            "ai"
-        ]
+        "id":  "upskilling-16",
+        "title":  "Microsoft Learn",
+        "url":  "https://learn.microsoft.com",
+        "description":  "Microsoft Learn provides free, interactive training for Microsoft technologies and platforms. Features hands-on learning paths, modules, and certifications. Perfect for developers working with Azure, .NET, and Microsoft cloud technologies.",
+        "tags":  [
+                     "free",
+                     "certifications"
+                 ]
     },
     {
-        "id": "27",
-        "title": "DeepLearning.AI",
-        "url": "https://deeplearning.ai",
-        "description": "DeepLearning.AI offers specialized courses and certifications in artificial intelligence and machine learning. Founded by Andrew Ng, features practical, hands-on learning with real-world applications. Perfect for developers looking to specialize in AI and ML technologies.",
-        "tags": [
-            "paid",
-            "ai",
-            "certifications"
-        ]
+        "id":  "upskilling-17",
+        "title":  "Google Career Certificates",
+        "url":  "https://grow.google/certificates",
+        "description":  "Google Career Certificates provide professional training in high-demand fields. Features hands-on projects, expert instructors, and job-ready skills. Programs include Data Analytics, IT Support, UX Design, and more with potential for career advancement.",
+        "tags":  [
+                     "paid",
+                     "certifications"
+                 ]
     },
     {
-        "id": "26",
-        "title": "Coursera",
-        "url": "https://www.coursera.org",
-        "description": "Coursera partners with top universities and companies to offer online courses, specializations, and degrees. Features include video lectures, peer-reviewed assignments, certificates, and full degree programs. Courses from Stanford, Yale, Google, IBM, and more. Free audit option available, paid certificates, and subscription plans. Covers technology, business, data science, arts, and more. Perfect for professional development and academic learning.",
-        "tags": [
-            "free",
-            "paid",
-            "courses"
-        ]
+        "id":  "upskilling-18",
+        "title":  "Stanford Online",
+        "url":  "https://online.stanford.edu",
+        "description":  "Stanford Online offers professional education courses and degrees from Stanford University. Features expert instructors, flexible learning options, and recognized credentials. Access Stanford\u0027s renowned faculty and cutting-edge research.",
+        "tags":  [
+                     "paid",
+                     "courses"
+                 ]
     },
     {
-        "id": "25",
-        "title": "Khan Academy",
-        "url": "https://www.khanacademy.org",
-        "description": "Khan Academy is a free online learning platform offering courses and tutorials in various subjects, with a focus on education and career development.",
-        "tags": [
-            "free",
-            "courses",
-            "education",
-            "career development"
-        ]
+        "id":  "upskilling-19",
+        "title":  "MIT OpenCourseWare",
+        "url":  "https://ocw.mit.edu",
+        "description":  "MIT OpenCourseWare provides free course materials from MIT\u0027s undergraduate and graduate level courses. Features comprehensive materials including lecture notes, assignments, and exams. Access world-class education from one of the top universities.",
+        "tags":  [
+                     "free",
+                     "courses"
+                 ]
     },
     {
-        "id": "24",
-        "title": "Codecademy",
-        "url": "https://www.codecademy.com",
-        "description": "Codecademy is an interactive online learning platform for coding and programming. Features hands-on coding exercises, real-time feedback, projects, and career paths. Covers web development, data science, computer science, and more. Free tier with basic courses, Pro subscription for advanced content and certificates. Great for beginners with its interactive approach. Learn HTML, CSS, JavaScript, Python, SQL, and many other languages.",
-        "tags": [
-            "free",
-            "paid",
-            "courses"
-        ]
+        "id":  "upskilling-20",
+        "title":  "CS50\u0027s Web Programming",
+        "url":  "https://cs50.harvard.edu/web/",
+        "description":  "CS50\u0027s Web Programming course from Harvard University. Features comprehensive coverage of web technologies, practical projects, and problem sets. Taught by David Malan, this course provides a solid foundation in modern web development.",
+        "tags":  [
+                     "free",
+                     "web development"
+                 ]
     },
     {
-        "id": "23",
-        "title": "Udemy",
-        "url": "https://www.udemy.com",
-        "description": "Udemy is an online learning platform offering courses in a wide range of subjects, with a focus on career development and job readiness.",
-        "tags": [
-            "free",
-            "paid",
-            "courses",
-            "courses",
-            "programming"
-        ]
+        "id":  "upskilling-21",
+        "title":  "The Odin Project",
+        "url":  "https://theodinproject.com",
+        "description":  "The Odin Project is a comprehensive open-source curriculum for learning web development. Features structured learning paths, project-based learning, and community support. Covers everything from basics to advanced topics with practical projects.",
+        "tags":  [
+                     "free",
+                     "web development"
+                 ]
     },
     {
-        "id": "22",
-        "title": "edX",
-        "url": "https://www.edx.org",
-        "description": "edX is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development and job readiness.",
-        "tags": [
-            "free",
-            "paid",
-            "courses",
-            "certifications",
-            "career development"
-        ]
+        "id":  "upskilling-22",
+        "title":  "Fullstack Open",
+        "url":  "https://fullstackopen.com",
+        "description":  "Fullstack Open is a comprehensive course on modern web development. Features MERN stack development, GraphQL, TypeScript, and React Native. Includes building real applications and is highly regarded in the developer community.",
+        "tags":  [
+                     "free",
+                     "web development"
+                 ]
     },
     {
-        "id": "21",
-        "title": "Brilliant",
-        "url": "https://brilliant.org",
-        "description": "Interactive learning for STEM. Master computer science, math, and data science through hands-on problem-solving and visual concepts. Excellent for building first-principles understanding.",
-        "tags": [
-            "stem",
-            "interactive",
-            "math",
-            "computer science",
-            "data science"
-        ]
+        "id":  "upskilling-23",
+        "title":  "Hugging Face Learn",
+        "url":  "https://huggingface.co/learn",
+        "description":  "Hugging Face Learn offers comprehensive courses on natural language processing and machine learning. Features interactive notebooks, practical examples, and hands-on experience with state-of-the-art models. Perfect for learning modern NLP techniques.",
+        "tags":  [
+                     "free",
+                     "ai"
+                 ]
     },
     {
-        "id": "20",
-        "title": "Pluralsight",
-        "url": "https://www.pluralsight.com",
-        "description": "Pluralsight is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
-        "tags": [
-            "paid",
-            "courses",
-            "certifications",
-            "tech"
-        ]
+        "id":  "upskilling-24",
+        "title":  "fast.ai",
+        "url":  "https://fast.ai",
+        "description":  "fast.ai provides practical deep learning courses that make AI accessible to everyone. Features cutting-edge research, practical coding lessons, and a supportive community. Known for making complex AI concepts simple and approachable.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "ai"
+                 ]
     },
     {
-        "id": "19",
-        "title": "Maven",
-        "url": "https://maven.com",
-        "description": "The leading platform for cohort-based courses. Learn from top industry experts in interactive, community-driven environments. High completion rates and deep networking opportunities for professional growth.",
-        "tags": [
-            "cohort-based",
-            "interactive",
-            "professional development",
-            "networking"
-        ]
+        "id":  "upskilling-25",
+        "title":  "Coursera",
+        "url":  "https://www.coursera.org",
+        "description":  "Coursera partners with top universities and companies to offer online courses, specializations, and degrees. Features include video lectures, peer-reviewed assignments, certificates, and full degree programs. Courses from Stanford, Yale, Google, IBM, and more. Free audit option available, paid certificates, and subscription plans. Covers technology, business, data science, arts, and more. Perfect for professional development and academic learning.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "courses"
+                 ]
     },
     {
-        "id": "18",
-        "title": "Yoodli AI",
-        "url": "https://yoodli.ai/",
-        "description": "Yoodli AI is an AI-powered speech coaching platform that provides real-time feedback during video calls and interviews. Analyzes speech patterns, pace, filler words, and provides suggestions for improvement. Features include private practice sessions, interview simulation, confidence building, and detailed analytics. Free tier available. Perfect for job seekers, public speakers, and professionals looking to improve communication skills. Works with Zoom, Google Meet, and Microsoft Teams.",
-        "tags": [
-            "free",
-            "communication"
-        ]
+        "id":  "upskilling-26",
+        "title":  "Khan Academy",
+        "url":  "https://www.khanacademy.org",
+        "description":  "Khan Academy is a free online learning platform offering courses and tutorials in various subjects, with a focus on education and career development.",
+        "tags":  [
+                     "free",
+                     "courses",
+                     "education",
+                     "career development"
+                 ]
     },
     {
-        "id": "17",
-        "title": "Skillshare",
-        "url": "https://www.skillshare.com",
-        "description": "Skillshare is an online learning platform focused on creativity and skills development, offering a wide range of courses and tutorials.",
-        "tags": [
-            "paid",
-            "courses",
-            "creativity",
-            "career development"
-        ]
+        "id":  "upskilling-27",
+        "title":  "Codecademy",
+        "url":  "https://www.codecademy.com",
+        "description":  "Codecademy is an interactive online learning platform for coding and programming. Features hands-on coding exercises, real-time feedback, projects, and career paths. Covers web development, data science, computer science, and more. Free tier with basic courses, Pro subscription for advanced content and certificates. Great for beginners with its interactive approach. Learn HTML, CSS, JavaScript, Python, SQL, and many other languages.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "courses"
+                 ]
     },
     {
-        "id": "16",
-        "title": "Reforge",
-        "url": "https://reforge.com",
-        "description": "The premier career development platform for product, marketing, and engineering leaders. Focused on senior-level growth with frameworks and community from top tech companies.",
-        "tags": [
-            "leadership",
-            "product",
-            "marketing",
-            "advanced"
-        ]
+        "id":  "upskilling-28",
+        "title":  "Udemy",
+        "url":  "https://www.udemy.com",
+        "description":  "Udemy is an online learning platform offering courses in a wide range of subjects, with a focus on career development and job readiness.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "courses",
+                     "courses",
+                     "programming"
+                 ]
     },
     {
-        "id": "15",
-        "title": "MasterClass",
-        "url": "https://www.masterclass.com",
-        "description": "MasterClass is a premium online learning platform featuring video courses taught by world-renowned experts and celebrities. Learn from industry leaders like Gordon Ramsay (cooking), Neil deGrasse Tyson (science), Serena Williams (tennis), and Timbaland (music production). Features include high-quality video production, downloadable workbooks, community discussions, and mobile apps. Subscription-based model with annual or monthly plans. Perfect for creative skills, business, writing, and personal development.",
-        "tags": [
-            "paid",
-            "courses"
-        ]
+        "id":  "upskilling-29",
+        "title":  "edX",
+        "url":  "https://www.edx.org",
+        "description":  "edX is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development and job readiness.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "courses",
+                     "certifications",
+                     "career development"
+                 ]
     },
     {
-        "id": "14",
-        "title": "W3Schools",
-        "url": "https://www.w3schools.com",
-        "description": "W3Schools is an online learning platform offering courses and tutorials in web development and programming, with a focus on career development and job readiness.",
-        "tags": [
-            "free",
-            "courses",
-            "courses",
-            "web development"
-        ]
+        "id":  "upskilling-30",
+        "title":  "Brilliant",
+        "url":  "https://brilliant.org",
+        "description":  "Interactive learning for STEM. Master computer science, math, and data science through hands-on problem-solving and visual concepts. Excellent for building first-principles understanding.",
+        "tags":  [
+                     "stem",
+                     "interactive",
+                     "math",
+                     "computer science",
+                     "data science"
+                 ]
     },
     {
-        "id": "13",
-        "title": "Alison",
-        "url": "https://www.alison.com",
-        "description": "Alison is an online learning platform offering free courses and certifications, with a focus on career development and job skills.",
-        "tags": [
-            "free",
-            "courses",
-            "certifications",
-            "career development"
-        ]
+        "id":  "upskilling-31",
+        "title":  "Pluralsight",
+        "url":  "https://www.pluralsight.com",
+        "description":  "Pluralsight is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
+        "tags":  [
+                     "paid",
+                     "courses",
+                     "certifications",
+                     "tech"
+                 ]
     },
     {
-        "id": "12",
-        "title": "Course Report",
-        "url": "https://www.coursereport.com",
-        "description": "Course Report is a job search platform focused on coding bootcamps, offering reviews, advice, and job listings for job seekers in the tech industry.",
-        "tags": [
-            "free",
-            "paid",
-            "courses",
-            "career advice",
-            "bootcamps"
-        ]
+        "id":  "upskilling-32",
+        "title":  "Maven",
+        "url":  "https://maven.com",
+        "description":  "The leading platform for cohort-based courses. Learn from top industry experts in interactive, community-driven environments. High completion rates and deep networking opportunities for professional growth.",
+        "tags":  [
+                     "cohort-based",
+                     "interactive",
+                     "professional development",
+                     "networking"
+                 ]
     },
     {
-        "id": "11",
-        "title": "FutureLearn",
-        "url": "https://www.futurelearn.com",
-        "description": "FutureLearn is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development.",
-        "tags": [
-            "free",
-            "paid",
-            "courses",
-            "certifications",
-            "career development"
-        ]
+        "id":  "upskilling-33",
+        "title":  "Yoodli AI",
+        "url":  "https://yoodli.ai/",
+        "description":  "Yoodli AI is an AI-powered speech coaching platform that provides real-time feedback during video calls and interviews. Analyzes speech patterns, pace, filler words, and provides suggestions for improvement. Features include private practice sessions, interview simulation, confidence building, and detailed analytics. Free tier available. Perfect for job seekers, public speakers, and professionals looking to improve communication skills. Works with Zoom, Google Meet, and Microsoft Teams.",
+        "tags":  [
+                     "free",
+                     "communication"
+                 ]
     },
     {
-        "id": "10",
-        "title": "LHH (Lee Hecht Harrison)",
-        "url": "https://www.lhh.com",
-        "description": "LHH is a global talent development and career transition company providing outplacement services, career coaching, leadership development, and workforce solutions. Services include personalized career counseling, resume writing, interview preparation, networking strategies, and skill assessments. Used by Fortune 500 companies for employee transitions. Premium service with corporate partnerships. Ideal for executives and professionals in career transition.",
-        "tags": [
-            "career transition",
-            "coaching",
-            "leadership",
-            "outplacement",
-            "executive",
-            "professional development",
-            "resume",
-            "networking"
-        ]
+        "id":  "upskilling-34",
+        "title":  "Skillshare",
+        "url":  "https://www.skillshare.com",
+        "description":  "Skillshare is an online learning platform focused on creativity and skills development, offering a wide range of courses and tutorials.",
+        "tags":  [
+                     "paid",
+                     "courses",
+                     "creativity",
+                     "career development"
+                 ]
     },
     {
-        "id": "9",
-        "title": "App Academy",
-        "url": "https://www.appacademy.io",
-        "description": "App Academy is a bootcamp platform offering courses in programming and web development, with a focus on career development and job readiness.",
-        "tags": [
-            "paid",
-            "courses",
-            "courses",
-            "career development"
-        ]
+        "id":  "upskilling-35",
+        "title":  "Reforge",
+        "url":  "https://reforge.com",
+        "description":  "The premier career development platform for product, marketing, and engineering leaders. Focused on senior-level growth with frameworks and community from top tech companies.",
+        "tags":  [
+                     "leadership",
+                     "product",
+                     "marketing",
+                     "advanced"
+                 ]
     },
     {
-        "id": "8",
-        "title": "Flatiron School",
-        "url": "https://www.flatironschool.com",
-        "description": "Flatiron School is a bootcamp platform offering courses in programming, data science, and cybersecurity, with a focus on career development and job readiness.",
-        "tags": [
-            "paid",
-            "courses",
-            "courses",
-            "career development"
-        ]
+        "id":  "upskilling-36",
+        "title":  "MasterClass",
+        "url":  "https://www.masterclass.com",
+        "description":  "MasterClass is a premium online learning platform featuring video courses taught by world-renowned experts and celebrities. Learn from industry leaders like Gordon Ramsay (cooking), Neil deGrasse Tyson (science), Serena Williams (tennis), and Timbaland (music production). Features include high-quality video production, downloadable workbooks, community discussions, and mobile apps. Subscription-based model with annual or monthly plans. Perfect for creative skills, business, writing, and personal development.",
+        "tags":  [
+                     "paid",
+                     "courses"
+                 ]
     },
     {
-        "id": "7",
-        "title": "General Assembly",
-        "url": "https://www.generalassemb.ly",
-        "description": "General Assembly is a bootcamp platform offering courses in programming, data science, and digital marketing, with a focus on career development and job readiness.",
-        "tags": [
-            "paid",
-            "courses",
-            "courses",
-            "career development"
-        ]
+        "id":  "upskilling-37",
+        "title":  "W3Schools",
+        "url":  "https://www.w3schools.com",
+        "description":  "W3Schools is an online learning platform offering courses and tutorials in web development and programming, with a focus on career development and job readiness.",
+        "tags":  [
+                     "free",
+                     "courses",
+                     "courses",
+                     "web development"
+                 ]
     },
     {
-        "id": "6",
-        "title": "Le Wagon",
-        "url": "https://www.lewagon.com",
-        "description": "Le Wagon is a bootcamp platform offering intensive courses in programming and web development, with a focus on career development and job readiness.",
-        "tags": [
-            "paid",
-            "courses",
-            "courses",
-            "career development"
-        ]
+        "id":  "upskilling-38",
+        "title":  "Alison",
+        "url":  "https://www.alison.com",
+        "description":  "Alison is an online learning platform offering free courses and certifications, with a focus on career development and job skills.",
+        "tags":  [
+                     "free",
+                     "courses",
+                     "certifications",
+                     "career development"
+                 ]
     },
     {
-        "id": "5",
-        "title": "Treehouse",
-        "url": "https://www.teamtreehouse.com",
-        "description": "Treehouse is an online technology school offering courses in web development, programming, design, and business. Features include interactive coding challenges, video tutorials, quizzes, and project-based learning. Offers Techdegree programs with portfolio projects and career support. Subscription-based with free trial. Great for beginners and intermediate learners looking to start a tech career. Covers HTML, CSS, JavaScript, Python, PHP, and more.",
-        "tags": [
-            "paid",
-            "subscription",
-            "courses",
-            "courses",
-            "courses",
-            "web development"
-        ]
+        "id":  "upskilling-39",
+        "title":  "Course Report",
+        "url":  "https://www.coursereport.com",
+        "description":  "Course Report is a job search platform focused on coding bootcamps, offering reviews, advice, and job listings for job seekers in the tech industry.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "courses",
+                     "career advice",
+                     "bootcamps"
+                 ]
     },
     {
-        "id": "4",
-        "title": "Edureka",
-        "url": "https://www.edureka.co",
-        "description": "Edureka is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
-        "tags": [
-            "paid",
-            "courses",
-            "certifications",
-            "tech"
-        ]
+        "id":  "upskilling-40",
+        "title":  "FutureLearn",
+        "url":  "https://www.futurelearn.com",
+        "description":  "FutureLearn is an online learning platform offering courses and certifications from top universities and companies, with a focus on career development.",
+        "tags":  [
+                     "free",
+                     "paid",
+                     "courses",
+                     "certifications",
+                     "career development"
+                 ]
     },
     {
-        "id": "3",
-        "title": "Springboard",
-        "url": "https://www.springboard.com",
-        "description": "Springboard is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
-        "tags": [
-            "paid",
-            "courses",
-            "certifications",
-            "career development"
-        ]
+        "id":  "upskilling-41",
+        "title":  "LHH (Lee Hecht Harrison)",
+        "url":  "https://www.lhh.com",
+        "description":  "LHH is a global talent development and career transition company providing outplacement services, career coaching, leadership development, and workforce solutions. Services include personalized career counseling, resume writing, interview preparation, networking strategies, and skill assessments. Used by Fortune 500 companies for employee transitions. Premium service with corporate partnerships. Ideal for executives and professionals in career transition.",
+        "tags":  [
+                     "career transition",
+                     "coaching",
+                     "leadership",
+                     "outplacement",
+                     "executive",
+                     "professional development",
+                     "resume",
+                     "networking"
+                 ]
     },
     {
-        "id": "2",
-        "title": "Thinkful",
-        "url": "https://www.thinkful.com",
-        "description": "Thinkful is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
-        "tags": [
-            "paid",
-            "courses",
-            "certifications",
-            "tech"
-        ]
+        "id":  "upskilling-42",
+        "title":  "App Academy",
+        "url":  "https://www.appacademy.io",
+        "description":  "App Academy is a bootcamp platform offering courses in programming and web development, with a focus on career development and job readiness.",
+        "tags":  [
+                     "paid",
+                     "courses",
+                     "courses",
+                     "career development"
+                 ]
     },
     {
-        "id": "1",
-        "title": "Udacity",
-        "url": "https://www.udacity.com",
-        "description": "Udacity is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
-        "tags": [
-            "paid",
-            "courses",
-            "certifications",
-            "tech"
-        ]
+        "id":  "upskilling-43",
+        "title":  "Flatiron School",
+        "url":  "https://www.flatironschool.com",
+        "description":  "Flatiron School is a bootcamp platform offering courses in programming, data science, and cybersecurity, with a focus on career development and job readiness.",
+        "tags":  [
+                     "paid",
+                     "courses",
+                     "courses",
+                     "career development"
+                 ]
+    },
+    {
+        "id":  "upskilling-44",
+        "title":  "General Assembly",
+        "url":  "https://www.generalassemb.ly",
+        "description":  "General Assembly is a bootcamp platform offering courses in programming, data science, and digital marketing, with a focus on career development and job readiness.",
+        "tags":  [
+                     "paid",
+                     "courses",
+                     "courses",
+                     "career development"
+                 ]
+    },
+    {
+        "id":  "upskilling-45",
+        "title":  "Le Wagon",
+        "url":  "https://www.lewagon.com",
+        "description":  "Le Wagon is a bootcamp platform offering intensive courses in programming and web development, with a focus on career development and job readiness.",
+        "tags":  [
+                     "paid",
+                     "courses",
+                     "courses",
+                     "career development"
+                 ]
+    },
+    {
+        "id":  "upskilling-46",
+        "title":  "Treehouse",
+        "url":  "https://www.teamtreehouse.com",
+        "description":  "Treehouse is an online technology school offering courses in web development, programming, design, and business. Features include interactive coding challenges, video tutorials, quizzes, and project-based learning. Offers Techdegree programs with portfolio projects and career support. Subscription-based with free trial. Great for beginners and intermediate learners looking to start a tech career. Covers HTML, CSS, JavaScript, Python, PHP, and more.",
+        "tags":  [
+                     "paid",
+                     "subscription",
+                     "courses",
+                     "courses",
+                     "courses",
+                     "web development"
+                 ]
+    },
+    {
+        "id":  "upskilling-47",
+        "title":  "Edureka",
+        "url":  "https://www.edureka.co",
+        "description":  "Edureka is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
+        "tags":  [
+                     "paid",
+                     "courses",
+                     "certifications",
+                     "tech"
+                 ]
+    },
+    {
+        "id":  "upskilling-48",
+        "title":  "Springboard",
+        "url":  "https://www.springboard.com",
+        "description":  "Springboard is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
+        "tags":  [
+                     "paid",
+                     "courses",
+                     "certifications",
+                     "career development"
+                 ]
+    },
+    {
+        "id":  "upskilling-49",
+        "title":  "Udacity",
+        "url":  "https://www.udacity.com",
+        "description":  "Udacity is an online learning platform offering courses and certifications in tech and IT, with a focus on career development and job readiness.",
+        "tags":  [
+                     "paid",
+                     "courses",
+                     "certifications",
+                     "tech"
+                 ]
     }
 ]

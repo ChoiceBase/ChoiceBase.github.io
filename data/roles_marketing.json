@@ -1,112 +1,470 @@
-{
-  "roles": [
-    {
-      "name": "Marketing Manager",
-      "description": "Leads the marketing team and strategy.",
-      "includes": ["Content Strategist", "SEO Specialist", "Social Media Manager", "PPC Specialist"],
-      "related": ["Sales Manager", "Brand Manager", "Product Marketing Manager"],
-      "tools": ["CRM", "Marketing Automation Platforms", "Google Analytics"],
-      "languages": [],
-      "skills": ["Strategic Planning", "Team Leadership", "Budgeting", "Campaign Management"]
-    },
-    {
-      "name": "Content Strategist",
-      "description": "Plans and oversees content creation.",
-      "includes": ["Copywriter", "Content Editor"],
-      "related": ["SEO Specialist", "Social Media Manager", "Brand Manager"],
-      "tools": ["Content Management Systems", "Analytics Tools", "Grammarly"],
-      "languages": [],
-      "skills": ["Content Planning", "Copywriting", "SEO", "Editorial Strategy"]
-    },
-    {
-      "name": "SEO Specialist",
-      "description": "Optimizes web content for search engines.",
-      "includes": [],
-      "related": ["Content Strategist", "Web Analyst", "PPC Specialist"],
-      "tools": ["Google Analytics", "SEO Tools", "Google Search Console"],
-      "languages": [],
-      "skills": ["Keyword Research", "Technical SEO", "On-page Optimization"]
-    },
-    {
-      "name": "Social Media Manager",
-      "description": "Manages social media presence and campaigns.",
-      "includes": ["Community Manager"],
-      "related": ["Content Strategist", "Brand Manager", "Influencer Marketing Manager"],
-      "tools": ["Social Media Platforms", "Scheduling Tools", "Canva"],
-      "languages": [],
-      "skills": ["Content Creation", "Community Engagement", "Analytics"]
-    },
-    {
-      "name": "Brand Manager",
-      "description": "Develops and maintains brand identity and messaging.",
-      "includes": [],
-      "related": ["Marketing Manager", "Product Marketing Manager", "Content Strategist"],
-      "tools": ["Brand Asset Management", "Survey Tools"],
-      "languages": [],
-      "skills": ["Brand Positioning", "Market Research", "Storytelling"]
-    },
-    {
-      "name": "Product Marketing Manager",
-      "description": "Bridges product development and marketing teams to launch products.",
-      "includes": [],
-      "related": ["Marketing Manager", "Brand Manager", "Sales Manager"],
-      "tools": ["Product Management Tools", "CRM", "Survey Tools"],
-      "languages": [],
-      "skills": ["Go-to-Market Strategy", "Competitive Analysis", "Cross-functional Leadership"]
-    },
-    {
-      "name": "PPC Specialist",
-      "description": "Manages paid advertising campaigns across digital platforms.",
-      "includes": [],
-      "related": ["SEO Specialist", "Web Analyst", "Marketing Manager"],
-      "tools": ["Google Ads", "Facebook Ads Manager", "Bid Management Tools"],
-      "languages": [],
-      "skills": ["Campaign Optimization", "A/B Testing", "Analytics"]
-    },
-    {
-      "name": "Copywriter",
-      "description": "Creates compelling written content for marketing materials.",
-      "includes": [],
-      "related": ["Content Strategist", "Content Editor", "Social Media Manager"],
-      "tools": ["Word Processors", "Grammarly", "Content Management Systems"],
-      "languages": [],
-      "skills": ["Copywriting", "Storytelling", "Editing"]
-    },
-    {
-      "name": "Content Editor",
-      "description": "Edits and proofreads marketing materials for clarity and accuracy.",
-      "includes": [],
-      "related": ["Copywriter", "Content Strategist"],
-      "tools": ["Word Processors", "Editing Tools"],
-      "languages": [],
-      "skills": ["Editing", "Proofreading", "Attention to Detail"]
-    },
-    {
-      "name": "Web Analyst",
-      "description": "Analyzes website data to inform marketing decisions.",
-      "includes": [],
-      "related": ["SEO Specialist", "PPC Specialist", "Content Strategist"],
-      "tools": ["Google Analytics", "Data Visualization Tools"],
-      "languages": [],
-      "skills": ["Data Analysis", "Reporting", "Conversion Optimization"]
-    },
-    {
-      "name": "Community Manager",
-      "description": "Builds and manages relationships with online communities.",
-      "includes": [],
-      "related": ["Social Media Manager", "Content Strategist"],
-      "tools": ["Community Platforms", "Social Listening Tools"],
-      "languages": [],
-      "skills": ["Community Engagement", "Conflict Resolution", "Event Planning"]
-    },
-    {
-      "name": "Influencer Marketing Manager",
-      "description": "Coordinates campaigns with influencers and brand ambassadors.",
-      "includes": [],
-      "related": ["Social Media Manager", "Brand Manager"],
-      "tools": ["Influencer Platforms", "CRM"],
-      "languages": [],
-      "skills": ["Negotiation", "Relationship Building", "Campaign Management"]
-    }
-  ]
+﻿{
+    "roles":  [
+                  {
+                      "name":  "VP of Growth \u0026 Marketing",
+                      "description":  "Orchestrates multi-channel growth engines, customer acquisition cost (CAC) efficiency, brand narrative, and marketing automation.",
+                      "related":  [
+                                      "Product Marketing Manager",
+                                      "Performance Marketing Lead",
+                                      "Brand Manager",
+                                      "Marketing Operations Manager"
+                                  ],
+                      "tools":  [
+                                    "HubSpot",
+                                    "Salesforce",
+                                    "Mixpanel",
+                                    "Looker"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Growth Modeling",
+                                     "Budget Allocation",
+                                     "CAC:LTV Optimization",
+                                     "Executive Leadership"
+                                 ]
+                  },
+                  {
+                      "name":  "Product Marketing Manager",
+                      "description":  "Leads product positioning, competitive intelligence, persona mapping, sales enablement, and go-to-market launches.",
+                      "related":  [
+                                      "VP of Growth \u0026 Marketing",
+                                      "Brand Manager",
+                                      "Content Strategist",
+                                      "Performance Marketing Lead"
+                                  ],
+                      "tools":  [
+                                    "Klue",
+                                    "Notion",
+                                    "Crayon",
+                                    "Figma"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Go-To-Market (GTM) Strategy",
+                                     "Value Proposition Design",
+                                     "Win/Loss Analysis",
+                                     "Competitive Benchmarking"
+                                 ]
+                  },
+                  {
+                      "name":  "Performance Marketing Lead",
+                      "description":  "Drives paid user acquisition, multi-touch attribution modeling, programmatic ad buying, and creative A/B testing at scale.",
+                      "related":  [
+                                      "VP of Growth \u0026 Marketing",
+                                      "SEO \u0026 AEO Specialist",
+                                      "Marketing Analytics Lead",
+                                      "Content Strategist"
+                                  ],
+                      "tools":  [
+                                    "Google Ads",
+                                    "Meta Ads Manager",
+                                    "LinkedIn Campaign Manager",
+                                    "Triple Whale",
+                                    "AppsFlyer"
+                                ],
+                      "languages":  [
+                                        "SQL"
+                                    ],
+                      "skills":  [
+                                     "Paid Search \u0026 Social",
+                                     "Conversion Rate Optimization (CRO)",
+                                     "Attribution Modeling",
+                                     "Ad Creative Testing"
+                                 ]
+                  },
+                  {
+                      "name":  "SEO \u0026 AEO Specialist",
+                      "description":  "Optimizes organic visibility across search engines and AI answer engines (Perplexity, ChatGPT, Gemini, Google AI Overviews).",
+                      "related":  [
+                                      "Content Strategist",
+                                      "Performance Marketing Lead",
+                                      "Marketing Analytics Lead"
+                                  ],
+                      "tools":  [
+                                    "Ahrefs",
+                                    "Semrush",
+                                    "Google Search Console",
+                                    "Screaming Frog",
+                                    "SurferSEO"
+                                ],
+                      "languages":  [
+                                        "HTML",
+                                        "JavaScript",
+                                        "Python"
+                                    ],
+                      "skills":  [
+                                     "Technical SEO",
+                                     "Answer Engine Optimization (AEO)",
+                                     "Structured Data (Schema.org)",
+                                     "Semantic Search Optimization"
+                                 ]
+                  },
+                  {
+                      "name":  "Content Strategist",
+                      "description":  "Develops thought leadership narratives, multimedia content workflows, AI-assisted editorial calendars, and organic demand gen.",
+                      "related":  [
+                                      "SEO \u0026 AEO Specialist",
+                                      "Brand Manager",
+                                      "Social \u0026 Community Manager",
+                                      "Copywriter"
+                                  ],
+                      "tools":  [
+                                    "Notion",
+                                    "WordPress",
+                                    "Webflow",
+                                    "Grammarly AI"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Content Operations",
+                                     "Editorial Strategy",
+                                     "Brand Storytelling",
+                                     "Topic Clustering"
+                                 ]
+                  },
+                  {
+                      "name":  "Brand Manager",
+                      "description":  "Protects and shapes brand identity, visual guidelines, customer sentiment, PR narrative, and experiential marketing.",
+                      "related":  [
+                                      "VP of Growth \u0026 Marketing",
+                                      "Product Marketing Manager",
+                                      "Content Strategist",
+                                      "Social \u0026 Community Manager"
+                                  ],
+                      "tools":  [
+                                    "Figma",
+                                    "Brandfolder",
+                                    "Sprinklr"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Brand Positioning",
+                                     "Reputation Management",
+                                     "Creative Direction",
+                                     "Customer Empathy"
+                                 ]
+                  },
+                  {
+                      "name":  "Social \u0026 Community Manager",
+                      "description":  "Builds and nurtures authentic online communities across Discord, LinkedIn, X, YouTube, and Slack for organic advocacy.",
+                      "related":  [
+                                      "Content Strategist",
+                                      "Brand Manager",
+                                      "Copywriter"
+                                  ],
+                      "tools":  [
+                                    "Sprout Social",
+                                    "Discord",
+                                    "Common Room",
+                                    "Buffer"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Community Moderation",
+                                     "Viral Social Content",
+                                     "Advocacy Programs",
+                                     "Live Audio/Video Hosting"
+                                 ]
+                  },
+                  {
+                      "name":  "Marketing Operations Manager",
+                      "description":  "Maintains marketing automation tech stacks, lead scoring, database hygiene, and CRM data pipeline routing.",
+                      "related":  [
+                                      "VP of Growth \u0026 Marketing",
+                                      "Marketing Analytics Lead",
+                                      "Performance Marketing Lead"
+                                  ],
+                      "tools":  [
+                                    "HubSpot",
+                                    "Marketo",
+                                    "Zapier / Make",
+                                    "Segment",
+                                    "Clearbit"
+                                ],
+                      "languages":  [
+                                        "SQL",
+                                        "JavaScript"
+                                    ],
+                      "skills":  [
+                                     "Marketing Automation",
+                                     "Lead Routing",
+                                     "Data Hygiene",
+                                     "Tech Stack Integration"
+                                 ]
+                  },
+                  {
+                      "name":  "Marketing Analytics Lead",
+                      "description":  "Extracts customer journey insights, conversion funnels, churn probability, and predictive customer lifetime value (LTV).",
+                      "related":  [
+                                      "Marketing Operations Manager",
+                                      "Performance Marketing Lead",
+                                      "SEO \u0026 AEO Specialist"
+                                  ],
+                      "tools":  [
+                                    "Google Analytics 4",
+                                    "PostHog",
+                                    "Mixpanel",
+                                    "Tableau",
+                                    "BigQuery"
+                                ],
+                      "languages":  [
+                                        "SQL",
+                                        "Python",
+                                        "R"
+                                    ],
+                      "skills":  [
+                                     "Cohort Analysis",
+                                     "Funnel Optimization",
+                                     "Marketing Mix Modeling (MMM)",
+                                     "Predictive Modeling"
+                                 ]
+                  },
+                  {
+                      "name":  "Copywriter",
+                      "description":  "Writes high-converting landing page copy, sales email sequences, video ad scripts, and microcopy.",
+                      "related":  [
+                                      "Content Strategist",
+                                      "Social \u0026 Community Manager",
+                                      "Product Marketing Manager"
+                                  ],
+                      "tools":  [
+                                    "Google Docs",
+                                    "Notion",
+                                    "Hemingway Editor",
+                                    "Claude"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Direct Response Copywriting",
+                                     "Persuasive Psychology",
+                                     "Headline Testing",
+                                     "Ad Scriptwriting"
+                                 ]
+                  },
+                  {
+                      "name":  "Marketing Manager",
+                      "description":  "Leads the marketing team and strategy.",
+                      "includes":  [
+                                       "Content Strategist",
+                                       "SEO Specialist",
+                                       "Social Media Manager",
+                                       "PPC Specialist"
+                                   ],
+                      "related":  [
+                                      "Brand Manager",
+                                      "Product Marketing Manager"
+                                  ],
+                      "tools":  [
+                                    "CRM",
+                                    "Marketing Automation Platforms",
+                                    "Google Analytics"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Strategic Planning",
+                                     "Team Leadership",
+                                     "Budgeting",
+                                     "Campaign Management"
+                                 ]
+                  },
+                  {
+                      "name":  "SEO Specialist",
+                      "description":  "Optimizes web content for search engines.",
+                      "includes":  [
+
+                                   ],
+                      "related":  [
+                                      "Content Strategist",
+                                      "Web Analyst",
+                                      "PPC Specialist"
+                                  ],
+                      "tools":  [
+                                    "Google Analytics",
+                                    "SEO Tools",
+                                    "Google Search Console",
+                                    "Ahrefs",
+                                    "Semrush",
+                                    "Google Search Console",
+                                    "SurferSEO"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Keyword Research",
+                                     "Technical SEO",
+                                     "On-page Optimization",
+                                     "Answer Engine Optimization (AEO)",
+                                     "Semantic Search"
+                                 ]
+                  },
+                  {
+                      "name":  "Social Media Manager",
+                      "description":  "Manages social media presence and campaigns.",
+                      "includes":  [
+                                       "Community Manager"
+                                   ],
+                      "related":  [
+                                      "Content Strategist",
+                                      "Brand Manager",
+                                      "Influencer Marketing Manager"
+                                  ],
+                      "tools":  [
+                                    "Social Media Platforms",
+                                    "Scheduling Tools",
+                                    "Canva",
+                                    "Sprout Social",
+                                    "Discord",
+                                    "Canva Pro",
+                                    "CapCut"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Content Creation",
+                                     "Community Engagement",
+                                     "Analytics"
+                                 ]
+                  },
+                  {
+                      "name":  "PPC Specialist",
+                      "description":  "Manages paid advertising campaigns across digital platforms.",
+                      "includes":  [
+
+                                   ],
+                      "related":  [
+                                      "SEO Specialist",
+                                      "Web Analyst",
+                                      "Marketing Manager"
+                                  ],
+                      "tools":  [
+                                    "Google Ads",
+                                    "Facebook Ads Manager",
+                                    "Bid Management Tools",
+                                    "Meta Ads Manager",
+                                    "Google Ads AI",
+                                    "Triple Whale"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Campaign Optimization",
+                                     "A/B Testing",
+                                     "Analytics"
+                                 ]
+                  },
+                  {
+                      "name":  "Content Editor",
+                      "description":  "Edits and proofreads marketing materials for clarity and accuracy.",
+                      "includes":  [
+
+                                   ],
+                      "related":  [
+                                      "Copywriter",
+                                      "Content Strategist"
+                                  ],
+                      "tools":  [
+                                    "Word Processors",
+                                    "Editing Tools"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Editing",
+                                     "Proofreading",
+                                     "Attention to Detail"
+                                 ]
+                  },
+                  {
+                      "name":  "Web Analyst",
+                      "description":  "Analyzes website data to inform marketing decisions.",
+                      "includes":  [
+
+                                   ],
+                      "related":  [
+                                      "SEO Specialist",
+                                      "PPC Specialist",
+                                      "Content Strategist"
+                                  ],
+                      "tools":  [
+                                    "Google Analytics",
+                                    "Data Visualization Tools",
+                                    "GA4",
+                                    "PostHog",
+                                    "Mixpanel",
+                                    "BigQuery"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Data Analysis",
+                                     "Reporting",
+                                     "Conversion Optimization"
+                                 ]
+                  },
+                  {
+                      "name":  "Community Manager",
+                      "description":  "Builds and manages relationships with online communities.",
+                      "includes":  [
+
+                                   ],
+                      "related":  [
+                                      "Social Media Manager",
+                                      "Content Strategist"
+                                  ],
+                      "tools":  [
+                                    "Community Platforms",
+                                    "Social Listening Tools"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Community Engagement",
+                                     "Conflict Resolution",
+                                     "Event Planning"
+                                 ]
+                  },
+                  {
+                      "name":  "Influencer Marketing Manager",
+                      "description":  "Coordinates campaigns with influencers and brand ambassadors.",
+                      "includes":  [
+
+                                   ],
+                      "related":  [
+                                      "Social Media Manager",
+                                      "Brand Manager"
+                                  ],
+                      "tools":  [
+                                    "Influencer Platforms",
+                                    "CRM"
+                                ],
+                      "languages":  [
+
+                                    ],
+                      "skills":  [
+                                     "Negotiation",
+                                     "Relationship Building",
+                                     "Campaign Management"
+                                 ]
+                  }
+              ]
 }
