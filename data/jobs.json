@@ -1,9 +1,9 @@
 ﻿[
     {
+        "id":  "jobs-1",
         "title":  "Wellfound (AngelList Talent)",
         "url":  "https://wellfound.com",
         "description":  "The definitive startup hiring marketplace. Apply directly to high-growth tech startups and venture-backed companies with transparent salary and equity information.",
-        "id":  "jobs-1",
         "tags":  [
                      "Top",
                      "Startups",
@@ -13,10 +13,10 @@
                  ]
     },
     {
+        "id":  "jobs-2",
         "title":  "Levels.fyi Jobs",
         "url":  "https://www.levels.fyi/jobs",
         "description":  "Explore tech opportunities with transparent total compensation (base salary, stock grants, bonuses) and verified level-by-level benchmarks.",
-        "id":  "jobs-2",
         "tags":  [
                      "Salary Transparency",
                      "Tech",
@@ -25,10 +25,10 @@
                  ]
     },
     {
+        "id":  "jobs-3",
         "title":  "Otta (Welcome to the Jungle)",
         "url":  "https://otta.com",
         "description":  "Smart matching career platform that curates top tech roles at high-impact fast-growing companies tailored specifically to your values and skills.",
-        "id":  "jobs-3",
         "tags":  [
                      "Curated",
                      "Tech",
@@ -37,10 +37,10 @@
                  ]
     },
     {
+        "id":  "jobs-4",
         "title":  "Y Combinator Work at a Startup",
         "url":  "https://www.workatastartup.com",
         "description":  "Apply with a single profile to hundreds of funded YC startups, from seed-stage pioneers to breakthrough unicorns across AI, fintech, and biotech.",
-        "id":  "jobs-4",
         "tags":  [
                      "Startups",
                      "YC",
@@ -49,10 +49,10 @@
                  ]
     },
     {
+        "id":  "jobs-5",
         "title":  "Himalayas",
         "url":  "https://himalayas.app",
         "description":  "Fast-growing remote job board with in-depth company culture profiles, timezone filters, tech stack searches, and verified salary ranges.",
-        "id":  "jobs-5",
         "tags":  [
                      "Remote",
                      "Timezones",
@@ -61,10 +61,10 @@
                  ]
     },
     {
+        "id":  "jobs-6",
         "title":  "Turing AI Talent Cloud",
         "url":  "https://www.turing.com",
         "description":  "AI-powered talent cloud that connects vetted global software engineers and AI developers with long-term US remote technical contracts.",
-        "id":  "jobs-6",
         "tags":  [
                      "Freelance \u0026 Contract",
                      "AI Talent",
@@ -73,10 +73,10 @@
                  ]
     },
     {
+        "id":  "jobs-7",
         "title":  "Devpost Hackathons",
         "url":  "https://devpost.com",
         "description":  "The home for developer hackathons, project showcases, and career challenges where you can build real portfolio projects and get hired by sponsors.",
-        "id":  "jobs-7",
         "tags":  [
                      "Hackathons",
                      "Portfolio",
@@ -85,10 +85,10 @@
                  ]
     },
     {
+        "id":  "jobs-8",
         "title":  "Arc.dev",
         "url":  "https://arc.dev",
         "description":  "Remote-first career platform that helps software engineers get discovered by fast-hiring US and international companies without endless applications.",
-        "id":  "jobs-8",
         "tags":  [
                      "Remote",
                      "Reverse Hiring",
@@ -130,28 +130,6 @@
     },
     {
         "id":  "jobs-12",
-        "title":  "Vettery",
-        "url":  "https://vettery.com",
-        "description":  "Vettery is an AI-powered job platform that matches candidates with companies based on skills and experience. Features personalized job recommendations, company insights, and direct recruiter connections. Uses advanced algorithms to find the best career matches.",
-        "tags":  [
-                     "free",
-                     "ai",
-                     "tech"
-                 ]
-    },
-    {
-        "id":  "jobs-13",
-        "title":  "Triplebyte",
-        "url":  "https://triplebyte.com",
-        "description":  "Triplebyte is a technical interview platform that evaluates developers through automated technical assessments. Features fair, skill-based hiring process that eliminates bias. Companies pay for access to pre-vetted, high-quality developer candidates.",
-        "tags":  [
-                     "paid",
-                     "tech",
-                     "skill-based"
-                 ]
-    },
-    {
-        "id":  "jobs-14",
         "title":  "Y Combinator Jobs",
         "url":  "https://www.ycombinator.com/jobs",
         "description":  "Y Combinator Jobs connects talented individuals with YC-backed startups. Features exclusive access to high-growth companies, insider insights, and a curated selection of positions. Perfect for developers interested in working at promising startups.",
@@ -161,7 +139,7 @@
                  ]
     },
     {
-        "id":  "jobs-15",
+        "id":  "jobs-13",
         "title":  "TechCrunch Jobs",
         "url":  "https://techcrunch.com/jobs",
         "description":  "TechCrunch Jobs features startup and tech company positions with editorial oversight. Includes company profiles, funding information, and insights into emerging tech companies. Great for developers interested in innovative and well-funded startups.",
@@ -172,7 +150,7 @@
                  ]
     },
     {
-        "id":  "jobs-16",
+        "id":  "jobs-14",
         "title":  "LinkedIn",
         "url":  "https://www.linkedin.com/jobs",
         "description":  "LinkedIn is the world\u0027s largest professional networking platform, offering job listings, company insights, and a network of professionals for career development.",
@@ -183,7 +161,7 @@
                  ]
     },
     {
-        "id":  "jobs-17",
+        "id":  "jobs-15",
         "title":  "ZipRecruiter",
         "url":  "https://www.ziprecruiter.com",
         "description":  "ZipRecruiter is an online employment marketplace that connects job seekers with employers by providing job listings, resume posting, and job alerts.",
@@ -195,7 +173,7 @@
                  ]
     },
     {
-        "id":  "jobs-18",
+        "id":  "jobs-16",
         "title":  "Indeed",
         "url":  "https://www.indeed.com",
         "description":  "Indeed is one of the world\u0027s largest job search engines, providing millions of job listings, company reviews, and salary information for job seekers globally.",
@@ -207,7 +185,7 @@
                  ]
     },
     {
-        "id":  "jobs-19",
+        "id":  "jobs-17",
         "title":  "Upwork",
         "url":  "https://www.upwork.com",
         "description":  "Upwork is a freelance job platform that connects freelancers with clients for various tasks and projects, focusing on remote work and the gig economy.",
@@ -218,7 +196,7 @@
                  ]
     },
     {
-        "id":  "jobs-20",
+        "id":  "jobs-18",
         "title":  "Dice",
         "url":  "https://www.dice.com",
         "description":  "Dice is a job board focused on technology and IT jobs, offering job listings, career advice, and tools for tech professionals to advance their careers.",
@@ -231,7 +209,7 @@
                  ]
     },
     {
-        "id":  "jobs-21",
+        "id":  "jobs-19",
         "title":  "Glassdoor",
         "url":  "https://www.glassdoor.com",
         "description":  "Glassdoor offers job listings along with company reviews, interview tips, and salary information to help job seekers make informed career decisions.",
@@ -242,7 +220,7 @@
                  ]
     },
     {
-        "id":  "jobs-22",
+        "id":  "jobs-20",
         "title":  "Contra",
         "url":  "https://contra.com",
         "description":  "The professional network for the independent economy. Allows freelancers and solo-entrepreneurs to showcase portfolios, manage payments (zero commission), and find high-quality work without the pitfalls of legacy freelance sites.",
@@ -254,7 +232,7 @@
                  ]
     },
     {
-        "id":  "jobs-23",
+        "id":  "jobs-21",
         "title":  "The Muse",
         "url":  "https://www.themuse.com",
         "description":  "The Muse is a career platform that goes beyond job listings by providing company insights, culture information, and career advice. Features include detailed company profiles, salary information, employee reviews, career coaching articles, and personalized job recommendations. Free for job seekers. Helps candidates find companies that match their values and career goals. Great for professionals seeking culture fit and career growth opportunities.",
@@ -265,7 +243,7 @@
                  ]
     },
     {
-        "id":  "jobs-24",
+        "id":  "jobs-22",
         "title":  "Ottotto",
         "url":  "https://ottotto.ai",
         "description":  "The first AI-native job board that matches candidates based on deep skill-mapping and behavioral fit rather than just keywords. Features AI-driven interview prep and automated application tracking.",
@@ -278,7 +256,7 @@
                  ]
     },
     {
-        "id":  "jobs-25",
+        "id":  "jobs-23",
         "title":  "Truelancer",
         "url":  "https://www.truelancer.com/",
         "description":  "Truelancer is an Online Platform for Employers to Hire Professionals to get their work done and Freelancers and Professionals can Search Jobs and Earn money by working with real clients across the world",
@@ -290,7 +268,7 @@
                  ]
     },
     {
-        "id":  "jobs-26",
+        "id":  "jobs-24",
         "title":  "RemoteOK",
         "url":  "https://remoteok.com",
         "description":  "Over 600,000 jobs, Work from anywhere, The no. 1 remote job board",
@@ -300,7 +278,7 @@
                  ]
     },
     {
-        "id":  "jobs-27",
+        "id":  "jobs-25",
         "title":  "CareerJet",
         "url":  "https://www.careerjet.com",
         "description":  "CareerJet is a job search engine that aggregates job listings from various sources, providing a comprehensive job search experience for job seekers worldwide.",
@@ -311,7 +289,7 @@
                  ]
     },
     {
-        "id":  "jobs-28",
+        "id":  "jobs-26",
         "title":  "FlexJobs",
         "url":  "https://www.flexjobs.com",
         "description":  "FlexJobs is a subscription-based job board for remote, flexible, and freelance job opportunities, with a focus on work-life balance.",
@@ -323,7 +301,7 @@
                  ]
     },
     {
-        "id":  "jobs-29",
+        "id":  "jobs-27",
         "title":  "WowJobs",
         "url":  "https://www.wowjobs.ca",
         "description":  "WowJobs is a Canadian job search engine that aggregates job listings from various sources, providing a comprehensive job search experience for job seekers.",
@@ -333,7 +311,7 @@
                  ]
     },
     {
-        "id":  "jobs-30",
+        "id":  "jobs-28",
         "title":  "Read.cv",
         "url":  "https://read.cv",
         "description":  "A modern, community-driven professional network that focuses on visual storytelling and meaningful connections. A popular alternative to LinkedIn for designers, developers, and creatives.",
@@ -345,7 +323,7 @@
                  ]
     },
     {
-        "id":  "jobs-31",
+        "id":  "jobs-29",
         "title":  "Fiverr",
         "url":  "https://www.fiverr.com",
         "description":  "Fiverr is a freelance job platform where freelancers can offer services, and clients can find talent for various tasks, focusing on remote and gig economy jobs.",
@@ -357,7 +335,7 @@
                  ]
     },
     {
-        "id":  "jobs-32",
+        "id":  "jobs-30",
         "title":  "Pagaar",
         "url":  "https://olibr.com/",
         "description":  "Connect with top software developers and engineers worldwide. Olibr simplifies global tech recruitment, offering access to a vast network of tech talent",
@@ -368,18 +346,7 @@
                  ]
     },
     {
-        "id":  "jobs-33",
-        "title":  "Pagaar",
-        "url":  "https://pagaar.ai/",
-        "description":  "Automate your entire job search and application journey with pagaar. Pagaar.ai trying to revolutionize the way people look for jobs, by creating an all-in-one platform to solve all the needs of a job seeker.",
-        "tags":  [
-                     "free",
-                     "tech",
-                     "offical"
-                 ]
-    },
-    {
-        "id":  "jobs-34",
+        "id":  "jobs-31",
         "title":  "Snagajob",
         "url":  "https://www.snagajob.com",
         "description":  "Snagajob is the largest platform for hourly and shift-based employment in the United States. Specializes in retail, hospitality, healthcare, and service industry jobs. Features include one-click apply, shift scheduling tools, employer reviews, and job matching based on location and availability. Free for job seekers. Great for students, part-time workers, and those seeking flexible schedules. Over 100 million hourly workers use the platform.",
@@ -395,7 +362,7 @@
                  ]
     },
     {
-        "id":  "jobs-35",
+        "id":  "jobs-32",
         "title":  "Freelancer",
         "url":  "https://www.freelancer.com",
         "description":  "Freelancer is a global freelance job platform where freelancers can offer services, and clients can find talent for various tasks, focusing on remote work and gig economy jobs.",
@@ -407,7 +374,7 @@
                  ]
     },
     {
-        "id":  "jobs-36",
+        "id":  "jobs-33",
         "title":  "Guru",
         "url":  "https://www.guru.com",
         "description":  "Guru is a freelance job platform that connects freelancers with clients for various tasks and projects, focusing on remote work and the gig economy.",
@@ -419,7 +386,7 @@
                  ]
     },
     {
-        "id":  "jobs-37",
+        "id":  "jobs-34",
         "title":  "PeoplePerHour",
         "url":  "https://www.peopleperhour.com",
         "description":  "PeoplePerHour is a freelance job platform that connects freelancers with clients for various tasks and projects, focusing on remote work and the gig economy.",
@@ -431,7 +398,7 @@
                  ]
     },
     {
-        "id":  "jobs-38",
+        "id":  "jobs-35",
         "title":  "Toptal",
         "url":  "https://www.toptal.com",
         "description":  "Toptal is a freelance job platform that connects top freelancers with clients for high-quality tasks and projects, focusing on remote work and the gig economy.",
@@ -443,7 +410,7 @@
                  ]
     },
     {
-        "id":  "jobs-39",
+        "id":  "jobs-36",
         "title":  "2coms",
         "url":  "https://www.2coms.com/",
         "description":  "India\u0027s best Placement Agency, Manpower consultancy and recruitment firm helping businesses with staffing, leadership hiring, apprenticeship.",
@@ -455,7 +422,7 @@
                  ]
     },
     {
-        "id":  "jobs-40",
+        "id":  "jobs-37",
         "title":  "Bayt",
         "url":  "https://www.bayt.com/",
         "description":  "Bayt.com is the leading job site in the Middle East and North Africa, connecting job seekers with employers looking to hire. Every day, thousands of new job",
@@ -467,7 +434,7 @@
                  ]
     },
     {
-        "id":  "jobs-41",
+        "id":  "jobs-38",
         "title":  "Built In",
         "url":  "https://www.builtin.com",
         "description":  "Built In is a job board focused on tech and startup jobs, offering job listings, company profiles, and insights into the tech industry.",
@@ -479,7 +446,7 @@
                  ]
     },
     {
-        "id":  "jobs-42",
+        "id":  "jobs-39",
         "title":  "Eluta",
         "url":  "https://www.eluta.ca",
         "description":  "Eluta is a Canadian job search engine that provides job listings from various employers, along with company reviews and salary information.",
@@ -489,7 +456,7 @@
                  ]
     },
     {
-        "id":  "jobs-43",
+        "id":  "jobs-40",
         "title":  "National Career Service",
         "url":  "https://www.ncs.gov.in/",
         "description":  "National Career Service Project (NCS) is a mission mode project under Ministry of Labour and Employment that provides a host of career-related services.",
@@ -500,7 +467,7 @@
                  ]
     },
     {
-        "id":  "jobs-44",
+        "id":  "jobs-41",
         "title":  "Naukri",
         "url":  "https://www.naukri.com/",
         "description":  "Connect with 20000+ employers. Apply to millions of job opportunities across top companies,industries and locations on India\u0027s No.1 jo site. Apply online",
@@ -511,7 +478,7 @@
                  ]
     },
     {
-        "id":  "jobs-45",
+        "id":  "jobs-42",
         "title":  "USAJOBS",
         "url":  "https://www.usajobs.gov",
         "description":  "USAJOBS is the official job site of the United States federal government, providing job listings for federal positions across various agencies.",
@@ -523,7 +490,7 @@
                  ]
     },
     {
-        "id":  "jobs-46",
+        "id":  "jobs-43",
         "title":  "wellfound",
         "url":  "https://wellfound.com/",
         "description":  "wellfound is a platform for job seekers looking to work with startups, offering job listings, company profiles, and investment opportunities.",
@@ -536,7 +503,7 @@
                  ]
     },
     {
-        "id":  "jobs-47",
+        "id":  "jobs-44",
         "title":  "99designs",
         "url":  "https://www.99designs.com",
         "description":  "99designs is a freelance job platform focused on design projects, connecting designers with clients for various design tasks and projects, with a focus on remote work.",
@@ -549,7 +516,7 @@
                  ]
     },
     {
-        "id":  "jobs-48",
+        "id":  "jobs-45",
         "title":  "Authentic",
         "url":  "https://www.authenticjobs.com",
         "description":  "Authentic Jobs is a job search platform focused on tech and design jobs, offering job listings, resume posting, and career advice for job seekers in the creative industry.",
@@ -563,7 +530,7 @@
                  ]
     },
     {
-        "id":  "jobs-49",
+        "id":  "jobs-46",
         "title":  "Cutshort",
         "url":  "https://cutshort.io/",
         "description":  "Cutshort is the #1 tech hiring platform in India. Connect with top talent, engage with them and close positions to execute your vision, faster.",
@@ -577,7 +544,7 @@
                  ]
     },
     {
-        "id":  "jobs-50",
+        "id":  "jobs-47",
         "title":  "DesignCrowd",
         "url":  "https://www.designcrowd.com",
         "description":  "DesignCrowd is a freelance job platform focused on design projects, connecting designers with clients for various design tasks and projects, with a focus on remote work.",
@@ -590,7 +557,7 @@
                  ]
     },
     {
-        "id":  "jobs-51",
+        "id":  "jobs-48",
         "title":  "Eurojobs",
         "url":  "https://www.eurojobs.com",
         "description":  "Eurojobs is a job board focused on job listings in Europe, providing opportunities for job seekers in various industries across the continent.",
@@ -602,7 +569,7 @@
                  ]
     },
     {
-        "id":  "jobs-52",
+        "id":  "jobs-49",
         "title":  "Foundit",
         "url":  "https://www.foundit.in/",
         "description":  "Foundit is a global job search platform that provides job listings, resume posting, and career advice for job seekers in various industries.",
@@ -614,7 +581,7 @@
                  ]
     },
     {
-        "id":  "jobs-53",
+        "id":  "jobs-50",
         "title":  "Jobs.lu",
         "url":  "https://www.jobs.lu",
         "description":  "Jobs.lu is a job board focused on job opportunities in Luxembourg, providing job listings, company profiles, and career advice for job seekers.",
@@ -626,7 +593,7 @@
                  ]
     },
     {
-        "id":  "jobs-54",
+        "id":  "jobs-51",
         "title":  "JobsDB",
         "url":  "https://www.jobsdb.com",
         "description":  "JobsDB is a leading job board in Asia, offering job listings, resume posting, and career advice for job seekers across the region.",
@@ -638,7 +605,7 @@
                  ]
     },
     {
-        "id":  "jobs-55",
+        "id":  "jobs-52",
         "title":  "JobStreet",
         "url":  "https://www.jobstreet.com",
         "description":  "JobStreet is a job board in Asia that connects job seekers with employers, providing job listings, company insights, and career advice.",
@@ -650,7 +617,7 @@
                  ]
     },
     {
-        "id":  "jobs-56",
+        "id":  "jobs-53",
         "title":  "Lensa",
         "url":  "https://www.lensa.com",
         "description":  "Lensa is a job search platform that offers personalized job recommendations, resume posting, and career advice for job seekers in various industries.",
@@ -662,7 +629,7 @@
                  ]
     },
     {
-        "id":  "jobs-57",
+        "id":  "jobs-54",
         "title":  "Workopolis",
         "url":  "https://www.workopolis.com",
         "description":  "Workopolis is a Canadian job search platform that offers job listings, resume posting, and career advice for job seekers in various industries.",
@@ -673,7 +640,7 @@
                  ]
     },
     {
-        "id":  "jobs-58",
+        "id":  "jobs-55",
         "title":  "JobsInLogistics",
         "url":  "https://www.jobsinlogistics.com",
         "description":  "JobsInLogistics is a job board specializing in logistics, transportation, and supply chain jobs, providing listings and resources for professionals in the industry.",
@@ -684,7 +651,7 @@
                  ]
     },
     {
-        "id":  "jobs-59",
+        "id":  "jobs-56",
         "title":  "Experis",
         "url":  "https://www.experis.com",
         "description":  "Experis is a recruitment agency specializing in IT, engineering, and healthcare jobs, offering job listings, career advice, and staffing solutions for professionals.",
@@ -696,7 +663,7 @@
                  ]
     },
     {
-        "id":  "jobs-60",
+        "id":  "jobs-57",
         "title":  "Hays",
         "url":  "https://www.hays.com",
         "description":  "Hays is a global recruitment agency that provides job listings, career advice, and staffing solutions for professionals across various industries.",
@@ -708,7 +675,7 @@
                  ]
     },
     {
-        "id":  "jobs-61",
+        "id":  "jobs-58",
         "title":  "Remote Year",
         "url":  "https://www.remoteyear.com",
         "description":  "Remote Year offers remote work programs and job opportunities for professionals seeking to work and travel while being part of a global community.",
@@ -721,7 +688,7 @@
                  ]
     },
     {
-        "id":  "jobs-62",
+        "id":  "jobs-59",
         "title":  "The Ladders",
         "url":  "https://www.theladders.com",
         "description":  "The Ladders is a job board focused on high-paying and executive-level jobs, offering job listings, resume posting, and career advice for professionals.",
@@ -732,7 +699,7 @@
                  ]
     },
     {
-        "id":  "jobs-63",
+        "id":  "jobs-60",
         "title":  "TopResume",
         "url":  "https://www.topresume.com",
         "description":  "TopResume provides resume writing services and career advice to help job seekers create a professional resume and improve their chances of landing a job.",
@@ -743,20 +710,7 @@
                  ]
     },
     {
-        "id":  "jobs-64",
-        "title":  "Airtable",
-        "url":  "https://airtable.com",
-        "description":  "Flexible Airtable jobs posted previously include remote jobs with full-time schedules that have been open to applicants across the United States",
-        "tags":  [
-                     "limited",
-                     "freelance",
-                     "remote",
-                     "usa",
-                     "weekly alerts"
-                 ]
-    },
-    {
-        "id":  "jobs-65",
+        "id":  "jobs-61",
         "title":  "Al",
         "url":  "https://theaijobboard.com",
         "description":  "Top AI job board, Full-time remote jobs, Top 1% of AI companies",
@@ -768,7 +722,7 @@
                  ]
     },
     {
-        "id":  "jobs-66",
+        "id":  "jobs-62",
         "title":  "PowerToFly",
         "url":  "https://powertofly.com/",
         "description":  "2987 Remote jobs, Jobs tailored to your skillset, Land a job at a company committed to diversity \u0026 inclusion",
@@ -780,7 +734,7 @@
                  ]
     },
     {
-        "id":  "jobs-67",
+        "id":  "jobs-63",
         "title":  "Adecco",
         "url":  "https://www.adecco.com",
         "description":  "Adecco is a global recruitment agency that provides job listings, career advice, and staffing solutions for temporary, contract, and permanent positions.",
@@ -792,18 +746,7 @@
                  ]
     },
     {
-        "id":  "jobs-68",
-        "title":  "AngelList",
-        "url":  "https://angel.co/",
-        "description":  "AngelList is a job search platform focused on startup jobs, offering job listings, networking opportunities, and career advice for job seekers in the tech industry.",
-        "tags":  [
-                     "startups",
-                     "paid",
-                     "tech"
-                 ]
-    },
-    {
-        "id":  "jobs-69",
+        "id":  "jobs-64",
         "title":  "AutoApply.Jobs",
         "url":  "https://autoapply.jobs/",
         "description":  "With one click, auto-apply to jobs without any human effort",
@@ -816,7 +759,7 @@
                  ]
     },
     {
-        "id":  "jobs-70",
+        "id":  "jobs-65",
         "title":  "Jobspresso",
         "url":  "https://jobspresso.co",
         "description":  "Remote and flexible job opportunities",
@@ -828,7 +771,7 @@
                  ]
     },
     {
-        "id":  "jobs-71",
+        "id":  "jobs-66",
         "title":  "JustRemote",
         "url":  "https://justremote.co/",
         "description":  "Jobs that fit your life, Fully and partially remote, Top remote working companies",
@@ -839,7 +782,7 @@
                  ]
     },
     {
-        "id":  "jobs-72",
+        "id":  "jobs-67",
         "title":  "Kelly Services",
         "url":  "https://www.kellyservices.com",
         "description":  "Kelly Services is a global recruitment agency that offers job listings, career advice, and staffing solutions for temporary, contract, and permanent positions.",
@@ -850,7 +793,7 @@
                  ]
     },
     {
-        "id":  "jobs-73",
+        "id":  "jobs-68",
         "title":  "Manpower",
         "url":  "https://www.manpowergroup.com",
         "description":  "Manpower is a global recruitment agency that provides job listings, career advice, and staffing solutions for temporary, contract, and permanent positions.",
@@ -861,7 +804,7 @@
                  ]
     },
     {
-        "id":  "jobs-74",
+        "id":  "jobs-69",
         "title":  "Randstad",
         "url":  "https://www.randstad.com",
         "description":  "Randstad is a global recruitment agency that offers job listings, career advice, and staffing solutions for temporary, contract, and permanent positions.",
@@ -872,7 +815,7 @@
                  ]
     },
     {
-        "id":  "jobs-75",
+        "id":  "jobs-70",
         "title":  "Remote of Asia",
         "url":  "https://remoteok.io/asia",
         "description":  "Remote job opportunities across Asia",
@@ -883,7 +826,7 @@
                  ]
     },
     {
-        "id":  "jobs-76",
+        "id":  "jobs-71",
         "title":  "Remote Ok Europe",
         "url":  "https://remoteok.io/Europe",
         "description":  "Remote job opportunities across Europe",
@@ -894,7 +837,7 @@
                  ]
     },
     {
-        "id":  "jobs-77",
+        "id":  "jobs-72",
         "title":  "Remote.co",
         "url":  "https://remote.co",
         "description":  "Remote.co is a job board focused on remote work opportunities, providing job listings for remote positions in various industries worldwide.",
@@ -904,7 +847,7 @@
                  ]
     },
     {
-        "id":  "jobs-78",
+        "id":  "jobs-73",
         "title":  "remote4me",
         "url":  "https://remote4me.com/",
         "description":  "Customize your remote job search based on location, salary, and more",
@@ -915,7 +858,7 @@
                  ]
     },
     {
-        "id":  "jobs-79",
+        "id":  "jobs-74",
         "title":  "RemoteWoman",
         "url":  "https://remotewoman.com/",
         "description":  "Women have the opportunity to work from home, enhancing their productivity and flexibility",
@@ -926,7 +869,7 @@
                  ]
     },
     {
-        "id":  "jobs-80",
+        "id":  "jobs-75",
         "title":  "Remotive",
         "url":  "https://remotive.com",
         "description":  "Over 30,000 jobs, Vetted tech companies, Full remote job opportunities",
@@ -936,7 +879,7 @@
                  ]
     },
     {
-        "id":  "jobs-81",
+        "id":  "jobs-76",
         "title":  "Robert Half",
         "url":  "https://www.roberthalf.com",
         "description":  "Robert Half is a recruitment agency that offers job listings, career advice, and staffing solutions for temporary, contract, and permanent positions.",
@@ -947,7 +890,7 @@
                  ]
     },
     {
-        "id":  "jobs-82",
+        "id":  "jobs-77",
         "title":  "SimplyHired",
         "url":  "https://simplyhired.com",
         "description":  "SimplyHired is a job search engine that aggregates job listings from across the web, offering salary information, company reviews, and job alerts.",
@@ -958,7 +901,7 @@
                  ]
     },
     {
-        "id":  "jobs-83",
+        "id":  "jobs-78",
         "title":  "We Work Remotely",
         "url":  "https://weworkremotely.com",
         "description":  "We Work Remotely is a job board for remote job listings, connecting job seekers with companies offering remote work opportunities in various fields.",
@@ -968,7 +911,7 @@
                  ]
     },
     {
-        "id":  "jobs-84",
+        "id":  "jobs-79",
         "title":  "Working Nomads",
         "url":  "https://www.workingnomads.com/",
         "description":  "100% remote jobs, Work from anywhere, For digital working nomads",
