@@ -1515,11 +1515,24 @@
         "url":  "https://auferet.com",
         "description":  "AI game master for solo text adventures and tabletop-style RPGs. Keeps long-term memory of characters, world lore, and storylines with 5e / Pathfinder rules support and built-in dice mechanics.",
         "tags":  [
-                     "Games \u0026 RPG",
+                     "Games RPG",
                      "Storytelling",
                      "Gaming",
                      "Interactive Fiction",
                      "Free",
+                     "Paid"
+                 ]
+    },
+    {
+        "id":  "ai-tools-116",
+        "title":  "Zot AI",
+        "url":  "https://www.zot.ai",
+        "description":  "Zot offers AI chatbot solutions to automate customer interactions, enhance lead engagement, and streamline intelligent business communications.",
+        "tags":  [
+                     "Customer Support",
+                     "AI Chatbot",
+                     "Automation",
+                     "Business",
                      "Paid"
                  ]
     }
