@@ -30,6 +30,9 @@ function getDomainFromHash() {
 
 function renderFromHash() {
   const domain = getDomainFromHash();
+  document.querySelectorAll('.nexus-domain-pill').forEach(pill => {
+    pill.classList.toggle('active', pill.getAttribute('data-domain') === domain);
+  });
   renderGraph(domainToJson[domain]);
 }
 
@@ -92,7 +95,9 @@ function renderGraph(jsonUrl) {
       svg.transition().duration(750).call(zoom.transform, transform);
     };
 
-    const colorScale = d3.scaleLinear().domain([0, 2, 5, 8]).range(["#4f46e5", "#6366f1", "#a855f7", "#06b6d4"]);
+    const colorScale = d3.scaleLinear()
+      .domain([0, 2, 5, 8, 12])
+      .range(["#e0e7ff", "#c7d2fe", "#93c5fd", "#c4b5fd", "#67e8f9"]);
 
     // 4. Forces
     simulation = d3.forceSimulation(nodes)
@@ -208,15 +213,71 @@ function renderGraph(jsonUrl) {
         ? d.related.map(r => `<span class="info-badge bg-primary text-white" style="cursor:pointer" onclick="teleportToNode('${r}')">${r}</span>`).join('')
         : 'None';
 
+      const levelPill = d.level ? `<span class="info-pill level-pill"><i class="bi bi-bar-chart-steps me-1"></i>${d.level}</span>` : '';
+      const salaryPill = d.salaryRange ? `<span class="info-pill salary-pill"><i class="bi bi-cash-stack me-1"></i>${d.salaryRange}</span>` : '';
+      const connPill = `<span class="info-pill conn-pill"><i class="bi bi-diagram-2 me-1"></i>${d.connCount} Connections</span>`;
+
+      const respHTML = (d.responsibilities && d.responsibilities.length > 0)
+        ? `<div class="info-section">
+            <span class="info-label">Key Responsibilities</span>
+            <ul class="info-resp-list">
+              ${d.responsibilities.map(r => `<li>${r}</li>`).join('')}
+            </ul>
+          </div>`
+        : '';
+
+      const certsHTML = (d.certifications && d.certifications.length > 0)
+        ? `<div class="info-section">
+            <span class="info-label">Recognized Certifications</span>
+            <div class="d-flex flex-wrap">
+              ${d.certifications.map(c => `<span class="info-badge cert-badge"><i class="bi bi-award-fill me-1"></i>${c}</span>`).join('')}
+            </div>
+          </div>`
+        : '';
+
+      const careerPathHTML = d.careerPath
+        ? `<div class="info-section">
+            <span class="info-label">Career Progression Trajectory</span>
+            <div class="career-path-box">
+              <i class="bi bi-signpost-split-fill text-primary me-2"></i>${d.careerPath}
+            </div>
+          </div>`
+        : '';
+
+      const langsHTML = (d.languages && d.languages.length > 0)
+        ? `<div class="info-section">
+            <span class="info-label">Languages</span>
+            <div class="d-flex flex-wrap">
+              ${d.languages.map(l => `<span class="info-badge lang-badge"><i class="bi bi-code-slash me-1"></i>${l}</span>`).join('')}
+            </div>
+          </div>`
+        : '';
+
+      const roadmapTarget = d.roadmapRef || '';
+      const roadmapBtn = roadmapTarget
+        ? `<a href="/html/roadmaps.html?roadmap=${encodeURIComponent(roadmapTarget)}" class="btn btn-primary w-100 py-2 fw-bold text-white d-flex align-items-center justify-content-center gap-2 shadow"><i class="bi bi-map-fill"></i> View Step-by-Step Roadmap <i class="bi bi-arrow-right"></i></a>`
+        : `<a href="/html/roadmaps.html?search=${encodeURIComponent(d.name)}" class="btn btn-outline-primary w-100 py-2 fw-semibold d-flex align-items-center justify-content-center gap-2"><i class="bi bi-compass"></i> Explore Skill Roadmaps <i class="bi bi-arrow-right"></i></a>`;
+
       body.innerHTML = `
-        <div class="info-section">
+        <div class="info-section mb-3">
           <h3>${d.name}</h3>
-          <p class="badge bg-primary mb-3">${d.connCount} Connections</p>
-          <div class="info-content">${d.description || ''}</div>
+          <div class="d-flex flex-wrap gap-2 my-2">
+            ${levelPill}
+            ${salaryPill}
+            ${connPill}
+          </div>
+          <div class="info-content mt-2">${d.description || ''}</div>
         </div>
+        ${respHTML}
+        ${careerPathHTML}
+        ${certsHTML}
+        ${langsHTML}
         <div class="info-section"><span class="info-label">Essential Tools</span><div class="d-flex flex-wrap">${toolsHTML}</div></div>
         <div class="info-section"><span class="info-label">Core Skills</span><div class="d-flex flex-wrap">${skillsHTML}</div></div>
         <div class="info-section"><span class="info-label">Related Roles</span><div class="d-flex flex-wrap">${relatedHTML}</div></div>
+        <div class="info-section mt-4 pt-2 border-top border-secondary border-opacity-25">
+          ${roadmapBtn}
+        </div>
       `;
       panel.classList.add('show');
     }
@@ -228,7 +289,8 @@ function renderGraph(jsonUrl) {
       nodes.forEach(n => {
         const inName = n.name && n.name.toLowerCase().includes(term);
         const inTools = n.tools && n.tools.join(' ').toLowerCase().includes(term);
-        if (inName || inTools) matchedNodes.add(n.id);
+        const inSkills = n.skills && n.skills.join(' ').toLowerCase().includes(term);
+        if (inName || inTools || inSkills) matchedNodes.add(n.id);
       });
       if (matchedNodes.size > 0) {
         node.classed("faded", n => !matchedNodes.has(n.id));

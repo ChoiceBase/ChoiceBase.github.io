@@ -19,7 +19,20 @@
         "Continuous Improvement",
         "Capital Expenditure Management",
         "Safety Culture"
-      ]
+      ],
+      "level": "Director",
+      "salaryRange": "$140,000 - $210,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Production Manager",
@@ -41,7 +54,20 @@
         "Capacity Planning",
         "Bottleneck Analysis",
         "Resource Allocation"
-      ]
+      ],
+      "level": "Senior Management",
+      "salaryRange": "$105,000 - $160,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Automation & Robotics Engineer",
@@ -68,7 +94,20 @@
         "Robot Kinematics",
         "Machine Vision Systems",
         "Industrial Ethernet"
-      ]
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$90,000 - $145,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Quality Control Engineer",
@@ -92,7 +131,20 @@
         "Root Cause Analysis (8D / 5 Why)",
         "ISO 9001 / IATF 16949 Standards",
         "FMEA"
-      ]
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$90,000 - $145,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Maintenance Engineer",
@@ -113,7 +165,20 @@
         "Reliability Centered Maintenance (RCM)",
         "Root Cause Failure Analysis",
         "Total Productive Maintenance (TPM)"
-      ]
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$90,000 - $145,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Shift Supervisor",
@@ -133,7 +198,20 @@
         "Conflict Resolution",
         "Safety Protocol Enforcement",
         "Line Balancing"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$55,000 - $90,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Supply Chain Manager",
@@ -155,7 +233,20 @@
         "Supply Chain Risk Modeling",
         "Inventory Optimization",
         "Contract Negotiation"
-      ]
+      ],
+      "level": "Senior Management",
+      "salaryRange": "$105,000 - $160,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Process Engineer",
@@ -179,7 +270,20 @@
         "Kaizen & Continuous Improvement",
         "Thermodynamics & Fluid Dynamics",
         "Process Simulation"
-      ]
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$90,000 - $145,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Procurement Specialist",
@@ -199,7 +303,20 @@
         "Vendor Risk Analysis",
         "Contract Negotiation",
         "Cost Structure Modeling"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$55,000 - $90,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Logistics Coordinator",
@@ -218,7 +335,20 @@
         "Multimodal Freight Routing",
         "Customs Compliance",
         "Carrier Management"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$55,000 - $90,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Warehouse Manager",
@@ -238,7 +368,20 @@
         "Slotting Optimization",
         "ASRS Management",
         "Safety Compliance"
-      ]
+      ],
+      "level": "Senior Management",
+      "salaryRange": "$105,000 - $160,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Machine Operator",
@@ -261,7 +404,20 @@
         "Precision Measurement",
         "Workpiece Staging",
         "Safety Protocols"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$55,000 - $90,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Maintenance Technician",
@@ -282,7 +438,20 @@
         "Hydraulics & Pneumatics",
         "Component Replacement",
         "Safety Lockout/Tagout (LOTO)"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$55,000 - $90,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Quality Inspector",
@@ -301,7 +470,20 @@
         "GD&T Inspection",
         "Non-Destructive Testing (NDT)",
         "Documentation & Traceability"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$55,000 - $90,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
     },
     {
       "name": "Warehouse Worker",
@@ -320,6 +502,391 @@
         "RF Scanning",
         "Order Staging",
         "Material Handling Safety"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$55,000 - $90,000 / yr",
+      "responsibilities": [
+        "Oversee plant manufacturing output, assembly cadence, and takt times",
+        "Ensure adherence to ISO 9001 quality guidelines and OSHA plant safety",
+        "Implement root cause failure analyses (RCFA) and continuous improvements"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt",
+        "Certified Manufacturing Specialist"
+      ],
+      "careerPath": "Technician -> Process Engineer -> Production Manager -> Plant Director",
+      "roadmapRef": "smart-manufacturing"
+    },
+    {
+      "name": "Industry 4.0 Systems Architect",
+      "description": "Architects end-to-end smart factory connectivity, unified industrial IoT namespaces, and automated edge-to-cloud execution.",
+      "level": "Lead / Principal",
+      "salaryRange": "$130,000 - $195,000 / yr",
+      "responsibilities": [
+        "Architect Unified Namespace (UNS) based on MQTT and Sparkplug B across production lines",
+        "Integrate legacy PLCs, CNC machines, and SCADA systems with enterprise cloud platforms",
+        "Deploy edge industrial computing gateways running containerized microservices",
+        "Establish cybersecurity zones and conduits according to IEC 62443 industrial standards"
+      ],
+      "certifications": [
+        "Certified Smart Factory Systems Architect",
+        "ISA/IEC 62443 Cybersecurity Expert"
+      ],
+      "careerPath": "Automation Engineer -> Industry 4.0 Architect -> VP of Digital Manufacturing",
+      "roadmapRef": "smart-manufacturing",
+      "related": [
+        "Automation & Robotics Engineer",
+        "Process Engineer",
+        "Plant Director",
+        "Production Manager"
+      ],
+      "tools": [
+        "Inductive Automation Ignition",
+        "Node-RED",
+        "HiveMQ",
+        "Kepware OPC",
+        "Docker"
+      ],
+      "languages": [
+        "Python",
+        "Structured Text",
+        "SQL"
+      ],
+      "skills": [
+        "Unified Namespace (UNS)",
+        "MQTT / Sparkplug B",
+        "OPC-UA Interoperability",
+        "Edge Computing",
+        "IEC 62443 Security"
+      ]
+    },
+    {
+      "name": "Additive Manufacturing (3D Printing) Engineer",
+      "description": "Develops industrial metal and polymer 3D printing parameters, generative design topology, and post-processing qualification.",
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $150,000 / yr",
+      "responsibilities": [
+        "Optimize Direct Metal Laser Sintering (DMLS) and Selective Laser Sintering (SLS) print parameters",
+        "Perform generative design and topology optimization for lightweight aerospace/medical parts",
+        "Design support structures, build orientations, and thermal stress mitigation strategies",
+        "Manage post-processing heat treatments (HIP), CNC machining, and non-destructive surface testing"
+      ],
+      "certifications": [
+        "SME Additive Manufacturing Certified (CAM-F / CAM-T)",
+        "EOS / SLM Certified Specialist"
+      ],
+      "careerPath": "AM Technician -> Additive Manufacturing Engineer -> Lead Advanced Manufacturing Architect",
+      "roadmapRef": "smart-manufacturing",
+      "related": [
+        "Process Engineer",
+        "Quality Control Engineer",
+        "Maintenance Engineer",
+        "Automation & Robotics Engineer"
+      ],
+      "tools": [
+        "Materialise Magics",
+        "Autodesk Netfabb",
+        "nTopology",
+        "Ansys Additive Print"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "skills": [
+        "Laser Powder Bed Fusion (PBF)",
+        "Topology Optimization (Generative Design)",
+        "Thermal Distortion Simulation",
+        "Metal Sintering Post-Processing",
+        "Material Qualification"
+      ]
+    },
+    {
+      "name": "Digital Twin Specialist",
+      "description": "Creates real-time physics and telemetry digital replicas of plant machinery, production cells, and supply chain logistics.",
+      "level": "Senior / Lead",
+      "salaryRange": "$115,000 - $175,000 / yr",
+      "responsibilities": [
+        "Construct real-time 3D simulation twins of automated assembly cells and AGV fleets",
+        "Sync live sensor telemetry streams with digital models to predict machine failures",
+        "Run discrete-event simulations to identify production line bottlenecks and cycle time starvation",
+        "Provide plant operators with augmented reality (AR) machine diagnostic overlays"
+      ],
+      "certifications": [
+        "Siemens Certified Digital Twin Specialist",
+        "NVIDIA Omniverse Certified Associate"
+      ],
+      "careerPath": "Simulation Engineer -> Digital Twin Specialist -> Director of Virtual Manufacturing",
+      "roadmapRef": "smart-manufacturing",
+      "related": [
+        "Industry 4.0 Systems Architect",
+        "Automation & Robotics Engineer",
+        "Process Engineer",
+        "Production Manager"
+      ],
+      "tools": [
+        "Siemens Tecnomatix",
+        "NVIDIA Omniverse",
+        "FlexSim",
+        "Ansys Twin Builder",
+        "Unity Industrial"
+      ],
+      "languages": [
+        "Python",
+        "C#",
+        "C++"
+      ],
+      "skills": [
+        "Discrete-Event Simulation",
+        "Physics-Based Simulation",
+        "Real-Time Telemetry Sync",
+        "Predictive Maintenance Modeling",
+        "AR Operator Guidance"
+      ]
+    },
+    {
+      "name": "Lean Six Sigma Master Black Belt",
+      "description": "Leads enterprise-wide Lean transformation, DMAIC process optimization, statistical yield improvement, and cultural change.",
+      "level": "Lead / Master",
+      "salaryRange": "$135,000 - $200,000 / yr",
+      "responsibilities": [
+        "Coach plant leadership and Black Belts on complex DMAIC continuous improvement initiatives",
+        "Perform advanced ANOVA, Design of Experiments (DOE), and Gage R&R statistical studies",
+        "Eliminate manufacturing waste (Muda, Muri, Mura) across high-volume production facilities",
+        "Deliver multi-million dollar annual bottom-line cost savings and cycle time compressions"
+      ],
+      "certifications": [
+        "ASQ Certified Master Black Belt (CMBB)",
+        "IASSC Certified Master Black Belt"
+      ],
+      "careerPath": "Process Engineer -> Six Sigma Black Belt -> Master Black Belt -> VP of Operational Excellence",
+      "roadmapRef": "smart-manufacturing",
+      "related": [
+        "Quality Control Engineer",
+        "Plant Director",
+        "Production Manager",
+        "Process Engineer"
+      ],
+      "tools": [
+        "Minitab",
+        "JMP",
+        "SigmaXL",
+        "Tableau",
+        "Visio"
+      ],
+      "languages": [],
+      "skills": [
+        "DMAIC Methodology",
+        "Design of Experiments (DOE)",
+        "Statistical Process Control (SPC)",
+        "Value Stream Mapping (VSM)",
+        "Executive Change Management"
+      ]
+    },
+    {
+      "name": "Industrial Cybersecurity Engineer",
+      "description": "Protects Operational Technology (OT), SCADA networks, PLCs, and safety instrumented systems from industrial cyber threats.",
+      "level": "Senior / Lead",
+      "salaryRange": "$125,000 - $190,000 / yr",
+      "responsibilities": [
+        "Implement the Purdue Model segmenting enterprise IT networks from factory-floor OT assets",
+        "Harden industrial control protocols (Modbus, Profinet, EtherNet/IP) against packet tampering",
+        "Perform threat hunting, asset discovery, and anomaly detection on OT network traffic",
+        "Conduct tabletop drills for ransomware containment on critical automated manufacturing lines"
+      ],
+      "certifications": [
+        "GICSP (Global Industrial Cyber Security Professional)",
+        "GRID (Response and Industrial Defense)",
+        "ISA/IEC 62443 Specialist"
+      ],
+      "careerPath": "Network Security Engineer -> Industrial Cybersecurity Engineer -> Head of OT Security",
+      "roadmapRef": "cybersecurity",
+      "related": [
+        "Automation & Robotics Engineer",
+        "Maintenance Engineer",
+        "Plant Director",
+        "Process Engineer"
+      ],
+      "tools": [
+        "Nozomi Networks",
+        "Claroty",
+        "Dragos Platform",
+        "Wireshark",
+        "Tenable.ot"
+      ],
+      "languages": [
+        "Python",
+        "Bash"
+      ],
+      "skills": [
+        "Purdue Model Architecture",
+        "SCADA / PLC Security",
+        "OT Anomaly Detection",
+        "IEC 62443 Compliance",
+        "Industrial Incident Response"
+      ]
+    },
+    {
+      "name": "Operations Research Analyst",
+      "description": "Applies mathematical optimization, linear programming, and queueing theory to maximize supply chain throughput.",
+      "level": "Mid to Senior",
+      "salaryRange": "$100,000 - $160,000 / yr",
+      "responsibilities": [
+        "Formulate mixed-integer linear programming (MILP) models for multi-echelon inventory and scheduling",
+        "Optimize vehicle routing problem (VRP) algorithms to minimize fleet fuel and delivery times",
+        "Simulate stochastic factory queueing networks and supply disruption scenarios",
+        "Deploy automated solver pipelines providing weekly production schedules"
+      ],
+      "certifications": [
+        "INFORMS Certified Analytics Professional (CAP)",
+        "Operations Research Specialist"
+      ],
+      "careerPath": "Analytics Specialist -> Operations Research Analyst -> Director of Supply Chain Science",
+      "roadmapRef": "smart-manufacturing",
+      "related": [
+        "Supply Chain Manager",
+        "Logistics Coordinator",
+        "Procurement Specialist",
+        "Warehouse Manager"
+      ],
+      "tools": [
+        "Gurobi Optimizer",
+        "CPLEX",
+        "Python SciPy/PuLP",
+        "Tableau",
+        "AnyLogic"
+      ],
+      "languages": [
+        "Python",
+        "R",
+        "SQL"
+      ],
+      "skills": [
+        "Mixed-Integer Linear Programming",
+        "Vehicle Routing Optimization",
+        "Stochastic Modeling",
+        "Inventory Theory",
+        "Queueing Analysis"
+      ]
+    },
+    {
+      "name": "Continuous Improvement Manager",
+      "description": "Fosters a Kaizen culture, facilitates Value Stream Mapping (VSM) workshops, and institutionalizes standard work practices.",
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $150,000 / yr",
+      "responsibilities": [
+        "Facilitate rapid improvement Kaizen events across stamping, machining, and assembly areas",
+        "Map current and future state Value Stream Maps (VSM) to eliminate non-value-added steps",
+        "Institutionalize visual management, Kamishibai audits, and leader standard work",
+        "Train shop-floor team leads on root-cause 5-Why and Fishbone problem solving"
+      ],
+      "certifications": [
+        "Lean Bronze Certified (SME/AME/Shingo)",
+        "Kaizen Facilitator Certified"
+      ],
+      "careerPath": "Continuous Improvement Specialist -> CI Manager -> Director of Operational Excellence",
+      "roadmapRef": "smart-manufacturing",
+      "related": [
+        "Production Manager",
+        "Process Engineer",
+        "Shift Supervisor",
+        "Plant Director"
+      ],
+      "tools": [
+        "iGrafx",
+        "Lucidchart",
+        "Excel",
+        "Monday.com",
+        "Minitab"
+      ],
+      "languages": [],
+      "skills": [
+        "Value Stream Mapping",
+        "Kaizen Event Facilitation",
+        "5S & Visual Management",
+        "Standard Work Development",
+        "Root-Cause Problem Solving"
+      ]
+    },
+    {
+      "name": "Manufacturing Execution Systems (MES) Specialist",
+      "description": "Deploys and maintains MES software tracking work-in-progress (WIP), OEE performance, genealogy, and electronic batch records.",
+      "level": "Mid to Senior",
+      "salaryRange": "$100,000 - $155,000 / yr",
+      "responsibilities": [
+        "Configure MES workflows, bill of materials (BOM), and digital recipe management",
+        "Calculate real-time Overall Equipment Effectiveness (OEE: Availability, Performance, Quality)",
+        "Implement electronic batch records (eBR) and serial lot genealogy tracking",
+        "Integrate MES software layers with enterprise ERP (SAP S/4HANA) and plant SCADA systems"
+      ],
+      "certifications": [
+        "MES / MESA Certified Certificate",
+        "SAP ME/MII Associate"
+      ],
+      "careerPath": "MES Developer -> MES Specialist -> Lead Enterprise Manufacturing Architect",
+      "roadmapRef": "smart-manufacturing",
+      "related": [
+        "Production Manager",
+        "Process Engineer",
+        "Quality Control Engineer",
+        "Industry 4.0 Systems Architect"
+      ],
+      "tools": [
+        "Siemens Opcenter",
+        "Rockwell FactoryTalk ProductionCentre",
+        "Apriso",
+        "SAP MII",
+        "Wonderware"
+      ],
+      "languages": [
+        "SQL",
+        "C#",
+        "JavaScript"
+      ],
+      "skills": [
+        "OEE Analytics",
+        "WIP Tracking",
+        "Electronic Batch Records",
+        "ERP-to-Shopfloor Integration",
+        "Traceability & Genealogy"
+      ]
+    },
+    {
+      "name": "Environmental Health & Safety (EHS) Manager",
+      "description": "Ensures chemical handling safety, air and water environmental emission permits, zero-injury culture, and regulatory compliance.",
+      "level": "Mid to Senior",
+      "salaryRange": "$90,000 - $145,000 / yr",
+      "responsibilities": [
+        "Direct plant hazardous waste management, wastewater discharge, and EPA Title V air permits",
+        "Conduct ergonomics assessments, noise dosimetry, and machine guarding safety reviews",
+        "Lead corporate sustainability reporting: Scope 1 and 2 emissions and zero-landfill milestones",
+        "Coordinate OSHA safety compliance, spill containment drills, and emergency response teams"
+      ],
+      "certifications": [
+        "Certified Safety Professional (CSP)",
+        "Certified Industrial Hygienist (CIH)",
+        "CHMM"
+      ],
+      "careerPath": "EHS Specialist -> EHS Manager -> Director of Corporate EHS & Sustainability",
+      "roadmapRef": "smart-manufacturing",
+      "related": [
+        "Plant Director",
+        "Production Manager",
+        "Maintenance Engineer",
+        "Shift Supervisor"
+      ],
+      "tools": [
+        "Enablon",
+        "Cority",
+        "VelocityEHS",
+        "EPA Echo Database"
+      ],
+      "languages": [],
+      "skills": [
+        "EPA Environmental Permits",
+        "OSHA Industrial Compliance",
+        "Industrial Hygiene & Ergonomics",
+        "Hazardous Waste Management",
+        "Incident Investigation"
       ]
     }
   ]

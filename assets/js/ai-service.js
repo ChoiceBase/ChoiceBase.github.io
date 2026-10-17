@@ -61,6 +61,12 @@ class ChoiceBaseAI {
       defaultModel: 'llama3.2',
       endpoint: (model, key, baseUrl) => `${baseUrl || 'http://localhost:11434'}/api/chat`,
       type: 'ollama'
+    },
+    sarvam: {
+      name: 'Sarvam AI',
+      defaultModel: 'sarvam-1',
+      endpoint: () => 'https://api.sarvam.ai/v1/chat/completions',
+      type: 'openai'
     }
   };
 
@@ -225,6 +231,9 @@ class ChoiceBaseAI {
     };
     if (this.apiKey) {
       headers['Authorization'] = `Bearer ${this.apiKey}`;
+      if (this.provider === 'sarvam') {
+        headers['api-subscription-key'] = this.apiKey;
+      }
     }
     if (this.provider === 'openrouter') {
       headers['HTTP-Referer'] = 'https://choicebase.github.io';

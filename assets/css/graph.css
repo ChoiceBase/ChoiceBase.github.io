@@ -312,21 +312,25 @@ svg {
 
 /* --- SVG Visualization Styles --- */
 .node rect {
-  stroke-width: 2px;
+  stroke: rgba(255, 255, 255, 0.9);
+  stroke-width: 1.5px;
   rx: 10px;
   ry: 10px;
-  transition: 0.3s;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.4));
 }
 
 .node:hover rect {
-  stroke-width: 4px;
-  filter: drop-shadow(0 0 10px var(--p));
+  stroke-width: 3px;
+  stroke: #ffffff;
+  filter: drop-shadow(0 0 16px rgba(129, 140, 248, 0.9));
 }
 
 .node text {
   font-family: var(--f-h);
   font-weight: 700;
-  fill: var(--tx);
+  fill: #0a0f1d;
+  letter-spacing: -0.01em;
   pointer-events: none;
 }
 
@@ -359,4 +363,257 @@ svg {
   stroke: #ffbd2e !important;
   stroke-opacity: 1;
   stroke-width: 3px;
+}
+
+/* --- Nexus Top Bar & Domain Selector --- */
+.nexus-top-bar {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  z-index: 120;
+  max-width: 95vw;
+}
+
+.domain-selector-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--glass);
+  backdrop-filter: blur(20px);
+  padding: 0.4rem 0.6rem;
+  border-radius: 50px;
+  border: 1px solid var(--br);
+  box-shadow: var(--sh);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.domain-selector-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.nexus-domain-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--tx-m);
+  text-decoration: none;
+  background: transparent;
+  transition: all var(--trans);
+  white-space: nowrap;
+}
+
+.nexus-domain-pill:hover {
+  color: var(--tx);
+  background: var(--p-soft);
+}
+
+.nexus-domain-pill.active {
+  color: #fff;
+  background: var(--p);
+  box-shadow: 0 4px 15px rgba(var(--p-rgb), 0.4);
+}
+
+.pill-count {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  color: inherit;
+}
+
+.nexus-domain-pill.active .pill-count {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* In-Graph Search Box */
+.nexus-search-box {
+  display: flex;
+  align-items: center;
+  background: var(--glass);
+  backdrop-filter: blur(20px);
+  padding: 0.35rem 0.8rem;
+  border-radius: 50px;
+  border: 1px solid var(--br);
+  box-shadow: var(--sh);
+  width: 260px;
+  transition: all var(--trans);
+}
+
+.nexus-search-box:focus-within {
+  border-color: var(--p);
+  box-shadow: 0 0 15px rgba(var(--p-rgb), 0.35);
+  width: 300px;
+}
+
+.nexus-search-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--tx);
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+  width: 100%;
+}
+
+.nexus-search-box input::placeholder {
+  color: var(--tx-m);
+}
+
+.nexus-search-box button {
+  background: transparent;
+  border: none;
+  color: var(--tx-m);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nexus-search-box button:hover {
+  color: var(--tx);
+}
+
+/* Floating Action Buttons (Metrics + Roadmaps) */
+.nexus-floating-actions {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  display: flex;
+  gap: 0.75rem;
+  z-index: 1500;
+}
+
+.roadmap-jump-btn {
+  background: linear-gradient(135deg, var(--p), #8b5cf6);
+  color: white;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 10px 30px rgba(79, 70, 229, 0.4);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.roadmap-jump-btn:hover {
+  transform: translateY(-4px);
+  color: white;
+  box-shadow: 0 15px 40px rgba(79, 70, 229, 0.6);
+}
+
+/* Enhanced Details Panel Styling */
+.info-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.level-pill {
+  background: rgba(147, 51, 234, 0.15);
+  color: #c084fc;
+  border: 1px solid rgba(147, 51, 234, 0.3);
+}
+
+.salary-pill {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.conn-pill {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.info-resp-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.info-resp-list li {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.88rem;
+  color: var(--tx);
+  line-height: 1.5;
+}
+
+.info-resp-list li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--p);
+  font-weight: bold;
+}
+
+.career-path-box {
+  background: var(--s-2);
+  border-left: 3px solid var(--p);
+  padding: 0.75rem 1rem;
+  border-radius: 0 10px 10px 0;
+  font-size: 0.85rem;
+  color: var(--tx);
+  line-height: 1.5;
+}
+
+.cert-badge {
+  background: rgba(245, 158, 11, 0.12) !important;
+  color: #fbbf24 !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+.lang-badge {
+  background: rgba(6, 182, 212, 0.12) !important;
+  color: #22d3ee !important;
+  border-color: rgba(6, 182, 212, 0.3) !important;
+}
+
+@media (max-width: 992px) {
+  .nexus-top-bar {
+    top: 0.5rem;
+    flex-direction: column;
+    width: 95%;
+  }
+  .domain-selector-bar {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .nexus-search-box {
+    width: 100%;
+  }
+  .nexus-search-box:focus-within {
+    width: 100%;
+  }
+  .path-selector {
+    top: 6.5rem;
+    left: 1rem;
+    font-size: 0.78rem;
+    padding: 0.4rem 0.8rem;
+  }
+  .nexus-floating-actions {
+    bottom: 1rem;
+    left: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }

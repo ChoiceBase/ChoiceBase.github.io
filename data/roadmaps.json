@@ -1,0 +1,2533 @@
+{
+  "roadmaps": [
+    {
+      "id": "frontend",
+      "title": "Frontend Developer",
+      "domain": "software",
+      "nexusDomain": "software",
+      "icon": "bi-window-desktop",
+      "level": "Beginner to Senior",
+      "duration": "6 - 9 Months",
+      "salary": "$95,000 - $160,000 / yr",
+      "description": "Master modern client-side engineering: semantic web standards, modern JavaScript/TypeScript, reactive frameworks (React/Next.js), performance profiling, and state management.",
+      "prerequisites": [
+        "Basic computer literacy",
+        "Understanding of web browsers and HTTP basics"
+      ],
+      "certifications": [
+        "Meta Certified Front-End Developer",
+        "OpenJS Node.js Application Developer (JSNAD)"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Web Fundamentals & Semantics",
+          "duration": "Weeks 1 - 4",
+          "summary": "Build rock-solid foundations in semantic HTML5 markup, responsive CSS3 layouts (Flexbox & CSS Grid), and version control with Git.",
+          "topics": [
+            "Semantic HTML5 elements, forms, and input validation",
+            "CSS Box Model, Flexbox & CSS Grid layouts",
+            "Responsive Web Design, Media Queries, and Mobile-First strategy",
+            "Git version control: branching, merge conflicts, and GitHub workflows",
+            "Web accessibility (a11y) basics: WCAG 2.1, ARIA roles, and keyboard navigation"
+          ],
+          "tools": [
+            "VS Code",
+            "Chrome DevTools",
+            "Git",
+            "GitHub"
+          ],
+          "project": "Build an accessible, responsive personal portfolio & project showcase with dark/light theme toggle.",
+          "resources": [
+            {
+              "name": "MDN Web Docs - HTML & CSS",
+              "url": "https://developer.mozilla.org"
+            },
+            {
+              "name": "ChoiceBase Programming Resources",
+              "url": "/html/resource-list.html?category=programming"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: JavaScript Mastery & Modern ES6+",
+          "duration": "Weeks 5 - 10",
+          "summary": "Deep-dive into JavaScript execution context, event loop, closures, async programming, and DOM manipulation.",
+          "topics": [
+            "Scope, Closures, Hoisting, and Prototypes",
+            "DOM manipulation, event delegation, and bubbling",
+            "Asynchronous JavaScript: Promises, Async/Await, and Fetch API",
+            "ES6+ features: destructuring, modules, map/set, rest/spread",
+            "Package management with npm, pnpm, and modern bundlers (Vite)"
+          ],
+          "tools": [
+            "Vite",
+            "Node.js",
+            "ESLint",
+            "Prettier"
+          ],
+          "project": "Develop an interactive multi-filter dashboard with live search, local storage caching, and API pagination.",
+          "resources": [
+            {
+              "name": "JavaScript.info - The Modern Tutorial",
+              "url": "https://javascript.info"
+            },
+            {
+              "name": "ChoiceBase Upskilling Collection",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: TypeScript & Component Frameworks (React / Next.js)",
+          "duration": "Weeks 11 - 18",
+          "summary": "Learn static typing with TypeScript and build complex single-page / server-rendered applications with React & Next.js.",
+          "topics": [
+            "TypeScript fundamentals: interfaces, generics, utility types, and strict mode",
+            "React Core: JSX, components, props, hooks (useState, useEffect, useMemo, useCallback)",
+            "State management strategies: Zustand, Redux Toolkit, and TanStack Query",
+            "Next.js App Router: Server Components (RSC), dynamic routes, metadata, and SSR/SSG",
+            "Styling with Tailwind CSS, CSS Modules, and Shadcn UI / Headless UI"
+          ],
+          "tools": [
+            "React",
+            "TypeScript",
+            "Next.js",
+            "Tailwind CSS",
+            "Zustand"
+          ],
+          "project": "Build a production-ready SaaS dashboard featuring authentication, real-time data filtering, and server-side rendering.",
+          "resources": [
+            {
+              "name": "React Official Documentation",
+              "url": "https://react.dev"
+            },
+            {
+              "name": "Next.js Learning Course",
+              "url": "https://nextjs.org/learn"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Testing, Performance & Core Web Vitals",
+          "duration": "Weeks 19 - 24",
+          "summary": "Test applications thoroughly, optimize load times, and master Core Web Vitals (LCP, INP, CLS).",
+          "topics": [
+            "Unit and integration testing with Vitest and React Testing Library",
+            "End-to-end (E2E) testing with Playwright or Cypress",
+            "Core Web Vitals profiling: Largest Contentful Paint (LCP), Interaction to Next Paint (INP)",
+            "Code-splitting, lazy loading, image optimization, and bundle analysis",
+            "CI/CD automated testing pipelines via GitHub Actions"
+          ],
+          "tools": [
+            "Vitest",
+            "Playwright",
+            "Lighthouse",
+            "WebPageTest",
+            "GitHub Actions"
+          ],
+          "project": "Audit and optimize an existing web app to score 95+ on Lighthouse Performance, Accessibility, and SEO.",
+          "resources": [
+            {
+              "name": "web.dev by Google",
+              "url": "https://web.dev"
+            },
+            {
+              "name": "Playwright Testing Docs",
+              "url": "https://playwright.dev"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Architecture, Microfrontends & System Scale",
+          "duration": "Weeks 25 - 32",
+          "summary": "Scale frontend architectures across enterprise teams: design systems, microfrontends, internationalization, and offline-first PWAs.",
+          "topics": [
+            "Building enterprise design systems with Storybook and tokenized themes",
+            "Microfrontend architecture (Module Federation, iframe sandboxing)",
+            "Progressive Web Apps (PWAs), service workers, and IndexedDB offline caching",
+            "Security best practices: CSP headers, XSS prevention, and CSRF tokens",
+            "WebSockets and real-time collaborative state synchronization"
+          ],
+          "tools": [
+            "Storybook",
+            "Webpack Module Federation",
+            "Workbox",
+            "Docker"
+          ],
+          "project": "Create an open-source, accessible Design System component library published to npm with automated Storybook documentation.",
+          "resources": [
+            {
+              "name": "Storybook Design System Guide",
+              "url": "https://storybook.js.org"
+            },
+            {
+              "name": "ChoiceBase Resource Library",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Backend Developer",
+      "domain": "software",
+      "nexusDomain": "software",
+      "icon": "bi-server",
+      "level": "Beginner to Senior",
+      "duration": "6 - 9 Months",
+      "salary": "$105,000 - $175,000 / yr",
+      "description": "Engineer resilient server-side systems: scalable microservices, relational and NoSQL databases, caching layers, distributed event streaming, and secure REST/gRPC APIs.",
+      "prerequisites": [
+        "Basic programming concepts (variables, loops, data structures)",
+        "Terminal/CLI familiarity"
+      ],
+      "certifications": [
+        "AWS Certified Developer - Associate",
+        "Oracle Certified Professional Java SE Developer"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Programming Language & Core Paradigms",
+          "duration": "Weeks 1 - 5",
+          "summary": "Master a robust backend language (Node.js, Go, or Python) along with data structures, algorithms, and I/O concurrency.",
+          "topics": [
+            "Data structures: hash maps, trees, queues, linked lists, and time complexity (Big-O)",
+            "OOP and Functional programming paradigms, dependency injection, and clean architecture",
+            "Concurrency models: event loop, goroutines, threads, async I/O",
+            "Standard library networking, file system I/O, and environment configurations",
+            "Unit testing with mocking and test-driven development (TDD)"
+          ],
+          "tools": [
+            "Node.js",
+            "Go",
+            "Python",
+            "VS Code",
+            "Git"
+          ],
+          "project": "Build a high-performance multithreaded CLI tool with concurrent file processing and benchmark metrics.",
+          "resources": [
+            {
+              "name": "Go by Example",
+              "url": "https://gobyexample.com"
+            },
+            {
+              "name": "Node.js Best Practices",
+              "url": "https://github.com/goldbergyoni/nodebestpractices"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: Relational Databases & Schema Design",
+          "duration": "Weeks 6 - 11",
+          "summary": "Master PostgreSQL, relational schema design, query optimization, indexing, and transactional isolation.",
+          "topics": [
+            "SQL mastery: complex joins, window functions, CTEs, and aggregation",
+            "Database normalization (1NF-3NF) vs denormalization tradeoffs",
+            "ACID properties and transaction isolation levels (Read Committed, Serializable)",
+            "B-tree, GIN, and GiST indexing strategies; EXPLAIN ANALYZE query planning",
+            "Schema migrations, connection pooling (PgBouncer), and ORM tradeoffs (Prisma/Drizzle/GORM)"
+          ],
+          "tools": [
+            "PostgreSQL",
+            "DBeaver",
+            "Prisma",
+            "PgBouncer",
+            "Docker"
+          ],
+          "project": "Design an e-commerce transactional database with inventory reservation locks, audit logging, and sub-10ms query execution.",
+          "resources": [
+            {
+              "name": "Use The Index, Luke!",
+              "url": "https://use-the-index-luke.com"
+            },
+            {
+              "name": "PostgreSQL Tutorial",
+              "url": "https://www.postgresqltutorial.com"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: API Design, Authentication & Security",
+          "duration": "Weeks 12 - 17",
+          "summary": "Architect secure, documented, and versioned APIs using RESTful standards, GraphQL, and gRPC.",
+          "topics": [
+            "RESTful design principles, HTTP verbs, status codes, and idempotency",
+            "Authentication protocols: OAuth 2.0, OpenID Connect, JWTs, and refresh token rotation",
+            "Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC)",
+            "API documentation with OpenAPI / Swagger contracts",
+            "Rate limiting, CORS, input sanitization, and OWASP API Top 10 defenses"
+          ],
+          "tools": [
+            "FastAPI / Express",
+            "Postman",
+            "Swagger",
+            "Argon2",
+            "Redis"
+          ],
+          "project": "Build an enterprise Auth & User Management microservice with OAuth2 social login, session invalidation, and rate limiting.",
+          "resources": [
+            {
+              "name": "OWASP API Security Top 10",
+              "url": "https://owasp.org"
+            },
+            {
+              "name": "REST API Guidelines",
+              "url": "https://github.com/microsoft/api-guidelines"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Caching, Message Queues & Distributed Systems",
+          "duration": "Weeks 18 - 24",
+          "summary": "Scale backend throughput using in-memory caches, message brokers, and asynchronous event workers.",
+          "topics": [
+            "In-memory caching patterns with Redis: Cache-Aside, Write-Through, TTL invalidation",
+            "Message brokers: RabbitMQ, Apache Kafka, and AWS SQS",
+            "Event-driven architecture: pub/sub, consumer groups, idempotency, and dead-letter queues (DLQ)",
+            "Distributed locks (Redlock) and idempotency keys for distributed transactions",
+            "Background worker queues (BullMQ, Celery) for intensive computing jobs"
+          ],
+          "tools": [
+            "Redis",
+            "Apache Kafka",
+            "RabbitMQ",
+            "Docker Compose"
+          ],
+          "project": "Implement an asynchronous order processing pipeline with Kafka event streaming, Redis caching, and email dispatch workers.",
+          "resources": [
+            {
+              "name": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net"
+            },
+            {
+              "name": "Kafka The Definitive Guide",
+              "url": "https://www.confluent.io"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Microservices, Observability & Cloud Deployment",
+          "duration": "Weeks 25 - 32",
+          "summary": "Package, deploy, monitor, and scale distributed backend microservices on cloud infrastructure.",
+          "topics": [
+            "Microservices decomp: domain-driven design (DDD) and bounded contexts",
+            "gRPC and Protocol Buffers for ultra-fast internal service communication",
+            "Containerization with Docker and Kubernetes deployment manifests",
+            "Observability: distributed tracing with OpenTelemetry, Prometheus metrics, and structured logging",
+            "CI/CD zero-downtime rolling and blue-green deployments"
+          ],
+          "tools": [
+            "Docker",
+            "Kubernetes",
+            "OpenTelemetry",
+            "Prometheus",
+            "Grafana",
+            "gRPC"
+          ],
+          "project": "Architect and deploy a containerized multi-service platform with gRPC internal communication and Grafana observability.",
+          "resources": [
+            {
+              "name": "OpenTelemetry Documentation",
+              "url": "https://opentelemetry.io"
+            },
+            {
+              "name": "ChoiceBase Jobs Hub",
+              "url": "/html/resource-list.html?category=jobs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fullstack",
+      "title": "Full Stack Developer",
+      "domain": "software",
+      "nexusDomain": "software",
+      "icon": "bi-layers-fill",
+      "level": "Beginner to Staff",
+      "duration": "7 - 10 Months",
+      "salary": "$115,000 - $185,000 / yr",
+      "description": "Unify frontend elegance with robust backend engineering. Build complete end-to-end applications from database schema to responsive user interface and cloud deployment.",
+      "prerequisites": [
+        "Basic HTML, CSS, and general programming interest"
+      ],
+      "certifications": [
+        "Meta Certified Full Stack Developer",
+        "AWS Certified Developer - Associate"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Frontend Foundations & Responsive UI",
+          "duration": "Weeks 1 - 6",
+          "summary": "Master responsive web markup, modern CSS styling frameworks, and client-side JavaScript.",
+          "topics": [
+            "Semantic HTML5, CSS3, Flexbox, and CSS Grid layout systems",
+            "Tailwind CSS for rapid, maintainable component design",
+            "Modern JavaScript (ES6+), DOM manipulation, and asynchronous Fetch requests",
+            "Git version control and collaborative GitHub workflows"
+          ],
+          "tools": [
+            "VS Code",
+            "Tailwind CSS",
+            "Git",
+            "GitHub"
+          ],
+          "project": "Build an interactive product catalog with client-side filtering, sorting, and responsive mobile layout.",
+          "resources": [
+            {
+              "name": "Tailwind CSS Documentation",
+              "url": "https://tailwindcss.com"
+            },
+            {
+              "name": "ChoiceBase Programming Hub",
+              "url": "/html/resource-list.html?category=programming"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: Full-Stack React & Server Frameworks",
+          "duration": "Weeks 7 - 14",
+          "summary": "Build interactive component-driven interfaces using React and full-stack frameworks like Next.js.",
+          "topics": [
+            "React functional components, hooks, and virtual DOM reconciliation",
+            "TypeScript across the entire stack for end-to-end type safety",
+            "Next.js App Router: Server Components, Server Actions, and API routes",
+            "State management with Zustand and client-server sync with TanStack Query"
+          ],
+          "tools": [
+            "React",
+            "Next.js",
+            "TypeScript",
+            "Zustand"
+          ],
+          "project": "Create a collaborative task management application with drag-and-drop boards and real-time updates.",
+          "resources": [
+            {
+              "name": "Next.js Documentation",
+              "url": "https://nextjs.org"
+            },
+            {
+              "name": "ChoiceBase Upskilling Tools",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: Database Modeling & Server-Side APIs",
+          "duration": "Weeks 15 - 22",
+          "summary": "Model data in PostgreSQL, integrate modern ORMs, and secure backend endpoints.",
+          "topics": [
+            "PostgreSQL database design, relationships (1:1, 1:N, N:M), and indexing",
+            "Type-safe database ORMs: Prisma, Drizzle, or Supabase",
+            "User authentication, session cookies, and JWT token management",
+            "File storage uploads (AWS S3, Cloudinary) and image optimization"
+          ],
+          "tools": [
+            "PostgreSQL",
+            "Prisma",
+            "Supabase",
+            "AWS S3"
+          ],
+          "project": "Build an e-commerce platform with stripe checkout, user order history, and product image uploads.",
+          "resources": [
+            {
+              "name": "Prisma ORM Guide",
+              "url": "https://www.prisma.io"
+            },
+            {
+              "name": "Supabase Documentation",
+              "url": "https://supabase.com"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Real-Time Sync, Caching & Performance",
+          "duration": "Weeks 23 - 30",
+          "summary": "Add real-time capabilities via WebSockets, cache intensive queries with Redis, and optimize Core Web Vitals.",
+          "topics": [
+            "Real-time bidirectional communication using WebSockets (Socket.io) or SSE",
+            "In-memory caching and session store management with Redis",
+            "Web vital optimizations: server-side rendering, code-splitting, and memoization",
+            "Automated testing with Vitest and Playwright"
+          ],
+          "tools": [
+            "Socket.io",
+            "Redis",
+            "Playwright",
+            "Lighthouse"
+          ],
+          "project": "Develop a real-time collaborative document editor with cursor tracking and instant chat.",
+          "resources": [
+            {
+              "name": "Socket.io Official Guide",
+              "url": "https://socket.io"
+            },
+            {
+              "name": "ChoiceBase AI Tools Directory",
+              "url": "/html/resource-list.html?category=ai-tools"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: DevOps, Docker & Production Cloud Deployment",
+          "duration": "Weeks 31 - 38",
+          "summary": "Containerize applications, set up CI/CD automation, and deploy to serverless or cloud container platforms.",
+          "topics": [
+            "Dockerizing full-stack applications with multi-stage production Dockerfiles",
+            "Setting up automated CI/CD pipelines with GitHub Actions",
+            "Deploying on Vercel, Render, AWS ECS, or Fly.io with custom domains and SSL",
+            "Database backups, disaster recovery, and production error monitoring (Sentry)"
+          ],
+          "tools": [
+            "Docker",
+            "GitHub Actions",
+            "AWS",
+            "Vercel",
+            "Sentry"
+          ],
+          "project": "Deploy your full-stack SaaS platform to production with custom domain, automated CI/CD, and error tracking.",
+          "resources": [
+            {
+              "name": "Docker Getting Started",
+              "url": "https://docs.docker.com"
+            },
+            {
+              "name": "ChoiceBase Websites Directory",
+              "url": "/html/resource-list.html?category=websites"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-llm",
+      "title": "AI & LLM Engineer",
+      "domain": "software",
+      "nexusDomain": "software",
+      "icon": "bi-robot",
+      "level": "Intermediate to Lead",
+      "duration": "6 - 9 Months",
+      "salary": "$135,000 - $215,000 / yr",
+      "description": "Architect frontier generative AI systems, production RAG pipelines, fine-tuned domain models, vector databases, and autonomous multi-agent reasoning workflows.",
+      "prerequisites": [
+        "Strong Python programming skills",
+        "Basic linear algebra, probability, and matrix operations"
+      ],
+      "certifications": [
+        "NVIDIA Certified Generative AI Professional",
+        "AWS Certified Machine Learning Specialty"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Python, Math & Core ML Foundations",
+          "duration": "Weeks 1 - 5",
+          "summary": "Solidify Python mastery for AI, linear algebra matrix operations, probability, and PyTorch tensor mechanics.",
+          "topics": [
+            "Python async programming, typing, and high-performance NumPy arrays",
+            "Linear algebra: vector dot products, cosine similarity, matrix multiplications",
+            "Calculus & optimization: gradients, backpropagation, and loss functions",
+            "PyTorch basics: Tensors, autograd, Dataset/DataLoader pipelines, and GPU acceleration",
+            "Traditional machine learning baselines (Scikit-Learn) and evaluation metrics (F1, Precision, Recall)"
+          ],
+          "tools": [
+            "Python",
+            "PyTorch",
+            "NumPy",
+            "Jupyter",
+            "Hugging Face"
+          ],
+          "project": "Build and train a custom neural network in PyTorch from scratch to classify multi-class text documents.",
+          "resources": [
+            {
+              "name": "PyTorch Official Tutorials",
+              "url": "https://pytorch.org/tutorials"
+            },
+            {
+              "name": "ChoiceBase AI Tools Hub",
+              "url": "/html/resource-list.html?category=ai-tools"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: Transformer Architecture & Hugging Face",
+          "duration": "Weeks 6 - 11",
+          "summary": "Master the Transformer architecture: self-attention, positional encoding, and Hugging Face ecosystem.",
+          "topics": [
+            "Attention mechanisms: Scaled Dot-Product, Multi-Head Attention, and FlashAttention",
+            "Encoder-only (BERT), Decoder-only (GPT/Llama), and Encoder-Decoder (T5) paradigms",
+            "Tokenization strategies: BPE, WordPiece, SentencePiece, and token limits",
+            "Hugging Face Transformers, Datasets, and Accelerate libraries",
+            "Quantization fundamentals: bitsandbytes, AWQ, GGUF, and memory footprint calculations"
+          ],
+          "tools": [
+            "Hugging Face",
+            "Transformers",
+            "Weights & Biases",
+            "Google Colab Pro"
+          ],
+          "project": "Implement a mini-Transformer from scratch in PyTorch capable of generative character-level text completion.",
+          "resources": [
+            {
+              "name": "Hugging Face NLP Course",
+              "url": "https://huggingface.co/learn/nlp-course"
+            },
+            {
+              "name": "The Illustrated Transformer",
+              "url": "https://jalammar.github.io"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: Enterprise RAG & Vector Databases",
+          "duration": "Weeks 12 - 18",
+          "summary": "Architect enterprise Retrieval-Augmented Generation (RAG) pipelines with vector embeddings and hybrid search.",
+          "topics": [
+            "Dense vector embeddings (OpenAI, BGE, Cohere) and semantic search",
+            "Vector databases: Pinecone, Qdrant, Milvus, and pgvector",
+            "Advanced chunking strategies: semantic chunking, recursive splitters, and metadata preservation",
+            "Hybrid search (BM25 sparse + dense vector) and cross-encoder reranking (Cohere Rerank)",
+            "Evaluating RAG systems with RAGAS (faithfulness, answer relevancy, context precision)"
+          ],
+          "tools": [
+            "Pinecone",
+            "Qdrant",
+            "pgvector",
+            "LlamaIndex",
+            "LangChain",
+            "RAGAS"
+          ],
+          "project": "Build an enterprise document search engine with hybrid retrieval, cross-encoder reranking, and source citations.",
+          "resources": [
+            {
+              "name": "LlamaIndex Documentation",
+              "url": "https://docs.llamaindex.ai"
+            },
+            {
+              "name": "Pinecone Learning Center",
+              "url": "https://www.pinecone.io/learn"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Autonomous Agents & Function Calling",
+          "duration": "Weeks 19 - 25",
+          "summary": "Develop autonomous multi-agent reasoning workflows, tool execution, and stateful memory loops.",
+          "topics": [
+            "ReAct (Reason + Act) prompting pattern and structured JSON tool calling",
+            "Multi-agent frameworks: LangGraph, CrewAI, and AutoGen",
+            "Long-term and short-term agent memory: session histories, vector summaries",
+            "Human-in-the-loop (HITL) approval workflows and safety guardrails (NeMo Guardrails)",
+            "Handling latency, streaming token outputs, and fallback retry strategies"
+          ],
+          "tools": [
+            "LangGraph",
+            "CrewAI",
+            "Ollama",
+            "LiteLLM",
+            "NeMo Guardrails"
+          ],
+          "project": "Create an autonomous financial research agent team that crawls live stock data, synthesizes SEC filings, and drafts investor reports.",
+          "resources": [
+            {
+              "name": "LangGraph Official Guide",
+              "url": "https://langchain-ai.github.io/langgraph"
+            },
+            {
+              "name": "ChoiceBase Upskilling Library",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Model Fine-Tuning & High-Throughput Serving",
+          "duration": "Weeks 26 - 34",
+          "summary": "Fine-tune open-weights models and deploy ultra-low-latency serving infrastructure in production.",
+          "topics": [
+            "Parameter-Efficient Fine-Tuning (PEFT): LoRA, QLoRA, and DoRA",
+            "Direct Preference Optimization (DPO) and RLHF alignment workflows",
+            "High-throughput inference serving with vLLM, TensorRT-LLM, and TGI",
+            "Continuous batching, PagedAttention, and KV-cache memory optimization",
+            "LLMOps: monitoring latency, hallucinations, token costs, and prompt injection attacks"
+          ],
+          "tools": [
+            "vLLM",
+            "Unsloth",
+            "Axolotl",
+            "Docker",
+            "Triton Inference Server"
+          ],
+          "project": "Fine-tune a Llama-3 model using QLoRA on domain data, and deploy it to a production vLLM cluster with 100+ concurrent requests.",
+          "resources": [
+            {
+              "name": "vLLM Documentation",
+              "url": "https://docs.vllm.ai"
+            },
+            {
+              "name": "Unsloth AI Guides",
+              "url": "https://unsloth.ai"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps & Cloud Engineer",
+      "domain": "software",
+      "nexusDomain": "software",
+      "icon": "bi-cloud-check-fill",
+      "level": "Intermediate to Principal",
+      "duration": "6 - 9 Months",
+      "salary": "$120,000 - $190,000 / yr",
+      "description": "Build robust infrastructure automation, CI/CD pipelines, Kubernetes container orchestration, Infrastructure as Code, and enterprise site reliability.",
+      "prerequisites": [
+        "Linux command-line basics",
+        "Basic networking (IP, DNS, ports)"
+      ],
+      "certifications": [
+        "Certified Kubernetes Administrator (CKA)",
+        "HashiCorp Certified: Terraform Associate",
+        "AWS Solutions Architect"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Linux Systems, Networking & Scripting",
+          "duration": "Weeks 1 - 5",
+          "summary": "Master Linux system administration, core networking protocols, and automation scripting.",
+          "topics": [
+            "Linux file hierarchy, permissions, process management, and systemd units",
+            "Networking fundamentals: TCP/IP, UDP, DNS, TLS/SSL, HTTP/2, and iptables",
+            "Bash shell scripting: pipes, redirects, regex, and cron automation",
+            "Python/Go for infrastructure automation scripts and API interactions",
+            "SSH key security, bastions, and zero-trust remote access"
+          ],
+          "tools": [
+            "Ubuntu/Debian",
+            "Bash",
+            "Python",
+            "Wireshark",
+            "OpenSSH"
+          ],
+          "project": "Author automated Linux server provisioning and security-hardening scripts with automated backup validation.",
+          "resources": [
+            {
+              "name": "Linux Journey",
+              "url": "https://linuxjourney.com"
+            },
+            {
+              "name": "ChoiceBase Programming Tools",
+              "url": "/html/resource-list.html?category=programming"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: Containerization with Docker",
+          "duration": "Weeks 6 - 10",
+          "summary": "Containerize microservices, optimize image sizes, and establish secure local orchestration.",
+          "topics": [
+            "Container internals: namespaces, cgroups, and layered union filesystems",
+            "Writing minimal, production-grade multi-stage Dockerfiles",
+            "Docker Compose for multi-container local development environments",
+            "Container vulnerability scanning (Trivy, Docker Scout)",
+            "Container networking, bridge networks, and volume persistence"
+          ],
+          "tools": [
+            "Docker",
+            "Docker Compose",
+            "Trivy",
+            "Alpine Linux"
+          ],
+          "project": "Containerize a complete multi-tier application (React frontend, Node API, Redis, PostgreSQL) with minimal Alpine images.",
+          "resources": [
+            {
+              "name": "Docker Best Practices Guide",
+              "url": "https://docs.docker.com/develop/develop-images/dockerfile_best-practices"
+            },
+            {
+              "name": "ChoiceBase Resource Hub",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: Kubernetes Orchestration & Helm",
+          "duration": "Weeks 11 - 18",
+          "summary": "Deploy and manage resilient production workloads on Kubernetes clusters.",
+          "topics": [
+            "Kubernetes core architecture: API Server, etcd, Kubelet, Scheduler",
+            "Workload primitives: Pods, Deployments, StatefulSets, DaemonSets, Jobs",
+            "Networking: Services (ClusterIP, NodePort, LoadBalancer) and Ingress controllers",
+            "ConfigMaps, Secrets, PersistentVolumes, and StorageClasses",
+            "Packaging and versioning applications with Helm charts"
+          ],
+          "tools": [
+            "Kubernetes",
+            "Minikube / k3s",
+            "Helm",
+            "kubectl",
+            "Lens"
+          ],
+          "project": "Deploy a high-availability microservice cluster with autoscaling (HPA), rolling updates, and custom Helm templates.",
+          "resources": [
+            {
+              "name": "Kubernetes Official Documentation",
+              "url": "https://kubernetes.io/docs"
+            },
+            {
+              "name": "Helm Documentation",
+              "url": "https://helm.sh/docs"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Infrastructure as Code (Terraform) & Cloud",
+          "duration": "Weeks 19 - 25",
+          "summary": "Provision repeatable cloud infrastructure across AWS or Google Cloud using Terraform.",
+          "topics": [
+            "Terraform core: providers, resources, variables, outputs, and remote state locks (S3 + DynamoDB)",
+            "Modular Terraform design, workspaces, and DRY principles",
+            "Cloud fundamentals: VPCs, subnets, route tables, internet gateways, and security groups",
+            "IAM policies, roles, least-privilege principles, and cloud KMS encryption",
+            "Managed Kubernetes (AWS EKS or GCP GKE) provisioning"
+          ],
+          "tools": [
+            "Terraform / OpenTofu",
+            "AWS CLI",
+            "Google Cloud SDK",
+            "LocalStack"
+          ],
+          "project": "Provision a multi-AZ VPC, managed EKS/GKE cluster, and secure RDS database entirely using reusable Terraform modules.",
+          "resources": [
+            {
+              "name": "HashiCorp Terraform Tutorials",
+              "url": "https://developer.hashicorp.com/terraform/tutorials"
+            },
+            {
+              "name": "ChoiceBase Upskilling",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: CI/CD, GitOps & SRE Observability",
+          "duration": "Weeks 26 - 32",
+          "summary": "Automate delivery pipelines with GitOps and monitor system reliability with Prometheus and Grafana.",
+          "topics": [
+            "CI/CD automation with GitHub Actions: build matrix, caching, automated testing",
+            "GitOps continuous deployment using ArgoCD or Flux",
+            "Observability trifecta: Metrics (Prometheus), Logs (Loki), Traces (Jaeger/OpenTelemetry)",
+            "Creating alerting rules (Alertmanager) and Grafana operational dashboards",
+            "Site Reliability Engineering (SRE) practices: SLOs, error budgets, and post-mortems"
+          ],
+          "tools": [
+            "GitHub Actions",
+            "ArgoCD",
+            "Prometheus",
+            "Grafana",
+            "Alertmanager"
+          ],
+          "project": "Build a GitOps continuous deployment pipeline with ArgoCD that deploys changes automatically upon merge and triggers Grafana alerts.",
+          "resources": [
+            {
+              "name": "Google SRE Book",
+              "url": "https://sre.google/books"
+            },
+            {
+              "name": "ArgoCD Documentation",
+              "url": "https://argo-cd.readthedocs.io"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity & Ethical Hacking",
+      "domain": "software",
+      "nexusDomain": "software",
+      "icon": "bi-shield-lock-fill",
+      "level": "Beginner to Lead",
+      "duration": "6 - 9 Months",
+      "salary": "$110,000 - $185,000 / yr",
+      "description": "Defend enterprise perimeters, conduct professional penetration tests, audit cloud systems, and implement zero-trust security postures.",
+      "prerequisites": [
+        "Strong understanding of TCP/IP networking",
+        "Linux command line proficiency"
+      ],
+      "certifications": [
+        "CompTIA Security+",
+        "Offensive Security Certified Professional (OSCP)",
+        "CISSP"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Networking Protocols & Security Baselines",
+          "duration": "Weeks 1 - 5",
+          "summary": "Master network architecture, packets, encryption primitives, and OS security controls.",
+          "topics": [
+            "OSI model, packet inspection, and protocol analysis with Wireshark",
+            "Cryptography: symmetric (AES), asymmetric (RSA, ECC), hashing (SHA-256), and PKI",
+            "Linux and Windows security baselines (CIS Benchmarks)",
+            "Network perimeters: firewalls, DMZs, proxies, and VPN tunnels"
+          ],
+          "tools": [
+            "Wireshark",
+            "Nmap",
+            "Kali Linux",
+            "OpenSSL"
+          ],
+          "project": "Conduct a comprehensive network packet audit and configure an enterprise firewall with intrusion detection.",
+          "resources": [
+            {
+              "name": "Cybrary Security Basics",
+              "url": "https://www.cybrary.it"
+            },
+            {
+              "name": "ChoiceBase Upskilling Hub",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: Web Application Penetration Testing",
+          "duration": "Weeks 6 - 12",
+          "summary": "Discover and exploit web vulnerabilities following the OWASP Top 10 methodology.",
+          "topics": [
+            "OWASP Top 10: SQL injection, Cross-Site Scripting (XSS), CSRF, SSRF, IDOR",
+            "Web intercepting proxies: Burp Suite Professional and OWASP ZAP",
+            "Authentication bypasses, session hijacking, and JWT tampering",
+            "Automated vulnerability scanning and manual exploit verification"
+          ],
+          "tools": [
+            "Burp Suite",
+            "OWASP ZAP",
+            "SQLmap",
+            "Postman"
+          ],
+          "project": "Complete vulnerable lab challenges (PortSwigger Web Security Academy) and write a professional penetration test report.",
+          "resources": [
+            {
+              "name": "PortSwigger Web Security Academy",
+              "url": "https://portswigger.net/web-security"
+            },
+            {
+              "name": "OWASP Foundation",
+              "url": "https://owasp.org"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: Defensive Security (SOC & Incident Response)",
+          "duration": "Weeks 13 - 19",
+          "summary": "Monitor live threat telemetry, detect attacks with SIEM solutions, and execute incident containment.",
+          "topics": [
+            "Security Information and Event Management (SIEM) with Splunk or Elastic Security",
+            "Endpoint Detection and Response (EDR) and Sysmon telemetry",
+            "MITRE ATT&CK framework mapping for threat actor behavior",
+            "Incident response phases: containment, eradication, recovery, and forensics"
+          ],
+          "tools": [
+            "Splunk",
+            "Elastic Security",
+            "Velociraptor",
+            "Wireshark"
+          ],
+          "project": "Set up a virtual SOC lab, simulate malware execution, and correlate SIEM alerts to trace the attack timeline.",
+          "resources": [
+            {
+              "name": "MITRE ATT&CK Matrix",
+              "url": "https://attack.mitre.org"
+            },
+            {
+              "name": "ChoiceBase Applications Directory",
+              "url": "/html/resource-list.html?category=applications"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Cloud Security & DevSecOps",
+          "duration": "Weeks 20 - 26",
+          "summary": "Secure cloud architectures (AWS/GCP), container registries, and automated CI/CD pipelines.",
+          "topics": [
+            "Cloud Security Posture Management (CSPM) and Cloud Workload Protection (CWPP)",
+            "IAM least privilege, role assumption, and cross-account boundaries",
+            "Container security: image scanning, Docker rootless mode, and Kubernetes admission controllers",
+            "Static and Dynamic code analysis (SAST/DAST) in CI/CD pipelines"
+          ],
+          "tools": [
+            "Snyk",
+            "Trivy",
+            "Prowler",
+            "Checkov",
+            "GitHub Advanced Security"
+          ],
+          "project": "Audit a multi-account cloud environment for misconfigurations and implement automated policy-as-code remediation.",
+          "resources": [
+            {
+              "name": "Cloud Security Alliance (CSA)",
+              "url": "https://cloudsecurityalliance.org"
+            },
+            {
+              "name": "ChoiceBase Jobs Directory",
+              "url": "/html/resource-list.html?category=jobs"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Enterprise Governance & Red Teaming",
+          "duration": "Weeks 27 - 34",
+          "summary": "Execute advanced red-team tradecraft, physical/social engineering, and regulatory governance (SOC2, ISO 27001).",
+          "topics": [
+            "Active Directory attacks: Kerberoasting, Pass-the-Hash, BloodHound graph analysis",
+            "Privilege escalation on Linux and Windows endpoints",
+            "Security compliance frameworks: ISO 27001, SOC 2, NIST CSF, and GDPR",
+            "Executive risk reporting and security policy formulation"
+          ],
+          "tools": [
+            "BloodHound",
+            "Metasploit",
+            "Mimikatz",
+            "Cobalt Strike concepts"
+          ],
+          "project": "Conduct an end-to-end simulated active directory penetration test and present remediation findings to an executive board.",
+          "resources": [
+            {
+              "name": "Hack The Box Academy",
+              "url": "https://academy.hackthebox.com"
+            },
+            {
+              "name": "ChoiceBase Upskilling",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded Systems & Firmware Engineer",
+      "domain": "electronics",
+      "nexusDomain": "electronics",
+      "icon": "bi-cpu-fill",
+      "level": "Beginner to Senior",
+      "duration": "6 - 9 Months",
+      "salary": "$105,000 - $170,000 / yr",
+      "description": "Develop low-level bare-metal and RTOS firmware, hardware drivers, communication protocols (CAN/SPI/I2C), and IoT edge sensor networks on ARM Cortex and RISC-V microcontrollers.",
+      "prerequisites": [
+        "C/C++ programming basics",
+        "Basic electronics theory (Ohm's law, circuits)"
+      ],
+      "certifications": [
+        "Arm Certified Engineer",
+        "Embedded Linux Development Certification"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Embedded C, Memory & Computer Architecture",
+          "duration": "Weeks 1 - 5",
+          "summary": "Master pointer arithmetic, memory layouts, bitwise register manipulation, and low-level computer architecture.",
+          "topics": [
+            "C for embedded: pointers, volatile qualifiers, structs, memory alignment, and bitwise masks",
+            "Microcontroller memory map: Flash, SRAM, stack, heap, and register spaces",
+            "Assembly language basics and compiler toolchain (GNU Arm Embedded Toolchain)",
+            "Reading hardware schematics, pinouts, and microcontroller datasheets"
+          ],
+          "tools": [
+            "ARM GCC",
+            "VS Code",
+            "Make / CMake",
+            "QEMU ARM"
+          ],
+          "project": "Write bare-metal startup code, linker script, and GPIO driver without any external vendor libraries.",
+          "resources": [
+            {
+              "name": "Fastbit Embedded Brain Academy",
+              "url": "https://fastbitlab.com"
+            },
+            {
+              "name": "ChoiceBase Programming Resources",
+              "url": "/html/resource-list.html?category=programming"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: Microcontroller Peripherals & Hardware Buses",
+          "duration": "Weeks 6 - 12",
+          "summary": "Interface hardware peripherals using UART, SPI, I2C, Timers, ADC/DAC, and DMA channels.",
+          "topics": [
+            "Hardware communication protocols: UART, SPI, I2C, and CAN bus",
+            "Interrupt Service Routines (ISRs), NVIC priority grouping, and latency",
+            "Direct Memory Access (DMA) for zero-CPU peripheral transfers",
+            "Hardware debugging using JTAG / SWD probes and logic analyzers"
+          ],
+          "tools": [
+            "STM32CubeIDE",
+            "Saleae Logic Analyzer",
+            "ST-Link",
+            "Digital Oscilloscope"
+          ],
+          "project": "Build an I2C sensor logging system with DMA circular buffering, SPI OLED display output, and UART telemetry.",
+          "resources": [
+            {
+              "name": "STM32 Reference Manuals",
+              "url": "https://www.st.com"
+            },
+            {
+              "name": "ChoiceBase Hardware Resources",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: Real-Time Operating Systems (RTOS)",
+          "duration": "Weeks 13 - 19",
+          "summary": "Implement multitasking, task prioritization, synchronization, and memory safety using FreeRTOS or Zephyr RTOS.",
+          "topics": [
+            "RTOS kernel fundamentals: task states, preemption, tick interrupts, and context switching",
+            "Inter-task communication: queues, semaphores, mutexes, and event flags",
+            "Preventing race conditions, priority inversion (priority inheritance), and deadlocks",
+            "Memory management: heap allocation schemes and stack overflow detection"
+          ],
+          "tools": [
+            "FreeRTOS",
+            "Zephyr RTOS",
+            "Segger SystemView",
+            "STM32"
+          ],
+          "project": "Develop an RTOS-based telemetry node with multi-priority tasks for sensor acquisition, filtering, and wireless dispatch.",
+          "resources": [
+            {
+              "name": "FreeRTOS Official Documentation",
+              "url": "https://www.freertos.org"
+            },
+            {
+              "name": "Zephyr Project Documentation",
+              "url": "https://docs.zephyrproject.org"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Wireless IoT & Low-Power Optimization",
+          "duration": "Weeks 20 - 26",
+          "summary": "Build connected edge devices with BLE, Wi-Fi, LoRaWAN, and implement microamp-level sleep modes.",
+          "topics": [
+            "Wireless communication: Bluetooth Low Energy (BLE GATT services), Wi-Fi, LoRaWAN",
+            "Ultra-low-power sleep modes (Stop, Standby) and RTC wake-up triggers",
+            "Battery lifecycle profiling and dynamic power dissipation reduction",
+            "Secure bootloaders and Over-The-Air (OTA) firmware update verification"
+          ],
+          "tools": [
+            "ESP32 / ESP-IDF",
+            "Nordic nRF Connect",
+            "Wireshark",
+            "Power Profiler Kit"
+          ],
+          "project": "Design a battery-operated environmental sensor device that wakes up, transmits encrypted telemetry over BLE, and sleeps under 5µA.",
+          "resources": [
+            {
+              "name": "Espressif ESP-IDF Guide",
+              "url": "https://docs.espressif.com"
+            },
+            {
+              "name": "ChoiceBase AI Tools Hub",
+              "url": "/html/resource-list.html?category=ai-tools"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Edge AI (TinyML) & Production Firmware",
+          "duration": "Weeks 27 - 34",
+          "summary": "Run machine learning models on microcontrollers and harden firmware for industrial reliability.",
+          "topics": [
+            "Deploying quantized TinyML models (TensorFlow Lite for Microcontrollers)",
+            "Automated Hardware-in-the-Loop (HIL) testing and continuous integration for firmware",
+            "Static analysis (MISRA C compliance) and defensive programming",
+            "Device fleet management, factory provisioning, and root of trust"
+          ],
+          "tools": [
+            "TensorFlow Lite Micro",
+            "Edge Impulse",
+            "Cppcheck",
+            "Jenkins / GitHub Actions"
+          ],
+          "project": "Deploy an onboard audio anomaly detection model on an ARM Cortex-M4 microcontroller running continuous real-time classification.",
+          "resources": [
+            {
+              "name": "Edge Impulse Documentation",
+              "url": "https://docs.edgeimpulse.com"
+            },
+            {
+              "name": "ChoiceBase Upskilling",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vlsi",
+      "title": "VLSI Physical Design & ASIC Engineer",
+      "domain": "electronics",
+      "nexusDomain": "electronics",
+      "icon": "bi-motherboard-fill",
+      "level": "Intermediate to Principal",
+      "duration": "7 - 10 Months",
+      "salary": "$120,000 - $200,000 / yr",
+      "description": "Transform RTL netlists into high-yield physical silicon chips. Master synthesis, floorplanning, placement and routing (P&R), static timing analysis (STA), and DRC/LVS closure on advanced semiconductor nodes.",
+      "prerequisites": [
+        "Digital logic design",
+        "Verilog/SystemVerilog fundamentals"
+      ],
+      "certifications": [
+        "Cadence Certified Physical Design Specialist",
+        "Synopsys Design Compiler Certified"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Digital Logic & Hardware Description Languages",
+          "duration": "Weeks 1 - 5",
+          "summary": "Master combinational and sequential digital circuits, FSMs, and RTL synthesis in Verilog.",
+          "topics": [
+            "Boolean algebra, Karnaugh maps, CMOS logic gates, and setup/hold time concepts",
+            "Verilog / SystemVerilog RTL coding for synthesizable hardware logic",
+            "Finite State Machine (FSM) architectures (Moore and Mealy machines)",
+            "Simulation testbenches, assertions, and functional waveform verification"
+          ],
+          "tools": [
+            "ModelSim / QuestaSim",
+            "Icarus Verilog",
+            "GTKWave",
+            "VS Code"
+          ],
+          "project": "Design, simulate, and verify a pipelined 32-bit RISC-V integer execution core with branch prediction.",
+          "resources": [
+            {
+              "name": "ASIC World Verilog Tutorial",
+              "url": "http://www.asic-world.com"
+            },
+            {
+              "name": "ChoiceBase Programming Hub",
+              "url": "/html/resource-list.html?category=programming"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: Logic Synthesis & SDC Timing Constraints",
+          "duration": "Weeks 6 - 12",
+          "summary": "Convert RTL code into gate-level netlists and formulate Synopsys Design Constraints (SDC).",
+          "topics": [
+            "Logic synthesis workflows and standard cell library characterization (.lib)",
+            "Authoring Synopsys Design Constraints (SDC): clocks, input/output delays, multicycle paths",
+            "Power, Performance, and Area (PPA) optimization tradeoffs during synthesis",
+            "Clock gating insertion and dynamic power optimization"
+          ],
+          "tools": [
+            "Synopsys Design Compiler",
+            "Yosys Open Synthesis",
+            "OpenLane"
+          ],
+          "project": "Synthesize a multi-module cryptographic accelerator and generate optimized gate-level netlists across speed and area.",
+          "resources": [
+            {
+              "name": "Synopsys Design Compiler Guides",
+              "url": "https://www.synopsys.com"
+            },
+            {
+              "name": "OpenLane Open Source Flow",
+              "url": "https://github.com/The-OpenROAD-Project/OpenLane"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: Floorplanning & Power Grid Synthesis",
+          "duration": "Weeks 13 - 19",
+          "summary": "Establish die boundaries, macro placement, I/O pin assignments, and robust power distribution networks.",
+          "topics": [
+            "Die aspect ratios, core utilization, and pin placement guidelines",
+            "Macro placement strategies and routing channel spacing",
+            "Power distribution network (PDN) design: power rings, stripes, and IR drop prevention",
+            "Decoupling capacitor (decap) cell insertion and electro-static discharge (ESD) protection"
+          ],
+          "tools": [
+            "Cadence Innovus",
+            "Synopsys ICC2",
+            "OpenROAD"
+          ],
+          "project": "Design a complete chip floorplan with distributed power mesh and zero IR drop violations across all operation modes.",
+          "resources": [
+            {
+              "name": "OpenROAD Project Documentation",
+              "url": "https://openroad.readthedocs.io"
+            },
+            {
+              "name": "ChoiceBase Hardware Resources",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Placement, Clock Tree Synthesis (CTS) & Routing",
+          "duration": "Weeks 20 - 26",
+          "summary": "Execute standard cell placement, build low-skew clock trees, and route signal interconnects.",
+          "topics": [
+            "Global and detailed standard cell placement algorithms",
+            "Clock Tree Synthesis (CTS): buffer tree insertion, clock skew, and insertion delay minimization",
+            "Global and detailed routing: antenna rules, crosstalk avoidance, and shielding",
+            "Fixing setup and hold violations dynamically during post-routing optimization"
+          ],
+          "tools": [
+            "Cadence Innovus",
+            "Synopsys ICC2",
+            "Calibre DRC"
+          ],
+          "project": "Perform complete P&R on a high-speed SoC subsystem, closing clock skew within 50ps at 500MHz.",
+          "resources": [
+            {
+              "name": "Cadence Academic Network",
+              "url": "https://www.cadence.com"
+            },
+            {
+              "name": "ChoiceBase Resource Library",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Static Timing Analysis (STA) & Physical Verification",
+          "duration": "Weeks 27 - 34",
+          "summary": "Validate timing closure across all PVT corners and achieve DRC/LVS tape-out cleanliness.",
+          "topics": [
+            "Static Timing Analysis (STA) across multi-mode multi-corner (MMMC) operating conditions",
+            "Design Rule Check (DRC) and Layout Versus Schematic (LVS) verification using Mentor Calibre",
+            "Electromigration (EM) and signal integrity (SI) noise glitch analysis",
+            "Tape-out GDSII / OASIS generation and foundry hand-off protocols"
+          ],
+          "tools": [
+            "Synopsys PrimeTime",
+            "Siemens Calibre",
+            "RedHawk",
+            "KLayout"
+          ],
+          "project": "Achieve complete zero-DRC, zero-LVS, and timing-closed GDSII tape-out sign-off for a real silicon fabrication run.",
+          "resources": [
+            {
+              "name": "PrimeTime User Guide",
+              "url": "https://www.synopsys.com"
+            },
+            {
+              "name": "ChoiceBase Jobs Directory",
+              "url": "/html/resource-list.html?category=jobs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-manager",
+      "title": "Product Manager (Tech & AI)",
+      "domain": "software",
+      "nexusDomain": "software",
+      "icon": "bi-kanban-fill",
+      "level": "Mid to Executive",
+      "duration": "5 - 7 Months",
+      "salary": "$120,000 - $190,000 / yr",
+      "description": "Own the end-to-end product lifecycle: user discovery, PRDs, feature prioritization, agile execution, data analytics, and go-to-market commercialization.",
+      "prerequisites": [
+        "Strong communication & strategic thinking",
+        "Familiarity with software development lifecycle"
+      ],
+      "certifications": [
+        "Pragmatic Institute Certified (PMC-III)",
+        "Certified Scrum Product Owner (CSPO)"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Customer Discovery & Problem Definition",
+          "duration": "Weeks 1 - 4",
+          "summary": "Uncover real customer pain points through structured qualitative interviews and market research.",
+          "topics": [
+            "Conducting user interviews without bias (The Mom Test framework)",
+            "Developing buyer personas, empathy maps, and jobs-to-be-done (JTBD)",
+            "Competitive landscape analysis and unique value proposition mapping",
+            "Defining problem statements and opportunity solution trees"
+          ],
+          "tools": [
+            "Miro",
+            "Figma",
+            "Notion",
+            "SurveyMonkey"
+          ],
+          "project": "Conduct 10 user interviews in a chosen industry, synthesize pain points, and author an Opportunity Assessment Document.",
+          "resources": [
+            {
+              "name": "The Mom Test Summary",
+              "url": "https://www.momtestbook.com"
+            },
+            {
+              "name": "ChoiceBase Upskilling Tools",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: Product Strategy, PRDs & Roadmapping",
+          "duration": "Weeks 5 - 9",
+          "summary": "Define product vision, author detailed Product Requirement Documents, and manage roadmap priorities.",
+          "topics": [
+            "Writing crisp PRDs: user stories, acceptance criteria, edge cases, and success metrics",
+            "Feature prioritization frameworks: RICE, Kano Model, MoSCoW, and Cost of Delay",
+            "Outcome-based roadmapping vs output-based feature lists",
+            "Defining North Star Metrics, leading indicators, and lagging indicators"
+          ],
+          "tools": [
+            "Jira",
+            "Productboard",
+            "Linear",
+            "Confluence"
+          ],
+          "project": "Author an executive-ready PRD and 6-month roadmap for an innovative AI-assisted workplace productivity tool.",
+          "resources": [
+            {
+              "name": "Product Coalition Guide",
+              "url": "https://productcoalition.com"
+            },
+            {
+              "name": "ChoiceBase Websites Hub",
+              "url": "/html/resource-list.html?category=websites"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: Agile Execution & Cross-Functional Collaboration",
+          "duration": "Weeks 10 - 14",
+          "summary": "Partner with engineering and UX design teams to ship high-quality product increments predictably.",
+          "topics": [
+            "Scrum & Kanban rituals: sprint planning, backlog grooming, daily standups, retrospectives",
+            "Managing engineering trade-offs: technical debt vs new feature velocity",
+            "Working effectively with UX designers on wireframes and rapid prototypes",
+            "Release planning, beta testing cohorts, and feature flag rollouts"
+          ],
+          "tools": [
+            "Jira Software",
+            "Figma",
+            "LaunchDarkly",
+            "Slack"
+          ],
+          "project": "Manage a simulated multi-week sprint with developer estimations, scope adjustments, and sprint review demo.",
+          "resources": [
+            {
+              "name": "Scrum Guide",
+              "url": "https://scrumguides.org"
+            },
+            {
+              "name": "ChoiceBase Jobs Directory",
+              "url": "/html/resource-list.html?category=jobs"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Product Analytics & Experimentation",
+          "duration": "Weeks 15 - 19",
+          "summary": "Leverage quantitative product data, funnel analyses, and A/B split testing to drive continuous growth.",
+          "topics": [
+            "Event tracking taxonomy planning and user journey funnels",
+            "Cohort analysis, retention curves, and churn diagnostics",
+            "Designing statistically sound A/B split tests and sample size calculations",
+            "Product-Led Growth (PLG) mechanics: self-serve onboarding and time-to-value (TTV)"
+          ],
+          "tools": [
+            "Mixpanel",
+            "Amplitude",
+            "PostHog",
+            "Optimizely"
+          ],
+          "project": "Analyze an onboarding drop-off dataset, formulate an optimization hypothesis, and design a full A/B test experiment.",
+          "resources": [
+            {
+              "name": "Amplitude Product Analytics Playbook",
+              "url": "https://amplitude.com"
+            },
+            {
+              "name": "ChoiceBase Resource Hub",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Go-to-Market, Monetization & AI Products",
+          "duration": "Weeks 20 - 26",
+          "summary": "Lead successful product launches, formulate pricing tiers, and manage generative AI products.",
+          "topics": [
+            "Go-to-Market (GTM) launch tiers, customer enablement, and marketing alignment",
+            "SaaS pricing and packaging models: freemium, usage-based, tiered seat licensing",
+            "Product management for AI: evaluating hallucinations, UX for uncertainty, latency expectations",
+            "Executive stakeholder management and board deck presentations"
+          ],
+          "tools": [
+            "Stripe Billing",
+            "Notion",
+            "Google Slides",
+            "ChartMogul"
+          ],
+          "project": "Build a comprehensive GTM Launch & Pricing Strategy package for a new enterprise software offering.",
+          "resources": [
+            {
+              "name": "Reforge Product Strategy Series",
+              "url": "https://www.reforge.com"
+            },
+            {
+              "name": "ChoiceBase Applications Directory",
+              "url": "/html/resource-list.html?category=applications"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growth-marketing",
+      "title": "Growth & Performance Marketer",
+      "domain": "marketing",
+      "nexusDomain": "marketing",
+      "icon": "bi-graph-up-arrow",
+      "level": "Beginner to Lead",
+      "duration": "4 - 6 Months",
+      "salary": "$85,000 - $150,000 / yr",
+      "description": "Scale revenue through full-funnel customer acquisition, paid performance ads, Answer Engine Optimization (AEO), lifecycle retention, and data-driven growth experimentation.",
+      "prerequisites": [
+        "Creative curiosity",
+        "Basic spreadsheet / analytical skills"
+      ],
+      "certifications": [
+        "Google Ads Search / Display Certified",
+        "Meta Certified Media Buying Professional",
+        "HubSpot Inbound"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Growth Marketing Fundamentals & Copywriting",
+          "duration": "Weeks 1 - 4",
+          "summary": "Understand full-funnel acquisition (AARRR), consumer psychology, and conversion-focused copywriting.",
+          "topics": [
+            "The Pirate Funnel: Acquisition, Activation, Retention, Referral, Revenue (AARRR)",
+            "Direct-response copywriting: headlines, emotional hooks, value props, and calls to action",
+            "Buyer journey stages: Unaware, Problem Aware, Solution Aware, Product Aware, Most Aware",
+            "Designing conversion-optimized landing pages with clear hierarchy"
+          ],
+          "tools": [
+            "Figma",
+            "Unbounce / Webflow",
+            "Google Docs",
+            "Notion"
+          ],
+          "project": "Draft complete multi-stage copy and design a high-converting landing page for a B2B SaaS product.",
+          "resources": [
+            {
+              "name": "Copyhackers Conversion Copywriting",
+              "url": "https://copyhackers.com"
+            },
+            {
+              "name": "ChoiceBase Marketing Resources",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: Paid Acquisition & Performance Advertising",
+          "duration": "Weeks 5 - 9",
+          "summary": "Master paid advertising on Google Ads, Meta Ads Manager, and LinkedIn Ads with high ROAS.",
+          "topics": [
+            "Google Ads: search intent campaigns, negative keywords, Quality Score, and Performance Max",
+            "Meta Ads Manager: custom audiences, lookalike modeling, dynamic creative testing",
+            "LinkedIn B2B targeting: account-based marketing (ABM) and matched audiences",
+            "Budget pacing, bidding strategies (tCPA, tROAS), and creative fatigue management"
+          ],
+          "tools": [
+            "Google Ads",
+            "Meta Ads Manager",
+            "LinkedIn Campaign Manager",
+            "Canva"
+          ],
+          "project": "Build and execute an omnichannel ad campaign structure with tailored creative sets and audience exclusions.",
+          "resources": [
+            {
+              "name": "Google Skillshop Ads Certification",
+              "url": "https://skillshop.withgoogle.com"
+            },
+            {
+              "name": "ChoiceBase Upskilling Collection",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: SEO & Answer Engine Optimization (AEO)",
+          "duration": "Weeks 10 - 14",
+          "summary": "Drive compound organic traffic through technical SEO, topic clusters, and AI search visibility.",
+          "topics": [
+            "Keyword research: search volume, intent classification, and competitor keyword gaps",
+            "Technical SEO: site speed, crawl budget, canonical tags, and structured schema markup",
+            "Topic clusters, pillar pages, and programmatic SEO scaling",
+            "Answer Engine Optimization (AEO): optimizing content for LLM citations (ChatGPT, Perplexity, Gemini)"
+          ],
+          "tools": [
+            "Semrush",
+            "Ahrefs",
+            "Google Search Console",
+            "Screaming Frog"
+          ],
+          "project": "Perform a comprehensive technical SEO audit of a live website, fixing indexing errors and creating a 20-topic cluster plan.",
+          "resources": [
+            {
+              "name": "Ahrefs SEO Academy",
+              "url": "https://ahrefs.com/academy"
+            },
+            {
+              "name": "Google Search Central Docs",
+              "url": "https://developers.google.com/search"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Analytics, Attribution & Data Infrastructure",
+          "duration": "Weeks 15 - 19",
+          "summary": "Implement tracking tags, measure true channel ROI, and build executive performance dashboards.",
+          "topics": [
+            "Google Analytics 4 (GA4) custom event tracking and conversion setup",
+            "Google Tag Manager (GTM): triggers, variables, and server-side tagging (CAPI)",
+            "Attribution modeling: first-touch, last-touch, multi-touch, and incrementality testing",
+            "Building automated marketing dashboards in Looker Studio connecting ad platforms"
+          ],
+          "tools": [
+            "Google Tag Manager",
+            "GA4",
+            "Looker Studio",
+            "Supermetrics"
+          ],
+          "project": "Implement end-to-end event tracking on an e-commerce site via GTM and build an automated live ROAS dashboard.",
+          "resources": [
+            {
+              "name": "Analytics Mania GTM Tutorials",
+              "url": "https://www.analyticsmania.com"
+            },
+            {
+              "name": "ChoiceBase AI Tools Directory",
+              "url": "/html/resource-list.html?category=ai-tools"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Lifecycle Marketing, Retention & Viral Loops",
+          "duration": "Weeks 20 - 25",
+          "summary": "Nurture leads into loyal customers with automated email journeys, SMS, and viral referral loops.",
+          "topics": [
+            "Automated email sequences: welcome drips, abandoned cart recovery, post-purchase onboarding",
+            "Audience segmentation, RFM (Recency, Frequency, Monetary) analysis, and churn prediction",
+            "Email deliverability optimization: SPF, DKIM, DMARC records, and inbox placement",
+            "Viral referral programs and product-led growth invitation loops"
+          ],
+          "tools": [
+            "Klaviyo",
+            "Customer.io",
+            "HubSpot",
+            "Litmus"
+          ],
+          "project": "Design and implement a 7-stage automated customer lifecycle retention engine with dynamic personalization.",
+          "resources": [
+            {
+              "name": "Klaviyo Academy",
+              "url": "https://academy.klaviyo.com"
+            },
+            {
+              "name": "ChoiceBase Websites Directory",
+              "url": "/html/resource-list.html?category=websites"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-informatics",
+      "title": "Health Informatics & Clinical Data Specialist",
+      "domain": "medical",
+      "nexusDomain": "medical",
+      "icon": "bi-heart-pulse-fill",
+      "level": "Beginner to Senior",
+      "duration": "5 - 8 Months",
+      "salary": "$95,000 - $155,000 / yr",
+      "description": "Bridge healthcare delivery and digital systems: EHR optimization, FHIR interoperability, clinical decision support (CDS), healthcare privacy (HIPAA), and clinical outcome analytics.",
+      "prerequisites": [
+        "Understanding of healthcare terminology or general science background",
+        "Basic database/spreadsheet skills"
+      ],
+      "certifications": [
+        "CAHIMS / CPHIMS Certified",
+        "Epic / Cerner Certified Analyst"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Healthcare Systems, Terminology & Regulations",
+          "duration": "Weeks 1 - 5",
+          "summary": "Understand healthcare workflows, clinical terminology, and health data regulatory privacy laws.",
+          "topics": [
+            "Clinical workflows: inpatient admissions, outpatient clinics, triage, and pharmacy dispensing",
+            "Standard clinical coding systems: ICD-10-CM, CPT, HCPCS, SNOMED-CT, and LOINC",
+            "HIPAA compliance, patient privacy rights, and Protected Health Information (PHI) safeguards",
+            "Electronic Health Record (EHR) systems architecture (Epic, Cerner, MEDITECH)"
+          ],
+          "tools": [
+            "Epic Practice Portal",
+            "AthenaHealth",
+            "UMLS Metathesaurus",
+            "Excel"
+          ],
+          "project": "Map an entire patient clinical journey from emergency intake through post-discharge billing with accurate ICD-10 and CPT coding.",
+          "resources": [
+            {
+              "name": "HealthIT.gov Learning Materials",
+              "url": "https://www.healthit.gov"
+            },
+            {
+              "name": "ChoiceBase Medical Resources",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: Health Data Standards & FHIR Interoperability",
+          "duration": "Weeks 6 - 11",
+          "summary": "Master healthcare interoperability standards including HL7 v2 messaging and modern RESTful FHIR APIs.",
+          "topics": [
+            "HL7 v2 message parsing (ADT, ORU, MDM segments) and interface engines",
+            "HL7 FHIR (Fast Healthcare Interoperability Resources) REST APIs and JSON schemas",
+            "SMART on FHIR application authentication (OAuth2 for EHRs)",
+            "DICOM standard for diagnostic medical imaging storage and PACS integration"
+          ],
+          "tools": [
+            "Mirth Connect / NextGen Connect",
+            "FHIR Server (HAPI FHIR)",
+            "Postman",
+            "Orthanc DICOM"
+          ],
+          "project": "Build an interface engine pipeline that translates legacy HL7 v2 admission messages into standardized FHIR Patient resources.",
+          "resources": [
+            {
+              "name": "HL7 FHIR Official Specification",
+              "url": "https://hl7.org/fhir"
+            },
+            {
+              "name": "SMART Health IT Documentation",
+              "url": "https://smarthealthit.org"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: Clinical Data Warehousing & SQL Analytics",
+          "duration": "Weeks 12 - 17",
+          "summary": "Extract, transform, and analyze clinical patient cohorts using SQL and observational health models.",
+          "topics": [
+            "Clinical data warehousing models: OMOP Common Data Model (OHDSI) and PCORnet",
+            "Writing complex SQL queries across millions of patient encounters and lab results",
+            "Analyzing clinical cohorts in de-identified datasets (MIMIC-IV, Synthea)",
+            "Handling missing laboratory values, temporal time-series, and survival analysis"
+          ],
+          "tools": [
+            "PostgreSQL",
+            "MIMIC-IV Dataset",
+            "OHDSI ATLAS",
+            "DBeaver"
+          ],
+          "project": "Conduct a retrospective cohort study on MIMIC-IV patient data investigating 30-day readmission risk factors.",
+          "resources": [
+            {
+              "name": "OHDSI Documentation",
+              "url": "https://www.ohdsi.org"
+            },
+            {
+              "name": "PhysioNet MIMIC-IV Clinical Database",
+              "url": "https://physionet.org"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Clinical Quality Dashboards & Healthcare BI",
+          "duration": "Weeks 18 - 23",
+          "summary": "Design interactive visual intelligence dashboards monitoring patient safety and hospital metrics.",
+          "topics": [
+            "Hospital quality measures: HEDIS, CMS Star Ratings, and Joint Commission core metrics",
+            "Designing executive clinical dashboards tracking bed occupancy, ED wait times, and infection rates",
+            "Data storytelling for healthcare executives and chief medical officers",
+            "Automated alert thresholds for sepsis detection and patient deterioration"
+          ],
+          "tools": [
+            "Tableau Healthcare",
+            "Power BI",
+            "SQL",
+            "Looker"
+          ],
+          "project": "Build an interactive hospital operational dashboard displaying emergency department wait times, readmission trends, and bed capacity.",
+          "resources": [
+            {
+              "name": "CMS Quality Measures",
+              "url": "https://www.cms.gov"
+            },
+            {
+              "name": "ChoiceBase Upskilling Tools",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Clinical AI Validation & Healthcare Innovation",
+          "duration": "Weeks 24 - 30",
+          "summary": "Validate clinical AI models, prevent algorithmic bias, and ensure FDA SaMD compliance.",
+          "topics": [
+            "Clinical decision support (CDS) integration within provider EHR workflows",
+            "Validating predictive algorithms for readmission, sepsis, and radiological diagnosis",
+            "Auditing clinical algorithms for demographic bias and calibration drift",
+            "FDA regulations for Software as a Medical Device (SaMD) and Good Machine Learning Practice (GMLP)"
+          ],
+          "tools": [
+            "Python",
+            "Scikit-Learn",
+            "Epic CDS Rules Engine",
+            "FDA eSTAR"
+          ],
+          "project": "Validate an open-source clinical sepsis risk prediction model, assess calibration curves, and design an alert integration plan.",
+          "resources": [
+            {
+              "name": "FDA AI/ML-Enabled Medical Devices",
+              "url": "https://www.fda.gov"
+            },
+            {
+              "name": "ChoiceBase Jobs Directory",
+              "url": "/html/resource-list.html?category=jobs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smart-manufacturing",
+      "title": "Smart Manufacturing & Industry 4.0 Engineer",
+      "domain": "manufacturing",
+      "nexusDomain": "manufacturing",
+      "icon": "bi-gear-wide-connected",
+      "level": "Intermediate to Director",
+      "duration": "6 - 9 Months",
+      "salary": "$100,000 - $165,000 / yr",
+      "description": "Digitize industrial factory operations: PLC/SCADA automation, Industrial IoT connectivity (OPC-UA/MQTT), Digital Twins, predictive maintenance, and manufacturing execution systems (MES).",
+      "prerequisites": [
+        "Basic understanding of manufacturing processes or electrical circuits",
+        "Computer literacy"
+      ],
+      "certifications": [
+        "Certified Smart Factory Systems Architect",
+        "ISA/IEC 62443 Cybersecurity Specialist",
+        "Six Sigma Green Belt"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Industrial Automation & PLC Programming",
+          "duration": "Weeks 1 - 5",
+          "summary": "Learn industrial control principles, sensor wiring, and ladder logic programming for industrial PLCs.",
+          "topics": [
+            "Industrial hardware: sensors, relays, contactors, VFDs (Variable Frequency Drives), and pneumatic actuators",
+            "IEC 61131-3 programming languages: Ladder Logic (LD), Structured Text (ST), Function Block Diagram (FBD)",
+            "Safety interlocks, emergency stop circuits, and machinery safety standards (ISO 13849)",
+            "Wiring and testing industrial 24V DC control panels"
+          ],
+          "tools": [
+            "Siemens TIA Portal",
+            "Rockwell Studio 5000",
+            "AutomationDirect PLC Sim",
+            "Codesys"
+          ],
+          "project": "Program a complete automated sorting and packaging conveyor line with emergency safety interlocks in Structured Text.",
+          "resources": [
+            {
+              "name": "RealPars Industrial Automation",
+              "url": "https://realpars.com"
+            },
+            {
+              "name": "ChoiceBase Manufacturing Hub",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: SCADA, HMI & Industrial Protocols",
+          "duration": "Weeks 6 - 11",
+          "summary": "Design operator human-machine interfaces (HMI) and configure industrial fieldbus networks.",
+          "topics": [
+            "High-performance HMI design adhering to ISA-101 situational awareness standards",
+            "Industrial communication protocols: Modbus TCP/RTU, Profinet, EtherNet/IP",
+            "SCADA architecture: alarms, real-time tag databases, and historical trending",
+            "Configuring industrial managed network switches and VLAN segmentation"
+          ],
+          "tools": [
+            "Inductive Automation Ignition",
+            "FactoryTalk View",
+            "Siemens WinCC",
+            "Wireshark"
+          ],
+          "project": "Build a comprehensive plant SCADA supervisory dashboard in Ignition with real-time tank level alarms and trend logging.",
+          "resources": [
+            {
+              "name": "Inductive University (Ignition)",
+              "url": "https://inductiveuniversity.com"
+            },
+            {
+              "name": "ChoiceBase Upskilling",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: Industrial IoT, Unified Namespace & MQTT",
+          "duration": "Weeks 12 - 18",
+          "summary": "Build an event-driven Industry 4.0 data architecture connecting shop-floor sensors to enterprise clouds.",
+          "topics": [
+            "Unified Namespace (UNS) architecture and the Purdue Model transformation",
+            "MQTT and Sparkplug B specification for standardized industrial payloads",
+            "OPC-UA server and client configurations for multi-vendor machine interoperability",
+            "Edge computing gateways: deploying Docker containers on industrial Linux gateways"
+          ],
+          "tools": [
+            "Node-RED",
+            "HiveMQ",
+            "Kepware OPC",
+            "EMQX",
+            "Docker"
+          ],
+          "project": "Create an edge gateway pipeline collecting vibration and temperature telemetry over Modbus and publishing to a central MQTT UNS.",
+          "resources": [
+            {
+              "name": "HiveMQ MQTT Guides",
+              "url": "https://www.hivemq.com"
+            },
+            {
+              "name": "OPC Foundation",
+              "url": "https://opcfoundation.org"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Manufacturing Execution Systems (MES) & OEE",
+          "duration": "Weeks 19 - 25",
+          "summary": "Track shop-floor productivity, downtime Pareto analysis, and overall equipment effectiveness (OEE).",
+          "topics": [
+            "Overall Equipment Effectiveness (OEE) calculations: Availability × Performance × Quality",
+            "Digital work instructions and electronic batch recording (eBR)",
+            "Track-and-trace lot genealogy and automated scrap reporting",
+            "Integrating MES layers with enterprise ERP systems (SAP S/4HANA)"
+          ],
+          "tools": [
+            "Siemens Opcenter",
+            "Ignition MES Modules",
+            "SAP MII",
+            "Tableau"
+          ],
+          "project": "Implement an automated OEE calculation system tracking live machine states and calculating operator shift productivity.",
+          "resources": [
+            {
+              "name": "MESA International",
+              "url": "https://www.mesa.org"
+            },
+            {
+              "name": "ChoiceBase AI Tools",
+              "url": "/html/resource-list.html?category=ai-tools"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Digital Twins, Predictive Maintenance & Cyber Security",
+          "duration": "Weeks 26 - 32",
+          "summary": "Deploy AI predictive maintenance models, simulate factory layouts in digital twins, and secure OT networks.",
+          "topics": [
+            "Predictive maintenance: vibration spectral analysis, motor current signature analysis (MCSA), and anomaly detection",
+            "Building 3D digital twins of production lines using physics simulation platforms",
+            "Operational Technology (OT) cybersecurity following IEC 62443 standards",
+            "Autonomous Mobile Robots (AMRs) and Automated Guided Vehicles (AGVs) integration"
+          ],
+          "tools": [
+            "NVIDIA Omniverse",
+            "Siemens Tecnomatix",
+            "Python Anomaly Detection",
+            "Claroty"
+          ],
+          "project": "Develop a predictive maintenance pipeline analyzing real-time accelerometer streams to forecast bearing failure 48 hours in advance.",
+          "resources": [
+            {
+              "name": "NVIDIA Omniverse Manufacturing",
+              "url": "https://www.nvidia.com/omniverse"
+            },
+            {
+              "name": "ChoiceBase Jobs Directory",
+              "url": "/html/resource-list.html?category=jobs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bim-vdc",
+      "title": "BIM & Virtual Design Construction Specialist",
+      "domain": "construction",
+      "nexusDomain": "construction",
+      "icon": "bi-building-fill-gear",
+      "level": "Beginner to Senior",
+      "duration": "5 - 8 Months",
+      "salary": "$90,000 - $150,000 / yr",
+      "description": "Coordinate digital architecture and structural engineering: 3D Revit modeling, multi-trade clash detection, 4D schedule sequencing, 5D cost take-offs, and laser scan point clouds.",
+      "prerequisites": [
+        "Basic architectural/construction knowledge",
+        "Spatial reasoning & CAD familiarity"
+      ],
+      "certifications": [
+        "Autodesk Certified Professional: Revit / Navisworks",
+        "AGC Certificate of Management - BIM (CM-BIM)"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Architectural Drawing & Parametric 3D Modeling",
+          "duration": "Weeks 1 - 5",
+          "summary": "Master parametric building modeling in Autodesk Revit following architectural standards.",
+          "topics": [
+            "Building components: walls, slabs, curtain systems, roofs, and parametric families",
+            "Structural framing: columns, beams, foundations, and reinforcement rebar",
+            "Construction documentation: floor plans, sections, elevations, and detail callouts",
+            "BIM Project setup: shared coordinates, datum levels, grids, and worksharing"
+          ],
+          "tools": [
+            "Autodesk Revit",
+            "AutoCAD",
+            "BIM 360 Docs",
+            "Bluebeam Revu"
+          ],
+          "project": "Model a complete commercial two-story building in Autodesk Revit with coordinated architectural plans and schedules.",
+          "resources": [
+            {
+              "name": "Autodesk Design Academy",
+              "url": "https://www.autodesk.com/certification"
+            },
+            {
+              "name": "ChoiceBase Construction Resources",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: MEP Systems & LOD Standards",
+          "duration": "Weeks 6 - 11",
+          "summary": "Model Mechanical, Electrical, and Plumbing (MEP) systems according to Level of Development (LOD) standards.",
+          "topics": [
+            "HVAC ductwork sizing, routing, air terminals, and mechanical equipment",
+            "Electrical cable trays, conduit runs, panelboards, and lighting fixtures",
+            "Plumbing domestic water, sanitary drainage, and fire protection sprinkler systems",
+            "BIMForum Level of Development (LOD 100 to 500) specification requirements"
+          ],
+          "tools": [
+            "Autodesk Revit MEP",
+            "MagiCAD",
+            "BIMForum LOD Spec"
+          ],
+          "project": "Design fully routed, sloped sanitary plumbing and coordinated HVAC ductwork for an office floorplate at LOD 350.",
+          "resources": [
+            {
+              "name": "BIMForum LOD Framework",
+              "url": "https://bimforum.org/lod"
+            },
+            {
+              "name": "ChoiceBase Upskilling Tools",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: Clash Detection & Multi-Trade Coordination",
+          "duration": "Weeks 12 - 17",
+          "summary": "Federate multi-trade models and execute automated clash detection tests in Navisworks Manage.",
+          "topics": [
+            "Importing IFC, DWG, and NWD files into federated coordination models",
+            "Configuring Clash Detective rule sets (hard clashes, soft clearances, tolerances)",
+            "Grouping, assigning, and tracking clash resolution issues using BCF (BIM Collaboration Format)",
+            "Facilitating trade coordination meetings with subcontractors"
+          ],
+          "tools": [
+            "Autodesk Navisworks Manage",
+            "BIM Track / Newforma Konekt",
+            "Revizto",
+            "Solibri"
+          ],
+          "project": "Perform clash detection between structural steel and MEP services on a complex hospital floor, resolving 100+ interferences.",
+          "resources": [
+            {
+              "name": "Navisworks Learning Center",
+              "url": "https://www.autodesk.com"
+            },
+            {
+              "name": "ChoiceBase Resource Hub",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: 4D Time Scheduling & 5D Cost Estimation",
+          "duration": "Weeks 18 - 23",
+          "summary": "Link BIM elements with project schedules for 4D visual simulations and extract automated 5D cost takeoffs.",
+          "topics": [
+            "Linking construction schedules (Primavera P6, MS Project) with 3D geometry in Navisworks / Synchro",
+            "Creating 4D visual construction sequence simulations and crane logistics models",
+            "Automated QTO (Quantity Take-Off) and material cost estimations from model parameters",
+            "5D cost modeling and cash-flow forecasting throughout the project lifecycle"
+          ],
+          "tools": [
+            "Synchro 4D",
+            "Navisworks TimeLiner",
+            "CostX",
+            "Assemble Systems"
+          ],
+          "project": "Produce an animated 4D construction simulation video showing monthly foundation-to-envelope sequence paired with material cost curves.",
+          "resources": [
+            {
+              "name": "Bentley SYNCHRO 4D Documentation",
+              "url": "https://www.bentley.com"
+            },
+            {
+              "name": "ChoiceBase Applications Hub",
+              "url": "/html/resource-list.html?category=applications"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Reality Capture, Laser Scanning & Field BIM",
+          "duration": "Weeks 24 - 30",
+          "summary": "Integrate terrestrial 3D laser scan point clouds, drone photogrammetry, and field mobile BIM tools.",
+          "topics": [
+            "Terrestrial 3D laser scanning (LiDAR) and point cloud registration",
+            "Scan-to-BIM modeling and as-built deviation analysis against design models",
+            "Drone photogrammetry for earthwork volumetric calculations and jobsite progress",
+            "Field BIM on mobile tablets (Procore, Autodesk Construction Cloud) for QA/QC punch lists"
+          ],
+          "tools": [
+            "Autodesk ReCap Pro",
+            "Faro Scene",
+            "DroneDeploy",
+            "Procore",
+            "ACC Mobile"
+          ],
+          "project": "Register a multi-station 3D laser scan of a concrete floor slab and perform as-built heat map deviation analysis against the BIM model.",
+          "resources": [
+            {
+              "name": "Autodesk ReCap Learning",
+              "url": "https://www.autodesk.com"
+            },
+            {
+              "name": "ChoiceBase Jobs Directory",
+              "url": "/html/resource-list.html?category=jobs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-scientist",
+      "title": "Data Scientist & ML Engineer",
+      "domain": "software",
+      "nexusDomain": "software",
+      "icon": "bi-bar-chart-line-fill",
+      "level": "Beginner to Senior",
+      "duration": "6 - 9 Months",
+      "salary": "$115,000 - $180,000 / yr",
+      "description": "Transform raw data into predictive intelligence: statistical hypothesis testing, feature engineering, tree-based models (XGBoost), deep learning (PyTorch), and production MLOps deployment.",
+      "prerequisites": [
+        "Python basics",
+        "Fundamental statistics & probability"
+      ],
+      "certifications": [
+        "AWS Certified Machine Learning",
+        "Google Professional Machine Learning Engineer"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Python, Exploratory Data Analysis & Statistics",
+          "duration": "Weeks 1 - 5",
+          "summary": "Master Pandas, NumPy data manipulation, hypothesis testing (t-tests, ANOVA), and visualization with Seaborn/Plotly.",
+          "topics": [
+            "Data wrangling with Pandas: indexing, grouping, pivoting, and handling missing data",
+            "Statistical inference: central limit theorem, p-values, confidence intervals, and hypothesis tests",
+            "Exploratory Data Analysis (EDA) and data visualization with Seaborn and Plotly",
+            "Feature scaling, one-hot encoding, and numerical transformations"
+          ],
+          "tools": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "Jupyter",
+            "Plotly"
+          ],
+          "project": "Perform an in-depth exploratory analysis on a real-world customer churn dataset with interactive Plotly visual charts.",
+          "resources": [
+            {
+              "name": "Kaggle Learn Python & Pandas",
+              "url": "https://www.kaggle.com/learn"
+            },
+            {
+              "name": "ChoiceBase Upskilling",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: Classical Machine Learning & Feature Engineering",
+          "duration": "Weeks 6 - 11",
+          "summary": "Train and optimize supervised regression, classification, and unsupervised clustering algorithms.",
+          "topics": [
+            "Linear and Logistic regression, regularization (L1 Lasso, L2 Ridge)",
+            "Decision trees, Random Forests, Gradient Boosted Trees (XGBoost, LightGBM, CatBoost)",
+            "Unsupervised learning: K-Means clustering, hierarchical clustering, and PCA dimensionality reduction",
+            "Cross-validation strategies, hyperparameter tuning with Optuna, and ROC-AUC metrics"
+          ],
+          "tools": [
+            "Scikit-Learn",
+            "XGBoost",
+            "LightGBM",
+            "Optuna"
+          ],
+          "project": "Build a credit card fraud detection system with imbalanced data handling (SMOTE) and XGBoost achieving 98% recall.",
+          "resources": [
+            {
+              "name": "Scikit-Learn User Guide",
+              "url": "https://scikit-learn.org"
+            },
+            {
+              "name": "ChoiceBase Programming Tools",
+              "url": "/html/resource-list.html?category=programming"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: Deep Learning, PyTorch & Neural Networks",
+          "duration": "Weeks 12 - 18",
+          "summary": "Build and train deep neural networks for computer vision and natural language processing tasks.",
+          "topics": [
+            "PyTorch neural network architectures, custom loss functions, and optimizers (AdamW)",
+            "Convolutional Neural Networks (CNNs) and vision transfer learning (ResNet, EfficientNet)",
+            "Recurrent networks (LSTMs) and sequence models for time-series forecasting",
+            "Transformer self-attention mechanisms and pre-trained Hugging Face models"
+          ],
+          "tools": [
+            "PyTorch",
+            "Torchvision",
+            "Hugging Face",
+            "Google Colab"
+          ],
+          "project": "Train a medical chest X-ray disease classification model in PyTorch using transfer learning and grad-CAM interpretability.",
+          "resources": [
+            {
+              "name": "DeepLearning.AI Courses",
+              "url": "https://www.deeplearning.ai"
+            },
+            {
+              "name": "ChoiceBase AI Tools",
+              "url": "/html/resource-list.html?category=ai-tools"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: MLOps, Tracking & Production Model Serving",
+          "duration": "Weeks 19 - 25",
+          "summary": "Track model experiments, maintain feature stores, and deploy low-latency inference APIs.",
+          "topics": [
+            "Experiment tracking and model registry with MLflow or Weights & Biases",
+            "Packaging models into containerized REST APIs using FastAPI and Docker",
+            "Feature stores (Feast) and data validation checks with Great Expectations",
+            "Model quantization, ONNX runtime conversion, and batch prediction jobs"
+          ],
+          "tools": [
+            "MLflow",
+            "FastAPI",
+            "Docker",
+            "ONNX",
+            "Weights & Biases"
+          ],
+          "project": "Package an ensemble prediction model into a Dockerized FastAPI service with automated MLflow versioning.",
+          "resources": [
+            {
+              "name": "MLflow Documentation",
+              "url": "https://mlflow.org"
+            },
+            {
+              "name": "ChoiceBase Resource Hub",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Live Monitoring, Concept Drift & Business Impact",
+          "duration": "Weeks 26 - 32",
+          "summary": "Monitor production model drift, manage A/B test experiments, and quantify commercial impact.",
+          "topics": [
+            "Monitoring data drift, prediction drift, and concept drift using EvidentlyAI",
+            "Designing online A/B test experiments and evaluating statistical lift",
+            "Interpretable AI: SHAP (Shapley Additive exPlanations) and LIME feature importance",
+            "Communicating findings and business ROI to executive stakeholders"
+          ],
+          "tools": [
+            "EvidentlyAI",
+            "SHAP",
+            "Tableau",
+            "Prometheus"
+          ],
+          "project": "Deploy a live monitoring dashboard tracking model accuracy drift and alerting engineering when retraining is required.",
+          "resources": [
+            {
+              "name": "Evidently AI Documentation",
+              "url": "https://docs.evidentlyai.com"
+            },
+            {
+              "name": "ChoiceBase Jobs Directory",
+              "url": "/html/resource-list.html?category=jobs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mobile",
+      "title": "Mobile App Developer (Flutter & Cross-Platform)",
+      "domain": "software",
+      "nexusDomain": "software",
+      "icon": "bi-phone-fill",
+      "level": "Beginner to Senior",
+      "duration": "5 - 8 Months",
+      "salary": "$95,000 - $160,000 / yr",
+      "description": "Build polished, native-performance iOS and Android applications using Flutter and Dart: state management, camera/GPS hardware APIs, offline persistence, and App Store publication.",
+      "prerequisites": [
+        "Basic programming concepts (functions, loops, classes)"
+      ],
+      "certifications": [
+        "Associate Android Developer",
+        "Flutter Certified Application Developer"
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stage 1: Dart Programming & UI Layout Engine",
+          "duration": "Weeks 1 - 4",
+          "summary": "Master Dart object-oriented programming, async streams, and the Flutter widget tree.",
+          "topics": [
+            "Dart language: sound null safety, classes, mixins, streams, and async/await",
+            "Flutter core architecture: everything is a widget (Stateless vs Stateful)",
+            "Layout widgets: Row, Column, Stack, Flex, Container, and MediaQuery",
+            "Designing Material 3 and Cupertino native UI interfaces"
+          ],
+          "tools": [
+            "Flutter SDK",
+            "Dart",
+            "VS Code / Android Studio",
+            "Git"
+          ],
+          "project": "Build a beautiful, responsive crypto currency tracking app with custom animated chart cards.",
+          "resources": [
+            {
+              "name": "Flutter Official Docs",
+              "url": "https://docs.flutter.dev"
+            },
+            {
+              "name": "Dart Language Tour",
+              "url": "https://dart.dev/guides/language/language-tour"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Stage 2: State Management & Navigation Routing",
+          "duration": "Weeks 5 - 10",
+          "summary": "Implement predictable state management using Riverpod or Bloc and declarative deep-linking routing.",
+          "topics": [
+            "State management paradigms: Provider, Riverpod, and BLoC (Business Logic Component)",
+            "Declarative navigation with go_router and deep linking across iOS and Android",
+            "Forms validation, custom controllers, and error handling",
+            "Custom theme switching (Dark & Light modes) with persistent user preferences"
+          ],
+          "tools": [
+            "Riverpod",
+            "flutter_bloc",
+            "go_router",
+            "Shared Preferences"
+          ],
+          "project": "Create a multi-screen recipe discovery app with dynamic search, bookmarks state, and persistent dark mode.",
+          "resources": [
+            {
+              "name": "Bloc Library Documentation",
+              "url": "https://bloclibrary.dev"
+            },
+            {
+              "name": "ChoiceBase Upskilling Tools",
+              "url": "/html/resource-list.html?category=upskilling"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Stage 3: REST APIs, Caching & Local Storage",
+          "duration": "Weeks 11 - 16",
+          "summary": "Fetch backend data, implement offline caching with Hive/SQLite, and serialize JSON data safely.",
+          "topics": [
+            "HTTP networking with Dio: interceptors, retries, and token authentication headers",
+            "JSON serialization using build_runner and json_serializable",
+            "Local offline caching using Hive, Isar, or sqflite",
+            "Offline-first synchronization patterns and optimistic UI updates"
+          ],
+          "tools": [
+            "Dio",
+            "Hive",
+            "Isar",
+            "build_runner"
+          ],
+          "project": "Build an offline-first fitness logging mobile app that caches workouts locally and syncs with cloud endpoints on reconnect.",
+          "resources": [
+            {
+              "name": "Dio Networking Package",
+              "url": "https://pub.dev/packages/dio"
+            },
+            {
+              "name": "ChoiceBase Applications Hub",
+              "url": "/html/resource-list.html?category=applications"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Stage 4: Hardware Sensors, Camera & Push Notifications",
+          "duration": "Weeks 17 - 22",
+          "summary": "Interface native device hardware: camera, GPS geolocation, biometric authentication, and push notifications.",
+          "topics": [
+            "Capturing photos and video with native camera APIs and image cropping",
+            "GPS location tracking and interactive Google Maps integration",
+            "Biometric face/fingerprint authentication with local_auth",
+            "Firebase Cloud Messaging (FCM) for background and foreground push notifications"
+          ],
+          "tools": [
+            "Firebase FCM",
+            "Google Maps Flutter",
+            "local_auth",
+            "image_picker"
+          ],
+          "project": "Develop a social geotagging app where users snap photos, tag exact GPS coordinates, and receive nearby alert push notifications.",
+          "resources": [
+            {
+              "name": "FlutterFire Documentation",
+              "url": "https://firebase.flutter.dev"
+            },
+            {
+              "name": "ChoiceBase Resource Hub",
+              "url": "/html/resource-list.html"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stage 5: Testing, CI/CD & App Store Deployment",
+          "duration": "Weeks 23 - 28",
+          "summary": "Automate unit and widget testing, configure Fastlane build scripts, and publish to Apple App Store and Google Play.",
+          "topics": [
+            "Unit testing business logic and widget testing with WidgetTester",
+            "Integration testing end-to-end user flows on emulators and real physical devices",
+            "Automating app signing and build distribution with Fastlane",
+            "App Store Connect and Google Play Console release management, screenshot assets, and compliance"
+          ],
+          "tools": [
+            "Fastlane",
+            "GitHub Actions",
+            "TestFlight",
+            "Google Play Console"
+          ],
+          "project": "Configure an automated GitHub Actions CI/CD pipeline that runs tests, signs release builds, and uploads artifacts to TestFlight.",
+          "resources": [
+            {
+              "name": "Fastlane Documentation",
+              "url": "https://docs.fastlane.tools"
+            },
+            {
+              "name": "ChoiceBase Jobs Directory",
+              "url": "/html/resource-list.html?category=jobs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

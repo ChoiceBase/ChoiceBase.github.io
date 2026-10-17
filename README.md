@@ -18,7 +18,8 @@
 
 - 📚 **Curated Resource Directory** - Handcrafted, structured datasets for AI Tools, Programming, Job Portals, Applications, Upskilling, and Essential Websites.
 - 🏷️ **Smart Categorization & Sectioning** - Automatic grouping by tags, alphabetical folding, and responsive collapsible drawers.
-- 🧭 **Career Nexus (Interactive D3 Force Graph)** - Visual map of tech and industrial career transitions across Software IT, Electronics, Manufacturing, Construction, Marketing, and Medical domains.
+- 🧭 **Career Nexus (Interactive D3 Force Graph)** - Visual map of 160+ tech and industrial roles across 6 domains (Software IT, Electronics, Marketing, Medical, Construction, Manufacturing) with competitive salaries, experience levels, day-to-day responsibilities, certifications, and career trajectories.
+- 🗺️ **Interactive Skill Roadmaps** - 15 comprehensive step-by-step career roadmaps (Frontend, Backend, AI/LLM, DevOps, VLSI, Cybersecurity, Product Management, etc.) with persistent checklists, capstone projects, and curated free learning resources.
 - 🏢 **Organization Chart Hierarchy** - Interactive collapsible D3 hierarchy tree for Corporate leadership structures and Indian Political administrative frameworks.
 - ⚡ **Multi-Criteria Universal Search** - Real-time keyword scoring engine searching across titles, URLs, tags, and descriptions with zero lag.
 - 🌓 **Adaptive Theme Engine** - Seamless Dark/Light mode switcher with glassmorphism UI, CSS custom properties, and persistent preference memory.
@@ -45,22 +46,25 @@ ChoiceBase.github.io/
 │       ├── home.js               # Homepage initialization & featured tool loader
 │       ├── org.js                # D3.js Collapsible Org Tree with zoom/pan & autocomplete
 │       ├── resource-list.js      # Category pages with automatic grouping by tags
+│       ├── roadmaps.js           # Interactive Roadmaps engine (dual-view, checklist persistence)
 │       ├── search-results.js     # Multi-dataset keyword scoring engine
 │       └── utils.js              # Fetch helpers, dynamic fragment loader, ThemeManager
-├── data/                         # 15 Verified JSON datasets
+├── data/                         # 16 Verified JSON datasets
 │   ├── ai-tools.json             # 120+ AI platforms and toolkits
 │   ├── applications.json         # Developer tools and utility software
 │   ├── jobs.json                 # Remote, tech, and global job boards
 │   ├── org_corporate.json        # Corporate hierarchy structure
 │   ├── org_indian_political.json # Indian political governance structure
 │   ├── programming.json          # Coding tutorials, libraries, and frameworks
-│   ├── roles_*.json              # 6 Industry role graphs (IT, Construction, Medical, etc.)
+│   ├── roadmaps.json             # 15 Verified step-by-step career and skill roadmaps
+│   ├── roles_*.json              # 6 Industry role graphs with 160+ enriched roles
 │   ├── upskilling.json           # Online courses, certifications, and learning paths
 │   └── websites.json             # Curated developer and knowledge bookmarks
 ├── html/
 │   ├── career_nexus.html         # Interactive industry role & skill relationship visualizer
 │   ├── org.html                  # Organization chart hierarchy visualizer
 │   ├── resource-list.html        # Filterable category resource directory
+│   ├── roadmaps.html             # Interactive career & skill roadmaps explorer
 │   └── search-results.html       # Universal search results interface
 ├── includes/
 │   ├── header.html               # Shared navigation, dropdowns, and theme switcher
@@ -166,6 +170,14 @@ Right-click `index.html` in VS Code and select **"Open with Live Server"**.
 2. In your repository, navigate to **Settings** > **Pages**.
 3. Under **Branch**, select `main` (or `master`) and directory `/ (root)`.
 4. Click **Save**. Your site will be live at `https://<username>.github.io/<repo-name>/`.
+
+---
+
+## 📬 Contact & Feedback
+
+Have questions, suggestions, or want to contribute?
+- **Email**: [hello@boreddy.com](mailto:hello@boreddy.com)
+- **Website**: [ChoiceBase](https://choicebase.github.io)
 
 ---
 

@@ -3,17 +3,34 @@
     {
       "name": "Electronics Engineer",
       "description": "Designs, models, and verifies high-speed analog, digital, and mixed-signal electronic circuits and power systems.",
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $145,000 / yr",
+      "responsibilities": [
+        "Design schematic architectures and perform circuit simulations using SPICE",
+        "Validate signal integrity, power distribution networks, and thermal dissipation",
+        "Collaborate with PCB and firmware teams for hardware-software co-design",
+        "Ensure EMC/EMI compliance and adherence to ISO/FCC regulatory standards"
+      ],
+      "certifications": [
+        "IPC Certified IPC Specialist (CIS)",
+        "IEEE Certified Biometrics / Hardware Professional",
+        "INCOSE ASEP/CSEP"
+      ],
+      "careerPath": "Junior Hardware Engineer -> Electronics Engineer -> Senior Hardware Architect -> VP of Hardware Engineering",
+      "roadmapRef": "embedded",
       "related": [
         "Embedded Systems Engineer",
         "PCB Designer",
         "Firmware Engineer",
-        "Test Engineer"
+        "Test Engineer",
+        "Power Electronics Engineer"
       ],
       "tools": [
         "Digital Oscilloscope",
         "Spectrum Analyzer",
         "SPICE Simulation",
-        "Altium 365"
+        "Altium 365",
+        "Keysight ADS"
       ],
       "languages": [
         "C",
@@ -25,22 +42,128 @@
         "Analog & Digital Design",
         "Signal Integrity",
         "EMC/EMI Compliance",
-        "Power Management"
+        "Power Management",
+        "Circuit Simulation"
       ]
     },
     {
       "name": "Embedded Systems Engineer",
       "description": "Develops real-time embedded hardware, Edge AI microcontrollers, and IoT sensor network architectures.",
+      "level": "Mid to Senior",
+      "salaryRange": "$105,000 - $165,000 / yr",
+      "responsibilities": [
+        "Architect micro-controller systems for resource-constrained edge computing",
+        "Implement communication protocols (CAN, SPI, I2C, BLE, Zigbee)",
+        "Develop low-power operating modes and battery lifecycle management algorithms",
+        "Integrate TinyML models on ARM Cortex and RISC-V architectures"
+      ],
+      "certifications": [
+        "Arm Certified Engineer",
+        "Embedded Linux Development Certification (LF)",
+        "FreeRTOS Specialist"
+      ],
+      "careerPath": "Embedded Developer -> Embedded Systems Engineer -> Staff Systems Architect -> Director of Embedded Systems",
+      "roadmapRef": "embedded",
       "related": [
         "Electronics Engineer",
         "Firmware Engineer",
-        "IoT Architect"
+        "IoT Architect",
+        "Robotics & Mechatronics Engineer",
+        "Microcontroller Application Engineer"
       ],
       "tools": [
         "JTAG / SWD Debuggers",
         "Logic Analyzers",
         "FreeRTOS",
-        "Zephyr RTOS"
+        "Zephyr RTOS",
+        "Saleae Logic"
+      ],
+      "languages": [
+        "C",
+        "C++",
+        "Rust",
+        "Assembly",
+        "Python"
+      ],
+      "skills": [
+        "Microcontroller Architecture (ARM/RISC-V)",
+        "Hardware Interfacing (I2C/SPI/UART/CAN)",
+        "Low Power Optimization",
+        "Edge ML",
+        "Real-Time OS"
+      ]
+    },
+    {
+      "name": "PCB Designer",
+      "description": "Engineers multi-layer high-density interconnect (HDI) PCB layouts, impedance matching, and thermal dissipation systems.",
+      "level": "Mid-Level",
+      "salaryRange": "$85,000 - $135,000 / yr",
+      "responsibilities": [
+        "Route high-speed differential pairs, RF traces, and matched-length buses",
+        "Design stackups with controlled impedance and minimal crosstalk",
+        "Generate fabrication & assembly packages (Gerber, ODB++, BOM, Pick-and-Place)",
+        "Perform Design for Manufacturing (DFM) and Design for Testability (DFT) checks"
+      ],
+      "certifications": [
+        "IPC CID / CID+ (Certified Interconnect Designer)",
+        "Altium Certified Professional"
+      ],
+      "careerPath": "CAD Drafter -> PCB Layout Engineer -> Senior PCB Designer -> Lead Hardware Packaging Engineer",
+      "roadmapRef": "embedded",
+      "related": [
+        "Electronics Engineer",
+        "Manufacturing Engineer",
+        "Test Engineer",
+        "RF & Microwave Engineer"
+      ],
+      "tools": [
+        "Altium Designer",
+        "Cadence Allegro",
+        "KiCad",
+        "Ansys SIwave",
+        "Siemens PADS"
+      ],
+      "languages": [
+        "Python (Scripting)"
+      ],
+      "skills": [
+        "High-Speed Routing",
+        "DFM/DFA Standards",
+        "Layer Stackup Design",
+        "Thermal Relief Management",
+        "Rigid-Flex Design"
+      ]
+    },
+    {
+      "name": "Firmware Engineer",
+      "description": "Writes low-level deterministic firmware, device drivers, bootloaders, and hardware abstraction layers.",
+      "level": "Mid to Senior",
+      "salaryRange": "$110,000 - $170,000 / yr",
+      "responsibilities": [
+        "Author bare-metal and RTOS firmware for microcontrollers and SoCs",
+        "Develop secure bootloaders and Over-The-Air (OTA) firmware upgrade pipelines",
+        "Implement register-level peripheral drivers (DMA, Timers, ADC/DAC, Ethernet)",
+        "Profile CPU cycles, memory footprints, and interrupt latency"
+      ],
+      "certifications": [
+        "Embedded Software Engineering Certification",
+        "C/C++ Certified Professional (CPP)"
+      ],
+      "careerPath": "Junior Firmware Dev -> Firmware Engineer -> Senior Firmware Lead -> Chief Firmware Architect",
+      "roadmapRef": "embedded",
+      "related": [
+        "Embedded Systems Engineer",
+        "Electronics Engineer",
+        "Test Engineer",
+        "Hardware Security Engineer",
+        "Microcontroller Application Engineer"
+      ],
+      "tools": [
+        "Keil uVision",
+        "STM32CubeIDE",
+        "GDB",
+        "Git",
+        "Segger J-Link"
       ],
       "languages": [
         "C",
@@ -49,98 +172,87 @@
         "Assembly"
       ],
       "skills": [
-        "Microcontroller Architecture (ARM/RISC-V)",
-        "Hardware Interfacing (I2C/SPI/UART/CAN)",
-        "Low Power Optimization",
-        "Edge ML"
-      ]
-    },
-    {
-      "name": "PCB Designer",
-      "description": "Engineers multi-layer high-density interconnect (HDI) PCB layouts, impedance matching, and thermal dissipation systems.",
-      "related": [
-        "Electronics Engineer",
-        "Manufacturing Engineer",
-        "Hardware Test Engineer"
-      ],
-      "tools": [
-        "Altium Designer",
-        "Cadence Allegro",
-        "KiCad",
-        "Ansys SIwave"
-      ],
-      "languages": [],
-      "skills": [
-        "High-Speed Routing",
-        "DFM/DFA Standards",
-        "Layer Stackup Design",
-        "Thermal Relief Management"
-      ]
-    },
-    {
-      "name": "Firmware Engineer",
-      "description": "Writes low-level deterministic firmware, device drivers, bootloaders, and hardware abstraction layers.",
-      "related": [
-        "Embedded Systems Engineer",
-        "Electronics Engineer",
-        "Test Engineer"
-      ],
-      "tools": [
-        "Keil uVision",
-        "STM32CubeIDE",
-        "GDB",
-        "Git"
-      ],
-      "languages": [
-        "C",
-        "C++",
-        "Rust"
-      ],
-      "skills": [
         "RTOS Scheduling",
         "Secure Boot & OTA Updates",
         "DMA & Peripheral Drivers",
-        "Memory Safety"
+        "Memory Safety",
+        "Hardware Debugging"
       ]
     },
     {
       "name": "IoT Architect",
       "description": "Designs end-to-end connected device ecosystems, wireless protocols, telemetry pipelines, and cloud edge sync.",
+      "level": "Senior / Lead",
+      "salaryRange": "$130,000 - $190,000 / yr",
+      "responsibilities": [
+        "Architect scalable IoT device fleet onboarding, provisioning, and key lifecycle",
+        "Select wireless communication topologies (NB-IoT, LoRaWAN, Cellular, Wi-Fi 6, Thread)",
+        "Establish edge-to-cloud security, encryption (TLS/DTLS), and digital twins",
+        "Optimize bandwidth utilization and MQTT/CoAP message serialization"
+      ],
+      "certifications": [
+        "AWS Certified IoT Core Specialty",
+        "Azure IoT Developer Specialty",
+        "LoRa Alliance Certified"
+      ],
+      "careerPath": "IoT Engineer -> Senior IoT Systems Engineer -> IoT Solutions Architect -> VP of Connected Products",
+      "roadmapRef": "embedded",
       "related": [
         "Embedded Systems Engineer",
         "Electronics Engineer",
-        "Firmware Engineer"
+        "Firmware Engineer",
+        "Hardware Security Engineer",
+        "Sensor Integration Specialist"
       ],
       "tools": [
         "MQTT Brokers",
         "AWS IoT Core",
         "Wireshark",
-        "Docker"
+        "Docker",
+        "Azure IoT Hub"
       ],
       "languages": [
         "Python",
         "C++",
-        "Go"
+        "Go",
+        "JavaScript"
       ],
       "skills": [
         "BLE / Zigbee / LoRaWAN",
         "End-to-End Security",
         "Telemetry Ingestion",
-        "Edge Computing"
+        "Edge Computing",
+        "Cloud Integration"
       ]
     },
     {
       "name": "Test Engineer",
       "description": "Automates automated testing equipment (ATE), environmental stress testing, and quality characterization for electronics.",
+      "level": "Mid-Level",
+      "salaryRange": "$85,000 - $135,000 / yr",
+      "responsibilities": [
+        "Design automated test racks with programmable power supplies, loads, and DMMs",
+        "Author automated validation scripts for functional, temperature, and shock testing",
+        "Analyze failure modes, root causes, and yield statistics using 6-Sigma tools",
+        "Build Hardware-In-the-Loop (HIL) simulators for firmware validation"
+      ],
+      "certifications": [
+        "Certified LabVIEW Developer (CLD)",
+        "ASQ Certified Quality Engineer (CQE)"
+      ],
+      "careerPath": "Test Technician -> Test Engineer -> Senior Hardware QA Lead -> Director of Quality Engineering",
+      "roadmapRef": "embedded",
       "related": [
         "Electronics Engineer",
         "Firmware Engineer",
-        "Manufacturing Engineer"
+        "Manufacturing Engineer",
+        "Semiconductor Test & Product Engineer"
       ],
       "tools": [
         "LabVIEW",
         "Automated Test Benches",
-        "Chroma Power Supplies"
+        "Chroma Power Supplies",
+        "TestStand"
       ],
       "languages": [
         "Python",
@@ -157,22 +269,638 @@
     {
       "name": "Manufacturing Engineer",
       "description": "Optimizes high-volume surface mount technology (SMT) lines, automated optical inspection (AOI), and yield rates.",
+      "level": "Mid to Senior",
+      "salaryRange": "$90,000 - $140,000 / yr",
+      "responsibilities": [
+        "Set up solder paste printers, pick-and-place machines, and reflow ovens",
+        "Configure AOI and AXI (Automated X-Ray Inspection) defect classification rules",
+        "Collaborate with suppliers to streamline component sourcing and pallet designs",
+        "Implement lean manufacturing and continuous cycle-time reductions"
+      ],
+      "certifications": [
+        "Six Sigma Green/Black Belt",
+        "SME Certified Manufacturing Engineer (CMfgE)"
+      ],
+      "careerPath": "Manufacturing Tech -> Manufacturing Engineer -> Plant Ops Manager -> Director of Global Manufacturing",
+      "roadmapRef": "embedded",
       "related": [
         "PCB Designer",
         "Test Engineer",
-        "Electronics Engineer"
+        "Electronics Engineer",
+        "Semiconductor Test & Product Engineer"
       ],
       "tools": [
         "SMT Pick-and-Place Tools",
         "MES Systems",
-        "AOI Scanners"
+        "AOI Scanners",
+        "Minitab"
       ],
-      "languages": [],
+      "languages": [
+        "Python",
+        "SQL"
+      ],
       "skills": [
         "SMT Assembly",
         "Six Sigma",
         "Root Cause Analysis",
-        "Yield Maximization"
+        "Yield Maximization",
+        "DFM/DFA"
+      ]
+    },
+    {
+      "name": "VLSI Physical Design Engineer",
+      "description": "Transforms RTL/gate-level netlists into complete silicon layout, optimizing power, performance, and area (PPA).",
+      "level": "Senior / Lead",
+      "salaryRange": "$135,000 - $210,000 / yr",
+      "responsibilities": [
+        "Execute floorplanning, power grid synthesis, and clock tree synthesis (CTS)",
+        "Run placement and routing (P&R) across sub-5nm semiconductor process nodes",
+        "Achieve timing closure via Static Timing Analysis (STA) across all PVT corners",
+        "Verify physical DRC, LVS, antenna rules, and electromigration constraints"
+      ],
+      "certifications": [
+        "Cadence Certified Physical Design Specialist",
+        "Synopsys Design Compiler Certified"
+      ],
+      "careerPath": "Physical Design Engineer -> Senior P&R Lead -> Principal Chip Architect -> Director of Silicon Engineering",
+      "roadmapRef": "vlsi",
+      "related": [
+        "ASIC Verification Engineer",
+        "FPGA Design Engineer",
+        "Analog & Mixed-Signal IC Designer",
+        "Semiconductor Test & Product Engineer"
+      ],
+      "tools": [
+        "Synopsys ICC2",
+        "Cadence Innovus",
+        "PrimeTime",
+        "Calibre DRC/LVS",
+        "RedHawk"
+      ],
+      "languages": [
+        "Tcl",
+        "Python",
+        "Perl",
+        "Verilog"
+      ],
+      "skills": [
+        "Floorplanning & P&R",
+        "Static Timing Analysis (STA)",
+        "Clock Tree Synthesis (CTS)",
+        "PPA Optimization",
+        "DRC/LVS Verification"
+      ]
+    },
+    {
+      "name": "ASIC Verification Engineer",
+      "description": "Develops robust Universal Verification Methodology (UVM) testbenches and ensures 100% functional and code coverage.",
+      "level": "Mid to Senior",
+      "salaryRange": "$125,000 - $195,000 / yr",
+      "responsibilities": [
+        "Build constrained-random verification environments using SystemVerilog and UVM",
+        "Write functional assertions (SVA) and covergroups to validate architectural specs",
+        "Perform formal property verification and gate-level simulation debug",
+        "Analyze corner-case silicon bugs before tape-out"
+      ],
+      "certifications": [
+        "UVM Verification Certified Professional",
+        "IEEE SystemVerilog Specialist"
+      ],
+      "careerPath": "Verification Engineer -> Senior UVM Architect -> Verification Manager -> VP of Silicon Quality",
+      "roadmapRef": "vlsi",
+      "related": [
+        "VLSI Physical Design Engineer",
+        "FPGA Design Engineer",
+        "Analog & Mixed-Signal IC Designer",
+        "Semiconductor Test & Product Engineer"
+      ],
+      "tools": [
+        "Synopsys VCS",
+        "Cadence Xcelium",
+        "Siemens QuestaSim",
+        "Verdi Debugger"
+      ],
+      "languages": [
+        "SystemVerilog",
+        "UVM",
+        "Python",
+        "C++"
+      ],
+      "skills": [
+        "UVM Testbenches",
+        "Constrained-Random Testing",
+        "SystemVerilog Assertions (SVA)",
+        "Coverage-Driven Verification",
+        "Gate-Level Simulation"
+      ]
+    },
+    {
+      "name": "FPGA Design Engineer",
+      "description": "Implements ultra-low-latency digital signal processing and acceleration algorithms on modern FPGA fabrics.",
+      "level": "Mid to Senior",
+      "salaryRange": "$115,000 - $180,000 / yr",
+      "responsibilities": [
+        "Author RTL in VHDL and SystemVerilog for high-throughput streaming pipelines",
+        "Integrate PCIe, 100GbE, and high-speed memory controllers (DDR4/DDR5/HBM)",
+        "Close timing at high clock frequencies with aggressive pipeline stages",
+        "Deploy hardware acceleration for fintech, telecom 5G, or neural network inference"
+      ],
+      "certifications": [
+        "AMD Xilinx Certified Professional",
+        "Intel FPGA Designer Certification"
+      ],
+      "careerPath": "FPGA Developer -> Senior FPGA Architect -> Lead Acceleration Engineer -> VP of Hardware Systems",
+      "roadmapRef": "vlsi",
+      "related": [
+        "VLSI Physical Design Engineer",
+        "ASIC Verification Engineer",
+        "Signal Processing Engineer",
+        "Embedded Systems Engineer"
+      ],
+      "tools": [
+        "Vivado Design Suite",
+        "Intel Quartus Prime",
+        "ModelSim",
+        "Vitis HLS"
+      ],
+      "languages": [
+        "Verilog",
+        "SystemVerilog",
+        "VHDL",
+        "C++",
+        "Python"
+      ],
+      "skills": [
+        "RTL Coding",
+        "High-Level Synthesis (HLS)",
+        "Timing Closure",
+        "High-Speed SerDes",
+        "Hardware Acceleration"
+      ]
+    },
+    {
+      "name": "RF & Microwave Engineer",
+      "description": "Designs high-frequency transceivers, antenna arrays, power amplifiers, and wireless front-ends.",
+      "level": "Senior / Specialist",
+      "salaryRange": "$120,000 - $185,000 / yr",
+      "responsibilities": [
+        "Model transmission lines, microstrip circuits, and Smith chart matching networks",
+        "Design RF power amplifiers (PA), low noise amplifiers (LNA), and beamforming antennas",
+        "Perform EM simulations for 5G/6G, radar, satellite, and Wi-Fi 7 modules",
+        "Measure S-parameters, noise figures, and EVM using Vector Network Analyzers (VNA)"
+      ],
+      "certifications": [
+        "iNARTE Certified RF/EMC Engineer",
+        "Keysight RF Systems Specialist"
+      ],
+      "careerPath": "RF Engineer -> Senior Microwave Specialist -> Principal RF Architect -> Chief RF Scientist",
+      "roadmapRef": "embedded",
+      "related": [
+        "Electronics Engineer",
+        "PCB Designer",
+        "IoT Architect",
+        "Analog & Mixed-Signal IC Designer"
+      ],
+      "tools": [
+        "Keysight ADS",
+        "Ansys HFSS",
+        "Vector Network Analyzer (VNA)",
+        "CST Studio Suite"
+      ],
+      "languages": [
+        "MATLAB",
+        "Python"
+      ],
+      "skills": [
+        "RF Transceiver Design",
+        "Electromagnetic Simulation",
+        "Antenna Design",
+        "Smith Chart Matching",
+        "Noise & Intermodulation Analysis"
+      ]
+    },
+    {
+      "name": "Robotics & Mechatronics Engineer",
+      "description": "Integrates electro-mechanical actuators, motor drivers, sensor fusion, and closed-loop motion control.",
+      "level": "Mid to Senior",
+      "salaryRange": "$105,000 - $165,000 / yr",
+      "responsibilities": [
+        "Design BLDC/PMSM motor drive electronics, H-bridges, and current sensing loops",
+        "Implement PID, FOC (Field Oriented Control), and trajectory planning algorithms",
+        "Integrate IMUs, encoders, LiDAR, and computer vision sensors",
+        "Validate mechanical-electrical tolerances and dynamic responsiveness"
+      ],
+      "certifications": [
+        "ROS / ROS 2 Developer Certified",
+        "Mechatronics Systems Certified (SMSCP)"
+      ],
+      "careerPath": "Mechatronics Engineer -> Robotics Systems Lead -> Autonomous Systems Director",
+      "roadmapRef": "embedded",
+      "related": [
+        "Embedded Systems Engineer",
+        "Mechatronics Control Specialist",
+        "Electronics Engineer",
+        "Firmware Engineer",
+        "Sensor Integration Specialist"
+      ],
+      "tools": [
+        "ROS / ROS 2",
+        "MATLAB Simulink",
+        "SolidWorks",
+        "CANalyzer",
+        "Gazebo"
+      ],
+      "languages": [
+        "C++",
+        "Python",
+        "C"
+      ],
+      "skills": [
+        "Field-Oriented Control (FOC)",
+        "Sensor Fusion (Kalman Filtering)",
+        "Motor Drive Design",
+        "Kinematics & Dynamics",
+        "CAN/EtherCAT Protocols"
+      ]
+    },
+    {
+      "name": "Hardware Security Engineer",
+      "description": "Protects electronic circuits against side-channel attacks, fault injection, hardware trojans, and reverse engineering.",
+      "level": "Senior / Lead",
+      "salaryRange": "$130,000 - $200,000 / yr",
+      "responsibilities": [
+        "Perform power analysis (DPA/CPA) and fault injection (laser/voltage glitching) audits",
+        "Implement Hardware Root of Trust (RoT), PUFs (Physically Unclonable Functions), and TPM",
+        "Secure JTAG/debug ports against physical extraction and memory tampering",
+        "Architect cryptographic hardware accelerators (AES, ECC, Post-Quantum Crypto)"
+      ],
+      "certifications": [
+        "Certified Information Systems Security Professional (CISSP)",
+        "Hardware Hacking Specialist"
+      ],
+      "careerPath": "Security Analyst -> Hardware Security Engineer -> Principal Trust Architect -> Head of Product Security",
+      "roadmapRef": "embedded",
+      "related": [
+        "Firmware Engineer",
+        "IoT Architect",
+        "Embedded Systems Engineer",
+        "ASIC Verification Engineer"
+      ],
+      "tools": [
+        "ChipWhisperer",
+        "Oscilloscopes",
+        "Ghidra",
+        "OpenOCD",
+        "JTAGulator"
+      ],
+      "languages": [
+        "C",
+        "C++",
+        "Python",
+        "Assembly"
+      ],
+      "skills": [
+        "Side-Channel Analysis",
+        "Fault Injection",
+        "Hardware Root of Trust",
+        "Cryptographic Hardware",
+        "Secure Boot Architecture"
+      ]
+    },
+    {
+      "name": "Power Electronics Engineer",
+      "description": "Designs high-efficiency switched-mode power supplies (SMPS), inverters, and battery management systems (BMS).",
+      "level": "Mid to Senior",
+      "salaryRange": "$105,000 - $160,000 / yr",
+      "responsibilities": [
+        "Architect DC-DC buck, boost, flyback, and resonant LLC converters",
+        "Utilize Wide Bandgap (WBG) semiconductors: GaN (Gallium Nitride) and SiC (Silicon Carbide)",
+        "Design high-voltage isolation, gate drivers, and magnetic component transformers",
+        "Optimize power density, thermal dissipation, and conversion efficiencies above 98%"
+      ],
+      "certifications": [
+        "IEEE Power Electronics Society Certified",
+        "High Voltage Safety Certification"
+      ],
+      "careerPath": "Power Engineer -> Senior Power Architect -> Principal Energy Systems Engineer",
+      "roadmapRef": "embedded",
+      "related": [
+        "Electronics Engineer",
+        "PCB Designer",
+        "Manufacturing Engineer",
+        "Analog & Mixed-Signal IC Designer"
+      ],
+      "tools": [
+        "PLECS",
+        "LTspice",
+        "PSIM",
+        "Thermal Imaging Cameras",
+        "Power Analyzers"
+      ],
+      "languages": [
+        "C",
+        "MATLAB"
+      ],
+      "skills": [
+        "SMPS Topology Design",
+        "GaN & SiC Implementation",
+        "Magnetics & Inductor Design",
+        "Thermal Analysis",
+        "Battery Management (BMS)"
+      ]
+    },
+    {
+      "name": "Signal Processing Engineer",
+      "description": "Develops real-time digital filtering, spectral estimation, audio/radar beamforming, and image enhancement pipelines.",
+      "level": "Senior / Specialist",
+      "salaryRange": "$115,000 - $175,000 / yr",
+      "responsibilities": [
+        "Model FIR, IIR, adaptive LMS, and Kalman filters for noisy sensory data",
+        "Convert floating-point mathematical algorithms to fixed-point embedded implementations",
+        "Design FFT/wavelet spectral analysis pipelines for audio, radar, or biomedical signals",
+        "Optimize SIMD/NEON vector instructions for DSP and ARM cores"
+      ],
+      "certifications": [
+        "DSP Specialist Certification",
+        "MATLAB Certified Associate"
+      ],
+      "careerPath": "DSP Engineer -> Senior Signal Architect -> Principal Algorithmic Scientist",
+      "roadmapRef": "embedded",
+      "related": [
+        "FPGA Design Engineer",
+        "Embedded Systems Engineer",
+        "Sensor Integration Specialist",
+        "Robotics & Mechatronics Engineer"
+      ],
+      "tools": [
+        "MATLAB",
+        "Simulink",
+        "GNU Radio",
+        "Texas Instruments Code Composer Studio"
+      ],
+      "languages": [
+        "C",
+        "C++",
+        "MATLAB",
+        "Python"
+      ],
+      "skills": [
+        "Digital Filtering (FIR/IIR)",
+        "Fixed-Point Arithmetic",
+        "Spectral Estimation (FFT)",
+        "Adaptive Signal Processing",
+        "SIMD Vectorization"
+      ]
+    },
+    {
+      "name": "Analog & Mixed-Signal IC Designer",
+      "description": "Designs custom silicon transistor-level operational amplifiers, bandgaps, PLLs, ADCs, and DACs.",
+      "level": "Senior / Principal",
+      "salaryRange": "$135,000 - $215,000 / yr",
+      "responsibilities": [
+        "Design transistor schematics for low-noise amplifiers, op-amps, and high-speed data converters",
+        "Simulate Monte Carlo process variations, noise analysis, and corner models",
+        "Guide custom silicon layout for common-centroid matching, shielding, and guard rings",
+        "Perform silicon post-silicon characterization in cleanroom lab benches"
+      ],
+      "certifications": [
+        "Cadence Certified Custom IC Designer",
+        "IEEE Solid-State Circuits Society Fellow Track"
+      ],
+      "careerPath": "Analog IC Engineer -> Senior Mixed-Signal Lead -> Principal Silicon Architect",
+      "roadmapRef": "vlsi",
+      "related": [
+        "VLSI Physical Design Engineer",
+        "ASIC Verification Engineer",
+        "RF & Microwave Engineer",
+        "Semiconductor Test & Product Engineer"
+      ],
+      "tools": [
+        "Cadence Virtuoso",
+        "Synopsys Custom Compiler",
+        "Spectre Simulator",
+        "Mentor Calibre"
+      ],
+      "languages": [
+        "Verilog-A",
+        "Skill",
+        "Python"
+      ],
+      "skills": [
+        "Op-Amp & Bandgap Design",
+        "ADC/DAC Architecture (SAR/Delta-Sigma)",
+        "Transistor Matching & Layout",
+        "Noise & Monte Carlo Analysis",
+        "Silicon Characterization"
+      ]
+    },
+    {
+      "name": "Semiconductor Test & Product Engineer",
+      "description": "Brings new silicon chips from foundry tape-out to high-volume qualified production through automated wafer sorting.",
+      "level": "Mid to Senior",
+      "salaryRange": "$105,000 - $160,000 / yr",
+      "responsibilities": [
+        "Program Automated Test Equipment (ATE) for wafer sort and final package testing",
+        "Design probe cards, load boards, and socket fixtures for silicon characterization",
+        "Perform yield analysis, shmoo plotting, and burn-in reliability qualification",
+        "Collaborate with foundries (TSMC, GlobalFoundries) on wafer defects and dicing"
+      ],
+      "certifications": [
+        "Advantest / Teradyne Certified Test Engineer",
+        "JEDEC Reliability Specialist"
+      ],
+      "careerPath": "Product Engineer -> Senior ATE Lead -> Director of Semiconductor Operations",
+      "roadmapRef": "vlsi",
+      "related": [
+        "Test Engineer",
+        "Manufacturing Engineer",
+        "VLSI Physical Design Engineer",
+        "Analog & Mixed-Signal IC Designer"
+      ],
+      "tools": [
+        "Teradyne UltraFLEX",
+        "Advantest V93000",
+        "JMP Statistical Software",
+        "Wafer Probers"
+      ],
+      "languages": [
+        "C++",
+        "Python",
+        "Perl"
+      ],
+      "skills": [
+        "ATE Programming",
+        "Wafer Sort & Final Test",
+        "Yield Enhancement",
+        "Silicon Reliability Testing",
+        "Failure Mode Analysis"
+      ]
+    },
+    {
+      "name": "Microcontroller Application Engineer",
+      "description": "Develops reference designs, application notes, evaluation kits, and customer firmware implementations.",
+      "level": "Mid-Level",
+      "salaryRange": "$95,000 - $145,000 / yr",
+      "responsibilities": [
+        "Design proof-of-concept hardware evaluation boards demonstrating silicon features",
+        "Author software development kits (SDKs), middleware libraries, and peripheral drivers",
+        "Troubleshoot field technical issues for OEM client engineering teams",
+        "Publish comprehensive technical application notes and benchmark reports"
+      ],
+      "certifications": [
+        "Microchip Certified Technical Specialist",
+        "Arm Certified Solutions Architect"
+      ],
+      "careerPath": "Field Application Engineer -> Microcontroller Specialist -> Director of Customer Solutions",
+      "roadmapRef": "embedded",
+      "related": [
+        "Embedded Systems Engineer",
+        "Firmware Engineer",
+        "Electronics Engineer",
+        "Sensor Integration Specialist"
+      ],
+      "tools": [
+        "STM32CubeMX",
+        "MPLAB X",
+        "VS Code with PlatformIO",
+        "Logic Analyzers"
+      ],
+      "languages": [
+        "C",
+        "C++",
+        "Python"
+      ],
+      "skills": [
+        "Reference Design Engineering",
+        "SDK Development",
+        "Technical Troubleshooting",
+        "Peripheral Interfacing",
+        "Customer Technical Consulting"
+      ]
+    },
+    {
+      "name": "Sensor Integration Specialist",
+      "description": "Selects, calibrates, and integrates environmental, optical, inertial, and biomedical sensors into compact devices.",
+      "level": "Mid to Senior",
+      "salaryRange": "$100,000 - $155,000 / yr",
+      "responsibilities": [
+        "Evaluate MEMS accelerometers, gyroscopes, magnetometers, gas sensors, and photodiode arrays",
+        "Implement multi-point temperature calibration and drift compensation algorithms",
+        "Design low-noise analog signal conditioning circuitry (instrumentation amplifiers, active filters)",
+        "Characterize latency, quantization noise, and dynamic range"
+      ],
+      "certifications": [
+        "MEMS Sensor Integration Specialist",
+        "IEEE Sensors Council Member"
+      ],
+      "careerPath": "Sensor Engineer -> Senior Integration Specialist -> Principal Sensor Systems Lead",
+      "roadmapRef": "embedded",
+      "related": [
+        "Embedded Systems Engineer",
+        "IoT Architect",
+        "Robotics & Mechatronics Engineer",
+        "Signal Processing Engineer"
+      ],
+      "tools": [
+        "LabVIEW",
+        "MATLAB",
+        "Environmental Test Chambers",
+        "Oscilloscopes"
+      ],
+      "languages": [
+        "C",
+        "Python",
+        "MATLAB"
+      ],
+      "skills": [
+        "MEMS Sensor Interfacing",
+        "Calibration & Compensation",
+        "Low-Noise Signal Conditioning",
+        "Sensor Fusion",
+        "I2C/SPI Interfacing"
+      ]
+    },
+    {
+      "name": "Optical & Optoelectronics Engineer",
+      "description": "Designs laser diodes, photodetectors, fiber optic transceivers, and photonic integrated circuits.",
+      "level": "Senior / Specialist",
+      "salaryRange": "$115,000 - $180,000 / yr",
+      "responsibilities": [
+        "Design optical waveguides, collimating lenses, and laser driver circuits",
+        "Simulate beam propagation, diffraction, and coupling losses using photonics CAD",
+        "Integrate high-speed optical transceivers for data centers and LiDAR systems",
+        "Perform eye diagram and bit error rate (BER) measurements up to 100Gbps"
+      ],
+      "certifications": [
+        "SPIE Photonics Certified Professional",
+        "Laser Safety Officer (LSO)"
+      ],
+      "careerPath": "Optics Engineer -> Senior Photonics Architect -> Chief Optical Scientist",
+      "roadmapRef": "embedded",
+      "related": [
+        "Electronics Engineer",
+        "RF & Microwave Engineer",
+        "Sensor Integration Specialist",
+        "Analog & Mixed-Signal IC Designer"
+      ],
+      "tools": [
+        "Lumerical FDTD",
+        "Zemax OpticStudio",
+        "Optical Spectrum Analyzers",
+        "Bit Error Rate Testers (BERT)"
+      ],
+      "languages": [
+        "Python",
+        "MATLAB"
+      ],
+      "skills": [
+        "Photonics Design",
+        "Laser Diode Control",
+        "Fiber Optic Transceivers",
+        "LiDAR Optical Front-Ends",
+        "BER Measurement"
+      ]
+    },
+    {
+      "name": "Mechatronics Control Specialist",
+      "description": "Optimizes high-precision servo positioning, PID loops, and real-time state feedback for automated machines.",
+      "level": "Mid to Senior",
+      "salaryRange": "$100,000 - $160,000 / yr",
+      "responsibilities": [
+        "Model transfer functions, Bode plots, and root locus stability criteria for electromechanical axes",
+        "Tune cascade PID, feedforward, and active vibration damping controllers",
+        "Integrate absolute optical encoders and linear scales with sub-micron resolution",
+        "Implement safety-rated stop protocols and emergency interlocks"
+      ],
+      "certifications": [
+        "Certified Motion Control Specialist",
+        "TUV Functional Safety Engineer"
+      ],
+      "careerPath": "Controls Engineer -> Senior Mechatronics Specialist -> Director of Industrial Automation",
+      "roadmapRef": "embedded",
+      "related": [
+        "Robotics & Mechatronics Engineer",
+        "Embedded Systems Engineer",
+        "Firmware Engineer",
+        "Test Engineer"
+      ],
+      "tools": [
+        "Beckhoff TwinCAT",
+        "Simulink Control Design",
+        "Elmo Motion Studio",
+        "CANopen"
+      ],
+      "languages": [
+        "Structured Text (IEC 61131-3)",
+        "C++",
+        "Python"
+      ],
+      "skills": [
+        "Cascade PID Tuning",
+        "Frequency Response Analysis",
+        "Vibration Suppression",
+        "EtherCAT Motion Control",
+        "Functional Safety (ISO 13849)"
       ]
     }
   ]

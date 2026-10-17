@@ -1,982 +1,1878 @@
-﻿{
-    "roles":  [
-                  {
-                      "name":  "AI \u0026 LLM Engineer",
-                      "description":  "Architects, fine-tunes, and deploys frontier generative AI models, multi-agent systems, and production RAG pipelines.",
-                      "related":  [
-                                      "Data Scientist",
-                                      "ML Engineer",
-                                      "Data Engineer",
-                                      "Full Stack",
-                                      "DevOps"
-                                  ],
-                      "tools":  [
-                                    "PyTorch",
-                                    "LangChain",
-                                    "LlamaIndex",
-                                    "vLLM",
-                                    "Ollama",
-                                    "Hugging Face",
-                                    "Pinecone",
-                                    "Qdrant"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "Rust",
-                                        "TypeScript",
-                                        "C++"
-                                    ],
-                      "skills":  [
-                                     "RAG Architecture",
-                                     "Model Fine-Tuning",
-                                     "Agentic Workflows",
-                                     "Vector Embeddings",
-                                     "Prompt Engineering"
-                                 ]
-                  },
-                  {
-                      "name":  "MLOps Engineer",
-                      "description":  "Automates the continuous integration, deployment, monitoring, and scaling of machine learning and LLM models in production.",
-                      "related":  [
-                                      "AI \u0026 LLM Engineer",
-                                      "ML Engineer",
-                                      "DevOps",
-                                      "Cloud Engineer",
-                                      "Data Engineer"
-                                  ],
-                      "tools":  [
-                                    "Kubernetes",
-                                    "MLflow",
-                                    "Kubeflow",
-                                    "Docker",
-                                    "Ray",
-                                    "Weights \u0026 Biases",
-                                    "Triton Server"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "Bash",
-                                        "YAML",
-                                        "Go"
-                                    ],
-                      "skills":  [
-                                     "Model CI/CD",
-                                     "Inference Scaling",
-                                     "Drift Detection",
-                                     "GPU Orchestration",
-                                     "Pipeline Automation"
-                                 ]
-                  },
-                  {
-                      "name":  "Cloud Security Architect",
-                      "description":  "Architects IAM boundaries, Zero Trust network segments, cloud governance policies, and threat protection.",
-                      "related":  [
-                                      "Security Engineer",
-                                      "Cloud Engineer",
-                                      "DevOps",
-                                      "Back End"
-                                  ],
-                      "tools":  [
-                                    "CrowdStrike",
-                                    "Wiz",
-                                    "Palo Alto Prisma",
-                                    "Terraform",
-                                    "Vault"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "Bash",
-                                        "Go"
-                                    ],
-                      "skills":  [
-                                     "Zero Trust Architecture",
-                                     "Cloud Security Posture Management (CSPM)",
-                                     "IAM Federation",
-                                     "Incident Response"
-                                 ]
-                  },
-                  {
-                      "name":  "Data Engineer",
-                      "description":  "Builds and maintains scalable data pipelines and architectures for collecting, storing, and processing large volumes of data.",
-                      "related":  [
-                                      "DBMS",
-                                      "Data Analyst",
-                                      "Data Scientist",
-                                      "Cloud Engineer",
-                                      "ML Engineer",
-                                      "Scrum Master"
-                                  ],
-                      "tools":  [
-                                    "Apache Spark",
-                                    "Airflow",
-                                    "Kafka",
-                                    "Hadoop",
-                                    "AWS Glue",
-                                    "Databricks",
-                                    "Snowflake"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "Scala",
-                                        "SQL",
-                                        "Java"
-                                    ],
-                      "skills":  [
-                                     "ETL",
-                                     "Data Pipeline Design",
-                                     "Big Data Processing",
-                                     "Data Warehousing",
-                                     "Data Quality",
-                                     "Batch Processing",
-                                     "Streaming Data"
-                                 ]
-                  },
-                  {
-                      "name":  "Data Analyst",
-                      "description":  "Interprets data, analyzes trends, and produces actionable insights to support business decisions.",
-                      "related":  [
-                                      "Data Engineer",
-                                      "DBMS",
-                                      "Data Scientist",
-                                      "Business Analyst",
-                                      "Product Manager"
-                                  ],
-                      "tools":  [
-                                    "Tableau",
-                                    "Power BI",
-                                    "Excel",
-                                    "Google Data Studio",
-                                    "Looker",
-                                    "QlikView"
-                                ],
-                      "languages":  [
-                                        "SQL",
-                                        "Python",
-                                        "R"
-                                    ],
-                      "skills":  [
-                                     "Data Visualization",
-                                     "Statistical Analysis",
-                                     "Reporting",
-                                     "Data Cleaning",
-                                     "Business Intelligence",
-                                     "Dashboarding"
-                                 ]
-                  },
-                  {
-                      "name":  "Data Scientist",
-                      "description":  "Extracts insights from data using advanced analytics, statistics, and machine learning, often building predictive models.",
-                      "related":  [
-                                      "Data Engineer",
-                                      "Data Analyst",
-                                      "ML Engineer",
-                                      "Research Scientist"
-                                  ],
-                      "tools":  [
-                                    "Jupyter",
-                                    "TensorFlow",
-                                    "PyTorch",
-                                    "Scikit-learn",
-                                    "Keras",
-                                    "RStudio",
-                                    "MLflow"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "R",
-                                        "Scala"
-                                    ],
-                      "skills":  [
-                                     "Machine Learning",
-                                     "Statistical Modeling",
-                                     "Data Mining",
-                                     "Predictive Analytics",
-                                     "Deep Learning",
-                                     "Experimentation"
-                                 ]
-                  },
-                  {
-                      "name":  "ML Engineer",
-                      "description":  "Specializes in deploying, optimizing, and maintaining machine learning models in production environments.",
-                      "related":  [
-                                      "Data Scientist",
-                                      "Data Engineer",
-                                      "DevOps",
-                                      "Cloud Engineer"
-                                  ],
-                      "tools":  [
-                                    "TensorFlow",
-                                    "PyTorch",
-                                    "ONNX",
-                                    "Kubeflow",
-                                    "MLflow",
-                                    "Seldon Core"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "Scala",
-                                        "Java"
-                                    ],
-                      "skills":  [
-                                     "Model Deployment",
-                                     "Model Optimization",
-                                     "Data Pipelines",
-                                     "A/B Testing",
-                                     "Monitoring",
-                                     "MLOps"
-                                 ]
-                  },
-                  {
-                      "name":  "DBMS",
-                      "description":  "Designs, implements, and manages databases, ensuring data integrity, performance, and security.",
-                      "related":  [
-                                      "Data Engineer",
-                                      "Data Analyst",
-                                      "Back End",
-                                      "Cloud Engineer",
-                                      "Database Administrator"
-                                  ],
-                      "tools":  [
-                                    "MySQL",
-                                    "PostgreSQL",
-                                    "MongoDB",
-                                    "Redis",
-                                    "Oracle DB",
-                                    "Microsoft SQL Server",
-                                    "Cassandra"
-                                ],
-                      "languages":  [
-                                        "SQL",
-                                        "PL/SQL"
-                                    ],
-                      "skills":  [
-                                     "Database Design",
-                                     "Query Optimization",
-                                     "Backup \u0026 Recovery",
-                                     "Replication",
-                                     "Data Security",
-                                     "Indexing"
-                                 ]
-                  },
-                  {
-                      "name":  "Database Administrator",
-                      "description":  "Maintains and secures databases, performs tuning, backup, recovery, and ensures high availability.",
-                      "related":  [
-                                      "DBMS",
-                                      "Data Engineer",
-                                      "Security Engineer",
-                                      "Cloud Engineer"
-                                  ],
-                      "tools":  [
-                                    "Oracle DB",
-                                    "SQL Server Management Studio",
-                                    "pgAdmin",
-                                    "MySQL Workbench",
-                                    "MongoDB Compass"
-                                ],
-                      "languages":  [
-                                        "SQL",
-                                        "PL/SQL",
-                                        "T-SQL",
-                                        "Shell"
-                                    ],
-                      "skills":  [
-                                     "Database Administration",
-                                     "Performance Tuning",
-                                     "Backup \u0026 Recovery",
-                                     "User Management",
-                                     "Disaster Recovery"
-                                 ]
-                  },
-                  {
-                      "name":  "Business Analyst",
-                      "description":  "Bridges business needs and technology solutions by analyzing requirements and defining specifications.",
-                      "related":  [
-                                      "Data Analyst",
-                                      "Product Manager",
-                                      "QA Engineer",
-                                      "Data Scientist"
-                                  ],
-                      "tools":  [
-                                    "Excel",
-                                    "Tableau",
-                                    "Jira",
-                                    "Confluence",
-                                    "Power BI"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Requirements Gathering",
-                                     "Process Modeling",
-                                     "Stakeholder Management",
-                                     "Documentation",
-                                     "Data Analysis"
-                                 ]
-                  },
-                  {
-                      "name":  "Research Scientist",
-                      "description":  "Conducts advanced research on algorithms, models, and data-driven methods, often publishing findings.",
-                      "related":  [
-                                      "Data Scientist",
-                                      "ML Engineer"
-                                  ],
-                      "tools":  [
-                                    "Jupyter",
-                                    "MATLAB",
-                                    "R",
-                                    "TensorFlow",
-                                    "PyTorch"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "R",
-                                        "MATLAB"
-                                    ],
-                      "skills":  [
-                                     "Algorithm Development",
-                                     "Statistical Analysis",
-                                     "Scientific Writing",
-                                     "Experiment Design",
-                                     "Machine Learning"
-                                 ]
-                  },
-                  {
-                      "name":  "Data Steward",
-                      "description":  "Ensures data quality, governance, and compliance across the organization.",
-                      "related":  [
-                                      "Data Engineer",
-                                      "Database Administrator",
-                                      "Security Engineer"
-                                  ],
-                      "tools":  [
-                                    "Collibra",
-                                    "Informatica",
-                                    "Alation",
-                                    "Talend"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Data Governance",
-                                     "Data Quality",
-                                     "Compliance",
-                                     "Metadata Management",
-                                     "Policy Enforcement"
-                                 ]
-                  },
-                  {
-                      "name":  "Data Architect",
-                      "description":  "Designs and oversees the data architecture, including data models, integration, and flows.",
-                      "related":  [
-                                      "Data Engineer",
-                                      "DBMS",
-                                      "Cloud Engineer",
-                                      "Business Analyst"
-                                  ],
-                      "tools":  [
-                                    "Erwin Data Modeler",
-                                    "Lucidchart",
-                                    "AWS Glue",
-                                    "Snowflake"
-                                ],
-                      "languages":  [
-                                        "SQL",
-                                        "Python"
-                                    ],
-                      "skills":  [
-                                     "Data Modeling",
-                                     "Data Integration",
-                                     "Architecture Design",
-                                     "Scalability",
-                                     "Documentation"
-                                 ]
-                  },
-                  {
-                      "name":  "Full Stack",
-                      "description":  "Combines both front-end and back-end development skills, capable of building complete web applications.",
-                      "includes":  [
-                                       "Front End",
-                                       "Back End"
-                                   ],
-                      "related":  [
-                                      "API",
-                                      "DevOps",
-                                      "Mobile Developer"
-                                  ],
-                      "tools":  [
-                                    "Git",
-                                    "Docker",
-                                    "Jenkins",
-                                    "ReactJS",
-                                    "AngularJS",
-                                    "VueJS",
-                                    "jQuery",
-                                    "Webpack",
-                                    "Babel",
-                                    "Sass",
-                                    "Bootstrap",
-                                    "Node.js",
-                                    "Express",
-                                    "Django",
-                                    "Next.js",
-                                    "Tailwind CSS",
-                                    "Supabase",
-                                    "Cursor"
-                                ],
-                      "languages":  [
-                                        "JavaScript",
-                                        "Python",
-                                        "Java",
-                                        "HTML",
-                                        "CSS",
-                                        "TypeScript"
-                                    ],
-                      "skills":  [
-                                     "System Design",
-                                     "DevOps",
-                                     "API Integration",
-                                     "Testing",
-                                     "Agile"
-                                 ]
-                  },
-                  {
-                      "name":  "Front End",
-                      "description":  "Responsible for building the user interface and user experience of web applications, ensuring accessibility, responsiveness, and interactivity.",
-                      "related":  [
-                                      "Back End",
-                                      "API",
-                                      "UI/UX Designer",
-                                      "Mobile Developer"
-                                  ],
-                      "tools":  [
-                                    "ReactJS",
-                                    "AngularJS",
-                                    "VueJS",
-                                    "jQuery",
-                                    "Webpack",
-                                    "Babel",
-                                    "Sass",
-                                    "Bootstrap",
-                                    "Vite",
-                                    "React 19",
-                                    "Tailwind CSS",
-                                    "Shadcn/ui"
-                                ],
-                      "languages":  [
-                                        "HTML",
-                                        "CSS",
-                                        "JavaScript",
-                                        "TypeScript"
-                                    ],
-                      "skills":  [
-                                     "Responsive Design",
-                                     "Accessibility",
-                                     "Cross-Browser Compatibility",
-                                     "UI/UX Design",
-                                     "Performance Optimization"
-                                 ]
-                  },
-                  {
-                      "name":  "Back End",
-                      "description":  "Handles the business logic, database interactions, and server-side operations of applications, ensuring security, scalability, and reliability.",
-                      "related":  [
-                                      "Front End",
-                                      "Server",
-                                      "DBMS",
-                                      "API",
-                                      "DevOps"
-                                  ],
-                      "tools":  [
-                                    "Node.js",
-                                    "Express",
-                                    "Django",
-                                    "Flask",
-                                    "Spring Boot",
-                                    "Ruby on Rails",
-                                    "ASP.NET",
-                                    "FastAPI",
-                                    "PostgreSQL",
-                                    "Redis",
-                                    "Docker"
-                                ],
-                      "languages":  [
-                                        "JavaScript",
-                                        "Python",
-                                        "Java",
-                                        "PHP",
-                                        "Ruby",
-                                        "C#",
-                                        "Go"
-                                    ],
-                      "skills":  [
-                                     "API Development",
-                                     "Authentication",
-                                     "Business Logic",
-                                     "Security",
-                                     "Scalability"
-                                 ]
-                  },
-                  {
-                      "name":  "API",
-                      "description":  "Designs and implements interfaces for communication between different software components or services, often using RESTful or GraphQL standards.",
-                      "related":  [
-                                      "Back End",
-                                      "Front End",
-                                      "Full Stack",
-                                      "Mobile Developer"
-                                  ],
-                      "tools":  [
-                                    "Swagger",
-                                    "Postman",
-                                    "Insomnia",
-                                    "GraphQL Playground"
-                                ],
-                      "languages":  [
-                                        "JavaScript",
-                                        "Python",
-                                        "Go",
-                                        "Java"
-                                    ],
-                      "skills":  [
-                                     "RESTful API Design",
-                                     "GraphQL",
-                                     "API Documentation",
-                                     "Authentication \u0026 Authorization",
-                                     "Versioning"
-                                 ]
-                  },
-                  {
-                      "name":  "Server",
-                      "description":  "Manages deployment, hosting, and operational aspects of applications, including configuration, scaling, and monitoring.",
-                      "related":  [
-                                      "Back End",
-                                      "Networking",
-                                      "DevOps",
-                                      "Cloud Engineer"
-                                  ],
-                      "tools":  [
-                                    "Nginx",
-                                    "Apache",
-                                    "Docker",
-                                    "Kubernetes",
-                                    "PM2",
-                                    "Systemd",
-                                    "HAProxy"
-                                ],
-                      "languages":  [
-                                        "Bash",
-                                        "Python",
-                                        "Go"
-                                    ],
-                      "skills":  [
-                                     "Server Management",
-                                     "Deployment",
-                                     "Load Balancing",
-                                     "Monitoring",
-                                     "Logging"
-                                 ]
-                  },
-                  {
-                      "name":  "Networking",
-                      "description":  "Ensures reliable, secure, and efficient communication between computers and systems within an organization or across the internet.",
-                      "related":  [
-                                      "Server",
-                                      "Cloud Engineer",
-                                      "Security Engineer"
-                                  ],
-                      "tools":  [
-                                    "Wireshark",
-                                    "Cisco IOS",
-                                    "pfSense",
-                                    "Nagios",
-                                    "Juniper",
-                                    "SolarWinds"
-                                ],
-                      "languages":  [
-                                        "Bash",
-                                        "Python"
-                                    ],
-                      "skills":  [
-                                     "Network Configuration",
-                                     "Troubleshooting",
-                                     "Security",
-                                     "VPN",
-                                     "Firewalls"
-                                 ]
-                  },
-                  {
-                      "name":  "DevOps",
-                      "description":  "Bridges development and operations by automating software delivery, infrastructure changes, and monitoring.",
-                      "related":  [
-                                      "Full Stack",
-                                      "Back End",
-                                      "Server",
-                                      "Cloud Engineer",
-                                      "Security Engineer"
-                                  ],
-                      "tools":  [
-                                    "Docker",
-                                    "Kubernetes",
-                                    "Jenkins",
-                                    "GitLab CI",
-                                    "Terraform",
-                                    "Ansible",
-                                    "Prometheus",
-                                    "Grafana"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "Bash",
-                                        "Go"
-                                    ],
-                      "skills":  [
-                                     "CI/CD",
-                                     "Infrastructure as Code",
-                                     "Monitoring",
-                                     "Automation",
-                                     "Cloud Deployment"
-                                 ]
-                  },
-                  {
-                      "name":  "Cloud Engineer",
-                      "description":  "Designs, implements, and maintains cloud infrastructure and services for scalability, reliability, and security.",
-                      "related":  [
-                                      "DevOps",
-                                      "Server",
-                                      "DBMS",
-                                      "Data Engineer",
-                                      "Security Engineer"
-                                  ],
-                      "tools":  [
-                                    "AWS",
-                                    "Azure",
-                                    "GCP",
-                                    "Terraform",
-                                    "CloudFormation",
-                                    "Docker",
-                                    "Kubernetes"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "Bash",
-                                        "Go"
-                                    ],
-                      "skills":  [
-                                     "Cloud Architecture",
-                                     "Automation",
-                                     "Security",
-                                     "Cost Optimization",
-                                     "Scalability"
-                                 ]
-                  },
-                  {
-                      "name":  "Security Engineer",
-                      "description":  "Protects systems and data from cyber threats by designing secure architectures, monitoring, and responding to incidents.",
-                      "related":  [
-                                      "Networking",
-                                      "Cloud Engineer",
-                                      "DevOps"
-                                  ],
-                      "tools":  [
-                                    "Splunk",
-                                    "Snort",
-                                    "Metasploit",
-                                    "Burp Suite",
-                                    "Nessus",
-                                    "Wireshark"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "Bash",
-                                        "C"
-                                    ],
-                      "skills":  [
-                                     "Vulnerability Assessment",
-                                     "Penetration Testing",
-                                     "Incident Response",
-                                     "Security Monitoring",
-                                     "Encryption"
-                                 ]
-                  },
-                  {
-                      "name":  "UI/UX Designer",
-                      "description":  "Focuses on the design and usability of applications, ensuring a seamless and visually appealing user experience.",
-                      "related":  [
-                                      "Front End",
-                                      "Product Manager",
-                                      "Mobile Developer"
-                                  ],
-                      "tools":  [
-                                    "Figma",
-                                    "Sketch",
-                                    "Adobe XD",
-                                    "InVision",
-                                    "Photoshop",
-                                    "Illustrator"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Wireframing",
-                                     "Prototyping",
-                                     "User Research",
-                                     "Interaction Design",
-                                     "Visual Design"
-                                 ]
-                  },
-                  {
-                      "name":  "Mobile Developer",
-                      "description":  "Builds applications for mobile devices, ensuring performance, usability, and compatibility across platforms.",
-                      "related":  [
-                                      "Front End",
-                                      "Back End",
-                                      "API",
-                                      "UI/UX Designer"
-                                  ],
-                      "tools":  [
-                                    "Android Studio",
-                                    "Xcode",
-                                    "React Native",
-                                    "Flutter",
-                                    "Ionic"
-                                ],
-                      "languages":  [
-                                        "Java",
-                                        "Kotlin",
-                                        "Swift",
-                                        "Dart",
-                                        "JavaScript"
-                                    ],
-                      "skills":  [
-                                     "Mobile UI Design",
-                                     "Cross-Platform Development",
-                                     "Performance Optimization",
-                                     "Testing",
-                                     "App Store Deployment"
-                                 ]
-                  },
-                  {
-                      "name":  "QA Engineer",
-                      "description":  "Ensures the quality of software through automated and manual testing, identifying bugs and verifying requirements.",
-                      "related":  [
-                                      "Front End",
-                                      "Back End",
-                                      "DevOps",
-                                      "Product Manager"
-                                  ],
-                      "tools":  [
-                                    "Selenium",
-                                    "JUnit",
-                                    "TestNG",
-                                    "Cypress",
-                                    "Postman",
-                                    "Jest"
-                                ],
-                      "languages":  [
-                                        "Java",
-                                        "Python",
-                                        "JavaScript"
-                                    ],
-                      "skills":  [
-                                     "Test Automation",
-                                     "Manual Testing",
-                                     "Bug Tracking",
-                                     "Performance Testing",
-                                     "Regression Testing"
-                                 ]
-                  },
-                  {
-                      "name":  "Product Manager",
-                      "description":  "Owns the product vision and roadmap, working with cross-functional teams to deliver value to users.",
-                      "related":  [
-                                      "UI/UX Designer",
-                                      "QA Engineer",
-                                      "Business Analyst",
-                                      "Front End",
-                                      "Back End"
-                                  ],
-                      "tools":  [
-                                    "Jira",
-                                    "Trello",
-                                    "Asana",
-                                    "Productboard",
-                                    "Miro"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Roadmapping",
-                                     "User Research",
-                                     "Agile Methodology",
-                                     "Prioritization",
-                                     "Stakeholder Communication"
-                                 ]
-                  },
-                  {
-                      "name":  "SRE (Site Reliability Engineer)",
-                      "description":  "Ensures reliability, availability, and performance of large-scale systems, blending software engineering with systems engineering.",
-                      "related":  [
-                                      "DevOps",
-                                      "Cloud Engineer",
-                                      "Server",
-                                      "Security Engineer"
-                                  ],
-                      "tools":  [
-                                    "Prometheus",
-                                    "Grafana",
-                                    "PagerDuty",
-                                    "Terraform",
-                                    "Kubernetes"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "Go",
-                                        "Bash"
-                                    ],
-                      "skills":  [
-                                     "Incident Response",
-                                     "Monitoring",
-                                     "Automation",
-                                     "Capacity Planning",
-                                     "Reliability Engineering"
-                                 ]
-                  },
-                  {
-                      "name":  "Support Engineer",
-                      "description":  "Provides technical assistance and troubleshooting for software products and services.",
-                      "related":  [
-                                      "QA Engineer",
-                                      "DevOps",
-                                      "Business Analyst"
-                                  ],
-                      "tools":  [
-                                    "Zendesk",
-                                    "Freshdesk",
-                                    "Jira",
-                                    "Confluence"
-                                ],
-                      "languages":  [
-                                        "Python",
-                                        "JavaScript"
-                                    ],
-                      "skills":  [
-                                     "Troubleshooting",
-                                     "Customer Support",
-                                     "Documentation",
-                                     "Incident Management",
-                                     "Communication"
-                                 ]
-                  },
-                  {
-                      "name":  "Scrum Master",
-                      "description":  "Facilitates Agile development teams, removes impediments, and ensures Scrum practices are followed.",
-                      "related":  [
-                                      "Product Manager",
-                                      "QA Engineer",
-                                      "Business Analyst"
-                                  ],
-                      "tools":  [
-                                    "Jira",
-                                    "Trello",
-                                    "Confluence",
-                                    "Miro"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Agile Methodology",
-                                     "Facilitation",
-                                     "Team Leadership",
-                                     "Conflict Resolution",
-                                     "Continuous Improvement"
-                                 ]
-                  },
-                  {
-                      "name":  "Technical Writer",
-                      "description":  "Creates and maintains documentation for software products, APIs, and user guides.",
-                      "related":  [
-                                      "QA Engineer",
-                                      "Product Manager",
-                                      "Business Analyst"
-                                  ],
-                      "tools":  [
-                                    "Confluence",
-                                    "Markdown",
-                                    "Git",
-                                    "Word",
-                                    "MadCap Flare"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Technical Writing",
-                                     "Documentation",
-                                     "Editing",
-                                     "API Documentation",
-                                     "Communication"
-                                 ]
-                  },
-                  {
-                      "name":  "Game Developer",
-                      "description":  "Designs and implements interactive games for various platforms.",
-                      "related":  [
-                                      "Front End",
-                                      "Back End",
-                                      "UI/UX Designer"
-                                  ],
-                      "tools":  [
-                                    "Unity",
-                                    "Unreal Engine",
-                                    "Godot",
-                                    "Blender"
-                                ],
-                      "languages":  [
-                                        "C#",
-                                        "C++",
-                                        "Python",
-                                        "JavaScript"
-                                    ],
-                      "skills":  [
-                                     "Game Design",
-                                     "Physics Simulation",
-                                     "Graphics Programming",
-                                     "Animation",
-                                     "Performance Optimization"
-                                 ]
-                  },
-                  {
-                      "name":  "Embedded Systems Engineer",
-                      "description":  "Develops software and firmware for embedded devices and hardware.",
-                      "related":  [
-                                      "Back End",
-                                      "Security Engineer"
-                                  ],
-                      "tools":  [
-                                    "Keil",
-                                    "IAR Embedded Workbench",
-                                    "Arduino IDE",
-                                    "Oscilloscope"
-                                ],
-                      "languages":  [
-                                        "C",
-                                        "C++",
-                                        "Assembly",
-                                        "Python"
-                                    ],
-                      "skills":  [
-                                     "Firmware Development",
-                                     "Microcontrollers",
-                                     "RTOS",
-                                     "Low-Level Programming",
-                                     "Debugging"
-                                 ]
-                  }
-              ]
+{
+  "roles": [
+    {
+      "name": "AI & LLM Engineer",
+      "description": "Architects, fine-tunes, and deploys frontier generative AI models, multi-agent systems, and production RAG pipelines.",
+      "related": [
+        "Data Scientist",
+        "ML Engineer",
+        "Data Engineer",
+        "Full Stack",
+        "DevOps",
+        "Prompt & Context Engineer"
+      ],
+      "tools": [
+        "PyTorch",
+        "LangChain",
+        "LlamaIndex",
+        "vLLM",
+        "Ollama",
+        "Hugging Face",
+        "Pinecone",
+        "Qdrant",
+        "Sarvam AI"
+      ],
+      "languages": [
+        "Python",
+        "Rust",
+        "TypeScript",
+        "C++"
+      ],
+      "skills": [
+        "RAG Architecture",
+        "Model Fine-Tuning",
+        "Agentic Workflows",
+        "Vector Embeddings",
+        "Prompt Engineering",
+        "Indic AI & Sovereign Models"
+      ],
+      "level": "Senior / Lead",
+      "salaryRange": "$135,000 - $215,000 / yr",
+      "responsibilities": [
+        "Architect and optimize enterprise RAG pipelines with vector databases",
+        "Fine-tune foundation models (LoRA, QLoRA) on domain-specific datasets",
+        "Deploy scalable inference engines (vLLM, TensorRT-LLM, Ollama)",
+        "Implement autonomous multi-agent orchestration frameworks"
+      ],
+      "certifications": [
+        "NVIDIA Certified Generative AI Professional",
+        "AWS Certified Machine Learning Specialty"
+      ],
+      "careerPath": "ML Engineer -> AI & LLM Engineer -> Principal AI Architect -> VP of Artificial Intelligence",
+      "roadmapRef": "ai-llm"
+    },
+    {
+      "name": "MLOps Engineer",
+      "description": "Automates the continuous integration, deployment, monitoring, and scaling of machine learning and LLM models in production.",
+      "related": [
+        "AI & LLM Engineer",
+        "ML Engineer",
+        "DevOps",
+        "Cloud Engineer",
+        "Data Engineer"
+      ],
+      "tools": [
+        "Kubernetes",
+        "MLflow",
+        "Kubeflow",
+        "Docker",
+        "Ray",
+        "Weights & Biases",
+        "Triton Server",
+        "Modal Serverless AI"
+      ],
+      "languages": [
+        "Python",
+        "Bash",
+        "YAML",
+        "Go"
+      ],
+      "skills": [
+        "Model CI/CD",
+        "Inference Scaling",
+        "Drift Detection",
+        "GPU Orchestration",
+        "Pipeline Automation",
+        "Serverless AI Deployment"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$125,000 - $190,000 / yr",
+      "responsibilities": [
+        "Automate continuous training, validation, and deployment pipelines (CI/CD/CT)",
+        "Manage distributed model training clusters with Ray and Kubernetes",
+        "Monitor live model performance, data drift, and latency anomalies",
+        "Maintain production feature stores and metadata tracking systems"
+      ],
+      "certifications": [
+        "Kubeflow MLOps Certified",
+        "Databricks Certified Machine Learning Professional"
+      ],
+      "careerPath": "DevOps Engineer -> MLOps Engineer -> Lead MLOps Architect -> Head of Platform Engineering",
+      "roadmapRef": "ai-llm"
+    },
+    {
+      "name": "Cloud Security Architect",
+      "description": "Architects IAM boundaries, Zero Trust network segments, cloud governance policies, and threat protection.",
+      "related": [
+        "Security Engineer",
+        "Cloud Engineer",
+        "DevOps",
+        "Back End"
+      ],
+      "tools": [
+        "CrowdStrike",
+        "Wiz",
+        "Palo Alto Prisma",
+        "Terraform",
+        "Vault"
+      ],
+      "languages": [
+        "Python",
+        "Bash",
+        "Go"
+      ],
+      "skills": [
+        "Zero Trust Architecture",
+        "Cloud Security Posture Management (CSPM)",
+        "IAM Federation",
+        "Incident Response"
+      ],
+      "level": "Lead / Principal",
+      "salaryRange": "$145,000 - $225,000 / yr",
+      "responsibilities": [
+        "Architect Zero Trust security perimeters across multi-cloud environments",
+        "Enforce Cloud Security Posture Management (CSPM) and automated remediation",
+        "Design identity federation, least-privilege IAM, and cryptographic key vaults",
+        "Lead incident response architectures and threat modeling exercises"
+      ],
+      "certifications": [
+        "CCSP (Certified Cloud Security Professional)",
+        "AWS Certified Security - Specialty",
+        "CISSP"
+      ],
+      "careerPath": "Security Engineer -> Senior Cloud Security Architect -> Chief Information Security Officer (CISO)",
+      "roadmapRef": "cybersecurity"
+    },
+    {
+      "name": "Data Engineer",
+      "description": "Builds and maintains scalable data pipelines and architectures for collecting, storing, and processing large volumes of data.",
+      "related": [
+        "DBMS",
+        "Data Analyst",
+        "Data Scientist",
+        "Cloud Engineer",
+        "ML Engineer",
+        "Scrum Master"
+      ],
+      "tools": [
+        "Apache Spark",
+        "Airflow",
+        "Kafka",
+        "Hadoop",
+        "AWS Glue",
+        "Databricks",
+        "Snowflake"
+      ],
+      "languages": [
+        "Python",
+        "Scala",
+        "SQL",
+        "Java"
+      ],
+      "skills": [
+        "ETL",
+        "Data Pipeline Design",
+        "Big Data Processing",
+        "Data Warehousing",
+        "Data Quality",
+        "Batch Processing",
+        "Streaming Data"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$110,000 - $175,000 / yr",
+      "responsibilities": [
+        "Build scalable real-time and batch ELT/ETL data pipelines",
+        "Architect modern lakehouse warehouses (Snowflake, Databricks, BigQuery)",
+        "Optimize distributed SQL queries, partitioning, and columnar compression",
+        "Ensure data governance, cataloging, and automated data quality testing"
+      ],
+      "certifications": [
+        "Databricks Certified Data Engineer Professional",
+        "Google Cloud Professional Data Engineer"
+      ],
+      "careerPath": "Junior Data Analyst -> Data Engineer -> Lead Data Architect -> VP of Data Engineering",
+      "roadmapRef": "backend"
+    },
+    {
+      "name": "Data Analyst",
+      "description": "Interprets data, analyzes trends, and produces actionable insights to support business decisions.",
+      "related": [
+        "Data Engineer",
+        "DBMS",
+        "Data Scientist",
+        "Business Analyst",
+        "Product Manager"
+      ],
+      "tools": [
+        "Tableau",
+        "Power BI",
+        "Excel",
+        "Google Data Studio",
+        "Looker",
+        "QlikView"
+      ],
+      "languages": [
+        "SQL",
+        "Python",
+        "R"
+      ],
+      "skills": [
+        "Data Visualization",
+        "Statistical Analysis",
+        "Reporting",
+        "Data Cleaning",
+        "Business Intelligence",
+        "Dashboarding"
+      ],
+      "level": "Entry to Mid",
+      "salaryRange": "$75,000 - $120,000 / yr",
+      "responsibilities": [
+        "Synthesize complex transactional datasets into actionable business insights",
+        "Build executive dashboards and KPI reporting suites in Tableau and Power BI",
+        "Perform statistical cohort and cohort-retention analyses",
+        "Partner with product managers to define tracking specs and metrics"
+      ],
+      "certifications": [
+        "Google Data Analytics Professional",
+        "Microsoft Certified: Power BI Data Analyst Associate"
+      ],
+      "careerPath": "Junior Analyst -> Data Analyst -> Senior BI Consultant -> Head of Analytics",
+      "roadmapRef": "backend"
+    },
+    {
+      "name": "Data Scientist",
+      "description": "Extracts insights from data using advanced analytics, statistics, and machine learning, often building predictive models.",
+      "related": [
+        "Data Engineer",
+        "Data Analyst",
+        "ML Engineer",
+        "Research Scientist"
+      ],
+      "tools": [
+        "Jupyter",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "Keras",
+        "RStudio",
+        "MLflow"
+      ],
+      "languages": [
+        "Python",
+        "R",
+        "Scala"
+      ],
+      "skills": [
+        "Machine Learning",
+        "Statistical Modeling",
+        "Data Mining",
+        "Predictive Analytics",
+        "Deep Learning",
+        "Experimentation"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$115,000 - $180,000 / yr",
+      "responsibilities": [
+        "Formulate hypothesis testing and rigorous A/B experiment evaluation frameworks",
+        "Develop predictive classification, regression, and time-series models",
+        "Extract behavioral patterns using feature engineering and dimensional reduction",
+        "Present data-driven strategic recommendations to executive stakeholders"
+      ],
+      "certifications": [
+        "AWS Certified Machine Learning",
+        "TensorFlow Developer Certificate"
+      ],
+      "careerPath": "Data Analyst -> Data Scientist -> Staff Data Scientist -> Chief Data Officer",
+      "roadmapRef": "data-scientist"
+    },
+    {
+      "name": "ML Engineer",
+      "description": "Specializes in deploying, optimizing, and maintaining machine learning models in production environments.",
+      "related": [
+        "Data Scientist",
+        "Data Engineer",
+        "DevOps",
+        "Cloud Engineer"
+      ],
+      "tools": [
+        "TensorFlow",
+        "PyTorch",
+        "ONNX",
+        "Kubeflow",
+        "MLflow",
+        "Seldon Core"
+      ],
+      "languages": [
+        "Python",
+        "Scala",
+        "Java"
+      ],
+      "skills": [
+        "Model Deployment",
+        "Model Optimization",
+        "Data Pipelines",
+        "A/B Testing",
+        "Monitoring",
+        "MLOps"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$120,000 - $185,000 / yr",
+      "responsibilities": [
+        "Train, optimize, and quantize deep neural networks for production workloads",
+        "Scale training algorithms across multi-GPU / multi-node clusters",
+        "Serve low-latency model APIs via Triton and FastAPI",
+        "Implement automated retraining triggers based on concept drift"
+      ],
+      "certifications": [
+        "Google Professional Machine Learning Engineer",
+        "Azure AI Engineer Associate"
+      ],
+      "careerPath": "Software Engineer -> ML Engineer -> Senior AI Systems Architect -> Head of ML",
+      "roadmapRef": "ai-llm"
+    },
+    {
+      "name": "DBMS",
+      "description": "Designs, implements, and manages databases, ensuring data integrity, performance, and security.",
+      "related": [
+        "Data Engineer",
+        "Data Analyst",
+        "Back End",
+        "Cloud Engineer",
+        "Database Administrator"
+      ],
+      "tools": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Oracle DB",
+        "Microsoft SQL Server",
+        "Cassandra"
+      ],
+      "languages": [
+        "SQL",
+        "PL/SQL"
+      ],
+      "skills": [
+        "Database Design",
+        "Query Optimization",
+        "Backup & Recovery",
+        "Replication",
+        "Data Security",
+        "Indexing"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$100,000 - $160,000 / yr",
+      "responsibilities": [
+        "Design normalized and denormalized relational schemas and document models",
+        "Tune query execution plans, indexes, buffer pools, and vacuum parameters",
+        "Implement active-active replication, sharding, and high availability clustering",
+        "Automate backup verification and disaster recovery procedures"
+      ],
+      "certifications": [
+        "Oracle Certified Professional Database Administrator",
+        "PostgreSQL Certified Associate"
+      ],
+      "careerPath": "Junior DBA -> DBMS Specialist -> Senior Database Architect -> Director of Infrastructure",
+      "roadmapRef": "backend"
+    },
+    {
+      "name": "Database Administrator",
+      "description": "Maintains and secures databases, performs tuning, backup, recovery, and ensures high availability.",
+      "related": [
+        "DBMS",
+        "Data Engineer",
+        "Security Engineer",
+        "Cloud Engineer"
+      ],
+      "tools": [
+        "Oracle DB",
+        "SQL Server Management Studio",
+        "pgAdmin",
+        "MySQL Workbench",
+        "MongoDB Compass"
+      ],
+      "languages": [
+        "SQL",
+        "PL/SQL",
+        "T-SQL",
+        "Shell"
+      ],
+      "skills": [
+        "Database Administration",
+        "Performance Tuning",
+        "Backup & Recovery",
+        "User Management",
+        "Disaster Recovery"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $155,000 / yr",
+      "responsibilities": [
+        "Manage enterprise database health, clustering, and storage provisioning",
+        "Perform database patch upgrades, migrations, and schema cutovers with zero downtime",
+        "Enforce database security policies, transparent data encryption, and access auditing",
+        "Monitor connection pooling and transaction lock contention"
+      ],
+      "certifications": [
+        "Microsoft Certified: Azure Database Administrator Associate",
+        "AWS Certified Database Specialty"
+      ],
+      "careerPath": "Systems Admin -> Database Administrator -> Lead DBA -> Infrastructure Manager",
+      "roadmapRef": "backend"
+    },
+    {
+      "name": "Business Analyst",
+      "description": "Bridges business needs and technology solutions by analyzing requirements and defining specifications.",
+      "related": [
+        "Data Analyst",
+        "Product Manager",
+        "QA Engineer",
+        "Data Scientist"
+      ],
+      "tools": [
+        "Excel",
+        "Tableau",
+        "Jira",
+        "Confluence",
+        "Power BI"
+      ],
+      "languages": [],
+      "skills": [
+        "Requirements Gathering",
+        "Process Modeling",
+        "Stakeholder Management",
+        "Documentation",
+        "Data Analysis"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$80,000 - $130,000 / yr",
+      "responsibilities": [
+        "Translate business requirements into detailed technical user stories and PRDs",
+        "Facilitate stakeholder discovery sessions and process mapping workshops",
+        "Perform gap analysis and financial cost-benefit modeling for tech initiatives",
+        "Coordinate User Acceptance Testing (UAT) and rollout change management"
+      ],
+      "certifications": [
+        "CBAP (Certified Business Analysis Professional)",
+        "PMI-PBA"
+      ],
+      "careerPath": "Junior BA -> Business Analyst -> Senior Product Analyst -> Director of Product Strategy",
+      "roadmapRef": "product-manager"
+    },
+    {
+      "name": "Research Scientist",
+      "description": "Conducts advanced research on algorithms, models, and data-driven methods, often publishing findings.",
+      "related": [
+        "Data Scientist",
+        "ML Engineer"
+      ],
+      "tools": [
+        "Jupyter",
+        "MATLAB",
+        "R",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "languages": [
+        "Python",
+        "R",
+        "MATLAB"
+      ],
+      "skills": [
+        "Algorithm Development",
+        "Statistical Analysis",
+        "Scientific Writing",
+        "Experiment Design",
+        "Machine Learning"
+      ],
+      "level": "Senior / Principal",
+      "salaryRange": "$140,000 - $230,000 / yr",
+      "responsibilities": [
+        "Conduct foundational research in artificial intelligence, algorithms, or cryptography",
+        "Author peer-reviewed publications for top conferences (NeurIPS, ICML, CVPR)",
+        "Prototype novel neural architectures and mathematical proofs",
+        "Translate theoretical scientific breakthroughs into applied engineering solutions"
+      ],
+      "certifications": [
+        "Ph.D. in Computer Science / Mathematics",
+        "Postdoctoral Research Fellow"
+      ],
+      "careerPath": "Postdoctoral Researcher -> Research Scientist -> Principal Scientist -> Head of AI Research",
+      "roadmapRef": "ai-llm"
+    },
+    {
+      "name": "Data Steward",
+      "description": "Ensures data quality, governance, and compliance across the organization.",
+      "related": [
+        "Data Engineer",
+        "Database Administrator",
+        "Security Engineer"
+      ],
+      "tools": [
+        "Collibra",
+        "Informatica",
+        "Alation",
+        "Talend"
+      ],
+      "languages": [],
+      "skills": [
+        "Data Governance",
+        "Data Quality",
+        "Compliance",
+        "Metadata Management",
+        "Policy Enforcement"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$85,000 - $135,000 / yr",
+      "responsibilities": [
+        "Enforce enterprise data governance, privacy compliance (GDPR, CCPA), and classification",
+        "Maintain enterprise business glossaries, data dictionaries, and lineage tracking",
+        "Resolve data discrepancies and establish data validation standards",
+        "Collaborate with security and legal teams to define retention policies"
+      ],
+      "certifications": [
+        "CDMP (Certified Data Management Professional)",
+        "CIPP/E Data Privacy"
+      ],
+      "careerPath": "Data Specialist -> Data Steward -> Data Governance Manager -> Chief Privacy Officer",
+      "roadmapRef": "backend"
+    },
+    {
+      "name": "Data Architect",
+      "description": "Designs and oversees the data architecture, including data models, integration, and flows.",
+      "related": [
+        "Data Engineer",
+        "DBMS",
+        "Cloud Engineer",
+        "Business Analyst"
+      ],
+      "tools": [
+        "Erwin Data Modeler",
+        "Lucidchart",
+        "AWS Glue",
+        "Snowflake"
+      ],
+      "languages": [
+        "SQL",
+        "Python"
+      ],
+      "skills": [
+        "Data Modeling",
+        "Data Integration",
+        "Architecture Design",
+        "Scalability",
+        "Documentation"
+      ],
+      "level": "Lead / Principal",
+      "salaryRange": "$140,000 - $215,000 / yr",
+      "responsibilities": [
+        "Design enterprise-wide data models, lakehouse blueprints, and stream-processing architectures",
+        "Evaluate and select distributed database technologies (OLTP vs OLAP)",
+        "Establish data mesh domains, governance guardrails, and data contract standards",
+        "Align technical data strategy with long-term business roadmap"
+      ],
+      "certifications": [
+        "TOGAF 9 / 10 Certified Enterprise Architect",
+        "Snowflake SnowPro Advanced Architect"
+      ],
+      "careerPath": "Senior Data Engineer -> Data Architect -> Principal Enterprise Architect -> VP of Data",
+      "roadmapRef": "backend"
+    },
+    {
+      "name": "Full Stack",
+      "description": "Combines both front-end and back-end development skills, capable of building complete web applications.",
+      "includes": [
+        "Front End",
+        "Back End"
+      ],
+      "related": [
+        "API",
+        "DevOps",
+        "Mobile Developer"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "Jenkins",
+        "ReactJS",
+        "AngularJS",
+        "VueJS",
+        "jQuery",
+        "Webpack",
+        "Babel",
+        "Sass",
+        "Bootstrap",
+        "Node.js",
+        "Express",
+        "Django",
+        "Next.js",
+        "Tailwind CSS",
+        "Supabase",
+        "Cursor"
+      ],
+      "languages": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "HTML",
+        "CSS",
+        "TypeScript"
+      ],
+      "skills": [
+        "System Design",
+        "DevOps",
+        "API Integration",
+        "Testing",
+        "Agile"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$110,000 - $175,000 / yr",
+      "responsibilities": [
+        "Develop interactive responsive frontend UIs and robust backend API services",
+        "Model relational database schemas and manage transactional integrity",
+        "Implement end-to-end authentication, session caching, and security headers",
+        "Configure CI/CD automated test suites and containerized cloud deployments"
+      ],
+      "certifications": [
+        "Meta Certified Full Stack Developer",
+        "AWS Certified Developer - Associate"
+      ],
+      "careerPath": "Junior Full Stack -> Full Stack Engineer -> Lead Engineer -> VP of Engineering",
+      "roadmapRef": "fullstack"
+    },
+    {
+      "name": "Front End",
+      "description": "Responsible for building the user interface and user experience of web applications, ensuring accessibility, responsiveness, and interactivity.",
+      "related": [
+        "Back End",
+        "API",
+        "UI/UX Designer",
+        "Mobile Developer"
+      ],
+      "tools": [
+        "ReactJS",
+        "AngularJS",
+        "VueJS",
+        "jQuery",
+        "Webpack",
+        "Babel",
+        "Sass",
+        "Bootstrap",
+        "Vite",
+        "React 19",
+        "Tailwind CSS",
+        "Shadcn/ui"
+      ],
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "skills": [
+        "Responsive Design",
+        "Accessibility",
+        "Cross-Browser Compatibility",
+        "UI/UX Design",
+        "Performance Optimization"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$100,000 - $165,000 / yr",
+      "responsibilities": [
+        "Architect clean, modular component libraries using React, Vue, or Next.js",
+        "Optimize web vital metrics (LCP, INP, CLS) and runtime rendering performance",
+        "Ensure WCAG 2.1 AA accessibility compliance across modern devices",
+        "Implement state management, client-side caching, and offline capabilities"
+      ],
+      "certifications": [
+        "Meta Certified Front-End Developer",
+        "OpenJS Node.js Application Developer (JSNAD)"
+      ],
+      "careerPath": "Junior Frontend -> Frontend Engineer -> Staff Frontend Architect -> Head of Web",
+      "roadmapRef": "frontend"
+    },
+    {
+      "name": "Back End",
+      "description": "Handles the business logic, database interactions, and server-side operations of applications, ensuring security, scalability, and reliability.",
+      "related": [
+        "Front End",
+        "Server",
+        "DBMS",
+        "API",
+        "DevOps"
+      ],
+      "tools": [
+        "Node.js",
+        "Express",
+        "Django",
+        "Flask",
+        "Spring Boot",
+        "Ruby on Rails",
+        "ASP.NET",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Docker"
+      ],
+      "languages": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "PHP",
+        "Ruby",
+        "C#",
+        "Go"
+      ],
+      "skills": [
+        "API Development",
+        "Authentication",
+        "Business Logic",
+        "Security",
+        "Scalability"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$105,000 - $170,000 / yr",
+      "responsibilities": [
+        "Design high-concurrency microservices and asynchronous task workers",
+        "Architect RESTful, GraphQL, and gRPC application programming interfaces",
+        "Implement distributed caching layers (Redis) and message brokers (Kafka)",
+        "Perform SQL tuning, database migrations, and ACID transaction isolation"
+      ],
+      "certifications": [
+        "AWS Certified Developer Associate",
+        "Oracle Certified Professional Java Developer"
+      ],
+      "careerPath": "Junior Backend -> Backend Engineer -> Senior Backend Architect -> CTO",
+      "roadmapRef": "backend"
+    },
+    {
+      "name": "API",
+      "description": "Designs and implements interfaces for communication between different software components or services, often using RESTful or GraphQL standards.",
+      "related": [
+        "Back End",
+        "Front End",
+        "Full Stack",
+        "Mobile Developer"
+      ],
+      "tools": [
+        "Swagger",
+        "Postman",
+        "Insomnia",
+        "GraphQL Playground"
+      ],
+      "languages": [
+        "JavaScript",
+        "Python",
+        "Go",
+        "Java"
+      ],
+      "skills": [
+        "RESTful API Design",
+        "GraphQL",
+        "API Documentation",
+        "Authentication & Authorization",
+        "Versioning"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$105,000 - $165,000 / yr",
+      "responsibilities": [
+        "Design contract-first API specifications using OpenAPI / Swagger and AsyncAPI",
+        "Implement API gateway policies (rate-limiting, JWT auth, request validation)",
+        "Maintain backwards compatibility through semantic versioning and deprecation lifecycles",
+        "Monitor API latency SLAs, error budgets, and developer SDK usability"
+      ],
+      "certifications": [
+        "Postman API Fundamentals Student Expert",
+        "MuleSoft Certified Developer"
+      ],
+      "careerPath": "API Developer -> API Systems Architect -> Head of Platform APIs",
+      "roadmapRef": "backend"
+    },
+    {
+      "name": "Server",
+      "description": "Manages deployment, hosting, and operational aspects of applications, including configuration, scaling, and monitoring.",
+      "related": [
+        "Back End",
+        "Networking",
+        "DevOps",
+        "Cloud Engineer"
+      ],
+      "tools": [
+        "Nginx",
+        "Apache",
+        "Docker",
+        "Kubernetes",
+        "PM2",
+        "Systemd",
+        "HAProxy",
+        "Triton Server"
+      ],
+      "languages": [
+        "Bash",
+        "Python",
+        "Go"
+      ],
+      "skills": [
+        "Server Management",
+        "Deployment",
+        "Load Balancing",
+        "Monitoring",
+        "Logging",
+        "AI Model Serving"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $155,000 / yr",
+      "responsibilities": [
+        "Provision and harden Linux and Windows enterprise server environments",
+        "Manage kernel parameters, systemd services, and storage volume allocations",
+        "Automate patch deployment, configuration management, and server imaging",
+        "Diagnose memory bottlenecks, CPU thrashing, and I/O disk saturation"
+      ],
+      "certifications": [
+        "Red Hat Certified Engineer (RHCE)",
+        "CompTIA Linux+"
+      ],
+      "careerPath": "Systems Admin -> Server Infrastructure Engineer -> Senior Platform Engineer",
+      "roadmapRef": "devops"
+    },
+    {
+      "name": "Networking",
+      "description": "Ensures reliable, secure, and efficient communication between computers and systems within an organization or across the internet.",
+      "related": [
+        "Server",
+        "Cloud Engineer",
+        "Security Engineer"
+      ],
+      "tools": [
+        "Wireshark",
+        "Cisco IOS",
+        "pfSense",
+        "Nagios",
+        "Juniper",
+        "SolarWinds"
+      ],
+      "languages": [
+        "Bash",
+        "Python"
+      ],
+      "skills": [
+        "Network Configuration",
+        "Troubleshooting",
+        "Security",
+        "VPN",
+        "Firewalls"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $155,000 / yr",
+      "responsibilities": [
+        "Configure BGP, OSPF, and VLAN topologies across enterprise datacenter switches",
+        "Implement software-defined networking (SDN) and cloud VPC peering",
+        "Configure next-gen firewalls, IPSec VPN tunnels, and load balancers",
+        "Troubleshoot packet loss and jitter using deep packet inspection (Wireshark)"
+      ],
+      "certifications": [
+        "Cisco Certified Network Professional (CCNP)",
+        "Cisco CCNA"
+      ],
+      "careerPath": "Network Tech -> Network Engineer -> Senior Network Architect -> Director of Network Ops",
+      "roadmapRef": "devops"
+    },
+    {
+      "name": "DevOps",
+      "description": "Bridges development and operations by automating software delivery, infrastructure changes, and monitoring.",
+      "related": [
+        "Full Stack",
+        "Back End",
+        "Server",
+        "Cloud Engineer",
+        "Security Engineer",
+        "Platform Engineer",
+        "DevSecOps Engineer"
+      ],
+      "tools": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "GitLab CI",
+        "Terraform",
+        "Ansible",
+        "Prometheus",
+        "Grafana"
+      ],
+      "languages": [
+        "Python",
+        "Bash",
+        "Go"
+      ],
+      "skills": [
+        "CI/CD",
+        "Infrastructure as Code",
+        "Monitoring",
+        "Automation",
+        "Cloud Deployment"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$115,000 - $185,000 / yr",
+      "responsibilities": [
+        "Build automated CI/CD deployment pipelines using GitHub Actions and GitLab CI",
+        "Provision repeatable cloud infrastructure as code via Terraform and OpenTofu",
+        "Deploy and maintain production Kubernetes clusters and service meshes",
+        "Establish observability dashboards and automated incident paging policies"
+      ],
+      "certifications": [
+        "CKA (Certified Kubernetes Administrator)",
+        "HashiCorp Certified: Terraform Associate"
+      ],
+      "careerPath": "SysAdmin -> DevOps Engineer -> Senior SRE -> Head of Infrastructure",
+      "roadmapRef": "devops"
+    },
+    {
+      "name": "Cloud Engineer",
+      "description": "Designs, implements, and maintains cloud infrastructure and services for scalability, reliability, and security.",
+      "related": [
+        "DevOps",
+        "Server",
+        "DBMS",
+        "Data Engineer",
+        "Security Engineer"
+      ],
+      "tools": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Terraform",
+        "CloudFormation",
+        "Docker",
+        "Kubernetes"
+      ],
+      "languages": [
+        "Python",
+        "Bash",
+        "Go"
+      ],
+      "skills": [
+        "Cloud Architecture",
+        "Automation",
+        "Security",
+        "Cost Optimization",
+        "Scalability"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$115,000 - $180,000 / yr",
+      "responsibilities": [
+        "Deploy scalable cloud services on AWS, GCP, or Microsoft Azure",
+        "Configure autoscaling groups, serverless functions, and object storage tiers",
+        "Implement cloud cost optimization (FinOps) and resource tagging standards",
+        "Ensure high availability across multi-availability zone deployments"
+      ],
+      "certifications": [
+        "AWS Certified Solutions Architect Associate",
+        "Google Associate Cloud Engineer"
+      ],
+      "careerPath": "Cloud Admin -> Cloud Engineer -> Cloud Architect -> VP of Cloud Infrastructure",
+      "roadmapRef": "devops"
+    },
+    {
+      "name": "Security Engineer",
+      "description": "Protects systems and data from cyber threats by designing secure architectures, monitoring, and responding to incidents.",
+      "related": [
+        "Networking",
+        "Cloud Engineer",
+        "DevOps",
+        "DevSecOps Engineer",
+        "Cybersecurity Architect"
+      ],
+      "tools": [
+        "Splunk",
+        "Snort",
+        "Metasploit",
+        "Burp Suite",
+        "Nessus",
+        "Wireshark"
+      ],
+      "languages": [
+        "Python",
+        "Bash",
+        "C"
+      ],
+      "skills": [
+        "Vulnerability Assessment",
+        "Penetration Testing",
+        "Incident Response",
+        "Security Monitoring",
+        "Encryption"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$115,000 - $185,000 / yr",
+      "responsibilities": [
+        "Conduct penetration testing and static/dynamic code analysis (SAST/DAST)",
+        "Harden network perimeters, container images, and host operating systems",
+        "Investigate security incidents, SIEM alerts, and forensic artifact captures",
+        "Review cryptographic implementations and PKI certificate infrastructure"
+      ],
+      "certifications": [
+        "CompTIA Security+",
+        "Offensive Security Certified Professional (OSCP)",
+        "CEH"
+      ],
+      "careerPath": "Security Analyst -> Security Engineer -> Principal Security Architect -> CISO",
+      "roadmapRef": "cybersecurity"
+    },
+    {
+      "name": "UI/UX Designer",
+      "description": "Focuses on the design and usability of applications, ensuring a seamless and visually appealing user experience.",
+      "related": [
+        "Front End",
+        "Product Manager",
+        "Mobile Developer"
+      ],
+      "tools": [
+        "Figma",
+        "Sketch",
+        "Adobe XD",
+        "InVision",
+        "Photoshop",
+        "Illustrator"
+      ],
+      "languages": [],
+      "skills": [
+        "Wireframing",
+        "Prototyping",
+        "User Research",
+        "Interaction Design",
+        "Visual Design"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $155,000 / yr",
+      "responsibilities": [
+        "Craft intuitive user journeys, wireframes, and high-fidelity Figma prototypes",
+        "Conduct moderated usability testing sessions and qualitative user interviews",
+        "Maintain comprehensive design systems with reusable tokenized components",
+        "Collaborate with developers to ensure pixel-perfect CSS implementation"
+      ],
+      "certifications": [
+        "Google UX Design Professional Certificate",
+        "Nielsen Norman Group UX Master Certified"
+      ],
+      "careerPath": "Junior Designer -> UI/UX Designer -> Product Design Lead -> VP of Design",
+      "roadmapRef": "frontend"
+    },
+    {
+      "name": "Mobile Developer",
+      "description": "Builds applications for mobile devices, ensuring performance, usability, and compatibility across platforms.",
+      "related": [
+        "Front End",
+        "Back End",
+        "API",
+        "UI/UX Designer"
+      ],
+      "tools": [
+        "Android Studio",
+        "Xcode",
+        "React Native",
+        "Flutter",
+        "Ionic"
+      ],
+      "languages": [
+        "Java",
+        "Kotlin",
+        "Swift",
+        "Dart",
+        "JavaScript"
+      ],
+      "skills": [
+        "Mobile UI Design",
+        "Cross-Platform Development",
+        "Performance Optimization",
+        "Testing",
+        "App Store Deployment"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$105,000 - $170,000 / yr",
+      "responsibilities": [
+        "Develop cross-platform apps in Flutter/React Native and native iOS/Android code",
+        "Optimize memory management, frame rates (60/120fps), and battery drain",
+        "Integrate offline sync, SQLite local storage, and push notification services",
+        "Manage App Store and Google Play deployment pipelines with Fastlane"
+      ],
+      "certifications": [
+        "Associate Android Developer",
+        "Flutter Certified Application Developer"
+      ],
+      "careerPath": "Junior App Dev -> Mobile Developer -> Mobile Tech Lead -> VP of Mobile Engineering",
+      "roadmapRef": "mobile"
+    },
+    {
+      "name": "QA Engineer",
+      "description": "Ensures the quality of software through automated and manual testing, identifying bugs and verifying requirements.",
+      "related": [
+        "Front End",
+        "Back End",
+        "DevOps",
+        "Product Manager"
+      ],
+      "tools": [
+        "Selenium",
+        "JUnit",
+        "TestNG",
+        "Cypress",
+        "Postman",
+        "Jest"
+      ],
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript"
+      ],
+      "skills": [
+        "Test Automation",
+        "Manual Testing",
+        "Bug Tracking",
+        "Performance Testing",
+        "Regression Testing"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$80,000 - $130,000 / yr",
+      "responsibilities": [
+        "Author robust automated end-to-end test suites using Playwright, Cypress, or Selenium",
+        "Conduct API functional testing and load/stress benchmarks with k6",
+        "Integrate automated test runs into CI/CD build gates",
+        "Perform exploratory exploratory testing and root cause defect analysis"
+      ],
+      "certifications": [
+        "ISTQB Certified Tester Foundation Level (CTFL)",
+        "Certified Software Test Automation Specialist"
+      ],
+      "careerPath": "QA Tester -> QA Automation Engineer -> QA Lead -> Director of Quality Assurance",
+      "roadmapRef": "frontend"
+    },
+    {
+      "name": "Product Manager",
+      "description": "Owns the product vision and roadmap, working with cross-functional teams to deliver value to users.",
+      "related": [
+        "UI/UX Designer",
+        "QA Engineer",
+        "Business Analyst",
+        "Front End",
+        "Back End"
+      ],
+      "tools": [
+        "Jira",
+        "Trello",
+        "Asana",
+        "Productboard",
+        "Miro"
+      ],
+      "languages": [],
+      "skills": [
+        "Roadmapping",
+        "User Research",
+        "Agile Methodology",
+        "Prioritization",
+        "Stakeholder Communication"
+      ],
+      "level": "Senior / Lead",
+      "salaryRange": "$120,000 - $190,000 / yr",
+      "responsibilities": [
+        "Define product strategy, vision, and quarterly roadmap milestones",
+        "Conduct competitive market analysis and customer discovery interviews",
+        "Lead cross-functional engineering, design, and marketing launch sprints",
+        "Track core business telemetry: CAC, LTV, churn rate, and feature adoption"
+      ],
+      "certifications": [
+        "Pragmatic Institute Certified (PMC-III)",
+        "Certified Scrum Product Owner (CSPO)"
+      ],
+      "careerPath": "Associate PM -> Product Manager -> Group Product Manager -> Chief Product Officer (CPO)",
+      "roadmapRef": "product-manager"
+    },
+    {
+      "name": "SRE (Site Reliability Engineer)",
+      "description": "Ensures reliability, availability, and performance of large-scale systems, blending software engineering with systems engineering.",
+      "related": [
+        "DevOps",
+        "Cloud Engineer",
+        "Server",
+        "Security Engineer",
+        "Observability & Reliability Engineer",
+        "Platform Engineer"
+      ],
+      "tools": [
+        "Prometheus",
+        "Grafana",
+        "PagerDuty",
+        "Terraform",
+        "Kubernetes"
+      ],
+      "languages": [
+        "Python",
+        "Go",
+        "Bash"
+      ],
+      "skills": [
+        "Incident Response",
+        "Monitoring",
+        "Automation",
+        "Capacity Planning",
+        "Reliability Engineering"
+      ],
+      "level": "Senior / Lead",
+      "salaryRange": "$130,000 - $205,000 / yr",
+      "responsibilities": [
+        "Define and track Service Level Objectives (SLOs) and Error Budgets",
+        "Automate toil elimination and write self-healing infrastructure controllers",
+        "Run chaotic fault injection exercises and blameless post-mortem retrospectives",
+        "Coordinate multi-region disaster recovery failovers and live load shedding"
+      ],
+      "certifications": [
+        "SRE Foundation Certified",
+        "CKA (Certified Kubernetes Administrator)"
+      ],
+      "careerPath": "DevOps Engineer -> SRE -> Principal Reliability Architect -> VP of Infrastructure",
+      "roadmapRef": "devops"
+    },
+    {
+      "name": "Support Engineer",
+      "description": "Provides technical assistance and troubleshooting for software products and services.",
+      "related": [
+        "QA Engineer",
+        "DevOps",
+        "Business Analyst"
+      ],
+      "tools": [
+        "Zendesk",
+        "Freshdesk",
+        "Jira",
+        "Confluence"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript"
+      ],
+      "skills": [
+        "Troubleshooting",
+        "Customer Support",
+        "Documentation",
+        "Incident Management",
+        "Communication"
+      ],
+      "level": "Entry to Mid",
+      "salaryRange": "$65,000 - $105,000 / yr",
+      "responsibilities": [
+        "Troubleshoot complex technical escalations for enterprise customer accounts",
+        "Analyze application logs, network traces, and stack traces to isolate bugs",
+        "Author customer-facing knowledge base articles and troubleshooting runbooks",
+        "Escalate edge-case software defects to core engineering teams"
+      ],
+      "certifications": [
+        "ITIL 4 Foundation",
+        "CompTIA Network+"
+      ],
+      "careerPath": "Tier 1 Support -> Technical Support Engineer -> Escalation Manager -> Director of Customer Engineering",
+      "roadmapRef": "devops"
+    },
+    {
+      "name": "Scrum Master",
+      "description": "Facilitates Agile development teams, removes impediments, and ensures Scrum practices are followed.",
+      "related": [
+        "Product Manager",
+        "QA Engineer",
+        "Business Analyst"
+      ],
+      "tools": [
+        "Jira",
+        "Trello",
+        "Confluence",
+        "Miro"
+      ],
+      "languages": [],
+      "skills": [
+        "Agile Methodology",
+        "Facilitation",
+        "Team Leadership",
+        "Conflict Resolution",
+        "Continuous Improvement"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$90,000 - $145,000 / yr",
+      "responsibilities": [
+        "Facilitate sprint planning, daily standups, backlog refinement, and retrospectives",
+        "Identify and remove organizational impediments and cross-team dependencies",
+        "Coach engineering teams in Agile best practices and velocity predictability",
+        "Maintain Jira boards and team throughput reporting metrics"
+      ],
+      "certifications": [
+        "Certified ScrumMaster (CSM)",
+        "Professional Scrum Master (PSM II)"
+      ],
+      "careerPath": "Agile Coach -> Scrum Master -> Agile Program Manager -> Director of Agile Delivery",
+      "roadmapRef": "product-manager"
+    },
+    {
+      "name": "Technical Writer",
+      "description": "Creates and maintains documentation for software products, APIs, and user guides.",
+      "related": [
+        "QA Engineer",
+        "Product Manager",
+        "Business Analyst"
+      ],
+      "tools": [
+        "Confluence",
+        "Markdown",
+        "Git",
+        "Word",
+        "MadCap Flare"
+      ],
+      "languages": [],
+      "skills": [
+        "Technical Writing",
+        "Documentation",
+        "Editing",
+        "API Documentation",
+        "Communication"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$75,000 - $125,000 / yr",
+      "responsibilities": [
+        "Author comprehensive API references, developer quickstarts, and architectural guides",
+        "Maintain docs-as-code workflows using Markdown, Git, and static site generators",
+        "Test code samples and SDK tutorials across diverse operating environments",
+        "Coordinate with product managers and engineers to document new releases"
+      ],
+      "certifications": [
+        "Society for Technical Communication (STC) Certified",
+        "Google Technical Writing Certificate"
+      ],
+      "careerPath": "Writer -> Technical Writer -> Senior Docs Architect -> Head of Developer Documentation",
+      "roadmapRef": "product-manager"
+    },
+    {
+      "name": "Game Developer",
+      "description": "Designs and implements interactive games for various platforms.",
+      "related": [
+        "Front End",
+        "Back End",
+        "UI/UX Designer"
+      ],
+      "tools": [
+        "Unity",
+        "Unreal Engine",
+        "Godot",
+        "Blender"
+      ],
+      "languages": [
+        "C#",
+        "C++",
+        "Python",
+        "JavaScript"
+      ],
+      "skills": [
+        "Game Design",
+        "Physics Simulation",
+        "Graphics Programming",
+        "Animation",
+        "Performance Optimization"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $160,000 / yr",
+      "responsibilities": [
+        "Implement gameplay mechanics, physics interactions, and character AI in Unreal/Unity",
+        "Optimize GPU render passes, shader complexity, and asset draw calls",
+        "Write deterministic multiplayer netcode and client-side prediction algorithms",
+        "Profile memory leaks and maintain steady frame rates on target consoles/PC"
+      ],
+      "certifications": [
+        "Unity Certified Professional: Programmer",
+        "Unreal Engine Certified Creator"
+      ],
+      "careerPath": "Junior Gameplay Programmer -> Game Developer -> Lead Gameplay Architect -> Technical Director",
+      "roadmapRef": "fullstack"
+    },
+    {
+      "name": "Embedded Systems Engineer",
+      "description": "Develops software and firmware for embedded devices and hardware.",
+      "related": [
+        "Back End",
+        "Security Engineer"
+      ],
+      "tools": [
+        "Keil",
+        "IAR Embedded Workbench",
+        "Arduino IDE",
+        "Oscilloscope"
+      ],
+      "languages": [
+        "C",
+        "C++",
+        "Assembly",
+        "Python"
+      ],
+      "skills": [
+        "Firmware Development",
+        "Microcontrollers",
+        "RTOS",
+        "Low-Level Programming",
+        "Debugging"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$105,000 - $165,000 / yr",
+      "responsibilities": [
+        "Architect micro-controller systems for resource-constrained edge computing",
+        "Implement communication protocols (CAN, SPI, I2C, BLE, Zigbee)",
+        "Develop low-power operating modes and battery lifecycle management algorithms",
+        "Integrate TinyML models on ARM Cortex and RISC-V architectures"
+      ],
+      "certifications": [
+        "Arm Certified Engineer",
+        "FreeRTOS Specialist"
+      ],
+      "careerPath": "Embedded Developer -> Embedded Systems Engineer -> Staff Systems Architect",
+      "roadmapRef": "embedded"
+    },
+    {
+      "name": "DevSecOps Engineer",
+      "description": "Integrates automated security gates, container vulnerability scanning, and compliance-as-code directly into CI/CD pipelines.",
+      "level": "Senior / Lead",
+      "salaryRange": "$125,000 - $195,000 / yr",
+      "responsibilities": [
+        "Implement automated SAST, DAST, and software composition analysis (SCA) in build pipelines",
+        "Harden container base images and enforce Kubernetes admission controller policies",
+        "Manage secret rotation (HashiCorp Vault) and cryptographic key infrastructure",
+        "Automate cloud compliance auditing against SOC2, HIPAA, and CIS benchmarks"
+      ],
+      "certifications": [
+        "Certified DevSecOps Professional (CDP)",
+        "AWS Certified Security - Specialty"
+      ],
+      "careerPath": "DevOps Engineer -> DevSecOps Engineer -> Lead Security Architect -> CISO",
+      "roadmapRef": "cybersecurity",
+      "related": [
+        "DevOps",
+        "Cloud Security Architect",
+        "Security Engineer",
+        "Cloud Engineer",
+        "SRE (Site Reliability Engineer)"
+      ],
+      "tools": [
+        "Snyk",
+        "Trivy",
+        "HashiCorp Vault",
+        "SonarQube",
+        "Kyverno",
+        "GitHub Advanced Security"
+      ],
+      "languages": [
+        "Python",
+        "Go",
+        "Bash",
+        "YAML"
+      ],
+      "skills": [
+        "Shift-Left Security",
+        "Container Hardening",
+        "Secrets Management",
+        "Compliance as Code",
+        "CI/CD Security Gates"
+      ]
+    },
+    {
+      "name": "Platform Engineer",
+      "description": "Builds and operates Internal Developer Platforms (IDPs) that empower engineering teams to deploy services self-sufficiently.",
+      "level": "Senior / Lead",
+      "salaryRange": "$130,000 - $200,000 / yr",
+      "responsibilities": [
+        "Design internal developer portals using Backstage and golden deployment paths",
+        "Standardize infrastructure provisioning templates using Terraform and Crossplane",
+        "Reduce developer cognitive load and optimize developer experience (DevEx) metrics",
+        "Manage multi-tenant Kubernetes clusters, service meshes, and observability baselines"
+      ],
+      "certifications": [
+        "Certified Kubernetes Administrator (CKA)",
+        "Backstage Developer Specialist"
+      ],
+      "careerPath": "Senior DevOps -> Platform Engineer -> Staff Platform Architect -> VP of Infrastructure",
+      "roadmapRef": "devops",
+      "related": [
+        "DevOps",
+        "Cloud Engineer",
+        "SRE (Site Reliability Engineer)",
+        "Full Stack",
+        "Back End"
+      ],
+      "tools": [
+        "Backstage",
+        "Crossplane",
+        "ArgoCD",
+        "Kubernetes",
+        "Terraform",
+        "Helm"
+      ],
+      "languages": [
+        "Go",
+        "TypeScript",
+        "Python",
+        "YAML"
+      ],
+      "skills": [
+        "Internal Developer Platforms (IDP)",
+        "Developer Experience (DevEx)",
+        "GitOps",
+        "Infrastructure Abstraction",
+        "Multi-Tenancy"
+      ]
+    },
+    {
+      "name": "Prompt & Context Engineer",
+      "description": "Designs, optimizes, and evaluates context windows, few-shot prompting strategies, and LLM evaluation benchmarks.",
+      "level": "Mid to Senior",
+      "salaryRange": "$105,000 - $170,000 / yr",
+      "responsibilities": [
+        "Author robust multi-turn prompts and structured JSON outputs from frontier LLMs",
+        "Construct retrieval context pipelines with dynamic chunking and semantic reranking",
+        "Perform adversarial red-teaming to prevent prompt injection and jailbreaking",
+        "Establish automated LLM evaluation suites (RAGAS, DeepEval) tracking hallucinations"
+      ],
+      "certifications": [
+        "Generative AI Prompt Engineering Specialist",
+        "Anthropic / OpenAI API Certified"
+      ],
+      "careerPath": "AI Specialist -> Prompt Engineer -> Lead AI Interaction Architect -> Head of AI Applications",
+      "roadmapRef": "ai-llm",
+      "related": [
+        "AI & LLM Engineer",
+        "Data Scientist",
+        "Product Manager",
+        "Full Stack",
+        "UI/UX Designer"
+      ],
+      "tools": [
+        "LangChain",
+        "LlamaIndex",
+        "RAGAS",
+        "Promptfoo",
+        "Ollama",
+        "Weights & Biases"
+      ],
+      "languages": [
+        "Python",
+        "TypeScript",
+        "JSON"
+      ],
+      "skills": [
+        "Context Window Optimization",
+        "Chain-of-Thought Prompting",
+        "Adversarial Red-Teaming",
+        "Hallucination Mitigation",
+        "Synthetic Data Generation"
+      ]
+    },
+    {
+      "name": "Cybersecurity Architect",
+      "description": "Blueprints enterprise defense ecosystems, threat modeling matrices, zero-trust architectures, and incident containment strategies.",
+      "level": "Lead / Principal",
+      "salaryRange": "$145,000 - $230,000 / yr",
+      "responsibilities": [
+        "Formulate enterprise-wide Zero Trust architecture policies and cryptographic baselines",
+        "Lead STRIDE and PASTA threat modeling exercises for mission-critical software systems",
+        "Guide SIEM/SOAR automation, extended detection and response (XDR), and SOC playbooks",
+        "Coordinate third-party red team audits and executive board risk reporting"
+      ],
+      "certifications": [
+        "CISSP-ISSAP (Information Systems Security Architecture Professional)",
+        "CISM",
+        "SABSA Chartered Architect"
+      ],
+      "careerPath": "Security Engineer -> Senior Cybersecurity Architect -> Chief Information Security Officer (CISO)",
+      "roadmapRef": "cybersecurity",
+      "related": [
+        "Cloud Security Architect",
+        "Security Engineer",
+        "DevSecOps Engineer",
+        "Networking"
+      ],
+      "tools": [
+        "Splunk Enterprise",
+        "CrowdStrike Falcon",
+        "Palo Alto Cortex",
+        "HashiCorp Vault",
+        "Wiz"
+      ],
+      "languages": [
+        "Python",
+        "PowerShell",
+        "Bash"
+      ],
+      "skills": [
+        "Zero Trust Architecture",
+        "Threat Modeling",
+        "Enterprise Cryptography",
+        "Incident Escalation",
+        "Security Governance"
+      ]
+    },
+    {
+      "name": "Blockchain & Smart Contract Developer",
+      "description": "Engineers decentralized smart contracts, gas-optimized state protocols, and secure Web3 decentralized applications.",
+      "level": "Mid to Senior",
+      "salaryRange": "$120,000 - $190,000 / yr",
+      "responsibilities": [
+        "Author secure, reentrancy-safe smart contracts in Solidity and Rust",
+        "Optimize EVM bytecode execution, gas fees, and storage layout slots",
+        "Audit smart contracts against flash-loan vulnerabilities and front-running exploits",
+        "Integrate decentralized storage (IPFS/Arweave) and zero-knowledge proof primitives"
+      ],
+      "certifications": [
+        "Certified Ethereum Developer",
+        "Blockchain Security Auditor Certification"
+      ],
+      "careerPath": "Smart Contract Dev -> Blockchain Architect -> Web3 Lead -> Chief Decentralization Officer",
+      "roadmapRef": "backend",
+      "related": [
+        "Full Stack",
+        "Back End",
+        "Security Engineer",
+        "Cloud Security Architect"
+      ],
+      "tools": [
+        "Hardhat",
+        "Foundry",
+        "Slither",
+        "Ethers.js",
+        "MetaMask",
+        "The Graph"
+      ],
+      "languages": [
+        "Solidity",
+        "Rust",
+        "TypeScript",
+        "Python"
+      ],
+      "skills": [
+        "Smart Contract Security",
+        "Gas Optimization",
+        "EVM Internals",
+        "ZK-Proof Fundamentals",
+        "DeFi Protocols"
+      ]
+    },
+    {
+      "name": "AR/VR (Spatial Computing) Engineer",
+      "description": "Builds immersive 3D spatial computing applications, hand-tracking interactions, and real-time volumetric simulations.",
+      "level": "Mid to Senior",
+      "salaryRange": "$110,000 - $175,000 / yr",
+      "responsibilities": [
+        "Develop interactive spatial experiences for Vision Pro, Meta Quest, and mobile AR",
+        "Implement gesture recognition, 6DoF spatial tracking, and eye-tracking UX loops",
+        "Optimize real-time 3D rendering pipelines, occlusion shaders, and stereoscopic draw calls",
+        "Integrate spatial audio engines for realistic acoustic sound propagation"
+      ],
+      "certifications": [
+        "Unity Certified Spatial Computing Developer",
+        "Apple visionOS Specialist"
+      ],
+      "careerPath": "3D Developer -> AR/VR Engineer -> Spatial Computing Architect -> VP of Immersive Tech",
+      "roadmapRef": "frontend",
+      "related": [
+        "Game Developer",
+        "UI/UX Designer",
+        "Front End",
+        "Mobile Developer"
+      ],
+      "tools": [
+        "Unity",
+        "Unreal Engine",
+        "Reality Composer Pro",
+        "OpenXR",
+        "Blender"
+      ],
+      "languages": [
+        "C#",
+        "C++",
+        "Swift",
+        "Python"
+      ],
+      "skills": [
+        "Spatial Computing",
+        "6DoF Tracking",
+        "Real-Time 3D Rendering",
+        "Stereoscopic UX",
+        "Spatial Audio"
+      ]
+    },
+    {
+      "name": "Autonomous Systems Software Engineer",
+      "description": "Develops perception, sensor fusion, path planning, and safety-critical execution software for autonomous vehicles and robotics.",
+      "level": "Senior / Lead",
+      "salaryRange": "$130,000 - $210,000 / yr",
+      "responsibilities": [
+        "Implement real-time sensor fusion across LiDAR, camera arrays, radar, and IMUs",
+        "Design dynamic obstacle avoidance and A*/lattice path planning trajectory algorithms",
+        "Validate safety-critical ISO 26262 ASIL-D functional safety software requirements",
+        "Run Hardware-in-the-Loop (HIL) simulations and real-world edge telemetry benchmarking"
+      ],
+      "certifications": [
+        "ISO 26262 Automotive Functional Safety Professional",
+        "ROS 2 Certified Developer"
+      ],
+      "careerPath": "Robotics Dev -> Autonomous Systems Engineer -> Lead Autonomy Architect -> VP of Autonomous Systems",
+      "roadmapRef": "embedded",
+      "related": [
+        "AI & LLM Engineer",
+        "Embedded Systems Engineer",
+        "ML Engineer",
+        "Game Developer"
+      ],
+      "tools": [
+        "ROS 2",
+        "NVIDIA Isaac Sim",
+        "Autoware",
+        "Apollo",
+        "Docker"
+      ],
+      "languages": [
+        "C++",
+        "Python",
+        "CUDA"
+      ],
+      "skills": [
+        "Sensor Fusion (EKF)",
+        "Trajectory Planning",
+        "Computer Vision",
+        "Real-Time C++",
+        "Safety-Critical Systems"
+      ]
+    },
+    {
+      "name": "Quantum Software Engineer",
+      "description": "Translates complex computational problems into quantum circuits, variational quantum algorithms, and error-mitigated quantum simulations.",
+      "level": "Senior / Specialist",
+      "salaryRange": "$140,000 - $225,000 / yr",
+      "responsibilities": [
+        "Formulate quantum circuits using Qiskit, Cirq, and PennyLane frameworks",
+        "Implement Variational Quantum Eigensolver (VQE) and QAOA optimization algorithms",
+        "Mitigate quantum gate noise and decoherence errors on noisy intermediate-scale (NISQ) devices",
+        "Benchmark hybrid classical-quantum execution pipelines on cloud QPUs"
+      ],
+      "certifications": [
+        "IBM Certified Associate Developer - Quantum Computation with Qiskit"
+      ],
+      "careerPath": "Quantum Researcher -> Quantum Software Engineer -> Principal Quantum Architect",
+      "roadmapRef": "data-scientist",
+      "related": [
+        "Research Scientist",
+        "Data Scientist",
+        "ML Engineer",
+        "AI & LLM Engineer"
+      ],
+      "tools": [
+        "Qiskit",
+        "Cirq",
+        "PennyLane",
+        "IBM Quantum Composer",
+        "Jupyter"
+      ],
+      "languages": [
+        "Python",
+        "C++",
+        "OpenQASM"
+      ],
+      "skills": [
+        "Quantum Circuit Design",
+        "NISQ Error Mitigation",
+        "VQE & QAOA Algorithms",
+        "Quantum Linear Algebra",
+        "Hybrid Computing"
+      ]
+    },
+    {
+      "name": "Cloud Solutions Architect",
+      "description": "Blueprints highly available, fault-tolerant, cost-effective enterprise cloud architectures aligned with business goals.",
+      "level": "Lead / Principal",
+      "salaryRange": "$140,000 - $220,000 / yr",
+      "responsibilities": [
+        "Design multi-region, multi-cloud architectures adhering to Well-Architected Frameworks",
+        "Lead legacy application modernization and cloud migration strategy (6 Rs)",
+        "Optimize enterprise cloud spend (FinOps) and architectural efficiency",
+        "Advise executive stakeholders on technical roadmaps and vendor evaluations"
+      ],
+      "certifications": [
+        "AWS Certified Solutions Architect - Professional",
+        "Google Cloud Professional Cloud Architect"
+      ],
+      "careerPath": "Senior Cloud Engineer -> Cloud Solutions Architect -> Chief Enterprise Architect",
+      "roadmapRef": "devops",
+      "related": [
+        "Cloud Engineer",
+        "DevOps",
+        "Cloud Security Architect",
+        "Data Architect",
+        "Platform Engineer"
+      ],
+      "tools": [
+        "AWS Management Console",
+        "Google Cloud Console",
+        "Terraform",
+        "Lucidchart",
+        "CloudHealth"
+      ],
+      "languages": [
+        "Python",
+        "Bash",
+        "Terraform HCL"
+      ],
+      "skills": [
+        "Well-Architected Framework",
+        "Disaster Recovery Planning",
+        "Cloud Migration",
+        "FinOps",
+        "Enterprise Integration"
+      ]
+    },
+    {
+      "name": "Observability & Reliability Engineer",
+      "description": "Designs distributed tracing, unified telemetry aggregation, and automated alerting architectures across distributed microservices.",
+      "level": "Mid to Senior",
+      "salaryRange": "$120,000 - $185,000 / yr",
+      "responsibilities": [
+        "Instrument codebases with OpenTelemetry collectors, custom spans, and baggage propagation",
+        "Design Prometheus metrics, Grafana dashboards, and intelligent anomaly alerting rules",
+        "Consolidate petabyte-scale distributed logs with Elasticsearch, Loki, and Datadog",
+        "Conduct chaos engineering experiments to identify systemic failure modes"
+      ],
+      "certifications": [
+        "OpenTelemetry Certified Associate",
+        "Datadog Certified Observability Specialist"
+      ],
+      "careerPath": "DevOps Engineer -> Observability Engineer -> Senior Reliability Architect",
+      "roadmapRef": "devops",
+      "related": [
+        "SRE (Site Reliability Engineer)",
+        "DevOps",
+        "Cloud Engineer",
+        "Back End",
+        "Platform Engineer"
+      ],
+      "tools": [
+        "OpenTelemetry",
+        "Prometheus",
+        "Grafana",
+        "Datadog",
+        "Jaeger",
+        "Loki"
+      ],
+      "languages": [
+        "Go",
+        "Python",
+        "PromQL",
+        "LogQL"
+      ],
+      "skills": [
+        "Distributed Tracing",
+        "Metrics Instrumentation",
+        "Log Aggregation",
+        "Chaos Engineering",
+        "SLO Monitoring"
+      ]
+    }
+  ]
 }

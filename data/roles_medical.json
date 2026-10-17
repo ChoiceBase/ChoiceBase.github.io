@@ -21,7 +21,22 @@
         "Clinical Decision Support",
         "Patient Care",
         "Chronic Disease Management"
-      ]
+      ],
+      "level": "Senior / Attending",
+      "salaryRange": "$210,000 - $340,000 / yr",
+      "responsibilities": [
+        "Diagnose acute and chronic illnesses through comprehensive clinical exams and diagnostics",
+        "Prescribe evidence-based therapeutic regimens and monitor patient physiological responses",
+        "Direct multidisciplinary patient care teams and formulate comprehensive care plans",
+        "Educate patients and families on preventative healthcare, lifestyle adjustments, and wellness"
+      ],
+      "certifications": [
+        "Board Certified (ABIM / ABFM)",
+        "USMLE / State Medical License",
+        "BLS / ACLS"
+      ],
+      "careerPath": "Resident Physician -> Attending Physician -> Department Chair -> Chief Medical Officer (CMO)",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Nurse Practitioner",
@@ -43,7 +58,22 @@
         "Preventive Healthcare",
         "Prescription Governance",
         "Patient Education"
-      ]
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$115,000 - $160,000 / yr",
+      "responsibilities": [
+        "Provide advanced clinical care, order diagnostic labs, and interpret radiographic findings",
+        "Manage primary and specialty healthcare conditions with independent practice authority",
+        "Prescribe medications, medical devices, and rehabilitation therapies",
+        "Coordinate complex patient referrals and preventative screening initiatives"
+      ],
+      "certifications": [
+        "FNP-BC (Family Nurse Practitioner)",
+        "AANP Certified",
+        "DEA Registration"
+      ],
+      "careerPath": "Staff Nurse -> Nurse Practitioner -> Lead Clinical NP -> Director of Advanced Practice Nursing",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Staff Nurse",
@@ -66,7 +96,22 @@
         "Medication Administration",
         "Triage & Assessment",
         "Compassionate Care"
-      ]
+      ],
+      "level": "Entry to Mid",
+      "salaryRange": "$75,000 - $115,000 / yr",
+      "responsibilities": [
+        "Administer IV medications, monitor continuous telemetry vitals, and assess patient status",
+        "Document electronic health records (EHR) adhering strictly to safety standards",
+        "Perform wound dressing changes, post-operative care, and emergency resuscitation",
+        "Advocate for patient comfort, informed consent, and holistic bedside well-being"
+      ],
+      "certifications": [
+        "NCLEX-RN Licensed Registered Nurse",
+        "BLS / ACLS",
+        "CCRN (Critical Care Registered Nurse)"
+      ],
+      "careerPath": "Graduate Nurse -> Staff Nurse -> Charge Nurse -> Nurse Manager -> Director of Nursing",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Surgeon",
@@ -88,7 +133,21 @@
         "Microsurgical Precision",
         "Intraoperative Decision Making",
         "Team Leadership"
-      ]
+      ],
+      "level": "Senior / Specialist",
+      "salaryRange": "$350,000 - $550,000 / yr",
+      "responsibilities": [
+        "Perform complex operative interventions using open, laparoscopic, and robotic techniques",
+        "Assess preoperative surgical indications, risks, and perioperative management plans",
+        "Lead surgical scrub teams, surgical residents, and operating room nursing staff",
+        "Manage post-operative recovery, surgical wound healing, and complication mitigation"
+      ],
+      "certifications": [
+        "American Board of Surgery (ABS) Certified",
+        "Fellow of the American College of Surgeons (FACS)"
+      ],
+      "careerPath": "Surgical Resident -> Fellow -> Attending Surgeon -> Chief of Surgery",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Neurosurgeon",
@@ -108,7 +167,21 @@
         "Cranial & Spinal Microsurgery",
         "Stereotactic Guidance",
         "Neurotrauma Critical Care"
-      ]
+      ],
+      "level": "Senior / Subspecialist",
+      "salaryRange": "$550,000 - $850,000 / yr",
+      "responsibilities": [
+        "Execute microsurgical procedures on the brain, spinal cord, and peripheral nervous system",
+        "Treat intracranial aneurysms, glioblastomas, spinal deformities, and traumatic brain injuries",
+        "Utilize intraoperative stereotactic navigation, neural monitoring, and robotic spine guidance",
+        "Oversee intensive neurocritical care management and intracranial pressure stabilization"
+      ],
+      "certifications": [
+        "American Board of Neurological Surgery (ABNS) Certified",
+        "FACS"
+      ],
+      "careerPath": "Neurosurgery Resident -> Fellow -> Attending Neurosurgeon -> Chair of Neurosurgery",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Cardiologist",
@@ -128,7 +201,21 @@
         "Interventional Cardiology",
         "Hemodynamic Monitoring",
         "Electrophysiology Analysis"
-      ]
+      ],
+      "level": "Senior / Specialist",
+      "salaryRange": "$320,000 - $490,000 / yr",
+      "responsibilities": [
+        "Diagnose cardiovascular disease through echocardiograms, ECG stress tests, and cardiac MRI",
+        "Manage heart failure, coronary artery disease, hypertension, and complex arrhythmias",
+        "Collaborate with interventional cardiologists for catheterization and stent placement",
+        "Direct cardiac rehabilitation and preventative lipid management programs"
+      ],
+      "certifications": [
+        "American Board of Internal Medicine: Cardiovascular Disease",
+        "FACC (Fellow of ACC)"
+      ],
+      "careerPath": "Fellow -> Clinical Cardiologist -> Chief of Cardiology -> Heart Institute Director",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Anesthesiologist",
@@ -149,7 +236,21 @@
         "Airway Management",
         "Regional Anesthesia",
         "Critical Care Resuscitation"
-      ]
+      ],
+      "level": "Senior / Specialist",
+      "salaryRange": "$340,000 - $500,000 / yr",
+      "responsibilities": [
+        "Formulate anesthesia plans (general, regional, spinal, monitored sedation) tailored to surgery",
+        "Manage hemodynamic stability, mechanical ventilation, and arterial line monitoring intraoperatively",
+        "Oversee post-anesthesia care unit (PACU) recovery and acute surgical pain control",
+        "Lead acute airway management and cardiac arrest response teams"
+      ],
+      "certifications": [
+        "American Board of Anesthesiology (ABA) Certified",
+        "ACLS / PALS Certified"
+      ],
+      "careerPath": "Resident -> Attending Anesthesiologist -> Director of Anesthesia Services",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Pharmacist",
@@ -169,7 +270,22 @@
         "Pharmacogenomics",
         "Drug-Drug Interaction Analysis",
         "Therapeutic Drug Monitoring"
-      ]
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$115,000 - $160,000 / yr",
+      "responsibilities": [
+        "Verify medication orders for contraindications, dosage accuracy, and adverse drug interactions",
+        "Compound sterile IV infusions, chemotherapy admixtures, and specialized formulations",
+        "Provide pharmacotherapy consultations to physicians regarding antimicrobial stewardship",
+        "Educate patients on prescription usage, potential side effects, and adherence regimens"
+      ],
+      "certifications": [
+        "Pharm.D. Degree",
+        "Licensed Pharmacist (RPh)",
+        "Board Certified Pharmacotherapy Specialist (BCPS)"
+      ],
+      "careerPath": "Clinical Pharmacist -> Lead Hospital Pharmacist -> Director of Pharmacy Services",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Medical Laboratory Scientist",
@@ -192,7 +308,21 @@
         "Immunoassay Interpretation",
         "Quality Control Validation",
         "Pathology Specimen Handling"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $105,000 / yr",
+      "responsibilities": [
+        "Perform complex chemical, hematological, immunological, and microbiological laboratory assays",
+        "Calibrate automated clinical analyzers and maintain strict quality control (QC) logs",
+        "Identify cellular abnormalities in peripheral blood smears and body fluids",
+        "Crossmatch blood products for life-saving transfusion compatibility"
+      ],
+      "certifications": [
+        "ASCP Board of Certification (MLS(ASCP))",
+        "State Clinical Laboratory License"
+      ],
+      "careerPath": "Lab Tech -> Medical Laboratory Scientist -> Lab Supervisor -> Clinical Laboratory Director",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Radiologic Technologist",
@@ -212,7 +342,21 @@
         "Cross-Sectional Imaging",
         "Radiation Dose Optimization (ALARA)",
         "Patient Safety Positioning"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $100,000 / yr",
+      "responsibilities": [
+        "Operate diagnostic imaging equipment: X-ray, computed tomography (CT), and MRI scanners",
+        "Position patients accurately to capture diagnostic radiographic projections while minimizing radiation dose (ALARA)",
+        "Administer radiopaque contrast media and monitor patients for adverse allergic reactions",
+        "Archive high-resolution DICOM images to hospital PACS systems"
+      ],
+      "certifications": [
+        "ARRT (American Registry of Radiologic Technologists) Certified (RT(R))",
+        "State Licensure"
+      ],
+      "careerPath": "Radiologic Tech -> Senior CT/MRI Technologist -> Radiology Operations Manager",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Physician Assistant",
@@ -232,7 +376,22 @@
         "Clinical Assessment",
         "Surgical First Assisting",
         "Patient Education"
-      ]
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$105,000 - $150,000 / yr",
+      "responsibilities": [
+        "Conduct comprehensive physical exams, order diagnostic testing, and synthesize diagnoses",
+        "First-assist in surgical operations and perform bedside procedures (suturing, line placements)",
+        "Formulate treatment plans and prescribe medications under physician collaboration",
+        "Round on hospitalized inpatients and manage routine outpatient clinic schedules"
+      ],
+      "certifications": [
+        "PA-C (NCCPA Certified Physician Assistant)",
+        "State Licensure",
+        "ACLS/BLS"
+      ],
+      "careerPath": "Physician Assistant -> Lead Clinical PA -> Director of Allied Health",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Pediatrician",
@@ -252,7 +411,21 @@
         "Neonatal & Pediatric Care",
         "Developmental Milestone Assessment",
         "Family-Centered Communication"
-      ]
+      ],
+      "level": "Senior / Specialist",
+      "salaryRange": "$180,000 - $275,000 / yr",
+      "responsibilities": [
+        "Monitor childhood growth milestones, cognitive development, and nutritional guidelines",
+        "Administer pediatric immunization schedules and treat acute childhood infections",
+        "Screen for behavioral, developmental, and emotional conditions (ADHD, autism spectrum)",
+        "Counsel parents on child safety, sleep routines, and developmental psychology"
+      ],
+      "certifications": [
+        "American Board of Pediatrics (ABP) Certified",
+        "PALS (Pediatric Advanced Life Support)"
+      ],
+      "careerPath": "Pediatric Resident -> Attending Pediatrician -> Chief of Pediatrics",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Physical Therapist",
@@ -272,7 +445,22 @@
         "Biomechanical Analysis",
         "Musculoskeletal Rehabilitation",
         "Therapeutic Exercise Prescription"
-      ]
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$85,000 - $125,000 / yr",
+      "responsibilities": [
+        "Evaluate musculoskeletal, neurological, and post-surgical movement dysfunctions",
+        "Develop personalized rehabilitation plans with therapeutic exercise and manual joint mobilizations",
+        "Utilize gait analysis, neuromuscular reeducation, and modalities (ultrasound, electrical stimulation)",
+        "Educate patients on ergonomic modifications and home exercise programs to prevent reinjury"
+      ],
+      "certifications": [
+        "Doctor of Physical Therapy (DPT)",
+        "Licensed PT",
+        "Orthopedic Clinical Specialist (OCS)"
+      ],
+      "careerPath": "Physical Therapist -> Clinical Specialist -> Rehabilitation Clinic Director",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Occupational Therapist",
@@ -292,7 +480,21 @@
         "Activities of Daily Living (ADL) Training",
         "Ergonomic Evaluation",
         "Adaptive Device Customization"
-      ]
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$80,000 - $120,000 / yr",
+      "responsibilities": [
+        "Assess patients' functional capacity to perform essential activities of daily living (ADLs)",
+        "Design adaptive strategies and prescribe assistive technology equipment for independence",
+        "Perform upper extremity rehabilitation, fine motor retraining, and cognitive exercises",
+        "Conduct home safety evaluations for wheelchair accessibility and fall prevention"
+      ],
+      "certifications": [
+        "NBCOT Certified Occupational Therapist (OTR)",
+        "State Licensure"
+      ],
+      "careerPath": "Occupational Therapist -> Senior Clinical Specialist -> Director of Therapy Services",
+      "roadmapRef": "health-informatics"
     },
     {
       "name": "Medical Assistant",
@@ -313,6 +515,429 @@
         "Clinical Phlebotomy",
         "HIPAA Compliance",
         "Administrative Organization"
+      ],
+      "level": "Entry-Level",
+      "salaryRange": "$40,000 - $60,000 / yr",
+      "responsibilities": [
+        "Obtain patient vital signs (blood pressure, temperature, pulse oximetry) and record medical histories",
+        "Prepare exam rooms, sterilize clinical instruments, and assist physicians during minor procedures",
+        "Administer routine intramuscular injections, perform phlebotomy, and collect lab specimens",
+        "Manage appointment scheduling, prescription refill requests, and patient triage calls"
+      ],
+      "certifications": [
+        "Certified Medical Assistant (CMA / RMA)",
+        "CPR / BLS Certified"
+      ],
+      "careerPath": "Medical Assistant -> Lead Clinical MA -> Medical Office Coordinator -> Clinic Manager",
+      "roadmapRef": "health-informatics"
+    },
+    {
+      "name": "Health Informatics Specialist",
+      "description": "Optimizes clinical electronic health records (EHR), medical data taxonomy, interoperability standards, and health system workflows.",
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $155,000 / yr",
+      "responsibilities": [
+        "Implement FHIR (Fast Healthcare Interoperability Resources) and HL7 messaging pipelines",
+        "Optimize Epic/Cerner clinical decision support (CDS) alerts and clinical documentation templates",
+        "Audit clinical coding taxonomies (ICD-10, SNOMED-CT, LOINC, CPT) for compliance",
+        "Analyze patient readmission metrics and clinical workflow friction"
+      ],
+      "certifications": [
+        "CAHIMS / CPHIMS Certified",
+        "Epic / Cerner Certified Analyst"
+      ],
+      "careerPath": "Clinical Analyst -> Health Informatics Specialist -> Chief Medical Information Officer (CMIO)",
+      "roadmapRef": "health-informatics",
+      "related": [
+        "Physician",
+        "Pharmacist",
+        "Medical Laboratory Scientist",
+        "Hospital Administrator"
+      ],
+      "tools": [
+        "Epic Systems",
+        "Cerner",
+        "HL7 / FHIR Engines",
+        "SQL",
+        "Tableau Healthcare"
+      ],
+      "languages": [
+        "SQL",
+        "Python",
+        "JSON"
+      ],
+      "skills": [
+        "FHIR Interoperability",
+        "EHR Optimization",
+        "Clinical Decision Support",
+        "HIPAA Compliance",
+        "Medical Ontologies"
+      ]
+    },
+    {
+      "name": "Clinical Research Coordinator",
+      "description": "Oversees FDA-regulated clinical trials, patient recruitment, protocol adherence, and clinical study data integrity.",
+      "level": "Mid-Level",
+      "salaryRange": "$75,000 - $125,000 / yr",
+      "responsibilities": [
+        "Screen and enroll eligible clinical trial participants following strict inclusion criteria",
+        "Coordinate informed consent documentation and institutional review board (IRB) filings",
+        "Administer investigational medicinal products (IMP) under strict GCP protocols",
+        "Report Serious Adverse Events (SAEs) and maintain electronic case report forms (eCRF)"
+      ],
+      "certifications": [
+        "CCRC (Certified Clinical Research Coordinator)",
+        "CCRP Certified",
+        "ICH-GCP Certified"
+      ],
+      "careerPath": "Research Assistant -> Clinical Research Coordinator -> Clinical Project Manager -> Director of Clinical Operations",
+      "roadmapRef": "health-informatics",
+      "related": [
+        "Physician",
+        "Staff Nurse",
+        "Pharmacist",
+        "Biostatistician & Epidemiologist"
+      ],
+      "tools": [
+        "Medidata Rave",
+        "Veeva Vault CTMS",
+        "REDCap",
+        "Epic Research Portal"
+      ],
+      "languages": [],
+      "skills": [
+        "Good Clinical Practice (GCP)",
+        "IRB Compliance",
+        "Patient Recruitment",
+        "Adverse Event Reporting",
+        "Trial Protocol Execution"
+      ]
+    },
+    {
+      "name": "Biomedical Engineer",
+      "description": "Designs life-saving medical devices, robotic surgery systems, diagnostic biosensors, and artificial organ prosthetics.",
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $155,000 / yr",
+      "responsibilities": [
+        "Design physiological monitors, infusion pumps, and wearable biosensor electronics",
+        "Validate FDA 510(k) and PMA medical device regulatory submissions and ISO 13485 standards",
+        "Conduct biocompatibility testing (ISO 10993) and risk management audits (ISO 14971)",
+        "Simulate biomechanical stresses and fluid dynamics in cardiovascular implants"
+      ],
+      "certifications": [
+        "Certified Biomedical Equipment Technician (CBET)",
+        "Regulatory Affairs Certification (RAC)"
+      ],
+      "careerPath": "Biomedical Engineer -> Senior Medical Device Architect -> VP of Medical Technology",
+      "roadmapRef": "health-informatics",
+      "related": [
+        "Surgeon",
+        "Radiologic Technologist",
+        "Physical Therapist",
+        "Health Informatics Specialist"
+      ],
+      "tools": [
+        "SolidWorks Medical",
+        "MATLAB",
+        "LabVIEW",
+        "Ansys FEA",
+        "Minitab"
+      ],
+      "languages": [
+        "C++",
+        "Python",
+        "MATLAB"
+      ],
+      "skills": [
+        "FDA 510(k) Compliance",
+        "ISO 13485 Standards",
+        "Biocompatibility Testing",
+        "Biosensors",
+        "Medical Device Design"
+      ]
+    },
+    {
+      "name": "Telemedicine Clinical Specialist",
+      "description": "Coordinates virtual patient triage, remote patient monitoring (RPM) telemetry, and digital health consultations.",
+      "level": "Mid-Level",
+      "salaryRange": "$80,000 - $130,000 / yr",
+      "responsibilities": [
+        "Deliver video consultations and triage patient acuity for remote digital care",
+        "Monitor continuous cellular RPM data (continuous glucose monitors, blood pressure cuffs, pulse oximetry)",
+        "Optimize telehealth clinical protocols and multi-state medical licensing compliance",
+        "Educate elderly and rural patients on using digital health portals and connected health devices"
+      ],
+      "certifications": [
+        "Board Certified Telemedicine Professional (BCTP)",
+        "State Telehealth Licensure"
+      ],
+      "careerPath": "Telehealth Coordinator -> Telemedicine Specialist -> Director of Virtual Care",
+      "roadmapRef": "health-informatics",
+      "related": [
+        "Physician",
+        "Nurse Practitioner",
+        "Physician Assistant",
+        "Health Informatics Specialist"
+      ],
+      "tools": [
+        "Teladoc Health",
+        "Amwell",
+        "Doxy.me",
+        "Epic MyChart",
+        "Withings RPM"
+      ],
+      "languages": [],
+      "skills": [
+        "Remote Patient Monitoring",
+        "Digital Health Triage",
+        "Telehealth Compliance",
+        "Virtual Clinical Examination",
+        "EHR Telehealth Integration"
+      ]
+    },
+    {
+      "name": "Genomic Data Analyst",
+      "description": "Analyzes high-throughput Next-Generation Sequencing (NGS) data to identify genetic variants and disease predispositions.",
+      "level": "Senior / Specialist",
+      "salaryRange": "$110,000 - $175,000 / yr",
+      "responsibilities": [
+        "Execute whole-genome (WGS) and exome (WES) sequencing bioinformatics pipelines (GATK, BWA)",
+        "Annotate single-nucleotide polymorphisms (SNPs) and structural variants using ClinVar and gnomAD",
+        "Interpret variant pathogenicity according to ACMG/AMP clinical guidelines",
+        "Author comprehensive clinical genomic diagnostic reports for medical oncologists and geneticists"
+      ],
+      "certifications": [
+        "Bioinformatics Professional Certified",
+        "Clinical Genomics Specialist"
+      ],
+      "careerPath": "Bioinformatician -> Genomic Data Analyst -> Lead Variant Scientist -> Director of Precision Medicine",
+      "roadmapRef": "health-informatics",
+      "related": [
+        "Clinical Geneticist",
+        "Medical Laboratory Scientist",
+        "Physician",
+        "Biostatistician & Epidemiologist"
+      ],
+      "tools": [
+        "GATK",
+        "IGV (Integrative Genomics Viewer)",
+        "Galaxy",
+        "Bioconductor",
+        "Ensembl VEP"
+      ],
+      "languages": [
+        "Python",
+        "R",
+        "Bash",
+        "SQL"
+      ],
+      "skills": [
+        "NGS Variant Calling",
+        "ACMG Pathogenicity Interpretation",
+        "Bioinformatics Pipelines",
+        "WGS/WES Analysis",
+        "Precision Medicine"
+      ]
+    },
+    {
+      "name": "Healthcare AI & Regulatory Specialist",
+      "description": "Validates clinical artificial intelligence models for safety, algorithmic bias, FDA Software as a Medical Device (SaMD) clearance.",
+      "level": "Senior / Lead",
+      "salaryRange": "$130,000 - $205,000 / yr",
+      "responsibilities": [
+        "Prepare FDA SaMD premarket notification 510(k) and De Novo regulatory documentation for clinical AI",
+        "Evaluate deep learning radiology and pathology algorithms against multi-hospital benchmark cohorts",
+        "Audit clinical models for demographic bias, calibration drift, and hallucination risks",
+        "Collaborate with hospital clinical governance committees on clinical AI deployment ethics"
+      ],
+      "certifications": [
+        "RAC (Regulatory Affairs Certification)",
+        "Healthcare AI Ethics Professional"
+      ],
+      "careerPath": "Regulatory Affairs Specialist -> Healthcare AI Specialist -> Chief Regulatory Officer",
+      "roadmapRef": "health-informatics",
+      "related": [
+        "Health Informatics Specialist",
+        "Radiologic Technologist",
+        "Physician",
+        "Hospital Administrator"
+      ],
+      "tools": [
+        "FDA eSTAR",
+        "Python Scikit-Learn",
+        "Weights & Biases",
+        "MIMIC-IV",
+        "Tableau"
+      ],
+      "languages": [
+        "Python",
+        "SQL"
+      ],
+      "skills": [
+        "FDA SaMD Regulatory Pathways",
+        "Clinical AI Validation",
+        "Algorithmic Bias Auditing",
+        "ISO 14971 Risk Management",
+        "Good Machine Learning Practice (GMLP)"
+      ]
+    },
+    {
+      "name": "Hospital Administrator",
+      "description": "Directs hospital operational finances, regulatory accreditation (Joint Commission), bed capacity, and clinical staffing.",
+      "level": "Executive / Director",
+      "salaryRange": "$150,000 - $260,000 / yr",
+      "responsibilities": [
+        "Manage multi-departmental hospital operating budgets, revenue cycle management, and capital projects",
+        "Oversee emergency preparedness, bed throughput, and surgical theater scheduling efficiency",
+        "Maintain accreditation readiness for The Joint Commission (TJC) and CMS inspections",
+        "Lead physician retention, nursing union negotiations, and patient satisfaction (HCAHPS) programs"
+      ],
+      "certifications": [
+        "FACHE (Fellow of the American College of Healthcare Executives)",
+        "MHA / MBA Degree"
+      ],
+      "careerPath": "Operations Manager -> Associate Administrator -> Hospital COO -> Chief Executive Officer (CEO)",
+      "roadmapRef": "health-informatics",
+      "related": [
+        "Physician",
+        "Staff Nurse",
+        "Health Informatics Specialist",
+        "Pharmacist"
+      ],
+      "tools": [
+        "Epic Hospital Operations",
+        "Workday Healthcare",
+        "Tableau Executive",
+        "Strata Decision"
+      ],
+      "languages": [],
+      "skills": [
+        "Healthcare Financial Management",
+        "Joint Commission Accreditation",
+        "Clinical Operations",
+        "HCAHPS Optimization",
+        "Emergency Surge Management"
+      ]
+    },
+    {
+      "name": "Biostatistician & Epidemiologist",
+      "description": "Designs epidemiological surveillance models, infectious disease tracking, and statistical analyses for public health.",
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $155,000 / yr",
+      "responsibilities": [
+        "Model epidemic transmission curves (SEIR models), outbreak clusters, and vaccine efficacy",
+        "Formulate multivariate regression models and survival analyses (Kaplan-Meier, Cox Proportional Hazards)",
+        "Analyze population health survey registries (NHANES, CDC BRFSS) to guide healthcare policy",
+        "Publish epidemiological bulletins and advise public health commissioners"
+      ],
+      "certifications": [
+        "Certified in Public Health (CPH)",
+        "SAS Certified Statistical Business Analyst"
+      ],
+      "careerPath": "Epidemiologist -> Senior Biostatistician -> Chief Epidemiologist -> Director of Public Health",
+      "roadmapRef": "health-informatics",
+      "related": [
+        "Physician",
+        "Clinical Research Coordinator",
+        "Genomic Data Analyst",
+        "Health Informatics Specialist"
+      ],
+      "tools": [
+        "R Studio",
+        "SAS",
+        "SPSS",
+        "STATA",
+        "QGIS"
+      ],
+      "languages": [
+        "R",
+        "SAS",
+        "Python",
+        "SQL"
+      ],
+      "skills": [
+        "Survival Analysis",
+        "Infectious Disease Modeling",
+        "Cohort Study Design",
+        "Multivariate Statistics",
+        "Public Health Telemetry"
+      ]
+    },
+    {
+      "name": "Emergency Medicine Physician",
+      "description": "Stabilizes acute traumatic injuries, cardiac arrests, acute respiratory failure, and urgent medical emergencies.",
+      "level": "Senior / Attending",
+      "salaryRange": "$280,000 - $420,000 / yr",
+      "responsibilities": [
+        "Rapidly triage and resuscitate critically ill medical and trauma resuscitation patients",
+        "Perform emergency procedures: endotracheal intubation, chest tube thoracostomy, central venous access",
+        "Interpret emergency point-of-care ultrasound (POCUS), head CTs, and acute ECGs",
+        "Coordinate trauma activations, mass casualty incident protocols, and ICU admissions"
+      ],
+      "certifications": [
+        "American Board of Emergency Medicine (ABEM)",
+        "ATLS (Advanced Trauma Life Support)",
+        "ACLS / PALS"
+      ],
+      "careerPath": "Emergency Medicine Resident -> Attending ER Physician -> Medical Director of Emergency Services",
+      "roadmapRef": "health-informatics",
+      "related": [
+        "Physician",
+        "Surgeon",
+        "Anesthesiologist",
+        "Physician Assistant"
+      ],
+      "tools": [
+        "POCUS Ultrasound",
+        "Defibrillator / Pacer",
+        "Rapid Infuser",
+        "Epic Rover"
+      ],
+      "languages": [],
+      "skills": [
+        "Acute Resuscitation",
+        "POCUS Ultrasound",
+        "Emergency Airway Management",
+        "Trauma Stabilization",
+        "Disaster Triage"
+      ]
+    },
+    {
+      "name": "Clinical Geneticist",
+      "description": "Diagnoses hereditary syndromes, metabolic disorders, and congenital abnormalities, guiding targeted genomic counseling.",
+      "level": "Senior / Specialist",
+      "salaryRange": "$210,000 - $320,000 / yr",
+      "responsibilities": [
+        "Evaluate pediatric and adult patients for rare inherited genetic conditions and dysmorphology",
+        "Order and interpret chromosomal microarrays, karyotypes, and exome sequencing panels",
+        "Provide empathetic genetic counseling on inheritance risks, recurrence chances, and prenatal options",
+        "Coordinate enzyme replacement therapies and precision clinical trials for metabolic diseases"
+      ],
+      "certifications": [
+        "American Board of Medical Genetics and Genomics (ABMGG) Certified",
+        "State Medical License"
+      ],
+      "careerPath": "Genetics Fellow -> Clinical Geneticist -> Director of Medical Genetics",
+      "roadmapRef": "health-informatics",
+      "related": [
+        "Genomic Data Analyst",
+        "Pediatrician",
+        "Physician",
+        "Medical Laboratory Scientist"
+      ],
+      "tools": [
+        "ClinVar",
+        "OMIM (Online Mendelian Inheritance in Man)",
+        "Face2Gene",
+        "DECIPHER"
+      ],
+      "languages": [],
+      "skills": [
+        "Genetic Counseling",
+        "Dysmorphology Examination",
+        "Pedigree Analysis",
+        "Exome Interpretation",
+        "Mendelian Genetics"
       ]
     }
   ]

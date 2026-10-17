@@ -1,470 +1,1023 @@
-﻿{
-    "roles":  [
-                  {
-                      "name":  "VP of Growth \u0026 Marketing",
-                      "description":  "Orchestrates multi-channel growth engines, customer acquisition cost (CAC) efficiency, brand narrative, and marketing automation.",
-                      "related":  [
-                                      "Product Marketing Manager",
-                                      "Performance Marketing Lead",
-                                      "Brand Manager",
-                                      "Marketing Operations Manager"
-                                  ],
-                      "tools":  [
-                                    "HubSpot",
-                                    "Salesforce",
-                                    "Mixpanel",
-                                    "Looker"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Growth Modeling",
-                                     "Budget Allocation",
-                                     "CAC:LTV Optimization",
-                                     "Executive Leadership"
-                                 ]
-                  },
-                  {
-                      "name":  "Product Marketing Manager",
-                      "description":  "Leads product positioning, competitive intelligence, persona mapping, sales enablement, and go-to-market launches.",
-                      "related":  [
-                                      "VP of Growth \u0026 Marketing",
-                                      "Brand Manager",
-                                      "Content Strategist",
-                                      "Performance Marketing Lead"
-                                  ],
-                      "tools":  [
-                                    "Klue",
-                                    "Notion",
-                                    "Crayon",
-                                    "Figma"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Go-To-Market (GTM) Strategy",
-                                     "Value Proposition Design",
-                                     "Win/Loss Analysis",
-                                     "Competitive Benchmarking"
-                                 ]
-                  },
-                  {
-                      "name":  "Performance Marketing Lead",
-                      "description":  "Drives paid user acquisition, multi-touch attribution modeling, programmatic ad buying, and creative A/B testing at scale.",
-                      "related":  [
-                                      "VP of Growth \u0026 Marketing",
-                                      "SEO \u0026 AEO Specialist",
-                                      "Marketing Analytics Lead",
-                                      "Content Strategist"
-                                  ],
-                      "tools":  [
-                                    "Google Ads",
-                                    "Meta Ads Manager",
-                                    "LinkedIn Campaign Manager",
-                                    "Triple Whale",
-                                    "AppsFlyer"
-                                ],
-                      "languages":  [
-                                        "SQL"
-                                    ],
-                      "skills":  [
-                                     "Paid Search \u0026 Social",
-                                     "Conversion Rate Optimization (CRO)",
-                                     "Attribution Modeling",
-                                     "Ad Creative Testing"
-                                 ]
-                  },
-                  {
-                      "name":  "SEO \u0026 AEO Specialist",
-                      "description":  "Optimizes organic visibility across search engines and AI answer engines (Perplexity, ChatGPT, Gemini, Google AI Overviews).",
-                      "related":  [
-                                      "Content Strategist",
-                                      "Performance Marketing Lead",
-                                      "Marketing Analytics Lead"
-                                  ],
-                      "tools":  [
-                                    "Ahrefs",
-                                    "Semrush",
-                                    "Google Search Console",
-                                    "Screaming Frog",
-                                    "SurferSEO"
-                                ],
-                      "languages":  [
-                                        "HTML",
-                                        "JavaScript",
-                                        "Python"
-                                    ],
-                      "skills":  [
-                                     "Technical SEO",
-                                     "Answer Engine Optimization (AEO)",
-                                     "Structured Data (Schema.org)",
-                                     "Semantic Search Optimization"
-                                 ]
-                  },
-                  {
-                      "name":  "Content Strategist",
-                      "description":  "Develops thought leadership narratives, multimedia content workflows, AI-assisted editorial calendars, and organic demand gen.",
-                      "related":  [
-                                      "SEO \u0026 AEO Specialist",
-                                      "Brand Manager",
-                                      "Social \u0026 Community Manager",
-                                      "Copywriter"
-                                  ],
-                      "tools":  [
-                                    "Notion",
-                                    "WordPress",
-                                    "Webflow",
-                                    "Grammarly AI"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Content Operations",
-                                     "Editorial Strategy",
-                                     "Brand Storytelling",
-                                     "Topic Clustering"
-                                 ]
-                  },
-                  {
-                      "name":  "Brand Manager",
-                      "description":  "Protects and shapes brand identity, visual guidelines, customer sentiment, PR narrative, and experiential marketing.",
-                      "related":  [
-                                      "VP of Growth \u0026 Marketing",
-                                      "Product Marketing Manager",
-                                      "Content Strategist",
-                                      "Social \u0026 Community Manager"
-                                  ],
-                      "tools":  [
-                                    "Figma",
-                                    "Brandfolder",
-                                    "Sprinklr"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Brand Positioning",
-                                     "Reputation Management",
-                                     "Creative Direction",
-                                     "Customer Empathy"
-                                 ]
-                  },
-                  {
-                      "name":  "Social \u0026 Community Manager",
-                      "description":  "Builds and nurtures authentic online communities across Discord, LinkedIn, X, YouTube, and Slack for organic advocacy.",
-                      "related":  [
-                                      "Content Strategist",
-                                      "Brand Manager",
-                                      "Copywriter"
-                                  ],
-                      "tools":  [
-                                    "Sprout Social",
-                                    "Discord",
-                                    "Common Room",
-                                    "Buffer"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Community Moderation",
-                                     "Viral Social Content",
-                                     "Advocacy Programs",
-                                     "Live Audio/Video Hosting"
-                                 ]
-                  },
-                  {
-                      "name":  "Marketing Operations Manager",
-                      "description":  "Maintains marketing automation tech stacks, lead scoring, database hygiene, and CRM data pipeline routing.",
-                      "related":  [
-                                      "VP of Growth \u0026 Marketing",
-                                      "Marketing Analytics Lead",
-                                      "Performance Marketing Lead"
-                                  ],
-                      "tools":  [
-                                    "HubSpot",
-                                    "Marketo",
-                                    "Zapier / Make",
-                                    "Segment",
-                                    "Clearbit"
-                                ],
-                      "languages":  [
-                                        "SQL",
-                                        "JavaScript"
-                                    ],
-                      "skills":  [
-                                     "Marketing Automation",
-                                     "Lead Routing",
-                                     "Data Hygiene",
-                                     "Tech Stack Integration"
-                                 ]
-                  },
-                  {
-                      "name":  "Marketing Analytics Lead",
-                      "description":  "Extracts customer journey insights, conversion funnels, churn probability, and predictive customer lifetime value (LTV).",
-                      "related":  [
-                                      "Marketing Operations Manager",
-                                      "Performance Marketing Lead",
-                                      "SEO \u0026 AEO Specialist"
-                                  ],
-                      "tools":  [
-                                    "Google Analytics 4",
-                                    "PostHog",
-                                    "Mixpanel",
-                                    "Tableau",
-                                    "BigQuery"
-                                ],
-                      "languages":  [
-                                        "SQL",
-                                        "Python",
-                                        "R"
-                                    ],
-                      "skills":  [
-                                     "Cohort Analysis",
-                                     "Funnel Optimization",
-                                     "Marketing Mix Modeling (MMM)",
-                                     "Predictive Modeling"
-                                 ]
-                  },
-                  {
-                      "name":  "Copywriter",
-                      "description":  "Writes high-converting landing page copy, sales email sequences, video ad scripts, and microcopy.",
-                      "related":  [
-                                      "Content Strategist",
-                                      "Social \u0026 Community Manager",
-                                      "Product Marketing Manager"
-                                  ],
-                      "tools":  [
-                                    "Google Docs",
-                                    "Notion",
-                                    "Hemingway Editor",
-                                    "Claude"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Direct Response Copywriting",
-                                     "Persuasive Psychology",
-                                     "Headline Testing",
-                                     "Ad Scriptwriting"
-                                 ]
-                  },
-                  {
-                      "name":  "Marketing Manager",
-                      "description":  "Leads the marketing team and strategy.",
-                      "includes":  [
-                                       "Content Strategist",
-                                       "SEO Specialist",
-                                       "Social Media Manager",
-                                       "PPC Specialist"
-                                   ],
-                      "related":  [
-                                      "Brand Manager",
-                                      "Product Marketing Manager"
-                                  ],
-                      "tools":  [
-                                    "CRM",
-                                    "Marketing Automation Platforms",
-                                    "Google Analytics"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Strategic Planning",
-                                     "Team Leadership",
-                                     "Budgeting",
-                                     "Campaign Management"
-                                 ]
-                  },
-                  {
-                      "name":  "SEO Specialist",
-                      "description":  "Optimizes web content for search engines.",
-                      "includes":  [
-
-                                   ],
-                      "related":  [
-                                      "Content Strategist",
-                                      "Web Analyst",
-                                      "PPC Specialist"
-                                  ],
-                      "tools":  [
-                                    "Google Analytics",
-                                    "SEO Tools",
-                                    "Google Search Console",
-                                    "Ahrefs",
-                                    "Semrush",
-                                    "Google Search Console",
-                                    "SurferSEO"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Keyword Research",
-                                     "Technical SEO",
-                                     "On-page Optimization",
-                                     "Answer Engine Optimization (AEO)",
-                                     "Semantic Search"
-                                 ]
-                  },
-                  {
-                      "name":  "Social Media Manager",
-                      "description":  "Manages social media presence and campaigns.",
-                      "includes":  [
-                                       "Community Manager"
-                                   ],
-                      "related":  [
-                                      "Content Strategist",
-                                      "Brand Manager",
-                                      "Influencer Marketing Manager"
-                                  ],
-                      "tools":  [
-                                    "Social Media Platforms",
-                                    "Scheduling Tools",
-                                    "Canva",
-                                    "Sprout Social",
-                                    "Discord",
-                                    "Canva Pro",
-                                    "CapCut"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Content Creation",
-                                     "Community Engagement",
-                                     "Analytics"
-                                 ]
-                  },
-                  {
-                      "name":  "PPC Specialist",
-                      "description":  "Manages paid advertising campaigns across digital platforms.",
-                      "includes":  [
-
-                                   ],
-                      "related":  [
-                                      "SEO Specialist",
-                                      "Web Analyst",
-                                      "Marketing Manager"
-                                  ],
-                      "tools":  [
-                                    "Google Ads",
-                                    "Facebook Ads Manager",
-                                    "Bid Management Tools",
-                                    "Meta Ads Manager",
-                                    "Google Ads AI",
-                                    "Triple Whale"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Campaign Optimization",
-                                     "A/B Testing",
-                                     "Analytics"
-                                 ]
-                  },
-                  {
-                      "name":  "Content Editor",
-                      "description":  "Edits and proofreads marketing materials for clarity and accuracy.",
-                      "includes":  [
-
-                                   ],
-                      "related":  [
-                                      "Copywriter",
-                                      "Content Strategist"
-                                  ],
-                      "tools":  [
-                                    "Word Processors",
-                                    "Editing Tools"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Editing",
-                                     "Proofreading",
-                                     "Attention to Detail"
-                                 ]
-                  },
-                  {
-                      "name":  "Web Analyst",
-                      "description":  "Analyzes website data to inform marketing decisions.",
-                      "includes":  [
-
-                                   ],
-                      "related":  [
-                                      "SEO Specialist",
-                                      "PPC Specialist",
-                                      "Content Strategist"
-                                  ],
-                      "tools":  [
-                                    "Google Analytics",
-                                    "Data Visualization Tools",
-                                    "GA4",
-                                    "PostHog",
-                                    "Mixpanel",
-                                    "BigQuery"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Data Analysis",
-                                     "Reporting",
-                                     "Conversion Optimization"
-                                 ]
-                  },
-                  {
-                      "name":  "Community Manager",
-                      "description":  "Builds and manages relationships with online communities.",
-                      "includes":  [
-
-                                   ],
-                      "related":  [
-                                      "Social Media Manager",
-                                      "Content Strategist"
-                                  ],
-                      "tools":  [
-                                    "Community Platforms",
-                                    "Social Listening Tools"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Community Engagement",
-                                     "Conflict Resolution",
-                                     "Event Planning"
-                                 ]
-                  },
-                  {
-                      "name":  "Influencer Marketing Manager",
-                      "description":  "Coordinates campaigns with influencers and brand ambassadors.",
-                      "includes":  [
-
-                                   ],
-                      "related":  [
-                                      "Social Media Manager",
-                                      "Brand Manager"
-                                  ],
-                      "tools":  [
-                                    "Influencer Platforms",
-                                    "CRM"
-                                ],
-                      "languages":  [
-
-                                    ],
-                      "skills":  [
-                                     "Negotiation",
-                                     "Relationship Building",
-                                     "Campaign Management"
-                                 ]
-                  }
-              ]
+{
+  "roles": [
+    {
+      "name": "VP of Growth & Marketing",
+      "description": "Orchestrates multi-channel growth engines, customer acquisition cost (CAC) efficiency, brand narrative, and marketing automation.",
+      "related": [
+        "Product Marketing Manager",
+        "Performance Marketing Lead",
+        "Brand Manager",
+        "Marketing Operations Manager"
+      ],
+      "tools": [
+        "HubSpot",
+        "Salesforce",
+        "Mixpanel",
+        "Looker"
+      ],
+      "languages": [],
+      "skills": [
+        "Growth Modeling",
+        "Budget Allocation",
+        "CAC:LTV Optimization",
+        "Executive Leadership"
+      ],
+      "level": "Executive / VP",
+      "salaryRange": "$160,000 - $250,000 / yr",
+      "responsibilities": [
+        "Architect overall go-to-market (GTM) growth strategy and multi-channel acquisition funnels",
+        "Lead brand positioning, revenue attribution models, and quarterly budgeting",
+        "Scale demand generation, product marketing, content, and retention teams",
+        "Optimize customer acquisition cost (CAC) and customer lifetime value (LTV)"
+      ],
+      "certifications": [
+        "Reforge Growth Series Alum",
+        "Kellogg Executive Marketing Certificate"
+      ],
+      "careerPath": "Marketing Director -> VP of Marketing -> Chief Marketing Officer (CMO)",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Product Marketing Manager",
+      "description": "Leads product positioning, competitive intelligence, persona mapping, sales enablement, and go-to-market launches.",
+      "related": [
+        "VP of Growth & Marketing",
+        "Brand Manager",
+        "Content Strategist",
+        "Performance Marketing Lead"
+      ],
+      "tools": [
+        "Klue",
+        "Notion",
+        "Crayon",
+        "Figma"
+      ],
+      "languages": [],
+      "skills": [
+        "Go-To-Market (GTM) Strategy",
+        "Value Proposition Design",
+        "Win/Loss Analysis",
+        "Competitive Benchmarking"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$110,000 - $170,000 / yr",
+      "responsibilities": [
+        "Craft core product positioning, value proposition matrices, and competitive battlecards",
+        "Orchestrate tier-1 feature launches, customer enablement assets, and sales collateral",
+        "Conduct win-loss interviews, buyer persona research, and pricing tier evaluations",
+        "Drive product adoption through in-app tours, changelogs, and case studies"
+      ],
+      "certifications": [
+        "Product Marketing Alliance (PMA) Certified",
+        "Pragmatic Institute Certified (PMC-III)"
+      ],
+      "careerPath": "Associate PMM -> Product Marketing Manager -> Director of PMM -> VP of Product Marketing",
+      "roadmapRef": "product-manager"
+    },
+    {
+      "name": "Performance Marketing Lead",
+      "description": "Drives paid user acquisition, multi-touch attribution modeling, programmatic ad buying, and creative A/B testing at scale.",
+      "related": [
+        "VP of Growth & Marketing",
+        "SEO & AEO Specialist",
+        "Marketing Analytics Lead",
+        "Content Strategist"
+      ],
+      "tools": [
+        "Google Ads",
+        "Meta Ads Manager",
+        "LinkedIn Campaign Manager",
+        "Triple Whale",
+        "AppsFlyer"
+      ],
+      "languages": [
+        "SQL"
+      ],
+      "skills": [
+        "Paid Search & Social",
+        "Conversion Rate Optimization (CRO)",
+        "Attribution Modeling",
+        "Ad Creative Testing"
+      ],
+      "level": "Senior / Lead",
+      "salaryRange": "$115,000 - $175,000 / yr",
+      "responsibilities": [
+        "Manage multi-million dollar annual budgets across Google, Meta, and programmatic DSPs",
+        "Design disciplined multivariate creative experiments and landing page split tests",
+        "Build multi-touch attribution models and monitor ROAS and blended CAC",
+        "Partner with data engineers on server-side Conversion APIs (CAPI)"
+      ],
+      "certifications": [
+        "Google Ads Search / Display Certified",
+        "Meta Certified Media Buying Professional"
+      ],
+      "careerPath": "PPC Specialist -> Performance Lead -> Head of Paid Acquisition -> VP of Growth",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "SEO & AEO Specialist",
+      "description": "Optimizes organic visibility across search engines and AI answer engines (Perplexity, ChatGPT, Gemini, Google AI Overviews).",
+      "related": [
+        "Content Strategist",
+        "Performance Marketing Lead",
+        "Marketing Analytics Lead"
+      ],
+      "tools": [
+        "Ahrefs",
+        "Semrush",
+        "Google Search Console",
+        "Screaming Frog",
+        "SurferSEO"
+      ],
+      "languages": [
+        "HTML",
+        "JavaScript",
+        "Python"
+      ],
+      "skills": [
+        "Technical SEO",
+        "Answer Engine Optimization (AEO)",
+        "Structured Data (Schema.org)",
+        "Semantic Search Optimization"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$90,000 - $145,000 / yr",
+      "responsibilities": [
+        "Execute technical SEO audits (crawl budget, schema markup, core web vitals)",
+        "Optimize content for Answer Engine Optimization (AEO) and generative AI summaries (ChatGPT, Perplexity, Gemini)",
+        "Build programmatic SEO clusters and high-authority editorial backlink networks",
+        "Track keyword rankings, organic impressions, and search console health"
+      ],
+      "certifications": [
+        "Semrush SEO Toolkit Certified",
+        "Ahrefs Academy Certified"
+      ],
+      "careerPath": "SEO Analyst -> SEO & AEO Specialist -> Head of Organic Search -> VP of Marketing",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Content Strategist",
+      "description": "Develops thought leadership narratives, multimedia content workflows, AI-assisted editorial calendars, and organic demand gen.",
+      "related": [
+        "SEO & AEO Specialist",
+        "Brand Manager",
+        "Social & Community Manager",
+        "Copywriter"
+      ],
+      "tools": [
+        "Notion",
+        "WordPress",
+        "Webflow",
+        "Grammarly AI"
+      ],
+      "languages": [],
+      "skills": [
+        "Content Operations",
+        "Editorial Strategy",
+        "Brand Storytelling",
+        "Topic Clustering"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$85,000 - $135,000 / yr",
+      "responsibilities": [
+        "Design editorial content calendars aligned with buyer intent and pain points",
+        "Supervise technical writers, whitepapers, case studies, and thought leadership",
+        "Audit existing content repositories for decay, freshness, and topical authority",
+        "Repurpose pillar assets across newsletters, podcasts, and social channels"
+      ],
+      "certifications": [
+        "HubSpot Content Marketing Certified",
+        "CMI Content Strategy Master"
+      ],
+      "careerPath": "Content Writer -> Content Strategist -> Director of Content -> Head of Brand & Editorial",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Brand Manager",
+      "description": "Protects and shapes brand identity, visual guidelines, customer sentiment, PR narrative, and experiential marketing.",
+      "related": [
+        "VP of Growth & Marketing",
+        "Product Marketing Manager",
+        "Content Strategist",
+        "Social & Community Manager"
+      ],
+      "tools": [
+        "Figma",
+        "Brandfolder",
+        "Sprinklr"
+      ],
+      "languages": [],
+      "skills": [
+        "Brand Positioning",
+        "Reputation Management",
+        "Creative Direction",
+        "Customer Empathy"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $150,000 / yr",
+      "responsibilities": [
+        "Define brand identity, tone-of-voice guidelines, typography, and visual assets",
+        "Execute brand perception surveys, awareness campaigns, and PR sponsorships",
+        "Protect brand equity, trademark usage, and executive communication standards",
+        "Align creative design agencies with corporate positioning goals"
+      ],
+      "certifications": [
+        "AMA Certified Professional Marketer (PCM)",
+        "Brand Strategy Certified"
+      ],
+      "careerPath": "Brand Associate -> Brand Manager -> Group Brand Director -> VP of Global Brand",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Social & Community Manager",
+      "description": "Builds and nurtures authentic online communities across Discord, LinkedIn, X, YouTube, and Slack for organic advocacy.",
+      "related": [
+        "Content Strategist",
+        "Brand Manager",
+        "Copywriter"
+      ],
+      "tools": [
+        "Sprout Social",
+        "Discord",
+        "Common Room",
+        "Buffer"
+      ],
+      "languages": [],
+      "skills": [
+        "Community Moderation",
+        "Viral Social Content",
+        "Advocacy Programs",
+        "Live Audio/Video Hosting"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$70,000 - $115,000 / yr",
+      "responsibilities": [
+        "Manage organic brand distribution across LinkedIn, X/Twitter, YouTube, and TikTok",
+        "Foster community engagement, advocacy programs, and user discussions",
+        "Monitor social sentiment, brand mentions, and viral cultural trends",
+        "Produce high-velocity native social video clips and visual infographics"
+      ],
+      "certifications": [
+        "Hootsuite Social Marketing Certified",
+        "Sprout Social Certified Professional"
+      ],
+      "careerPath": "Social Media Coordinator -> Social & Community Manager -> Head of Social Strategy",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Marketing Operations Manager",
+      "description": "Maintains marketing automation tech stacks, lead scoring, database hygiene, and CRM data pipeline routing.",
+      "related": [
+        "VP of Growth & Marketing",
+        "Marketing Analytics Lead",
+        "Performance Marketing Lead"
+      ],
+      "tools": [
+        "HubSpot",
+        "Marketo",
+        "Zapier / Make",
+        "Segment",
+        "Clearbit"
+      ],
+      "languages": [
+        "SQL",
+        "JavaScript"
+      ],
+      "skills": [
+        "Marketing Automation",
+        "Lead Routing",
+        "Data Hygiene",
+        "Tech Stack Integration"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$105,000 - $165,000 / yr",
+      "responsibilities": [
+        "Architect marketing tech stack (HubSpot, Marketo, Salesforce, Segment)",
+        "Build lead scoring models, automated drip nurturing flows, and routing logic",
+        "Ensure data hygiene, unsubscribe compliance (CAN-SPAM, GDPR), and API webhooks",
+        "Report pipeline attribution and marketing-sourced revenue to sales leadership"
+      ],
+      "certifications": [
+        "Marketo Certified Expert (MCE)",
+        "Salesforce Certified Administrator",
+        "HubSpot RevOps Certified"
+      ],
+      "careerPath": "Marketing Ops Specialist -> Marketing Operations Manager -> Director of RevOps -> VP of Revenue Operations",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Marketing Analytics Lead",
+      "description": "Extracts customer journey insights, conversion funnels, churn probability, and predictive customer lifetime value (LTV).",
+      "related": [
+        "Marketing Operations Manager",
+        "Performance Marketing Lead",
+        "SEO & AEO Specialist"
+      ],
+      "tools": [
+        "Google Analytics 4",
+        "PostHog",
+        "Mixpanel",
+        "Tableau",
+        "BigQuery"
+      ],
+      "languages": [
+        "SQL",
+        "Python",
+        "R"
+      ],
+      "skills": [
+        "Cohort Analysis",
+        "Funnel Optimization",
+        "Marketing Mix Modeling (MMM)",
+        "Predictive Modeling"
+      ],
+      "level": "Senior / Lead",
+      "salaryRange": "$115,000 - $175,000 / yr",
+      "responsibilities": [
+        "Construct unified marketing data models in BigQuery/Snowflake connecting web and CRM events",
+        "Implement statistical marketing mix modeling (MMM) and multi-touch attribution",
+        "Design executive performance dashboards in Looker Studio and Tableau",
+        "Evaluate incrementality testing and lift studies for paid channel investments"
+      ],
+      "certifications": [
+        "Google Analytics 4 (GA4) Certification",
+        "dbt Certified Developer"
+      ],
+      "careerPath": "Marketing Analyst -> Marketing Analytics Lead -> Director of Marketing Science",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Copywriter",
+      "description": "Writes high-converting landing page copy, sales email sequences, video ad scripts, and microcopy.",
+      "related": [
+        "Content Strategist",
+        "Social & Community Manager",
+        "Product Marketing Manager"
+      ],
+      "tools": [
+        "Google Docs",
+        "Notion",
+        "Hemingway Editor",
+        "Claude"
+      ],
+      "languages": [],
+      "skills": [
+        "Direct Response Copywriting",
+        "Persuasive Psychology",
+        "Headline Testing",
+        "Ad Scriptwriting"
+      ],
+      "level": "Entry to Mid",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Write high-converting ad copy, landing pages, email subject lines, and video scripts",
+        "Synthesize technical product specifications into engaging, persuasive benefits",
+        "Conduct A/B testing on call-to-action (CTA) buttons and headline variations",
+        "Maintain brand voice consistency across all marketing touchpoints"
+      ],
+      "certifications": [
+        "AWAI Copywriting Mastery",
+        "Copyblogger Certified Content Marketer"
+      ],
+      "careerPath": "Junior Copywriter -> Senior Copywriter -> Creative Lead -> Creative Director",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Marketing Manager",
+      "description": "Leads the marketing team and strategy.",
+      "includes": [
+        "Content Strategist",
+        "SEO Specialist",
+        "Social Media Manager",
+        "PPC Specialist"
+      ],
+      "related": [
+        "Brand Manager",
+        "Product Marketing Manager"
+      ],
+      "tools": [
+        "CRM",
+        "Marketing Automation Platforms",
+        "Google Analytics"
+      ],
+      "languages": [],
+      "skills": [
+        "Strategic Planning",
+        "Team Leadership",
+        "Budgeting",
+        "Campaign Management"
+      ],
+      "level": "Mid to Senior",
+      "salaryRange": "$90,000 - $145,000 / yr",
+      "responsibilities": [
+        "Plan and execute end-to-end promotional campaigns across online and offline channels",
+        "Manage campaign budgets, timelines, agency vendors, and deliverables",
+        "Track lead velocity, conversion milestones, and campaign ROI",
+        "Coordinate cross-functional event presence, webinars, and partner marketing"
+      ],
+      "certifications": [
+        "CIM Professional Certificate in Marketing",
+        "HubSpot Inbound Certified"
+      ],
+      "careerPath": "Marketing Coordinator -> Marketing Manager -> Senior Marketing Director",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "SEO Specialist",
+      "description": "Optimizes web content for search engines.",
+      "includes": [],
+      "related": [
+        "Content Strategist",
+        "Web Analyst",
+        "PPC Specialist"
+      ],
+      "tools": [
+        "Google Analytics",
+        "SEO Tools",
+        "Google Search Console",
+        "Ahrefs",
+        "Semrush",
+        "Google Search Console",
+        "SurferSEO"
+      ],
+      "languages": [],
+      "skills": [
+        "Keyword Research",
+        "Technical SEO",
+        "On-page Optimization",
+        "Answer Engine Optimization (AEO)",
+        "Semantic Search"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$75,000 - $120,000 / yr",
+      "responsibilities": [
+        "Perform deep keyword discovery, competitor gap analysis, and content briefs",
+        "Audit on-page title tags, meta descriptions, internal link graph, and image alt text",
+        "Resolve indexing errors, 404 redirects, canonical issues, and robots.txt rules",
+        "Monitor Google search algorithm updates and organic rank fluctuations"
+      ],
+      "certifications": [
+        "Google Search Console Certified",
+        "Moz SEO Academy Certified"
+      ],
+      "careerPath": "Junior SEO -> SEO Specialist -> SEO Lead -> Director of Organic Growth",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Social Media Manager",
+      "description": "Manages social media presence and campaigns.",
+      "includes": [
+        "Community Manager"
+      ],
+      "related": [
+        "Content Strategist",
+        "Brand Manager",
+        "Influencer Marketing Manager"
+      ],
+      "tools": [
+        "Social Media Platforms",
+        "Scheduling Tools",
+        "Canva",
+        "Sprout Social",
+        "Discord",
+        "Canva Pro",
+        "CapCut"
+      ],
+      "languages": [],
+      "skills": [
+        "Content Creation",
+        "Community Engagement",
+        "Analytics"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Curate brand feeds, visual stories, and carousel graphics across social platforms",
+        "Engage with follower comments, DMs, and community threads in real-time",
+        "Collaborate with graphic designers and influencers for viral content creation",
+        "Track weekly reach, impression velocity, engagement rate, and follower growth"
+      ],
+      "certifications": [
+        "Meta Certified Digital Marketing Associate",
+        "Hootsuite Certified"
+      ],
+      "careerPath": "Social Media Assistant -> Social Media Manager -> Head of Social Channels",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "PPC Specialist",
+      "description": "Manages paid advertising campaigns across digital platforms.",
+      "includes": [],
+      "related": [
+        "SEO Specialist",
+        "Web Analyst",
+        "Marketing Manager"
+      ],
+      "tools": [
+        "Google Ads",
+        "Facebook Ads Manager",
+        "Bid Management Tools",
+        "Meta Ads Manager",
+        "Google Ads AI",
+        "Triple Whale"
+      ],
+      "languages": [],
+      "skills": [
+        "Campaign Optimization",
+        "A/B Testing",
+        "Analytics"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$75,000 - $120,000 / yr",
+      "responsibilities": [
+        "Build and manage paid search campaigns (Google Ads, Bing Ads) and keyword bidding",
+        "Maintain negative keyword lists and high Quality Scores to minimize CPC",
+        "Optimize ad extensions, responsive search ads, and remarketing audiences",
+        "Monitor budget pacing, click-through rates (CTR), and cost-per-lead (CPL)"
+      ],
+      "certifications": [
+        "Google Ads Search Professional",
+        "Microsoft Advertising Certified Professional"
+      ],
+      "careerPath": "Paid Media Specialist -> PPC Lead -> Performance Marketing Manager",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Content Editor",
+      "description": "Edits and proofreads marketing materials for clarity and accuracy.",
+      "includes": [],
+      "related": [
+        "Copywriter",
+        "Content Strategist"
+      ],
+      "tools": [
+        "Word Processors",
+        "Editing Tools"
+      ],
+      "languages": [],
+      "skills": [
+        "Editing",
+        "Proofreading",
+        "Attention to Detail"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$70,000 - $115,000 / yr",
+      "responsibilities": [
+        "Review and polish written drafts for grammatical accuracy, clarity, and tone",
+        "Ensure alignment with AP Stylebook and internal corporate style guidelines",
+        "Fact-check technical claims, data citations, and source attributions",
+        "Mentor freelance writers and contribute to editorial guidelines"
+      ],
+      "certifications": [
+        "Poynter ACES Certificate in Editing",
+        "Editorial Freelancers Association Member"
+      ],
+      "careerPath": "Proofreader -> Content Editor -> Managing Editor -> Editorial Director",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Web Analyst",
+      "description": "Analyzes website data to inform marketing decisions.",
+      "includes": [],
+      "related": [
+        "SEO Specialist",
+        "PPC Specialist",
+        "Content Strategist"
+      ],
+      "tools": [
+        "Google Analytics",
+        "Data Visualization Tools",
+        "GA4",
+        "PostHog",
+        "Mixpanel",
+        "BigQuery"
+      ],
+      "languages": [],
+      "skills": [
+        "Data Analysis",
+        "Reporting",
+        "Conversion Optimization"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$80,000 - $130,000 / yr",
+      "responsibilities": [
+        "Implement event tracking tags and custom parameters via Google Tag Manager (GTM)",
+        "Audit website navigation funnels, bounce rates, and user drop-off points",
+        "Configure heatmaps, session recordings (Hotjar, Microsoft Clarity), and form tracking",
+        "Provide conversion funnel optimization recommendations to UX and growth teams"
+      ],
+      "certifications": [
+        "Google Analytics Individual Qualification (GAIQ)",
+        "GTM Specialist Certified"
+      ],
+      "careerPath": "Junior Analyst -> Web Analyst -> Senior CRO Analyst -> Analytics Lead",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Community Manager",
+      "description": "Builds and manages relationships with online communities.",
+      "includes": [],
+      "related": [
+        "Social Media Manager",
+        "Content Strategist"
+      ],
+      "tools": [
+        "Community Platforms",
+        "Social Listening Tools"
+      ],
+      "languages": [],
+      "skills": [
+        "Community Engagement",
+        "Conflict Resolution",
+        "Event Planning"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Nurture online member spaces in Discord, Slack, Reddit, and Discourse",
+        "Host virtual community AMAs, town halls, hackathons, and product workshops",
+        "Moderate forum discussions and enforce community code of conduct",
+        "Surface user feedback and feature requests to product management teams"
+      ],
+      "certifications": [
+        "CMX Certified Community Strategist"
+      ],
+      "careerPath": "Community Moderator -> Community Manager -> Head of Community Advocacy",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Influencer Marketing Manager",
+      "description": "Coordinates campaigns with influencers and brand ambassadors.",
+      "includes": [],
+      "related": [
+        "Social Media Manager",
+        "Brand Manager"
+      ],
+      "tools": [
+        "Influencer Platforms",
+        "CRM"
+      ],
+      "languages": [],
+      "skills": [
+        "Negotiation",
+        "Relationship Building",
+        "Campaign Management"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$75,000 - $125,000 / yr",
+      "responsibilities": [
+        "Identify and recruit key opinion leaders (KOLs) and creators aligned with brand values",
+        "Negotiate creator contracts, sponsorship deliverables, and FTC disclosure guidelines",
+        "Coordinate product gifting, affiliate tracking links, and promo code distribution",
+        "Measure campaign ROAS, earned media value (EMV), and audience sentiment"
+      ],
+      "certifications": [
+        "Influencer Marketing Hub Certified",
+        "PR Council Member"
+      ],
+      "careerPath": "Influencer Coordinator -> Influencer Marketing Manager -> Director of Partnerships",
+      "roadmapRef": "growth-marketing"
+    },
+    {
+      "name": "Chief Marketing Officer (CMO)",
+      "description": "Directs global brand identity, revenue marketing pipelines, market expansion, and executive customer acquisition.",
+      "level": "Executive / C-Suite",
+      "salaryRange": "$200,000 - $350,000 / yr",
+      "responsibilities": [
+        "Define global corporate marketing vision, investor narrative, and enterprise GTM",
+        "Oversee multi-million dollar budgets across brand, product marketing, and demand gen",
+        "Align marketing pipeline goals with Sales (CRO) and Product (CPO) roadmaps",
+        "Serve as executive brand spokesperson at global conferences and media outlets"
+      ],
+      "certifications": [
+        "Executive Leadership Program (Harvard/Stanford)",
+        "Fellow of CIM (FCIM)"
+      ],
+      "careerPath": "VP of Marketing -> CMO -> Chief Commercial Officer / CEO",
+      "roadmapRef": "growth-marketing",
+      "related": [
+        "VP of Growth & Marketing",
+        "Brand Manager",
+        "Product Marketing Manager",
+        "Marketing Analytics Lead"
+      ],
+      "tools": [
+        "Salesforce",
+        "Tableau",
+        "Looker",
+        "Brandwatch",
+        "HubSpot"
+      ],
+      "languages": [
+        "English",
+        "Executive Storytelling"
+      ],
+      "skills": [
+        "Enterprise GTM Strategy",
+        "Brand Equity Leadership",
+        "Capital Allocation",
+        "C-Suite Alignment",
+        "Global Market Expansion"
+      ]
+    },
+    {
+      "name": "Growth Marketing Lead",
+      "description": "Applies rapid experimental loops, viral loops, and product-led growth (PLG) tactics to accelerate user acquisition.",
+      "level": "Senior / Lead",
+      "salaryRange": "$120,000 - $185,000 / yr",
+      "responsibilities": [
+        "Design and execute weekly high-velocity growth experiments across the entire pirate funnel (AARRR)",
+        "Optimize product-led growth onboarding flows and viral invitation mechanics",
+        "Build automated customer reactivation and churn mitigation email/SMS sequences",
+        "Collaborate with engineering on personalized landing pages and in-app triggers"
+      ],
+      "certifications": [
+        "Reforge Advanced Growth Strategy",
+        "GrowthHackers Certified Growth Master"
+      ],
+      "careerPath": "Growth Hacker -> Growth Marketing Lead -> Head of Growth -> VP of Growth",
+      "roadmapRef": "growth-marketing",
+      "related": [
+        "VP of Growth & Marketing",
+        "Performance Marketing Lead",
+        "Product Marketing Manager",
+        "Web Analyst"
+      ],
+      "tools": [
+        "Amplitude",
+        "Mixpanel",
+        "Segment",
+        "Optimizely",
+        "Customer.io",
+        "Zapier"
+      ],
+      "languages": [
+        "SQL",
+        "HTML/CSS",
+        "Python"
+      ],
+      "skills": [
+        "Experimentation Frameworks",
+        "PLG Mechanics",
+        "Funnel Optimization",
+        "Data-Driven Iteration",
+        "Growth Loops"
+      ]
+    },
+    {
+      "name": "Developer Relations (DevRel) Engineer",
+      "description": "Champions technical developer communities, authors code tutorials, and builds open-source developer ecosystems.",
+      "level": "Mid to Senior",
+      "salaryRange": "$110,000 - $175,000 / yr",
+      "responsibilities": [
+        "Create sample repositories, SDK demos, and technical video walkthroughs for engineers",
+        "Deliver keynote talks and technical workshops at global developer conferences and hackathons",
+        "Gather product friction logs and SDK feedback directly from external developers",
+        "Engage with open-source contributors on GitHub issues and community Discord/Discourse"
+      ],
+      "certifications": [
+        "Developer Relations Certified Professional",
+        "Certified Technical Evangelist"
+      ],
+      "careerPath": "Software Engineer -> DevRel Engineer -> Head of Developer Relations -> VP of Ecosystem",
+      "roadmapRef": "fullstack",
+      "related": [
+        "Community Manager",
+        "Product Marketing Manager",
+        "Content Strategist"
+      ],
+      "tools": [
+        "GitHub",
+        "GitBook",
+        "OBS Studio",
+        "Discord",
+        "Postman",
+        "VS Code"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Go"
+      ],
+      "skills": [
+        "Technical Evangelism",
+        "Developer Experience (DevEx)",
+        "Public Speaking",
+        "Open Source Advocacy",
+        "SDK Documentation"
+      ]
+    },
+    {
+      "name": "Conversion Rate Optimization (CRO) Lead",
+      "description": "Maximizes website revenue by conducting user session analysis, wireframe redesigns, and statistical split tests.",
+      "level": "Senior / Lead",
+      "salaryRange": "$105,000 - $165,000 / yr",
+      "responsibilities": [
+        "Formulate conversion hypotheses supported by quantitative analytics and qualitative session recordings",
+        "Code frontend variations in HTML/CSS/JS for A/B, split, and multivariate testing",
+        "Ensure statistical significance and guard against false positives in test results",
+        "Streamline checkout flows, pricing tables, and lead generation forms"
+      ],
+      "certifications": [
+        "CXL Certified CRO Specialist",
+        "Optimizely X Certified Professional"
+      ],
+      "careerPath": "CRO Specialist -> CRO Lead -> Director of Digital Optimization -> VP of Growth",
+      "roadmapRef": "growth-marketing",
+      "related": [
+        "Web Analyst",
+        "Performance Marketing Lead",
+        "Copywriter"
+      ],
+      "tools": [
+        "Optimizely",
+        "VWO",
+        "Hotjar",
+        "Google Tag Manager",
+        "Crazy Egg"
+      ],
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SQL"
+      ],
+      "skills": [
+        "A/B Testing Methodology",
+        "Heuristic UX Analysis",
+        "Statistical Hypothesis Testing",
+        "Funnel Friction Removal",
+        "Wireframe Prototyping"
+      ]
+    },
+    {
+      "name": "AI Marketing Operations Specialist",
+      "description": "Automates marketing workflows, content personalization, and synthetic media generation using AI and LLMs.",
+      "level": "Mid to Senior",
+      "salaryRange": "$100,000 - $160,000 / yr",
+      "responsibilities": [
+        "Deploy generative AI pipelines for personalized email subject lines and dynamic landing page copy",
+        "Automate multi-channel social distribution and asset localization using AI agents",
+        "Integrate predictive lead scoring and customer churn propensity models with CRM",
+        "Establish brand guardrails, factual validation, and ethical compliance for AI-generated assets"
+      ],
+      "certifications": [
+        "AI Marketing Institute Certified",
+        "HubSpot AI Specialist"
+      ],
+      "careerPath": "Marketing Ops Specialist -> AI Marketing Lead -> Director of Marketing Automation",
+      "roadmapRef": "growth-marketing",
+      "related": [
+        "Marketing Operations Manager",
+        "Growth Marketing Lead",
+        "Content Strategist",
+        "Marketing Analytics Lead"
+      ],
+      "tools": [
+        "OpenAI API",
+        "Make.com",
+        "Zapier",
+        "HubSpot",
+        "Midjourney",
+        "Jasper AI"
+      ],
+      "languages": [
+        "Python",
+        "JSON",
+        "Prompt Engineering"
+      ],
+      "skills": [
+        "Marketing Workflow Automation",
+        "Prompt Engineering for Marketers",
+        "Predictive Scoring",
+        "AI Quality Control",
+        "Dynamic Personalization"
+      ]
+    },
+    {
+      "name": "Customer Lifecycle & Retention Manager",
+      "description": "Designs customer onboarding sequences, loyalty programs, and retention strategies to minimize churn and maximize LTV.",
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $150,000 / yr",
+      "responsibilities": [
+        "Map post-purchase customer journeys and activation milestones across user segments",
+        "Build automated trigger campaigns based on in-app behavior and usage drop-offs",
+        "Implement VIP reward loyalty initiatives and customer referral incentive programs",
+        "Conduct quarterly churn analysis and partner with customer success on win-back tactics"
+      ],
+      "certifications": [
+        "Customer Experience Professional (CCXP)",
+        "Braze Certified Marketer"
+      ],
+      "careerPath": "Retention Specialist -> Customer Lifecycle Manager -> Director of Retention -> VP of Customer Experience",
+      "roadmapRef": "growth-marketing",
+      "related": [
+        "Marketing Operations Manager",
+        "Growth Marketing Lead",
+        "Email Marketing & CRM Strategist",
+        "Product Marketing Manager"
+      ],
+      "tools": [
+        "Braze",
+        "Klaviyo",
+        "Customer.io",
+        "Gainsight",
+        "Mixpanel"
+      ],
+      "languages": [
+        "SQL",
+        "Liquid"
+      ],
+      "skills": [
+        "Cohort Churn Analysis",
+        "Lifecycle Journey Mapping",
+        "Behavioral Trigger Automation",
+        "Retention Optimization",
+        "Loyalty Programs"
+      ]
+    },
+    {
+      "name": "Email Marketing & CRM Strategist",
+      "description": "Builds high-deliverability email communication strategies, advanced audience segmentation, and personalized campaigns.",
+      "level": "Mid-Level",
+      "salaryRange": "$80,000 - $130,000 / yr",
+      "responsibilities": [
+        "Manage IP reputation, SPF/DKIM/DMARC authentication, and inbox deliverability rates",
+        "Segment contact databases by engagement level, purchase history, and demographics",
+        "Design responsive HTML email templates rendering seamlessly across desktop and mobile clients",
+        "Optimize open rates, click-through rates, and unsubscribe suppression lists"
+      ],
+      "certifications": [
+        "Klaviyo Product Certified",
+        "Salesforce Marketing Cloud Email Specialist"
+      ],
+      "careerPath": "Email Specialist -> Email & CRM Strategist -> Head of CRM -> Director of Direct Marketing",
+      "roadmapRef": "growth-marketing",
+      "related": [
+        "Copywriter",
+        "Marketing Operations Manager",
+        "Customer Lifecycle & Retention Manager",
+        "Content Strategist"
+      ],
+      "tools": [
+        "Klaviyo",
+        "Mailchimp",
+        "Salesforce Marketing Cloud",
+        "Litmus",
+        "SendGrid"
+      ],
+      "languages": [
+        "HTML",
+        "CSS",
+        "SQL"
+      ],
+      "skills": [
+        "Email Deliverability (DMARC/DKIM)",
+        "Audience Segmentation",
+        "Responsive HTML Email",
+        "Campaign A/B Testing",
+        "Automated Drip Sequences"
+      ]
+    },
+    {
+      "name": "Video Marketing & Media Producer",
+      "description": "Produces high-impact marketing videos, product feature trailers, YouTube series, and viral short-form media.",
+      "level": "Mid-Level",
+      "salaryRange": "$75,000 - $125,000 / yr",
+      "responsibilities": [
+        "Direct, shoot, and edit customer testimonial stories, brand commercials, and product demos",
+        "Produce high-retention short-form video content optimized for YouTube Shorts, TikTok, and Reels",
+        "Manage studio lighting, audio engineering, motion graphics, and color grading",
+        "Analyze video view retention curves, drop-off timestamps, and click-through rates"
+      ],
+      "certifications": [
+        "Adobe Certified Professional in Video Design",
+        "DaVinci Resolve Certified Editor"
+      ],
+      "careerPath": "Video Editor -> Video Marketing Producer -> Head of Creative Media -> Creative Director",
+      "roadmapRef": "growth-marketing",
+      "related": [
+        "Content Strategist",
+        "Social & Community Manager",
+        "Brand Manager",
+        "Copywriter"
+      ],
+      "tools": [
+        "Adobe Premiere Pro",
+        "After Effects",
+        "DaVinci Resolve",
+        "Frame.io",
+        "Figma"
+      ],
+      "languages": [],
+      "skills": [
+        "Cinematography & Lighting",
+        "Motion Graphics & VFX",
+        "Audio Engineering",
+        "Storyboarding",
+        "Retention-Driven Editing"
+      ]
+    }
+  ]
 }

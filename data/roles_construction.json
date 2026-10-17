@@ -19,7 +19,20 @@
         "Capital Allocation",
         "ESG & Sustainable Building",
         "Risk Mitigation"
-      ]
+      ],
+      "level": "Executive",
+      "salaryRange": "$180,000 - $280,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Vice President of Construction",
@@ -38,7 +51,20 @@
         "Multi-Project Governance",
         "Strategic Sourcing",
         "Operational Leadership"
-      ]
+      ],
+      "level": "Executive",
+      "salaryRange": "$180,000 - $280,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Construction Director",
@@ -57,7 +83,20 @@
         "Program Management",
         "Contract Negotiation",
         "Site Safety Governance"
-      ]
+      ],
+      "level": "Director",
+      "salaryRange": "$140,000 - $210,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Construction Manager",
@@ -79,7 +118,20 @@
         "Cost Engineering",
         "BIM Coordination",
         "Compliance"
-      ]
+      ],
+      "level": "Senior Management",
+      "salaryRange": "$100,000 - $160,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Project Manager",
@@ -100,7 +152,20 @@
         "Scope & Change Management",
         "Resource Leveling",
         "Stakeholder Communication"
-      ]
+      ],
+      "level": "Senior Management",
+      "salaryRange": "$100,000 - $160,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Construction Superintendent",
@@ -122,7 +187,20 @@
         "Quality Control",
         "Site Safety Enforcement",
         "Trade Coordination"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "General Contractor",
@@ -143,7 +221,20 @@
         "Bidding",
         "Risk Allocation",
         "Site Safety"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Construction Foreman",
@@ -163,7 +254,20 @@
         "Crew Leadership",
         "Task Scheduling",
         "OSHA Safety Standards"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Estimator",
@@ -183,7 +287,20 @@
         "3D Model Takeoffs",
         "Cost Indexing",
         "Vendor Pricing Analytics"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Scheduler",
@@ -201,7 +318,20 @@
         "Critical Path Analysis (CPM)",
         "Earned Value Management (EVM)",
         "Schedule Risk Analysis"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Site Supervisor",
@@ -220,7 +350,20 @@
         "Hazard Identification",
         "Emergency Response",
         "Site Protocol Enforcement"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Civil Engineer",
@@ -241,7 +384,20 @@
         "Geotechnical Design",
         "Stormwater Management",
         "Building Codes"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Construction Architect",
@@ -262,7 +418,20 @@
         "BIM Level 3",
         "LEED Certification",
         "Spatial Design"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Skilled Tradesperson",
@@ -281,7 +450,20 @@
         "Precision Carpentry / Wiring / Plumbing",
         "Code Compliance",
         "Blueprint Reading"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Equipment Operator",
@@ -299,7 +481,20 @@
         "Precision Grading",
         "Machine Telematics",
         "Rigging & Heavy Lifting"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Construction Laborer",
@@ -317,7 +512,20 @@
         "Physical Endurance",
         "Safe Staging",
         "Tool Operation"
-      ]
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
     },
     {
       "name": "Apprentice",
@@ -334,6 +542,346 @@
         "Trade Foundations",
         "Blueprint Basics",
         "Safety Protocol"
+      ],
+      "level": "Mid-Level",
+      "salaryRange": "$65,000 - $110,000 / yr",
+      "responsibilities": [
+        "Manage jobsite operations and adhere to building codes",
+        "Coordinate subcontractors and material procurement schedules",
+        "Enforce site safety (OSHA) and quality control standards"
+      ],
+      "certifications": [
+        "OSHA 30-Hour Construction",
+        "Procore Certified Construction Professional"
+      ],
+      "careerPath": "Apprentice -> Foreman -> Superintendent -> Project Manager -> Construction Director",
+      "roadmapRef": "bim-vdc"
+    },
+    {
+      "name": "BIM / VDC Manager",
+      "description": "Directs 3D Building Information Modeling (BIM) and Virtual Design & Construction (VDC) workflows, spatial coordination, and clash detection.",
+      "level": "Senior / Lead",
+      "salaryRange": "$105,000 - $165,000 / yr",
+      "responsibilities": [
+        "Manage multidisciplinary federated 3D models across architectural, structural, and MEP trades",
+        "Lead automated clash detection sessions and resolve spatial interferences prior to field fabrication",
+        "Enforce LOD (Level of Development 300-500) compliance and IFC data exchange standards",
+        "Integrate 4D construction schedule sequencing and 5D cost extraction into models"
+      ],
+      "certifications": [
+        "Autodesk Certified Professional: Revit / Navisworks",
+        "AGC Certificate of Management - BIM (CM-BIM)"
+      ],
+      "careerPath": "BIM Coordinator -> BIM / VDC Manager -> Director of Virtual Construction",
+      "roadmapRef": "bim-vdc",
+      "related": [
+        "Civil Engineer",
+        "Construction Architect",
+        "Project Manager",
+        "Scheduler"
+      ],
+      "tools": [
+        "Autodesk Revit",
+        "Navisworks Manage",
+        "BIM 360 / ACC",
+        "Solibri",
+        "Procore"
+      ],
+      "languages": [
+        "Python (Dynamo)",
+        "C# (Revit API)"
+      ],
+      "skills": [
+        "Clash Detection",
+        "Federated Model Coordination",
+        "4D Scheduling Integration",
+        "LOD Standards",
+        "Point Cloud Laser Scanning"
+      ]
+    },
+    {
+      "name": "Sustainability & Green Building Consultant",
+      "description": "Guides low-carbon building designs, LEED and BREEAM certifications, energy modeling, and eco-friendly material selection.",
+      "level": "Mid to Senior",
+      "salaryRange": "$90,000 - $145,000 / yr",
+      "responsibilities": [
+        "Perform whole-building energy simulations, daylight studies, and carbon footprint assessments",
+        "Manage LEED, WELL, and Net-Zero Energy certification filings with USGBC",
+        "Audit building envelope insulation, thermal bridging, and HVAC heat recovery systems",
+        "Specify sustainable, non-toxic, and circular building materials (EPD/HPD documentation)"
+      ],
+      "certifications": [
+        "LEED AP BD+C (Building Design + Construction)",
+        "WELL AP",
+        "BREEAM Assessor"
+      ],
+      "careerPath": "Sustainability Analyst -> Green Building Consultant -> Director of Sustainable Construction",
+      "roadmapRef": "bim-vdc",
+      "related": [
+        "Civil Engineer",
+        "Construction Architect",
+        "Estimator",
+        "Project Manager"
+      ],
+      "tools": [
+        "EnergyPlus",
+        "IES VE",
+        "eQUEST",
+        "One Click LCA",
+        "Autodesk Insight"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "skills": [
+        "LEED Certification Management",
+        "Building Energy Modeling",
+        "Embodied Carbon Lifecycle Assessment",
+        "Envelope Thermal Analysis",
+        "Daylight Optimization"
+      ]
+    },
+    {
+      "name": "Smart Infrastructure Engineer",
+      "description": "Integrates IoT telemetry, structural health monitoring sensors, and digital twin monitoring into bridges, roads, and civil assets.",
+      "level": "Senior / Lead",
+      "salaryRange": "$110,000 - $170,000 / yr",
+      "responsibilities": [
+        "Deploy fiber-optic strain gauges, accelerometers, and tiltmeters on civil structures",
+        "Build cloud telemetry dashboards monitoring real-time seismic vibration and structural deflections",
+        "Integrate smart transportation systems (ITS), automated tolling, and connected vehicle infrastructure",
+        "Formulate predictive maintenance algorithms for municipal asset management"
+      ],
+      "certifications": [
+        "Professional Engineer (PE) License",
+        "Smart Infrastructure Certified"
+      ],
+      "careerPath": "Civil Engineer -> Smart Infrastructure Engineer -> Chief Civil Infrastructure Architect",
+      "roadmapRef": "bim-vdc",
+      "related": [
+        "Civil Engineer",
+        "Construction Manager",
+        "Site Supervisor",
+        "Scheduler"
+      ],
+      "tools": [
+        "Bentley OpenRoads",
+        "ArcGIS",
+        "MATLAB",
+        "ThingWorx IoT",
+        "AutoCAD Civil 3D"
+      ],
+      "languages": [
+        "Python",
+        "C++",
+        "SQL"
+      ],
+      "skills": [
+        "Structural Health Monitoring",
+        "IoT Sensor Networks",
+        "GIS Spatial Mapping",
+        "Predictive Asset Maintenance",
+        "Smart Transportation Systems"
+      ]
+    },
+    {
+      "name": "Construction Safety Director",
+      "description": "Enforces jobsite hazard prevention, OSHA safety compliance, accident investigations, and enterprise risk management.",
+      "level": "Director / Executive",
+      "salaryRange": "$115,000 - $175,000 / yr",
+      "responsibilities": [
+        "Develop and enforce site-specific safety health environmental plans (HASP) across all job sites",
+        "Conduct daily OSHA audits, fall-protection checks, and crane rigging inspections",
+        "Lead root-cause investigations of jobsite incidents, near-misses, and OSHA reporting",
+        "Conduct mandatory bilingual safety stand-downs, CPR training, and hazard mitigation drills"
+      ],
+      "certifications": [
+        "CSP (Certified Safety Professional)",
+        "CHST (Construction Health and Safety Technician)",
+        "OSHA 500 Authorized Trainer"
+      ],
+      "careerPath": "Safety Inspector -> Site Safety Manager -> Construction Safety Director -> VP of Safety & Risk",
+      "roadmapRef": "bim-vdc",
+      "related": [
+        "Construction Superintendent",
+        "Construction Foreman",
+        "Site Supervisor",
+        "Construction Manager"
+      ],
+      "tools": [
+        "SafetyCulture (iAuditor)",
+        "Procore Safety",
+        "Camcode EHS",
+        "DroneDeploy"
+      ],
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "skills": [
+        "OSHA Regulations & Compliance",
+        "Job Hazard Analysis (JHA)",
+        "Accident Investigation",
+        "Fall Protection Systems",
+        "Behavioral Safety Culture"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineer",
+      "description": "Analyzes soil mechanics, rock foundations, slope stability, and seismic ground liquefaction for heavy construction.",
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $150,000 / yr",
+      "responsibilities": [
+        "Plan subsurface soil borings, cone penetration testing (CPT), and standard penetration tests (SPT)",
+        "Calculate bearing capacity, deep pile settlement, and lateral earth retaining pressures",
+        "Design shoring, dewatering, underpinning, and soil stabilization ground improvement methods",
+        "Model slope stability and seismic liquefaction risks using geotechnical finite element software"
+      ],
+      "certifications": [
+        "Professional Engineer (PE) - Geotechnical",
+        "D.GE (Diplomate, Geotechnical Engineering)"
+      ],
+      "careerPath": "Junior Geotechnical Engineer -> Senior Geotechnical Engineer -> Principal Geotechnical Consultant",
+      "roadmapRef": "bim-vdc",
+      "related": [
+        "Civil Engineer",
+        "Estimator",
+        "Site Supervisor",
+        "Construction Manager"
+      ],
+      "tools": [
+        "GeoStudio (SLOPE/W)",
+        "PLAXIS 2D/3D",
+        "gINT",
+        "DeepEX"
+      ],
+      "languages": [
+        "Python",
+        "MATLAB"
+      ],
+      "skills": [
+        "Soil Mechanics & Foundation Design",
+        "Deep Foundation Pile Analysis",
+        "Shoring & Dewatering Design",
+        "Slope Stability Modeling",
+        "Liquefaction Assessment"
+      ]
+    },
+    {
+      "name": "Structural Forensic Engineer",
+      "description": "Investigates building failures, concrete cracking, structural collapses, and catastrophic weather damage.",
+      "level": "Senior / Principal",
+      "salaryRange": "$120,000 - $185,000 / yr",
+      "responsibilities": [
+        "Perform non-destructive testing (NDT), ultrasonic pulse velocity, and concrete core extraction",
+        "Reconstruct structural failure mechanisms, progressive collapse pathways, and load overstress",
+        "Analyze material fatigue, rebar corrosion, foundation subsidence, and timber rot",
+        "Author authoritative expert witness forensic reports and testify in construction litigation"
+      ],
+      "certifications": [
+        "SE (Structural Engineer) License",
+        "NAFE Certified Forensic Engineer"
+      ],
+      "careerPath": "Structural Engineer -> Senior Forensic Investigator -> Principal Forensic Engineer",
+      "roadmapRef": "bim-vdc",
+      "related": [
+        "Civil Engineer",
+        "Construction Architect",
+        "General Contractor",
+        "Construction Superintendent"
+      ],
+      "tools": [
+        "RISA-3D",
+        "ETABS",
+        "SAP2000",
+        "Ground Penetrating Radar (GPR)",
+        "Laser Scanners"
+      ],
+      "languages": [],
+      "skills": [
+        "Failure Mechanism Analysis",
+        "Non-Destructive Testing (NDT)",
+        "Structural Finite Element Modeling",
+        "Litigation Expert Witness",
+        "Building Code Retrofit"
+      ]
+    },
+    {
+      "name": "Quantity Surveyor",
+      "description": "Manages all construction project costs, tender bills of quantities (BOQ), commercial contractual valuations, and final accounts.",
+      "level": "Mid to Senior",
+      "salaryRange": "$90,000 - $145,000 / yr",
+      "responsibilities": [
+        "Prepare detailed Bills of Quantities (BOQ) and accurate material take-offs from drawings",
+        "Evaluate subcontractor tender packages, scope variations, and commercial contract terms",
+        "Certify monthly interim progress payments, site valuations, and claims for delay",
+        "Negotiate final cost accounts and dispute settlements with clients and developers"
+      ],
+      "certifications": [
+        "MRICS (Member of the Royal Institution of Chartered Surveyors)",
+        "CCPE (Certified Construction Professional Estimator)"
+      ],
+      "careerPath": "Assistant Quantity Surveyor -> Quantity Surveyor -> Commercial Manager -> Commercial Director",
+      "roadmapRef": "bim-vdc",
+      "related": [
+        "Estimator",
+        "Project Manager",
+        "Scheduler",
+        "General Contractor"
+      ],
+      "tools": [
+        "CostX",
+        "PlanSwift",
+        "Bluebeam Revu",
+        "Excel",
+        "Candy CCS"
+      ],
+      "languages": [],
+      "skills": [
+        "Bill of Quantities (BOQ)",
+        "Commercial Contract Management (FIDIC/JCT)",
+        "Material Take-Offs",
+        "Interim Payment Valuation",
+        "Cost Reconciliation"
+      ]
+    },
+    {
+      "name": "Lean Construction Specialist",
+      "description": "Applies the Last Planner System, visual pull scheduling, 5S jobsite organization, and waste elimination to building projects.",
+      "level": "Mid to Senior",
+      "salaryRange": "$95,000 - $150,000 / yr",
+      "responsibilities": [
+        "Facilitate pull planning sessions with trade subcontractors using the Last Planner System (LPS)",
+        "Track Percent Plan Complete (PPC) and root-cause analysis for missed milestone commitments",
+        "Implement 5S jobsite staging, just-in-time (JIT) material deliveries, and waste elimination",
+        "Train project teams on continuous improvement workflows and takt-time construction"
+      ],
+      "certifications": [
+        "AGC Certificate of Management - Lean Construction (CM-Lean)",
+        "Lean Six Sigma Black Belt"
+      ],
+      "careerPath": "Lean Coach -> Lean Construction Specialist -> Director of Operational Excellence",
+      "roadmapRef": "bim-vdc",
+      "related": [
+        "Scheduler",
+        "Project Manager",
+        "Construction Superintendent",
+        "Construction Foreman"
+      ],
+      "tools": [
+        "Touchplan",
+        "Hoylu",
+        "Miro",
+        "Procore",
+        "Excel"
+      ],
+      "languages": [],
+      "skills": [
+        "Last Planner System (LPS)",
+        "Pull Planning Facilitation",
+        "Takt Time Planning",
+        "PPC Metrics Tracking",
+        "Jobsite Waste Elimination"
       ]
     }
   ]

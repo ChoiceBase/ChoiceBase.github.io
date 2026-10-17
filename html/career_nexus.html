@@ -39,12 +39,42 @@
   <div id="common-header"></div>
 
   <div id="graph-container">
-    <!-- Path Status Overlay -->
-    <div class="path-selector">
-      <i class="bi bi-compass"></i>
-      <span id="path-status">Shift+Click a role to start path trace.</span>
+    <!-- Top Floating Nexus Bar: Domain Selector + Live Search -->
+    <div class="nexus-top-bar">
+      <div class="domain-selector-bar">
+        <a href="#software" class="nexus-domain-pill" data-domain="software">
+          <i class="bi bi-laptop me-1"></i>Software IT <span class="pill-count">42</span>
+        </a>
+        <a href="#electronics" class="nexus-domain-pill" data-domain="electronics">
+          <i class="bi bi-cpu me-1"></i>Electronics <span class="pill-count">21</span>
+        </a>
+        <a href="#marketing" class="nexus-domain-pill" data-domain="marketing">
+          <i class="bi bi-graph-up me-1"></i>Marketing <span class="pill-count">26</span>
+        </a>
+        <a href="#medical" class="nexus-domain-pill" data-domain="medical">
+          <i class="bi bi-heart-pulse me-1"></i>Medical <span class="pill-count">25</span>
+        </a>
+        <a href="#construction" class="nexus-domain-pill" data-domain="construction">
+          <i class="bi bi-building me-1"></i>Construction <span class="pill-count">25</span>
+        </a>
+        <a href="#manufacturing" class="nexus-domain-pill" data-domain="manufacturing">
+          <i class="bi bi-gear-wide me-1"></i>Manufacturing <span class="pill-count">24</span>
+        </a>
+      </div>
+
+      <div class="nexus-search-box">
+        <i class="bi bi-search text-muted"></i>
+        <input type="text" id="nexus-search-input" placeholder="Search roles, skills, tools..." oninput="window.filterNexusGraph(this.value)">
+        <button type="button" id="nexus-search-clear" onclick="document.getElementById('nexus-search-input').value=''; window.filterNexusGraph('');" title="Clear Search">
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
     </div>
 
+    <!-- Path Status Overlay -->
+    <div class="path-selector">
+      <span id="path-status">Shift+Click a role to start path trace.</span>
+    </div>
 
     <!-- Expanded Intelligence Modal -->
     <div id="intel-modal" class="intel-modal">
@@ -72,11 +102,17 @@
     <!-- Dynamic SVG -->
     <svg id="nexus-svg"></svg>
 
-    <!-- Jump to Insights Button -->
-    <a href="#nexus-hub-section" class="jump-link-btn">
-      <i class="bi bi-graph-up-arrow"></i>
-      View Industry Metrics
-    </a>
+    <!-- Floating Action Buttons (Metrics + Roadmaps) -->
+    <div class="nexus-floating-actions">
+      <a href="/html/roadmaps.html" class="roadmap-jump-btn" title="Explore Step-by-Step Learning Roadmaps">
+        <i class="bi bi-map-fill"></i>
+        <span>Skill Roadmaps</span>
+      </a>
+      <a href="#nexus-hub-section" class="jump-link-btn" title="View live trending tools">
+        <i class="bi bi-graph-up-arrow"></i>
+        <span>Industry Metrics</span>
+      </a>
+    </div>
 
     <!-- Role Details Side/Bottom Panel -->
     <div id="nexus-info-panel" class="nexus-info-side">

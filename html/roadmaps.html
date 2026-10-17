@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- SEO Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Career & Skill Roadmaps – ChoiceBase</title>
+  <meta name="description"
+    content="Interactive step-by-step career and skill roadmaps across Software IT, Electronics, Marketing, Medical, Construction, and Smart Manufacturing. Track your learning progress with free curated resources.">
+  <meta name="keywords"
+    content="career roadmaps, developer roadmap, frontend roadmap, backend roadmap, ai engineer roadmap, vlsi roadmap, devops roadmap, skills checklist, choicebase">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://choicebase.github.io/html/roadmaps.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Career & Skill Roadmaps – ChoiceBase">
+  <meta property="og:description"
+    content="Interactive step-by-step career and skill roadmaps across modern engineering and industry domains.">
+  <meta property="og:url" content="https://choicebase.github.io/html/roadmaps.html">
+
+  <!-- Fonts & Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../assets/css/custom.css">
+
+  <style>
+    /* Roadmaps Custom Design System */
+    .roadmaps-hero {
+      padding: 4.5rem 0 3rem;
+      border-bottom: 1px solid var(--br);
+      position: relative;
+    }
+
+    .roadmaps-filter-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+
+    .roadmap-filter-btn {
+      padding: 0.5rem 1.2rem;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--tx-m);
+      background: var(--s);
+      border: 1px solid var(--br);
+      transition: all var(--trans);
+      cursor: pointer;
+    }
+
+    .roadmap-filter-btn:hover {
+      color: var(--tx);
+      border-color: var(--p);
+      background: var(--p-soft);
+    }
+
+    .roadmap-filter-btn.active {
+      color: #fff;
+      background: var(--p);
+      border-color: var(--p);
+      box-shadow: 0 4px 15px rgba(var(--p-rgb), 0.35);
+    }
+
+    /* Roadmap Card */
+    .roadmap-card {
+      background: var(--s);
+      border: 1px solid var(--br);
+      border-radius: 20px;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      transition: transform var(--trans), border-color var(--trans), box-shadow var(--trans);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .roadmap-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--p);
+      box-shadow: 0 15px 35px -10px rgba(var(--p-rgb), 0.2);
+    }
+
+    .roadmap-icon-box {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      background: var(--p-soft);
+      color: var(--p);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .roadmap-domain-badge {
+      background: var(--s-2);
+      color: var(--tx-m);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.4rem 0.8rem;
+      border-radius: 50px;
+      border: 1px solid var(--br);
+    }
+
+    .roadmap-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--tx);
+      margin-bottom: 0.6rem;
+    }
+
+    .roadmap-desc {
+      font-size: 0.9rem;
+      color: var(--tx-m);
+      line-height: 1.55;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+
+    .roadmap-meta-row {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.82rem;
+      color: var(--tx-m);
+      margin-bottom: 0.5rem;
+    }
+
+    .roadmap-salary {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #34d399;
+    }
+
+    .tool-chip {
+      display: inline-block;
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: var(--s-2);
+      color: var(--tx);
+      border: 1px solid var(--br);
+      margin: 0 4px 4px 0;
+    }
+
+    /* Roadmap Deep Dive Styles */
+    .roadmap-detail-hero {
+      background: var(--s);
+      border: 1px solid var(--br);
+    }
+
+    .roadmap-callout {
+      background: var(--s);
+      border: 1px solid var(--br);
+      border-radius: 16px;
+      padding: 1.5rem;
+    }
+
+    .roadmap-stage-card {
+      background: var(--s);
+      border: 1px solid var(--br);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: border-color var(--trans);
+    }
+
+    .roadmap-stage-card:hover {
+      border-color: rgba(var(--p-rgb), 0.5);
+    }
+
+    .stage-card-header {
+      border-bottom: 1px solid var(--br);
+      background: rgba(var(--p-rgb), 0.03);
+    }
+
+    .stage-topic-item {
+      transition: background-color var(--trans);
+    }
+
+    .stage-topic-item:hover {
+      background: var(--p-soft);
+      border-radius: 8px;
+    }
+
+    .topic-checkbox {
+      cursor: pointer;
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+
+    .stage-project-box {
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+    }
+
+    .resource-pill-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 12px;
+      background: var(--s);
+      border: 1px solid var(--br);
+      border-radius: 50px;
+      font-size: 0.8rem;
+      color: var(--p);
+      text-decoration: none;
+      font-weight: 600;
+      transition: all var(--trans);
+    }
+
+    .resource-pill-link:hover {
+      background: var(--p);
+      color: #fff;
+      border-color: var(--p);
+    }
+
+    /* Print Styles */
+    @media print {
+      #common-header, #common-footer, .roadmap-jump-btn, .btn, .roadmaps-filter-container {
+        display: none !important;
+      }
+      body {
+        background: #fff !important;
+        color: #000 !important;
+      }
+      .roadmap-stage-card, .roadmap-detail-hero {
+        border: 1px solid #ccc !important;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Common Header injected by utils.js -->
+  <div id="common-header"></div>
+
+  <!-- Hero Section -->
+  <section class="roadmaps-hero text-center">
+    <div class="container">
+      <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-primary bg-opacity-10 text-primary small fw-bold mb-3">
+        <span>ChoiceBase Career Navigator</span>
+      </div>
+
+      <h1 class="display-4 fw-bold mb-3">Career & Skill Roadmaps</h1>
+      <p class="lead text-muted mx-auto" style="max-width: 720px;">
+        Curated step-by-step milestones, verified checklists, real-world capstone projects, and free resources to accelerate your professional growth.
+      </p>
+
+      <!-- Live Search Bar -->
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-8 col-lg-6">
+          <div class="input-group search-glass shadow-sm">
+            <span class="input-group-text border-0 bg-transparent ps-3 text-muted">
+              <i class="bi bi-search"></i>
+            </span>
+            <input type="search" id="roadmap-search-input" class="form-control border-0 bg-transparent ps-1"
+              placeholder="Search roadmaps by role, tool, or skill (e.g. AI, React, Docker)...">
+          </div>
+        </div>
+      </div>
+
+      <!-- Domain Category Filters -->
+      <div class="roadmaps-filter-container">
+        <button class="roadmap-filter-btn active" data-domain="all">
+          <i class="bi bi-grid-fill me-1"></i>All Disciplines
+        </button>
+        <button class="roadmap-filter-btn" data-domain="software">
+          <i class="bi bi-laptop me-1"></i>Software & IT
+        </button>
+        <button class="roadmap-filter-btn" data-domain="electronics">
+          <i class="bi bi-cpu me-1"></i>Electronics & VLSI
+        </button>
+        <button class="roadmap-filter-btn" data-domain="marketing">
+          <i class="bi bi-graph-up me-1"></i>Marketing & Growth
+        </button>
+        <button class="roadmap-filter-btn" data-domain="medical">
+          <i class="bi bi-heart-pulse me-1"></i>Medical & Health
+        </button>
+        <button class="roadmap-filter-btn" data-domain="construction">
+          <i class="bi bi-building me-1"></i>Construction & VDC
+        </button>
+        <button class="roadmap-filter-btn" data-domain="manufacturing">
+          <i class="bi bi-gear-wide me-1"></i>Smart Manufacturing
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Container -->
+  <main class="container my-5">
+    <!-- View 1: Catalog Grid -->
+    <section id="roadmap-catalog-section">
+      <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom">
+        <h2 class="h5 fw-bold mb-0 text-muted">
+          Available Learning Paths
+        </h2>
+        <span class="badge bg-primary bg-opacity-25 text-primary rounded-pill px-3 py-2" id="roadmaps-total-count">
+          15 Roadmaps
+        </span>
+      </div>
+
+      <div class="row" id="roadmaps-grid">
+        <!-- Injected dynamically by roadmaps.js -->
+      </div>
+    </section>
+
+    <!-- View 2: Deep Dive Roadmap View -->
+    <section id="roadmap-detail-section" style="display: none;">
+      <div id="roadmap-detail-container">
+        <!-- Injected dynamically by roadmaps.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Common Footer injected by utils.js -->
+  <div id="common-footer"></div>
+
+  <!-- Core Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/utils.js"></script>
+  <script src="/assets/js/components.js"></script>
+  <script src="/assets/js/global-search.js"></script>
+  <script src="/assets/js/roadmaps.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.Utils) {
+        window.Utils.loadHeaderFooter();
+      } else if (window.utils) {
+        window.utils.loadHeaderFooter();
+      }
+    });
+  </script>
+</body>
+
+</html>
