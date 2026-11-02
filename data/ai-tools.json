@@ -1575,5 +1575,20 @@
       "AI Inference",
       "GPU"
     ]
+  },
+  {
+    "id": "ai-tools-120",
+    "title": "Napkin AI",
+    "url": "https://www.napkin.ai",
+    "description": "Visual AI storytelling and diagramming platform that turns text, documentation, notes, and ideas into professional infographics, flowcharts, mind maps, and presentation graphics. Features interactive vector styling and one-click export to PNG, PDF, and SVG.",
+    "tags": [
+      "Top",
+      "Generative AI",
+      "Productivity",
+      "Diagramming",
+      "Design",
+      "Infographics",
+      "Free"
+    ]
   }
 ]

@@ -714,5 +714,19 @@
       "Developer Tools",
       "Free"
     ]
+  },
+  {
+    "id": "websites-63",
+    "title": "Napkin AI",
+    "url": "https://www.napkin.ai",
+    "description": "Transform text, articles, and documentation into diagrams, flowcharts, infographics, and visual explanations instantly with AI. Features interactive editing and vector asset export.",
+    "tags": [
+      "AI",
+      "Diagramming",
+      "Visuals",
+      "Productivity",
+      "Design",
+      "Free"
+    ]
   }
 ]
